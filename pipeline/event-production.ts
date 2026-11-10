@@ -1,66 +1,29 @@
-import {
-  existsSync,
-  readFileSync,
-  mkdirSync,
-  writeFileSync,
-  renameSync,
-  lstatSync,
-  unlinkSync,
-  openSync,
-  closeSync,
-} from 'node:fs';
-import { dirname, join, resolve, relative, isAbsolute } from 'node:path';
+import { existsSync, readFileSync, mkdirSync, writeFileSync, unlinkSync, openSync, closeSync } from 'node:fs';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { isDeepStrictEqual } from 'node:util';
 import { spawnSync } from 'node:child_process';
 
 import { compileAll, compileEventDetails, compilePersonDetails, compileCollectionDetails } from './compile';
-import { parseContentBatch, reviewProblems, type ContentBatch, type ContentCandidate } from './content-batch';
+import {
+  parseContentBatch,
+  reviewProblems,
+  type AdmissionItem,
+  type ApplyResult,
+  type ContentBatch,
+  type ContentCandidate,
+  type PublishCheckResult,
+} from './content-batch';
+import { atomicJson, atomicText, readText, safePath } from './content-io';
 import { eventIndexRows, formatEventIndex, parseEventMarkdown, readEventMarkdown } from './event-md';
 import { lintPipeline, lintRegistryEvent } from './lint';
 import { loadPipeline } from './load';
 import { checkLegacyEventManifest } from './event-migration';
 import type { PipelineData, RegistryEvent, LintMessage } from './types';
 
+export type { AdmissionItem, ApplyResult, PublishCheckResult };
+
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-
-export interface AdmissionItem {
-  id: string;
-  state: 'ready' | 'pending' | 'already-applied';
-  reasons: string[];
-}
-export interface PublishCheckResult {
-  ok: boolean;
-  batchId: string;
-  items: AdmissionItem[];
-  errors: string[];
-  warnings: LintMessage[];
-}
-export interface ApplyResult extends PublishCheckResult {
-  appliedIds: string[];
-  verification: 'not-run' | 'passed' | 'failed';
-}
-
-function readText(path: string): string | null {
-  return existsSync(path) ? readFileSync(path, 'utf8') : null;
-}
-
-/** Refuse symlinks in every existing path component, including output directories. */
-function safePath(root: string, path: string): string {
-  const full = resolve(root, path);
-  const rel = relative(root, full);
-  if (!rel || rel.startsWith('..') || isAbsolute(rel)) throw new Error(`路径越界：${path}`);
-  let current = root;
-  for (const part of rel.split('/')) {
-    current = join(current, part);
-    try {
-      if (lstatSync(current).isSymbolicLink()) throw new Error(`拒绝符号链接：${current}`);
-    } catch (error) {
-      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error;
-    }
-  }
-  return full;
-}
 
 function canonicalPath(root: string, id: string): string {
   return safePath(root, `content/events/${id}.md`);
@@ -141,6 +104,7 @@ function validateProjection(data: PipelineData): LintMessage[] {
 function inspectEventBatch(batch: ContentBatch, root: string, requireReview: boolean): PublishCheckResult {
   // Revalidate callers as well as CLI input.
   parseContentBatch(batch);
+  if (!batch.scope.eventIds?.length) throw new Error('[SCOPE] 事件批次需要非空的 scope.eventIds');
   const result: PublishCheckResult = { ok: false, batchId: batch.id, items: [], errors: [], warnings: [] };
   let data: PipelineData;
   try {
@@ -292,22 +256,6 @@ export function preflightEventBatch(batch: ContentBatch, root = repoRoot) {
 
 export function runPublishCheck(batchPath: string, root = repoRoot): PublishCheckResult {
   return checkEventBatch(parseContentBatch(JSON.parse(readFileSync(batchPath, 'utf8'))), root);
-}
-
-function atomicJson(root: string, path: string, value: unknown): void {
-  atomicText(root, path, `${JSON.stringify(value, null, 2)}\n`);
-}
-function atomicText(root: string, path: string, text: string): void {
-  const full = safePath(root, path);
-  mkdirSync(dirname(full), { recursive: true });
-  const tmp = `${full}.tmp-${process.pid}`;
-  safePath(root, tmp);
-  writeFileSync(tmp, text, { flag: 'wx' });
-  try {
-    renameSync(tmp, full);
-  } finally {
-    if (existsSync(tmp)) unlinkSync(tmp);
-  }
 }
 
 /** Apply only ready candidates. A global projection error blocks all writes to canonical sources. */

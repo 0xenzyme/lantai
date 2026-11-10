@@ -28,7 +28,10 @@ function listJsonFiles(dir: string): string[] {
     .sort();
 }
 
-export function loadPipeline(root: string, options: { allowEventIndexDrift?: boolean } = {}): PipelineData {
+export function loadPipeline(
+  root: string,
+  options: { allowEventIndexDrift?: boolean; allowTopicIndexDrift?: boolean } = {},
+): PipelineData {
   const order = readJson<string[]>(join(root, 'topics.json'));
   if (!Array.isArray(order) || order.length === 0) {
     throw new Error('pipeline/topics.json 必须是非空的专题 id 列表');
@@ -111,6 +114,7 @@ export function loadPipeline(root: string, options: { allowEventIndexDrift?: boo
       title: topic.meta.title,
       people: topic.people.map((person) => person.id),
     })),
+    { allowIndexDrift: options.allowTopicIndexDrift },
   );
   const markdownErrors: string[] = [];
   for (const file of markdownFiles) {

@@ -282,7 +282,11 @@ function readDynastyPeople(contentRoot: string, topicId: string): PersonMarkdown
 }
 
 /** 读取 content/ 下的模板、各朝代人物，并核对 content/<topic>.md 索引。 */
-export function readContentMarkdown(contentRoot: string, topics: TopicIndexContext[]): PersonMarkdownFile[] {
+export function readContentMarkdown(
+  contentRoot: string,
+  topics: TopicIndexContext[],
+  options: { allowIndexDrift?: boolean } = {},
+): PersonMarkdownFile[] {
   let entries: Array<{ name: string; isDirectory: boolean; isFile: boolean }> = [];
   try {
     entries = readdirSync(contentRoot, { withFileTypes: true }).map((entry) => ({
@@ -363,7 +367,7 @@ export function readContentMarkdown(contentRoot: string, topics: TopicIndexConte
       continue;
     }
     const actual = readFileSync(join(contentRoot, `${topic.id}.md`), 'utf8').replace(/\r\n/g, '\n');
-    if (actual !== expected) {
+    if (actual !== expected && !options.allowIndexDrift) {
       files.push({
         path: indexPath,
         messages: [{ level: 'error', path: indexPath, message: '索引与人物文件不一致，运行 npm run people:format' }],

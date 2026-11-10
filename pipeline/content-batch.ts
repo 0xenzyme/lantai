@@ -1,5 +1,7 @@
 import { isDeepStrictEqual } from 'node:util';
 
+import type { LintMessage } from './types';
+
 /** Shared proposal envelope. Domain adapters own the canonical payload and its rules. */
 export interface ContentEvidence {
   id: string;
@@ -39,10 +41,28 @@ export interface ContentCandidate {
   review?: ContentReview;
 }
 
+export interface AdmissionItem {
+  id: string;
+  state: 'ready' | 'pending' | 'already-applied';
+  reasons: string[];
+}
+export interface PublishCheckResult {
+  ok: boolean;
+  batchId: string;
+  items: AdmissionItem[];
+  errors: string[];
+  warnings: LintMessage[];
+}
+export interface ApplyResult extends PublishCheckResult {
+  appliedIds: string[];
+  verification: 'not-run' | 'passed' | 'failed';
+}
+
 export interface ContentBatch {
   schemaVersion: 2;
   id: string;
-  scope: { description: string; eventIds: string[] };
+  /** 事件批次用 eventIds，人物批次用 personIds；恰好一个非空，候选 id 必须落在对应列表内。 */
+  scope: { description: string; eventIds?: string[]; personIds?: string[] };
   items: ContentCandidate[];
 }
 
@@ -65,11 +85,19 @@ export function parseContentBatch(raw: unknown): ContentBatch {
   }
   if (!nonempty(raw.id) || !BATCH_ID.test(raw.id)) throw new Error('批次 id 必须是 kebab-case');
   const scope = raw.scope;
-  if (!record(scope) || !nonempty(scope.description) || !Array.isArray(scope.eventIds) || !scope.eventIds.length) {
-    throw new Error('scope 必须包含 description 和非空 eventIds，范围来自用户授权');
+  if (!record(scope) || !nonempty(scope.description)) throw new Error('scope 必须包含 description，范围来自用户授权');
+  const readIds = (value: unknown, name: string): string[] => {
+    if (value === undefined) return [];
+    if (!Array.isArray(value) || !value.length) throw new Error(`scope ${name} 必须是非空数组`);
+    if (value.some((id) => typeof id !== 'string' || !BATCH_ID.test(id))) throw new Error(`非法 scope ${name} id`);
+    if (new Set(value).size !== value.length) throw new Error(`scope ${name} 重复`);
+    return value;
+  };
+  const eventIds = readIds(scope.eventIds, 'eventIds');
+  const personIds = readIds(scope.personIds, 'personIds');
+  if (eventIds.length + personIds.length === 0) {
+    throw new Error('scope 必须包含非空的 eventIds 或 personIds');
   }
-  if (scope.eventIds.some((id) => typeof id !== 'string' || !BATCH_ID.test(id))) throw new Error('非法 scope event id');
-  if (new Set(scope.eventIds).size !== scope.eventIds.length) throw new Error('scope eventIds 重复');
   if (!Array.isArray(raw.items) || !raw.items.length) throw new Error('items 必须非空');
   const seen = new Set<string>();
   for (const item of raw.items) {
@@ -77,7 +105,7 @@ export function parseContentBatch(raw: unknown): ContentBatch {
     const p = item.proposal;
     if (!nonempty(p.id) || !BATCH_ID.test(p.id) || seen.has(p.id)) throw new Error('非法或重复的候选 id');
     seen.add(p.id);
-    if (!scope.eventIds.includes(p.id)) throw new Error(`候选 ${p.id} 超出 scope`);
+    if (!eventIds.includes(p.id) && !personIds.includes(p.id)) throw new Error(`候选 ${p.id} 超出 scope`);
     if (p.operation !== 'publish' && p.operation !== 'revise') throw new Error(`候选 ${p.id} operation 不合法`);
     if (!nonempty(p.author) || (p.before !== null && typeof p.before !== 'string') || !nonempty(p.after)) {
       throw new Error(`候选 ${p.id} 需要 author、before（原文或 null）、after`);
