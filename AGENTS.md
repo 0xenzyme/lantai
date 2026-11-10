@@ -42,6 +42,13 @@ npm run events:format  # Rewrite event Markdown and the event index
 npm run events:check   # Check event Markdown, the index, and the same event rules as content:check
 npm run content        # Compile registry JSON and content Markdown into public/data/
 npm run content:check  # Validate pipeline output without rewriting files
+npm run events:production:preflight  # Writer-only machine preflight over an event batch (no review required)
+npm run events:production:apply      # Check and apply an event batch, then run content and build
+npm run events:publish:check         # Full admission check for an event batch (independent review required)
+npm run people:production:preflight  # Same three-stage flow for person batches (scope.personIds)
+npm run people:production:apply      # Apply ready person candidates: file, topic.json lane, candidates ledger, topic index
+npm run people:publish:check         # Full admission check for a person batch (independent review required)
+npm run relations:candidates -- <topic> <person-id>  # Read-only contemporaries report for relation research
 npm run build          # Type-check app and pipeline, validate content, and build dist/
 npm test               # Run node:test suites (routing, contract, layout, pipeline smoke)
 npm run format         # Rewrite code and config with Prettier
