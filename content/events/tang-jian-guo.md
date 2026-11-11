@@ -15,6 +15,8 @@ people:
   - li-yuan
   - li-shimin
 result: 李渊在长安即帝位，隋唐政权完成更替
+aliases:
+  - tang-gai
 sources:
   - work: 旧唐书
     part: 高祖本纪

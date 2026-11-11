@@ -15,6 +15,8 @@ people:
   - wu-zetian
   - li-dan
 result: 武则天称帝并改国号为周，唐李氏王朝的连续性暂时中断
+aliases:
+  - tang-wu
 sources:
   - work: 旧唐书
     part: 则天皇后本纪

@@ -4379,19 +4379,29 @@
         "li-shimin"
       ],
       "legacyDesc": "李渊大业十三年晋阳起兵入长安，武德元年称帝建唐；世民平定群雄，天下渐归。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "tang-jian-guo",
+      "aliases": [
+        "tang-gai"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "raw/唐/舊唐書/卷1.md",
+        "raw/唐/大唐創業起居注/卷三.md",
+        "content/events/jinyang-qibing.md",
+        "content/events/tang-jian-guo.md",
+        "workspace/content/migration/tang-remaining-20261112/migration-review.json"
+      ],
+      "review": [
+        "workspace/content/migration/tang-remaining-20261112/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4484,19 +4494,28 @@
         "di-ren-jie"
       ],
       "legacyDesc": "武则天废唐建周，为中国唯一女皇；晚年还政中宗，唐祚复续。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "wuzhou-jianli",
+      "aliases": [
+        "tang-wu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "raw/唐/舊唐書/卷6.md",
+        "raw/唐/新唐書/卷004.md",
+        "content/events/wuzhou-jianli.md",
+        "workspace/content/migration/tang-remaining-20261112/migration-review.json"
+      ],
+      "review": [
+        "workspace/content/migration/tang-remaining-20261112/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4730,19 +4749,29 @@
         "li-chu"
       ],
       "legacyDesc": "朱温废哀帝自立，国号梁，史称后梁。唐朝二百八十九年至此而终，五代开始。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "zhu-wen-dai-tang",
+      "aliases": [
+        "tang-wang"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "raw/唐/舊唐書/卷20下.md",
+        "raw/唐/新唐書/卷010.md",
+        "raw/五代/舊五代史/卷3.md",
+        "content/events/zhu-wen-dai-tang.md",
+        "workspace/content/migration/tang-remaining-20261112/migration-review.json"
+      ],
+      "review": [
+        "workspace/content/migration/tang-remaining-20261112/migration-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
