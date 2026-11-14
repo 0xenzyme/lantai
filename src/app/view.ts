@@ -102,8 +102,10 @@ export function showCard(selection: Selection): void {
 }
 
 export function hideCard(): void {
+  const triggerKind = CSS.escape(dom.card.dataset.triggerKind ?? '');
+  const triggerId = CSS.escape(dom.card.dataset.triggerId ?? '');
   const trigger = document.querySelector<HTMLElement>(
-    `#timeline-entity-list button[data-kind="${dom.card.dataset.triggerKind}"][data-id="${dom.card.dataset.triggerId}"]`,
+    `#timeline-entity-list button[data-kind="${triggerKind}"][data-id="${triggerId}"]`,
   );
   dom.card.classList.remove('show');
   dom.cardBody.innerHTML = '';
@@ -218,8 +220,6 @@ export function applySkin(skin: SkinId, redraw = true): void {
   localStorage.setItem(STORAGE.skin, skin);
   document.body.classList.toggle('skin-voyage', skin === 'voyage');
   document.body.classList.toggle('skin-deepspace', skin === 'deepspace');
-  document.getElementById('skin-voyage')?.classList.toggle('on', skin === 'voyage');
-  document.getElementById('skin-deepspace')?.classList.toggle('on', skin === 'deepspace');
   // 画布配色读的是 body 上的变量，class 换完才能取，取不到就当场报错。
   invalidatePalette();
   paletteFor(skin);

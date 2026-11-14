@@ -12,6 +12,7 @@ import { loadPipeline } from '../pipeline/load';
 import { lintEventMarkdownFiles } from '../pipeline/events-cli';
 import {
   lintCollections,
+  lintDiscovery,
   lintEventCompositionGraph,
   lintRegistryEvent,
   lintRegistryPerson,
@@ -114,7 +115,7 @@ function data(overrides: Partial<PipelineData> = {}): PipelineData {
     dynasties: [],
     dynastyProfiles: new Map(),
     dynastyProfilePaths: new Map(),
-    homeEditorial: { dynasties: [], collections: [] },
+    homeEditorial: { dynasties: [], collections: [], events: [] },
     collectionCategories: [{ id: 'thought', name: '思想' }],
     people: new Map(),
     personPaths: new Map(),
@@ -528,4 +529,17 @@ test('Collection directed 关系拒绝反向引用，不静默改写方向', () 
       .join('\n'),
     /关系引用无法解析/,
   );
+});
+
+test('首页编辑事件引用校验重复项和不存在的 event id', () => {
+  const library = data({
+    events: new Map([['battle', event()]]),
+    homeEditorial: { dynasties: [], collections: [], events: ['battle', 'battle', 'ghost'] },
+  });
+  const messages = lintDiscovery(library)
+    .filter((item) => item.level === 'error')
+    .map((item) => item.message)
+    .join('\n');
+  assert.match(messages, /events 不能有重复推荐/);
+  assert.match(messages, /推荐事件不存在或未发布 ghost/);
 });

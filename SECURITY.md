@@ -8,7 +8,7 @@
 
 请通过 GitHub 的私密安全通告报告漏洞：
 
-<https://github.com/0xenzyme/history-timeline/security/advisories/new>
+<https://github.com/0xenzyme/lantai/security/advisories/new>
 
 报告应包含影响范围、复现步骤和必要的验证信息。请勿提交真实密钥、个人数据或会造成破坏的测试内容。
 

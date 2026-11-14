@@ -1,4 +1,5 @@
 {
   "dynasties": ["qin", "western-han", "tang", "song", "ming"],
-  "collections": ["rujia-chuancheng"]
+  "collections": ["rujia-chuancheng"],
+  "events": ["qin-yitong", "anshi-zhiluan", "yapian-zhanzheng"]
 }

@@ -1,7 +1,28 @@
-import type { Accuracy, EventRecord, Person, SourceRef } from '../types';
+import type { Accuracy, CollectionSummary, EraSummary, EventRecord, Person, SourceRef } from '../types';
 import { SOURCE_KIND_NAMES, TYPE_NAMES } from '../app/skins';
 import { escapeHtml } from './escape';
 import { formatEventRange, formatLifeRange } from './format';
+import { icon, type IconId } from './icons';
+
+export interface SectionHeadingOptions {
+  id?: string;
+  level?: 2 | 3;
+  description?: string;
+  href?: string;
+  linkLabel?: string;
+  className?: string;
+  iconId?: IconId;
+}
+
+/** 页面章节标题的最小结构，标题、副文案和可选入口保持一致。 */
+export function sectionHeading(title: string, options: SectionHeadingOptions = {}): string {
+  const level = options.level ?? 2;
+  const headingId = options.id ? ` id="${escapeHtml(options.id)}"` : '';
+  const action = options.href
+    ? `<a href="${escapeHtml(options.href)}" data-site-link>${escapeHtml(options.linkLabel ?? '查看全部')} ${icon(options.iconId ?? 'arrow-up-right')}</a>`
+    : '';
+  return `<div class="${escapeHtml(options.className ?? 'lt-section-heading')}"><div><h${level}${headingId}>${escapeHtml(title)}</h${level}>${options.description ? `<p>${escapeHtml(options.description)}</p>` : ''}</div>${action}</div>`;
+}
 
 export function entityLink(kind: 'person' | 'event', id: string, label: string, className = ''): string {
   return `<a class="${escapeHtml(className)}" href="/${kind === 'person' ? 'people' : 'events'}/${encodeURIComponent(id)}" data-entity-kind="${kind}" data-entity-id="${escapeHtml(id)}">${escapeHtml(label)}</a>`;
@@ -46,7 +67,52 @@ export function accuracyNote(_accuracy: Accuracy | undefined, note: string | und
 }
 
 export function eventType(event: EventRecord): string {
-  return `<span class="lt-event-type" data-event-type="${event.type}"><span aria-hidden="true" class="lt-event-shape"></span>${TYPE_NAMES[event.type]}</span>`;
+  return `<span class="lt-event-type" data-event-type="${escapeHtml(event.type)}"><span aria-hidden="true" class="lt-event-shape"></span>${escapeHtml(TYPE_NAMES[event.type])}</span>`;
+}
+
+export interface EventSummaryOptions {
+  className?: string;
+  showType?: boolean;
+  showPlace?: boolean;
+}
+
+/** 事件摘要只负责实体入口、时间、类型和一行正文，不承担通用卡片布局。 */
+export function eventSummary(event: EventRecord, options: EventSummaryOptions = {}): string {
+  const classes = ['lt-event-summary', options.className].filter(Boolean).map((value) => escapeHtml(value));
+  const facts = [
+    `<span class="lt-data">${escapeHtml(eventDates(event))}</span>`,
+    options.showType === false ? '' : eventType(event),
+    options.showPlace === false || !event.place ? '' : `<span>${escapeHtml(event.place)}</span>`,
+  ].filter(Boolean);
+  const excerpt = event.desc?.split('\n')[0].trim();
+  return `<article class="${classes.join(' ')}"><h3>${entityLink('event', event.id, event.display || event.name)}</h3><div class="lt-event-summary-facts">${facts.join('')}</div>${excerpt ? `<p>${escapeHtml(excerpt)}</p>` : ''}</article>`;
+}
+
+export interface EraSummaryOptions {
+  className?: string;
+}
+
+/** 朝代摘要只呈现名称、区间和已有编辑简介。 */
+export function eraSummary(era: EraSummary, options: EraSummaryOptions = {}): string {
+  const classes = ['lt-era-summary', options.className].filter(Boolean).map((value) => escapeHtml(value));
+  const years = `${era.from < 0 ? `前 ${-era.from}` : era.from}—${era.to < 0 ? `前 ${-era.to}` : era.to}`;
+  return `<article class="${classes.join(' ')}"><a href="/eras/${encodeURIComponent(era.id)}" data-site-link data-era-id="${escapeHtml(era.id)}"><h3>${escapeHtml(era.name)}</h3><p class="lt-data">${escapeHtml(years)} 年</p>${era.summary ? `<p>${escapeHtml(era.summary)}</p>` : ''}<span aria-hidden="true">${icon('arrow-up-right')}</span></a></article>`;
+}
+
+export interface CollectionFeatureOptions {
+  className?: string;
+  categoryLabel?: string;
+}
+
+/** 群像精选呈现系列入口、简介和代表人物，避免引入可变的万能 Card。 */
+export function collectionFeature(collection: CollectionSummary, options: CollectionFeatureOptions = {}): string {
+  const classes = ['lt-collection-feature', options.className].filter(Boolean).map((value) => escapeHtml(value));
+  const featured = collection.featuredMembers.slice(0, 3);
+  const category = options.categoryLabel ? `<span class="lt-tag">${escapeHtml(options.categoryLabel)}</span>` : '';
+  const members = featured.length
+    ? `<p>代表人物：${featured.map((person) => entityLink('person', person.id, person.display || person.name)).join('、')}</p>`
+    : '';
+  return `<article class="${classes.join(' ')}">${category ? `<div>${category}</div>` : ''}<h3><a href="/collections/${encodeURIComponent(collection.id)}" data-site-link>${escapeHtml(collection.name)}</a></h3><p>${escapeHtml(collection.summary)}</p>${members}<a href="/collections/${encodeURIComponent(collection.id)}" data-site-link>进入系列 ${icon('arrow-up-right')}</a></article>`;
 }
 
 export function personCard(person: Person): string {

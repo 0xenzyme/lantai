@@ -103,32 +103,67 @@ export const motion: { drag: DragState | null; inertia: number; dragging: boolea
   dragging: false,
 };
 
-export const dom = {
-  stage: document.getElementById('stage') as HTMLElement,
-  canvas: document.getElementById('chart') as HTMLCanvasElement,
-  stars: document.getElementById('stars') as HTMLCanvasElement,
-  nebula: document.getElementById('nebula') as HTMLElement,
-  ribbon: document.getElementById('ribbon-canvas') as HTMLCanvasElement,
-  card: document.getElementById('card') as HTMLElement,
-  cardBody: document.getElementById('card-body') as HTMLElement,
-  cardActions: document.getElementById('card-actions') as HTMLElement,
-  hint: document.getElementById('hint') as HTMLElement,
-  chips: document.getElementById('chips') as HTMLElement,
-  lanePanel: document.getElementById('lane-panel') as HTMLElement,
-  laneList: document.getElementById('lane-list') as HTMLElement,
-  laneChapters: document.getElementById('lane-chapters') as HTMLElement,
-  stripToggle: document.getElementById('strip-toggle') as HTMLButtonElement,
-  search: document.getElementById('search') as HTMLInputElement,
-  searchResults: document.getElementById('search-results') as HTMLElement,
-  topicSelect: document.getElementById('topic-select') as HTMLSelectElement,
-  status: document.getElementById('status') as HTMLElement,
-  exportMenu: document.getElementById('export-menu') as HTMLElement,
-  topbar: document.getElementById('topbar') as HTMLElement,
-};
+export interface TimelineDom {
+  stage: HTMLElement;
+  canvas: HTMLCanvasElement;
+  stars: HTMLCanvasElement;
+  nebula: HTMLElement;
+  ribbon: HTMLCanvasElement;
+  card: HTMLElement;
+  cardBody: HTMLElement;
+  cardActions: HTMLElement;
+  hint: HTMLElement;
+  chips: HTMLElement;
+  lanePanel: HTMLElement;
+  laneList: HTMLElement;
+  laneChapters: HTMLElement;
+  stripToggle: HTMLButtonElement;
+  search: HTMLInputElement;
+  searchResults: HTMLElement;
+  topicSelect: HTMLSelectElement;
+  status: HTMLElement;
+  exportMenu: HTMLElement;
+  topbar: HTMLElement;
+}
 
-export const ctx = dom.canvas.getContext('2d') as CanvasRenderingContext2D;
-export const sctx = dom.stars.getContext('2d') as CanvasRenderingContext2D;
-export const rctx = dom.ribbon.getContext('2d') as CanvasRenderingContext2D;
+export const dom = {} as TimelineDom;
+export let ctx: CanvasRenderingContext2D;
+export let sctx: CanvasRenderingContext2D;
+export let rctx: CanvasRenderingContext2D;
+
+/** React 提交 DOM 后绑定本次挂载的元素，避免模块缓存保留已卸载的 canvas。 */
+export function initializeRuntimeDom(root: ParentNode): void {
+  const get = <T extends Element>(selector: string): T => {
+    const element = root.querySelector<T>(selector);
+    if (!element) throw new Error(`年表挂载缺少 ${selector}`);
+    return element;
+  };
+  Object.assign(dom, {
+    stage: get<HTMLElement>('#stage'),
+    canvas: get<HTMLCanvasElement>('#chart'),
+    stars: get<HTMLCanvasElement>('#stars'),
+    nebula: get<HTMLElement>('#nebula'),
+    ribbon: get<HTMLCanvasElement>('#ribbon-canvas'),
+    card: get<HTMLElement>('#card'),
+    cardBody: get<HTMLElement>('#card-body'),
+    cardActions: get<HTMLElement>('#card-actions'),
+    hint: get<HTMLElement>('#hint'),
+    chips: get<HTMLElement>('#chips'),
+    lanePanel: get<HTMLElement>('#lane-panel'),
+    laneList: get<HTMLElement>('#lane-list'),
+    laneChapters: get<HTMLElement>('#lane-chapters'),
+    stripToggle: get<HTMLButtonElement>('#strip-toggle'),
+    search: get<HTMLInputElement>('#search'),
+    searchResults: get<HTMLElement>('#search-results'),
+    topicSelect: get<HTMLSelectElement>('#topic-select'),
+    status: get<HTMLElement>('#status'),
+    exportMenu: get<HTMLElement>('#export-menu'),
+    topbar: get<HTMLElement>('#topbar'),
+  } satisfies TimelineDom);
+  ctx = dom.canvas.getContext('2d') as CanvasRenderingContext2D;
+  sctx = dom.stars.getContext('2d') as CanvasRenderingContext2D;
+  rctx = dom.ribbon.getContext('2d') as CanvasRenderingContext2D;
+}
 /** 浏览器缩放会改变 devicePixelRatio；每次 resize 都重新读取，避免旧位图被拉伸。 */
 export function currentDpr(): number {
   return Math.max(1, Math.min(3, window.devicePixelRatio || 1));

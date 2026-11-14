@@ -4,15 +4,16 @@ import { categoryName, collectionCategoryName, personName, polityName, type Site
 import { escapeHtml } from './escape';
 import { icon } from './icons';
 
-export function eraCard(era: EraSummary, featured = false): string {
+export function eraCard(era: EraSummary, featured = false, compact = false): string {
   const years = `${era.from < 0 ? `前 ${-era.from}` : era.from}—${era.to < 0 ? `前 ${-era.to}` : era.to}`;
-  return `<article class="lt-era-card${featured ? ' lt-era-card-featured' : ''}"><a href="/eras/${encodeURIComponent(era.id)}" data-era-id="${escapeHtml(era.id)}"><h3>${escapeHtml(era.name)}</h3><p class="lt-data">${years} 年</p>${era.summary ? `<p>${escapeHtml(era.summary)}</p>` : '<p class="lt-muted">时代资料尚未整理。</p>'}<p class="lt-era-counts">${era.personCount} 位收录人物 · ${era.eventCount} 条关联事件</p></a></article>`;
+  const displayYears = compact ? years.replaceAll(' ', '') : `${years} 年`;
+  return `<article class="lt-era-card${featured ? ' lt-era-card-featured' : ''}"><a href="/eras/${encodeURIComponent(era.id)}" data-era-id="${escapeHtml(era.id)}"><h3>${escapeHtml(era.name)}</h3><p class="lt-data">${displayYears}</p>${era.summary ? `<p>${escapeHtml(era.summary)}</p>` : '<p class="lt-muted">时代资料尚未整理。</p>'}<p class="lt-era-counts">${era.personCount} 位收录人物 · ${era.eventCount} 条关联事件</p></a></article>`;
 }
 
 export function collectionCard(collection: CollectionSummary, categoryLabel: string): string {
   const featured = collection.featuredMembers.slice(0, 3);
   const href = `/collections/${encodeURIComponent(collection.id)}`;
-  return `<article class="lt-collection-card"><div class="lt-collection-mark" aria-hidden="true">${escapeHtml(categoryLabel.slice(0, 1))}</div><div class="lt-collection-copy"><div class="lt-collection-card-meta"><span class="lt-tag">${escapeHtml(categoryLabel)}</span><span class="lt-collection-count">系列人物 ${collection.memberCount} 位</span></div><a class="lt-card-primary" href="${href}"><h3>${escapeHtml(collection.name)}</h3></a><p>${escapeHtml(collection.summary)}</p>${featured.length ? `<p class="lt-collection-members">代表人物：${featured.map((person) => entityLink('person', person.id, person.display || person.name)).join(' · ')}</p>` : ''}<footer class="lt-directory-card-footer"><a href="${href}" aria-label="进入${escapeHtml(collection.name)}系列">进入系列 ${icon('arrow-up-right')}</a></footer></div></article>`;
+  return `<article class="lt-collection-card"><div class="lt-collection-mark" aria-hidden="true">${escapeHtml(categoryLabel.slice(0, 1))}</div><div class="lt-collection-copy"><div class="lt-collection-card-meta"><span class="lt-tag">${escapeHtml(categoryLabel)}</span><span class="lt-collection-count">系列人物 ${collection.memberCount} 位</span></div><a class="lt-card-primary" href="${href}"><h3>${escapeHtml(collection.name)}</h3></a><p class="lt-collection-summary">${escapeHtml(collection.summary)}</p>${featured.length ? `<p class="lt-collection-members">代表人物：${featured.map((person) => entityLink('person', person.id, person.display || person.name)).join(' · ')}</p>` : ''}<footer class="lt-directory-card-footer"><a href="${href}" aria-label="进入${escapeHtml(collection.name)}系列">进入系列 ${icon('arrow-up-right')}</a></footer></div></article>`;
 }
 
 export function personDirectoryCard(person: SearchRecord, library: SiteLibrary): string {

@@ -40,6 +40,27 @@
       "reviewStatus": "approved"
     },
     {
+      "id": "banner-home-portraits",
+      "kind": "banner",
+      "usage": "首页人物群像 Hero 装饰图",
+      "src": "/media/banners/banner-home-portraits-2000.webp",
+      "variants": [
+        768,
+        1440,
+        2000
+      ],
+      "sourceFile": "temp/assets/banner-home-portraits.png",
+      "alt": "",
+      "decorative": true,
+      "credit": "AI 生成插画（现代水墨群像，非历史图像）",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "provenance": "ai-generated",
+      "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans",
+      "modifications": "从 2172×724 源图缩放至 768/1440/2000px 宽，WebP q76；按设计基准重制为浅色宣纸整幅群像，未烘焙文字或界面控件",
+      "reviewStatus": "approved"
+    },
+    {
       "id": "banner-people",
       "kind": "banner",
       "usage": "列传目录装饰带",
@@ -454,7 +475,7 @@
       "credit": "AI 生成插画（现代插画，非历史图像）",
       "provenance": "ai-generated",
       "license": "项目自有生成素材，按 LICENSE-CONTENT.md 发布",
-      "modifications": "缩放至 480×270 / 960×540，WebP q84",
+      "modifications": "按首页精选构图重制为儒家学者群像，缩放至 480×270 / 960×540，WebP q84；未烘焙文字",
       "reviewStatus": "approved"
     }
   ]

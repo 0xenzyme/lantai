@@ -1,7 +1,8 @@
 import { escapeHtml } from './escape';
 
 /** 装饰横幅素材 id，对应 public/media/banners/ 与 public/media/manifest.json。 */
-export type BannerImage = 'timeline' | 'home' | 'people' | 'events' | 'collections' | 'eras' | 'event-anshi';
+export type BannerImage =
+  'timeline' | 'home' | 'home-portraits' | 'people' | 'events' | 'collections' | 'eras' | 'event-anshi';
 
 /**
  * 装饰带图片：纯装饰（alt 为空），标题与年份始终以 DOM 文字存在。

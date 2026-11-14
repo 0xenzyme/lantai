@@ -6,11 +6,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xenzyme/history-timeline.git"
+    "url": "git+https://github.com/0xenzyme/lantai.git"
   },
   "homepage": "https://history.0xenzyme.dev",
   "bugs": {
-    "url": "https://github.com/0xenzyme/history-timeline/issues"
+    "url": "https://github.com/0xenzyme/lantai/issues"
   },
   "keywords": [
     "history",
@@ -54,13 +54,18 @@
   "dependencies": {
     "d3-scale": "^4.0.2",
     "d3-selection": "^3.0.0",
-    "d3-zoom": "^3.0.0"
+    "d3-zoom": "^3.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
     "@types/d3-scale": "^4.0.9",
     "@types/d3-selection": "^3.0.11",
     "@types/d3-zoom": "^3.0.8",
     "@types/node": "^22",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
     "playwright": "^1.61.1",
     "prettier": "^3.9.10",
     "tsx": "^4.20.5",

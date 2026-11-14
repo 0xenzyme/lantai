@@ -1,11 +1,11 @@
 # 历史时间轴
 
-[![CI](https://github.com/0xenzyme/history-timeline/actions/workflows/ci.yml/badge.svg)](https://github.com/0xenzyme/history-timeline/actions/workflows/ci.yml)
+[![CI](https://github.com/0xenzyme/lantai/actions/workflows/ci.yml/badge.svg)](https://github.com/0xenzyme/lantai/actions/workflows/ci.yml)
 
 四千年中国历史人物与事件，放在同一条可缩放、可检索的时间轴上。
 
 在线地址：<https://history.0xenzyme.dev>  
-代码仓库：<https://github.com/0xenzyme/history-timeline>  
+代码仓库：<https://github.com/0xenzyme/lantai>  
 英文说明：[README.en.md](README.en.md)
 
 ![历史时间轴界面](public/images/history-timeline.png)

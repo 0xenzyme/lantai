@@ -119,7 +119,7 @@ export function drawPreservingAnchor(anchor: number, px: number): boolean {
 
 // ---------- 画布指针 ----------
 
-export function canvasPointer(): void {
+export function canvasPointer(signal: AbortSignal): void {
   const pointers = new Map<number, { x: number; y: number }>();
   let pinch: { distance: number; domain: [number, number]; anchor: number } | null = null;
   /** 双指接触序列结束后，最后一指抬起不能再当成单击选中。 */
@@ -129,11 +129,15 @@ export function canvasPointer(): void {
     window.clearTimeout(wheelTimer);
     getHooks().syncTimelineUrl();
   };
-  document.addEventListener('lantai:flush-view', () => {
-    window.clearTimeout(wheelTimer);
-    motion.inertia = 0;
-    motion.dragging = false;
-  });
+  document.addEventListener(
+    'lantai:flush-view',
+    () => {
+      window.clearTimeout(wheelTimer);
+      motion.inertia = 0;
+      motion.dragging = false;
+    },
+    { signal },
+  );
   dom.canvas.addEventListener('pointerdown', (event) => {
     window.clearTimeout(wheelTimer);
     wheelTimer = 0;
@@ -414,21 +418,25 @@ export function isTyping(): boolean {
   );
 }
 
-export function keyboardEvents(): void {
-  window.addEventListener('keydown', (event) => {
-    if (!document.body.classList.contains('timeline-app') || document.querySelector('#app')?.hasChildNodes()) return;
-    // 共享帮助与设置 dialog 自己处理键盘；Escape 不能穿透后关闭年表详情。
-    if (document.querySelector('.lt-header-dialog[open]')) return;
-    if (event.key === 'Escape') {
-      dom.lanePanel.classList.remove('open');
-      dom.exportMenu.hidden = true;
-      if (dom.card.classList.contains('show')) hideCard();
-    }
-    if ((event.key === '+' || event.key === '=') && !isTyping()) zoomBy(0.75);
-    if (event.key === '-' && !isTyping()) zoomBy(1.333);
-    if (event.key === 'ArrowLeft' && !isTyping()) panByFraction(-0.1);
-    if (event.key === 'ArrowRight' && !isTyping()) panByFraction(0.1);
-    if (event.key === '0' && !isTyping()) document.getElementById('btn-reset')?.click();
-    getHooks().syncTimelineUrl();
-  });
+export function keyboardEvents(signal: AbortSignal): void {
+  window.addEventListener(
+    'keydown',
+    (event) => {
+      if (!document.body.classList.contains('timeline-app')) return;
+      // 共享帮助与设置 dialog 自己处理键盘；Escape 不能穿透后关闭年表详情。
+      if (document.querySelector('.lt-header-dialog[open]')) return;
+      if (event.key === 'Escape') {
+        dom.lanePanel.classList.remove('open');
+        dom.exportMenu.hidden = true;
+        if (dom.card.classList.contains('show')) hideCard();
+      }
+      if ((event.key === '+' || event.key === '=') && !isTyping()) zoomBy(0.75);
+      if (event.key === '-' && !isTyping()) zoomBy(1.333);
+      if (event.key === 'ArrowLeft' && !isTyping()) panByFraction(-0.1);
+      if (event.key === 'ArrowRight' && !isTyping()) panByFraction(0.1);
+      if (event.key === '0' && !isTyping()) document.getElementById('btn-reset')?.click();
+      getHooks().syncTimelineUrl();
+    },
+    { signal },
+  );
 }

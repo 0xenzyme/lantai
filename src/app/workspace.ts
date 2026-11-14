@@ -76,7 +76,7 @@ let bandBuilt = false;
 
 function buildDynastyBand(): void {
   const track = document.getElementById('dynasty-track');
-  if (!track || bandBuilt) return;
+  if (!track || (bandBuilt && track.childElementCount > 0)) return;
   track.innerHTML = state.library.dynasties
     .map(
       (dynasty) =>
@@ -151,7 +151,11 @@ function stepTopic(delta: number): void {
   if (next) void jumpToTopic(next.id);
 }
 
-export function wireWorkspace(onExport: (format: 'png' | 'svg') => void, onResetFilters: () => void): void {
+export function wireWorkspace(
+  onExport: (format: 'png' | 'svg') => void,
+  onResetFilters: () => void,
+  signal: AbortSignal,
+): void {
   document.querySelectorAll<HTMLButtonElement>('.lt-timeline-hero [data-export]').forEach((button) => {
     button.addEventListener('click', () => onExport(button.dataset.export === 'svg' ? 'svg' : 'png'));
   });
@@ -215,16 +219,24 @@ export function wireWorkspace(onExport: (format: 'png' | 'svg') => void, onReset
     event.stopPropagation();
     setFilterDrawer(!filterPanel?.classList.contains('open'));
   });
-  document.addEventListener('keydown', (event) => {
-    if (event.key !== 'Escape' || !filterPanel?.classList.contains('open')) return;
-    event.preventDefault();
-    event.stopImmediatePropagation();
-    setFilterDrawer(false, true);
-  });
-  document.addEventListener('pointerdown', (event) => {
-    if (!filterPanel?.classList.contains('open')) return;
-    const target = event.target as HTMLElement;
-    if (!target.closest('#lane-panel') && !target.closest('#btn-filter-toggle')) setFilterDrawer(false);
-  });
+  document.addEventListener(
+    'keydown',
+    (event) => {
+      if (event.key !== 'Escape' || !filterPanel?.classList.contains('open')) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      setFilterDrawer(false, true);
+    },
+    { signal },
+  );
+  document.addEventListener(
+    'pointerdown',
+    (event) => {
+      if (!filterPanel?.classList.contains('open')) return;
+      const target = event.target as HTMLElement;
+      if (!target.closest('#lane-panel') && !target.closest('#btn-filter-toggle')) setFilterDrawer(false);
+    },
+    { signal },
+  );
   syncFilterDrawer();
 }

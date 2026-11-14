@@ -1,4 +1,5 @@
-import { dispatchSiteRoute } from './router';
+import { isTimelinePage, readBrowserLocation } from '../react/location';
+import { dispatchSiteRoute, dispatchTimelineRoute } from '../react/navigation-events';
 
 export interface DetailSource {
   url: string;
@@ -57,8 +58,8 @@ export function openSiteUrl(url: string, mode: 'push' | 'replace' = 'push'): voi
   dispatchSiteRoute();
 }
 
-export function wireSiteLinks(root: ParentNode = document): void {
-  root.addEventListener('click', (event) => {
+export function wireSiteLinks(root: ParentNode = document): () => void {
+  const click = (event: Event) => {
     if (
       !(event instanceof MouseEvent) ||
       event.defaultPrevented ||
@@ -70,7 +71,7 @@ export function wireSiteLinks(root: ParentNode = document): void {
     )
       return;
     const link = (event.target as HTMLElement).closest<HTMLAnchorElement>(
-      'a[data-site-link], a[href^="/collections/"], a[data-era-id], a[href^="/people?"], a[href^="/events?"]',
+      'a[data-site-link], a[data-timeline-link], a[href^="/collections/"], a[data-era-id], a[href^="/people?"], a[href^="/events?"]',
     );
     if (!link) return;
     if (link.getAttribute('aria-disabled') === 'true') {
@@ -80,23 +81,29 @@ export function wireSiteLinks(root: ParentNode = document): void {
     const url = new URL(link.href);
     if (url.origin !== location.origin) return;
     event.preventDefault();
-    openSiteUrl(link.href);
-  });
-  root.addEventListener('change', (event) => {
+    if (link.hasAttribute('data-timeline-link')) navigateToTimeline(link.href);
+    else openSiteUrl(link.href);
+  };
+  const change = (event: Event) => {
     const select = (event.target as HTMLElement).closest<HTMLSelectElement>('select[data-directory-param]');
     if (!select) return;
     const query = new URLSearchParams(location.search);
     query.set(select.dataset.directoryParam!, select.value);
     query.delete('page');
     openSiteUrl(`${location.pathname}?${query.toString()}`);
-  });
+  };
+  root.addEventListener('click', click);
+  root.addEventListener('change', change);
+  return () => {
+    root.removeEventListener('click', click);
+    root.removeEventListener('change', change);
+  };
 }
 
 export function openEntity(kind: 'person' | 'event', id: string): void {
   const currentSource = { url: location.href, scrollY: window.scrollY } satisfies DetailSource;
   history.replaceState({ ...(history.state ?? {}), lantaiSource: currentSource }, '', location.href);
-  const timelineSource =
-    location.pathname === '/timeline' || location.pathname === '/' || location.pathname === '/legacy.html';
+  const timelineSource = isTimelinePage(readBrowserLocation());
   if (!timelineSource && isEntityPath(location.pathname)) {
     const source = { url: location.href, scrollY: window.scrollY } satisfies DetailSource;
     history.replaceState({ ...(history.state ?? {}), lantaiSource: source }, '', location.href);
@@ -125,10 +132,9 @@ export function openEntity(kind: 'person' | 'event', id: string): void {
   dispatchSiteRoute();
 }
 
-export function wireEntityLinks(root: ParentNode = document): void {
-  root.addEventListener('click', (event) => {
+export function wireEntityLinks(root: ParentNode = document): () => void {
+  const click = (event: Event) => {
     if (!(event instanceof MouseEvent)) return;
-    if (document.body.classList.contains('timeline-app') && !document.querySelector('#app')?.hasChildNodes()) return;
     const target = (event.target as HTMLElement).closest<HTMLAnchorElement>('a[data-entity-kind][data-entity-id]');
     if (
       !target ||
@@ -145,7 +151,9 @@ export function wireEntityLinks(root: ParentNode = document): void {
     if ((kind !== 'person' && kind !== 'event') || !id) return;
     event.preventDefault();
     openEntity(kind, id);
-  });
+  };
+  root.addEventListener('click', click);
+  return () => root.removeEventListener('click', click);
 }
 
 export function returnToSource(fallbackUrl: string): void {
@@ -202,21 +210,25 @@ export function directoryFallback(kind: 'person' | 'event'): string {
 }
 
 export function navigateToTimeline(url: string): void {
-  if (document.body.classList.contains('timeline-app') && !document.querySelector('#app')?.hasChildNodes()) {
-    history.pushState({}, '', url);
-    window.dispatchEvent(new CustomEvent('lantai:timeline'));
+  const target = new URL(url, location.href);
+  if (target.origin !== location.origin) {
+    location.assign(target.href);
     return;
   }
-  location.assign(url);
+  history.pushState({}, '', target.href);
+  dispatchSiteRoute();
+  dispatchTimelineRoute();
 }
 
-export function wireReturnLinks(root: ParentNode = document): void {
-  root.addEventListener('click', (event) => {
+export function wireReturnLinks(root: ParentNode = document): () => void {
+  const click = (event: Event) => {
     const target = (event.target as HTMLElement).closest<HTMLElement>(
       'button[data-return-fallback], a[data-return-fallback]',
     );
     if (!target) return;
     event.preventDefault();
     returnToSource(target.dataset.returnFallback ?? '/timeline');
-  });
+  };
+  root.addEventListener('click', click);
+  return () => root.removeEventListener('click', click);
 }

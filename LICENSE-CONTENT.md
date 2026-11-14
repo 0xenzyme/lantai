@@ -16,7 +16,7 @@
 
 再发布或改编上述内容时，应当：
 
-1. 以适当方式署名 `history-timeline contributors`，并附上项目地址 <https://github.com/0xenzyme/history-timeline>。
+1. 以适当方式署名 `history-timeline contributors`，并附上项目地址 <https://github.com/0xenzyme/lantai>。
 2. 标明是否作了修改。
 3. 以 CC BY-SA 4.0 或协议允许的兼容许可分享改编内容。
 

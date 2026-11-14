@@ -17,6 +17,7 @@ import type {
   EraSummary,
   EventDetail,
   EventLineView,
+  EventRecord,
   PersonDetail,
   SearchRecord,
 } from '../types';
@@ -178,10 +179,34 @@ export function loadEvent(id: string): Promise<EventDetail> {
   return loadEventDetail(`/data/events/${encodeURIComponent(id)}.json`, id);
 }
 
-export function eventRecords(library: SiteLibrary) {
-  const unique = new Map<string, EventLineView['events'][number]>();
-  for (const line of library.events) for (const event of line.events) unique.set(event.id, event);
-  return [...unique.values()].sort((a, b) => a.year - b.year || b.importance - a.importance);
+/** 去除两条事件线共享的同一事件，并保留首次出现的完整记录。 */
+export function uniqueEvents(events: readonly EventRecord[]): EventRecord[] {
+  const unique = new Map<string, EventRecord>();
+  for (const event of events) if (!unique.has(event.id)) unique.set(event.id, event);
+  return [...unique.values()];
+}
+
+/** 按起始年份排序；同年优先展示 importance 高的事件，最后以 id 保证稳定顺序。 */
+export function sortEvents(events: readonly EventRecord[]): EventRecord[] {
+  return [...events].sort(
+    (left, right) => left.year - right.year || right.importance - left.importance || left.id.localeCompare(right.id),
+  );
+}
+
+/** 根据首页编辑配置选取事件；坏 id 会被安全跳过，结果按时间顺序返回。 */
+export function selectHomeEvents(
+  events: readonly EventRecord[],
+  configuredIds: readonly string[],
+  limit = 3,
+): EventRecord[] {
+  if (limit <= 0) return [];
+  const byId = new Map(uniqueEvents(events).map((event) => [event.id, event]));
+  const selected = uniqueEvents(configuredIds.flatMap((id) => (byId.has(id) ? [byId.get(id)!] : [])));
+  return sortEvents(selected).slice(0, limit);
+}
+
+export function eventRecords(library: SiteLibrary): EventRecord[] {
+  return sortEvents(uniqueEvents(library.events.flatMap((line: EventLineView) => line.events)));
 }
 
 export function polityName(library: SiteLibrary, id: string): string {

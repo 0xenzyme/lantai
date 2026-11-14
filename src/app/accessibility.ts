@@ -73,7 +73,7 @@ function renderAccessibleEntities(): void {
     state.selected?.kind,
     state.selected?.id,
   ]);
-  if (signature === lastEntitySignature) return;
+  if (signature === lastEntitySignature && list.childElementCount > 0) return;
   lastEntitySignature = signature;
 
   const active = document.activeElement instanceof HTMLElement ? document.activeElement : null;

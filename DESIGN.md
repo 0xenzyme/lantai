@@ -139,14 +139,14 @@ components:
 
 # 兰台设计系统
 
-版本：2026-11-08（02 风格统一）｜ 状态：首版页面实现契约
+版本：2026-11-14（首页改版定稿同步）｜ 状态：首版页面实现契约
 
 ## 2026-11-08 风格统一变更
 
 全站视觉基准统一为 `temp/images/pages/02-年表.png`（深木框架 + 金色强调 + 山水装饰带）。此前的 01/03/05/06/07/09 设计图是另一套浅色+朱砂风格，不再作为独立方向。
 
 - **主操作色**：朱砂 `#963b28` 改为金色 `#cf9b53`（渐变主按钮 + 深木文字 `#261a14`）。纸面文字链接用暗金 `#7a5c1f`（约 5.2:1），不用低对比浅金。朱砂只保留给错误与战事语义。
-- **装饰带素材**：7 张 AI 生成山水横幅已入库 `public/media/banners/`（768/1440/2000 WebP），`public/media/manifest.json` 登记并标注"AI 生成插画"。图片只作装饰，标题与年份始终以 DOM 文字存在。
+- **装饰带素材**：设计稿和生成图只作构图参考，不自动成为生产素材。正式素材必须完成来源、许可、替代文本和性能审查后再进入 `public/media/`；图片只作装饰，标题、人物姓名、年份和事件脉络始终以 DOM 文字存在，图片不得烘焙这些文字。
 - **年表工作区**：共享顶栏 → 山水 banner（标题 + 导出 PNG/SVG）→ 左分类筛选栏 + 中央画布 + 右详情栏 → 底部朝代导航条。人物/战事/历史事件同图分区，不再互斥 tab；刻度尺深木底米白字，选中事件有金色年份牌与纵向虚线；窄时间窗（可见人物 ≤12）切换为"姓名+生卒+细生命线"大行模式。
 - **顶栏**：六项图标导航，当前栏目亮金文字 + 底部光带 + 向下光晕；深棕胶囊搜索（放大镜提交）；帮助（操作说明弹层）与设置（年表主题切换）为真实功能。自动播放不做（既定产品决策不变）。
 - **目录页**：山水 banner + 胶囊搜索；列传宽屏 4 列人物卡、纪事六列表格、群像横向分类 chips；筛选列表化。
@@ -159,13 +159,15 @@ components:
 
 兰台以深木色框架、宣纸色阅读面、金色操作色、青铜细节和水墨插画组织历史内容。视觉表达服从时间、人物和出处，不复刻古书，不用装饰替代信息。
 
-年表是 Operate 工作区，目录是 Operate 发现界面，人物、事件、群像和朝代详情以 Read 为主，首页承担 Persuade 与导航。品牌表现集中在首页和页头；内容页保持精确、克制和可扫描。
+年表是 Operate 工作区，目录是 Operate 发现界面，人物、事件、群像和朝代详情以 Read 为主，首页承担 Persuade 与导航。品牌表现集中在首页和共享页头；内容页保持精确、克制和可扫描。本轮只同步首页的呈现结构，不重写 [PRODUCT.md](PRODUCT.md) 已确认的产品定位。
 
 **已固定的产品语义**
 
 - 品牌为「兰台 Lantai」，副标题为「纵横千年，人物相望」。
 - 主导航固定为「首页 · 年表 · 列传 · 群像 · 纪事 · 断代」。
 - 群像是儒家、文学、书法等策展系列。成员资格与有证据的人物关系是两种数据。
+- 首页复用现有 `SiteHeader` 和全站搜索，不再在 Hero 或「兰台精选」重复一套栏目导航。
+- 首页使用现有颜色与字体 token；新增视觉素材只承担装饰或已核查的内容辅助，不替代 DOM 文本。
 - 首版不提供自动播放和二度关系。「巡航」只保留为现有皮肤名，不进入新导航。
 - `temp/` 图片和 HTML 是构图参考，不是史实、功能或许可证据。
 
@@ -269,17 +271,28 @@ components:
 
 ### 页面骨架
 
-| 骨架       | 桌面结构                                                                      | 适用页面               |
-| ---------- | ----------------------------------------------------------------------------- | ---------------------- |
-| 品牌首页   | 顶栏 → 品牌／搜索 → 四栏目 → 推荐断代与群像 → 页脚                            | 首页                   |
-| 年表工作区 | 共享顶栏 → 山水 banner（标题＋导出）→ 左筛选＋Canvas＋右预览 → 底部朝代导航条 | 年表                   |
-| 目录       | 页头＋栏目搜索 → 左筛选＋结果工具条／结果 → 分页                              | 列传、群像、纪事、断代 |
-| 人物详情   | 返回与面包屑 → 身份栏＋主操作 → 主叙事项＋右关联栏 → 出处                     | 人物详情               |
-| 事件详情   | 返回与面包屑 → 事件头＋主操作 → 左页内导航＋正文＋右关联栏 → 出处             | 事件详情               |
-| 系列／朝代 | 头部＋主操作 → 可用 tab → 主内容＋辅助栏                                      | 群像系列、朝代总览     |
-| 搜索结果   | 查询框 → 类型筛选 → 分组结果 → 分页或分组入口                                 | `/search` 辅助路由     |
+| 骨架       | 桌面结构                                                                                       | 适用页面               |
+| ---------- | ---------------------------------------------------------------------------------------------- | ---------------------- |
+| 品牌首页   | 共享顶栏 → 人物群像 Hero（含 DOM 事件脉络）→「兰台精选」（精选群像／本期纪事／推荐朝代）→ 页脚 | 首页                   |
+| 年表工作区 | 共享顶栏 → 山水 banner（标题＋导出）→ 左筛选＋Canvas＋右预览 → 底部朝代导航条                  | 年表                   |
+| 目录       | 页头＋栏目搜索 → 左筛选＋结果工具条／结果 → 分页                                               | 列传、群像、纪事、断代 |
+| 人物详情   | 返回与面包屑 → 身份栏＋主操作 → 主叙事项＋右关联栏 → 出处                                      | 人物详情               |
+| 事件详情   | 返回与面包屑 → 事件头＋主操作 → 左页内导航＋正文＋右关联栏 → 出处                              | 事件详情               |
+| 系列／朝代 | 头部＋主操作 → 可用 tab → 主内容＋辅助栏                                                       | 群像系列、朝代总览     |
+| 搜索结果   | 查询框 → 类型筛选 → 分组结果 → 分页或分组入口                                                  | `/search` 辅助路由     |
 
 首屏装饰带在目录页最高 176px，在详情页最高 240px；手机取消大面积装饰带，保留标题、摘要和主操作。年表的工具和坐标优先于横幅。
+
+### 首页骨架与实现约定
+
+首页沿用现有 `SiteHeader`，顶栏已经提供品牌、主导航和全站搜索。首页内容从 Hero 开始，不再在 Hero 下方重复主导航或增加一组「栏目入口」卡片。
+
+1. **人物群像 Hero**：宣纸色人物群像以无边框背景横贯整个 Hero，左侧显示栏目说明、主标题、搜索和年表主操作，右侧叠加人物、事件、群像三个真实入口。桌面 Hero 高度控制在 430–470px，中屏约 620px，窄屏改为内容流；图片只承担群像和山水氛围，不烘焙文字、年份或按钮。
+2. **Hero 内的关系脉络**：脉络使用带明确 `aria-label` 的 DOM `nav`，每个节点保留真实实体链接，并显示类别、名称和已有时间或编辑说明。桌面节点叠放在群像与山水留白处，中屏和窄屏进入正常 DOM 流；视觉路径消失时，三个入口仍完整可用。
+3. **「兰台精选」**：使用一个共享区块标题，下设「精选群像」「本期纪事」「推荐朝代」三个内容模块。模块分别复用 `CollectionCard`、`EventRow` 和 `EraCard`；首页只负责编排，不复制一套首页专用卡片。
+4. **页面结束**：精选内容之后进入页脚。推荐内容按真实数据和编辑配置展示，不以图片内文字、知名度或缺失数据制造推荐理由。
+
+首页的颜色、字体、间距、焦点和状态均沿用本文件既有 token。Hero 图片加载失败、局部内容失败或没有可推荐内容时，页面仍保留品牌说明、DOM 事件脉络和可用的上级导航。
 
 ### 层级与密度
 
@@ -322,19 +335,19 @@ components:
 
 下表对应《兰台页面规格》的十类页面模板；`/search` 是共享辅助路由，不改变十类计数。
 
-| 路由               | 页面骨架   | 必需组件                                                                                               | 状态   |
-| ------------------ | ---------- | ------------------------------------------------------------------------------------------------------ | ------ |
-| `/`                | 品牌首页   | `SiteHeader`、`GlobalSearch`、`NavCard`、`EraCard`、`CollectionCard`                                   | 已交付 |
-| `/timeline`        | 年表工作区 | `TimelineToolbar`、`FilterPanel`、`TimelineCanvas`、`EntityPreview`、`DynastyBand`、`ExportMenu`       | 已交付 |
-| `/people`          | 目录       | `DirectorySearch`、`FilterPanel`、`ResultToolbar`、`PersonCard`、`Pagination`                          | 已交付 |
-| `/people/:id`      | 人物详情   | `PersonIdentity`、`DateRange`、`ExperienceList`、`EventList`、`WorkList`、`RelationList`、`SourceList` | 已交付 |
-| `/collections`     | 目录       | `DirectorySearch`、`CategoryTabs`、`CollectionCard`、`Pagination`                                      | 已交付 |
-| `/collections/:id` | 系列详情   | `CollectionHero`、`ViewTabs`、`MemberList`、`MemberTimeline`、`RelationView`、`PathSteps`              | 已交付 |
-| `/events`          | 目录       | `DirectorySearch`、`FilterPanel`、`ResultToolbar`、`EventRow`、`Pagination`                            | 已交付 |
-| `/events/:id`      | 事件详情   | `EventHero`、`FactList`、`EventTimeline`、`PeopleRoles`、`EventComposition`、`SourceList`              | 已交付 |
-| `/eras`            | 目录       | `EraGroups`、`EraCard`、`OverlapNotice`                                                                | 已交付 |
-| `/eras/:id`        | 系列／朝代 | `EraHero`、`ViewTabs`、`EraTimeline`、`FeaturedEntities`                                               | 已交付 |
-| `/search`          | 搜索结果   | `GlobalSearch`、`EntityTypeTabs`、`SearchResultGroup`                                                  | 已交付 |
+| 路由               | 页面骨架   | 必需组件                                                                                                  | 状态   |
+| ------------------ | ---------- | --------------------------------------------------------------------------------------------------------- | ------ |
+| `/`                | 品牌首页   | `SiteHeader`、`HomeHero`、`EventTrace`、`FeaturedContentSection`、`CollectionCard`、`EventRow`、`EraCard` | 已交付 |
+| `/timeline`        | 年表工作区 | `TimelineToolbar`、`FilterPanel`、`TimelineCanvas`、`EntityPreview`、`DynastyBand`、`ExportMenu`          | 已交付 |
+| `/people`          | 目录       | `DirectorySearch`、`FilterPanel`、`ResultToolbar`、`PersonCard`、`Pagination`                             | 已交付 |
+| `/people/:id`      | 人物详情   | `PersonIdentity`、`DateRange`、`ExperienceList`、`EventList`、`WorkList`、`RelationList`、`SourceList`    | 已交付 |
+| `/collections`     | 目录       | `DirectorySearch`、`CategoryTabs`、`CollectionCard`、`Pagination`                                         | 已交付 |
+| `/collections/:id` | 系列详情   | `CollectionHero`、`ViewTabs`、`MemberList`、`MemberTimeline`、`RelationView`、`PathSteps`                 | 已交付 |
+| `/events`          | 目录       | `DirectorySearch`、`FilterPanel`、`ResultToolbar`、`EventRow`、`Pagination`                               | 已交付 |
+| `/events/:id`      | 事件详情   | `EventHero`、`FactList`、`EventTimeline`、`PeopleRoles`、`EventComposition`、`SourceList`                 | 已交付 |
+| `/eras`            | 目录       | `EraGroups`、`EraCard`、`OverlapNotice`                                                                   | 已交付 |
+| `/eras/:id`        | 系列／朝代 | `EraHero`、`ViewTabs`、`EraTimeline`、`FeaturedEntities`                                                  | 已交付 |
+| `/search`          | 搜索结果   | `GlobalSearch`、`EntityTypeTabs`、`SearchResultGroup`                                                     | 已交付 |
 
 群像可达状态：`CollectionHero`、`ViewTabs`、`MemberList`、`MemberTimeline`、`RelationView`、`PathSteps`、相关纪事与作品视图已可用。tab 从 Collection 的 `views` 和 `defaultView` 生成；事件／作品尚无真实系列样本，不显示无数据 tab。成员详情按需并行加载，局部失败不覆盖系列正文。
 

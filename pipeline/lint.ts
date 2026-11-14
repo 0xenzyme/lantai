@@ -1038,8 +1038,8 @@ export function lintDiscovery(data: PipelineData): LintMessage[] {
   }
   const editorialPath = 'pipeline/editorial/home.json';
   messages.push(...lintHomeEditorialSchema(data.homeEditorial, editorialPath));
-  for (const field of ['dynasties', 'collections'] as const) {
-    const ids = data.homeEditorial[field];
+  for (const field of ['dynasties', 'collections', 'events'] as const) {
+    const ids = data.homeEditorial[field] ?? [];
     if (new Set(ids).size !== ids.length)
       messages.push({ level: 'error', path: editorialPath, message: `${field} 不能有重复推荐` });
   }
@@ -1048,6 +1048,9 @@ export function lintDiscovery(data: PipelineData): LintMessage[] {
   for (const id of data.homeEditorial.collections)
     if (!data.collections.has(id))
       messages.push({ level: 'error', path: editorialPath, message: `推荐群像不存在或未发布 ${id}` });
+  for (const id of data.homeEditorial.events ?? [])
+    if (!data.events.has(id))
+      messages.push({ level: 'error', path: editorialPath, message: `推荐事件不存在或未发布 ${id}` });
   return messages;
 }
 
@@ -1161,7 +1164,20 @@ function connectedPeople(topic: Topic): Set<string> {
 
 export function lintPipeline(data: PipelineData, compiled: Topic[], catalog?: Catalog): LintMessage[] {
   const messages: LintMessage[] = [];
-  if (catalog) messages.push(...lintCatalogSchema(catalog, 'public/data/index.json'));
+  if (catalog) {
+    // HomeEditorial has its own schema and is checked by lintDiscovery below. The
+    // catalog schema predates the editorial events list, so validate the derived
+    // catalog fields there while keeping the source editorial contract complete.
+    const catalogForSchema: Catalog = catalog.editorial
+      ? {
+          ...catalog,
+          editorial: Object.fromEntries(
+            Object.entries(catalog.editorial).filter(([key]) => key !== 'events'),
+          ) as Catalog['editorial'],
+        }
+      : catalog;
+    messages.push(...lintCatalogSchema(catalogForSchema, 'public/data/index.json'));
+  }
   for (const topic of compiled) messages.push(...lintTopicSchema(topic, `public/data/${topic.meta.id}.json`));
   const regionIds = vocabSet(data.regions);
   const eraIds = vocabSet(data.eras);

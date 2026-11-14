@@ -17,7 +17,7 @@ export type IconId =
   | 'help'
   | 'settings';
 
-const PATHS: Record<IconId, string> = {
+export const ICON_PATHS: Record<IconId, string> = {
   home: '<path d="M3 11 12 3l9 8"/><path d="M5 10v11h14V10"/><path d="M9 21v-7h6v7"/>',
   timeline:
     '<path d="M3 12h21"/><circle cx="7" cy="12" r="2.5"/><circle cx="16" cy="12" r="2.5"/><path d="M7 4v3M7 17v3M16 4v3M16 17v3"/>',
@@ -39,5 +39,5 @@ const PATHS: Record<IconId, string> = {
 };
 
 export function icon(id: IconId, className = ''): string {
-  return `<svg class="lt-icon${className ? ` ${className}` : ''}" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${PATHS[id]}</svg>`;
+  return `<svg class="lt-icon${className ? ` ${className}` : ''}" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${ICON_PATHS[id]}</svg>`;
 }

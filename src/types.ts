@@ -214,6 +214,8 @@ export interface EraDetail extends EraSummary {
 export interface HomeEditorial {
   dynasties: string[];
   collections: string[];
+  /** schema 要求正式配置提供；旧版运行时目录允许缺省以便安全降级。 */
+  events?: string[];
 }
 
 export interface CollectionSummary {

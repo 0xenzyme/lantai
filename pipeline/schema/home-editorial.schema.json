@@ -4,9 +4,10 @@
   "title": "HomeEditorial",
   "type": "object",
   "additionalProperties": false,
-  "required": ["dynasties", "collections"],
+  "required": ["dynasties", "collections", "events"],
   "properties": {
     "dynasties": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1 } },
-    "collections": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+    "collections": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "events": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1 } }
   }
 }

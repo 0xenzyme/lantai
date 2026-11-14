@@ -137,6 +137,7 @@ export function largeRowsActive(): boolean {
 }
 
 export function draw(): void {
+  if (!dom.canvas?.isConnected) return;
   // domain、章节与筛选都影响可见集合；每次绘制前让布局与当前状态重新对齐。
   getHooks().rebuildLayout();
   syncAccessibleEntities();

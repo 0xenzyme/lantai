@@ -63,8 +63,16 @@ test('M4 Chrome 内容发现、返回、四档视口、异常与年表回归', {
   await page.goto(`${origin}/`);
   await ready(page, '.lt-home');
   assert.match(await page.locator('.lt-home-hero').innerText(), /纵横千年，人物相望/);
-  assert.equal(await page.locator('.lt-era-recommendations .lt-era-card').count(), 5);
+  assert.equal(await page.locator('.lt-era-recommendations .lt-era-card').count(), 4);
   assert.equal(await page.locator('main').count(), 1);
+  assert.equal(await page.locator('.lt-global-search').count(), 0);
+  await page.locator('.lt-header-search-home').click();
+  assert.equal(await page.evaluate(() => document.activeElement?.id), 'home-query');
+  assert.equal(await page.locator('.lt-home-path a').count(), 3);
+  assert.match(
+    (await page.locator('.lt-home-path a').nth(2).getAttribute('href')) ?? '',
+    /topic=.+&person=.+&from=-?\d+&to=-?\d+/,
+  );
   await page.locator('#home-query').fill('儒家传承');
   await page.locator('.lt-home-search button').click();
   await ready(page, '.lt-search-group');
