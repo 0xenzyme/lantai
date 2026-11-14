@@ -6,7 +6,7 @@ authors:
   - name: '0xenzyme'
     alias: '0xenzyme'
 repository-code: 'https://github.com/0xenzyme/lantai'
-url: 'https://history.0xenzyme.dev'
+url: 'https://lantai.0xenzyme.dev'
 version: '0.1.0'
 date-released: '2026-11-05'
 license: MIT

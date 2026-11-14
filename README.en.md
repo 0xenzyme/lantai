@@ -2,7 +2,7 @@
 
 An interactive, zoomable timeline of Chinese historical figures and events, covering 2070 BCE to 1949 CE.
 
-- Live site: <https://history.0xenzyme.dev>
+- Live site: <https://lantai.0xenzyme.dev>
 - 中文说明：[README.md](README.md)
 
 ## Features

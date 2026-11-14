@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://history.0xenzyme.dev/sitemap.xml
+Sitemap: https://lantai.0xenzyme.dev/sitemap.xml
