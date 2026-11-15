@@ -49,6 +49,13 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
   const helpDialogRef = useRef<HTMLDialogElement>(null);
   const settingsDialogRef = useRef<HTMLDialogElement>(null);
   const dialogTriggerRef = useRef<HTMLElement | null>(null);
+  const lastSectionRef = useRef<SiteSection>(section);
+
+  useEffect(() => {
+    if (lastSectionRef.current === section) return;
+    lastSectionRef.current = section;
+    setMenuOpen(false);
+  }, [section]);
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -206,6 +213,15 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
           >
             <Icon id="settings" />
           </button>
+          <a
+            className="lt-icon-button"
+            href="https://github.com/0xenzyme/lantai"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="GitHub 仓库"
+          >
+            <Icon id="github" />
+          </a>
         </div>
       </header>
       <nav
@@ -237,6 +253,9 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
         >
           设置
         </button>
+        <a href="https://github.com/0xenzyme/lantai" target="_blank" rel="noreferrer noopener">
+          GitHub
+        </a>
       </nav>
       <dialog
         ref={helpDialogRef}

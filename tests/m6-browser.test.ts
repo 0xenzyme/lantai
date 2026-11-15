@@ -514,6 +514,8 @@ test('M6 production 移动导航、键盘、缩放和快速导航', { timeout: 9
   await page.keyboard.press('Tab');
   assert.equal(await page.evaluate(() => document.activeElement?.textContent), '设置');
   await page.keyboard.press('Tab');
+  assert.equal(await page.evaluate(() => document.activeElement?.textContent), 'GitHub');
+  await page.keyboard.press('Tab');
   assert.equal(
     await page.evaluate(() => document.activeElement?.hasAttribute('data-site-menu')),
     true,

@@ -3869,6 +3869,7 @@ body.timeline-app .ribbon :focus-visible {
   border-radius: 50%;
   background: transparent;
   color: var(--lt-gold);
+  text-decoration: none;
   cursor: pointer;
 }
 
