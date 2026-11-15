@@ -1,0 +1,16 @@
+{
+  "id": "ming",
+  "aliases": ["明朝", "大明"],
+  "summary": "从洪武建国到崇祯自缢，明朝历公元 1368—1644 年；废丞相、靖难之役、土木之变与晚明的内忧外患构成政治主线。",
+  "body": "本页按现有收录组织明代阅读。人物来自明代专题的编辑选取，帝系、开国功臣与士大夫并见；事件按朝代区间与显式推荐确定，甲申之变以后归入清朝。",
+  "capitals": [
+    { "name": "南京", "note": "洪武都城。" },
+    { "name": "北京", "note": "永乐迁都以后的京师。" }
+  ],
+  "founders": [{ "id": "zhu-yuanzhang", "note": "1368 年建明，年号洪武。" }],
+  "topics": ["ming"],
+  "group": "ming-qing",
+  "featuredPeople": ["zhu-yuanzhang", "zhu-di", "yu-qian", "wang-shouren", "zhang-juzheng"],
+  "featuredEvents": ["hongwu-chengdi", "jingnan-zhiyi", "yongle-dadian", "tumu-zhibian", "saerhu-zhizhan"],
+  "sources": [{ "work": "明史", "part": "太祖纪、成祖纪", "kind": "classic" }]
+}

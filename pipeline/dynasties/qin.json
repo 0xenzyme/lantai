@@ -1,0 +1,19 @@
+{
+  "id": "qin",
+  "aliases": ["秦朝"],
+  "summary": "从始皇称帝到子婴出降，秦朝在公元前 221—前 207 年间完成统一又急速崩解；郡县、文字与度量衡的整合奠定此后两千年帝制框架。",
+  "body": "本页按现有收录组织秦朝阅读。人物来自秦代专题的编辑选取，兼收秦廷君臣与楚汉之际人物；事件按朝代区间与显式推荐确定，刘邦称帝以后归入西汉。",
+  "capitals": [{ "name": "咸阳", "note": "秦都，在今陕西咸阳。" }],
+  "founders": [{ "id": "ying-zheng", "note": "前 221 年统一六国后称始皇帝。" }],
+  "topics": ["qin"],
+  "group": "qin-han",
+  "featuredPeople": ["ying-zheng", "li-si", "meng-tian", "chen-sheng", "xiang-yu"],
+  "featuredEvents": [
+    "qin-yitong",
+    "shihuang-cheng-huangdi",
+    "mengtian-beiji-xiongnu",
+    "daizexiang-qiyi",
+    "qin-miewang"
+  ],
+  "sources": [{ "work": "史记", "part": "秦始皇本纪、李斯列传", "kind": "classic" }]
+}

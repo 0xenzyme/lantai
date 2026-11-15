@@ -1,0 +1,16 @@
+{
+  "id": "western-han",
+  "aliases": ["前汉"],
+  "summary": "从刘邦称帝到王莽代汉，西汉历公元前 202—公元 8 年；休养生息、独尊儒术与北击匈奴构成帝国由守转攻的主线。",
+  "body": "本页按现有收录组织西汉阅读。人物来自西汉与儒家两个专题的编辑选取，帝王外戚、将相名臣与经师并见；事件按朝代区间与显式推荐确定，王莽代汉以后归入新朝。",
+  "capitals": [{ "name": "长安", "note": "西汉都城。" }],
+  "founders": [{ "id": "liu-bang", "note": "前 202 年即皇帝位，国号汉。" }],
+  "topics": ["han", "rujia"],
+  "group": "qin-han",
+  "featuredPeople": ["liu-bang", "liu-che", "wei-qing", "huo-qubing", "sima-qian"],
+  "featuredEvents": ["gaixia-zhizhan", "han-jian-guo", "qiguo-zhi-luan", "zhangqian-tong-xiyu", "bachu-baijia"],
+  "sources": [
+    { "work": "汉书", "part": "高帝纪、武帝纪", "kind": "classic" },
+    { "work": "史记", "part": "高祖本纪", "kind": "classic" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "warring-states",
+  "aliases": ["战国时期"],
+  "summary": "从三家分晋到秦并六国，战国约当公元前 475—前 221 年；变法、兼并战争与诸子争鸣重塑天下，最终走向秦的统一。",
+  "body": "本页按现有收录组织战国阅读。人物来自战国与儒家两个专题的编辑选取，变法君臣、名将纵横家与诸子并见；事件按朝代区间与显式推荐确定，秦统一以后归入秦朝。",
+  "topics": ["zhanguo", "rujia"],
+  "group": "pre-qin",
+  "featuredPeople": ["ying-quliang", "shang-yang", "zhao-yong", "bai-qi", "qu-yuan"],
+  "featuredEvents": ["sanjia-fenjin", "shangyang-bianfa", "maling-zhizhan", "changping-zhizhan", "qin-mie-liuguo"],
+  "sources": [
+    { "work": "战国策", "kind": "classic" },
+    { "work": "史记", "part": "秦本纪、秦始皇本纪", "kind": "classic" }
+  ]
+}

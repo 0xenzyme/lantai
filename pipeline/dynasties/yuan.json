@@ -1,0 +1,16 @@
+{
+  "id": "yuan",
+  "aliases": ["元朝", "大元"],
+  "summary": "从建国号大元到顺帝北走大漠，元朝历公元 1271—1368 年；行省制度、南北海运与中外交流并存，末期农民战争将其推回草原。",
+  "body": "本页按现有收录组织元代阅读。人物来自元代专题的编辑选取，蒙元帝系、汉法文臣与色目官吏并见，铁木真按本站口径归属元；事件按朝代区间与显式推荐确定，建号以前的扩张归入大蒙古国。",
+  "capitals": [
+    { "name": "大都", "note": "元都，在今北京。" },
+    { "name": "上都", "note": "夏都，在今内蒙古正蓝旗。" }
+  ],
+  "founders": [{ "id": "hu-bi-lie", "note": "1271 年建国号大元。" }],
+  "topics": ["yuan"],
+  "group": "song-liao-jin-yuan",
+  "featuredPeople": ["tie-mu-zhen", "hu-bi-lie", "yelv-chucai", "liu-bingzhong", "guo-shoujing"],
+  "featuredEvents": ["dayuan-jianguo", "yashan-zhizhan", "xingsheng-zhidu", "hongjin-qiyi", "dadu-xianluo"],
+  "sources": [{ "work": "元史", "part": "世祖纪、地理志", "kind": "classic" }]
+}

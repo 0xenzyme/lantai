@@ -1,0 +1,33 @@
+{
+  "id": "western-jin",
+  "summary": "从司马炎代魏到愍帝出降，西晋历公元 265—316 年；太康短暂统一之后，八王之乱与永嘉之祸使王朝走向覆亡。",
+  "body": "本页按现有收录组织西晋阅读。人物来自两晋十六国专题的编辑选取，西晋帝系与佐命臣工在列；事件按朝代区间与显式推荐确定，衣冠南渡以后归入东晋与十六国。",
+  "capitals": [
+    {
+      "name": "洛阳",
+      "note": "西晋都城。"
+    }
+  ],
+  "founders": [
+    {
+      "id": "sima-yan",
+      "note": "265 年代魏称帝，建西晋。"
+    }
+  ],
+  "topics": ["liangjin"],
+  "group": "weijin-nanbei",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "武帝纪、惠帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ],
+  "featuredPeople": ["sima-yan", "yang-hu", "du-yu", "wang-jun", "jia-nanfeng"],
+  "featuredEvents": ["jin-jian-guo", "jin-mie-wu-zhizhan", "baxia-zhiluan", "yongjia-zhiluan", "xijin-miwang"]
+}

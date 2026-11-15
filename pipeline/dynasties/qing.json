@@ -1,0 +1,16 @@
+{
+  "id": "qing",
+  "aliases": ["清朝", "大清"],
+  "summary": "从入关定鼎到清帝逊位，清朝历公元 1644—1912 年；康雍乾盛世、近代危机与变法革命首尾相接，帝制在此终结。",
+  "body": "本页按现有收录组织清代阅读。人物来自清代专题的编辑选取，帝后与满汉臣工并见；事件按朝代区间与显式推荐确定，清帝逊位以后归入民国，入关以前的后金史事按本站口径同属清。",
+  "capitals": [
+    { "name": "盛京", "note": "入关前都城，在今辽宁沈阳。" },
+    { "name": "北京", "note": "1644 年定鼎后的都城。" }
+  ],
+  "founders": [{ "id": "nu-er-ha-chi", "note": "1616 年建立后金，为清朝前身。" }],
+  "topics": ["qing"],
+  "group": "ming-qing",
+  "featuredPeople": ["nu-er-ha-chi", "kang-xi", "yong-zheng", "qian-long", "ci-xi"],
+  "featuredEvents": ["jiashen-zhibian", "sanfan-zhiluan", "yapian-zhanzheng", "jiawu-zhanzheng", "wuchang-qiyi"],
+  "sources": [{ "work": "清史稿", "part": "太祖本纪、食货志", "kind": "classic" }]
+}

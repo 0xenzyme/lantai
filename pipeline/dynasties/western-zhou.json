@@ -1,0 +1,23 @@
+{
+  "id": "western-zhou",
+  "summary": "从武王克商到幽王死于犬戎，西周约当公元前 1046—前 771 年；分封、宗法与礼乐构成此后八百年政治秩序的底版。",
+  "body": "本页按现有收录组织西周阅读。人物来自西周专题的编辑选取，以共和行政前后的王室与列国人物为主；事件按朝代区间与显式推荐确定，幽王覆亡为止，平王东迁以后归入春秋。",
+  "capitals": [
+    { "name": "镐京", "note": "西周都城，在今陕西西安西南。" },
+    { "name": "洛邑", "note": "成周，周公营建，在今河南洛阳。" }
+  ],
+  "topics": ["xizhou"],
+  "group": "pre-qin",
+  "featuredPeople": ["ji-hu", "shao-hu", "ji-jing", "ji-gongsheng", "ji-yijiu"],
+  "featuredEvents": [
+    "muye-zhizhan",
+    "zhou-fenfeng",
+    "zhou-gong-dong-zheng",
+    "gonghe-xingzheng",
+    "quanrong-gong-youwang"
+  ],
+  "sources": [
+    { "work": "史记", "part": "周本纪", "kind": "classic" },
+    { "work": "尚书", "part": "牧誓、康诰", "kind": "classic" }
+  ]
+}

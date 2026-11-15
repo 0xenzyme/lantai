@@ -1,0 +1,32 @@
+{
+  "id": "eastern-jin",
+  "summary": "从司马睿建康即位到刘裕代晋，东晋历公元 317—420 年；门阀政治、屡兴北伐与淝水之战构成偏安江左的主线。",
+  "body": "本页按现有收录组织东晋阅读。人物来自两晋十六国专题的编辑选取，门阀士族与北伐将帅在列；事件按朝代区间与显式推荐确定，刘裕代晋以后归入南北朝。",
+  "capitals": [
+    {
+      "name": "建康",
+      "note": "东晋都城，在今江苏南京。"
+    }
+  ],
+  "founders": [
+    {
+      "id": "sima-rui",
+      "note": "317 年即位建东晋，都建康。"
+    }
+  ],
+  "topics": ["liangjin"],
+  "group": "weijin-nanbei",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "元帝纪、恭帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "世说新语",
+      "kind": "classic"
+    }
+  ],
+  "featuredPeople": ["sima-rui", "wang-dao", "huan-wen", "xie-an", "xie-xuan", "wang-xizhi"],
+  "featuredEvents": ["simarui-dengji", "zuti-beifa", "gengxu-tuduan", "feishui-zhizhan", "liu-yu-dai-jin"]
+}

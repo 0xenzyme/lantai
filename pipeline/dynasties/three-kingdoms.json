@@ -1,0 +1,21 @@
+{
+  "id": "three-kingdoms",
+  "aliases": ["三国时期"],
+  "summary": "从曹丕代汉到孙皓降晋，魏蜀吴三分天下于公元 220—280 年；屯田、九品中正与连年征战并存，天下最终归于西晋。",
+  "body": "本页按现有收录组织三国阅读。人物来自三国专题的编辑选取，魏蜀吴三方君臣并见；事件按朝代区间与显式推荐确定，司马炎代魏以后归入西晋。",
+  "capitals": [
+    { "name": "洛阳", "note": "魏都。" },
+    { "name": "成都", "note": "蜀汉都城。" },
+    { "name": "建业", "note": "吴都，在今江苏南京。" }
+  ],
+  "founders": [
+    { "id": "cao-pi", "note": "220 年受禅称帝，国号魏。" },
+    { "id": "liu-bei", "note": "221 年称帝续汉，史称蜀汉。" },
+    { "id": "sun-quan", "note": "229 年称帝，国号吴。" }
+  ],
+  "topics": ["sanguo"],
+  "group": "weijin-nanbei",
+  "featuredPeople": ["cao-cao", "liu-bei", "sun-quan", "zhuge-liang", "sima-yi"],
+  "featuredEvents": ["caopi-shou-chan", "liubei-chengdi", "yiling-zhizhan", "sunquan-chengdi", "gaopingling-zhibian"],
+  "sources": [{ "work": "三国志", "part": "魏书文帝纪、蜀书先主传、吴书吴主传", "kind": "classic" }]
+}

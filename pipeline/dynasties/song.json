@@ -1,0 +1,19 @@
+{
+  "id": "song",
+  "aliases": ["宋朝"],
+  "summary": "从陈桥兵变到厓山之役，两宋历公元 960—1279 年；重文轻武、变法争论与辽夏金元的和战构成政治主线，市井文化空前繁荣。",
+  "body": "本页按现有收录组织宋代阅读。人物来自宋代专题的编辑选取，帝后、士大夫与将帅文人并见；事件按朝代区间与显式推荐确定，靖康前后分属北宋南宋，厓山以后归入元。",
+  "capitals": [
+    { "name": "东京开封府", "note": "北宋都城。" },
+    { "name": "临安府", "note": "南宋都城，在今浙江杭州。" }
+  ],
+  "founders": [{ "id": "zhao-kuangyin", "note": "960 年陈桥兵变代周建宋。" }],
+  "topics": ["song"],
+  "group": "song-liao-jin-yuan",
+  "featuredPeople": ["zhao-kuangyin", "wang-anshi", "sima-guang", "su-shi", "yue-fei"],
+  "featuredEvents": ["chenqiao-bingbian", "chanyuan-zhimeng", "xining-bianfa", "jingkang-zhibian", "shaoxing-heyi"],
+  "sources": [
+    { "work": "宋史", "part": "太祖纪、地理志", "kind": "classic" },
+    { "work": "续资治通鉴长编", "kind": "classic" }
+  ]
+}

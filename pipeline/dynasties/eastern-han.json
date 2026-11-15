@@ -1,0 +1,13 @@
+{
+  "id": "eastern-han",
+  "aliases": ["后汉"],
+  "summary": "从光武中兴到献帝禅位，东汉历公元 25—220 年；明章之治、外戚宦官交替专权与黄巾之乱构成由盛转衰的轨迹。",
+  "body": "本页按现有收录组织东汉阅读。人物来自东汉专题的编辑选取，以帝王后妃、云台功臣与边将文士为主；事件按朝代区间与显式推荐确定，曹丕受禅以后归入三国。",
+  "capitals": [{ "name": "洛阳", "note": "东汉都城。" }],
+  "founders": [{ "id": "liu-xiu", "note": "25 年称帝，史称光武中兴。" }],
+  "topics": ["donghan"],
+  "group": "qin-han",
+  "featuredPeople": ["liu-xiu", "ma-yuan", "ban-chao", "deng-sui", "dou-xian"],
+  "featuredEvents": ["guangwu-dengji", "yanran-zhizhan", "cailun-zhizao", "danggu-zhi-huo", "huangjin-zhi-luan"],
+  "sources": [{ "work": "后汉书", "part": "光武帝纪、郡国志", "kind": "classic" }]
+}

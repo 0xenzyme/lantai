@@ -1,0 +1,14 @@
+{
+  "id": "spring-autumn",
+  "aliases": ["春秋时期"],
+  "summary": "从平王东迁到三家分晋前夕，春秋约当公元前 770—前 476 年；周室衰微，齐晋楚秦吴越交替称霸，士人与诸子在乱世中登场。",
+  "body": "本页按现有收录组织春秋阅读。人物来自春秋与儒家两个专题的编辑选取，周王、霸主卿大夫与孔子及弟子并见；事件按朝代区间与显式推荐确定，三家分晋以后归入战国。",
+  "topics": ["chunqiu", "rujia"],
+  "group": "pre-qin",
+  "featuredPeople": ["jiang-xiaobai", "guan-zhong", "ji-chonger", "mi-lv", "kong-zi"],
+  "featuredEvents": ["pingwang-dongqian", "qihuangong-jiwei", "chengpu-zhizhan", "chuzhuang-wending", "chushuimu"],
+  "sources": [
+    { "work": "春秋左传", "kind": "classic" },
+    { "work": "史记", "part": "齐太公世家、晋世家", "kind": "classic" }
+  ]
+}

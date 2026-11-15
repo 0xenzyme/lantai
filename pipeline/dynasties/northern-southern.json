@@ -1,0 +1,19 @@
+{
+  "id": "northern-southern",
+  "aliases": ["南北朝时期"],
+  "summary": "从刘裕代晋到隋灭陈，南北朝历公元 420—589 年；北魏改制、六镇之乱与侯景之乱交错，南北由对峙走向重归统一。",
+  "body": "本页按现有收录组织南北朝阅读。人物来自南朝北朝专题的编辑选取，南北帝王、权将与文人学者并见；事件按朝代区间与显式推荐确定，隋灭陈以后归入隋朝。",
+  "capitals": [
+    { "name": "建康", "note": "南朝都城，在今江苏南京。" },
+    { "name": "平城", "note": "北魏早期都城，在今山西大同。" },
+    { "name": "洛阳", "note": "北魏孝文帝迁都后的都城。" }
+  ],
+  "topics": ["nanbei"],
+  "group": "weijin-nanbei",
+  "featuredPeople": ["tuoba-tao", "feng-taihou", "yuan-hong", "xiao-yan", "yuwen-yong"],
+  "featuredEvents": ["beiwei-tongyi-beifang", "taihe-gaizhi", "xiaowen-qiandu", "zhongli-zhizhan", "houjing-zhi-luan"],
+  "sources": [
+    { "work": "魏书", "part": "高祖纪、地形志", "kind": "classic" },
+    { "work": "南史", "part": "梁本纪", "kind": "classic" }
+  ]
+}

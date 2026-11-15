@@ -1,0 +1,28 @@
+{
+  "id": "shiliuguo",
+  "aliases": ["五胡十六国"],
+  "summary": "从刘渊建汉到北魏统一北方，胡族政权在公元 304—439 年间更迭于华北；胡汉杂糅的制度与文化为北朝奠定基础。",
+  "body": "本页按现有收录组织十六国阅读。人物来自两晋十六国专题的编辑选取，胡族君主与汉人士臣并见；事件按朝代区间与显式推荐确定，北魏统一北方以后归入南北朝。",
+  "founders": [
+    {
+      "id": "liu-yuan",
+      "note": "304 年建汉国（前赵），开十六国局面。"
+    }
+  ],
+  "topics": ["liangjin"],
+  "group": "weijin-nanbei",
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "载记",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ],
+  "featuredPeople": ["liu-yuan", "shi-le", "fu-jian", "murong-ke", "murong-chui", "yao-chang"],
+  "featuredEvents": ["liu-yuan-jian-han", "yongjia-zhiluan", "xijin-miwang"]
+}
