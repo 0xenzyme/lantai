@@ -2,7 +2,7 @@
 id: bao-zhao
 name: 鲍照
 display: 鲍照
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 邓琬传
     kind: classic
 ---
+
+东海人，少好学，有文才。尝为临海王子顼前军参军。其乐府诗雄健，杜甫诗称「俊逸鲍参军」。泰始二年，荆州兵乱，死于军中。

@@ -2,7 +2,7 @@
 id: hulv-jin
 name: 斛律金
 display: 斛律金
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -27,3 +27,5 @@ sources:
     part: 斛律金传
     kind: classic
 ---
+
+敕勒部人，斛律氏。少善骑射，以勇健从高欢。邙山之役，欢欲退，金亲歌舞《敕勒歌》，慷慨泣下，军以复振。齐受禅，封咸阳王。天统三年薨，年八十。

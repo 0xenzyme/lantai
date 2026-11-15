@@ -2,7 +2,7 @@
 id: pugu-huai-en
 name: 仆固怀恩
 display: 仆固怀恩
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 765
 deathAccuracy: approx
 deathNote: 永泰元年（765）诱合诸蕃入寇，以该年系卒，非寿数明载。 — raw/唐/新唐書/卷224上.md:47
+title: 朔方名将，晚节引蕃
 sources:
   - work: 新唐书
     part: 卷224上·叛臣上
     kind: classic
 ---
+
+仆固怀恩，铁勒仆骨部人，世袭金微都督。历事王忠嗣、安思顺。安禄山反，从郭子仪、李光弼转战，两收京师；又从讨史朝义，河北悉平，授朔方节度使。以与辛云京、骆奉先有隙，上书自诉，遂有贰心。永泰元年，纠合诸蕃入寇，众号二十万。会疾作，卒于灵武。

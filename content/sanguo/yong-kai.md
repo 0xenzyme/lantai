@@ -2,7 +2,7 @@
 id: yong-kai
 name: 雍闿
 display: 雍闿
-profile: brief
+profile: full
 gender: male
 polity:
   - shu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 225
 deathAccuracy: disputed
 deathNote: 卒年有异说：通鉴系「亮由越巂入，斩雍闿及高定」于建兴三年（225）南征之役，他书系年不同。取 225，不取一为精确。 raw/通代/資治通鑑/卷070.md:103
+title: 益州大姓，南中叛蜀
 sources:
   - work: 资治通鉴
     part: 卷70 魏纪二
     kind: classic
 ---
+
+雍闿，益州郡大姓。先主新丧于永安，闿杀太守正昂，又执太守张裔送于吴，吴遥署为永昌太守。使郡人孟获诱扇诸夷，牂柯太守朱褒、越巂夷王高定皆叛应之。诸葛亮以新遭大丧，抚而不讨。建兴三年，亮率众南征，闿败死。

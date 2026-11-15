@@ -2,7 +2,7 @@
 id: yuan-yong
 name: 元雍
 display: 元雍
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 高阳王雍传
     kind: classic
 ---
+
+高阳王雍，字思穆，献文帝之子。少倜傥不恒，高祖曰「吾亦未能测此儿之深浅」。太和九年封颍川王，改封高阳。历相州刺史、司州牧、司空、太尉。世宗崩，肃宗幼年，雍属尊望重，入居西柏堂，省决庶政。灵太后临朝，进位丞相。尔朱荣入洛，于河阴遇害。

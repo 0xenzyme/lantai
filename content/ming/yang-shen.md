@@ -2,7 +2,7 @@
 id: yang-shen
 name: 杨慎
 display: 杨慎
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 本传作「嘉靖三十八年七月卒，年七十有二」`raw/明/明史/卷192.md:22`；虚岁上推，生年约1488。同传「年二十四，舉正德六年殿試第一」上推亦合。
 death: 1559
 deathAccuracy: exact
+title: 状元谪滇，明世著述第一
 sources:
   - work: 明史
     part: 卷192·杨慎传
     kind: classic
 ---
+
+字用修，新都人，少师廷和子。年二十四，举正德六年殿试第一，授翰林修撰。嘉靖三年，帝召为翰林学士，慎偕同列三十六人上言争之，不得命，复偕廷臣伏左顺门力谏，帝震怒，廷杖之，谪戍云南永昌卫。既投荒多暇，书无所不览，记诵之博、著作之富，推明世第一。

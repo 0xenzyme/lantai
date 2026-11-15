@@ -2,7 +2,7 @@
 id: qin-chenggong
 name: 秦成公
 display: 秦成公
-profile: brief
+profile: full
 gender: male
 polity:
   - qin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -660
 deathAccuracy: exact
 deathNote: 史记·秦本纪「成公立四年卒」。宣公卒前664，四年得前660。
+title: 秦伯，弟穆公立
 sources:
   - work: 史记
     part: 秦本纪
     kind: classic
 ---
+
+秦伯，宣公之弟。在位四年卒。子七人莫能立，诸大夫立其弟任好，是为穆公。秦之伯，自穆公始，成公之卒实为之端。

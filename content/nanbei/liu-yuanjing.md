@@ -2,7 +2,7 @@
 id: liu-yuanjing
 name: 柳元景
 display: 柳元景
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 柳元景传
     kind: classic
 ---
+
+河东解人，以武力进。元嘉二十七年北伐，为西路都督，出熊耳山，克弘农、陕城，威震关中。孝武入讨元凶，元景首赞其谋。永光元年，与前废帝政争，与刘义恭同诛，下车受戮，容色恬然，年六十。

@@ -2,7 +2,7 @@
 id: wang-shizhen-qing
 name: 王士禛
 display: 王士禛
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -13,6 +13,7 @@ birthAccuracy: unknown
 death: 1711
 deathAccuracy: exact
 deathNote: 清史稿·卷266·列传·王士禛：康熙三十七年迁左都御史，迁刑部尚书，四十三年坐王五、吴谦狱罢，四十九年诏复原职，「五十年，卒」。上文历康熙三十七、四十三、四十九年，此「五十年」即康熙五十年，为 1711 年；传不载享年，生年阙。本传末又记其初名士禛，卒后避世宗讳追改士正，乾隆三十年追谥文简，三十九年改定为士禎。
+title: 清初诗坛盟主，神韵说
 aliases:
   - 王士禎
   - 王士祯
@@ -27,3 +28,5 @@ sources:
     part: 卷484·文苑传·王士禄
     kind: classic
 ---
+
+山东新城人，字贻上，号阮亭，又号渔洋山人。顺治十五年进士，历国子监祭酒、左都御史、刑部尚书。论诗主神韵，海内奉为宗盟。康熙五十年卒，追谥文简。

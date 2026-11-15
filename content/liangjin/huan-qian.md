@@ -2,15 +2,18 @@
 id: huan-qian
 name: 桓谦
 display: 桓谦
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 410
 deathAccuracy: exact
+title: 桓冲之子，桓楚执政
 sources:
   - work: 资治通鉴
     part: 卷115·晋纪三十七·义熙六年
     kind: classic
 ---
+
+字敬祖，桓冲之子，以父功封宜阳县侯。桓玄篡位，谦预机要。玄败，与桓振复陷江陵，劫迁乘舆，振肆虐，谦保护乘舆有功。振败，奔后秦姚兴。谯纵称藩于秦，表请谦东下，于道占募，百姓感冲遗惠，投者二万，卒为刘道规所斩。

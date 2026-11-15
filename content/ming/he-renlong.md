@@ -2,7 +2,7 @@
 id: he-renlong
 name: 贺人龙
 display: 贺人龙
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1642
 deathAccuracy: approx
 deathNote: 本传作「十五年正月，總督汪喬年出關擊賊，人龍及鄭嘉棟、牛成虎從」`raw/明/明史/卷273.md:91`；卒于崇祯十五年（1642），此系近似，非寿数。
+title: 米脂起家的剿贼总兵
 sources:
   - work: 明史
     part: 卷273·左良玉传附贺人龙
     kind: classic
 ---
+
+米脂人。初以守备隶洪承畴麾下，从承畴、陈奇瑜、孙传庭转战秦晋，屡破贼。十三年与左良玉大破贼玛瑙山。然不奉约束，新蔡、襄城二役皆先走。孙传庭督师陕西，密与巡抚张尔忠谋，以五月朔召至，数其罪斩之。

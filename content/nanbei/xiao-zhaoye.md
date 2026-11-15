@@ -2,7 +2,7 @@
 id: xiao-zhaoye
 name: 萧昭业
 display: 郁林王萧昭业
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 郁林王纪
     kind: classic
 ---
+
+齐武帝之孙，文惠太子长懋之子。隆昌元年即帝位，年二十一。以遗诏委政于西昌侯鸾，而自与左右狎昵，赏赐无度，府库为空。鸾专政，昭业思有异图，事泄，为鸾所废，出西弄杀之，年二十二。在位一年，改元隆昌。

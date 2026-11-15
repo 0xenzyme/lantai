@@ -2,7 +2,7 @@
 id: zi-liang
 name: 子良
 display: 子良
-profile: brief
+profile: full
 gender: male
 polity:
   - zheng
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -605
 deathAccuracy: approx
 deathNote: 卒年不详，取前605年为活动下限（非寿数）。依据春秋左传正义·宣公四年「鄭人立子良。（【注】穆公庶子。）」（raw/春秋/春秋左傳正義/卷21.md:272）。
+title: 郑穆庶子，让立襄公
 sources:
   - work: 春秋左传正义
     part: 宣公四年
     kind: classic
 ---
+
+郑穆公之庶子，名去疾。宣公四年，灵公见弒，郑人立子良。子良辞曰「以贤，则去疾不足；以顺，则公子坚长」，乃立襄公。襄公将尽去穆氏，子良曰「穆氏宜存，则固原也；若将亡之，则亦皆亡」，乃舍之，皆为大夫。

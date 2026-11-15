@@ -2,15 +2,18 @@
 id: bu-furen
 name: 步夫人
 display: 步夫人（追赠吴皇后）
-profile: brief
+profile: full
 gender: female
 polity:
   - wu
 birthAccuracy: unknown
 death: 238
 deathAccuracy: exact
+title: 孙权宠妃，追赠皇后
 sources:
   - work: 三国志
     part: 吴书二 吴主传
     kind: classic
 ---
+
+步氏，临淮淮阴人，与丞相步骘同族。汉末，其母携之徙庐江，庐江为孙策所破，遂东渡江，以美丽得幸于孙权，宠冠后庭，生二女鲁班、鲁育。性不妒忌，多所推近，久见爱待。权为王及帝，意欲以为后，而群臣议在徐氏，权依违十余年，宫内皆称皇后。赤乌元年薨，追赠印绶为皇后，葬蒋陵。

@@ -2,7 +2,7 @@
 id: yue-zhong-qi
 name: 岳钟琪
 display: 岳钟琪
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 1754
 deathAccuracy: exact
 deathNote: 清史稿·卷296·岳钟琪传：乾隆十九年重庆民陈琨为乱，钟琪力疾亲往捕治，还，卒于资州，赐祭葬，谥襄勤。卷11·高宗本纪：十九年三月，四川提督岳钟琪卒。宁远大将军、川陕总督，平青海、定西藏、入金川勒乌围受降。
+title: 三朝武臣，定青海平金川
 aliases:
   - 威信公
 sources:
@@ -22,3 +23,5 @@ sources:
     part: 卷11·高宗本纪
     kind: classic
 ---
+
+字东美，四川成都人。康熙末授四川提督。雍正初从年羹尧平青海，授三等公，赐黄带，寻督川陕，为宁远大将军讨准噶尔。十年夺官爵拘禁。乾隆十三年复起，从傅恒定大金川，莎罗奔出降，复封三等公，赐号威信。十九年卒于资州，谥襄勤。

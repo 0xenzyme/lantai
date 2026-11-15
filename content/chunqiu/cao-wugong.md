@@ -2,7 +2,7 @@
 id: cao-wugong
 name: 姬勝
 display: 曹武公
-profile: brief
+profile: full
 gender: male
 polity:
   - cao-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -526
 deathAccuracy: approx
 deathNote: 史记·管蔡世家「二十七年，武公卒，子平公頃須立」。按经·昭公十八年曹伯须卒（前524）上推，武公卒当在前527—前526；试跑名单取前526，作约年。
+title: 曹侯，在位二十七年
 sources:
   - work: 史记
     part: 管蔡世家
@@ -18,3 +19,5 @@ sources:
     part: 昭公十八年
     kind: classic
 ---
+
+曹武公，名胜。在位二十七年卒，子平公须立。会晋昭公以后，六卿之势已成，诸侯之政皆决于晋，曹惟趋避以图存。

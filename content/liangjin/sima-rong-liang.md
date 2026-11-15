@@ -2,15 +2,18 @@
 id: sima-rong-liang
 name: 司马肜
 display: 司马肜
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 301
 deathAccuracy: exact
+title: 西晋梁孝王，进位太宰
 sources:
   - work: 晋书
     part: 卷038·梁孝王肜
     kind: classic
 ---
+
+字子徽，宣帝之子，清修恭慎。武帝践祚，封梁王。历征西大将军，镇关中，督周处、卢播伐氐贼齐万年于六陌，与处有隙，促令进而绝其后，处见害，朝廷尤之。永康初共赵王伦废贾后，进位太宰。永康二年薨，博士蔡克议谥曰灵。

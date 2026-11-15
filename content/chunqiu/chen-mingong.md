@@ -2,7 +2,7 @@
 id: chen-mingong
 name: 媯越
 display: 陈湣公
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -478
 deathAccuracy: exact
 deathNote: 左传·哀公十七年（前478）楚惠王北伐灭陈；史记·陈杞世家「殺陳湣公，遂滅陳」而系于是岁孔子卒（前479）。两说从经传取前478。
+title: 陈末主，楚灭陈
 sources:
   - work: 春秋左传
     part: 哀公十七年
@@ -18,3 +19,5 @@ sources:
     part: 陈杞世家
     kind: classic
 ---
+
+陈湣公，名越，陈之末主。吴既破楚入郢，陈事吴，故楚惠王怨陈。哀公十七年，楚北伐，灭陈，杀湣公，陈遂绝祀。

@@ -2,7 +2,7 @@
 id: chen-shouqi
 name: 陈寿祺
 display: 陈寿祺
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1771
 birthAccuracy: exact
 death: 1834
 deathAccuracy: exact
+title: 嘉庆朝经学家
 sources:
   - work: 清史稿
     part: 卷482·儒林传三·陈寿祺
     kind: classic
 ---
+
+字恭甫，福建闽县人。嘉庆四年进士，选庶吉士，授编修。会试出朱珪、阮元门，专为汉儒之学，阐明伏生遗书，著《尚书大传笺》三卷。性至孝，以不得迎养二亲，告归不出。

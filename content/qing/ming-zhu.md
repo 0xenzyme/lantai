@@ -2,7 +2,7 @@
 id: ming-zhu
 name: 明珠
 display: 明珠
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -13,8 +13,11 @@ birthAccuracy: unknown
 death: 1708
 deathAccuracy: exact
 deathNote: 清史稿·卷269·明珠传："自罢政后……为内大臣者二十年，竟不复柄用。四十七年，卒"，年号承上文回溯至康熙（康熙四十七年）。武英殿大学士，主撤三藩。
+title: 康熙朝武英殿大学士
 sources:
   - work: 清史稿
     part: 卷269·明珠传
     kind: classic
 ---
+
+纳喇氏，满洲正黄旗人。康熙中官至武英殿大学士。力主撤三藩，荐施琅取台湾。后与索额图各树党，罢相，以内大臣终。康熙四十七年卒。

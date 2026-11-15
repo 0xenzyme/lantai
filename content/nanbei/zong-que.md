@@ -2,7 +2,7 @@
 id: zong-que
 name: 宗悫
 display: 宗悫
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 461
 deathAccuracy: approx
 deathNote: 卒年作 461 之后，取活动下限，非寿数。据「卒，贈征西將軍，諡曰肅侯」raw/南朝/宋書/卷76.md:38
+title: 刘宋名将，乘风破浪
 sources:
   - work: 宋书
     part: 卷076·宗悫传
     kind: classic
 ---
+
+字元幹，南阳人。叔父炳问其志，悫曰「愿乘长风破万里浪」。年十四，挺身拒贼，贼十余人皆披散。元嘉二十二年伐林邑，自奋请行，除振武将军。林邑以具装被象，悫制狮子形与象相御，象果惊奔，遂克林邑。后从沈庆之讨群蛮，先登陷阵。卒，赠征西将军，谥肃侯。

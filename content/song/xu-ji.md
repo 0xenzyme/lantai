@@ -2,7 +2,7 @@
 id: xu-ji
 name: 徐积
 display: 徐积
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1116
 deathAccuracy: approx
 deathNote: 此年为可见活动年（活动年），非卒年、非寿数。本传先书卒、年七十六，政和六年赐谥「节孝处士」（raw/宋/宋史/卷459.md:144）。此年为赐谥年，其人已卒。台账作 1086，与政和六年不合，不采。
+title: 节孝处士徐仲车
 sources:
   - work: 宋史
     part: 卓行
     kind: classic
 ---
+
+字仲车，楚州山阳人。三岁父死，旦旦求之甚哀；事母至孝，母亡，庐墓三年，衰绖不去体。以父名石，终身不用石器。从胡瑗学，元祐中为楚州教授。卒，年七十六，政和六年赐谥「节孝处士」。

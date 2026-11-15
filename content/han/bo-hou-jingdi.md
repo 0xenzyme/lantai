@@ -2,7 +2,7 @@
 id: bo-hou-jingdi
 name: 薄氏
 display: 孝景薄皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -151
 deathAccuracy: approx
 deathNote: 据《汉书·外戚传上》「立六年，薄太后崩，皇后廢。廢後四年薨」：薄太后崩于景帝前二年（前155），皇后随之被废，废后四年薨，推得约前151；原文未记确年，作 approx。（原文：raw/西汉/漢書/卷097上-外戚傳.md:61）
+title: 薄太后家女，无子无宠而废
 sources:
   - work: 汉书
     part: 外戚传上·卷097上
     kind: classic
 ---
+
+薄氏，文帝薄太后家女。景帝为太子时，薄太后取以为太子妃。帝即位，立为皇后，无子无宠。立六年，薄太后崩，皇后废。废后四年薨，葬长安城东平望亭南。

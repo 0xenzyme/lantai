@@ -2,13 +2,14 @@
 id: xie-hun
 name: 谢混
 display: 谢混
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 412
 deathAccuracy: exact
+title: 东晋尚书仆射，尚晋陵公主
 sources:
   - work: 晋书
     part: 卷010·安帝纪
@@ -17,3 +18,5 @@ sources:
     part: 卷079·谢安传附孙混
     kind: classic
 ---
+
+字叔源，谢琰之子。少有美誉，善属文。孝武帝为晋陵公主求婿，王珣荐之，遂尚主，袭父爵。历中书令、中领军、尚书左仆射，领选。桓玄欲以安宅为营，混引召伯甘棠之德折之，玄惭而止。刘毅诛，混以党与死，国除。

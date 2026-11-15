@@ -2,15 +2,18 @@
 id: han-wang-xin
 name: 韩王信
 display: 韩王信
-profile: brief
+profile: full
 gender: male
 polity:
   - han
 birthAccuracy: unknown
 death: -196
 deathAccuracy: exact
+title: 降匈奴的初代韩王
 sources:
   - work: 汉书
     part: 高帝纪·卷001
     kind: classic
 ---
+
+韩王信，故韩襄王孽孙。沛公使张良以韩司徒徇韩地，得信为韩将。汉二年，略定韩地，立为韩王。六年，徙以备胡，都晋阳。匈奴冒顿大入围信，信数使使胡求和解，汉疑其有二心，赐书责让，信恐诛，以马邑降胡。后为匈奴将兵击边，十一年春，柴武斩信于参合。

@@ -2,7 +2,7 @@
 id: xiao-yi-yuzhang
 name: 萧嶷
 display: 萧嶷
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 豫章文献王嶷传
     kind: classic
 ---
+
+齐武帝之同母弟，封豫章王。历荆、湘、扬诸州刺史，皆有声称。性宽仁俭约，不营私贿，武帝所亲重。后入朝辅政，小心持慎，不自骄贵。永明十年薨，年四十九，武帝深加哀恸。

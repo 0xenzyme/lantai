@@ -2,13 +2,14 @@
 id: su-ting
 name: 苏颋
 display: 苏颋
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 727
 deathAccuracy: exact
+title: 开元宰相，与宋璟同政
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -17,3 +18,5 @@ sources:
     part: 卷8·本纪第八 玄宗上
     kind: classic
 ---
+
+苏颋，苏瑰之子。少有俊才，一览千言，弱冠举进士。长安中，奉诏按覆来俊臣旧狱，多所申雪。迁中书舍人，与父同掌枢密；李峤叹曰：舍人思如涌泉，吾所不及。开元四年，同紫微黄门平章事，与宋璟同知政事。八年罢，出知益州。后从驾东封，卒年五十八，谥文宪。

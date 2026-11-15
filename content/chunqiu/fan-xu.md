@@ -2,7 +2,7 @@
 id: fan-xu
 name: 樊须
 display: 樊迟
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -484
 deathAccuracy: approx
 deathNote: 卒年不详。春秋左传正义·哀公十一年「冉求帥左師，管周父御，樊遲為右」，行首「十一年，春，齊為鄎故」（raw/春秋/春秋左傳正義/卷58.md:270）。哀公十一年本库艾陵之战系前484。取此年为可见活动年，非寿数。
+title: 孔子弟子，樊迟
 aliases:
   - 子迟
 sources:
@@ -17,3 +18,5 @@ sources:
     part: 哀公十一年
     kind: classic
 ---
+
+樊须，字子迟，孔子弟子。尝问仁，问知，又请学稼，孔子曰小人哉樊须也。哀公十一年，从冉有御齐师于艾陵。

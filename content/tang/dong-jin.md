@@ -2,13 +2,14 @@
 id: dong-jin
 name: 董晋
 display: 董晋
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 799
 deathAccuracy: exact
+title: 德宗宰相，单骑赴汴
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -17,3 +18,5 @@ sources:
     part: 卷13·本纪第十三 德宗下
     kind: classic
 ---
+
+字混成，河中虞乡人。擢明经。大历中送崇徽公主于回纥，为判官，折其市马邀直之请。李怀光反，说以归顺。贞元五年同中书门下平章事。后为宣武节度使，不召兵，独赴汴，禽邓惟恭，军粗安。卒，年七十六，谥曰恭惠。

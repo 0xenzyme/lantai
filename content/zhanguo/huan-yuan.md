@@ -2,7 +2,7 @@
 id: huan-yuan
 name: 环渊
 display: 环渊
-profile: brief
+profile: full
 gender: male
 polity:
   - qi
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -301
 deathAccuracy: approx
 deathNote: 生卒不详，取前301年为活动年（非寿数）。据史记·孟子荀卿列传（raw/先秦-西汉/史記/卷074-孟子荀卿列傳.md:36）「慎到，趙人。田駢、接子，齊人。環淵，楚人。」。史记称楚人。叙事在齐宣王稷下，词表无单独楚人游学 id，标齐。此句无绝对年，年份从台账。
+title: 楚人，稷下学黄老
 sources:
   - work: 史记
     part: 孟子荀卿列传
     kind: classic
 ---
+
+楚人，游于齐之稷下，与慎到、田骈、接子之徒皆学黄老道德之术，因发明序其指意。环渊著书上下篇。司马迁以淳于髡、慎到、环渊、接子、田骈、邹奭并称稷下先生，各著书言治乱之事，以干世主。

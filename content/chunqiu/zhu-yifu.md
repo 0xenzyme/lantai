@@ -2,7 +2,7 @@
 id: zhu-yifu
 name: 邾仪父
 display: 邾仪父
-profile: brief
+profile: full
 gender: male
 polity:
   - zhu-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -722
 deathAccuracy: approx
 deathNote: 春秋左传·隐公元年（前722）「三月，公及邾儀父盟于蔑，邾子克也」（raw/春秋/春秋左傳正義/卷01.md:89）。活动年，非寿数。只见隐公元年盟于蔑，不书卒。
+title: 邾始见春秋之君
 sources:
   - work: 春秋左传
     part: 隐公元年
     kind: classic
 ---
+
+邾之国君，名克，字仪父。隐公元年三月，公及邾仪父盟于蔑，邾于是始见于《春秋》。隐公七年秋，公伐邾。邾、鲁比邻，盟歃未久而兵戎寻之，终春秋之世，邾鲁之役相寻焉。

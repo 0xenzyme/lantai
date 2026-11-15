@@ -2,15 +2,18 @@
 id: niu-fu
 name: 牛富
 display: 牛富
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1273
 deathAccuracy: exact
+title: 樊城死节，加赠承宣使
 sources:
   - work: 宋史
     part: 度宗本纪
     kind: classic
 ---
+
+宋末将，为马司统制，守樊城。咸淳九年正月，樊城破，富死之，范天顺亦死。诏褒襄城死节，赠富金州观察使，官其二子承信郎，赐土田、金币恤其家。六月，陈宜中言「樊城之溃，牛富死节尤著」，加赠宁远军承宣使，仍赐恤其家。

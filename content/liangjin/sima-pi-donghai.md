@@ -2,15 +2,18 @@
 id: sima-pi-donghai
 name: 司马毗
 display: 司马毗
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 311
 deathAccuracy: exact
+title: 东海王越世子，洧仓遇害
 sources:
   - work: 晋书
     part: 卷059·东海王越传附世子毗
     kind: classic
 ---
+
+东海王越世子，为镇军将军。越忧石勒侵逼，戎服请行，留毗与龙驤将军李惲等守卫京都。越卒于项，何伦、李惲奉毗及越妃裴氏出自京邑，从者倾城，所经暴掠，至洧仓为勒所败，毗与宗室三十六王俱没于贼。

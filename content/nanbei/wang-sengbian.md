@@ -2,7 +2,7 @@
 id: wang-sengbian
 name: 王僧辩
 display: 王僧辩
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 王僧辩传
     kind: classic
 ---
+
+太原祁人。梁元帝时为大将军，总中外之兵。侯景之乱，与陈霸先东下平景，京师以复。元帝遇害，复与霸先奉敬帝。时北齐欲返贞阳侯渊明，僧辩许之，霸先以为不可，惧而袭之于石头城，僧辩为所擒，其夜斩之。

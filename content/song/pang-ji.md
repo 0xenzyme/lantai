@@ -2,7 +2,7 @@
 id: pang-ji
 name: 庞籍
 display: 庞籍
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1051
 deathAccuracy: approx
 deathNote: 此年为可见活动年（拜相年），非卒年、非寿数：台账无卒年可引，唯《宋史·宰輔二》載皇祐三年（1051）十月庚子龐籍自樞密使、檢校太傅依前戶部侍郎加同平章事、昭文館大學士、監修國史兼譯經使（raw/宋/宋史/卷211.md:34），據此繫 1051 作 approx。
+title: 北宋宰相，延州御元昊
 sources:
   - work: 宋史
     part: 宰輔二
     kind: classic
 ---
+
+字醇之，单州成武人。章献遗诰令章惠太后议军国事，请取垂帘仪制尽燔之；尚美人称教旨免工人市租，请杖内侍。元昊反，知延州，筑十一城，复所亡地。侬智高反，力主专任狄青。进同中书门下平章事。晚以太子太保致仕，封颍国公，谥庄敏。

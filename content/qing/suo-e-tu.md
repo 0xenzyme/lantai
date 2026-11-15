@@ -2,7 +2,7 @@
 id: suo-e-tu
 name: 索额图
 display: 索额图
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -13,8 +13,11 @@ birthAccuracy: unknown
 death: 1703
 deathAccuracy: exact
 deathNote: 清史稿·卷269·索额图传：康熙四十二年五月，上命执索额图交宗人府拘禁，"寻索额图死于幽所"（死于禁所）。索尼第三子，保和殿大学士，曾充尼布楚议界大臣。
+title: 保和殿大学士，尼布楚议界
 sources:
   - work: 清史稿
     part: 卷269·索额图传
     kind: classic
 ---
+
+赫舍里氏，索尼第二子。康熙初袭一等公，官保和殿大学士。二十八年，充议界大臣，与俄罗斯订尼布楚约。后以干预储贰获罪，拘禁，死幽所。

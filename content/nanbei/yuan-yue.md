@@ -2,13 +2,14 @@
 id: yuan-yue
 name: 元悦
 display: 汝南王元悦
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
 birthAccuracy: unknown
 death: 532
 deathAccuracy: exact
+title: 北魏汝南王，性不伦，奔梁
 sources:
   - work: 魏书
     part: 卷011·废出三帝纪
@@ -17,3 +18,5 @@ sources:
     part: 卷022·孝文五王列传
     kind: classic
 ---
+
+汝南王悦，高祖之子。好读佛经，览书史，为性不伦，倜傥难测。清河王怿为元叉所害，悦了无仇恨之意，以桑落酒候伺之，尽私佞，叉以悦为侍中、太尉。及闻尔朱荣肆毒于河阴，遂南奔萧衍，衍立为魏主。齐献武示意欲立之，悦清狂如故，乃止。出帝初除大司马，卒。

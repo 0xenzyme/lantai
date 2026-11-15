@@ -2,7 +2,7 @@
 id: wang-debang
 name: 王德榜
 display: 王德榜
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1893
 deathAccuracy: approx
 deathNote: 本传不载生年与寿数。清史稿卷459作「十五年，授贵州布政使。十九年，卒，恤如制」；十九年为光绪十九年，即 1893，证据只及年，故标 approx。raw/清/清史稿/卷459.md:73
+title: 定边军统领，复谅山
 sources:
   - work: 清史稿
     part: 卷459·王德榜传
     kind: classic
 ---
+
+湖南江华人，字朗青。毁家起乡兵，隶左宗棠部下，官至福建按察使、布政使。光绪十年募定边军赴越，与诸军复谅山。后授贵州布政使，十九年卒。

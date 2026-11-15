@@ -2,7 +2,7 @@
 id: liu-zhi-1030
 name: 刘挚
 display: 刘挚
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -11,6 +11,7 @@ birthAccuracy: approx
 birthNote: 生年无明载。《宋史·卷340》绍圣四年贬新州，数月以疾卒，年六十八（raw/宋/宋史/卷340.md:122），虚岁上推约生于 1030，非明记。
 death: 1097
 deathAccuracy: exact
+title: 河朔三令，力陈新法十害
 sources:
   - work: 宋史
     part: 宰辅三
@@ -19,3 +20,5 @@ sources:
     part: 列传第九十九
     kind: classic
 ---
+
+字莘老，永静东光人，十岁而孤。嘉祐中擢甲科，为冀州南宫令，请裁绢绵折税钱，包拯奏从其议，民欢呼至泣下，曰「刘长官活我」，号「河朔三令」。安石器之，擢检正中书礼房；为监察御史，力陈助役十害。绍圣四年贬新州，数月卒，年六十八。

@@ -2,7 +2,7 @@
 id: xiao-zhengde
 name: 萧正德
 display: 萧正德
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 临贺王正德传
     kind: classic
 ---
+
+梁武帝之侄，封临贺王。少养于宫中，意望储贰；及武帝自有子，遂怀怨望，奔魏不遇，复归。侯景之乱，正德为言京师虚实，开门纳景。景既据台城，闻其有怨言，矫诏杀之。

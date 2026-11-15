@@ -2,7 +2,7 @@
 id: zhao-yingqi
 name: 赵婴齐
 display: 赵婴齐
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -587
 deathAccuracy: approx
 deathNote: 卒年不详，取前587年为活动下限（非寿数）。依据春秋左传正义·成公四年「晉趙嬰通於趙莊姬」（raw/春秋/春秋左傳正義/卷26.md:122）。
+title: 晋大夫，通于庄姬
 sources:
   - work: 春秋左传正义
     part: 成公四年
     kind: classic
 ---
+
+赵衰之子，盾之弟。成公四年，通于赵庄姬。五年，兄原同、屏括放之于齐，婴曰「我在，故栾氏不作；我亡，吾二昆其忧哉」，弗听；又梦天使谓之，问诸士贞伯，不识。八年，庄姬以婴亡故，谮原、屏，晋卒讨同、括。

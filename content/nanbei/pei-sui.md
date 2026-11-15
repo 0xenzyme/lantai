@@ -2,7 +2,7 @@
 id: pei-sui
 name: 裴邃
 display: 裴邃
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 裴邃传
     kind: classic
 ---
+
+河东闻喜人。仕梁，为北梁、秦二州刺史。普通四年，帅诸军北伐，连克狄丘、甓城、黎浆，所过皆下，淮、肥之人皆惮之。六年，进围寿阳，卒于军中，谥曰烈。

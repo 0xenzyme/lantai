@@ -2,7 +2,7 @@
 id: gao-shengtai
 name: 高升泰
 display: 高升泰
-profile: brief
+profile: full
 gender: male
 polity:
   - dali
@@ -15,3 +15,5 @@ sources:
     part: 大理国
     kind: classic
 ---
+
+高智升之子，嗣为鄯阐侯。段正明禅位，升泰自立，改国号大中国。在位二年，临终命还政段氏，立正淳，后理之国始于此。

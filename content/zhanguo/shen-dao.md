@@ -2,7 +2,7 @@
 id: shen-dao
 name: 慎到
 display: 慎到
-profile: brief
+profile: full
 gender: male
 polity:
   - qi
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -301
 deathAccuracy: approx
 deathNote: 生卒不详，取前301年为活动年（非寿数）。据史记·田敬仲完世家（raw/先秦-西汉/史記/卷046-田敬仲完世家.md:103）「自如騶衍、淳于髡、田駢、接子、愼到、環淵之徒」。史记称赵人。叙事在齐宣王稷下，标齐。
+title: 赵人，稷下著十二论
 sources:
   - work: 史记
     part: 田敬仲完世家
     kind: classic
 ---
+
+赵人，游于齐之稷下，与淳于髡、田骈、接子、环渊之徒皆学黄老道德之术，因发明序其指意，慎到著十二论。齐宣王喜文学游说之士，赐列第，为上大夫，不治而议论，慎到与于其列。

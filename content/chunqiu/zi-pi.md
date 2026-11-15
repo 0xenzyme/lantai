@@ -2,7 +2,7 @@
 id: zi-pi
 name: 罕虎
 display: 子皮
-profile: brief
+profile: full
 gender: male
 polity:
   - zheng
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -529
 deathAccuracy: exact
 deathNote: 左传·昭公十三年（前529）子产自平丘之会归，「未至，聞子皮卒」。授政子产的上卿。
+title: 郑上卿，授政子产
 sources:
   - work: 春秋左传
     part: 昭公十三年
     kind: classic
 ---
+
+郑上卿，罕虎，子展之子。襄公二十九年，子展卒，子皮代父为上卿。于是郑饥，未及麦，民病，子皮以子展之命，饩国人粟，户一钟。明年，伯有死，子皮授子产政，曰「虎帅以听命」。昭公十三年卒。

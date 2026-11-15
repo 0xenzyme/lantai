@@ -2,7 +2,7 @@
 id: xie-hui
 name: 谢晦
 display: 谢晦
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 谢晦传
     kind: classic
 ---
+
+字宣明，陈郡阳夏人。刘宋佐命，封武昌县公。少帝即位，与徐羡之、傅亮同辅朝政；废少帝立文帝，晦出为荆州刺史，居外为援。元嘉三年，文帝声言北伐而实西征，晦举兵，败，伏诛，年三十七。

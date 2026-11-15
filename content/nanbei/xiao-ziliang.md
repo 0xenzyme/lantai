@@ -2,7 +2,7 @@
 id: xiao-ziliang
 name: 萧子良
 display: 萧子良
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 竟陵文宣王子良传
     kind: classic
 ---
+
+字云英，齐武帝第二子，封竟陵郡王。礼才好士，开西邸聚沈约、谢朓、王融等，号竟陵八友。又于鸡笼山开馆讲学，士庶云集。隆昌元年薨，谥文宣。

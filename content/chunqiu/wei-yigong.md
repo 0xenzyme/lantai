@@ -2,7 +2,7 @@
 id: wei-yigong
 name: 姬赤
 display: 卫懿公
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -660
 deathAccuracy: exact
 deathNote: 左传·闵公二年（前660）狄人入卫；史记·卫康叔世家「翟於是遂入，殺懿公」。惠公卒前669，懿公立前668，在位九年。
+title: 卫君，好鹤而亡
 sources:
   - work: 春秋左传
     part: 闵公二年
@@ -18,3 +19,5 @@ sources:
     part: 卫康叔世家
     kind: classic
 ---
+
+卫懿公赤，惠公之子。即位好鹤，淫乐奢侈。九年，翟伐卫，懿公欲发兵，兵或畔，大臣曰「君好鹤，鹤可令击翟」。翟遂入，杀懿公。

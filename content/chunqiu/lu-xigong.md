@@ -2,7 +2,7 @@
 id: lu-xigong
 name: 姬申
 display: 鲁僖公
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -627
 deathAccuracy: exact
 deathNote: 史记·鲁周公世家「三十三年，釐公卒，子興立，是爲文公」。釐公元年前659，三十三年得前627。
+title: 鲁君，从齐桓之伯
 sources:
   - work: 史记
     part: 鲁周公世家
     kind: classic
 ---
+
+鲁国国君，闵公之弟。僖公从齐桓公侵蔡伐楚，盟于召陵，预齐桓之伯。其后晋文公入，鲁复事晋。在位三十三年卒。

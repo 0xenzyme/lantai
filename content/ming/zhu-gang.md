@@ -2,15 +2,18 @@
 id: zhu-gang
 name: 朱棡
 display: 晋恭王朱棡
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
 birthAccuracy: unknown
 death: 1398
 deathAccuracy: exact
+title: 太祖嫡三子，晋恭王
 sources:
   - work: 明史
     part: 卷100·诸王世表一
     kind: classic
 ---
+
+太祖嫡三子。洪武三年封晋王，十一年就藩太原府，三十一年薨。子定王济熺嗣，永乐十二年为弟济熿诬构，废守恭王坟园，后事明，复其爵。诸子分封汾州、平阳，晋藩宗支自此繁衍。

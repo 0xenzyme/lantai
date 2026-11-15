@@ -2,15 +2,18 @@
 id: gu-he
 name: 顾和
 display: 顾和
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 351
 deathAccuracy: exact
+title: 东晋尚书令，吴中旧族
 sources:
   - work: 晋书
     part: 卷083·顾和传
     kind: classic
 ---
+
+字君孝，吴郡吴人。族叔顾荣器之曰「此吾家麒麟」。初为王导掾，停车门外方择虱，周顗遇之，夷然不动，顗谓导曰「卿州吏中有一令仆才」。咸康初拜御史中丞，劾奏赃污，百僚惮之。累迁侍中，官终尚书令。卒年六十四，赠司空，谥曰穆。

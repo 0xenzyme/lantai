@@ -2,7 +2,7 @@
 id: chen-fei-wang-hou
 name: 王氏（陈废帝王皇后）
 display: 王氏（陈废帝王皇后）
-profile: brief
+profile: full
 gender: female
 polity:
   - nan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 584
 deathAccuracy: approx
 deathNote: 「至德中薨」。至德凡四年（583–586），「中」不能定年，取台账 584，年号区间，非寿数。据「廢帝為臨海王，后為臨海王妃。至德中薨」raw/南朝/陳書/卷7.md:38
+title: 陈废帝王皇后
 sources:
   - work: 陈书
     part: 卷007·皇后
     kind: classic
 ---
+
+金紫光禄大夫王固之女。天嘉元年，为皇太子妃。废帝即位，立为皇后。帝为高宗所废，封临海王，后亦为临海王妃。至德中薨。

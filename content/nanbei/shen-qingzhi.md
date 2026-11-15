@@ -2,7 +2,7 @@
 id: shen-qingzhi
 name: 沈庆之
 display: 沈庆之
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 沈庆之传
     kind: classic
 ---
+
+吴兴武康人，字弘先。以勇力闻，从武帝征讨，平诸蛮。元嘉中北伐，与王玄谟争进，庆之主持重，玄谟败而庆之全师。孝武入讨，庆之密与柳元景奉之。前废帝立，庆之谏不止，帝遣从子攸之齎药赐死，不肯饮，为以被掩杀，年八十。

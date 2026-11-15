@@ -2,7 +2,7 @@
 id: gong-zizhen
 name: 龚自珍
 display: 龚自珍
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1841
 deathAccuracy: approx
 deathNote: 清史稿卷486只云「道光時成進士」「年五十，卒於丹陽書院」，无年号；卒年取通说道光二十一年（1841），非本传明文，非寿数。依据「道光時成進士」「年五十，卒於丹陽書院」（raw/清/清史稿/卷486.md:220）。
+title: 晚清思想家
 sources:
   - work: 清史稿
     part: 卷486·文苑传·龚自珍
     kind: classic
 ---
+
+字璱人，号定盦，浙江仁和人。道光中成进士，官内阁中书、礼部主事。学宗公羊，长于西北舆地，讥切时政，主更法。道光二十一年卒于丹阳书院，年五十。

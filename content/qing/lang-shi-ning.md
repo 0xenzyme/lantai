@@ -2,7 +2,7 @@
 id: lang-shi-ning
 name: 郎世宁
 display: 郎世宁
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 1766
 deathAccuracy: exact
 deathNote: 清史稿·卷13·高宗本纪：乾隆三十一年「六月丙午，杨应琚奏猛勇头目召斋及猛龙沙头目叭护猛等内附。戊申，予故三品衔西洋人郎世宁侍郎衔」。本纪不书卒，据同年六月给予故官侍郎衔系其卒于乾隆三十一年，即 1766 年。卷504·艺术传仅云「郎世宁，西洋人。康熙中入直，高宗尤赏异」，不载生卒年月。
+title: 清宫西洋画家
 aliases:
   - 郎士宁
 sources:
@@ -22,3 +23,5 @@ sources:
     part: 卷504·艺术传·郎世宁
     kind: classic
 ---
+
+意大利人，天主教耶稣会士。康熙中入直内廷，供奉画院，工写真、花卉、翎毛，兼及建筑、铸炮。高宗尤赏异。乾隆三十一年卒于京，赐侍郎衔。

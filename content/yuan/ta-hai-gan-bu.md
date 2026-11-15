@@ -2,7 +2,7 @@
 id: ta-hai-gan-bu
 name: 塔海绀卜
 display: 塔海绀卜
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1235
 deathAccuracy: approx
 deathNote: 卒年不详，取1235年为活动年（非寿数）。依据「父帖赤，歲乙未，同都元帥塔海紺卜將兵入蜀」（raw/元/元史/卷132.md:103）
+title: 元初都元帅，从征巴蜀
 sources:
   - work: 元史
     part: 帖木儿不花传
     kind: classic
 ---
+
+元初蒙古将，官都元帅。太宗乙未岁，将兵入蜀，统蒙古、汉军及炮手诸军，攻取兴元、利、剑、成都诸郡。部将忒木勒哥等从征，死于兴元。

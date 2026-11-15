@@ -2,7 +2,7 @@
 id: man-gui
 name: 满桂
 display: 满桂
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1629
 deathAccuracy: approx
 deathNote: 本传作「崇禎元年七月，言官交劾之臣，因及桂」`raw/明/明史/卷271.md:65`；卒于崇祯二年（1629）京师保卫战，此系近似。
+title: 永定门外殉国的蒙古名将
 sources:
   - work: 明史
     part: 卷271·满桂传
     kind: classic
 ---
+
+蒙古人，幼入中国，家宣府。稍长便骑射。孙承宗行边，奇之，擢副总兵。从筑宁远，与袁崇焕协心城守。崇祯二年冬大清兵入近畿，率五千骑入卫，拜武经略。移营永定门外，敌精骑四合，诸将不能支，桂与孙祖寿战死。赠少师。

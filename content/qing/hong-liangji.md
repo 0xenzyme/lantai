@@ -2,7 +2,7 @@
 id: hong-liangji
 name: 洪亮吉
 display: 洪亮吉
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -12,8 +12,11 @@ birthNote: 生年无载于本传。清史稿卷356作乾隆五十五年（1790�
 death: 1809
 deathAccuracy: approx
 deathNote: 本传引句不载卒年。卒年 1809 为候选台账约略系年，本库无明文可徵，非寿数。raw/清/清史稿/卷356.md:18
+title: 乾嘉间学者
 sources:
   - work: 清史稿
     part: 卷356·列传一百四十三·洪亮吉
     kind: classic
 ---
+
+字稚存，号北江，江苏阳湖人。乾隆五十五年成一甲第二名进士，授编修，督贵州学政。嘉庆初以言事切直，遣戍伊犁，未期释归。为学精于舆地、声音、训诂。

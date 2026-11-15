@@ -2,7 +2,7 @@
 id: dong-fu-xiang
 name: 董福祥
 display: 董福祥
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 1908
 deathAccuracy: exact
 deathNote: 清史稿·卷455·董福祥传：庚子事后被褫职锢于家，光绪三十四年（1908）卒，其子天纯输银四十万济帑复官。无谥。
+title: 甘军统领，庚子被褫
 aliases:
   - 星五
 sources:
@@ -19,3 +20,5 @@ sources:
     part: 卷455·董福祥传
     kind: classic
 ---
+
+字星五，甘肃固原人。同治初回乱作，起安化，后归款，编为董字三营，从攻金积堡。光绪元年从刘锦棠出关，复乌鲁木齐诸城及玛纳斯南城、和阗，董军名震西域，赐号阿尔杭阿巴图鲁，赏黄马褂。庚子后褫职，光绪三十四年卒。

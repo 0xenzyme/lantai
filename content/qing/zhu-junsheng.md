@@ -2,7 +2,7 @@
 id: zhu-junsheng
 name: 朱骏声
 display: 朱骏声
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1788
 birthAccuracy: exact
 death: 1858
 deathAccuracy: exact
+title: 说文通训定声作者
 sources:
   - work: 清史稿
     part: 卷481·儒林传二·钱大昭附朱骏声
     kind: classic
 ---
+
+字丰芑，吴县人。年十三受许氏说文，一读即通晓。从钱大昕游，钱一见奇之。嘉庆二十三年举人，官黟县训导。咸丰元年入都，进呈说文通训定声及古今韵准等四十卷，文宗嘉其洽，赏国子监博士衔。旋迁扬州府学教授，引疾未之官。八年卒，年七十一。

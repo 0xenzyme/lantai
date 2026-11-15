@@ -2,7 +2,7 @@
 id: song-kangwang
 name: 宋康王
 display: 宋康王
-profile: brief
+profile: full
 gender: male
 polity:
   - song-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -286
 deathAccuracy: approx
 deathNote: 生卒不详，取前286年为被杀之年（非寿数）。据史记·宋微子世家（raw/先秦-西汉/史記/卷038-宋微子世家.md:143）「王偃立四十七年，齊湣王與魏、楚伐宋，殺王偃」。
+title: 宋之桀主，射天而亡
 aliases:
   - 王偃
 sources:
@@ -17,3 +18,5 @@ sources:
     part: 宋微子世家
     kind: classic
 ---
+
+宋君偃，剔成之弟，攻袭剔成而自立。十一年，自立为王。东败齐，取五城；南败楚，取地三百里；西败魏军。盛血以韦囊，县而射之，命曰「射天」；淫于酒妇人，谏者辄射之。诸侯皆曰「桀宋，不可不诛」。立四十七年，齐湣王与魏、楚伐宋，杀王偃，灭宋而三分其地。

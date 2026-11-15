@@ -2,7 +2,7 @@
 id: han-xiu
 name: 韩休
 display: 韩休
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 740
 deathAccuracy: disputed
 deathNote: 本纪系开元二十八年（740）五月乙未卒；本传作「二十七年病卒，年六十八」，两说并存，今从本纪。 — raw/唐/舊唐書/卷9.md:71
+title: 开元贤相，以直去位
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -18,3 +19,5 @@ sources:
     part: 卷9·本纪第九 玄宗下
     kind: classic
 ---
+
+京兆长安人。早有词学，举贤良。为虢州刺史，奏请均配税草，忤张说而执奏不已。开元二十一年同中书门下平章事。性方直，请先出金吾大将军程伯献，而后罪万年尉李美玉，帝从之。宋璟称为「仁者之勇」。后罢为太子少师，卒，谥曰文忠。

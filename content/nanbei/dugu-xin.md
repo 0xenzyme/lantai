@@ -2,7 +2,7 @@
 id: dugu-xin
 name: 独孤信
 display: 独孤信
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -28,3 +28,5 @@ sources:
     part: 独孤信传
     kind: classic
 ---
+
+云中人，本名如愿，少以勇健称。从尔朱荣、贺拔岳，转战关陇。孝武西迁，定策有功，封河内郡公，为八柱国之一。宇文护辅政，见忌，逼令自尽。三女皆为皇后。

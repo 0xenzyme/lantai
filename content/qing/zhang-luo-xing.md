@@ -2,7 +2,7 @@
 id: zhang-luo-xing
 name: 张洛行
 display: 张洛行
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -14,8 +14,11 @@ birthAccuracy: unknown
 death: 1863
 deathAccuracy: exact
 deathNote: 清史稿·卷404·僧格林沁传：同治二年正月以后，捻巢次第剿平，张洛行为巨憝首恶；二月进攻尹家沟、雉河集，洛行夜遁，追至淝河北岸，西洋寨捻首李勤邦投诚，诱擒张洛行及其子张憙以献，磔之。传称捻匪自蒙、亳创乱十年至是扫除。清史稿本纪与诸传均作张洛行。
+title: 东捻盟主，雉河集覆灭
 sources:
   - work: 清史稿
     part: 卷404·僧格林沁传
     kind: classic
 ---
+
+安徽蒙亳间人，捻匪巨酋。结盟起事，众号数十万，马数万，蹂躏数千里，与粤匪联为一气。同治二年，僧格林沁进剿尹家沟、雉河集，洛行夜遁，追至淝河北岸，西洋寨捻首李勤邦投诚，诱擒洛行及其子张憙以献，磔之。捻自蒙亳创乱十年，至是东捻平。

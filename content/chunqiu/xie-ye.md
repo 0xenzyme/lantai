@@ -2,7 +2,7 @@
 id: xie-ye
 name: 泄冶
 display: 泄冶
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -600
 deathAccuracy: exact
 deathNote: 春秋左传正义·宣公九年（前600）「陳殺其大夫洩冶。」（raw/春秋/春秋左傳正義/卷22.md:155）。
+title: 陈大夫，直谏而死
 sources:
   - work: 春秋左传正义
     part: 宣公九年
     kind: classic
 ---
+
+泄冶，陈大夫。灵公与孔宁、仪行父通于夏姬，戏于朝。泄冶谏曰「公卿宣淫，民无效焉，且闻不令」，公告二子，二子请杀之，公弗禁，遂杀泄冶。孔子曰「《诗》云：民之多辟，无自立辟，其泄冶之谓乎」。

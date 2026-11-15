@@ -2,7 +2,7 @@
 id: ruan-xiaoxu
 name: 阮孝绪
 display: 阮孝绪
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 处士传·阮孝绪
     kind: classic
 ---
+
+陈留尉氏人，字士宗。幼至孝，年十三通五经。梁武帝屡征不起，屏居一室，苔藓满壁，家人罕得见其面。采刘向《别录》之法，条别得失，撰《七录》十二卷，实开后世目录之先。大同二年卒，年五十八。

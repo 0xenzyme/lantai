@@ -2,7 +2,7 @@
 id: xiao-luan
 name: 萧鸾
 display: 齐明帝萧鸾
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 明帝纪
     kind: classic
 ---
+
+齐高帝之孙，萧道生之子，封宣城王，性多猜忌。隆昌元年，与萧谌等弑郁林王，立海陵王，寻复废而自立。在位五年，大杀高帝、武帝子孙，以绝宗党之望。永泰元年七月，疾笃，崩于正福殿，年四十七。

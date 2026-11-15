@@ -2,7 +2,7 @@
 id: wang-shixian
 name: 汪世显
 display: 汪世显
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 癸卯（1243）竟不起，年四十九，虚岁上推生年1195，非精确生年。依据「癸卯春，皇子第功，承制拜便宜總帥」（raw/元/元史/卷155.md:25）
 death: 1243
 deathAccuracy: exact
+title: 巩昌汪氏，开藩之祖
 sources:
   - work: 元史
     part: 汪世显传
     kind: classic
 ---
+
+字仲明，巩昌盐川人，系出旺古族。仕金，官至镇远军节度使、巩昌便宜总帅。金平，郡县望风款附，世显独城守，及皇子阔端驻兵城下，始率众降。从南征，断嘉陵，取资、嘉定，入成都，斩蜀帅陈隆之。癸卯，承制拜便宜总帅，疾加剧不起，年四十九，谥义武。

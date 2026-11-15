@@ -2,15 +2,18 @@
 id: zhong-fang
 name: 种放
 display: 种放
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1015
 deathAccuracy: exact
+title: 终南隐士种明逸
 sources:
   - work: 宋史
     part: 隐逸上
     kind: classic
 ---
+
+字明逸，河南洛阳人。与母隐终南豹林谷，讲学养母，自号「云溪醉侯」，太宗再诏不起。咸平四年，赴阙，授左司谏、直昭文馆。从封泰山，拜工部侍郎。大中祥符八年，忽取前后章疏稿焚之，服道士衣而卒，赠工部尚书。

@@ -2,7 +2,7 @@
 id: zi-shen
 name: 梓慎
 display: 梓慎
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -524
 deathAccuracy: approx
 deathNote: 卒年不详，取前524年为活动下限（非寿数）。依据春秋左传正义·昭公十八年「是謂融風，火之始也」（raw/春秋/春秋左傳正義/卷48.md:220）。
+title: 鲁大夫，善占候
 sources:
   - work: 春秋左传正义
     part: 昭公十八年
     kind: classic
 ---
+
+鲁大夫，善望气。昭公十七年冬，有星孛于大辰，梓慎曰「今兹火出而章，必火入而伏」，诸侯其有火灾乎。十八年夏五月，火始昏见，丙子风，曰「是谓融风，火之始也」。已而宋、卫、陈、郑皆火，登大庭氏之库以望之。

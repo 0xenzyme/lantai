@@ -2,7 +2,7 @@
 id: tie-ge
 name: 铁哥
 display: 铁哥
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1313
 deathAccuracy: approx
 deathNote: 卒年约在1313，不作确年。依据「二十九年，進榮祿大夫、中書平章政事」（raw/元/元史/卷125.md:112）
+title: 世祖近臣，官至平章
 sources:
   - work: 元史
     part: 铁哥传
     kind: classic
 ---
+
+姓伽乃氏，迦叶弥儿人。父斡脱赤。四岁入见，世祖命隶宿卫，掌饔膳汤药，帝谕以饮食宜先尝。历尚膳监、司农寺。奏免高州捕兽充贡，谏止杀人偿畜、生割驼峰之刑。至元二十九年，进荣禄大夫、中书平章政事。

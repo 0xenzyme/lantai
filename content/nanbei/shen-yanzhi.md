@@ -2,7 +2,7 @@
 id: shen-yanzhi
 name: 沈演之
 display: 沈演之
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「二十六年，車駕拜京陵…暴卒，時年五十三」raw/南朝/宋書/卷63.md:76
 death: 449
 deathAccuracy: exact
+title: 宋文帝所倚，官至中领军
 sources:
   - work: 宋书
     part: 卷063·沈演之传
     kind: classic
 ---
+
+吴兴人，家世为将而折节好学。元嘉中为右卫将军，迁侍中，与范晔对掌禁旅，同参机密。晔怀逆谋，演之觉其有异，言于太祖，晔寻事发伏诛。二十一年，诏为中领军，转吏部尚书。二十六年暴卒，年五十三，谥曰贞侯。

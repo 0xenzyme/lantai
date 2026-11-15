@@ -2,7 +2,7 @@
 id: he-jingming
 name: 何景明
 display: 何景明
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -12,8 +12,11 @@ birthNote: 本传作「弘治十一年舉於鄉，年方十五」`raw/明/明史
 death: 1522
 deathAccuracy: approx
 deathNote: 同传作「嘉靖初，引疾歸，未幾卒，年三十有九」`raw/明/明史/卷286.md:116`；由生年上推约嘉靖元年（1522），此系近似。
+title: 前七子之一的信阳诗人
 sources:
   - work: 明史
     part: 卷286·何景明传
     kind: classic
 ---
+
+字仲默，信阳人。八岁能诗古文。弘治十一年举于乡，年方十五，十五年第进士，授中书舍人。与李梦阳倡诗古文，天下语诗文必并称何李。瑾诛，起故秩，擢陕西提学副使，教诸生以经术世务。嘉靖初引疾归，未几卒，年三十有九。

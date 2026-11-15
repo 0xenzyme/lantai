@@ -2,7 +2,7 @@
 id: shen-bingcheng
 name: 沈秉成
 display: 沈秉成
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1891
 deathAccuracy: approx
 deathNote: 生卒无考于本库。清史稿卷200疆臣年表光绪十七年辛卯（1891）栏记「沈秉成卸」；今以卸任之年为活动下限系年，非寿数。raw/清/清史稿/卷200.md:60
+title: 安徽巡抚，署两江总督
 sources:
   - work: 清史稿
     part: 卷200·表四十·疆臣年表四
     kind: classic
 ---
+
+久为京僚，入直总理各国事务衙门。光绪中出为广西巡抚，移安徽巡抚，兼署两江总督。在皖最久，以安静为治。

@@ -2,13 +2,14 @@
 id: li-jiang
 name: 李绛
 display: 李绛
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 830
 deathAccuracy: exact
+title: 宪宗翰林，魏博归命之谋
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -20,3 +21,5 @@ sources:
     part: 卷152·列传第七十七
     kind: classic
 ---
+
+字深之，赵郡赞皇人。举进士，登宏辞科。元和二年充翰林学士，以匡谏为己任。宪宗诛李锜，请以所没家财赐本道，代贫下户租税。魏博田兴以六州归命，其经始营创皆绛之谋。后为山南西道节度使，太和四年为乱兵所害，年六十七，赠司徒。

@@ -2,7 +2,7 @@
 id: luo-qinshun
 name: 罗钦顺
 display: 罗钦顺
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1493
 deathAccuracy: approx
 deathNote: 本传作「弘治六年進士及第」`raw/明/明史/卷282.md:89`；弘治六年为1493。后文「年八十三卒」不系年。此为任官年，非寿数。
+title: 困知笃学的整庵先生
 sources:
   - work: 明史
     part: 卷282·儒林传一·罗钦顺
     kind: classic
 ---
+
+字允升，泰和人。弘治六年进士及第，授编修。瑾怒夺职，瑾诛累官吏部左侍郎。大礼议起，耻与张璁、桂萼同列，屡诏不起。里居二十余年，足不入城市，潜心格物致知之学，著《困知记》。年八十三卒，谥文庄。

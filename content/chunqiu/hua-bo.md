@@ -2,7 +2,7 @@
 id: hua-bo
 name: 滑伯
 display: 滑伯
-profile: brief
+profile: full
 gender: male
 polity:
   - hua-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -678
 deathAccuracy: approx
 deathNote: 春秋左传·庄公十六年（前678）「會齊侯、宋公、陳侯、衛侯、鄭伯、許男、滑伯、滕子，同盟於幽」（raw/春秋/春秋左傳正義/卷08.md:292）。活动年，非寿数。只见与盟，不书卒。
+title: 滑国国君，从齐桓之伯
 sources:
   - work: 春秋左传
     part: 庄公十六年
     kind: classic
 ---
+
+滑国国君，伯爵。庄公十六年，从齐桓公会诸侯同盟于幽，为齐桓图伯之一。其后秦师东征，灭滑而还。

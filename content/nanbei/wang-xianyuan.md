@@ -2,7 +2,7 @@
 id: wang-xianyuan
 name: 王宪嫄
 display: 宋孝武帝王皇后王宪嫄
-profile: brief
+profile: full
 gender: female
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 后妃传·孝武文穆王皇后
     kind: classic
 ---
+
+琅邪临沂人。宋孝武帝为太子时纳为妃。孝武即位，立为皇后，生前废帝及豫章王子尚。废帝即位，尊曰皇太后。大明八年，崩于含章殿，年三十八。

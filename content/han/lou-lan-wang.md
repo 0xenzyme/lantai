@@ -2,15 +2,18 @@
 id: lou-lan-wang
 name: 尝归
 display: 楼兰王尝归
-profile: brief
+profile: full
 gender: male
 polity:
   - xiyu
 birthAccuracy: unknown
 death: -77
 deathAccuracy: exact
+title: 楼兰王，为傅介子所刺
 sources:
   - work: 汉书
     part: 西域传上·卷096上
     kind: classic
 ---
+
+尝归，楼兰王也，质子匈奴归国立为王，数为匈奴耳目，遮杀汉使。其弟尉屠耆降汉，具言状。元凤四年，大将军霍光遣平乐监傅介子齎金币往赐外国，诱与饮，壮士从后刺杀之，斩首驰传诣阙，悬于北阙下。汉立尉屠耆为王，更国号曰鄯善。

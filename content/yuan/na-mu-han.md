@@ -2,15 +2,18 @@
 id: na-mu-han
 name: 那木罕
 display: 那木罕
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1301
 deathAccuracy: exact
+title: 世祖子，北安王那木罕
 sources:
   - work: 元史
     part: 诸王表
     kind: classic
 ---
+
+世祖第四子。至元中封北平王，与右丞相安童统诸军于阿力麻里备海都。十四年，宗王昔里吉劫之，拘安童以叛。后改封北安王。大德五年薨，延祐七年赐谥昭定。

@@ -2,7 +2,7 @@
 id: yang-yao
 name: 杨幺
 display: 杨幺
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1135
 deathAccuracy: exact
 deathNote: 绍兴五年六月，岳飞急攻湖贼水砦，杨太赴水死（raw/宋/宋史/卷028.md:29）。台账名作杨幺。
+title: 洞庭湖义军首领
 sources:
   - work: 宋史
     part: 高宗本纪五
     kind: classic
 ---
+
+杨幺本名杨太，钟相余党，据洞庭湖为乱，众号湖贼，置水砦。绍兴五年，岳飞受命经略，急攻其水砦，杨太赴水死，党徒黄诚斩其首，挟钟子仪、周伦出降，湖湘悉平。

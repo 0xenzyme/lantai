@@ -2,7 +2,7 @@
 id: li-shou
 name: 李寿
 display: 李寿
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 345
 deathAccuracy: disputed
 deathNote: 载记作「八年，壽死，時年四十四，在位五年」（raw/晋/晉書/卷121.md:82）；以汉兴改元计为345，另有343之说，两说未定。
+title: 成汉主，废期自立
 sources:
   - work: 晋书
     part: 载记第二十一·李寿
@@ -18,3 +19,5 @@ sources:
     part: 卷097·晋纪十九
     kind: classic
 ---
+
+字武考，骧之子。敏而好学，雅量豁然。雄奇其才，任以方面，封扶风公，录尚书事。期立，寿举兵袭成都，废期而僭即帝位，改元汉兴，雄之子皆为寿所杀。在位五年卒，年四十四。

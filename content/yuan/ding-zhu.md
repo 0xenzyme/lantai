@@ -2,7 +2,7 @@
 id: ding-zhu
 name: 定住
 display: 定住
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1355
 deathAccuracy: approx
 deathNote: 卒年不详，取1355年为活动年（非寿数）。依据「中書平章政事定住為左丞相，詔天下」（raw/元/元史/卷044.md:22）
+title: 顺帝右丞相，诛哈麻
 sources:
   - work: 元史
     part: 顺帝七
     kind: classic
 ---
+
+至正十五年二月，自中书平章政事拜左丞相，诏布天下。四月，进右丞相。十一月，帝亲祀上帝于南郊，为终献。寻以病辞，以太保就第。十六年，复为右丞相，总裁中书机务，与平章桑哥失里交章论哈麻兄弟罪，哈麻、雪雪坐是杖死。

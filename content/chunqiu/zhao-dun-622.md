@@ -2,7 +2,7 @@
 id: zhao-dun-622
 name: 赵盾
 display: 赵盾
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -622
 deathAccuracy: approx
 deathNote: 卒年不详，取前622年为活动下限（非寿数）。史记·晋世家襄公六年「趙盾代趙衰執政」（raw/先秦-西汉/史記/卷039-晉世家.md:192）。襄公卒年前621、在位七年，六年为前622。
+title: 晋正卿赵宣子
 sources:
   - work: 史记
     part: 晋世家
     kind: classic
 ---
+
+赵衰之子，谥宣子，晋之正卿。灵公不君，骤谏；公使鉏麑贼之，麑曰「不忘恭敬，民之主也」，触槐而死。后赵穿攻灵公于桃园，盾未出山而复。大史书曰「赵盾弑其君」，孔子曰「董狐，古之良史也，书法不隐」，又惜盾越竟乃免。

@@ -2,7 +2,7 @@
 id: huang-liji
 name: 黄立极
 display: 黄立极
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+字中五，元城人。万历三十二年进士，累官少詹事、礼部侍郎。天启五年八月，魏忠贤以同乡故，擢礼部尚书兼东阁大学士，与丁绍轼等参机务。后顾秉谦乞归，遂为首辅。七年十一月致仕。定逆案，落职闲住。

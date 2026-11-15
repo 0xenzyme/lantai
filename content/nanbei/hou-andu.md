@@ -2,7 +2,7 @@
 id: hou-andu
 name: 侯安都
 display: 侯安都
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 侯安都传
     kind: classic
 ---
+
+始兴曲江人，陈武帝时从平侯景，数有功。文帝即位，以功进封清远公。天嘉中，骄纵不法，为有司所奏。四年，坐事赐死，年四十四。

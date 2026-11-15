@@ -2,7 +2,7 @@
 id: shi-hu-625
 name: 士縠
 display: 士縠
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -619
 deathAccuracy: approx
 deathNote: 卒年不详，取前619年为活动下限（非寿数）。依据春秋左传正义·文公二年「晉司空士縠盟於垂隴」（raw/春秋/春秋左傳正義/卷17.md:138）。
+title: 晋司空，盟于垂陇
 sources:
   - work: 春秋左传正义
     part: 文公二年
     kind: classic
 ---
+
+晋司空，士会之族。灵公初立，赵盾专政，士縠以司空会鲁、宋、陈、郑之大夫，盟于垂陇。史之所书，止于此盟。

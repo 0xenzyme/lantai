@@ -2,7 +2,7 @@
 id: hou-ying
 name: 侯嬴
 display: 侯嬴
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-zhanguo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -257
 deathAccuracy: approx
 deathNote: 魏安釐王二十年窃符，侯生果北乡自刭，取前257为卒，记 approx。「年七十」不回推生年。本库安釐王三十四年前243年卒，二十年即前257。据「魏有隱士曰侯嬴，年七十，家貧」（raw/先秦-西汉/史記/卷077-魏公子列傳.md:25）；二十年见同卷:29，自刭见同卷:35。
+title: 夷门监者，窃符之谋
 sources:
   - work: 史记
     part: 魏公子列传
     kind: classic
 ---
+
+魏有隐士曰侯嬴，年七十，家贫，为大梁夷门监者。信陵君置酒大会，从车骑虚左，自迎侯生。公子欲救赵而赴秦军，侯生教以窃晋鄙兵符，因如姬得之，又荐屠者朱亥俱往，椎杀晋鄙。嬴曰「臣宜从，老不能」，约公子行日，北乡自刭以送公子。

@@ -2,7 +2,7 @@
 id: ju-jiaogong
 name: 莒郊公
 display: 莒郊公
-profile: brief
+profile: full
 gender: male
 polity:
   - ju-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -528
 deathAccuracy: approx
 deathNote: 春秋左传·昭公十四年（前528）「郊公不慼」（raw/春秋/春秋左傳正義/卷47.md:48）。活动年，非寿数。著丘公卒后郊公不戚，不书郊公卒年。
+title: 莒君，国人出之
 sources:
   - work: 春秋左传
     part: 昭公十四年
     kind: classic
 ---
+
+莒国国君，著丘公之子。昭公十四年，著丘公卒，郊公不戚，国人弗顺。公子铎与蒲馀侯谋，出君而纳庚舆。

@@ -2,7 +2,7 @@
 id: xiao-lun
 name: 萧纶
 display: 萧纶
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 邵陵王纶传
     kind: classic
 ---
+
+梁武帝之子，封邵陵王。侯景围台城，纶帅舟师赴援，与景战，不利。退屯汝南。大宝二年，西魏杨忠来攻，城陷被执，纶不为屈，遂遇害。

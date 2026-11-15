@@ -2,7 +2,7 @@
 id: sikong-tu
 name: 司空图
 display: 司空图
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 889
 deathAccuracy: approx
 deathNote: 旧唐书·卷190下「龍紀初，復召拜舍人，未幾又以疾辭」（raw/唐/舊唐書/卷190下.md:255）；龙纪初（889）为召拜之年，非寿数。
+title: 唐末诗人，隐王官谷
 sources:
   - work: 旧唐书
     part: 卷190下·卷一百九十下
     kind: classic
 ---
+
+图，字表圣，河中虞乡人。咸通末擢进士，礼部侍郎王凝特所奖待。黄巢陷长安，间关至河中。后隐居中条山王官谷，作休休亭，作文以见志，自号耐辱居士。豫为冢棺，遇胜日，引客坐圹中赋诗。朱全忠篡，召为礼部尚书，不起；哀帝弑，图闻，不食而卒，年七十二。

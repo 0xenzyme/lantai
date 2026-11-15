@@ -2,7 +2,7 @@
 id: li-wei
 name: 李卫
 display: 李卫
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 1738
 deathAccuracy: exact
 deathNote: 清史稿·卷294·李卫传：系事至"乾隆三年，疏劾总河朱藻"，继言"病作，乞解任，遣御医诊视。卒，赐祭葬，谥敏达"，卒年自传文回溯系乾隆三年；卷10·高宗本纪：乾隆三年冬十月"直隶总督李卫以病免"互证。浙江、直隶总督，雍正朝名督抚。
+title: 雍正朝名督抚
 sources:
   - work: 清史稿
     part: 卷294·李卫传
@@ -20,3 +21,5 @@ sources:
     part: 卷10·高宗本纪
     kind: classic
 ---
+
+字又玠，江南铜山人。入赀为员外郎。雍正元年授直隶驿传道，改云南盐驿道，累迁布政使。三年擢浙江巡抚，寻授浙江总督，整理盐政，奏修海宁诸县海塘。乾隆三年卒，赐祭葬，谥敏达。

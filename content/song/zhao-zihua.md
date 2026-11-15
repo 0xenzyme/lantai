@@ -2,15 +2,18 @@
 id: zhao-zihua
 name: 赵自化
 display: 赵自化
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1005
 deathAccuracy: exact
+title: 宋初翰林医官
 sources:
   - work: 宋史
     part: 方技上
     kind: classic
 ---
+
+本德州平原人。高祖陷契丹，父知嵓脱身南归，以医术授二子。周显德中，偕来京师。淳化五年，授医官副使。雍王薨，坐诊治无状，降副使，寻复旧官。景德二年冬卒，年五十七，遗表上所撰《四时养颐录》。

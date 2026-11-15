@@ -2,15 +2,18 @@
 id: liu-feng
 name: 刘封
 display: 刘封
-profile: brief
+profile: full
 gender: male
 polity:
   - shu
 birthAccuracy: unknown
 death: 220
 deathAccuracy: exact
+title: 刘备养子，赐死成都
 sources:
   - work: 资治通鉴
     part: 卷69 魏纪一
     kind: classic
 ---
+
+刘封本罗侯寇氏之子，长沙刘氏之甥也。先主至荆州，以未有继嗣，养封为子。封有武艺，气力过人，从先主入蜀，所在战克；后与孟达会攻上庸，迁副军将军。关羽围樊城，连呼封、达发兵自助，封、达不承羽命。又夺孟达鼓吹，达惧而降魏。先主责其侵陵达、又不救羽，诸葛亮虑封刚猛，劝因事除之，遂赐死。

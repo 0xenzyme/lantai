@@ -2,7 +2,7 @@
 id: gao-lian
 name: 高琏（长寿王）
 display: 高琏（长寿王）
-profile: brief
+profile: full
 gender: male
 polity:
   - goguryeo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 491
 deathAccuracy: exact
 deathNote: 太和十五年当 491。「年百余岁」不是确定享年，不上推生年。据「太和十五年，璉死，年百餘歲」raw/北朝/魏書/卷100.md:31
+title: 高句丽长寿王
 sources:
   - work: 魏书
     part: 卷100·高句丽传
     kind: classic
 ---
+
+高琏，高句丽王，史称长寿王。魏太和中数遣使朝贡，拜都督辽海诸军事、辽东郡开国公、高句丽王。在位久，寿过期颐。太和十五年死，年百余岁。魏高祖举哀于东郊，策赠甚厚。

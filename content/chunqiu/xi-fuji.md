@@ -2,7 +2,7 @@
 id: xi-fuji
 name: 僖负羁
 display: 僖负羁
-profile: brief
+profile: full
 gender: male
 polity:
   - cao-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -632
 deathAccuracy: approx
 deathNote: 卒年不详，取前632年为活动下限（非寿数）。依据春秋左传正义·僖公二十八年「爇僖負羈氏。」（raw/春秋/春秋左傳正義/卷15.md:282）。
+title: 曹大夫，一饭之报
 sources:
   - work: 春秋左传正义
     part: 僖公二十八年
     kind: classic
 ---
+
+僖负羁，曹大夫。文公出亡过曹，负羁之妻曰「从晋公子之从者皆足以相国」，馈盘飧而置璧焉，公子受飧反璧。城濮胜楚，入曹，令无入负羁之宫而免其族，以报其施。魏犨、颠颉怒而焚其氏。

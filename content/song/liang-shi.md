@@ -2,7 +2,7 @@
 id: liang-shi
 name: 梁适
 display: 梁适
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -11,6 +11,7 @@ birthAccuracy: approx
 birthNote: 生年无明载。台账引本传「熙宁三年，卒，年七十」；raw/宋/宋史/卷285.md:162 行末截断于「熙宁三」。虚岁上推约生于 1001，非明记。
 death: 1070
 deathAccuracy: exact
+title: 北宋宰相，拒改宋辽国书
 sources:
   - work: 宋史
     part: 宰辅二
@@ -19,3 +20,5 @@ sources:
     part: 列传第四十四
     kind: classic
 ---
+
+字仲贤，东平人，翰林学士颢之子。尝辑父遗文以进，真宗曰「梁颢有子矣」。张尧佐一日除四使，适持不可，遂夺二使；侬智高入寇，劝遣狄青讨平之。契丹欲易国书称南北朝，适曰「宋之为宋，受之于天，不可改也」。熙宁三年卒，年七十，谥庄肃。

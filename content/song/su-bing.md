@@ -2,7 +2,7 @@
 id: su-bing
 name: 苏昺
 display: 苏昺
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1094
 deathAccuracy: approx
 deathNote: 此年为可见活动年（任官年），非卒年、非寿数。元祐末吕大中荐之，起布衣为太常博士，后坐元符上书编管饶州，卒（raw/宋/宋史/卷428.md:32）。无卒年。元祐末系四年。
+title: 张载二程之学，坐邪籍
 sources:
   - work: 宋史
     part: 道学传二
     kind: classic
 ---
+
+字季明，武功人。始学于张载，而事二程卒业。元祐末，吕大中荐之，起布衣为太常博士。坐元符上书入邪籍，编管饶州，卒。

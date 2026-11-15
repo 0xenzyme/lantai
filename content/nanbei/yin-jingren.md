@@ -2,7 +2,7 @@
 id: yin-jingren
 name: 殷景仁
 display: 殷景仁
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「十七年，義康出藩，誅湛等…景仁尋卒」raw/南朝/宋書/卷63.md:74
 death: 440
 deathAccuracy: exact
+title: 宋文帝顾命重臣，与刘湛争权
 sources:
   - work: 宋书
     part: 卷063·殷景仁传
     kind: classic
 ---
+
+陈郡长平人。少有大成之量，司徒王谧以女妻之。建议宜令百官举才，以所荐能否为黜陟。太祖时与王华、王昙首、刘湛并为侍中，冠冕一时。刘湛结彭城王义康欲倾之，景仁称疾家居五年，密表去来日以十数。元嘉十七年，诛湛之处分一皆委之，寻卒，谥文成公。

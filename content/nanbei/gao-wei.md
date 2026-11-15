@@ -2,7 +2,7 @@
 id: gao-wei
 name: 高纬
 display: 北齐后主高纬
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -11,6 +11,7 @@ birthAccuracy: exact
 death: 577
 deathAccuracy: disputed
 deathNote: 卒年有 577（建德七年）、578 两说，本表并存不取一。据「至建德七年，誣與宜州刺史穆提婆謀反…咸賜死」raw/北朝/北齊書/卷8.md:241
+title: 北齐后主，国亡赐死
 sources:
   - work: 北齐书
     part: 卷008·后主幼主纪
@@ -22,3 +23,5 @@ sources:
     part: 卷173
     kind: classic
 ---
+
+北齐后主。在位，政归恩幸，卖官鬻爵，宗室由是离心。周武帝东伐，承光元年，禅位于幼主恒，走青州，为周所获。送长安，封温国公。建德七年，诬与宜州刺史穆提婆谋反，赐死。

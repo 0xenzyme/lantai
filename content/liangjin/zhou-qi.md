@@ -2,13 +2,14 @@
 id: zhou-qi
 name: 周玘
 display: 周玘
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 313
 deathAccuracy: exact
+title: 东晋义兴周氏，三定江南
 sources:
   - work: 晋书
     part: 卷058·周处附子玘
@@ -17,3 +18,5 @@ sources:
     part: 卷088·晋纪十
     kind: classic
 ---
+
+字宣佩，周处之子。强毅沈断，有父风。太安初，密结王矩推顾秘都督扬州九郡，起兵斩石冰所置守长。陈敏反，讽钱广杀敏弟昶，与顾荣攻敏，斩之于建康。钱璯反，复讨斩之。三定江南，封乌程县侯。后以刁协轻之，忧愤发背卒，年五十六，谥忠烈。

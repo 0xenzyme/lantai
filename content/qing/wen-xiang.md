@@ -2,7 +2,7 @@
 id: wen-xiang
 name: 文祥
 display: 文祥
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 1876
 deathAccuracy: exact
 deathNote: 清史稿·卷386·文祥传：光绪二年上自强密疏，"疏上，未几卒"，年号承上文系光绪二年；卷177·军机大臣年表：光绪二年丙子条 文祥（五月甲午卒），谥文忠。体仁阁大学士、军机大臣，总理衙门创设者之一。
+title: 军机大臣，总理衙门创办者
 sources:
   - work: 清史稿
     part: 卷386·文祥传
@@ -20,3 +21,5 @@ sources:
     part: 卷177·军机大臣年表
     kind: classic
 ---
+
+字博川，瓜尔佳氏，满洲正红旗人。道光二十五年进士。十年，英法联军犯天津，力阻幸热河，署步军统领留守。从恭亲王奕訢议和，出入敌营，于非分之求侃侃直言。总理各国事务衙门之设也，任事最专。历吏部尚书，拜体仁阁大学士。光绪二年卒，谥文忠。

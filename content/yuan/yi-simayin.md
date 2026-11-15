@@ -2,7 +2,7 @@
 id: yi-simayin
 name: 亦思马因
 display: 亦思马因
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1274
 deathAccuracy: exact
 deathNote: 至元十一年以疾卒，即1274。依据「至元八年與阿老瓦丁至京師」（raw/元/元史/卷203.md:79）
+title: 回回炮匠，破襄阳城
 sources:
   - work: 元史
     part: 方技·工艺
     kind: classic
 ---
+
+回回氏，西域旭烈人。善造炮，至元八年与阿老瓦丁至京师。十年，从国兵攻襄阳，相地势置炮于城东南隅，重一百五十斤，机发声震天地，所击无不摧陷，宋安抚吕文焕惧，以城降。赐银二百五十两，命为回回炮手总管，佩虎符。十一年，以疾卒，子布伯袭职。

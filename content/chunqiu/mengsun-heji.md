@@ -2,15 +2,18 @@
 id: mengsun-heji
 name: 仲孙何忌
 display: 仲孙何忌
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
 birthAccuracy: unknown
 death: -481
 deathAccuracy: exact
+title: 孟懿子，孔子弟子
 sources:
   - work: 春秋左传正义
     part: 哀公十四年
     kind: classic
 ---
+
+鲁卿，孟僖子之子，谥懿，世称孟懿子。尝问孝于孔子，孔子告以无违。定公十二年，与季孙斯帅师堕费。哀公十四年卒。

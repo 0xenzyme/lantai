@@ -2,7 +2,7 @@
 id: li-xin
 name: 李信
 display: 李信
-profile: brief
+profile: full
 gender: male
 polity:
   - qin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -225
 deathAccuracy: approx
 deathNote: 生卒不详，取前225年为活动年（非寿数）。据史记·白起王翦列传（raw/先秦-西汉/史記/卷073-白起王翦列傳.md:38）「嘗以兵數千逐燕太子丹至於衍水中，卒破得丹」。此句无绝对年，年份从台账。
+title: 秦壮士，破燕丹而败于楚
 sources:
   - work: 史记
     part: 白起王翦列传
     kind: classic
 ---
+
+秦将，年少壮勇。尝以兵数千逐燕太子丹至于衍水中，卒破得丹，始皇以为贤勇。始皇欲伐荆，信曰「不过二十万人」，遂与蒙恬将二十万南伐，攻平与、鄢郢皆破之。引兵而西，与蒙恬会城父，荆人随之三日三夜不顿舍，大破李信军，杀七都尉。后与王贲破定燕、齐地。

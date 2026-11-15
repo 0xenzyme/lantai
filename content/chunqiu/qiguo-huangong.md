@@ -2,7 +2,7 @@
 id: qiguo-huangong
 name: 杞桓公
 display: 杞桓公
-profile: brief
+profile: full
 gender: male
 polity:
   - qi-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -567
 deathAccuracy: disputed
 deathNote: 春秋左传·襄公六年（前567）「六年，春，杞桓公卒。始赴以名，同盟故也」（raw/春秋/春秋左傳正義/卷30.md:90）。卒年取经传襄公六年。史记·陈杞世家作「桓公十七年卒」，不记绝对年。经传桓公历僖、文、宣、成至襄公六年，在位远不止十七年，不把十七年折成另一绝对年。
+title: 杞君，历数十年
 sources:
   - work: 春秋左传
     part: 襄公六年
@@ -18,3 +19,5 @@ sources:
     part: 陈杞世家
     kind: classic
 ---
+
+杞国国君。自鲁僖公至襄公六年在位，历年最久，为春秋所见在位最久之杞君。襄公六年春卒，赴告始以名，曰同盟故也。

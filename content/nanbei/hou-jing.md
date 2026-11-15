@@ -2,7 +2,7 @@
 id: hou-jing
 name: 侯景
 display: 侯景
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 侯景传
     kind: classic
 ---
+
+朔方羯人。初事尔朱荣，后降高欢，欢死，归于梁。武帝纳之，遂反。太清二年，陷台城，武帝以忧崩。景乃自立，国号汉。承圣元年，为王僧辩等所平，羊鲲杀之。

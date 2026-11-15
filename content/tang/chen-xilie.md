@@ -2,13 +2,14 @@
 id: chen-xilie
 name: 陈希烈
 display: 陈希烈
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 757
 deathAccuracy: exact
+title: 天宝宰相，降附安禄山
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -17,3 +18,5 @@ sources:
     part: 卷10·本纪第十 肃宗
     kind: classic
 ---
+
+宋州人，博学工文章，尤精玄学。开元中入禁中讲《老》《易》，累迁集贤院学士、工部侍郎。天宝五载同平章事，进左丞相，封许国公。杨国忠忌而代以韦见素。禄山盗京师，为贼侍中。肃宗以上皇素所遇，赐死于家。

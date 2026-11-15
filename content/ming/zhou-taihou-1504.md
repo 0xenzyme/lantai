@@ -2,15 +2,18 @@
 id: zhou-taihou-1504
 name: 孝肃周太后
 display: 孝肃周太后
-profile: brief
+profile: full
 gender: female
 polity:
   - ming
 birthAccuracy: unknown
 death: 1504
 deathAccuracy: exact
+title: 英宗贵妃，宪宗生母
 sources:
   - work: 明史
     part: 卷113·后妃一·孝肃周太后传
     kind: classic
 ---
+
+昌平人，英宗妃，宪宗生母也。天顺元年封贵妃。宪宗即位，尊为皇太后，事之至孝，五日一朝，燕享必亲。钱太后合葬裕陵，太后殊难之，宪宗委曲宽譬，乃得请。孝宗生西宫，母纪氏薨，太后育之宫中，省视万方。晚尊为太皇太后，崩，谥孝肃，别祀奉慈殿，不祔庙。

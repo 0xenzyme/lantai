@@ -2,7 +2,7 @@
 id: liu-yixuan
 name: 刘义宣
 display: 刘义宣
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 南郡王义宣传
     kind: classic
 ---
+
+宋武帝第六子，封南郡王。元嘉末镇江陵，为上游重镇。孝建元年，与臧质、鲁爽、徐遗宝同举兵反，帅众十万向建康，顿于梁山洲。王玄谟断其运道，诸军水陆并击，义宣众溃而走。江陵竺超民不纳，竟为朱修之所杀。

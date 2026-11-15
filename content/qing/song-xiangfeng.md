@@ -2,7 +2,7 @@
 id: song-xiangfeng
 name: 宋翔凤
 display: 宋翔凤
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1779
 birthAccuracy: exact
 death: 1860
 deathAccuracy: exact
+title: 常州学派经师
 sources:
   - work: 清史稿
     part: 卷482·儒林传三·刘逢禄附宋翔凤
     kind: classic
 ---
+
+江苏长洲人，字于庭。嘉庆五年举人，官湖南新宁知县，庄述祖之甥。通训诂名物，志在西汉家法，得庄氏真传。著《论语说义》《过庭录》等。

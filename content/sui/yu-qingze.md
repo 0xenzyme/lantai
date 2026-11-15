@@ -2,7 +2,7 @@
 id: yu-qingze
 name: 虞庆则
 display: 虞庆则
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 597
 deathAccuracy: exact
 deathNote: 开皇十七年为桂州道行军总管平李贤，还至潭州临桂镇，坐妇弟赵什柱告谋反，伏诛（隋书·虞庆则传）。年月即在本传。
+title: 使突厥称臣的宰相
 tags:
   - 隋
 aliases:
@@ -21,3 +22,5 @@ sources:
     part: 虞庆则传
     kind: classic
 ---
+
+京兆栎阳人，本姓鱼，代为北边豪杰。幼雄毅，身长八尺，善鲜卑语，慕傅介子、班仲升。开皇初，迁内史监、吏部尚书，封彭城郡公，营新都总监。奉使突厥，责以往事，摄图拜受称臣，因封鲁国公。开皇十七年，为桂州道行军总管讨李贤，妇弟赵什柱谮其反，伏诛。

@@ -2,7 +2,7 @@
 id: tuoba-kuo
 name: 拓跋廓
 display: 西魏恭帝拓跋廓
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 557
 deathAccuracy: approx
 deathNote: 557 为逊位封公之年，非寿数；史不载生卒。据「十二月庚子，帝遜位於周…封帝為宋公，尋殂」raw/南北朝/北史/卷005.md:115
+title: 西魏末帝，禅位于周
 sources:
   - work: 北史
     part: 卷005·魏本纪·恭帝
@@ -18,3 +19,5 @@ sources:
     part: 卷003·孝闵帝纪
     kind: classic
 ---
+
+西魏文帝元宝炬之子，封齐王。以齐王入承大统，复姓拓跋，是为恭帝。在位三年，政皆决于宇文氏，魏室如赘旒。恭帝三年十二月庚子，逊位于周，封宋公，寻殂。拓跋之社稷移于宇文氏。

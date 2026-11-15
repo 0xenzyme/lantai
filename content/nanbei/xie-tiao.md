@@ -2,7 +2,7 @@
 id: xie-tiao
 name: 谢朓
 display: 谢朓
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 谢朓传
     kind: classic
 ---
+
+字玄晖，陈郡阳夏人。少好学，文章清丽，长五言诗，沈约称「二百年来无此诗也」。历中书郎、秘书丞，出为宣城太守。东昏时，江祏谋立始安王，以告左兴盛，反为祏所构，收下廷尉，狱死，年三十六。

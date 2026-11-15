@@ -2,7 +2,7 @@
 id: liu-shao
 name: 刘劭
 display: 元凶刘劭
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 二凶传
     kind: classic
 ---
+
+宋文帝长子，元嘉六年立为太子。与始兴王濬共行巫蛊，事觉，文帝将废之。三十年二月，率东宫兵夜弑君父，僭即帝位，改元太初。孝武举兵东下，台城陷，枭首大航。

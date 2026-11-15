@@ -2,7 +2,7 @@
 id: xiao-yingzhou
 name: 萧颖胄
 display: 萧颖胄
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「十二月壬寅夜，卒」raw/南朝/南齊書/卷38.md:94
 death: 501
 deathAccuracy: exact
+title: 齐末与萧衍共起兵，中兴而卒
 sources:
   - work: 南齐书
     part: 卷038·萧赤斧子颖胄
     kind: classic
 ---
+
+南兰陵人，萧赤斧之子。齐末为侍中。永元中，与萧衍共谋起兵，奉齐和帝，颖胄为尚书令，辅帝居江陵，为上游重镇。中兴元年十二月卒，年四十。诏赠侍中、丞相。天监元年，封巴东郡公，谥曰献武。

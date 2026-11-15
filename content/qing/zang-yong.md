@@ -2,7 +2,7 @@
 id: zang-yong
 name: 臧庸
 display: 臧庸
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1767
 birthAccuracy: exact
 death: 1811
 deathAccuracy: exact
+title: 乾嘉经学家，臧琳玄孙
 sources:
   - work: 清史稿
     part: 卷481·儒林传二·臧琳附玄孙臧庸
     kind: classic
 ---
+
+本名镛堂，字在东，武进人，臧琳玄孙。与弟礼堂俱事钱塘卢文弨。沉默朴厚，学术精审，续高祖将绝之学，撰拜经日记八卷，高邮王念孙亟称之。其叙孟子年谱，辨齐宣王、湣王之讹，陈寿祺叹为绝识。又著拜经文集、诗考异。嘉庆十六年卒，年四十五。

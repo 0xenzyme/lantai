@@ -2,7 +2,7 @@
 id: yelv-zongzhen
 name: 耶律宗真
 display: 耶律宗真
-profile: brief
+profile: full
 gender: male
 polity:
   - liao-jin
@@ -10,8 +10,11 @@ birth: 1016
 birthAccuracy: exact
 death: 1055
 deathAccuracy: exact
+title: 辽兴宗，钦哀后子
 sources:
   - work: 辽史
     part: 兴宗本纪
     kind: classic
 ---
+
+圣宗长子，字夷不堇，幼为齐天皇后所养。善骑射，好儒术，通音律。太平十一年六月，即柩前位，改元景福。钦哀皇后萧氏诬弑齐天皇后，久乃归政。重熙二十四年崩。

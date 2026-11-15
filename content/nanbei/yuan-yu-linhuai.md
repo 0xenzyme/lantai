@@ -2,13 +2,14 @@
 id: yuan-yu-linhuai
 name: 元彧
 display: 临淮王元彧
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
 birthAccuracy: unknown
 death: 530
 deathAccuracy: exact
+title: 北魏临淮王，风流才学见称
 sources:
   - work: 北史
     part: 卷016·太武五王·临淮王彧
@@ -17,3 +18,5 @@ sources:
     part: 卷005·魏本纪
     kind: classic
 ---
+
+临淮王彧，字文若，绍封临淮。少有才学，崔光曰「黑头三公，当此人也」。与安丰王延明、中山王熙并以宗室文学齐名，时人莫能定其优劣。领军于忠恶之，遂单车而还。累迁尚书左仆射、尚书令、大司马。庄帝追崇武宣王为文穆皇帝，彧表谏之。后奔梁，以母老请还。

@@ -2,15 +2,18 @@
 id: chi-dai-zhudan
 name: 尺带珠丹
 display: 尺带珠丹
-profile: brief
+profile: full
 gender: male
 polity:
   - tubo
 birthAccuracy: unknown
 death: 755
 deathAccuracy: exact
+title: 吐蕃赞普，金城公主之夫
 sources:
   - work: 旧唐书
     part: 卷196上·吐蕃上
     kind: classic
 ---
+
+器弩悉弄之子，国人立为赞普，时年七岁。神龙元年告丧，中宗为之举哀。其祖母请婚，以雍王守礼女为金城公主许嫁，景龙四年公主至吐蕃。开元中遣使请和，尽出贞观以来敕书以示唐使。二十九年公主薨。天宝十四载死。

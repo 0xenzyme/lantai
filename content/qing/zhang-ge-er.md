@@ -2,7 +2,7 @@
 id: zhang-ge-er
 name: 张格尔
 display: 张格尔
-profile: brief
+profile: full
 gender: male
 polity:
   - huibu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1828
 deathAccuracy: approx
 deathNote: 生卒无确载于本库。清史稿卷529作嘉庆二十五年（1820）张格尔由浩罕纠布鲁特寇边；卒年 1828 为候选台账约略系年，本库引句无明文，非寿数。raw/清/清史稿/卷529.md:52
+title: 新疆和卓后裔，南疆叛酋
 sources:
   - work: 清史稿
     part: 卷529·属国四·浩罕
     kind: classic
 ---
+
+萨木萨克次子，流寓浩罕。嘉庆二十五年，由浩罕纠布鲁特寇边。道光六年，复求助浩罕入寇，约破西四城，子女玉帛共之。及西四城破，浩罕兵尽得府库官私之财。杨芳追张格尔至阿赖岭，遇伏兵二千，鏖战一昼夜始出险。八年，伏诛。

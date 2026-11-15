@@ -2,15 +2,18 @@
 id: sai-dianchi-shan-siding
 name: 赛典赤赡思丁
 display: 赛典赤赡思丁
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1279
 deathAccuracy: exact
+title: 回回重臣，抚治云南
 sources:
   - work: 元史
     part: 赛典赤赡思丁传
     kind: classic
 ---
+
+一名乌马儿，回回人，别菴伯尔之裔。太祖西征，率千骑迎降，命入宿卫。太宗时，为燕京断事官。至元十一年，拜平章政事，行省云南。教民播种，置郡县，建孔子庙、明伦堂，西南诸夷翕然款附。居云南六年卒，追封咸阳王，谥忠惠。

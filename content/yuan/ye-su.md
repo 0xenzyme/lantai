@@ -2,7 +2,7 @@
 id: ye-su
 name: 也速
 display: 也速
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1367
 deathAccuracy: approx
 deathNote: 卒年不详，取1367年为活动年（非寿数）。依据「二十七年，詔以也速為中書右丞相，分省山東」（raw/元/元史/卷142.md:65）
+title: 元末宿将，御于莫州
 sources:
   - work: 元史
     part: 也速传
     kind: classic
 ---
+
+蒙古人，倜傥有能名。从太师脱脱南征徐州，用其计，以巨石为炮，昼夜攻之，城拔。历知枢密院事，讨贼山东，复滕、兖二州及五县。二十四年，拜中书左丞相。二十七年，拜中书右丞相，分省山东。二十八年，与大明兵御于莫州，众败溃，北遁。

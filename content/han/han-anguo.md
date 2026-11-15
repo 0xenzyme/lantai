@@ -2,7 +2,7 @@
 id: han-anguo
 name: 韩安国
 display: 韩安国
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -127
 deathAccuracy: approx
 deathNote: 据《汉书·窦田灌韩传》「乃益東徙，意忽忽不樂，數月，病歐血死」，系于元朔中渔阳兵败益东徙后，约元朔二年（前127）；原文未记确年，作 approx。（原文：raw/西汉/漢書/卷052-竇田灌韓傳.md:118）
+title: 御史大夫，马邑之谋护军
 sources:
   - work: 汉书
     part: 窦田灌韩传·卷052
     kind: classic
 ---
+
+韩安国字长孺，梁成安人。事梁孝王为中大夫，吴楚反，与张羽为将捍吴兵于东界，吴不能过梁。公孙诡、羊胜刺杀爰盎，安国入见王泣谏，诡、胜自杀，梁事得释。武帝时，至御史大夫。马邑之谋，为护军将军。后屯渔阳失亡，徙益东，病欧血死。

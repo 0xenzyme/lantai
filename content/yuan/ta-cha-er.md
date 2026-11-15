@@ -2,15 +2,18 @@
 id: ta-cha-er
 name: 塔察儿
 display: 塔察儿
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1238
 deathAccuracy: exact
+title: 蒙古开国将，从灭金源
 sources:
   - work: 元史
     part: 博尔忽传附塔察儿
     kind: classic
 ---
+
+一名倴盏，居官山，博尔忽之从孙也。骁勇善战，幼直宿卫。太祖平燕，与耶律楚材穷治燕京盗贼之党。太宗伐金，授行省兵马都元帅，下河东北，济河破潼关，取陕洛，又从围汴、蔡而灭金，因留镇抚中原。戊戌卒，子别里虎䚟嗣。

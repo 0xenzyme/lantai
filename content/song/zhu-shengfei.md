@@ -2,7 +2,7 @@
 id: zhu-shengfei
 name: 朱胜非
 display: 朱胜非
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1144
 deathAccuracy: approx
 deathNote: 卒年無可引明文，台账作約 1144；《宋史·宰輔四》載紹興二年（1132）九月己丑朱勝非自觀文殿大學士、提舉萬壽觀兼侍讀除左宣奉大夫、右僕射、同平章事兼知樞密院事（raw/宋/宋史/卷213.md:21）。
+title: 平苗刘之变的宰相
 sources:
   - work: 宋史
     part: 宰輔四
     kind: classic
 ---
+
+字藏一，蔡州人。崇宁二年上舍登第。靖康中，说康王幸南京，以图大计。建炎三年，苗傅、刘正彦之变，从中调停，四月朔，掖上还宫。绍兴二年，拜右仆射、同平章事，主和议。与秦桧有隙，废居八年，卒，谥忠靖。

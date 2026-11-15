@@ -2,7 +2,7 @@
 id: gao-cheng
 name: 高澄
 display: 高澄
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -28,3 +28,5 @@ sources:
     part: 文襄纪
     kind: classic
 ---
+
+高欢长子，渤海蓨人。年十五任大司马。欢卒，澄领中外诸军事，归邺辅政，革尚书省，任贤黜佞，欲受禅。武定七年，为膳奴兰京所刺，殂于晋阳。追尊文襄帝。

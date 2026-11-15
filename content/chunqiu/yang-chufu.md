@@ -2,7 +2,7 @@
 id: yang-chufu
 name: 阳处父
 display: 阳处父
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -621
 deathAccuracy: exact
 deathNote: 春秋经·文公六年「晉殺其大夫陽處父」（前621），狐射姑使人杀之，宜为国讨。
+title: 晋大夫，易中军
 sources:
   - work: 春秋左传
     part: 文公六年
     kind: classic
 ---
+
+阳处父，晋大夫。僖公三十二年，报楚斗章之平，晋楚始通。三十三年，侵蔡，与楚子上夹泜而军，谓子上曰「文不犯顺，武不违敌」。文公六年，改蒐于董，易中军，狐射姑使人杀之。

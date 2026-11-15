@@ -2,15 +2,18 @@
 id: huo-yu
 name: 霍禹
 display: 霍禹
-profile: brief
+profile: full
 gender: male
 polity:
   - han
 birthAccuracy: unknown
 death: -66
 deathAccuracy: exact
+title: 霍光子，谋反伏诛
 sources:
   - work: 汉书
     part: 宣帝纪·卷008
     kind: classic
 ---
+
+霍禹，大将军霍光子，嗣博陆侯，为大司马。宣帝始躬亲朝政，而霍山自若领尚书，霍氏权日侵削。禹等自怨，显告以毒杀许皇后之实，始有邪谋。谋令太后置酒，召丞相以下，使范明友等承太后制引斩之，因废天子而立禹。约定未发，事觉，禹要斩，霍氏诛灭。

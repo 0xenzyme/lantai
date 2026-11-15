@@ -2,15 +2,18 @@
 id: zhu-furen
 name: 朱夫人
 display: 朱皇后（孙休后）
-profile: brief
+profile: full
 gender: female
 polity:
   - wu
 birthAccuracy: unknown
 death: 265
 deathAccuracy: exact
+title: 孙休皇后，为孙皓所逼
 sources:
   - work: 三国志
     part: 吴书五 妃嫔传
     kind: classic
 ---
+
+朱氏，朱据之女，孙休姊公主所生也。赤乌末，权为休纳以为妃。五凤中，孙仪谋杀孙峻，事觉被诛，全公主因言朱主与仪同谋，峻枉杀之；休惧，遣夫人还建业，执手泣别。永安五年，立夫人为皇后。休卒，群臣尊为皇太后，孙皓即位，贬为景皇后，甘露元年七月见逼而薨。

@@ -2,7 +2,7 @@
 id: li-maozhen
 name: 李茂贞
 display: 岐王李茂贞
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,8 +10,11 @@ polity:
 birthAccuracy: unknown
 death: 924
 deathAccuracy: exact
+title: 唐末凤翔节帅，封岐王
 sources:
   - work: 资治通鉴
     part: 卷273·后唐纪二
     kind: classic
 ---
+
+茂贞，本姓宋，名文通，深州博野人。以功赐姓名，授凤翔节度使，封陇西郡王，加尚书令，进封岐王。天复元年劫昭宗幸凤翔，梁祖筑垒围之，三年援绝，斩韩全诲等求和，兵力自是殚尽。然尚开岐王府，署天官，一如王者之制，行昭宗正朔。同光二年卒，年六十九，谥曰忠敬。

@@ -2,7 +2,7 @@
 id: wang-wujun
 name: 王武俊
 display: 王武俊
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 801
 deathAccuracy: approx
 deathNote: 贞元十七年（801）卒，其子士真自称留后；「十七年」承卷内贞元。 — raw/唐/新唐書/卷007.md:395
+title: 成德节度使，僭称赵王
 sources:
   - work: 新唐书
     part: 卷7·本纪第七·德宗 顺宗 宪宗
     kind: classic
 ---
+
+王武俊，契丹怒皆部落。年十五能骑射，为李宝臣裨将。尝说宝臣联田承嗣以自资。建中三年，李惟岳疑之，武俊倒戈入恒州，子士真斩惟岳。以赏薄怨望，与朱滔连兵救田悦，僭称赵王。后归命，与李抱真、马燧破朱滔。贞元中检校太尉，卒年六十七，谥忠烈。

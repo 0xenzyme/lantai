@@ -2,7 +2,7 @@
 id: wan-an
 name: 万安
 display: 万安
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1488
 deathAccuracy: approx
 deathNote: 本传作「萬安，安循吉，眉州人……正統十三年進士」`raw/明/明史/卷168.md:81`；本传不著卒年，约在弘治初（1488/1489 两说），姑系 1488 为近似，非本传明载。
+title: 成化首辅，时称万岁阁老
 sources:
   - work: 明史
     part: 卷168·万安传
     kind: classic
 ---
+
+眉州人。正统十三年进士。成化五年命兼翰林学士，入内阁参机务。无学术，既柄用，惟日事请托，结诸阉为内援。时万贵妃宠冠后宫，安因内侍致殷勤，自称子侄行。刘吉罢，为首辅。尝召对，顿首呼万岁而已，时人传笑谓之「万岁阁老」。孝宗立，令致仕，正德中卒，谥文和。

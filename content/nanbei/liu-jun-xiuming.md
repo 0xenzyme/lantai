@@ -2,7 +2,7 @@
 id: liu-jun-xiuming
 name: 刘濬
 display: 刘濬
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 二凶传
     kind: classic
 ---
+
+宋文帝第二子，封始兴王。母潘淑妃，嬖爱倾后宫。与太子劭昵甚，尝共为巫蛊，诅上早崩。元嘉三十年，劭弑立，濬豫其谋。孝武入讨，并伏诛于大航。

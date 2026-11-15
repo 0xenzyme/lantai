@@ -2,7 +2,7 @@
 id: song-xiang
 name: 宋庠
 display: 宋庠
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1049
 deathAccuracy: approx
 deathNote: 此年为可见活动年（拜相年），非卒年、非寿数：台账无卒年可引，唯《宋史·宰輔二》載皇祐元年（1049）八月壬戌宋庠自樞密使、檢校太傅、行工部侍郎加兵部侍郎、同平章事、集賢殿大學士（raw/宋/宋史/卷211.md:32），據此繫 1049 作 approx。
+title: 连中二元，谥曰元献
 sources:
   - work: 宋史
     part: 宰輔二
     kind: classic
 ---
+
+字公序，安州安陆人。天圣初举进士，开封试、礼部皆第一；弟祁礼部亦奏第一，章献太后不欲以弟先兄，擢庠首而置祁第十，人呼「二宋」。初名郊，李淑以姓名不祥中之，因改名庠。皇祐中拜同中书门下平章事。晚判亳州，以司空致仕，谥元献。

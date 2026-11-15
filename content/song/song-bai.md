@@ -2,15 +2,18 @@
 id: song-bai
 name: 宋白
 display: 宋白
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1012
 deathAccuracy: exact
+title: 三掌贡举，纂文苑英华
 sources:
   - work: 宋史
     part: 文苑一
     kind: classic
 ---
+
+字太素，大名人。年十三善属文，建隆二年擢进士甲科，三掌贡士。雍熙中，召与李昉纂《文苑英华》一千卷。至道初为翰林学士承旨，咸平四年拜礼部尚书。属文敏赡，三掌贡士颇致讥议。晚以兵部尚书致仕，大中祥符五年卒，年七十七，谥文安。

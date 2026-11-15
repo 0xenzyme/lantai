@@ -2,15 +2,18 @@
 id: wang-huian
 name: 懿宗惠安皇后王氏
 display: 懿宗惠安皇后王氏
-profile: brief
+profile: full
 gender: female
 polity:
   - tang
 birthAccuracy: unknown
 death: 866
 deathAccuracy: exact
+title: 懿宗贵妃，僖宗生母
 sources:
   - work: 新唐书
     part: 卷77·后妃下
     kind: classic
 ---
+
+懿宗惠安皇后王氏，史阙其家世。咸通中，册号贵妃，生普王。七年薨。十四年，普王即位，是为僖宗，追尊为皇太后，上谥惠安，祔主懿宗庙，即其园为寿陵。凡后缌麻以上属，僖宗悉授以官。

@@ -2,7 +2,7 @@
 id: xiaqiu-jianggong
 name: 瑕丘江公
 display: 瑕丘江公
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -140
 deathAccuracy: approx
 deathNote: 卒年不详。汉书·儒林传「武帝時，江公與董仲舒並」（raw/西汉/漢書/卷088-儒林傳.md:111）；史记·儒林列传「瑕丘江生為穀梁春秋」（raw/先秦-西汉/史記/卷121-儒林列傳.md:66）。传只云武帝时，无更细年份。取武帝初（建元元年，本库注记前140）为可见活动年，非寿数。不取无出处的前130。
+title: 谷梁大师，论屈于董仲舒
 sources:
   - work: 汉书
     part: 儒林传
@@ -18,3 +19,5 @@ sources:
     part: 儒林列传
     kind: classic
 ---
+
+瑕丘江公，受《谷梁春秋》及《诗》于鲁申公，传子至孙为博士。武帝时，江公与董仲舒并。仲舒通《五经》，能持论，江公呐于口，上使与仲舒议，不如仲舒。而丞相公孙弘本为《公羊》学，比辑其议，卒用董生，于是上因尊《公羊》家，诏太子受《公羊春秋》。

@@ -2,15 +2,18 @@
 id: yang-changjun
 name: 杨昌濬
 display: 杨昌濬
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
 birthAccuracy: unknown
 death: 1897
 deathAccuracy: exact
+title: 湘军出身总督，历督闽浙陕甘
 sources:
   - work: 清史稿
     part: 卷447·列传二百三十四（杨昌濬传）
     kind: classic
 ---
+
+字石泉，湖南湘乡人。以诸生从罗泽南治团练，从左宗棠入浙，取龙游、湖州，官至浙江巡抚。坐余杭葛毕氏案褫职。光绪四年起佐新疆军事，累迁漕运总督。十年佐左宗棠办闽海防务，代闽浙总督。移督陕甘，以河湟乱罢。二十三年卒。

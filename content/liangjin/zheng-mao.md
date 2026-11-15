@@ -2,15 +2,18 @@
 id: zheng-mao
 name: 郑袤
 display: 郑袤
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 273
 deathAccuracy: exact
+title: 西晋密陵侯，固辞司空
 sources:
   - work: 晋书
     part: 卷044·郑袤传
     kind: classic
 ---
+
+字林叔，荥阳开封人。高祖众为汉大司农，父泰为扬州刺史。少孤，早有识鉴。历黎阳令、济阴太守，下车旌表孝悌，兴立庠序。高贵乡公即位，奉迎元城，封广昌亭侯。武帝践祚，进爵为侯，诏为司空，前后辞让，固辞不就，以侯就第。九年薨，年八十五，谥元。

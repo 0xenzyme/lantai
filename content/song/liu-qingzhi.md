@@ -2,7 +2,7 @@
 id: liu-qingzhi
 name: 刘清之
 display: 刘清之
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1157
 deathAccuracy: approx
 deathNote: 此年为可见活动年（任官年），非卒年、非寿数。登绍兴二十七年进士第（raw/宋/宋史/卷437.md:40）。本传病革遂卒，无卒年。
+title: 孝宗朝儒臣，谪居讲学
 sources:
   - work: 宋史
     part: 儒林传七
     kind: classic
 ---
+
+字子澄，临江人，受业于兄靖之，博极书传。登绍兴二十七年进士第。为万安丞，江右大祲，请均境内之地为八，俾有粟者分振其乡，官为主之。召入对，首论民困兵骄。通判鄂州，谕止病不听巫、死不葬火之俗。知衡州，请蠲减月桩过湖钱。晚筑槐阴精舍处来学者，卒。

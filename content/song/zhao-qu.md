@@ -2,7 +2,7 @@
 id: zhao-qu
 name: 赵璩
 display: 赵璩
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -12,8 +12,11 @@ birthNote: 生年無明載；《宋史·卷246》作「高宗崩，奔赴得疾�
 death: 1188
 deathAccuracy: approx
 deathNote: 本傳不繫卒年；高宗崩於淳熙十四年（1187），「逾年而薨」約當淳熙十五年（1188）；台账作 approx（raw/宋/宋史/卷246.md:104）。
+title: 艺祖七世孙信王
 sources:
   - work: 宋史
     part: 宗室三
     kind: classic
 ---
+
+字润夫，初名伯玖，艺祖七世孙。与孝宗伯琮并养宫中，吴才人母之，号东西府。普安郡王立为皇太子，名位始定。孝宗即位，授少保。高宗崩，奔赴得疾，逾年而薨，年五十九，追封信王，累赠太师。

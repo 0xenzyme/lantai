@@ -2,7 +2,7 @@
 id: zhang-zai-jin
 name: 张载
 display: 西晋张载
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 283
 deathAccuracy: approx
 deathNote: 本传作太康初（约280—283）至蜀省父、道经剑阁（raw/晋/晉書/卷055.md:158）；此系活动年，卒年无载，非寿数。
+title: 西晋文学家，剑阁铭作者
 sources:
   - work: 晋书
     part: 卷055·张载
     kind: classic
 ---
+
+字孟阳，安平人，父收为蜀郡太守。性闲雅，博学有文章。太康初至蜀省父，道经剑阁，著铭以诫蜀人恃险好乱，益州刺史张敏表上其文，武帝遣使镌之于剑阁山。傅玄见而嗟叹，为之延誉。见世方乱，遂称疾告归，卒于家。

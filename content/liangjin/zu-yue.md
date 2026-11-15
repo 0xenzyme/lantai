@@ -2,13 +2,14 @@
 id: zu-yue
 name: 祖约
 display: 祖约
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 330
 deathAccuracy: exact
+title: 东晋豫州刺史，从苏峻诛
 sources:
   - work: 资治通鉴
     part: 卷094·晋纪十六·咸和五年
@@ -17,3 +18,5 @@ sources:
     part: 卷100·祖约传
     kind: classic
 ---
+
+字士少，豫州刺史祖逖之弟，与逖相友爱。逖卒，自侍中代领其众，为平西将军、豫州刺史。自以名辈不后郗、卞而不豫顾命，又望开府不见许，遂怀怨望。苏峻举兵，推崇约，约使逖子涣、女婿许柳以兵会。峻败，奔石勒，勒诈令聚会，杀之，并亲属百余人。

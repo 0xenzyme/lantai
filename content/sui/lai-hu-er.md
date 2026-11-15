@@ -2,7 +2,7 @@
 id: lai-hu-er
 name: 来护儿
 display: 来护儿
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 618
 deathAccuracy: exact
 deathNote: 三征高句丽水军主将。传文：「江都之难，宇文化及忌而害之」，诸子皆遇害（隋书·来护儿传）；隋书本纪未于义宁二年三月点名，卒年据资治通鉴·唐纪一：「又杀内史侍郎虞世基、御史大夫裴蕴、左翊卫大将军来护儿……」系于 618 年三月。
+title: 三征高丽的水军主将
 tags:
   - 隋
 aliases:
@@ -24,3 +25,5 @@ sources:
     part: 唐纪一
     kind: classic
 ---
+
+字崇善，江都人。幼读诗，叹曰「大丈夫当如是」。平陈有功，从杨素破高智慧于浙江，进位柱国。三征高丽，帅楼船指沧海，破之于卑奢城。杨玄感作乱，与宇文述击破之，封荣国公。江都之难，宇文化及忌而害之，诸子皆遇害。

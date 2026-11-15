@@ -2,15 +2,18 @@
 id: he-zhong
 name: 何中
 display: 何中
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1332
 deathAccuracy: exact
+title: 乐安学者，通鉴测海
 sources:
   - work: 元史
     part: 隐逸·何中
     kind: classic
 ---
+
+字太虚，抚之乐安人。少颖拔，以古学自任，家有藏书万卷，手自校仇。其学弘深该博，程巨夫、元明善、姚燧、吴澄、揭傒斯皆推服之。至顺二年，江西行省平章全岳柱聘为龙兴郡学师。明年六月，以疾卒。所著有通鉴纲目测海三卷、知非堂藁十七卷。

@@ -2,15 +2,18 @@
 id: shi-xu
 name: 史序
 display: 史序
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1010
 deathAccuracy: exact
+title: 宋初司天监，历算为首
 sources:
   - work: 宋史
     part: 方技上
     kind: classic
 ---
+
+字正伦，京兆人。善推步历算，太平兴国中补司天学生，太宗亲较试，擢为主簿。雍熙二年廷试，中选者二十六人，而序为之首，命知算造、知监事。尝修《仪天历》上之，又纂天文历书十二卷以献。在监三十年，未尝有过。大中祥符三年卒，年七十六。

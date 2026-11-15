@@ -2,7 +2,7 @@
 id: wanyan-sheng
 name: 完颜晟
 display: 完颜晟
-profile: brief
+profile: full
 gender: male
 polity:
   - liao-jin
@@ -10,8 +10,11 @@ birth: 1075
 birthAccuracy: exact
 death: 1135
 deathAccuracy: exact
+title: 金太宗，灭辽破汴
 sources:
   - work: 金史
     part: 太宗本纪
     kind: classic
 ---
+
+吴乞买，太祖之弟。以谙班勃极烈辅政，太祖崩，即柩前位，改元天会。三年，娄室获辽主，辽亡。四年，宗翰克汴京；五年，虏徽、钦二帝北归。十三年正月，崩于明德宫，年六十一，庙号太宗。

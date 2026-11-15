@@ -2,7 +2,7 @@
 id: li-jinzhong
 name: 李尽忠
 display: 李尽忠
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 696
 deathAccuracy: approx
 deathNote: 万岁通天元年（696）五月反，陷营州；年承卷内万岁通天元年。 — raw/唐/新唐書/卷004.md:255
+title: 契丹叛将，自号可汗
 sources:
   - work: 新唐书
     part: 卷4·本纪第四·则天皇后
     kind: classic
 ---
+
+契丹松漠都督。营州都督赵文翽骄沓，数侵侮其下，尽忠等皆怨望。万岁通天元年，与妻兄归诚刺史孙万荣杀文翽，举兵反，攻陷营州，自号无上可汗，以万荣为将。武后改其名为尽灭。俄而死，突厥默啜袭破其部。

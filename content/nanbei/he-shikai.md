@@ -2,7 +2,7 @@
 id: he-shikai
 name: 和士开
 display: 和士开
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -27,3 +27,5 @@ sources:
     part: 恩幸传·和士开
     kind: classic
 ---
+
+邺人，字彦通，以恩幸进。齐武成狎昵之，所言皆从。武成末，与娄定远同受顾命。后主时，势倾中外。武平二年，琅邪王俨矫诏斩之于台。

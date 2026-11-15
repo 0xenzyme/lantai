@@ -2,7 +2,7 @@
 id: yang-zhong
 name: 杨忠
 display: 杨忠
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -28,3 +28,5 @@ sources:
     part: 杨忠传
     kind: classic
 ---
+
+弘农华阴人，小名奴奴，隋文帝杨坚之父。美须髯，身长七尺八寸，武艺绝伦，有将帅之略。年十八陷于梁，五年从北海王颢入洛。后归西魏，从独孤信平南阳，斩东魏刺史辛纂。太祖狩于龙门，独当一猛兽，左挟腰右拔舌，因字揜于。天和三年薨，年六十二。

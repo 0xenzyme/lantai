@@ -2,7 +2,7 @@
 id: bo-sa-li
 name: 伯撒里
 display: 伯撒里
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1365
 deathAccuracy: approx
 deathNote: 卒年不详，取1365年为活动年（非寿数）。依据「詔以伯撒里為太師、中書右丞相、監修國史」（raw/元/元史/卷046.md:132）
+title: 顺帝太师右丞相
 sources:
   - work: 元史
     part: 顺帝九
     kind: classic
 ---
+
+至正二十五年九月，诏以太师、中书右丞相、监修国史；扩廓帖木儿为太尉、中书左丞相，同监修国史。史无专传，余事不详。

@@ -2,15 +2,18 @@
 id: a-sha-bu-hua
 name: 阿沙不花
 display: 阿沙不花
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1309
 deathAccuracy: exact
+title: 康里直臣，位至右丞相
 sources:
   - work: 元史
     part: 武宗一
     kind: classic
 ---
+
+康里国王族也。年十四入侍世祖。乃颜叛，说诸王纳牙自归，叛者势孤。成宗崩，与哈剌哈孙谋，执安西王阿难答，诛阿忽台以下。迎武宗于野马川，拜中书平章政事，加太尉，进开府仪同三司、中书右丞相。以至大二年十月薨于位，年四十七，追封顺宁王，谥忠烈。

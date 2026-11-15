@@ -2,15 +2,18 @@
 id: wang-huanghou-1518
 name: 孝贞王皇后
 display: 孝贞王皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - ming
 birthAccuracy: unknown
 death: 1518
 deathAccuracy: exact
+title: 宪宗继后，处万氏宠而淡如
 sources:
   - work: 明史
     part: 卷113·后妃一·孝贞纯皇后传
     kind: classic
 ---
+
+上元人。宪宗在东宫，英宗为择配，得十二人，选后及吴氏、柏氏留宫中。吴氏既立而废，遂册为皇后。万贵妃宠冠后宫，后处之淡如。孝宗即位，尊为皇太后；武宗即位，尊为太皇太后。后崩，合葬茂陵，祔太庙，谥孝贞纯皇后。

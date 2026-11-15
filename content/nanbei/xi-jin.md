@@ -2,7 +2,7 @@
 id: xi-jin
 name: 奚斤
 display: 奚斤
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -27,3 +27,5 @@ sources:
     part: 奚斤传
     kind: classic
 ---
+
+代人。仕魏，道武时以将略进，明元时与长孙嵩等同决军国大议。太武即位，位至宰相，与长孙嵩辅政。赫连氏之亡，斤与其谋，后率军略定关西。真君九年薨，年八十，世祖亲临哀恸。

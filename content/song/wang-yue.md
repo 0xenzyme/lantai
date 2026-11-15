@@ -2,13 +2,14 @@
 id: wang-yue
 name: 王爚
 display: 王爚
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1275
 deathAccuracy: exact
+title: 宋末左丞相，极论似道
 sources:
   - work: 宋史
     part: 宰辅五
@@ -20,3 +21,5 @@ sources:
     part: 列传第一百七十七
     kind: classic
 ---
+
+字仲潜，一字伯晦，绍兴新昌人。登嘉定十三年进士第，咸淳中入枢府，官至参知政事。德祐元年，进少保、左丞相兼枢密使，加都督诸路军马，极陈贾似道误国丧师之罪。后与陈宜中不协，罢为醴泉观使，是年十二月薨。为人清修刚劲。

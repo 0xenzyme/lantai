@@ -2,7 +2,7 @@
 id: deng-wenyuan
 name: 邓文原
 display: 邓文原
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 本传享年71，虚岁上推生年1258，非精确生年。依据「天曆元年卒，年七十一」（raw/元/元史/卷172.md:65）
 death: 1328
 deathAccuracy: exact
+title: 绵州廉臣，治狱明决
 sources:
   - work: 元史
     part: 邓文原传
     kind: classic
 ---
+
+字善之，一字匪石，绵州人，父漳徙钱塘。年十五通春秋。至元二十七年，辟为杭州路儒学正。历崇德教授、应奉翰林文字。延祐间，佥江南浙西道肃政廉访司事，雪府判官理熙之诬，释张福儿之狱，人以为神。请罢榷茶转运司，不报。天历元年卒，年七十一。

@@ -2,15 +2,18 @@
 id: zhao-gui
 name: 赵贵
 display: 赵贵
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
 birthAccuracy: unknown
 death: 557
 deathAccuracy: exact
+title: 西魏八柱国之一，谋诛宇文护
 sources:
   - work: 周书
     part: 卷016·赵贵传
     kind: classic
 ---
+
+赵贵，字元贵，天水南安人。孝昌中率乡里南迁，从贺拔岳平关中。岳为侯莫陈悦所害，贵收尸还，纠合其众，奔平凉，首议迎太祖。从战沙苑、河桥、邙山。孝闵帝践阼，迁太傅、大冢宰，进封楚国公。自以元勋，与独孤信谋诛晋公护，为宇文盛所告，被诛。

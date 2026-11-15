@@ -2,7 +2,7 @@
 id: li-e
 name: 厉鹗
 display: 厉鹗
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1736
 deathAccuracy: approx
 deathNote: 生卒不详。清史稿卷485作乾隆元年（1736）举鸿博、报罢；今以该年为活动下限系年，非寿数。raw/清/清史稿/卷485.md:36
+title: 浙派诗人
 sources:
   - work: 清史稿
     part: 卷485·文苑传二·厉鹗
     kind: classic
 ---
+
+字太鸿，浙江钱塘人。家贫，性孤峭，不苟合。康熙五十九年李绂典试浙江，亟录之；再试礼部不第。乾隆元年举鸿博，误写论置诗前，报罢。为诗幽新，宗宋人。卒，年六十一。

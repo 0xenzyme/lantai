@@ -2,7 +2,7 @@
 id: lu-zhaogong
 name: 姬裯
 display: 鲁昭公
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -510
 deathAccuracy: exact
 deathNote: 史记·鲁周公世家「三十二年，昭公卒於乾侯」。昭公元年前541，三十二年得前510。
+title: 鲁君，伐季氏出奔
 sources:
   - work: 史记
     part: 鲁周公世家
     kind: classic
 ---
+
+鲁国国君。三桓强，公室卑。十三年，晋人执季孙意如以归。二十五年，公伐季氏，叔孙、孟氏救之，公出奔齐，居于乾侯，三十二年卒于乾侯。

@@ -2,7 +2,7 @@
 id: chuang-wu-er
 name: 床兀儿
 display: 床兀儿
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 本传享年63，虚岁上推生年1260，非精确生年。依据「至治二年（1322年）卒，年六十三」（raw/元/元史/卷128.md:142）
 death: 1322
 deathAccuracy: exact
+title: 钦察将门，封句容郡王
 sources:
   - work: 元史
     part: 土土哈传附床兀儿
     kind: classic
 ---
+
+土土哈子。大德元年，袭父职，帅师攻八邻，败海都之援。武宗在潜邸，军事必咨之。成宗崩，请急归定大业。及即位，加平章政事，封容国公，进句容郡王。延祐初，败叛王也先不花之将也不干、忽都帖木儿，追至铁门关。至治二年卒，年六十三，累封扬王。

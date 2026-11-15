@@ -2,7 +2,7 @@
 id: shi-gai
 name: 士匄
 display: 士匄
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -565
 deathAccuracy: approx
 deathNote: 生卒不详，取前565年为活动下限（非寿数）。据春秋左传正义襄公八年「晉侯使士匄來聘」（raw/春秋/春秋左傳正義/卷30.md:227）。
+title: 晋正卿，范宣子刑书
 sources:
   - work: 春秋左传正义
     part: 襄公八年
     kind: classic
 ---
+
+晋正卿，士燮之子，谥宣，故称范宣子。襄、灵之间执晋政。昭二十九年，赵鞅、荀寅赋晋国一鼓铁以铸刑鼎，用其所撰刑书，仲尼以为晋之将亡。子鞅，是为范献子。

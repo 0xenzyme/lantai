@@ -2,7 +2,7 @@
 id: wang-sizheng
 name: 王思政
 display: 王思政
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 548
 deathAccuracy: approx
 deathNote: 卒年取活动年，为收录下限，非寿数。据「十四年，拜大將軍。九月，東魏太尉高岳」raw/南北朝/北史/卷062.md:52
+title: 西魏名将，守颍川而全节
 sources:
   - work: 北史
     part: 卷062·王思政传
     kind: classic
 ---
+
+太原祁人。仕西魏，为并州刺史，守玉璧。高仲密以北豫州来附，使镇弘农，思政开门解衣而卧，东魏将惮不敢进，弘农之有备自思政始。后举韦孝宽以自代。十三年，入守颍川。十四年，东魏高岳等堰洧水灌城，思政身当矢石，城陷被擒，辞气不屈。

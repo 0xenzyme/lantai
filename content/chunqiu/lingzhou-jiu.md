@@ -2,7 +2,7 @@
 id: lingzhou-jiu
 name: 伶州鸠
 display: 伶州鸠
-profile: brief
+profile: full
 gender: male
 polity:
   - zhou
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -521
 deathAccuracy: approx
 deathNote: 卒年不详，取前521年为活动下限（非寿数）。依据春秋左传正义·昭公二十一年「王其以心疾死乎」（raw/春秋/春秋左傳正義/卷50.md:29）。
+title: 周乐官，答景王问律
 sources:
   - work: 春秋左传正义
     part: 昭公二十一年
     kind: classic
 ---
+
+周景王乐官。景王二十三年将铸无射，问律于州鸠，州鸠对以七律、五位三所之说。王弗听，卒铸大钟。单穆公曰：三年之中而有离民之器二焉，国其危哉。

@@ -2,7 +2,7 @@
 id: li-chong-jichang
 name: 李崇
 display: 李崇
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -27,3 +27,5 @@ sources:
     part: 李崇传
     kind: classic
 ---
+
+顿丘人，文穆皇后之兄。孝文时历御史中尉、侍中，以严正称。太和二十年，从幸悬瓠，以南伐劳悴，发病，旬余而卒，年四十九。高祖亲临举哀。

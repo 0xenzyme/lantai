@@ -2,13 +2,14 @@
 id: dou-dexuan
 name: 窦德玄
 display: 窦德玄
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 666
 deathAccuracy: exact
+title: 高宗左相，检校封禅使
 sources:
   - work: 新唐书
     part: 卷61·表第一 宰相上
@@ -17,3 +18,5 @@ sources:
     part: 卷5·本纪第五 高宗下
     kind: classic
 ---
+
+钜鹿男。麟德元年为大司宪，与司刑太常伯刘祥道等九人为持节大使，分行天下。乾封初，检校左相，兼司元太常伯。及高宗封禅泰山，与李勣、许敬宗、陆敦信并为检校封禅使。其年八月卒。

@@ -2,7 +2,7 @@
 id: huang-shijun
 name: 黄士俊
 display: 黄士俊
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+顺德人。万历三十五年殿试第一，授修撰，历官礼部尚书。崇祯九年入阁，累加少傅，予告归。父母俱在堂，锦衣侍养，人以为荣。唐王以原官召，未赴。后相永明王，耄不能决事，数为台省论列，辞归而卒。

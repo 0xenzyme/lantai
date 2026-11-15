@@ -2,7 +2,7 @@
 id: lu-qi
 name: 卢杞
 display: 卢杞
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 785
 deathAccuracy: approx
 deathNote: 贞元元年（785）贬为澧州别驾，「寻卒」；以贬所卒事系年。 — raw/唐/舊唐書/卷12.md:173
+title: 德宗宰相，险贼忌贤
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -18,3 +19,5 @@ sources:
     part: 卷12·本纪第十二 德宗上
     kind: classic
 ---
+
+卢杞，字子良。貌陋而口辩，借荫入仕。德宗擢门下侍郎、同中书门下平章事。既得志，谗罢杨炎，挤死张镒；遣颜真卿宣慰李希烈，使为贼所害；遣李揆入蕃会盟，卒于道。行间架、除陌之法，苛敛召怨。泾师乱，帝出奉天，卒用其策，李怀光因反。后徙澧州别驾，卒。

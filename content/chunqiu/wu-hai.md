@@ -2,7 +2,7 @@
 id: wu-hai
 name: 无骇
 display: 无骇
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -715
 deathAccuracy: exact
 deathNote: 春秋左传正义·隐公八年（前715）「冬，十有二月，無駭卒。」（raw/春秋/春秋左傳正義/卷03.md:208）。
+title: 鲁卿，未赐族
 sources:
   - work: 春秋左传正义
     part: 隐公八年
     kind: classic
 ---
+
+无骇，鲁卿，为司空。隐公八年，帅师入极。是年冬十二月卒。卒而后赐族，故不书氏；羽父请谥与族，公问族于众仲，公命以字为展氏，无骇，公子展之孙也。

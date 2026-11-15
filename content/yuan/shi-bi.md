@@ -2,15 +2,18 @@
 id: shi-bi
 name: 史弼
 display: 史弼
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1297
 deathAccuracy: exact
+title: 元初宿将，征宋伐爪哇
 sources:
   - work: 元史
     part: 史弼传
     kind: classic
 ---
+
+字君佐，一名塔剌浑，蠡州博野人。长通国语，力挽强弓。从伯颜南征，阳罗堡先登，论功第一。累迁江淮行省参知政事，凡三官扬州，人号三至碑。二十九年，以福建行省平章政事征爪哇，丧师得还。元贞三年，封鄂国公，卒于家，年八十六。

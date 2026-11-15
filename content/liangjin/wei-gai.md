@@ -2,7 +2,7 @@
 id: wei-gai
 name: 魏该
 display: 魏该
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 328
 deathAccuracy: approx
 deathNote: 本传作「峻未平，該病篤還屯，卒於道」（raw/晋/晉書/卷063.md:75）；承苏峻之乱（咸和三年，328）系年，卒年无确载，非寿数。
+title: 东晋雍州刺史，峻未平卒于道
 sources:
   - work: 晋书
     part: 卷063·魏该传
     kind: classic
 ---
+
+一名亥，本侨居京兆阴磐。永嘉乱，随浚赴难，守金墉城得全。后与李炬、郭默相结以拒刘曜，元帝承制，加冠军将军、河东太守，迁前锋都督、平北将军、雍州刺史。王敦反，勒兵不应。苏峻反，率众救台，受陶侃节度。峻未平，病笃还屯，卒于道。

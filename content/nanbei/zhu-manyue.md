@@ -2,7 +2,7 @@
 id: zhu-manyue
 name: 朱满月
 display: 朱满月
-profile: brief
+profile: full
 gender: female
 polity:
   - beizhou
@@ -12,8 +12,11 @@ birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「隋開
 death: 586
 deathAccuracy: exact
 deathNote: 「六年」承开皇元年，即开皇六年，当 586。
+title: 北周宣帝朱皇后，静帝之母
 sources:
   - work: 周书
     part: 卷009·皇后
     kind: classic
 ---
+
+宣帝朱皇后名满月，吴人也。其家坐事，没入东宫。帝之为太子，后被选掌帝衣服，召而幸之，遂生静帝。大象元年，立为天元帝后，寻改天皇后，又改天大皇后。后本非良家子，年长于帝十余岁，疏贱无宠，以静帝故特尊崇之。隋开皇元年，出俗为尼。六年殂，年四十。

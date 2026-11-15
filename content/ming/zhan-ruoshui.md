@@ -2,7 +2,7 @@
 id: zhan-ruoshui
 name: 湛若水
 display: 湛若水
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1492
 deathAccuracy: approx
 deathNote: 本传作「弘治五年舉於鄉」`raw/明/明史/卷283.md:43`；弘治五年为1492。后文「年九十五卒」不系年。此为活动年，非寿数。
+title: 陈献章高弟，与王守仁讲学
 sources:
   - work: 明史
     part: 卷283·儒林传二·湛若水
     kind: classic
 ---
+
+字元明，增城人。弘治五年举于乡，从陈献章游，不乐仕进，母命之出，乃入南京国子监。十八年会试，学士张元祯、杨廷和抚其卷曰「非白沙之徒不能为此」，置第二。时王守仁在吏部讲学，若水与相应和。嘉靖初入朝，上经筵讲学疏。归，筑西樵讲舍。

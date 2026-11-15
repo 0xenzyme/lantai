@@ -2,7 +2,7 @@
 id: gan-yanshou
 name: 甘延寿
 display: 甘延寿
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -36
 deathAccuracy: approx
 deathNote: 《汉书·元帝纪》建昭三年（前36）与陈汤共攻郅支单于，冬斩其首；以该年为活动下限，非寿数，卒年无载。（原文：raw/西汉/漢書/卷009-元帝紀.md:131）
+title: 西域都护，与陈汤斩郅支
 sources:
   - work: 汉书
     part: 元帝纪·卷009
     kind: classic
 ---
+
+甘延寿字君况，北地郁郅人。少以良家子善骑射为羽林，投石拔距绝于等伦，尝超逾羽林亭楼。稍迁至辽东太守，免官。许嘉荐为郎中谏大夫，使西域都护骑都尉，与副校尉陈汤共诛斩郅支单于，封义成侯。匡衡议其矫制生事不当封，上从众而侯之。谥壮侯。

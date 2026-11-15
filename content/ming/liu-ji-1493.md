@@ -2,7 +2,7 @@
 id: liu-ji-1493
 name: 刘吉
 display: 刘吉
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1493
 deathAccuracy: approx
 deathNote: 本传作「劉吉，字祐之，博野人。正統十三年進士」`raw/明/明史/卷168.md:115`；本传不著卒年，约在弘治六年（1493），此系近似，非本传明载。
+title: 弘治内阁的伴食宰相
 sources:
   - work: 明史
     part: 卷168·刘吉传
     kind: classic
 ---
+
+字祐之，博野人。正统十三年进士。成化十一年入阁预机务，进礼部尚书。与万安、刘珝同值时，帝失德无所规正，时有纸糊三阁老之谣。弘治间柄政久，权势烜赫，终无去志。五年，帝讽令致仕，驰驿归。约卒于弘治六年。

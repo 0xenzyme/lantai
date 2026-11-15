@@ -2,7 +2,7 @@
 id: jiang-yan
 name: 江淹
 display: 江淹
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 江淹传
     kind: classic
 ---
+
+济阳考城人，字文通。宋末为建平王景素参军，坐事免。入齐，历中书侍郎、秘书监。梁武起兵，贻书劝进。梁立，封醴陵侯。天监四年卒，年六十二。

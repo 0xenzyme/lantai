@@ -2,15 +2,18 @@
 id: wang-shenqi
 name: 王审琦
 display: 王审琦
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 974
 deathAccuracy: exact
+title: 宋初殿前都指挥使
 sources:
   - work: 宋史
     part: 王審琦传
     kind: classic
 ---
+
+字仲宝，其先辽西人，后徙洛阳。从征淮南，一夕拔舒州，破南唐军于紫金山，先登中流矢。宋初擢殿前都指挥使。李筠叛，为飞石所伤；李重进叛，副石守信讨之。出为忠正军节度，在镇八年，为政宽简。开宝六年加同平章事，七年卒，年五十，追封琅琊郡王。

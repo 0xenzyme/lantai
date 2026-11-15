@@ -2,7 +2,7 @@
 id: chen-aigong
 name: 媯弱
 display: 陈哀公
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -534
 deathAccuracy: exact
 deathNote: 史记·陈杞世家：招、过作乱杀世子，楚师「十一月，滅陳」；左传·昭公八年（前534）陈哀公卒于乱，楚灭陈。
+title: 陈侯，死于内乱楚灭
 sources:
   - work: 史记
     part: 陈杞世家
@@ -18,3 +19,5 @@ sources:
     part: 昭公八年
     kind: classic
 ---
+
+陈哀公，名弱。嬖其弟招，使专政。招杀太子偃师，哀公自经而死。楚灵王因灭陈，以公子弃疾为陈公。

@@ -2,7 +2,7 @@
 id: an-shenqi
 name: 安审琦
 display: 安审琦
-profile: brief
+profile: full
 gender: male
 polity:
   - wudai
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 935
 deathAccuracy: approx
 deathNote: 资治通鉴·卷279 繫于清泰二年（935）「以彰聖都指揮使安審琦領順化節度使」（raw/通代/資治通鑑/卷279.md:200）；此为任官之年，非寿数。
+title: 后唐宿将，镇襄沔一纪
 sources:
   - work: 资治通鉴
     part: 卷279·后唐纪八
     kind: classic
 ---
+
+审琦先世沙陀部人，父金全。少以良家子事庄宗为义直军使。清泰初领顺化节度使，从张敬达围太原，及杨光远举晋安寨降于晋祖，审琦亦预焉。汉有天下，授襄州节度使，荆人潜遣舟师数千屠襄、郢，御之而遁。镇襄、沔十余年，严而不残，南邦之民怀其惠。晚为隶人安友进所害，赠尚书令，追封齐王。

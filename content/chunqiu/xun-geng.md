@@ -2,7 +2,7 @@
 id: xun-geng
 name: 荀庚
 display: 荀庚
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -588
 deathAccuracy: approx
 deathNote: 卒年不详，取前588年为活动下限（非寿数）。依据春秋左传正义·成公三年「丙午，及荀庚盟」（raw/春秋/春秋左傳正義/卷26.md:29）。
+title: 晋卿，中行伯
 sources:
   - work: 春秋左传正义
     part: 成公三年
     kind: classic
 ---
+
+荀庚，晋卿，荀林父之子，号中行伯。成公三年来鲁聘，且寻盟，公亲及之盟。后将上军，位在三。卒，子荀偃嗣。

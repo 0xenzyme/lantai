@@ -2,7 +2,7 @@
 id: zhang-xie
 name: 张协
 display: 张协
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 310
 deathAccuracy: approx
 deathNote: 本传作永嘉初（约307—310）征为黄门侍郎、托疾不就，终于家（raw/晋/晉書/卷055.md:195）；此系任官之年，卒年无载，非寿数。
+title: 西晋诗人，作七命
 sources:
   - work: 晋书
     part: 卷055·张载传附弟协
     kind: classic
 ---
+
+字景阳，安平人，张载之弟。少有俊才，与载齐名。辟公府掾，迁中书侍郎，转河间内史，在郡清简寡欲。天下已乱，弃绝人事，屏居草泽，守道不竞，以属咏自娱，拟诸文士作《七命》，世以为工。永嘉初复征黄门侍郎，托疾不就，终于家。

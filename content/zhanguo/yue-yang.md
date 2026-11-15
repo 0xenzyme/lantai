@@ -2,7 +2,7 @@
 id: yue-yang
 name: 乐羊
 display: 乐羊
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-zhanguo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -408
 deathAccuracy: approx
 deathNote: 生卒不详，取前408年为活动年（非寿数）。据史记·乐毅列传（raw/先秦-西汉/史記/卷080-樂毅列傳.md:17）「樂羊為魏文侯將，伐取中山」。同条言乐羊死而葬灵寿，无年。
+title: 魏将，伐取中山
 sources:
   - work: 史记
     part: 乐毅列传
     kind: classic
 ---
+
+魏文侯之将，伐取中山，文侯封乐羊以灵寿。乐羊死，葬于灵寿，其后子孙因家焉。中山复国，至赵武灵王时复灭中山，而乐氏后有乐毅。翟璜尝进乐羊，文侯用之以拔中山，既拔无守，翟璜因进李克。

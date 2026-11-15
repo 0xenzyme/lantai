@@ -2,15 +2,18 @@
 id: wang-huanghou-1620
 name: 孝端王皇后
 display: 孝端王皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - ming
 birthAccuracy: unknown
 death: 1620
 deathAccuracy: exact
+title: 神宗皇后，正位中宫四十二年
 sources:
   - work: 明史
     part: 卷114·后妃二·孝端显皇后传
     kind: classic
 ---
+
+余姚人，生京师。万历六年册立为皇后。性端谨，事孝定太后得其欢心。光宗在东宫，危疑者数矣，后调护备至。郑贵妃颛宠，后不较也。正位中宫者四十二年，以慈孝称。光宗即位，上尊谥曰孝端显皇后，合葬定陵，主祔庙。

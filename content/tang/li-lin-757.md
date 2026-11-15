@@ -2,7 +2,7 @@
 id: li-lin-757
 name: 李璘
 display: 李璘
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 757
 deathAccuracy: approx
 deathNote: 天宝十五载（756）六月玄宗幸蜀，诏璘领四道节度；传末「因中矢而薨」不系年，卒约至德二载（757）。 — raw/唐/舊唐書/卷107.md:57
+title: 永王起兵，败死江左
 sources:
   - work: 旧唐书
     part: 卷107·列传第五十七·玄宗诸子
     kind: classic
 ---
+
+玄宗第十六子，母郭顺仪。数岁失母，肃宗收养。开元十三年封永王。天宝十五载玄宗幸蜀，诏领四道节度、江陵大都督。至江陵，召募士将数万人，江淮租赋山积。肃宗诏令归觐，不从，擅领舟师东下。兵败，为江西采访使皇甫侁兵所擒，中矢而薨。

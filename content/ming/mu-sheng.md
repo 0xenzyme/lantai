@@ -2,7 +2,7 @@
 id: mu-sheng
 name: 沐晟
 display: 沐晟
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1439
 deathAccuracy: approx
 deathNote: 本传作「正統三年，麓川思任發反。晟抵金齒」`raw/明/明史/卷126.md:154`；卒于正统四年（1439）征麓川还师后，此系近似。
+title: 世守云南的黔宁王次子
 sources:
   - work: 明史
     part: 卷126·沐晟传
     kind: classic
 ---
+
+沐英次子也，字景茂。少凝重，喜读书，太祖爱之。建文元年嗣侯。讨平诸蛮，以其地为三府二州五长官司，麓川遂定。宣德元年会柳升讨交址黎利，升败死，晟亦退兵。正统三年麓川思任发反，引还至楚雄卒，赠定远王，谥忠敬。

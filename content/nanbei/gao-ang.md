@@ -2,7 +2,7 @@
 id: gao-ang
 name: 高昂
 display: 高昂
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -29,3 +29,5 @@ sources:
     part: 高昂传
     kind: classic
 ---
+
+渤海蓨人，高乾之弟。少任侠，以部曲起。高欢起兵，昂为前锋，所向皆捷。其军皆汉人壮勇，独成一队，东魏军中号为第一。元象元年，战于邙阴，为西军所害，年四十八。

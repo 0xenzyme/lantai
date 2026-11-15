@@ -2,15 +2,18 @@
 id: sun-huanghou-1462
 name: 孝恭孙皇后
 display: 孝恭孙皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - ming
 birthAccuracy: unknown
 death: 1462
 deathAccuracy: exact
+title: 宣宗皇后，取宫人子为己子
 sources:
   - work: 明史
     part: 卷113·后妃一·孝恭章皇后传
     kind: classic
 ---
+
+邹平人。幼入宫，宣宗即位封贵妃，请于太后制金宝，贵妃有宝自此始。无子，阴取宫人子为己子，即英宗也。宣德三年胡后废，遂册为皇后。英宗北狩，命郕王监国；及还，幽于南宫，后数入省视。石亨等谋夺门，先密白太后，许之。天顺六年崩，谥孝恭章皇后。

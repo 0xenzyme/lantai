@@ -2,7 +2,7 @@
 id: pi-jia-kehan
 name: 毗伽可汗
 display: 毗伽可汗
-profile: brief
+profile: full
 gender: male
 polity:
   - tujue
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 734
 deathAccuracy: approx
 deathNote: 本传「俄为梅录啜所毒…乃卒」，不系年；通说约开元二十二年（734）。 — raw/唐/新唐書/卷215下.md:22
+title: 后突厥可汗，任暾欲谷
 sources:
   - work: 新唐书
     part: 卷215下·突厥下
     kind: classic
 ---
+
+毗伽可汗默棘连，本称小杀。开元四年嗣位，以阙特勒为左贤王专兵，老臣暾欲谷与谋国。唐发三十万讨之，暾欲谷料拔悉蜜必先至，先击破之，遂掠凉州，突厥大振。后固乞和，请父事天子，然和亲卒不许。晚年为梅录啜所毒，忍死诛之，乃卒。

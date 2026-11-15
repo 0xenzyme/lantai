@@ -2,7 +2,7 @@
 id: chang-yizhi
 name: 昌义之
 display: 昌义之
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -25,3 +25,5 @@ sources:
     part: 昌义之传
     kind: classic
 ---
+
+历城人，有武干。仕梁守钟离，天监五年拒魏中山王元英之攻，凭城固守，会曹景宗、韦睿赴援，大破魏军。后官至护军将军。普通四年卒。

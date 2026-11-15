@@ -2,7 +2,7 @@
 id: duan-zhengchun
 name: 段正淳
 display: 段正淳
-profile: brief
+profile: full
 gender: male
 polity:
   - dali
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1108
 deathAccuracy: approx
 deathNote: 禅位为僧，以禅位之年（公元 1108）系年，非寿数；生年无载。
+title: 后理国第一主
 sources:
   - work: 南诏野史
     part: 大理国
     kind: classic
 ---
+
+升泰临终还政，正淳复国，是为后理之始，高氏为相。在位十二年，禅位为僧，传子正严。

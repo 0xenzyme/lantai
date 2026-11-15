@@ -2,7 +2,7 @@
 id: zi-shang
 name: 子上
 display: 子上
-profile: brief
+profile: full
 gender: male
 polity:
   - chu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -627
 deathAccuracy: exact
 deathNote: 春秋左传正义·僖公三十三年（前627）「王殺子上」（raw/春秋/春秋左傳正義/卷16.md:292）。
+title: 楚令尹，见谗而死
 sources:
   - work: 春秋左传正义
     part: 僖公三十三年
     kind: classic
 ---
+
+楚令尹，斗勃。僖公三十三年，侵陈、蔡，陈、蔡成，遂伐郑，欲纳公子瑕。又与晋阳处父夹泜而军，大孙伯曰「晋人无信，半涉而薄我」，乃退舍。阳处父宣言「楚师遁矣」，太子商臣谮子上曰「受晋赂而辟之，楚之耻也」，王杀子上。

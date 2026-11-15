@@ -2,7 +2,7 @@
 id: xu-zhanzhi
 name: 徐湛之
 display: 徐湛之
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「湛之驚起趣北戶，未及開，見害。時年四十四」raw/南朝/宋書/卷71.md:36
 death: 453
 deathAccuracy: exact
+title: 刘宋外戚重臣，元凶之变遇害
 sources:
   - work: 宋书
     part: 卷071·徐湛之传
     kind: classic
 ---
+
+字孝源，东海郯人。父逵之尚会稽公主，早没。湛之幼孤，为高祖所爱，封枝江县侯。长历秘书监、丹阳尹，转尚书仆射、领护军将军，与何尚之并受辞诉，朝事悉归湛之。元嘉末，文帝欲废劭，与屏人语至晓。劭入弑，惊起趋北户，未及开，见害，年四十四。

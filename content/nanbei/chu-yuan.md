@@ -2,7 +2,7 @@
 id: chu-yuan
 name: 褚渊
 display: 褚渊
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 褚渊传
     kind: classic
 ---
+
+阳翟人，尚宋文帝女南郡公主。宋末为吏部尚书，与袁粲同受顾命。萧道成将受禅，渊赞成之，论者以此少之。入齐为佐命之臣，建元四年卒。

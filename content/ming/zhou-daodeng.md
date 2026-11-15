@@ -2,7 +2,7 @@
 id: zhou-daodeng
 name: 周道登
 display: 周道登
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+吴江人。万历二十六年进士，由庶吉士历迁少詹事。天启时，为礼部左侍郎，颇有所争执。以病归，魏忠贤削其籍。崇祯初，与李标等同入阁。无学术，奏对鄙浅，传以为笑。御史田时震、刘士祯等交劾其党护枢臣王在晋，乃罢归。阅五年而卒。

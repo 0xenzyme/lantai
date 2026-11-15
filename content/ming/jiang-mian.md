@@ -2,7 +2,7 @@
 id: jiang-mian
 name: 蒋冕
 display: 蒋冕
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1524
 deathAccuracy: approx
 deathNote: 本传作「蔣冕，字敬之，全州人」`raw/明/明史/卷190.md:68`；生卒无考，以嘉靖三年（1524）为可见活动下限，非寿数。
+title: 大礼议中乞休的阁臣
 sources:
   - work: 明史
     part: 卷190·蒋冕传
     kind: classic
 ---
+
+字敬之，全州人。举成化二十三年进士，授编修。正德中累官吏部左侍郎，进礼部尚书。十一年兼文渊阁大学士预机务，改武英殿，加少傅。武宗南征，扈驾还。世宗欲追尊兴献帝，冕执奏忤旨，嘉靖三年去国。

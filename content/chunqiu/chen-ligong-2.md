@@ -2,7 +2,7 @@
 id: chen-ligong-2
 name: 媯躍
 display: 陈利公
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -700
 deathAccuracy: approx
 deathNote: 史记·陈杞世家「利公立五月卒」。左传不别立利公，以跃即厉公，卒于前700。年次从试跑名单，作约年。
+title: 陈君，史记别立
 sources:
   - work: 史记
     part: 陈杞世家
     kind: classic
 ---
+
+史记以妫跃为陈利公，立五月而卒；左传不别立，以跃即厉公，卒于前700年。两说并存，故系年互异，存疑于此。

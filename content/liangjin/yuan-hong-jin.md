@@ -2,7 +2,7 @@
 id: yuan-hong-jin
 name: 袁宏
 display: 袁宏
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 376
 deathAccuracy: approx
 deathNote: 本传作太元初（376）卒于东阳，时年四十九（raw/晋/晉書/卷092.md:210）；「太元初」非确年，故标 approx。
+title: 东晋史家，后汉纪作者
 sources:
   - work: 晋书
     part: 卷092·文苑·袁宏
     kind: classic
 ---
+
+字彦伯，侍中猷之孙。有逸才，文章绝美。谢尚镇牛渚，秋夜微服泛江，闻宏诵咏史诗，声清会辞藻拔，遂迎升舟与谈，申旦不寐，自是名誉日茂。为大司马桓温府记室，温重其文笔。撰《后汉纪》三十卷、《竹林名士传》三卷。太元初卒于东阳，年四十九。

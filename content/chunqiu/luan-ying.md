@@ -2,7 +2,7 @@
 id: luan-ying
 name: 栾盈
 display: 栾盈
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -550
 deathAccuracy: exact
 deathNote: 左传·襄公二十三年（前550）「晉人殺欒盈」，尽灭栾氏之族党。下宫之难后栾氏之乱的主角。
+title: 栾氏，复入见灭
 sources:
   - work: 春秋左传
     part: 襄公二十三年
@@ -18,3 +19,5 @@ sources:
     part: 晋世家
     kind: classic
 ---
+
+晋卿，栾黡之子。为范鞅所谮，襄公二十一年出奔楚。二十三年，自曲沃复入于晋，经以「复入」为文。晋人败而杀之，尽灭栾氏。

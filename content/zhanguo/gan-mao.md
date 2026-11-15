@@ -2,7 +2,7 @@
 id: gan-mao
 name: 甘茂
 display: 甘茂
-profile: brief
+profile: full
 gender: male
 polity:
   - qin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -306
 deathAccuracy: approx
 deathNote: 生卒不详，取前306年为亡去之年（非寿数）。据史记·樗里子甘茂列传（raw/先秦-西汉/史記/卷071-樗里子甘茂列傳.md:42）「茂懼，輟伐魏蒲阪，亡去」。秦本纪昭襄王元年「甘茂出之魏」。本库昭襄王五十六年前251年卒，元年即前306。
+title: 秦左丞相，拔宜阳
 sources:
   - work: 史记
     part: 樗里子甘茂列传
     kind: classic
 ---
+
+下蔡人，事史举，学百家之说。因张仪、樗里子求见秦惠王，使将，佐魏章略定汉中。武王立，为左丞相。武王欲通三川以窥周室，茂请之魏约伐韩，与王盟于息壤，卒拔宜阳，斩首六万。后向寿、公孙奭谗之，茂惧而亡去。齐以为上卿，使于楚，竟不得复入秦，卒于魏。

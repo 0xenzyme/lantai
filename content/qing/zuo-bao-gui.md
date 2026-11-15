@@ -2,7 +2,7 @@
 id: zuo-bao-gui
 name: 左宝贵
 display: 左宝贵
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 1894
 deathAccuracy: exact
 deathNote: 清史稿·卷460·左宝贵传：光绪二十年（1894）平壤之役，扼玄武门登城指麾中炮踣，及城下始殒，赠太子少保，谥忠壮。
+title: 甲午平壤殉国提督
 aliases:
   - 冠廷
   - 忠壮
@@ -20,3 +21,5 @@ sources:
     part: 卷460·左宝贵传
     kind: classic
 ---
+
+字冠廷，山东费人。咸丰初隶江南军，旗兵中炮殪，宝贵持其帜冲锋，大捷知名。从僧格林沁讨捻，积勋至副将。光绪初巡奉天、吉林，斩高希珍，捕治边外构党者，赐号铿色巴图鲁。二十年援朝鲜，扼平壤玄武门，登城指麾，中炮踣。赠太子少保，谥忠壮。

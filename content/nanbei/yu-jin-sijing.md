@@ -2,7 +2,7 @@
 id: yu-jin-sijing
 name: 于谨
 display: 于谨
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -28,3 +28,5 @@ sources:
     part: 于谨传
     kind: classic
 ---
+
+字思敬，河南洛阳人，小名巨弥。性沉深有识量，好孙子兵书，太宰元穆叹曰「王佐材也」。从广阳王元深北伐，单骑入贼，示以恩信，西部铁勒三万余户款附。后从太祖擒窦泰、破沙苑。六官建，拜大司空。武帝幸太学，以为三老。天和三年薨于位，年七十六。

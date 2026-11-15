@@ -2,13 +2,14 @@
 id: lu-ye
 name: 陆晔
 display: 陆晔
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 334
 deathAccuracy: exact
+title: 吴郡陆氏，东晋辅臣
 sources:
   - work: 晋书
     part: 卷007·成帝纪
@@ -17,3 +18,5 @@ sources:
     part: 卷077·陆晔传
     kind: classic
 ---
+
+字士光，吴郡吴人，机之从弟。少有雅望，从兄机每称之曰「我家世不乏公」。太兴初拜侍中，帝以侍中皆北士，兼用南人，晔以清贞当之。苏峻之难，随帝迁石头，举动方正，峻以其吴士之望，不敢加害。乱平进爵为公，卒年七十四，赠车骑大将军，谥曰穆。

@@ -2,7 +2,7 @@
 id: yuwen-zhi
 name: 宇文直
 display: 宇文直
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 卫王直传
     kind: classic
 ---
+
+宇文直，卫剌王，高祖之母弟也。建德元年，与武帝谋诛晋公护，直先匿于户内，乃出斩之，以功封卫王，除大冢宰。武帝东伐，直违令不进，帝屡责之，遂有怨望。后举兵反，遣军攻河阳。武帝亲征，直遁走，追至荆州获之，囚于别宫。建德三年，更有异志，遂诛之。

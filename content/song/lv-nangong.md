@@ -2,7 +2,7 @@
 id: lv-nangong
 name: 吕南公
 display: 吕南公
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1086
 deathAccuracy: approx
 deathNote: 元祐初曾肇荐充师表科，议欲命以官，未及而卒（raw/宋/宋史/卷444.md:106）。元祐初无年次，系元年，非精确卒年。
+title: 灌园先生，举师表科
 sources:
   - work: 宋史
     part: 文苑六
     kind: classic
 ---
+
+字次儒，建昌南城人。于书无所不读，于文不肯缀缉陈言。熙宁中，士方推崇马融、王肃、许慎之业，一试礼闱不偶，退筑室灌园，不复以进取为意。元祐初立十科荐士，曾肇上疏称其堪充师表科，廷臣亦多称之。议欲命以官，未及而卒。

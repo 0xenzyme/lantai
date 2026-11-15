@@ -2,7 +2,7 @@
 id: liu-yikang
 name: 刘义康
 display: 刘义康
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -25,3 +25,5 @@ sources:
     part: 彭城王义康传
     kind: classic
 ---
+
+宋武帝第四子。元嘉初以彭城王辅政，入参朝政，总录尚书，势倾远近。文帝寝疾，虑其难制，出为江州刺史，后废为庶人，徙安成郡。二十八年，胡诞世等谋奉义康为乱，事觉，遣使齎药赐死。义康不肯服，竟为所掩杀。

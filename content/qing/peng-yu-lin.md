@@ -2,7 +2,7 @@
 id: peng-yu-lin
 name: 彭玉麟
 display: 彭玉麟
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -14,6 +14,7 @@ birthNote: 清史稿·卷410·彭玉麟传：光绪十六年（1890）卒，年�
 death: 1890
 deathAccuracy: exact
 deathNote: 清史稿·卷410·彭玉麟传：光绪十六年（1890）卒，年七十五，赠太子太保，谥刚直。
+title: 湘军水师创建者
 aliases:
   - 雪琴
   - 刚直
@@ -22,3 +23,5 @@ sources:
     part: 卷410·彭玉麟传
     kind: classic
 ---
+
+湖南衡阳人，字雪琴。与杨载福同创湘军水师，转战长江，克沿江郡县。后数巡阅江防，刚直自厉，不营一廛。卒谥刚直。

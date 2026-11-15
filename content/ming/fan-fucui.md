@@ -2,7 +2,7 @@
 id: fan-fucui
 name: 范复粹
 display: 范复粹
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+黄县人，万历四十七年进士，除开封府推官。崇祯元年为御史，廷议移毛文龙内地，言海外亿万生灵谁非赤子。后由大理少卿超拜礼部左侍郎兼东阁大学士。十三年六月薛国观罢，遂为首辅。贼陷洛阳，引罪乞罢，不允，其年五月致仕。国变后卒于家。

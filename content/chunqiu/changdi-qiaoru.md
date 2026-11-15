@@ -2,7 +2,7 @@
 id: changdi-qiaoru
 name: 侨如
 display: 长狄侨如
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -616
 deathAccuracy: exact
 deathNote: 左传·文公十一年（前616）鲁败狄于咸，获长狄侨如，富父终甥摏其喉以戈杀之；史记·鲁周公世家「獲長翟喬如」。
+title: 长狄渠帅，见获于鲁
 sources:
   - work: 春秋左传
     part: 文公十一年
@@ -18,3 +19,5 @@ sources:
     part: 鲁周公世家
     kind: classic
 ---
+
+长狄帅侨如。鲁文公十一年，狄伐鲁，鲁败之于咸，获侨如，富父终甥以戈摏其喉杀之。长狄种因是浸衰。

@@ -2,7 +2,7 @@
 id: kong-zhenyun
 name: 孔贞运
 display: 孔贞运
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+句容人，至圣十三代孙。万历四十七年以殿试第二人授编修，纂修《两朝实录》。崇祯九年与贺逢圣、黄士俊并入内阁。及张至发去位，代为文渊阁大学士，乃揭救郑三俊、钱谦益，俱从宽拟。十七年五月，哭临庄烈帝哀诏，恸绝遽卒。

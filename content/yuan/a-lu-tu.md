@@ -2,7 +2,7 @@
 id: a-lu-tu
 name: 阿魯圖
 display: 阿魯圖
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 1351
 deathAccuracy: approx
 deathNote: 本传十一年出守和林边，薨不系年。取至正十一年（1351）为活动下限，非寿数。依据「十一年……出守和林邊，薨」（raw/元/元史/卷041.md:54）
+title: 广平王，总裁三史
 sources:
   - work: 元史
     part: 卷113·宰相年表二
@@ -18,3 +19,5 @@ sources:
     part: 卷139·阿鲁图传
     kind: classic
 ---
+
+博尔术四世孙。由经正监袭职为怯薛官，掌环卫，拜翰林学士承旨，迁知枢密院事，袭封广平王。至正四年，拜中书右丞相、监修国史。时诏修辽、金、宋三史，为总裁，五年成。以别儿怯不花排挤，避位出城。十一年，复起为太傅，出守和林边，薨，无嗣。

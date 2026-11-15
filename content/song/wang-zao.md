@@ -2,15 +2,18 @@
 id: wang-zao
 name: 汪藻
 display: 汪藻
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1154
 deathAccuracy: exact
+title: 江左二宝，主修日历
 sources:
   - work: 宋史
     part: 文苑七
     kind: classic
 ---
+
+字彦章，饶州德兴人。幼颖异，入太学，中进士第。徽宗制《君臣庆会阁诗》，惟藻和篇众莫能及，与胡伸号「江左二宝」。王黼恶之，出通判宣州，投闲八年。高宗时召试中书舍人。知湖州，乞纂元符以来诏旨为日历，八年上之，凡六百六十五卷。二十四年卒。

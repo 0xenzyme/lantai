@@ -2,7 +2,7 @@
 id: a-laowading
 name: 阿老瓦丁
 display: 阿老瓦丁
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1312
 deathAccuracy: approx
 deathNote: 皇庆元年卒紧接子富谋只袭职，主语两可，不作确卒年。另有大德四年告老。取1312为约年。依据「至元八年，世祖遣使徵砲匠于宗王阿不哥」（raw/元/元史/卷203.md:76）
+title: 回回砲匠，造砲破宋
 sources:
   - work: 元史
     part: 方技·工艺
     kind: classic
 ---
+
+回回氏，西域木发里人也。至元八年，世祖征砲匠于宗王阿不哥，应诏至京师，造大砲竖于五门前。十一年，从阿里海牙破潭州、静江，悉赖其力。十五年，授管军总管。二十二年，为回回砲手军匠上万户府副万户。大德四年告老。皇庆元年卒，子马哈马沙袭。

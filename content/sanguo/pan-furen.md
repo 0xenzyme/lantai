@@ -2,15 +2,18 @@
 id: pan-furen
 name: 潘夫人
 display: 潘皇后（孙亮母）
-profile: brief
+profile: full
 gender: female
 polity:
   - wu
 birthAccuracy: unknown
 death: 252
 deathAccuracy: exact
+title: 孙亮生母，缢死于宫
 sources:
   - work: 资治通鉴
     part: 卷75 魏纪七
     kind: classic
 ---
+
+潘氏，会稽句章人也。父为吏，坐法死，夫人与姊俱输织室，权见而异之，召充后宫。得幸有娠，梦有以龙头授己者，以蔽膝受之，遂生孙亮。赤乌十三年，亮立为太子；明年，立夫人为皇后。性险妒，谮害袁夫人等甚众。权不豫，诸宫人伺其昏卧，共缢杀之，托言中恶，后事泄，坐死者六七人。

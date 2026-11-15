@@ -2,15 +2,18 @@
 id: liu-sui-zhao
 name: 刘遂
 display: 赵王刘遂
-profile: brief
+profile: full
 gender: male
 polity:
   - han
 birthAccuracy: unknown
 death: -154
 deathAccuracy: exact
+title: 赵王，城坏自杀国除
 sources:
   - work: 汉书
     part: 高五王传·卷038
     kind: classic
 ---
+
+刘遂，赵幽王友之子，孝文即位立为赵王。立二十六年，孝景时，晁错以过削赵常山郡，吴楚反，遂与合谋起兵，烧杀谏者相建德、内史王悍，北使匈奴与连和。汉使郦寄击之，城守邯郸，相距七月。吴楚败，匈奴不肯入边。栾布引水灌城，城坏，王遂自杀，国除。

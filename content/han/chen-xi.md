@@ -2,15 +2,18 @@
 id: chen-xi
 name: 陈豨
 display: 陈豨
-profile: brief
+profile: full
 gender: male
 polity:
   - han
 birthAccuracy: unknown
 death: -195
 deathAccuracy: exact
+title: 代相国反汉，周勃斩于当城
 sources:
   - work: 汉书
     part: 高帝纪·卷001
     kind: classic
 ---
+
+陈豨，汉初以列侯为代相国，守代地。高祖十年九月反，与王黄等劫掠代地，赵代多陷。上自东至邯郸，谓豨不南据邯郸阻漳水，知其无能为。十二年，周勃定代，斩豨于当城。

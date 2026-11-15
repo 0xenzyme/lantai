@@ -2,7 +2,7 @@
 id: liangqiu-he
 name: 梁丘贺
 display: 梁丘贺
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -66
 deathAccuracy: approx
 deathNote: 《汉书·儒林传》「時，霍氏外孫代郡太守任宣坐謀反誅」系于地节四年（前66）；以该年为活动年，非寿数，卒年无载。（原文：raw/西汉/漢書/卷088-儒林傳.md:45）
+title: 筮昭庙之变，为梁易先师
 sources:
   - work: 汉书
     part: 儒林传
     kind: classic
 ---
+
+梁丘贺字长翁，琅邪诸人。从太中大夫京房受《易》，房出为齐郡太守，贺更事田王孙。宣帝求京房门人得贺。会八月饮酎，行祠孝昭庙，旄头剑挺堕坠，马惊，召贺筮之，有兵谋，不吉。上还，使有司侍祠。贺以筮有应，由是近幸，为太中大夫，至少府。

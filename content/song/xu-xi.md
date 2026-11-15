@@ -2,7 +2,7 @@
 id: xu-xi
 name: 许希
 display: 许希
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1034
 deathAccuracy: approx
 deathNote: 此年为可见活动年（活动年），非卒年、非寿数。景祐元年针愈仁宗（raw/宋/宋史/卷462.md:47）。本传其后「至殿中省尚药奉御，卒」，无卒年。台账「1034 后」不收成卒年。
+title: 针愈仁宗的翰林医官
 sources:
   - work: 宋史
     part: 方技下
     kind: classic
 ---
+
+开封人，以医为业，补翰林医学。景祐元年，仁宗不豫，针心下包络之间，疾立愈，赐绯衣银鱼。乃请以所得金兴扁鹊庙，帝为筑庙于城西隅，封灵应侯，因立太医局于其旁。著《神应针经要诀》行世。

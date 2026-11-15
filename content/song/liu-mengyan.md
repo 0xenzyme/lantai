@@ -2,7 +2,7 @@
 id: liu-mengyan
 name: 留梦炎
 display: 留梦炎
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 1265
 deathAccuracy: approx
 deathNote: 此年为可见活动年（拜相年），非卒年、非寿数。咸淳元年十一月留梦炎自权礼部尚书除签书枢密院事（raw/宋/宋史/卷214.md:56）。宋史无本传，降元后事不载。polity 沿吕文焕、刘整降元之例作 yuan。
+title: 宋末左丞相，遁而不召
 sources:
   - work: 宋史
     part: 宰辅五
@@ -18,3 +19,5 @@ sources:
     part: 瀛国公本纪
     kind: classic
 ---
+
+宋史无本传。咸淳元年自权礼部尚书除签书枢密院事，累迁枢密使。德祐元年除右丞相，十月进左丞相；十一月元兵迫，遁，召还，不至。王应麟缴奏其用徐囊为御史，谓「今之卖降者，多其任用之士」。

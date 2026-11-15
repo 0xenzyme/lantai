@@ -2,7 +2,7 @@
 id: cai-daihou
 name: 蔡戴侯
 display: 蔡戴侯
-profile: brief
+profile: full
 gender: male
 polity:
   - cai
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -750
 deathAccuracy: approx
 deathNote: 卒年不详。史记：釐侯三十九年当周幽王为犬戎所杀之年（前 771，卷035:30）；四十八年釐侯卒、子共侯立，共侯二年卒、子戴侯立，戴侯十年卒（卷035:32）。按世次推算，戴侯卒约当前 750，非精确年。
+title: 蔡戴侯，共侯之子
 sources:
   - work: 史记
     part: 管蔡世家
     kind: classic
 ---
+
+蔡戴侯，共侯之子。立十年卒，子宣侯措父立。其在位之事，史无明载，世次见《史记·管蔡世家》。

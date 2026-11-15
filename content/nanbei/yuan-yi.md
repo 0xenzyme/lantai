@@ -2,7 +2,7 @@
 id: yuan-yi
 name: 元怿
 display: 元怿
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -28,3 +28,5 @@ sources:
     part: 清河王怿传
     kind: classic
 ---
+
+清河王怿，字宣仁，孝文帝之子。博涉经史，兼综群言，有文才，善谈理。肃宗初，迁太尉，诏裁门下之事。司空高肇以帝舅擅威权，谋去良宗，屡谮怿。正光元年，元叉与刘腾逼肃宗于显阳殿，囚怿于门下省，诬以罪状，遂害之，年三十四。朝野冤之。

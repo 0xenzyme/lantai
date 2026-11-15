@@ -2,7 +2,7 @@
 id: cai-guoyong
 name: 蔡国用
 display: 蔡国用
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+金溪人，万历三十八年进士。由中书舍人擢御史，尝附魏忠贤，忤珰意勒令闲住。崇祯十一年以工部入阁，与杨嗣昌等同参机务。十三年六月卒于官。

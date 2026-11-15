@@ -2,15 +2,18 @@
 id: yi-li-bu
 name: 伊里布
 display: 伊里布
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
 birthAccuracy: unknown
 death: 1843
 deathAccuracy: exact
+title: 鸦片战争间两江总督
 sources:
   - work: 清史稿
     part: 卷370·列传一百五十七（伊里布传）
     kind: classic
 ---
+
+字莘农，镶黄旗红带子。嘉庆六年进士。历云南府通判、腾越知州，能驭土司，治缅匪有功，擢陕西巡抚，调山东。十九年调两江总督。二十年秋英兵陷定海，命为钦差大臣赴浙查办，主抚。二十二年从耆英赴江宁议和，和议成，授广州将军。二十三年卒，谥文敏。

@@ -2,7 +2,7 @@
 id: cheng-jia
 name: 成嘉
 display: 成嘉
-profile: brief
+profile: full
 gender: male
 polity:
   - chu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -615
 deathAccuracy: approx
 deathNote: 卒年不详，取前615年为活动下限（非寿数）。依据春秋左传正义·文公十二年「成嘉為令尹」（raw/春秋/春秋左傳正義/卷19.md:104）。
+title: 楚令尹，字子孔
 sources:
   - work: 春秋左传正义
     part: 文公十二年
     kind: classic
 ---
+
+楚令尹成嘉，字子孔，若敖氏成大心之弟。前615年，兄卒于官，嘉代为令尹，若敖氏复秉楚政。

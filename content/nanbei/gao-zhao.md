@@ -2,7 +2,7 @@
 id: gao-zhao
 name: 高肇
 display: 高肇
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 515
 deathAccuracy: exact
 deathNote: 「四年，世宗崩」后入省被拉杀。四年承延昌，即延昌四年，当 515。据「肇入省，壯士搤而拉殺之」raw/北朝/魏書/卷83下.md:29
+title: 宣武舅氏，入省被拉杀
 sources:
   - work: 魏书
     part: 卷083下·外戚下
     kind: classic
 ---
+
+字首文，文昭皇后之兄，宣武帝之舅。自云本勃海蓨人，五世祖晋永嘉中避乱入高丽。以椒房进，位居端揆。延昌四年，世宗崩，肇入省哭临，为高阳王与于忠所遣壮士拉杀，削职爵，葬以士礼。

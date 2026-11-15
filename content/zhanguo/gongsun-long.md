@@ -2,7 +2,7 @@
 id: gongsun-long
 name: 公孙龙
 display: 公孙龙
-profile: brief
+profile: full
 gender: male
 polity:
   - zhao
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -259
 deathAccuracy: approx
 deathNote: 生卒不详，取前259年为活动年（非寿数）。据史记·平原君虞卿列传（raw/先秦-西汉/史記/卷076-平原君虞卿列傳.md:35）「公孫龍善爲堅白之辯」。平原君客。此句无绝对年，年份从台账。
+title: 平原君客，坚白之辩
 sources:
   - work: 史记
     part: 平原君虞卿列传
     kind: classic
 ---
+
+赵之辩士，为平原君客，善为坚白之辩。尝夜驾见平原君，止虞卿以信陵君存邯郸为君请封之议，曰「亲戚受城而国人计功，此甚不可」，平原君遂不听。后邹衍过赵言至道，乃绌公孙龙。

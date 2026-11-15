@@ -2,7 +2,7 @@
 id: zi-nang
 name: 子囊
 display: 子囊
-profile: brief
+profile: full
 gender: male
 polity:
   - chu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -559
 deathAccuracy: exact
 deathNote: 春秋左传正义·襄公十四年（前559）「楚子囊還自伐吳，卒」（raw/春秋/春秋左傳正義/卷32.md:262）。
+title: 楚令尹，遗言城郢
 sources:
   - work: 春秋左传正义
     part: 襄公十四年
     kind: classic
 ---
+
+楚令尹，公子贞，庄王之子。共王卒，大夫欲以他号谥，子囊曰「赫赫楚国，而君临之，抚有蛮夷，奄征南海，而属诸夏，可不谓共乎」，请谥之「共」。襄公十四年，还自伐吴而卒，遗言谓子庚曰「必城郢」。君子谓其君薨不忘增其名，将死不忘卫社稷。

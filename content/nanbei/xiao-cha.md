@@ -2,7 +2,7 @@
 id: xiao-cha
 name: 萧詧
 display: 萧詧
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 萧詧传
     kind: classic
 ---
+
+梁武帝之孙，昭明太子萧统之子，封岳阳王。侯景乱后，与湘东王绎相攻不胜，乃引西魏兵袭江陵，绎以死。西魏因立詧于江陵，是为后梁，所据仅江陵一州，奉周藩服，虽帝制而实臣属。保定二年，以忧愤发背而殂。

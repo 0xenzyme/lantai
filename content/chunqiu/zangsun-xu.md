@@ -2,7 +2,7 @@
 id: zangsun-xu
 name: 臧孙许
 display: 臧孙许
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -589
 deathAccuracy: approx
 deathNote: 卒年不详，取前589年为活动下限（非寿数）。依据春秋左传正义·成公二年「季孫行父、臧孫許、叔孫僑如、公孫嬰齊帥師會晉郤克」（raw/春秋/春秋左傳正義/卷25.md:51）。
+title: 鲁大夫，会鞍之战
 sources:
   - work: 春秋左传正义
     part: 成公二年
     kind: classic
 ---
+
+鲁大夫。成公二年夏六月，与季孙行父、叔孙侨如、公孙婴齐帅师，会晋郤克、卫孙良夫、曹公子首，及齐侯战于鞍，齐师败绩。曹大夫常不书，而书公子首者，首命于国，备于礼，成为卿故也。

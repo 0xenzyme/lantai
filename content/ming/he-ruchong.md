@@ -2,7 +2,7 @@
 id: he-ruchong
 name: 何如宠
 display: 何如宠
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -26,3 +26,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+字康侯，桐城人。万历二十六年进士，累迁国子监祭酒。崇祯元年拜礼部尚书。二年冬京师戒严，力言聚众之叵测。十二月与周延儒、钱象坤俱兼东阁大学士入阁。帝欲族袁崇焕，以如宠申救，免死者三百余口。

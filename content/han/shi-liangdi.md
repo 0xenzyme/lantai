@@ -2,15 +2,18 @@
 id: shi-liangdi
 name: 史良娣
 display: 史良娣（戾后）
-profile: brief
+profile: full
 gender: female
 polity:
   - han
 birthAccuracy: unknown
 death: -91
 deathAccuracy: exact
+title: 卫太子良娣，追尊戾后
 sources:
   - work: 汉书
     part: 武帝纪·卷006
     kind: classic
 ---
+
+史良娣，宣帝祖母也，家本鲁国。元鼎四年，入为卫太子良娣，生男进，号史皇孙。武帝末，巫蛊事起，卫太子及良娣、史皇孙皆遭害，皇曾孙以数月系郡邸狱。宣帝即位，追尊祖母史良娣曰戾后，改葬，起园邑。

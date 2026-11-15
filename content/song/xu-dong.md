@@ -2,7 +2,7 @@
 id: xu-dong
 name: 许洞
 display: 许洞
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1011
 deathAccuracy: exact
 deathNote: 大中祥符四年祀汾阴，献赋，改乌江县主簿，卒，年四十二（raw/宋/宋史/卷441.md:57）。卒与该年同句，非另标之年。台账活动年 1000 与引文景德二年不合，不采。
+title: 《虎钤经》作者
 sources:
   - work: 宋史
     part: 文苑三
     kind: classic
 ---
+
+字洞天，苏州吴县人。幼习弓矢击刺，长折节励学，尤精《左氏传》。咸平三年进士。归吴中数年，日以酣饮为事。景德二年，献所撰《虎钤经》二十卷。祀汾阴，献《三盛礼赋》，召试改乌江主簿，卒，年四十二。

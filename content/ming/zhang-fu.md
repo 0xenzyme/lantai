@@ -2,7 +2,7 @@
 id: zhang-fu
 name: 张辅
 display: 张辅
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1449
 deathAccuracy: approx
 deathNote: 本传作「四年十月，能卒於軍，輔代領其眾」`raw/明/明史/卷154.md:20`；卒于土木之变（正统十四年，1449），此系近似。
+title: 英国公，三定交南的勋臣
 sources:
   - work: 明史
     part: 卷154·张辅传
     kind: classic
 ---
+
+字文弼，河间王玉长子也。燕师起，从父力战，父没东昌，嗣职。从入京师，封信安伯。永乐三年，安南黎季犛弑其主，辅为右副将军帅师进讨，凡四至交阯，三定交南，威名闻海外。振旅还，进封英国公。王振擅权，大臣望尘顿首，惟辅与抗礼。至土木，死于难。

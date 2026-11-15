@@ -2,7 +2,7 @@
 id: xu-chen
 name: 胥臣
 display: 胥臣
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -627
 deathAccuracy: approx
 deathNote: 卒年不详，取前627年为活动下限（非寿数）。依据春秋左传正义·僖公三十三年「以再命命先茅之縣賞胥臣」（raw/春秋/春秋左傳正義/卷16.md:286）。
+title: 晋卿，荐郤缺
 sources:
   - work: 春秋左传正义
     part: 僖公三十三年
     kind: classic
 ---
+
+胥臣，晋卿，字臼季，司空季子。城濮之役，佐下军。使过冀，见郤缺耨，其妻馁而相待如宾，荐诸文公。僖公三十三年，以先茅之县赏之。

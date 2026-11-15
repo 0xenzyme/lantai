@@ -2,7 +2,7 @@
 id: xi-hou
 name: 息侯
 display: 息侯
-profile: brief
+profile: full
 gender: male
 polity:
   - xi-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -680
 deathAccuracy: approx
 deathNote: 卒年不详，取前680年为活动下限（非寿数）。春秋左传正义·庄公十四年「楚子如息，以食入享，遂滅息」（raw/春秋/春秋左傳正義/卷08.md:243）。经传不书息侯卒，取灭国之年为活动下限。台账所引隐公十一年「息侯伐郑」是前712。
+title: 息国君主
 sources:
   - work: 春秋左传正义
     part: 庄公十四年
     kind: classic
 ---
+
+息侯，姬姓，与郑同宗。隐公十一年，伐郑，郑伯与战于竟，息师大败而还。后楚文王如息，以食入享，遂灭息，以息妫归。

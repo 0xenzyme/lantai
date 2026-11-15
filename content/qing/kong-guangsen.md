@@ -2,7 +2,7 @@
 id: kong-guangsen
 name: 孔广森
 display: 孔广森
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1752
 birthAccuracy: exact
 death: 1786
 deathAccuracy: exact
+title: 春秋公羊通义作者
 sources:
   - work: 清史稿
     part: 卷481·儒林传二·孔广森
     kind: classic
 ---
+
+字众仲，山东曲阜人，孔子六十八代孙，衍圣公之孙。乾隆三十六年进士，选庶吉士，授检讨。尝受经于戴震、姚鼐。著《春秋公羊通义》十一卷，旁通左氏、谷梁。乾隆五十一年卒，年三十五。

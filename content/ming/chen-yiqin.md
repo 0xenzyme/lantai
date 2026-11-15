@@ -2,7 +2,7 @@
 id: chen-yiqin
 name: 陈以勤
 display: 陈以勤
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+字逸甫，南充人。嘉靖二十年进士，充裕王讲官。时东宫位号未定，严世蕃屏人相诘，正色曰国本默定久矣，世蕃默然去，裕邸乃安。穆宗即位，擢礼部尚书兼文渊阁大学士，中立无所比。及高拱再入，力引疾罢归。卒谥文端。

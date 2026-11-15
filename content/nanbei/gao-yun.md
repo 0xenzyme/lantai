@@ -2,7 +2,7 @@
 id: gao-yun
 name: 高允
 display: 高允
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -28,3 +28,5 @@ sources:
     part: 高允传
     kind: classic
 ---
+
+渤海人，字伯恭。少孤，有气度。为北魏重臣，历事数朝，以忠厚质直称。国史之狱，独能廷争申直崔浩。太和十一年卒，年九十八。

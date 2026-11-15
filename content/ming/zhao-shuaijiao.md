@@ -2,7 +2,7 @@
 id: zhao-shuaijiao
 name: 赵率教
 display: 赵率教
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1629
 deathAccuracy: approx
 deathNote: 本传作「六年二月，蒙古以寧遠被圍，乘間入犯平川、三山堡。率教禦之」`raw/明/明史/卷271.md:85`；卒于崇祯二年（1629）驰援遵化之役，此系近似。
+title: 宁锦大捷明将，遵化阵亡
 sources:
   - work: 明史
     part: 卷271·赵率教传
     kind: classic
 ---
+
+陕西人。万历中，历官延绥参将。辽事急，受知于经略袁应泰，擢副总兵。天启二年，率家丁三十八人入前屯卫，所招流亡至五六万，择壮者从军，大兴屯田。宁远被围，移镇锦州护工，婴城固守，称「宁、锦大捷」。崇祯二年，大清兵南下，驰援遵化，战死，一军尽没。

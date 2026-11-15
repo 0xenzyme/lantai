@@ -2,7 +2,7 @@
 id: wang-li
 name: 王离
 display: 王离
-profile: brief
+profile: full
 gender: male
 polity:
   - qin
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: -207
 deathAccuracy: approx
 deathNote: 项羽本纪与白起王翦列传都只写巨鹿之战项羽虏王离，没有卒年。巨鹿在本专题系前 207 年。此年是被俘之年，不是寿数。
+title: 王翦之孙，巨鹿被虏
 aliases:
   - 王离
 sources:
@@ -22,3 +23,5 @@ sources:
     part: 白起王翦列传
     kind: classic
 ---
+
+王翦之孙。二世之时，秦使离击赵，围赵王歇及张耳于钜鹿。或曰离为秦名将，举赵必矣；客曰为将三世者必败。项羽救赵，破章邯，九战绝其甬道，虏王离。其后史无明文。

@@ -2,7 +2,7 @@
 id: gao-xingzhou
 name: 高行周
 display: 高行周
-profile: brief
+profile: full
 gender: male
 polity:
   - wudai
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 936
 deathAccuracy: approx
 deathNote: 资治通鉴·卷280 繫于天福元年（936）「高行周、符彥卿數引騎兵出戰，眾寡不敵」（raw/通代/資治通鑑/卷280.md:106）；此为晋安寨出战之年，非寿数。
+title: 五代宿将，积功至王爵
 sources:
   - work: 资治通鉴
     part: 卷280·后晋纪一
     kind: classic
 ---
+
+行周，字尚质，妫州人，世为怀戎戍将。庄宗时隶明宗帐下，明宗之袭郓州也，行周为前锋，会夜分澍雨，曰「此天赞也，彼必无备」，涉河入东城，比曙平之。天成中从王晏球围定州，败王都。晋高祖时，安从进反，以为襄州行营都部署，讨平之。出帝时，代景延广为侍卫亲军马步军都指挥使。

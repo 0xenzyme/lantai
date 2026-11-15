@@ -2,7 +2,7 @@
 id: ta-si-bu-hua
 name: 塔思不花
 display: 塔思不花
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1308
 deathAccuracy: approx
 deathNote: 卒年不详，取1308年为活动年（非寿数）。依据「以左丞相塔思不花為中書右丞相」（raw/元/元史/卷022.md:68）
+title: 武宗朝相，进右丞相
 sources:
   - work: 元史
     part: 武宗一
     kind: classic
 ---
+
+武宗时，由中书右丞、行御史中丞迁御史大夫，奏复殿中司旧制与风宪官回避之法，皆见从。至大元年，遥授左丞相，寻进中书右丞相，加太尉，监修国史。后以老请归。

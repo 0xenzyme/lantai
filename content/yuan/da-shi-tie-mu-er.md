@@ -2,7 +2,7 @@
 id: da-shi-tie-mu-er
 name: 達識帖睦邇
 display: 達識帖睦邇
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 1364
 deathAccuracy: approx
 deathNote: 至正二十四年徙居嘉兴后饮药而死，不另系年，取1364为活动下限，非寿数。依据「以中書右丞達識帖睦邇為翰林學士承旨」（raw/元/元史/卷041.md:88）
+title: 九成丞相，縻张士诚
 sources:
   - work: 元史
     part: 卷113·宰相年表二
@@ -18,3 +19,5 @@ sources:
     part: 卷140·达识帖睦迩传
     kind: classic
 ---
+
+字九成。至正七年，出为江浙行省平章政事，招谕方国珍。十五年，出为江浙行省左丞相。张士诚陷平江，完者却之，乃授士诚太尉以縻之。十九年，方面之权尽归张氏。二十四年，士信逼取其符印，徙居嘉兴。闻普化帖木儿仰药死，亦饮药酒而死。

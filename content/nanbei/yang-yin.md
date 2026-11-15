@@ -2,7 +2,7 @@
 id: yang-yin
 name: 杨愔
 display: 杨愔
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -27,3 +27,5 @@ sources:
     part: 杨愔传
     kind: classic
 ---
+
+字遵彦，弘农华阴人，父津魏司空。幼丧母，六岁学史书，十一受《诗》《易》。一门四世同居，从父兄昱特相器重。没于葛荣，託疾佯喭以免。后从齐神武，助平邺，百官整肃。文宣受禅，与燕子献等辅孝昭。乾明元年，为孝昭帝所诛于御府，年五十。

@@ -2,13 +2,14 @@
 id: dou-yizhi
 name: 窦易直
 display: 窦易直
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 833
 deathAccuracy: exact
+title: 长庆宰相，斩乱定军
 sources:
   - work: 新唐书
     part: 卷63·表第三 宰相下
@@ -17,3 +18,5 @@ sources:
     part: 卷17下·本纪第十七下
     kind: classic
 ---
+
+字宗玄，京兆始平人。擢明经，补校书郎。历御史中丞、陕虢观察使，入为京兆尹。后为宣歙、浙西观察使。长庆二年，汴州将王国清指漕货激众谋乱，易直斩其党三百余人。入为户部侍郎，判度支，四年同平章事，封晋阳郡公。卒，赠司徒，谥曰恭惠。

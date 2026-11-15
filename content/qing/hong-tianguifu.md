@@ -2,7 +2,7 @@
 id: hong-tianguifu
 name: 洪天贵福
 display: 洪天贵福
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -13,8 +13,11 @@ birthNote: 清史稿卷475作洪秀全死时「其子年十六，袭伪位」，
 death: 1864
 deathAccuracy: approx
 deathNote: 本传引句不载卒年。卒年 1864 为候选台账约略系年（天京失陷之年），本库无明文可徵，非寿数。raw/清/清史稿/卷475.md:398
+title: 太平天国幼天王
 sources:
   - work: 清史稿
     part: 卷475·洪秀全传
     kind: classic
 ---
+
+洪秀全之子，秀全生时即号为幼主，或曰本名天贵福。同治三年天京陷，秀全卒，年十六，袭位。突围走江西，为清军所获。

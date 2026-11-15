@@ -2,7 +2,7 @@
 id: shen-yiguan
 name: 沈一贯
 display: 沈一贯
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+字肩吾，鄞人。隆庆二年进士，授检讨，充日讲官。进讲高宗谅阴，隐刺张居正，为所憾。万历中，以礼部尚书兼东阁大学士入阁，辅政十三年，当国四年。楚宗、妖书、京察三事，独犯不韙，论者丑之。累加少傅、吏部尚书。家居十年卒，赠太傅，谥文恭。

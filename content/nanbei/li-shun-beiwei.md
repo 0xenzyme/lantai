@@ -2,7 +2,7 @@
 id: li-shun-beiwei
 name: 李顺
 display: 李顺（北魏）
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 442
 deathAccuracy: exact
 deathNote: 真君三年当太平真君三年，即 442。全库另有宋人李顺，显示名加北魏。据「世祖大怒，真君三年遂刑順於城西」raw/北朝/魏書/卷36.md:28
+title: 魏室重臣，坐诛城西
 sources:
   - work: 魏书
     part: 卷036·李顺传
     kind: classic
 ---
+
+字德正，赵郡平棘人。博涉经史，有才策。神瑞中为中书博士。从太武征蠕蠕、赫连昌，皆以筹略进爵。性好胜，与崔浩不相下，浩密短之。太平真君三年，坐诛于城西。

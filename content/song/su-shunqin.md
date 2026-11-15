@@ -2,7 +2,7 @@
 id: su-shunqin
 name: 苏舜钦
 display: 苏舜钦
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1040
 deathAccuracy: approx
 deathNote: 此年为可见活动年（活动年），非卒年、非寿数。康定中河东地震，舜钦诣匦通疏（raw/宋/宋史/卷442.md:75）。本传另有「二年，得湖州长史，卒」，年号不在该句，不收为卒年。
+title: 苏舜钦，苏州作沧浪亭
 sources:
   - work: 宋史
     part: 文苑四
     kind: classic
 ---
+
+字子美，参知政事易简之孙。少慷慨有大志。天圣中，学者为文多病偶对，独与穆修为古文、歌诗，豪俊多从之游。玉清昭应宫灾，年二十一，诣登闻鼓院上疏，请修德弭灾。后监进奏院，会用鬻故纸公钱召妓乐，为王拱辰所劾，坐除名。寓吴中，买水石作沧浪亭，卒。

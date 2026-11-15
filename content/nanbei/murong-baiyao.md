@@ -2,7 +2,7 @@
 id: murong-baiyao
 name: 慕容白曜
 display: 慕容白曜
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -25,3 +25,5 @@ sources:
     part: 慕容白曜传
     kind: classic
 ---
+
+慕容部人。献文时与尉元东下青齐，拔升城，降崔道固于历城，沈文秀据东阳三年而降，由是青、齐之地尽入于魏。以功封济南王，加征南大将军。皇兴四年坐诛，云谋反叛，时论冤之。

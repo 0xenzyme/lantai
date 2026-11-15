@@ -2,7 +2,7 @@
 id: wang-zhong
 name: 汪中
 display: 汪中
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1744
 birthAccuracy: exact
 death: 1794
 deathAccuracy: exact
+title: 乾嘉学者，述学内外篇作者
 sources:
   - work: 清史稿
     part: 卷481·儒林传二·汪中
     kind: classic
 ---
+
+字容甫，江都人。七岁而孤，家贫，母授四子书。稍长，助书贾鬻书于市，因遍读经史百家。乾隆四十二年拔贡生，提学谢墉每试署名诸生前。治尚书、三礼、尔雅、说文，皆有撰述，与王念孙、刘台拱为友。五十九年卒，年五十一。

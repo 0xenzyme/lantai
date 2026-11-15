@@ -2,7 +2,7 @@
 id: beigong-xi
 name: 北宫喜
 display: 北宫喜
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -515
 deathAccuracy: approx
 deathNote: 卒年不详，取前515年为活动下限（非寿数）。依据春秋左传正义·昭公二十七年「秋，晉士鞅、宋樂祁犁、衛北宮喜」（raw/春秋/春秋左傳正義/卷52.md:171）。
+title: 卫公族，迎灵公归国
 sources:
   - work: 春秋左传正义
     part: 昭公二十七年
     kind: classic
 ---
+
+卫公族大夫。昭公之世，卫有齐豹之乱，灵公出居死鸟。北宫喜平乱迎公，公入而赐之邑，喜辞不受。

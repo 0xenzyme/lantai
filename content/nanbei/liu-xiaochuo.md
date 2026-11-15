@@ -2,7 +2,7 @@
 id: liu-xiaochuo
 name: 刘孝绰
 display: 刘孝绰
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 刘孝绰传
     kind: classic
 ---
+
+彭城人，本名冉，字孝绰。祖勔，宋司空；父绘，齐掌诏诰。七岁能属文，舅王融号为神童。天监初为著作佐郎，历太子舍人、秘书丞，掌东宫管记。昭明太子好文，与殷芸、陆倕、王筠等同见宾礼，太子集独使孝绰序之。大同五年卒官，年五十九。

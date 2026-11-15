@@ -2,7 +2,7 @@
 id: yun-shouping
 name: 恽寿平
 display: 恽寿平
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1637
 birthAccuracy: exact
 death: 1690
 deathAccuracy: exact
+title: 清初画家，恽南田三绝
 sources:
   - work: 清史稿
     part: 卷504·艺术三·恽格
     kind: classic
 ---
+
+初名格，字寿平，后以字行，改字正叔，号南田，武进人。父日初为明殉，不应举，鬻画养父。山水学元王蒙，与王翬交，曰君独步矣，吾不为第二手，遂兼用徐熙、黄筌法作花鸟，天机物趣毕集豪端，世号南田三绝。家酷贫，康熙二十九年卒，年五十四。

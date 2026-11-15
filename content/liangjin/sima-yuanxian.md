@@ -2,13 +2,14 @@
 id: sima-yuanxian
 name: 司马元显
 display: 司马元显
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 402
 deathAccuracy: exact
+title: 东晋骠骑大将军，败于桓玄
 sources:
   - work: 晋书
     part: 卷010·安帝纪
@@ -17,3 +18,5 @@ sources:
     part: 卷064·会稽王道子附子元显
     kind: classic
 ---
+
+会稽王道子世子。年十六为侍中，请讨王恭，灭之。道子沈醉，政事大小一委元显，时谓道子为东录、元显为西录。性苛刻，聚敛富过帝室，发东土免奴为客者号「乐属」，人不堪命。后伐桓玄，刘牢之降，元显败，送新亭，与六子皆被害。

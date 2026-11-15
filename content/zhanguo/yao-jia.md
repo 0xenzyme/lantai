@@ -2,7 +2,7 @@
 id: yao-jia
 name: 姚贾
 display: 姚贾
-profile: brief
+profile: full
 gender: male
 polity:
   - qin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -233
 deathAccuracy: approx
 deathNote: 生卒不详，取前233年为活动年（非寿数）。据史记·老子韩非列传（raw/先秦-西汉/史記/卷063-老子韓非列傳.md:68）「李斯、姚賈害之」。韩非使秦被毁。此句无绝对年，年份从台账。
+title: 秦臣，谮韩非
 sources:
   - work: 史记
     part: 老子韩非列传
     kind: classic
 ---
+
+秦臣。韩非使秦，秦王悦之，未信用。李斯、姚贾害之，毁曰「韩非，韩之诸公子也，今王欲并诸侯，非终为韩不为秦」，秦王以为然，下吏治非。非欲自陈不得见，遂自杀。秦王后悔，使人赦之，非已死。韩非之死，斯与贾谮之也。

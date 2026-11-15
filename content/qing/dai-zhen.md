@@ -2,7 +2,7 @@
 id: dai-zhen
 name: 戴震
 display: 戴震
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -15,6 +15,7 @@ birthNote: 清史稿·卷481·儒林传·戴震：乾隆四十二年卒于官，
 death: 1777
 deathAccuracy: exact
 deathNote: 清史稿·卷481·儒林传·戴震：乾隆二十七年举乡试，三十八年四库馆开、荐充纂修，四十年赐同进士出身改庶吉士，「四十二年，卒于官，年五十有五」。上文历乾隆二十七、三十八、四十年，此四十二年为乾隆四十二年，即 1777 年。
+title: 乾嘉考据学宗师
 aliases:
   - 东原
   - 慎修
@@ -23,3 +24,5 @@ sources:
     part: 卷481·儒林传·戴震
     kind: classic
 ---
+
+字东原，安徽休宁人。乾隆二十七年举乡试；三十八年四库馆开，荐充纂修，赐同进士出身。深于音韵、算学、舆地，治经重典制，辟宋儒言性理之失。四十二年卒于官，年五十有五。

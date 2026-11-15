@@ -2,13 +2,14 @@
 id: murong-yun
 name: 慕容云
 display: 慕容云
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
 birthAccuracy: unknown
 death: 409
 deathAccuracy: exact
+title: 北燕主，复姓高氏
 sources:
   - work: 资治通鉴
     part: 卷115·晋纪三十七·义熙五年
@@ -17,3 +18,5 @@ sources:
     part: 载记第二十四·慕容云
     kind: classic
 ---
+
+字子雨，宝之养子，本高句丽支庶，姓高氏，冯跋奇其志度而友之。慕容熙失政，冯跋等推云为主，遂即天王位，复姓高氏，改元正始，北燕由此始。宠养壮士离班、桃仁为腹心，赏赐月至数千万，二人恃宠，怀剑入而弑之。

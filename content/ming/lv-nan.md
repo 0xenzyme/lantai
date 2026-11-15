@@ -2,7 +2,7 @@
 id: lv-nan
 name: 吕柟
 display: 吕柟
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1508
 deathAccuracy: approx
 deathNote: 本传作「正德三年登進士第一」`raw/明/明史/卷282.md:109`；正德三年为1508。后文「年六十四卒」不系年。此为任官年，非寿数。
+title: 关学宗师，泾野先生
 sources:
   - work: 明史
     part: 卷282·儒林传一·吕柟
     kind: classic
 ---
+
+字仲木，高陵人，别号泾野。正德三年进士第一，授修撰。大礼议兴，与张璁、桂萼忤，下诏狱，谪解州判官。历官南京礼部右侍郎。时学者不归王则归湛，独守程朱不变者，惟柟与罗钦顺。年六十四卒，高陵人为罢市三日。

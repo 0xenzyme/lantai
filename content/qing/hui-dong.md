@@ -2,7 +2,7 @@
 id: hui-dong
 name: 惠栋
 display: 惠栋
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1750
 deathAccuracy: approx
 deathNote: 生卒不详。清史稿卷481作乾隆十五年（1750）诏举经明行修之士；今以该年为活动下限系年，非寿数。raw/清/清史稿/卷481.md:117
+title: 清代汉学吴派
 sources:
   - work: 清史稿
     part: 卷481·儒林传二·惠周惕附子惠栋
     kind: classic
 ---
+
+字定宇，号松崖，江苏元和人，三世传经。乾隆十五年诏举经明行修之士，交章论荐，以未及呈进所著书，罢归。撰《九经古义》，尤邃于《易》，著《易汉学》，又辨郑玄所传古文尚书二十四篇为真、晚出二十五篇为伪。卒，年六十二。

@@ -2,7 +2,7 @@
 id: zong-bing
 name: 宗炳
 display: 宗炳
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 隐逸传·宗炳
     kind: classic
 ---
+
+字少文，南阳涅阳人。殷仲堪、桓玄并辟主簿，不就。妙善琴书，精于言理，每游山水，往辄忘归。西陟荆巫，南登衡岳，因结宇衡山。有疾还江陵，叹曰「老疾俱至，名山恐难遍睹，唯当澄怀观道，卧以游之」。凡所游履，皆图之于室。元嘉二十年卒，年六十九。

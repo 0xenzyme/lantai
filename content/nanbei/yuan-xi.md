@@ -2,7 +2,7 @@
 id: yuan-xi
 name: 元禧
 display: 元禧
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 咸阳王禧传
     kind: classic
 ---
+
+咸阳王禧，字永寿，孝文帝之弟。太和中封，位太尉、尚书令，为世宗所重。自以为地亲任重，颇有异志，与妃兄李伯尚等谋反，事泄。景明二年，赐死于私第。诸子皆削籍，后得复属籍。

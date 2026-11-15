@@ -2,7 +2,7 @@
 id: du-you
 name: 杜佑
 display: 杜佑
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,6 +10,7 @@ birth: 735
 birthAccuracy: exact
 death: 812
 deathAccuracy: exact
+title: 《通典》作者，三朝宰相
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -21,3 +22,5 @@ sources:
     part: 卷147·列传第九十七
     kind: classic
 ---
+
+字君卿，京兆万年人。以荫入仕，历工部、金部郎中，充水陆转运使。为卢杞所恶，出为苏州、饶州刺史，后充岭南节度使。贞元中为淮南节度使，撰《通典》二百卷。十九年同平章事，元和初拜司徒，封岐国公。卒。

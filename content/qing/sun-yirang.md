@@ -2,7 +2,7 @@
 id: sun-yirang
 name: 孙诒让
 display: 孙诒让
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -12,8 +12,11 @@ birthNote: 清史稿卷482载宣统元年（1909）礼制馆征、未几卒，�
 death: 1909
 deathAccuracy: approx
 deathNote: 清史稿卷482作「宣统元年，礼制馆征，亦不就。未几卒，年六十二」；宣统元年即 1909，「未几」无确月，年岁为虚岁，故标 approx。raw/清/清史稿/卷482.md:407
+title: 周礼墨子的集解者
 sources:
   - work: 清史稿
     part: 卷482·儒林传三·孙诒让
     kind: classic
 ---
+
+浙江瑞安人。光绪朝礼制馆两征不起，闭户著书。治经最精周礼、墨子，有《周礼正义》《墨子间诂》，为晚清经师巨子。

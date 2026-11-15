@@ -2,7 +2,7 @@
 id: tao-zhongwen
 name: 陶仲文
 display: 陶仲文
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -11,8 +11,11 @@ birthNote: 本传作「三十九年卒，年八十餘」`raw/明/明史/卷307.m
 death: 1560
 deathAccuracy: exact
 deathNote: 本传作「三十九年卒」`raw/明/明史/卷307.md:136`，承嘉靖纪年，即嘉靖三十九年（1560）。
+title: 嘉靖得幸方士，封恭诚伯
 sources:
   - work: 明史
     part: 卷307·佞幸传·陶仲文
     kind: classic
 ---
+
+初名典真，黄冈人。尝受符水诀于罗田万玉山，与邵元节善。由黄梅县吏为辽东库大使，元节年老，荐之于帝，以符水噀剑，绝宫中黑眚。庄敬太子患痘，祷之而瘥，帝深宠异。一人兼领三孤，终明世惟仲文而已，封恭诚伯。又创二龙不相见之说，青宫虚位者二十年。

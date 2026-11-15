@@ -2,7 +2,7 @@
 id: xing-luan
 name: 邢峦
 display: 邢峦
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「延昌三年，暴疾卒，年五十一」raw/北朝/魏書/卷65.md:61
 death: 514
 deathAccuracy: exact
+title: 北魏名将，平梁州汉中巴西
 sources:
   - work: 魏书
     part: 卷065·邢峦传
     kind: classic
 ---
+
+字洪宾，河间鄚人。少好学，负帙寻师，博览书传，有文才干略。宣武时，夏侯道迁以汉中内附，峦使持节督征梁汉诸军事，平巴西，开地七百里，获郡十四，逼涪城。后都督东讨诸军事，大破萧衍将，宿豫、兖州皆平。延昌三年暴疾卒，年五十一。

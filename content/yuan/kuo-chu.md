@@ -2,15 +2,18 @@
 id: kuo-chu
 name: 阔出
 display: 阔出
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1236
 deathAccuracy: exact
+title: 太宗皇子，伐宋薨
 sources:
   - work: 元史
     part: 太宗纪
     kind: classic
 ---
+
+太宗皇子，史或作曲出。七年乙未，与胡土虎伐宋。冬十月，围枣阳，拔之，遂徇襄、邓，入郢，虏人民牛马数万而还。八年二月，充先锋伐宋。是年冬十月，薨。

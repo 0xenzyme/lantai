@@ -2,7 +2,7 @@
 id: li-qianshun
 name: 李干顺
 display: 李干顺
-profile: brief
+profile: full
 gender: male
 polity:
   - xixia
@@ -10,8 +10,11 @@ birth: 1083
 birthAccuracy: exact
 death: 1139
 deathAccuracy: exact
+title: 夏崇宗，建国学设弟子员
 sources:
   - work: 宋史
     part: 外国二·夏国下
     kind: classic
 ---
+
+夏惠宗秉常之长子，生三岁即位，母梁氏临朝。元祐初告哀于宋，辽以成安公主妻之。建中靖国元年建国学，设弟子员三百，立养贤务以廪食之。后与宋兵连数岁，金人起，地多为其所夺。在位五十四年，谥圣文皇帝。

@@ -2,15 +2,18 @@
 id: feng-xi
 name: 冯习
 display: 冯习
-profile: brief
+profile: full
 gender: male
 polity:
   - shu
 birthAccuracy: unknown
 death: 222
 deathAccuracy: exact
+title: 蜀汉将军，战没夷陵
 sources:
   - work: 三国志
     part: 蜀书二 先主传
     kind: classic
 ---
+
+冯习，蜀汉将军。章武元年，先主忿孙权之袭关羽，帅诸军伐吴，将军吴班、冯习自巫攻破吴将李异等，军次秭归。二年夏，陆议大破先主军于猇亭，习死之。

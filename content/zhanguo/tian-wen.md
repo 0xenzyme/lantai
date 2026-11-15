@@ -2,7 +2,7 @@
 id: tian-wen
 name: 田文
 display: 田文
-profile: brief
+profile: full
 gender: male
 polity:
   - qi
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -279
 deathAccuracy: approx
 deathNote: 列传只记「文卒，謚爲孟嘗君。諸子爭立」（raw/先秦-西汉/史記/卷075-孟嘗君列傳.md:43），无年。台账取前279，记 approx，不另考。
+title: 齐相，好客，号孟尝君
 aliases:
   - 孟尝君
 sources:
@@ -17,3 +18,5 @@ sources:
     part: 孟尝君列传
     kind: classic
 ---
+
+靖郭君田婴之子，相齐，封万户于薛。招致诸侯宾客及亡人，食客数千人，无贵贱一与文等。尝相秦，齐湣王惑于秦、楚之毁而废之，客皆去，冯谖西说秦王迎之，东说齐王，复相齐。后相魏，与燕共伐破齐。文卒，谥为孟尝君，诸子争立，齐魏共灭薛，绝嗣无后。

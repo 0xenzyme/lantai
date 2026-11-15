@@ -2,15 +2,18 @@
 id: xu-mengshen
 name: 徐梦莘
 display: 徐梦莘
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1205
 deathAccuracy: exact
+title: 《三朝北盟会编》作者
 sources:
   - work: 宋史
     part: 儒林八
     kind: classic
 ---
+
+字商老，临江人。幼慧，经史稗官小说寓目成诵。绍兴二十四年进士。知湘阴县，独争增耕税，反为帅所器重。念生于靖康之乱，网罗旧闻，为《三朝北盟会编》二百五十卷，擢直秘阁。开禧元年卒，年八十二。

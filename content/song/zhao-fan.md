@@ -2,7 +2,7 @@
 id: zhao-fan
 name: 赵范
 display: 赵范
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1240
 deathAccuracy: approx
 deathNote: 此年为可见活动年（任官年），非卒年、非寿数。嘉熙三年叙复官职，与宫观；四年知静江府，后卒于家（raw/宋/宋史/卷417.md:125）。
+title: 赵方之子，襄阳失守
 sources:
   - work: 宋史
     part: 赵范传
     kind: classic
 ---
+
+字武仲，京湖制置使方之子。绍定间，与弟葵协谋讨李全，卒戮之。端平入洛之师大溃，代守襄阳，倚数人为腹心，了无上下之序，北军叛，城焚烬。言者落职，嘉熙三年，叙复官职，后卒于家。

@@ -2,7 +2,7 @@
 id: zhuo-zi
 name: 卓子
 display: 卓子
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -651
 deathAccuracy: exact
 deathNote: 春秋经·僖公九年「晉里克殺其君卓及其大夫荀息」（前651，十一月）。奚齐之后荀息再立者。
+title: 晋卓子，荀息死之
 sources:
   - work: 春秋左传
     part: 僖公九年
@@ -18,3 +19,5 @@ sources:
     part: 晋世家
     kind: classic
 ---
+
+晋献公之子，奚齐之弟，史记称悼子。献公卒，里克杀奚齐于丧次；荀息将死之，人曰「不如立卓子而辅之」，遂立公子卓以葬。十一月，里克杀公子卓于朝，荀息死之。君子曰「斯言之玷，不可为也」，其荀息之谓乎。

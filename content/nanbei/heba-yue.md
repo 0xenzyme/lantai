@@ -2,7 +2,7 @@
 id: heba-yue
 name: 贺拔岳
 display: 贺拔岳
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -25,3 +25,5 @@ sources:
     part: 贺拔岳传
     kind: classic
 ---
+
+神武尖山人，鲜卑贺拔氏。以胆略称，为尔朱天光所重。魏孝武西迁，岳留镇关中，众至数万，宇文泰时为其牙将。永熙三年，为侯莫陈悦诱杀于营。关陇之业，泰实继之。

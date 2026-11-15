@@ -2,7 +2,7 @@
 id: wei-zhaocheng
 name: 魏炤乘
 display: 魏炤乘
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -26,3 +26,5 @@ sources:
     part: 卷253·程国祥传（附张四知）
     kind: classic
 ---
+
+《明史》无专传。天启三年正月，以礼部尚书兼东阁大学士入阁，加太子少傅，进户部尚书、文渊阁。在三阁四载，与张四知、姚明恭同以庸劣充位。御史杨仁愿、徐殿臣、刘之渤相继论劾，引疾去。其乡里、生卒皆无考。

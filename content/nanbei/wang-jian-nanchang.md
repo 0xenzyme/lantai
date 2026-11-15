@@ -2,7 +2,7 @@
 id: wang-jian-nanchang
 name: 王俭
 display: 王俭
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 王俭传
     kind: classic
 ---
+
+琅邪临沂人，王僧绰之子。幼有令名，为叔父王僧虔所爱。齐高帝引为太尉左长史，大见亲任，迁尚书左仆射，专政。一代朝章国故，皆所裁定。尤长于礼，撰《七志》四十卷，以续刘向《七略》。永明七年疾笃，上手临视而薨，年三十八。

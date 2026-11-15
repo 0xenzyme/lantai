@@ -2,7 +2,7 @@
 id: yuwen-yu
 name: 宇文毓
 display: 周明帝宇文毓
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -27,3 +27,5 @@ sources:
     part: 明帝纪
     kind: classic
 ---
+
+周明帝，讳毓，小名统万突，太祖长子。永熙三年生于统万城，因以名焉。大统十四年封宁都郡公，行岐州事，治有美政。孝闵帝废，晋公护迎帝于岐州，即天王位。明慎庶政，恭俭守法。时宇文护专政，帝常自惧。武成二年四月辛丑，崩于延寿殿，年二十七。

@@ -2,7 +2,7 @@
 id: chen-chang
 name: 陈昌
 display: 陈昌
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 衡阳献王昌传
     kind: classic
 ---
+
+陈武帝嫡子。武帝时留质于周。文帝即位，累请归，周遣之。天嘉元年三月济江，中流船坏，遂以溺薨。赠衡阳王，谥献。

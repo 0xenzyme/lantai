@@ -2,7 +2,7 @@
 id: chen-ligong
 name: 媯佗
 display: 陈厉公（佗）
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -700
 deathAccuracy: approx
 deathNote: 史记·陈杞世家以佗为厉公，卒于前700；按左传佗即五父，经·桓公六年（前706）「蔡人殺陳佗」，史记误分两人。年次两说并存，试跑名单取前700，作约年。
+title: 陈君，即五父
 sources:
   - work: 史记
     part: 陈杞世家
@@ -18,3 +19,5 @@ sources:
     part: 桓公六年
     kind: classic
 ---
+
+陈厉公，名佗，桓公之子，谓之五父。桓公卒，佗杀太子免而自立。六年，蔡人杀佗，陈之乱乃定。

@@ -2,7 +2,7 @@
 id: liu-yifu
 name: 刘义符
 display: 宋少帝刘义符
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 少帝纪
     kind: classic
 ---
+
+宋武帝长子。永初中立为皇太子。武帝崩，即位，年十七。居丧不礼，好与左右嬉戏。徐羡之、傅亮、谢晦等奏其过恶，废为营阳王，遣使弑于金昌亭，年十九。诸弟皆不获免，迎宜都王义隆入嗣，是为文帝。

@@ -2,7 +2,7 @@
 id: jiao-xun
 name: 焦循
 display: 焦循
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1763
 birthAccuracy: exact
 death: 1820
 deathAccuracy: exact
+title: 乾嘉易学家
 sources:
   - work: 清史稿
     part: 卷482·儒林传三·焦循
     kind: classic
 ---
+
+字里堂，江苏甘泉人。嘉庆六年举人，世传易学，与阮元齐名。著《易通释》二十卷、《孟子正义》三十卷，又为诸经补疏。晚托足疾不入城市十馀年，读书著述于雕菰楼。嘉庆二十五年卒，年五十八。

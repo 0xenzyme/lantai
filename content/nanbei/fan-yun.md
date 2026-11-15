@@ -2,7 +2,7 @@
 id: fan-yun
 name: 范云
 display: 范云
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 范云传
     kind: classic
 ---
+
+舞阴人，早入竟陵王府，与沈约齐名。齐末从萧衍西上，内赞大策。梁台建，为侍中；受禅，封霄城侯，迁尚书右仆射。天监二年卒，年五十三。

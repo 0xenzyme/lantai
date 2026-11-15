@@ -2,7 +2,7 @@
 id: yu-qing
 name: 虞卿
 display: 虞卿
-profile: brief
+profile: full
 gender: male
 polity:
   - zhao
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -255
 deathAccuracy: approx
 deathNote: 生卒不详，取前255年为活动年（非寿数）。据史记·平原君虞卿列传（raw/先秦-西汉/史記/卷076-平原君虞卿列傳.md:38）「虞卿者，遊説之士也。躡蹻檐簦説趙孝成王」。此句无绝对年，年份从台账。
+title: 赵上卿，不割地事秦
 sources:
   - work: 史记
     part: 平原君虞卿列传
     kind: classic
 ---
+
+游说之士，蹑蹻檐簦说赵孝成王，一见赐黄金百镒、白璧一双，再见为赵上卿，故号虞卿。长平既败，秦索六城，虞卿谓「秦以其力攻其所不能取，倦而归；王又以其力之所不能取以送之，是助秦自攻也」，请以六城赂齐以取偿于秦。赵王从之，封虞卿以一城。其后困于魏齐，著书见意。

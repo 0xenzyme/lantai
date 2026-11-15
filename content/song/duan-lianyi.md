@@ -2,7 +2,7 @@
 id: duan-lianyi
 name: 段廉义
 display: 段廉义
-profile: brief
+profile: full
 gender: male
 polity:
   - dali
@@ -15,3 +15,5 @@ sources:
     part: 大理国
     kind: classic
 ---
+
+段思廉之子，嗣立。在位五年，为杨义贞所弑。高智升起兵讨平其乱，迎立段寿辉；自是段氏之柄，浸归于高。

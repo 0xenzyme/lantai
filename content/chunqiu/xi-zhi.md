@@ -2,7 +2,7 @@
 id: xi-zhi
 name: 郤至
 display: 郤至
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -574
 deathAccuracy: exact
 deathNote: 春秋经·成公十七年「晉殺其大夫郤錡、郤犨、郤至」（前574），晋厉公杀三郤。
+title: 晋卿，三郤之难
 sources:
   - work: 春秋左传
     part: 成公十七年
     kind: classic
 ---
+
+郤至，晋卿，温季，三郤之一。尝与周争鄇田，曰「温，吾故也」，晋侯使勿敢争。鄢陵之役，不用栾书之计，书怨之。成公十七年，与郤锜、郤犨并见杀。

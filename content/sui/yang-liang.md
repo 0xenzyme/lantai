@@ -2,7 +2,7 @@
 id: yang-liang
 name: 杨谅
 display: 汉王杨谅
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 604
 deathAccuracy: disputed
 deathNote: 資治通鑑·卷180 繫仁壽四年（604）「除名為民，絕其屬籍，竟以幽死」（raw/通代/資治通鑑/卷180.md:70）；隋書·卷45、北史·卷71 只書「竟以幽死」而無年，他書或繫大業初，取 604 一說並存異。
+title: 汉王，并州起兵而败
 sources:
   - work: 资治通鉴
     part: 卷180·隋纪四
     kind: classic
 ---
+
+字德章，高祖第五子也。开皇初立为汉王，出为并州总管，统山东五十二州，特许便宜。自以太子谗废，阴有异图。会高祖崩，征之不赴，遂发兵反。王頍、裴文安说以直据京都，谅不能用。杨素袭破蒲州，进兵围并州，谅穷蹙出降。除名为民，绝其属籍，竟以幽死。

@@ -2,7 +2,7 @@
 id: wang-meng-jin
 name: 王濛
 display: 王濛
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 345
 deathAccuracy: approx
 deathNote: 通鉴系于永和元年（345）与刘惔同为谈客（raw/通代/資治通鑑/卷097.md:134）；卒年无载，此系活动年，非寿数。
+title: 东晋谈宗，外戚王濛
 sources:
   - work: 资治通鉴
     part: 卷097·晋纪十九·永和元年
@@ -18,3 +19,5 @@ sources:
     part: 卷093·外戚·王濛
     kind: classic
 ---
+
+字仲祖，哀靖皇后之父。少时放纵不羁，晚节始克己励行，有风流美誉，虚己应物，而以清约见称。善隶书，美姿容。与沛国刘惔齐名，凡称风流者举濛、惔为宗。简文帝辅政，益贵幸，号入室之宾。年三十九卒。

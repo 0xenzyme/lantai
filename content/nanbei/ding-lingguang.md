@@ -2,7 +2,7 @@
 id: ding-lingguang
 name: 丁令光
 display: 梁武帝丁贵嫔丁令光
-profile: brief
+profile: full
 gender: female
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 后妃传·高祖丁贵嫔
     kind: classic
 ---
+
+谯国人，泰始中归于梁武帝。生昭明太子统、简文帝纲。武帝受禅，历封修容、贵嫔。性仁恕，接下以和。普通七年薨，年四十二，后追尊穆太后。

@@ -2,7 +2,7 @@
 id: qian-daxin
 name: 钱大昕
 display: 钱大昕
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -15,6 +15,7 @@ birthNote: 清史稿·卷481·儒林传·钱大昕：嘉庆九年卒，年七十
 death: 1804
 deathAccuracy: exact
 deathNote: 清史稿·卷481·儒林传·钱大昕：乾隆十六年召试举人，十九年进士，三十二年乞假归，四十丁父艰、又丁母艰，病不复出，「嘉庆九年，卒，年七十七」。年号明载，即 1804 年。
+title: 乾嘉史学的考据巨擘
 aliases:
   - 晓徵
   - 竹汀
@@ -24,3 +25,5 @@ sources:
     part: 卷481·儒林传·钱大昕
     kind: classic
 ---
+
+江苏嘉定人，字晓徵。乾隆十九年进士，历翰林、广东学政。乞归后主讲钟山、娄东书院。深于考据，著《廿二史考异》《十驾斋养新录》。

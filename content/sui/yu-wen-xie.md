@@ -2,7 +2,7 @@
 id: yu-wen-xie
 name: 宇文协
 display: 宇文协
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 618
 deathAccuracy: exact
 deathNote: 光禄大夫、开府仪同三司、行右翊卫大将军。恭帝纪：「义宁二年三月……行右翊卫大将军宇文协……皆遇害」，卒年即系本纪。
+title: 江都之变遇害的将领
 tags:
   - 隋
 aliases:
@@ -21,3 +22,5 @@ sources:
     part: 恭帝纪
     kind: classic
 ---
+
+仕隋，官至光禄大夫、开府仪同三司，行右翊卫大将军。大业十四年三月，宇文化及弑炀帝于江都，协与独孤盛、虞世基、裴蕴等同日遇害。

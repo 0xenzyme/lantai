@@ -2,13 +2,14 @@
 id: sima-xun
 name: 司马勋
 display: 司马勋
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 366
 deathAccuracy: exact
+title: 东晋梁益牧，据蜀伏诛
 sources:
   - work: 资治通鉴
     part: 卷101·晋纪二十四·太和元年
@@ -17,3 +18,5 @@ sources:
     part: 卷037
     kind: classic
 ---
+
+字伟长，济南惠王遂曾孙。长安陷，为刘曜将令狐泥所养。及壮归晋，自列宗籍，以勇闻。从桓温伐关中，迁征虏将军，监关中军事，为政暴酷，西土患其凶虐。后拥众入剑阁，自号梁益二州牧、成都王，为朱序所获，斩传首京师。

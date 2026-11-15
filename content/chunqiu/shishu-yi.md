@@ -2,7 +2,7 @@
 id: shishu-yi
 name: 大叔仪
 display: 大叔仪
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -559
 deathAccuracy: approx
 deathNote: 卒年不详，取前559年为活动下限（非寿数）。依据春秋左传正义·襄公十四年「衛人使大叔儀對」（raw/春秋/春秋左傳正義/卷32.md:184）。
+title: 卫大叔文子，国之守
 sources:
   - work: 春秋左传正义
     part: 襄公十四年
     kind: classic
 ---
+
+卫大夫，谥文，故称大叔文子。襄十四年，卫侯为孙林父所逐，晋人问焉，大叔仪对以「群臣不佞，得罪于寡君」。或曰卫有文子以守、有母弟鱄以出，能无归乎。后甯喜许迎献公，文子曰「甯子可谓不恤其后矣」，卒如其言。

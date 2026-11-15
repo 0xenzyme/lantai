@@ -2,7 +2,7 @@
 id: zhu-yizun
 name: 朱彝尊
 display: 朱彝尊
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1692
 deathAccuracy: approx
 deathNote: 本传不载生卒年，只作「卒，年八十一」。清史稿卷484记康熙十八年（1679）试鸿博、三十一年（1692）假归；今以康熙三十一年假归之年为活动下限系年，非寿数。raw/清/清史稿/卷484.md:267
+title: 清初词人，明诗综编者
 sources:
   - work: 清史稿
     part: 卷484·文苑传·朱彝尊
     kind: classic
 ---
+
+字锡鬯，秀水人，明大学士国祚曾孙。家贫客游，北出云朔，东泛沧海，所至丛祠荒冢、残碣之文，莫不搜剔考证。康熙十八年试鸿博，除检讨，同修明史，建议访遗书、宽期限，毋效元史之迫时日。著曝书亭集，选明诗综，铨次为最当。

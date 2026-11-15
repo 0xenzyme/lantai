@@ -2,7 +2,7 @@
 id: gu-yewang
 name: 顾野王
 display: 顾野王
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 顾野王传
     kind: classic
 ---
+
+吴郡人，字希冯。梁末为太子中舍人，入陈历黄门侍郎、光禄卿。博综经史，工丹青。撰《玉篇》三十卷，又著《舆地志》。至德元年卒。

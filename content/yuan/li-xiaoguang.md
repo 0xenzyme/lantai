@@ -2,7 +2,7 @@
 id: li-xiaoguang
 name: 李孝光
 display: 李孝光
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 至正七年征召，明年升秘书监丞，卒于官，年五十三。明年为1348，虚岁上推生年1296。依据「至正七年，詔徵隱士，以祕書監著作郎召」（raw/元/元史/卷190.md:162）
 death: 1348
 deathAccuracy: exact
+title: 乐清隐士，召入秘阁
 sources:
   - work: 元史
     part: 儒学二·李孝光
     kind: classic
 ---
+
+字季和，温州乐清人。少博学，笃志复古，隐居雁荡山五峰下，四方之士远来受学，泰不华以师事之。至正七年，诏征隐士，以秘书监著作郎召，见帝于宣文阁，进孝经图说，赐上尊。明年，升秘书监丞。卒于官，年五十三。有文集二十卷。

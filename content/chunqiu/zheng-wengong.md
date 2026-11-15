@@ -2,7 +2,7 @@
 id: zheng-wengong
 name: 姬踕
 display: 郑文公
-profile: brief
+profile: full
 gender: male
 polity:
   - zheng
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -628
 deathAccuracy: exact
 deathNote: 史记·郑世家「四十五年，文公卒，子蘭立，是爲繆公」。文公元年前672，四十五年得前628。
+title: 郑文公，无礼于晋
 sources:
   - work: 史记
     part: 郑世家
     kind: classic
 ---
+
+郑厉公之子。三十六年，晋公子重耳过郑，文公弗礼；弟叔詹谏曰「穷而过君，不可无礼」，不听。四十一年，助楚击晋。四十三年，晋文公与秦穆公围郑，佚之狐言使烛之武见秦君，烛之武曰「邻之厚，君之薄也」，秦师夜遁。四十五年卒，子缪公立。

@@ -2,7 +2,7 @@
 id: xue-shixiong
 name: 薛世雄
 display: 薛世雄
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 隋書·卷65 本傳作「未幾而卒，時年六十三」；資治通鑑·卷184 繫義寧元年（617）「世雄不能禁，與左右數十騎遁歸涿郡，慚恚發病卒」（raw/通代/資治通鑑/卷184.md:52）。生年由卒年與年數上推，非以年數為壽數。
 death: 617
 deathAccuracy: exact
+title: 筑新伊吾的廉谨之将
 sources:
   - work: 资治通鉴
     part: 卷184·隋纪八
     kind: classic
 ---
+
+字世英，本河东汾阴人。性廉谨，炀帝尝曰「我欲举者薛世雄」，超拜右翊卫将军。为玉门道行军大将，与启民可汗击伊吾，孤军度碛，筑新伊吾城而还。辽东之役，败绩于平壤。后镇怀远，率幽、蓟兵讨窦建德，至河间，大败，惭恚发病，卒于涿郡。

@@ -2,15 +2,18 @@
 id: liu-kunyi
 name: 刘坤一
 display: 刘坤一
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
 birthAccuracy: unknown
 death: 1902
 deathAccuracy: exact
+title: 两江总督，南洋大臣
 sources:
   - work: 清史稿
     part: 卷413·列传二百（刘坤一传）
     kind: classic
 ---
+
+湖南新宁人，字岘庄。以团练从刘长佑，代统其军，累擢江西巡抚。光绪中总督两江，为南洋大臣。庚子之变，与东南督抚立互保约，江浙赖以无事。

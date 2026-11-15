@@ -2,7 +2,7 @@
 id: xun-ying
 name: 荀罃
 display: 荀罃
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -560
 deathAccuracy: exact
 deathNote: 春秋左传正义·襄公十三年（前560）「荀罃、士魴卒」（raw/春秋/春秋左傳正義/卷32.md:40）。
+title: 晋卿，知武子
 sources:
   - work: 春秋左传正义
     part: 襄公十三年
     kind: classic
 ---
+
+荀罃，晋卿，知武子。邲之役为楚所获，郑贾人谋置诸褚中以出，未行而楚归之；贾人如晋，罃善视之，如实出己，贾人曰「不可以厚诬君子」。襄公十三年卒。

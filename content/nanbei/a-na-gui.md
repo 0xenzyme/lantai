@@ -2,7 +2,7 @@
 id: a-na-gui
 name: 阿那瓌
 display: 阿那瓌
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 突厥传
     kind: classic
 ---
+
+柔然可汗，郁久闾氏。正光中为族兄示发所逼，款塞归魏，居怀朔镇北。孝昌初，魏资其众还本国，复称可汗。魏分东西，两端交结。西魏废帝元年，突厥土门大破之于怀荒北，遂自杀。

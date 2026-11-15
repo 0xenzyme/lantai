@@ -2,7 +2,7 @@
 id: zhao-yanshou
 name: 赵延寿
 display: 赵延寿
-profile: brief
+profile: full
 gender: male
 polity:
   - wudai
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 935
 deathAccuracy: approx
 deathNote: 资治通鉴·卷279 繫于清泰二年（935）「以前宣武節度使兼侍中趙延壽為忠武節度使兼樞密使」（raw/通代/資治通鑑/卷279.md:194）；此为任官之年，非寿数。
+title: 契丹魏王，本姓刘
 sources:
   - work: 资治通鉴
     part: 卷279·后唐纪八
     kind: classic
 ---
+
+延寿，本姓刘，恒山人，赵德钧养以为子。少美容貌，好书史。唐明宗先以女妻之，及即位，拜驸马都尉、枢密使。明宗子从荣恃权，延寿求补外，出为宣武军节度使。清泰初，复为枢密使。石敬瑭发兵太原，延寿与德钧赴救，闻晋安已破，俱降于契丹。

@@ -2,7 +2,7 @@
 id: fang-guozhen-1376
 name: 方国珍
 display: 方国珍
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -11,8 +11,11 @@ birthAccuracy: unknown
 death: 1376
 deathAccuracy: approx
 deathNote: 卷124赞作「洪武九年，方穀珍死」`raw/明/明史/卷124.md:70`。方谷珍即方国珍。洪武九年为1376，此系近似。生年无考。
+title: 元末割据浙东的盐枭
 sources:
   - work: 明史
     part: 卷124·扩廓帖木儿传（赞）
     kind: classic
 ---
+
+黄岩人。世以贩盐浮海为业。元至正八年，怨家告其通寇，杀怨家，亡入海，聚众数千，劫运艘梗海道。元兵数讨之，皆败。名为附元，岁漕粟不至，而七战破张士诚。后穷蹙归明，洪武九年死。

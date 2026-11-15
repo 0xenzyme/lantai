@@ -2,7 +2,7 @@
 id: duan-shao
 name: 段韶
 display: 段韶
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 段韶传
     kind: classic
 ---
+
+武威姑臧人，段荣之子，以姻戚贵。善骑射，有将略。历事神武、文襄、文宣、武成诸主，出总军旅，数与周师战；入参帷幄，多所匡益。武平二年病薨，谥忠武。

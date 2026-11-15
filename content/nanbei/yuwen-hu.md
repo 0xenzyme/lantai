@@ -2,7 +2,7 @@
 id: yuwen-hu
 name: 宇文护
 display: 宇文护
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 晋荡公护传
     kind: classic
 ---
+
+字萨保，太祖之兄邵惠公颢之少子。幼方正有志度，太祖叹曰「此儿志度类我」。从太祖擒窦泰、复弘农、破沙苑。太祖崩，嗣子冲弱，护纲纪内外，抚循文武，众心乃定。山陵毕，遣人讽魏帝，行禅代之事。既杀赵贵、独孤信，又弑孝闵帝、明帝。建德元年，武帝诛之。

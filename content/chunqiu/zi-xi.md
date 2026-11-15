@@ -2,7 +2,7 @@
 id: zi-xi
 name: 公子申
 display: 子西（楚令尹）
-profile: brief
+profile: full
 gender: male
 polity:
   - chu
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -479
 deathAccuracy: exact
 deathNote: 左传·哀公十六年（前479）白公胜作乱，「殺子西、子期於朝」，子西以袂掩面而死。
+title: 楚令尹，白公之乱死
 sources:
   - work: 春秋左传
     part: 哀公十六年
@@ -18,3 +19,5 @@ sources:
     part: 楚世家
     kind: classic
 ---
+
+楚令尹，公子申。太子建之子胜在吴，子西欲召之，叶公曰「吾闻胜也，诈而乱」，弗听，卒召使处吴竟，为白公。胜怒子西之不许伐郑，哀公十六年七月作乱，杀子西、子期于朝，劫惠王。子西惭于叶公，以袂掩面而死。

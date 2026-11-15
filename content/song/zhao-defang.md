@@ -2,7 +2,7 @@
 id: zhao-defang
 name: 赵德芳
 display: 赵德芳
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -12,8 +12,11 @@ birthNote: 生年無明載；《宋史·卷244》作「六年三月，寢疾薨�
 death: 981
 deathAccuracy: approx
 deathNote: 卒於太平興國六年（981）三月，本傳明載；台账作 approx（raw/宋/宋史/卷244.md:137）。
+title: 太祖四子秦康惠王
 sources:
   - work: 宋史
     part: 宗室一
     kind: classic
 ---
+
+太祖第四子。开宝九年出阁，授贵州防御使。太平兴国元年，授兴元尹、山南西道节度使、同平章事。三年冬，加检校太尉。六年三月，寝疾薨，年二十三，车驾临哭，废朝五日，赠中书令，后追封楚王。

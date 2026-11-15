@@ -2,13 +2,14 @@
 id: xu-yanruo
 name: 徐彦若
 display: 徐彦若
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 901
 deathAccuracy: exact
+title: 昭宗宰相，出镇南海
 sources:
   - work: 新唐书
     part: 卷63·表第三 宰相下
@@ -17,3 +18,5 @@ sources:
     part: 卷10·本纪第十
     kind: classic
 ---
+
+徐彦若，天后时大理卿徐有功之裔，祖孙三世皆登进士科。彦若咸通十二年擢第，乾符末知制诰，正拜中书舍人。昭宗即位，迁御史中丞、吏部侍郎，改兵部侍郎、同平章事。扈驾还宫，加司空，封齐国公。时崔胤专权，以其在己上，出为清海军节度使，卒于镇。

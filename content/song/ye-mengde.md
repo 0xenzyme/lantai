@@ -2,15 +2,18 @@
 id: ye-mengde
 name: 叶梦得
 display: 叶梦得
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1148
 deathAccuracy: exact
+title: 建康留守叶少蕴
 sources:
   - work: 宋史
     part: 文苑七
     kind: classic
 ---
+
+字少蕴，苏州吴县人。绍圣四年进士。用蔡京荐召对，迁起居郎，极论士大夫朋党之弊，忤京。高宗朝，为江东安抚大使知建康，奏防江措画八事，团结沿江民兵，金兵不得渡而去。绍兴十八年，卒湖州，赠检校少保。

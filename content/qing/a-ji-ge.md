@@ -2,7 +2,7 @@
 id: a-ji-ge
 name: 阿济格
 display: 阿济格
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -14,6 +14,7 @@ birthAccuracy: unknown
 death: 1651
 deathAccuracy: exact
 deathNote: 清史稿·卷217·阿济格传：顺治八年多尔袞薨后被讦欲为乱，议削爵幽禁，逾月系别室、籍其家；十月监守者告阿济格将于系所举火，赐死。卷5·世祖本纪：八年十月庚申，赐阿济格死。太祖第十二子，靖远大将军，追剿李自成。
+title: 清初亲王，靖远大将军
 aliases:
   - 武英郡王
   - 英亲王
@@ -25,3 +26,5 @@ sources:
     part: 卷5·世祖本纪
     kind: classic
 ---
+
+太祖第十二子，封英亲王，为靖远大将军追剿李自成。顺治八年多尔衮薨，被讦欲为乱，议削爵幽禁；十月，诏赐死。

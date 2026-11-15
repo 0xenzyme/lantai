@@ -2,13 +2,14 @@
 id: wang-jin
 name: 王缙
 display: 王缙
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 781
 deathAccuracy: exact
+title: 代宗宰相，王维之弟
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -17,3 +18,5 @@ sources:
     part: 卷12·本纪第十二 德宗上
     kind: classic
 ---
+
+王缙，字夏卿，河中人，王维之弟。少以文翰著名。禄山之乱，为太原少尹，佐李光弼守太原；兄维陷贼受伪署，缙请以己官赎罪。广德二年，拜黄门侍郎、同平章事。晚节奉佛，与元载、杜鸿渐广建寺观。元载败，连坐贬括州，移处州。建中二年卒，年八十二。

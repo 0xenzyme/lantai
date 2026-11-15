@@ -2,7 +2,7 @@
 id: cai-miuhou
 name: 姬肸
 display: 蔡缪侯
-profile: brief
+profile: full
 gender: male
 polity:
   - cai
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -646
 deathAccuracy: exact
 deathNote: 史记·管蔡世家「二十九年，繆侯卒，子莊侯甲午立」。缪公元年前674，二十九年得前646。
+title: 蔡侯，在位二十九年
 sources:
   - work: 史记
     part: 管蔡世家
     kind: classic
 ---
+
+蔡侯，名肸。在位二十九年。时齐桓公始霸，诸侯宗齐，蔡居淮汝之间，于齐、楚之交苟存。卒，子庄侯甲午立。

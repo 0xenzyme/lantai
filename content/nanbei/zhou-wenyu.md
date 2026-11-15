@@ -2,7 +2,7 @@
 id: zhou-wenyu
 name: 周文育
 display: 周文育
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 周文育传
     kind: classic
 ---
+
+字景德，义兴阳羡人，本姓项氏，名猛奴。年十一，能游水数里。周荟奇之，养为子，詹事周舍为立名字。从高祖讨侯景，克兰裕，援欧阳頠，破蔡路养于南野。累功封东迁县侯。又筑城白口，擒李迁仕。陈武帝受禅，与侯安都等并预拥戴。永定三年，为熊昙朗所害。

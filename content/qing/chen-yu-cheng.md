@@ -2,7 +2,7 @@
 id: chen-yu-cheng
 name: 陈玉成
 display: 陈玉成
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -14,6 +14,7 @@ birthAccuracy: unknown
 death: 1862
 deathAccuracy: exact
 deathNote: 清史稿·卷21·穆宗本纪一：同治元年四月，多隆阿军克庐州，匪首陈玉成遁至寿州境，苗沛霖诱擒之；五月乙巳，陈玉成解京师，诏于中途磔之。卷409·多隆阿传、卷475·洪秀全传同作玉成奔寿州为苗沛霖所擒、献胜保大营伏诛。封英王，军中号四眼狗。
+title: 太平天国英王
 aliases:
   - 四眼狗
 sources:
@@ -27,3 +28,5 @@ sources:
     part: 卷475·洪秀全传附陈玉成
     kind: classic
 ---
+
+广西藤县人，太平天国名将，封英王，军中号四眼狗。与李秀成合破江南、江北大营。同治元年四月，多隆阿克庐州，遁至寿州境，为苗沛霖诱擒；五月，诏于中途磔之。

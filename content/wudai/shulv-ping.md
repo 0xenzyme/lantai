@@ -2,7 +2,7 @@
 id: shulv-ping
 name: 述律平
 display: 述律平
-profile: brief
+profile: full
 gender: female
 polity:
   - liao-jin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 926
 deathAccuracy: approx
 deathNote: 资治通鉴·卷275 繫于天成元年（926）「契丹主阿保機卒於夫餘城，述律后召諸將及酋長難制者之妻」（raw/通代/資治通鑑/卷275.md:110）；此为阿保机卒后摄政之年，非寿数。
+title: 辽太祖淳钦皇后
 sources:
   - work: 资治通鉴
     part: 卷275·后唐纪四
     kind: classic
 ---
+
+述律氏，讳平，契丹右大部人。简重果断，有雄略，行兵御众，尝与太祖谋，平渤海，后与有功。太祖崩，称制，摄军国事，欲以身殉，亲戚百官力谏，因断右腕纳于柩。常属意少子李胡，世宗即位，遣李胡逆击，败，太后亲率师遇于潢河，赖耶律屋质谏而罢兵，迁于祖州。应历三年崩，年七十五，谥曰贞烈。

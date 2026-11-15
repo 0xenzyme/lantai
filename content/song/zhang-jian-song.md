@@ -2,7 +2,7 @@
 id: zhang-jian-song
 name: 章鉴
 display: 章鉴
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 1272
 deathAccuracy: approx
 deathNote: 此年为可见活动年（拜相年），非卒年、非寿数。咸淳八年六月丁酉，章鉴自权吏部尚书除端明殿学士、同签书枢密院事（raw/宋/宋史/卷214.md:63）。本传无卒句。本纪作章鉴。
+title: 宋末右丞相章鉴
 sources:
   - work: 宋史
     part: 宰辅五
@@ -18,3 +19,5 @@ sources:
     part: 瀛国公本纪
     kind: classic
 ---
+
+字公秉，分宁人。以别院省试及第，累官中书舍人、签书枢密院事。咸淳十年，拜右丞相，兼枢密使。大元兵逼临安，托故径去，坐削一官，放归田里。后有告其家匿宝玺，索之惟敝箧一玉杯，人叹其清约。

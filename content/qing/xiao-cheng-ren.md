@@ -2,7 +2,7 @@
 id: xiao-cheng-ren
 name: 赫舍里皇后
 display: 赫舍里皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - qing
@@ -14,6 +14,7 @@ birthNote: 康熙十三年崩，传载年二十二（虚岁），自卒年1674�
 death: 1674
 deathAccuracy: exact
 deathNote: 清史稿·卷214·后妃传·孝诚仁皇后：康熙十三年五月丙寅生皇二子允礽，即于是日崩，年二十二。
+title: 康熙帝皇后，废太子生母
 aliases:
   - 赫舍里氏
   - 孝诚仁皇后
@@ -22,3 +23,5 @@ sources:
     part: 卷214·后妃传·孝诚仁皇后
     kind: classic
 ---
+
+赫舍里氏，辅政大臣索尼孙，领侍卫内大臣噶布喇女。康熙四年七月册为皇后。十三年五月丙寅生皇二子允礽，即于是日崩，年二十二。初谥仁孝皇后，雍正改谥，累谥孝诚恭肃正惠安和淑懿恪敏俪天襄圣仁皇后。子二：承祐，殇；允礽。

@@ -2,15 +2,18 @@
 id: mang-wu-tai
 name: 忙兀台
 display: 忙兀台
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1290
 deathAccuracy: exact
+title: 蒙古宿将，从平南宋
 sources:
   - work: 元史
     part: 忙兀台传
     kind: classic
 ---
+
+蒙古达达儿氏。祖塔思火儿赤，从太宗定中原有功。至元中为监战万户，从攻樊城、襄阳。又从伯颜南征，破沙洋、新城，谕降鄂州。历江淮行省平章。二十七年出镇江西，拜丞相，兼枢密院事，在官四十日卒。

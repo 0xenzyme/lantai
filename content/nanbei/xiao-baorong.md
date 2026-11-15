@@ -2,7 +2,7 @@
 id: xiao-baorong
 name: 萧宝融
 display: 齐和帝萧宝融
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -29,3 +29,5 @@ sources:
     part: 和帝纪
     kind: classic
 ---
+
+齐明帝之子，封南康王。永元之末，萧衍与萧颖胄奉之以兴复为名，立于江陵，改元中兴。衍既定建康，东下至姑孰，迫帝禅位，降封巴陵王。明日而薨，年十五，南齐遂亡。

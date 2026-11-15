@@ -2,7 +2,7 @@
 id: yang-hao
 name: 杨浩
 display: 秦王杨浩
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 618
 deathAccuracy: approx
 deathNote: 宇文化及江都弑逆后立浩为帝；化及败于黎阳，北走魏县，自僭伪号，因而鸩杀之（隋书·文四子传·秦孝王俊附杨浩）。事在义宁二年而卒月无考，系年作约略。
+title: 宇文化及所立的秦王
 tags:
   - 隋
 aliases:
@@ -25,3 +26,5 @@ sources:
     part: 唐纪一
     kind: classic
 ---
+
+秦孝王俊之子也，崔氏所生。大业中为河阳都尉。杨玄感作乱，宇文述勒兵讨之，浩与往复，坐以诸侯交通内臣废免。宇文化及弑逆，立为帝，位居别宫，令发诏画敕书而已，仍以兵监守之。化及败于黎阳，北走魏县，自僭伪号，因鸩杀之。

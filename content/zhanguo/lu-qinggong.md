@@ -2,7 +2,7 @@
 id: lu-qinggong
 name: 鲁顷公
 display: 鲁顷公
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -256
 deathAccuracy: approx
 deathNote: 生卒不详，取前256年为亡国年（非寿数）。据史记·鲁周公世家（raw/先秦-西汉/史記/魯周公世家.md:215）「二十四年，楚考烈王伐滅魯」。同条又言顷公卒于柯，无另年。
+title: 鲁之末主，楚灭其国
 sources:
   - work: 史记
     part: 鲁周公世家
     kind: classic
 ---
+
+鲁之末主。楚考烈王伐灭鲁，迁顷公于柯，顷公卒于柯，鲁祀遂绝。鲁自周公受封，世为周室懿亲，至顷公而亡，先六国而灭。

@@ -2,7 +2,7 @@
 id: xiao-baoyin
 name: 萧宝夤
 display: 萧宝夤
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 萧宝夤传
     kind: classic
 ---
+
+齐明帝之子，封建安王。齐亡入魏，孝文以为镇西将军，尚南阳长公主。孝昌中，为大都督西讨关陇之乱，军败惧罪。永安三年，据长安反，魏遣尔朱天光讨之，宝夤败走，为骑所执，赐死于太仆驼牛署。

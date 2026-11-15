@@ -2,7 +2,7 @@
 id: guo-huanghou-xianzong
 name: 宪宗懿安皇后郭氏
 display: 宪宗懿安皇后郭氏
-profile: brief
+profile: full
 gender: female
 polity:
   - tang
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 848
 deathAccuracy: approx
 deathNote: 宣宗大中二年（848）暴崩；「是夕，崩，外人颇有异论」，年见卷内大中二年纪年。 — raw/通代/資治通鑑/卷248.md:214
+title: 七朝太后，汾阳王之后
 sources:
   - work: 旧唐书
     part: 卷52·后妃下
@@ -21,3 +22,5 @@ sources:
     part: 卷248·唐纪六十四
     kind: classic
 ---
+
+尚父郭子仪之孙，驸马都尉郭暧之女，母代宗女升平公主。宪宗为广陵王时纳为妃，生穆宗。元和元年册为贵妃，终以门族华盛，未正位中宫。穆宗立，尊为皇太后，敬宗复尊为太皇太后。历位七朝，五居太母之尊。大中二年崩于兴庆宫，谥曰懿安。

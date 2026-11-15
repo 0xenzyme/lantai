@@ -2,13 +2,14 @@
 id: wang-xun
 name: 王珣
 display: 王珣
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 400
 deathAccuracy: exact
+title: 东晋尚书令，梦有大笔如椽
 sources:
   - work: 晋书
     part: 卷010·安帝纪
@@ -17,3 +18,5 @@ sources:
     part: 卷065·王导传附珣
     kind: classic
 ---
+
+字元琳，王导之孙。弱冠与谢玄俱为桓温掾，温敬之，军中机务悉委焉，文武数万人悉识其面。累迁尚书右仆射、左仆射。帝雅好典籍，与殷仲堪、王恭并以才学见昵。帝崩，哀册谗议皆珣所草。隆安初恭再举兵，假珣节，进卫将军。四年卒，年五十二。

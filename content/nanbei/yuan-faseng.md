@@ -2,7 +2,7 @@
 id: yuan-faseng
 name: 元法僧
 display: 元法僧
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -11,6 +11,7 @@ birthAccuracy: approx
 birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「大同二年…薨，時年八十三」raw/南朝/梁書/卷39.md:20
 death: 536
 deathAccuracy: exact
+title: 北魏宗室叛将，据彭城称帝
 sources:
   - work: 梁书
     part: 卷039·元法僧传
@@ -19,3 +20,5 @@ sources:
     part: 卷009·肃宗纪
     kind: classic
 ---
+
+魏氏支属，始祖道武帝，父钟葵江阳王。仕魏为使持节、徐州刺史，镇彭城。普通五年，魏室大乱，遂据镇称帝，立诸子为王。魏乱稍定，将讨法僧，惧而遣使归款，梁授侍中、司空，封始安郡公。魏军既逼，请还朝，朱异迎之。大同二年薨，年八十三。

@@ -2,7 +2,7 @@
 id: li-chong
 name: 李冲
 display: 李冲
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -27,3 +27,5 @@ sources:
     part: 李冲传
     kind: classic
 ---
+
+陇西狄道人，字继长。孝文时历荆州刺史、镇南大将军。宣武初，出镇冀州，都督诸军御六镇之师。孝昌元年，薨于位，年七十一。为一时良将。

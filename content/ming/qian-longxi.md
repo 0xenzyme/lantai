@@ -2,7 +2,7 @@
 id: qian-longxi
 name: 钱龙锡
 display: 钱龙锡
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+字稚文，松江华亭人。万历三十五年进士，改庶吉士，授编修，累迁少詹事。忤魏忠贤，削籍。庄烈帝即位，仿古枚卜，首得龙锡，拜礼部尚书兼东阁大学士，与李标协心辅理。袁崇焕之狱，为言路追劾，坐戍定海卫十二年。福王时复官归里，未几卒。

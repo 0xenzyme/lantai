@@ -2,7 +2,7 @@
 id: hu-peihui
 name: 胡培翚
 display: 胡培翚
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birth: 1782
 birthAccuracy: exact
 death: 1849
 deathAccuracy: exact
+title: 仪礼正义作者
 sources:
   - work: 清史稿
     part: 卷482·儒林传三·胡培翚
     kind: classic
 ---
+
+字载平，安徽绩溪人。嘉庆二十四年进士，官内阁中书、户部广东司主事。邃精三礼，撰《仪礼正义》四十卷，覃精四十余年，晚岁风痹，力疾从事，犹有五篇未卒业而卒。门人杨大堉补成之。道光二十九年卒，年六十八。

@@ -2,15 +2,18 @@
 id: zhangsun-han
 name: 长孙翰
 display: 长孙翰
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
 birthAccuracy: unknown
 death: 430
 deathAccuracy: exact
+title: 北魏平阳王，征蠕蠕有功
 sources:
   - work: 魏书
     part: 卷026·长孙翰传
     kind: classic
 ---
+
+长孙翰，代人。明元帝即位，蓝田公进爵平阳王。太武时，官司徒。始光二年，太武大举征蠕蠕，翰等从黑漠；又出西道，向大娥山。神蒨二年，大檀弟匹黎先典东落，将赴大檀，遇翰军，翰纵骑击之，杀其大人数百。大檀闻之震怖，绝迹西走。三年二月，翰薨。

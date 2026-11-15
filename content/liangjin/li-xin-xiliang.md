@@ -2,13 +2,14 @@
 id: li-xin-xiliang
 name: 李歆
 display: 李歆
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
 birthAccuracy: unknown
 death: 420
 deathAccuracy: exact
+title: 西凉嗣主，败于蓼泉
 sources:
   - work: 晋书
     part: 卷087·凉后主歆
@@ -17,3 +18,5 @@ sources:
     part: 卷119·晋纪四十
     kind: classic
 ---
+
+字士业，凉武昭王暠之子。暠卒，府僚奉为大都督、凉公，改元嘉兴。闻沮渠蒙逊伐秃发傉檀，欲乘虚攻张掖，太后尹氏、宋繇固谏不听，繇叹曰「见师之出，不见师之还」。率步骑三万东伐，战败于蓼泉，为蒙逊所害。

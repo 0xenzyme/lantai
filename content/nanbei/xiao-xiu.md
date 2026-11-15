@@ -2,7 +2,7 @@
 id: xiao-xiu
 name: 萧秀
 display: 萧秀
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 安成康王秀传
     kind: classic
 ---
+
+梁武帝之弟，封安成王。天监中历会稽、江、郢诸州刺史，所至皆有惠政。性俭约，善抚下，及去，人追思之。天监十七年卒，谥曰康。

@@ -2,7 +2,7 @@
 id: zhang-chong
 name: 张冲
 display: 张冲
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 501
 deathAccuracy: approx
 deathNote: 传于永元二年（500）冬后书梁王起兵，明年二月围郢，冲病死。明年当永元三年（501）。无月日，承上下文，非寿数。据「沖病死，元嗣、榮伯與沖子孜」raw/南朝/南齊書/卷49.md:73
+title: 南齐郢州刺史，拒萧衍而死
 sources:
   - work: 南齐书
     part: 卷049·张冲传
     kind: classic
 ---
+
+字思约，吴郡吴人。少从戎事，以干力相待，历处军校之官。建武二年，魏寇淮泗，假冲节，都督青冀二州北讨诸军事，遣军主拔虏建陵、驿马、厚丘诸城。永元中，督郢州。梁王义师起，与房僧寄结盟拒守。萧衍出沔口围鲁山，冲病死。赠散骑常侍、护军将军。

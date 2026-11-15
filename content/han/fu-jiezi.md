@@ -2,7 +2,7 @@
 id: fu-jiezi
 name: 傅介子
 display: 傅介子
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -77
 deathAccuracy: approx
 deathNote: 《汉书·西域传上》元凤四年（前77）「傅介子往刺其王……斬王嘗歸首」；以该年为活动下限，非寿数，卒年无载。（原文：raw/西汉/漢書/卷096上-西域傳.md:45）
+title: 刺杀楼兰王，封义阳侯
 sources:
   - work: 汉书
     part: 西域传上·卷096上
     kind: classic
 ---
+
+傅介子，北地义渠人，以从军为官。元凤中，求使大宛，因诏责楼兰、龟兹，至龟兹率吏士诛斩匈奴使者。谓大将军霍光曰「楼兰、龟兹数反覆而不诛，无所惩艾」，愿往刺之。至楼兰，王贪汉物来见，介子与坐饮，酒酣，使壮士自后刺之，立死。持王首还，封义阳侯。

@@ -2,15 +2,18 @@
 id: shuo-si-jian
 name: 搠思监
 display: 搠思监
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1364
 deathAccuracy: exact
+title: 元末权相，奸贪误国
 sources:
   - work: 元史
     part: 奸臣传
     kind: classic
 ---
+
+怯烈氏，野先不花之孙。泰定初，袭长宿卫，历福建宣慰使都元帅、江浙行省右丞。至正中，累拜中书左、右丞相，加太保。居相位久，与宦者朴不花相表里，壅蔽上下，诬构孛罗帖木儿。二十四年，为孛罗帖木儿兵所执，杀之，后剖棺戮尸。

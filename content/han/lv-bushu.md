@@ -2,7 +2,7 @@
 id: lv-bushu
 name: 吕步舒
 display: 吕步舒
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -122
 deathAccuracy: approx
 deathNote: 卒年不详。史记·儒林列传「步舒至長史，持節使決淮南獄」（raw/先秦-西汉/史記/卷121-儒林列傳.md:68）。汉书·武帝纪元狩元年十一月「淮南王安、衡山王賜謀反，誅」（raw/西汉/漢書/卷006-武帝紀.md:173），上一条为「元狩元年冬十月」（同卷:171）。淮南王刘安卒年本库系前122。取此年为决狱活动年，非寿数。
+title: 董仲舒弟子，持节决淮南狱
 sources:
   - work: 史记
     part: 儒林列传
@@ -18,3 +19,5 @@ sources:
     part: 武帝纪
     kind: classic
 ---
+
+吕步舒，广川人，少事董仲舒，为丞相长史。元狩元年，淮南王安、衡山王赐谋反诛，天子使步舒持节决淮南狱。步舒于诸侯擅专断，不报，以《春秋》之义正之，天子皆以为是。

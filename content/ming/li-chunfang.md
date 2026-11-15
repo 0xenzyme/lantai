@@ -2,7 +2,7 @@
 id: li-chunfang
 name: 李春芳
 display: 李春芳
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+字子实，扬州兴化人。嘉靖二十六年举进士第一，除修撰，简入西苑撰青词，大被帝眷，自学士至柄政凡六迁。隆庆初代徐阶为首辅，益务安静。俺答款塞求封，偕高拱、张居正即帝前决之。后归里，年七十五卒，赠太师，谥文定。

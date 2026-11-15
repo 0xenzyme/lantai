@@ -2,7 +2,7 @@
 id: lv-tiaoyang
 name: 吕调阳
 display: 吕调阳
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷219·张四维传
     kind: classic
 ---
+
+《明史》无专传。隆庆六年六月以礼部尚书兼文渊阁大学士入阁。万历初张居正为首辅，调阳与张四维先在阁。调阳衰而数寝疾，小事四维代拟旨，大事驰报居正于江陵，听其裁决。六年七月以病回籍。

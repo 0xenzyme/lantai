@@ -2,7 +2,7 @@
 id: liu-yu-cangwu
 name: 刘昱
 display: 宋后废帝刘昱
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 后废帝纪
     kind: classic
 ---
+
+宋明帝长子。元徽二年即位，年十岁。好微行，夜出晨归，手取矛戟以为戏，出入无时，萧道成患之。尝直入领军府，不复为礼。元徽五年七月戊子夜，帝醉卧仁寿殿，杨玉夫等取帝防身刀斩之，年十五。道成奉太后令迎立安成王准。

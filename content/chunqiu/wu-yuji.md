@@ -2,7 +2,7 @@
 id: wu-yuji
 name: 吴余祭
 display: 吴王余祭
-profile: brief
+profile: full
 gender: male
 polity:
   - wu-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -531
 deathAccuracy: approx
 deathNote: 史记·吴太伯世家「十七年，王餘祭卒」，自诸樊卒前548顺推得前531；春秋经·襄公二十九年「閽殺吳子餘祭」作前544。两说并存，试跑名单从史记取前531，作约年。
+title: 吴王，阍人所杀
 sources:
   - work: 史记
     part: 吴太伯世家
@@ -18,3 +19,5 @@ sources:
     part: 襄公二十九年
     kind: classic
 ---
+
+吴王余祭，寿梦之子，诸樊之弟。诸樊欲传国以次，必致季札，故余祭嗣立。齐庆封有罪自齐来奔，予以朱方之县以为奉邑，以女妻之。后为阍人所杀。

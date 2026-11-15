@@ -2,7 +2,7 @@
 id: xu-xuan
 name: 徐铉
 display: 徐铉
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 991
 deathAccuracy: approx
 deathNote: 此年为可见活动年（任官年），非卒年、非寿数。淳化二年，庐州女僧道安诬铉奸私事，铉贬静难行军司马（raw/宋/宋史/卷441.md:66）。本传其后「书讫而卒，年七十六」，无卒年。
+title: 南唐入宋的文字学家
 sources:
   - work: 宋史
     part: 文苑三
     kind: classic
 ---
+
+字鼎臣，扬州广陵人。十岁能文，与韩熙载齐名，江东谓之「韩、徐」。仕南唐，历尚书右丞、翰林学士。宋师围金陵，入京，太祖责之，对曰「臣为江南大臣，国亡罪当死」，太祖叹为忠臣。精小学，受诏校《说文》。卒，年七十六。

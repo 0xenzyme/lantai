@@ -2,7 +2,7 @@
 id: wang-jun-yun
 name: 王筠
 display: 王筠
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 王筠传
     kind: classic
 ---
+
+琅邪临沂人，七叶文宗之后。幼警悟，七岁能属文。梁武帝时出入宫省，为太宗所重，与诸文士唱和。平生手不释卷，藏书既富，诵览精熟。太清二年侯景乱作，盗夜攻其居，惊惧坠井卒，年六十九。

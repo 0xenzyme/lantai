@@ -2,13 +2,14 @@
 id: lu-huaishen
 name: 卢怀慎
 display: 卢怀慎
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 716
 deathAccuracy: exact
+title: 开元宰相，人称伴食宰相
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -17,3 +18,5 @@ sources:
     part: 卷8·本纪第八 玄宗上
     kind: classic
 ---
+
+卢怀慎，滑州灵昌人。少清谨，举进士，历监察御史、吏部员外郎。景龙中迁右御史台中丞，疏陈时政得失。开元初，与姚崇对掌枢密，自以吏道不及，每事推让，时人谓之「伴食宰相」。迁黄门监，兼吏部尚书。以疾卒，赠荆州大都督，谥曰文成。

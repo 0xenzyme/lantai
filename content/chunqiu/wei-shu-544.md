@@ -2,7 +2,7 @@
 id: wei-shu-544
 name: 魏舒
 display: 魏献子
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -544
 deathAccuracy: approx
 deathNote: 卒年不详，取前544年为活动下限（非寿数）。史记·晋世家平公十四年「與趙文子、韓宣子、魏獻子語」（raw/先秦-西汉/史記/卷039-晉世家.md:278）。平公卒年前532，十四年为前544，即襄公二十九年季札来聘。
+title: 晋正卿，魏氏始大
 sources:
   - work: 史记
     part: 晋世家
     kind: classic
 ---
+
+晋魏献子舒，魏庄子之子。吴季札来聘，见赵文子、韩宣子、献子，曰：「晋国之政，卒归于三者。」后韩宣子卒，献子为政，分祁氏之田以为七县，分羊舌氏之田以为三县。

@@ -2,7 +2,7 @@
 id: tan-zhonglin
 name: 谭钟麟
 display: 谭钟麟
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1897
 deathAccuracy: approx
 deathNote: 生卒无考于本库。清史稿卷137作光绪二十三年（1897）谭钟麟以边境绵长、仅恃营汛为虑；今以该任官年为活动下限系年，非寿数。raw/清/清史稿/卷137.md:84
+title: 历督陕甘闽浙两广
 sources:
   - work: 清史稿
     part: 卷137·志一百十二·兵八
     kind: classic
 ---
+
+光绪中历督陕甘、闽浙、两广。督陕甘最久，佐理西陲军务；及总督两广，以广西边境绵长，筑沿边炮台、设防营。为晚清资深疆臣。

@@ -2,7 +2,7 @@
 id: xiao-jing-cheng
 name: 孝静成皇后
 display: 孝静成皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - qing
@@ -12,8 +12,11 @@ birthNote: 清史稿卷214载咸丰五年（1855）崩，「年四十四」；�
 death: 1855
 deathAccuracy: approx
 deathNote: 清史稿卷214作咸丰五年七月尊为康慈皇太后，「越九日庚午，崩，年四十四」；月日属干支纪日、年岁为虚岁，故系年标 approx。raw/清/清史稿/卷214.md:390
+title: 咸丰朝康慈皇太后
 sources:
   - work: 清史稿
     part: 卷214·孝静成皇后传
     kind: classic
 ---
+
+博尔济吉特氏，刑部员外郎花良阿女。事宣宗为静贵人，累进静皇贵妃。孝全皇后崩，文宗方十岁，抚育有恩。文宗即位，尊为皇考康慈皇贵太妃。咸丰五年七月病笃，尊为康慈皇太后，越九日庚午崩，年四十四。不系宣宗谥，葬慕东陵。子奕訢。

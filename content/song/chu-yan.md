@@ -2,7 +2,7 @@
 id: chu-yan
 name: 楚衍
 display: 楚衍
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1023
 deathAccuracy: approx
 deathNote: 此年为可见活动年（任官年），非卒年、非寿数。天圣初造新历，授灵台郎（raw/宋/宋史/卷462.md:30）。本传「卒，无子」，无卒年。天圣初系元年。
+title: 北宋造崇天历的历官
 sources:
   - work: 宋史
     part: 方技下
     kind: classic
 ---
+
+开封阼城人。少通四声字母，里人以先生目之。精《九章》诸算经，善推步星历。天圣初与宋行古等九人制崇天历，皇祐中同造《司辰星漏历》。卒无子，有女亦善算术。

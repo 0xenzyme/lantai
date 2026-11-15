@@ -2,7 +2,7 @@
 id: xiao-kang-zhang
 name: 孝康章皇后
 display: 孝康章皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - qing
@@ -12,8 +12,11 @@ birthNote: 清史稿卷214载康熙二年（1663）二月庚戌崩，「年二�
 death: 1663
 deathAccuracy: approx
 deathNote: 清史稿卷214作「康熙二年二月庚戌，崩，年二十四」；康熙二年即 1663，年岁为虚岁、月日属干支纪日，故系年标 approx。raw/清/清史稿/卷214.md:184
+title: 顺治帝妃，康熙帝生母
 sources:
   - work: 清史稿
     part: 卷214·孝康章皇后传
     kind: classic
 ---
+
+佟佳氏，固山额真佟图赖女。初为世祖妃。顺治十一年春，衣裾有光若龙绕，知有妊，三月戊申生圣祖。圣祖即位，尊为皇太后。康熙二年二月庚戌崩，年二十四。初谥慈和，累谥孝康慈和庄懿恭惠温穆端靖崇天育圣章皇后。

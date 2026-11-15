@@ -2,7 +2,7 @@
 id: kong-ning
 name: 孔宁
 display: 孔宁
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -600
 deathAccuracy: approx
 deathNote: 卒年不详，取前600年为活动下限（非寿数）。依据春秋左传正义·宣公九年「陳靈公與孔寧、儀行父通於夏姬」（raw/春秋/春秋左傳正義/卷22.md:170）。
+title: 陈卿，与灵公同淫
 sources:
   - work: 春秋左传正义
     part: 宣公九年
     kind: classic
 ---
+
+陈卿。与仪行父同通于夏姬，与灵公衷其衵服以戏于朝。泄冶谏，二子请杀之。灵公为征舒所杀，宁出奔楚。

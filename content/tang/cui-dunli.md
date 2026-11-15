@@ -2,13 +2,14 @@
 id: cui-dunli
 name: 崔敦礼
 display: 崔敦礼
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 656
 deathAccuracy: exact
+title: 唐初宰相，持节抚回纥
 sources:
   - work: 旧唐书
     part: 卷4·本纪第四 高宗上
@@ -17,3 +18,5 @@ sources:
     part: 卷61·表第一 宰相上
     kind: classic
 ---
+
+雍州咸阳人，隋礼部尚书仲方之孙。贞观中为中书舍人、兵部侍郎，频使突厥。历灵州都督，奉诏安抚回纥、铁勒，因立其嗣子而还。永徽四年代高季辅为侍中，累迁中书令，封固安县公。以老疾乞退，拜太子少师，卒，谥曰昭。

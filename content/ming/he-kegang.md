@@ -2,7 +2,7 @@
 id: he-kegang
 name: 何可纲
 display: 何可纲
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1631
 deathAccuracy: approx
 deathNote: 本传作「四年築城大淩河，命可綱偕大壽護版築」`raw/明/明史/卷271.md:101`；卒于大凌河之败（崇祯四年，1631），此系近似。
+title: 大凌河殉国的宁远副将
 sources:
   - work: 明史
     part: 卷271·何可纲传
     kind: classic
 ---
+
+辽东人。天启中以守备典袁崇焕宁远道中军，廉勇善抚士卒，宁远之围有功。崇祯四年筑城大凌河，偕祖大寿护版筑。八月大清以十万众来攻，坚守不下，粮尽援绝。大寿及诸将皆欲降，独可纲不从，掖出城外杀之，含笑而死。

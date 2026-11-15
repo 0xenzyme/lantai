@@ -2,7 +2,7 @@
 id: wang-jingze
 name: 王敬则
 display: 王敬则
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 498
 deathAccuracy: exact
 deathNote: 永泰元年起兵，明帝疾笃时被斩。永泰元年当 498。时年七十余，不是确定享年，不上推生年。据「興盛軍容袁文曠斬之，傳首…時年七十餘」raw/南朝/南齊書/卷26.md:74
+title: 南齐宿将，会稽起兵败死
 sources:
   - work: 南齐书
     part: 卷026·王敬则传
     kind: classic
 ---
+
+晋陵南沙人，母为女巫。少善拍张，补刀戟左右，与寿寂之同毙前废帝。泰始中随刘怀珍征寿春，以千人绕后，贼众惊退。齐兴，预闻末议，位至开府。永泰元年，会稽起兵，百姓担篙荷锸从之者十余万，数日而败，为袁文旷所斩，时年七十余。

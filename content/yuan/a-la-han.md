@@ -2,15 +2,18 @@
 id: a-la-han
 name: 阿剌罕
 display: 阿剌罕
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1281
 deathAccuracy: exact
+title: 灭宋名将，卒于征日军中
 sources:
   - work: 元史
     part: 阿剌罕传
     kind: classic
 ---
+
+札剌儿氏，祖拨彻、父也柳干皆死王事。己未，从世祖渡江。中统三年，破李璮于老仓口。至元十二年，从伯颜南伐，出独松关，败宋军。十三年，江南平，行江东宣慰使。十八年，拜中书左丞相，统蒙古军四十万征日本，卒于军中。

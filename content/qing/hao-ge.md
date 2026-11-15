@@ -2,7 +2,7 @@
 id: hao-ge
 name: 豪格
 display: 豪格
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -14,6 +14,7 @@ birthAccuracy: unknown
 death: 1648
 deathAccuracy: exact
 deathNote: 清史稿·卷219·肃武亲王豪格传：顺治五年二月师还，睿亲王多尔袞与豪格有夙隙，系豪格于狱，三月薨（幽死）。卷4·世祖本纪：五年三月辛丑，和硕肃亲王豪格有罪论死，上不忍置法，幽系之。八年顺治亲政后雪其枉，追谥武肃。太宗第一子，靖远大将军，平四川、射杀张献忠。
+title: 清初肃亲王
 aliases:
   - 肃亲王
   - 武肃亲王
@@ -25,3 +26,5 @@ sources:
     part: 卷4·世祖本纪
     kind: classic
 ---
+
+太宗第一子，封和硕肃亲王。顺治三年为靖远大将军入四川，射杀张献忠。五年师还，睿亲王多尔衮与有夙隙，系于狱，三月薨。八年顺治亲政，雪其枉，追谥武肃。

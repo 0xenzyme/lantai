@@ -2,7 +2,7 @@
 id: gongzhi-qi
 name: 宫之奇
 display: 宫之奇
-profile: brief
+profile: full
 gender: male
 polity:
   - yu-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -658
 deathAccuracy: approx
 deathNote: 卒年不详，取前658年为活动下限（非寿数）。依据春秋左传正义·僖公二年「宮之奇之為人也，懦而不能強諫」（raw/春秋/春秋左傳正義/卷11.md:106）。
+title: 虞大夫，谏假道
 sources:
   - work: 春秋左传正义
     part: 僖公二年
     kind: classic
 ---
+
+虞大夫宫之奇。晋献公求假道于虞以伐虢，公许之。奇谏曰唇亡齿寒，虞之与虢，车之辅车；又言鬼神不歆非类。公不听，虞随虢亡。

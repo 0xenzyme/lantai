@@ -2,7 +2,7 @@
 id: yuchi-jiong
 name: 尉迟迥
 display: 尉迟迥
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -25,3 +25,5 @@ sources:
     part: 尉迟迥传
     kind: classic
 ---
+
+字薄居罗，代人，尉迟部之裔。少聪敏，美容仪，好施爱士。尚魏文帝女金明公主。从太祖复弘农、破沙苑。魏废帝二年，督六军伐蜀，自散关出，剑阁以降，遂平蜀。大象二年，杨坚擅权，迥举兵讨之，屯邺。韦孝宽为行军总管拒之，迥败，上楼射杀数人，乃自杀。

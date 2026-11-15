@@ -2,7 +2,7 @@
 id: wang-anjie
 name: 王安节
 display: 王安节
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1275
 deathAccuracy: approx
 deathNote: 卒年本傳未繫年月；事在德祐元年（1275）賈似道潰師蕪湖、列城皆降之後，守常州城破被殺（raw/宋/宋史/卷450.md:52）；台账作 approx。
+title: 王坚之子，守常州死节
 sources:
   - work: 宋史
     part: 忠义五·王安节传
     kind: classic
 ---
+
+节度使坚之子也。少从父守合州有功。德祐初，贾似道溃师芜湖，列城皆降，安节走临安，乞募兵捍御。收兵入平江，合张世杰战凤凰港，有功。刘师勇复常州，以安节与张詹守之。元丞相伯颜自将攻围，屡招降不下；城破，挥双刀巷战，被执，不屈死。

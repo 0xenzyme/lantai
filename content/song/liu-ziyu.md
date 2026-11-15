@@ -2,15 +2,18 @@
 id: liu-ziyu
 name: 刘子羽
 display: 刘子羽
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1146
 deathAccuracy: exact
+title: 保全蜀，张浚川陕参议
 sources:
   - work: 宋史
     part: 刘子羽传
     kind: classic
 ---
+
+字彦修，建之崇安人，资政殿学士韐之长子。从父守真定，金人不能拔。建炎三年，与张浚密谋诛范琼，顷刻而定。浚宣抚川、陕，辟参议军事；富平既衄，独请坚守兴州，复单骑召诸亡将，使吴玠栅和尚原、守大散关。全蜀之完，子羽之力居多。

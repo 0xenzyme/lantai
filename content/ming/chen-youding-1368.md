@@ -2,7 +2,7 @@
 id: chen-youding-1368
 name: 陈友定
 display: 陈友定
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 1368
 deathAccuracy: approx
 deathNote: 吴祯传作「洪武元年，進兵破延平，擒陳友定」`raw/明/明史/卷131.md:28`。地理志作「太祖吳元年十二月平陳友定」`raw/明/明史/卷45.md:19`。本传记仰药后械送京师并杀`raw/明/明史/卷124.md:47`，不另系年。岁末岁初两说，卒年记洪武元年（1368），此系近似。
+title: 元末据闽的殉节之臣
 sources:
   - work: 明史
     part: 卷131·吴祯传
@@ -18,3 +19,5 @@ sources:
     part: 卷124·陈友定传
     kind: classic
 ---
+
+一名有定，字安国，福清人，徙居清流。以农家子起佣伍，讨平山寨，官至福建行省平章，尽有八郡之地。事元未尝失臣节，岁输粟数十万石。太祖既定江南，发兵伐之。延平破，仰药复苏，械送京师，不屈死，时称闽有三忠。

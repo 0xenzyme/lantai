@@ -2,7 +2,7 @@
 id: wang-huanghou-muzong
 name: 穆宗恭僖皇后王氏
 display: 穆宗恭僖皇后王氏
-profile: brief
+profile: full
 gender: female
 polity:
   - tang
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 845
 deathAccuracy: approx
 deathNote: 会昌五年（845）崩；「会昌五年崩，有司上谥，葬光陵东园」，元和四年生敬宗。 — raw/唐/新唐書/卷077.md:89
+title: 穆宗妃，敬宗生母
 sources:
   - work: 旧唐书
     part: 卷52·后妃下
@@ -18,3 +19,5 @@ sources:
     part: 卷77·后妃下
     kind: classic
 ---
+
+穆宗恭僖皇后王氏，越人，父绍卿为婺州金华令。少入太子宫，元和四年生敬宗。穆宗立，进为妃。长庆四年二月，尊为皇太后。敬宗遇害，文宗即位，号宝历太后；大和八年，以居义安殿，称义安太后。会昌五年崩，上谥恭僖，葬光陵东园。

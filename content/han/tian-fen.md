@@ -2,7 +2,7 @@
 id: tian-fen
 name: 田蚡
 display: 武安侯田蚡
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -131
 deathAccuracy: disputed
 deathNote: 异说：《汉书·窦田灌韩传》「元光四年春，蚡言灌夫家在潁川」系于元光四年（前131），同篇又作「春，蚡疾……竟死」。卒年有前131、前130两说，今取前131，并存异说。（原文：raw/西汉/漢書/卷052-竇田灌韓傳.md:59,73）
+title: 武帝舅，为相而骄横
 sources:
   - work: 汉书
     part: 窦田灌韩传·卷052
     kind: classic
 ---
+
+田蚡，孝景王皇后同母弟也。武帝即位，以舅封武安侯。建元二年，与窦婴俱好儒术，迎鲁申公，欲设明堂，窦太后不悦，皆免。元光六年，太后崩，代许昌为丞相。蚡生贵甚，治宅甲诸第，权移主上。后与窦婴、灌夫相倾，灌夫、婴皆坐诛。未几，蚡疾，竟死。

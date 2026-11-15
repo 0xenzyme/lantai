@@ -2,15 +2,18 @@
 id: gao-qiong
 name: 高琼
 display: 高琼
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1006
 deathAccuracy: exact
+title: 促驾幸澶渊的宿将
 sources:
   - work: 宋史
     part: 高瓊传
     kind: classic
 ---
+
+家世燕人，落籍亳州蒙城。太宗尹京，召置帐下。咸平中代傅潜统兵御契丹。景德中契丹入寇，或劝真宗南还，琼曰「敌师已老，陛下宜亲往，以督其成」，驾即日幸澶渊。卒年七十二，赠侍中。

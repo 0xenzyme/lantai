@@ -2,7 +2,7 @@
 id: hu-mao
 name: 狐毛
 display: 狐毛
-profile: brief
+profile: full
 gender: male
 polity:
   - jin-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -637
 deathAccuracy: approx
 deathNote: 生卒不详，取前637年为活动下限（非寿数）。据今本竹书纪年·晋纪「狐毛與先軫禦秦」（raw/先秦/今本竹書紀年/晉紀.md:192），该年即周襄王十五年。
+title: 晋卿，城濮将上军
 sources:
   - work: 今本竹书纪年
     part: 晋纪
     kind: classic
 ---
+
+晋卿，狐偃之兄。城濮之战，与偃将上军，大破楚师，晋文公由此称伯。后卒，先且居代将其军。

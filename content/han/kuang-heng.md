@@ -2,7 +2,7 @@
 id: kuang-heng
 name: 匡衡
 display: 匡衡
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -30
 deathAccuracy: approx
 deathNote: 建昭三年（前36）代韦玄成为丞相，建始三年（前30）「衡竟坐免」；以免相之年为活动下限，非寿数，卒年无确载。见《汉书·匡张孔马传》。（原文：raw/西汉/漢書/卷081-匡張孔馬傳.md:45,63）
+title: 说诗解人颐，丞相坐免
 sources:
   - work: 汉书
     part: 匡张孔马传·卷081
     kind: classic
 ---
+
+匡衡字稚圭，东海承人。家贫，庸作以供资用。诸儒语曰「无说《诗》，匡鼎来；匡语《诗》，解人颐」。射策甲科，调补平原文学，萧望之奏其经学精习。数上疏陈便宜，由是为光禄勋、御史大夫。建昭三年代韦玄成为丞相，封乐安侯。坐专地盗土，免为庶人。

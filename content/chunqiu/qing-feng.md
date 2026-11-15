@@ -2,7 +2,7 @@
 id: qing-feng
 name: 庆封
 display: 庆封
-profile: brief
+profile: full
 gender: male
 polity:
   - qi
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -538
 deathAccuracy: exact
 deathNote: 左传·昭公四年（前538）楚灵王伐吴克朱方，执庆封，灭其族。奔吴之前为齐相。
+title: 齐相，灭族于楚
 sources:
   - work: 春秋左传
     part: 昭公四年
@@ -18,3 +19,5 @@ sources:
     part: 齐太公世家
     kind: classic
 ---
+
+齐大夫，崔杼之党。崔杼既死，庆封当国，自为相。当国而淫，为田氏、鲍氏、高氏所逐，奔吴居于朱方。楚灵王克朱方，执庆封而灭其族。

@@ -2,7 +2,7 @@
 id: zi-er
 name: 子耳
 display: 子耳
-profile: brief
+profile: full
 gender: male
 polity:
   - zheng
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -563
 deathAccuracy: exact
 deathNote: 春秋左传正义·襄公十年（前563）「殺子駟、子國、子耳」（raw/春秋/春秋左傳正義/卷31.md:130）。
+title: 郑司空，同死于乱
 sources:
   - work: 春秋左传正义
     part: 襄公十年
     kind: classic
 ---
+
+郑卿，时为司空。襄公十年，子驷当国，子国为司马，子耳为司空，子孔为司徒。尉止与五族作乱，冬十月戊辰，帅贼攻执政于西宫之朝，子耳与子驷、子国同日见杀，劫郑伯以如北宫。经书曰「盗」，言无大夫焉，以贼皆士也。

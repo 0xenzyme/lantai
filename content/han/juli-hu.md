@@ -2,7 +2,7 @@
 id: juli-hu
 name: 句黎湖单于
 display: 句黎湖单于
-profile: brief
+profile: full
 gender: male
 polity:
   - xiongnu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -101
 deathAccuracy: approx
 deathNote: 据《汉书·匈奴传上》「句黎湖單于立一歲死」：儿单于死于太初三年（前102），句黎湖继立一岁死，推得约前101；原文未记确年，作 approx。（原文：raw/西汉/漢書/卷094上-匈奴傳.md:138）
+title: 儿单于死，季父立一岁
 sources:
   - work: 汉书
     part: 匈奴传上·卷094上
     kind: classic
 ---
+
+句黎湖单于，乌维单于之弟，本为右贤王。儿单于立三岁而死，子少，匈奴乃立句黎湖为单于，是岁太初三年。汉筑城障列亭至卢朐。其秋，匈奴大入云中、定襄、五原、朔方，行坏所筑亭障。闻贰师将军破大宛还，欲遮之，不敢，其冬病死。立一岁死，弟且鞮侯立。

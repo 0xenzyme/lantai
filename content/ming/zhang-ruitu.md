@@ -2,7 +2,7 @@
 id: zhang-ruitu
 name: 张瑞图
 display: 张瑞图
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+晋江人。万历三十五年进士，殿试第三，与施凤来同授编修，同以礼部尚书入阁。会试策谓「古之用人者，初不设君子小人之名，分别起于仲尼」，其悖妄如此。忠贤生祠碑文，多其手书。庄烈帝即位，监生胡焕猷劾瑞图「身居揆席，漫无主持」，坐书碑赎徒为民。

@@ -2,7 +2,7 @@
 id: yang-xiu-618
 name: 杨秀
 display: 庶人杨秀
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: 618
 deathAccuracy: approx
 deathNote: 文帝第四子，封蜀王，仁寿二年坐废为庶人，禁锢如初。传文：「宇文化及之弑逆也，欲立秀为帝，群议不许，于是害之，并其诸子」（隋书·文四子传·庶人秀）。卒年系江都弑逆事件，义宁二年三月而非当日，作约略。
+title: 蜀王，废为庶人而遇害
 tags:
   - 隋
 aliases:
@@ -26,3 +27,5 @@ sources:
     part: 唐纪一
     kind: classic
 ---
+
+高祖第四子也。开皇初立为越王，徙封蜀，镇益州。有胆气，美须髯，朝臣甚惮之。及太子勇废，意不平，太子广阴令杨素求其罪。仁寿二年，废为庶人，幽内侍省，不得与妻子相见。炀帝即位，禁锢如初。宇文化及弑逆，欲立为帝，群议不许，遂害之，并其诸子。

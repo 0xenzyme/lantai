@@ -2,7 +2,7 @@
 id: gu-bingqian
 name: 顾秉谦
 display: 顾秉谦
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+昆山人。万历二十三年进士，累官礼部尚书。天启二年魏忠贤用事，率先谄附。明年春以礼部尚书兼东阁大学士入阁，一意曲奉，若奴役然。后为首辅，晋少师。崇祯二年昆山民变，焚掠其家，仓皇窜渔舟得免，寄居他县以死。

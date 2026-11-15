@@ -2,7 +2,7 @@
 id: yu-xin
 name: 庾信
 display: 庾信
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 庾信传
     kind: classic
 ---
+
+字子山，南阳新野人，父肩吾梁散骑常侍、中书令。幼俊迈，博览群书。与徐摛子陵并为东宫抄撰学士，文并绮艳，世号徐庾体。侯景之乱，率宫中文武千余人营于朱雀航。元帝时聘于西魏，遂留长安。作《哀江南赋》以寄乡关之思。隋开皇元年卒，年六十九。

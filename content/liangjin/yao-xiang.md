@@ -2,13 +2,14 @@
 id: yao-xiang
 name: 姚襄
 display: 姚襄
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
 birthAccuracy: unknown
 death: 357
 deathAccuracy: exact
+title: 羌酋姚襄，三原战死
 sources:
   - work: 晋书
     part: 卷116·载记·姚襄
@@ -17,3 +18,5 @@ sources:
     part: 卷008·穆帝纪
     kind: classic
 ---
+
+字景国，羌酋姚弋仲第五子。年十七，身长八尺五寸，雄武多才艺，明察善抚纳，士众爱敬之。弋仲死，率户六万南攻阳平。殷浩惮其威名，屡遣刺客、魏憬袭之，襄斩憬并其众。要击浩于山桑，大败之。后西图关中，战于三原，为苻坚所杀，年二十七。

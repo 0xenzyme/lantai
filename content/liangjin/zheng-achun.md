@@ -2,15 +2,18 @@
 id: zheng-achun
 name: 郑阿春
 display: 郑阿春
-profile: brief
+profile: full
 gender: female
 polity:
   - jin
 birthAccuracy: unknown
 death: 326
 deathAccuracy: exact
+title: 晋简文帝之母，郑太后
 sources:
   - work: 晋书
     part: 卷032·简文宣郑太后
     kind: classic
 ---
+
+河南荥阳人，世为冠族。少孤，先适渤海田氏，生一男而寡，依于舅濮阳吴氏。元帝为丞相，纳为琅邪王夫人，甚有宠，生琅邪悼王、简文帝。及简文帝即位，未及追尊。太元十九年，孝武帝上尊号曰简文太后，陵曰嘉平。

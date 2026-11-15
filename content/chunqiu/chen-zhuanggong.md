@@ -2,7 +2,7 @@
 id: chen-zhuanggong
 name: 媯林
 display: 陈庄公
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -694
 deathAccuracy: approx
 deathNote: 史记·陈杞世家「莊公七年卒，少弟杵臼立」。据宣公卒前648（经·僖公十二年）上推得前694—前693，试跑名单取前694，作约年。
+title: 陈侯，在位七年卒
 sources:
   - work: 史记
     part: 陈杞世家
@@ -18,3 +19,5 @@ sources:
     part: 僖公十二年
     kind: classic
 ---
+
+陈庄公，名林。在位七年卒，少弟杵臼立，是为宣公。当齐桓公霸诸侯，陈北与鲁、宋睦，内则公族相争，国是以不竞。

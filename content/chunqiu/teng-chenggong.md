@@ -2,7 +2,7 @@
 id: teng-chenggong
 name: 滕成公
 display: 滕成公
-profile: brief
+profile: full
 gender: male
 polity:
   - teng-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -539
 deathAccuracy: exact
 deathNote: 春秋左传·昭公三年（前539）「五月，葬滕成公」（raw/春秋/春秋左傳正義/卷42.md:81）。同卷昭公三年经：「三年，春，王正月，丁未，滕子原卒」（raw/春秋/春秋左传正义/卷42.md:76），五月葬滕成公。卒、葬同在昭公三年，取前539。台账只引葬文。
+title: 滕君，卒葬同年
 sources:
   - work: 春秋左传
     part: 昭公三年
     kind: classic
 ---
+
+滕君，名原。昭公三年春卒，五月葬。滕介于齐、鲁、宋之间，为小国，事大以礼，故得自存。

@@ -2,15 +2,18 @@
 id: sun-lu
 name: 孙虑
 display: 建昌侯孙虑
-profile: brief
+profile: full
 gender: male
 polity:
   - wu
 birthAccuracy: unknown
 death: 232
 deathAccuracy: exact
+title: 孙权之子，封建昌侯
 sources:
   - work: 三国志
     part: 吴书二 吴主传
     kind: classic
 ---
+
+孙虑字子智，登弟也。少敏惠有才艺，权器爱之。黄武七年，封建昌侯。丞相雍等奏其性聪体达，宜进爵称王，权未许；久之，尚书仆射存复上疏，权乃许之，假节开府，使治半州。虑以皇子之尊而富于春秋，及至临事，遵奉法度，敬纳师友，过于众望。年二十，嘉禾元年卒，无子，国除。

@@ -2,7 +2,7 @@
 id: yang-da
 name: 杨达
 display: 杨达
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -14,6 +14,7 @@ birthNote: 卒于师时年六十二，自卒年逆推；卒年系辽东之役，
 death: 612
 deathAccuracy: approx
 deathNote: 大业八年辽东之役，领右武卫将军，进位左光禄大夫，卒于师，时年六十二（隋书·观德王雄传附弟达）。传文系于辽东之役而不书年号月日，作约略。
+title: 弘厚宰相，卒于辽东
 tags:
   - 隋
 aliases:
@@ -23,3 +24,5 @@ sources:
     part: 观德王雄传附弟达
     kind: classic
 ---
+
+字士达，观德王雄之弟也。少聪敏，有学行。隋受禅，历给事黄门侍郎、吏部侍郎，出为鄯、郑、赵三州刺史，有能名；平陈之后，品天下牧宰为第一，擢工部尚书。杨素曰「唯杨达有君子之貌，兼君子之心」。辽东之役，领右武卫将军，卒于师，年六十二，谥曰恭。

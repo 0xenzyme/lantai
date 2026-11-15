@@ -2,7 +2,7 @@
 id: zi-lu
 name: 仲由
 display: 子路
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -480
 deathAccuracy: exact
 deathNote: 左传·哀公十五年（前480）卫孔悝之难，子路结缨而死；史记·仲尼弟子列传同载。孔子卒前一年的条目。
+title: 孔门政事，结缨死
 sources:
   - work: 春秋左传
     part: 哀公十五年
@@ -18,3 +19,5 @@ sources:
     part: 仲尼弟子列传
     kind: classic
 ---
+
+仲由，字子路，卞人，少孔子九岁，列政事之科。好勇力，冠雄鸡，佩豭豚；后儒服委质，因门人请为弟子。为卫大夫孔悝之邑宰。蒯聩与孔悝作乱，子路驰入，曰「食其食者不避其难」；缨绝，曰「君子死而冠不免」，遂结缨而死。

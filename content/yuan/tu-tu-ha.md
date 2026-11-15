@@ -2,15 +2,18 @@
 id: tu-tu-ha
 name: 土土哈
 display: 土土哈
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1297
 deathAccuracy: exact
+title: 钦察名将，镇御北边
 sources:
   - work: 元史
     part: 土土哈传
     kind: classic
 ---
+
+其先本钦察国主。中统元年，父子从世祖北征。至元十四年，败叛王脱脱木、失烈吉，邀诸部以还，寻复败之，夺回祖宗所御大帐。又从讨乃颜，败也不干。大德元年，拜同知枢密院事，二月卒于宣德，年六十一，谥武毅，追封延国公。

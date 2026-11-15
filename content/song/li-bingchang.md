@@ -2,7 +2,7 @@
 id: li-bingchang
 name: 李秉常
 display: 李秉常
-profile: brief
+profile: full
 gender: male
 polity:
   - xixia
@@ -10,8 +10,11 @@ birth: 1061
 birthAccuracy: exact
 death: 1086
 deathAccuracy: exact
+title: 西夏惠宗，梁太后摄政
 sources:
   - work: 宋史
     part: 外国二·夏国下
     kind: classic
 ---
+
+夏毅宗之子，母梁太后。七岁即位，梁氏摄政。熙宁中，宋五路大举征夏，灵州、永乐之役，宋师无功。元祐元年殂，年二十六，谥康靖，庙号惠宗，子乾顺立。

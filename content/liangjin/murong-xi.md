@@ -2,7 +2,7 @@
 id: murong-xi
 name: 慕容熙
 display: 慕容熙
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 载记称「時年二十三，在位六年」（raw/晋/晉書/卷124.md:93），以卒年虚岁上推生年。
 death: 407
 deathAccuracy: exact
+title: 后燕主，宠苻氏而亡
 sources:
   - work: 晋书
     part: 载记第二十四·慕容熙
     kind: classic
 ---
+
+字道文，垂之少子。盛死，太后丁氏以国多难宜立长君，迎熙入宫，遂僭即尊位。宠苻氏二女，游田无度，登白鹿山，临沧海，士卒冻死者五千余；苻后死，校哭者以泪为忠孝。冯跋等闭门作难，熙攻龙城不克，微服匿林中，为人所执，慕容云得而弑之，时年二十三。

@@ -2,13 +2,14 @@
 id: zhang-gui-qianliang
 name: 张轨
 display: 张轨
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
 birthAccuracy: unknown
 death: 314
 deathAccuracy: exact
+title: 前凉武王，开基于河西
 sources:
   - work: 资治通鉴
     part: 卷089·晋纪十一·建兴二年
@@ -17,3 +18,5 @@ sources:
     part: 卷086·张轨
     kind: classic
 ---
+
+字士彦，安定乌氏人，汉常山景王十七代孙。家世儒学，隐于宜阳女几山。永宁初出为护羌校尉、凉州刺史，讨破鲜卑，威著西州。征九郡胄子立学校，始置崇文祭酒。中州避难来者日月相继。在州十三年，遗令素棺薄葬，卒年六十，谥武公。

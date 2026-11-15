@@ -2,15 +2,18 @@
 id: luo-chuyue
 name: 罗处约
 display: 罗处约
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 992
 deathAccuracy: exact
+title: 与王禹偁唱酬，直史馆
 sources:
   - work: 宋史
     part: 文苑二
     kind: classic
 ---
+
+字思纯，益州华阳人，唐酷吏希奭之裔孙。尝作《黄老先六经论》，谓道与《六经》一也，人多重之。知吴县，与王禹偁日以诗什唱酬，苏、杭间多传诵。后并召赴阙，皆直史馆，赐绯鱼。会诏求谠言，奏请复尚书都省故事。淳化三年卒，年三十三。

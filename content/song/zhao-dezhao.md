@@ -2,15 +2,18 @@
 id: zhao-dezhao
 name: 赵德昭
 display: 赵德昭
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 979
 deathAccuracy: exact
+title: 太祖次子燕懿王
 sources:
   - work: 宋史
     part: 宗室一
     kind: classic
 ---
+
+字日新，太祖次子，母贺皇后。终太祖之世，竟不封王爵；太平兴国元年，始封武功郡王。四年，从征幽州，军中或谋立德昭，太宗闻之不悦。及归，德昭请太原之赏，帝怒曰「待汝自为之」，退而自刎。后追封越王。

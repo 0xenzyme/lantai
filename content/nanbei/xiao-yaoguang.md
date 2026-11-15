@@ -2,7 +2,7 @@
 id: xiao-yaoguang
 name: 萧遥光
 display: 萧遥光
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -29,3 +29,5 @@ sources:
     part: 始安王遥光传
     kind: classic
 ---
+
+齐明帝之侄，封始安王。高宗临终，与萧坦之等并受遗诏辅政。东昏侯立，遥光自以年长，有异望，遂据东府反。事出仓卒，应者数千，然军不素练，旦日而败。军人排阁入，于暗中牵出斩首，年三十二。

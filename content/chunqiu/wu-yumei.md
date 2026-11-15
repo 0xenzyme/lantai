@@ -2,7 +2,7 @@
 id: wu-yumei
 name: 吴余眛
 display: 吴王余眛
-profile: brief
+profile: full
 gender: male
 polity:
   - wu-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -527
 deathAccuracy: exact
 deathNote: 史记·吴太伯世家「四年，王餘眛卒」；春秋经·昭公十五年「吳子夷未卒」。两系同为前527。
+title: 吴王，欲授季札
 sources:
   - work: 史记
     part: 吴太伯世家
@@ -18,3 +19,5 @@ sources:
     part: 昭公十五年
     kind: classic
 ---
+
+吴王余眛，余祭之弟。嗣立四年，欲授弟季札，季札让，逃去。吴人曰「先王有命，兄卒弟代立，必致季子」，乃立余眛之子僚为王。春秋经书「吴子夷未卒」。

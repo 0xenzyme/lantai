@@ -2,7 +2,7 @@
 id: wei-huigong
 name: 姬朔
 display: 卫惠公
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -669
 deathAccuracy: exact
 deathNote: 史记·卫康叔世家「三十一年，惠公卒，子懿公赤立」。宣公卒前700，惠公立前699，三十一年得前669。
+title: 卫君，亡而复入
 sources:
   - work: 史记
     part: 卫康叔世家
     kind: classic
 ---
+
+卫惠公朔，宣公之子。左右公子怨其谗杀太子伋而代立，作乱攻之，立黔牟，惠公奔齐。齐襄公率诸侯奉王命共伐卫，纳惠公，诛左右公子。惠公立三十一年卒，子懿公赤立。

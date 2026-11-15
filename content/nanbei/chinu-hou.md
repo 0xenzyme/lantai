@@ -2,7 +2,7 @@
 id: chinu-hou
 name: 叱奴氏（文宣叱奴皇后）
 display: 叱奴氏（文宣叱奴皇后）
-profile: brief
+profile: full
 gender: female
 polity:
   - beizhou
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 574
 deathAccuracy: exact
 deathNote: 建德三年三月癸酉崩。建德三年当 574。据「癸酉，皇太后叱奴氏崩」raw/北朝/周書/卷05.md:318
+title: 周武帝生母，谥宣皇后
 sources:
   - work: 周书
     part: 卷005·武帝纪
@@ -18,3 +19,5 @@ sources:
     part: 卷009·皇后
     kind: classic
 ---
+
+代人。周文帝宇文泰为丞相时纳为姬，生武帝邕。天和二年六月，尊为皇太后。建德三年三月癸酉崩，四月葬永固陵。

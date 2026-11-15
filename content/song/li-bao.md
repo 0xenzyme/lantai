@@ -2,7 +2,7 @@
 id: li-bao
 name: 李宝
 display: 李宝
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1161
 deathAccuracy: approx
 deathNote: 《宋史·卷32》載紹興三十一年（1161）十月丙寅「李寶遇金舟師於膠西縣陳家島，大敗之」（raw/宋/宋史/卷032.md:36）；以該年為活動錨點，非壽數。
+title: 胶西破金舟师的海将
 sources:
   - work: 宋史
     part: 高宗本纪九
     kind: classic
 ---
+
+河北人。尝陷金，脱身从海道归。金主亮渝盟，授浙西路马步军副总管，督海舟御之。绍兴三十一年，遇金舟师于胶西陈家岛，祷神得顺风，火箭环射，延烧数百艘，斩完颜郑家奴等。高宗书「忠勇李宝」四字表其旗。卒赠检校少保。

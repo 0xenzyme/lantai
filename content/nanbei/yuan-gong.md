@@ -2,7 +2,7 @@
 id: yuan-gong
 name: 元恭
 display: 节闵帝元恭
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -28,3 +28,5 @@ sources:
     part: 前废帝纪
     kind: classic
 ---
+
+广陵惠王羽之子，母王氏。少端谨有志度，长而好学，事祖母、嫡母以孝闻。以元叉擅权，遂称疾不起，久之託瘖病，垂将一纪，居于龙花寺。庄帝崩，尔朱世隆等以王潜默晦身，有过人之量，将谋废立。及即位，答曰「天何言哉」。太昌初殂于门下外省，年三十五。

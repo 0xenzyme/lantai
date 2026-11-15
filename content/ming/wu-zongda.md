@@ -2,7 +2,7 @@
 id: wu-zongda
 name: 吴宗达
 display: 吴宗达
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -26,3 +26,5 @@ sources:
     part: 卷251·成基命传
     kind: classic
 ---
+
+《明史》无专传。崇祯三年六月，以礼部尚书兼东阁大学士入阁，与温体仁同进。十一月晋太子太保、文渊阁大学士，累迁少保、太子太保、户部尚书、武英殿，又晋少傅、太子太傅、吏部尚书、建极殿。八年五月致仕，其后无闻。

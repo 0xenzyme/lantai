@@ -2,7 +2,7 @@
 id: qian-hongzong
 name: 钱弘倧
 display: 吴越忠逊王
-profile: brief
+profile: full
 gender: male
 polity:
   - shiguo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 947
 deathAccuracy: approx
 deathNote: 资治通鉴·卷287 繫于天福十二年（947）「丙寅，吳越王弘倧襲位」（raw/通代/資治通鑑/卷287.md:72）；此为袭位之年，非寿数。
+title: 吴越忠逊王，为将所废
 sources:
   - work: 资治通鉴
     part: 卷287·后汉纪二
     kind: classic
 ---
+
+倧，元瓘子，佐卒，以次立。胡进思自元瓘时为大将，以旧将自待，及倧立，颇见卑侮，不能平。倧大阅兵于碧波亭，方第赏，进思前谏以赏太厚，倧怒掷笔水中。岁除，画工献钟馗击鬼图，倧以诗题其上，进思知将杀己，是夕拥卫兵废倧，囚于义和院，迁于东府。

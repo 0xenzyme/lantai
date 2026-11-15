@@ -2,7 +2,7 @@
 id: zhang-sizhi
 name: 张四知
 display: 张四知
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -26,3 +26,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+费县人。天启二年进士，由庶吉士授检讨。崇祯中，历官礼部右侍郎。十一年六月，廷推阁臣忽及之，给事中张淳劾其为祭酒时贪污状，四知于帝前力辨，言己孤立，薛国观因力援之。明年五月，与姚明恭、魏炤乘俱拜礼部尚书兼东阁大学士。秉政四载，十五年致仕。

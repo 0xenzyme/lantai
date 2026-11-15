@@ -2,7 +2,7 @@
 id: chang-ling
 name: 长龄
 display: 长龄
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -14,6 +14,7 @@ birthNote: 清史稿·卷367·长龄传：道光十七年（1837）「以八十�
 death: 1838
 deathAccuracy: exact
 deathNote: 清史稿·卷367·长龄传：道光十七年（1837）以病乞休、以八十寿晋一等公爵，「次年，卒」，即道光十八年（1838），谥文襄。卒年系由传文「道光十七年」下文「次年」回溯得出，待复核。
+title: 道光朝扬威将军
 aliases:
   - 懋亭
   - 文襄
@@ -22,3 +23,5 @@ sources:
     part: 卷367·长龄传
     kind: classic
 ---
+
+字懋亭，萨尔图克氏，蒙古正白旗人。乾隆中从征甘肃、台湾、廓尔喀，官至伊犁将军、文华殿大学士。道光六年张格尔陷西四城，授扬威将军往讨，先后复之，获张格尔。十七年以病乞休，晋一等公，逾年卒，谥文襄。

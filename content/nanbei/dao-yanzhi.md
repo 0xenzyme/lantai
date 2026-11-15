@@ -2,15 +2,18 @@
 id: dao-yanzhi
 name: 到彦之
 display: 到彦之
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
 birthAccuracy: unknown
 death: 433
 deathAccuracy: exact
+title: 刘宋北伐主将，丧师而还
 sources:
   - work: 南史
     part: 卷025·到彦之传
     kind: classic
 ---
+
+彭城武原人，宋兴有功，封当阳县侯。元嘉七年为右将军，统王仲德、竺灵秀舟师入河，规复河南。魏人大举反攻，诸军皆败，滑台遂没。元嘉十年卒。

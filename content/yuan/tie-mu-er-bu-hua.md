@@ -2,7 +2,7 @@
 id: tie-mu-er-bu-hua
 name: 帖木儿不花
 display: 帖木儿不花
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 生年为约数（上推），非精确生年。依据「二十八年，大明兵逼京師，順帝北奔，詔以帖木兒不花監國」（raw/元/元史/卷117.md:76）
 death: 1368
 deathAccuracy: exact
+title: 镇南王后，让国监国
 sources:
   - work: 元史
     part: 宗室传
     kind: classic
 ---
+
+世祖孙，镇南王脱欢第四子。兄老章、脱不花相继薨，嗣为镇南王。文宗时，以位复还孛罗不花，改封宣让王，移镇庐州。至正十二年，淮西贼起，分兵击贼，擒其渠帅。二十七年，进封淮王。二十八年，大明兵逼京师，顺帝北奔，诏监国，城破死之，年八十三。

@@ -2,7 +2,7 @@
 id: wanyan-jing
 name: 完颜璟
 display: 完颜璟
-profile: brief
+profile: full
 gender: male
 polity:
   - liao-jin
@@ -10,8 +10,11 @@ birth: 1168
 birthAccuracy: exact
 death: 1208
 deathAccuracy: exact
+title: 金章宗，明昌承安之治
 sources:
   - work: 金史
     part: 章宗本纪
     kind: classic
 ---
+
+字麻达葛，世宗嫡孙。以皇太孙嗣位，在位二十年。承世宗治平日久，正礼乐，修刑法，定官制，典章文物粲然，然冢嗣未立，传授非人。泰和八年，崩于福安殿，年四十一。

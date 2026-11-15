@@ -2,7 +2,7 @@
 id: xiao-ji
 name: 萧纪
 display: 萧纪
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 武陵王纪传
     kind: classic
 ---
+
+梁武帝之子，封武陵王。出为益州刺史，在蜀十余年，抚御有方。侯景乱作，武帝凶问至，纪遂称帝于成都。承圣二年，率大众东下，与湘东王绎争国，次于硖口，为绎将樊猛所败，与其子圆满俱见杀，年四十六。

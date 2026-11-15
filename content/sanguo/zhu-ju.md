@@ -2,7 +2,7 @@
 id: zhu-ju
 name: 朱据
 display: 朱据
-profile: brief
+profile: full
 gender: male
 polity:
   - wu
@@ -11,6 +11,7 @@ birthAccuracy: approx
 birthNote: 生年无明文。本传云「追赐死，时年五十七」raw/三国/三國志/卷57.md:104，承嘉平二年（250）系年，据虚岁上推生年约 194。
 death: 250
 deathAccuracy: exact
+title: 吴骠骑将军，争二宫死
 sources:
   - work: 资治通鉴
     part: 卷75 魏纪七
@@ -19,3 +20,5 @@ sources:
     part: 吴书十二 虞陆张骆陆吾朱传
     kind: classic
 ---
+
+朱据字子范，吴郡吴人，有姿貌膂力。黄龙元年，尚公主，拜左将军，封云阳侯，谦虚接士，轻财好施。吕壹案起，据为所诬，藉草待罪，后得白，权曰「朱据见枉，况吏民乎」。赤乌九年，迁骠骑将军。二宫构争，据拥护太子，左迁新都郡丞；未至，为孙弘所谮，追赐死，年五十七。

@@ -2,7 +2,7 @@
 id: pan-jixun
 name: 潘季驯
 display: 潘季驯
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -12,8 +12,11 @@ birthNote: 本传作「歸三年卒，年七十五」`raw/明/明史/卷223.md:5
 death: 1595
 deathAccuracy: approx
 deathNote: 本传万历「二十年」泗州大水后「都給事中楊其休請允季馴去。歸三年卒」`raw/明/明史/卷223.md:53`；二十年承万历，即1592，归三年约1595，此系近似。
+title: 四任总督的治河名臣
 sources:
   - work: 明史
     part: 卷223·潘季驯传
     kind: classic
 ---
+
+字时良，乌程人。嘉靖二十九年进士，授九江推官。四十四年总理河道。万历六年再起，议筑崔镇以塞决口，筑高堰束淮入清口，以淮之清刷河之浊。凡四奉治河命，前后二十七年，增筑设防，置官建闸。归三年卒，年七十五。

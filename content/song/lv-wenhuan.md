@@ -2,7 +2,7 @@
 id: lv-wenhuan
 name: 吕文焕
 display: 吕文焕
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1273
 deathAccuracy: approx
 deathNote: 《宋史·卷46》載咸淳九年（1273）二月庚戌「呂文煥以襄陽府歸大元」（raw/宋/宋史/卷046.md:224）；以該年為活動錨點，非壽數。
+title: 以襄阳降元，宋失上游
 sources:
   - work: 宋史
     part: 度宗本纪
     kind: classic
 ---
+
+咸淳中知襄阳府兼京西安抚副使。元人围襄樊五年，樊城先破，城中势蹙；九年二月庚戌，以襄阳府归大元，襄、汉沿边诸郡相继无固志。其后元兵东下，焕导之攻鄂州，鄂遂降。其从弟文福言「从兄文焕以襄阳降，为其玷辱」，乞罢归。宋之失，论者多以襄坏为端。

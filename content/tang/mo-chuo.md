@@ -2,7 +2,7 @@
 id: mo-chuo
 name: 默啜可汗
 display: 默啜可汗
-profile: brief
+profile: full
 gender: male
 polity:
   - tujue
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 716
 deathAccuracy: approx
 deathNote: 开元四年（716）为大武军子将郝灵佺所杀；「四年」即开元四年。 — raw/唐/新唐書/卷005.md:135
+title: 后突厥可汗，自立而败
 sources:
   - work: 新唐书
     part: 卷5·本纪第五·睿宗 玄宗
     kind: classic
 ---
+
+默啜，骨咄禄之弟。天授初，骨咄禄死，子幼不得立，默啜自立为可汗。武后时请讨契丹自效，因册拜颉跌利施大单于、立功报国可汗。复求六州降户不获，遂寇灵、胜二州。晚年昏暴，部落怨叛。讨拔野古，战独乐河，轻归不备，为拔曳固余众所斩，传首京师。

@@ -2,7 +2,7 @@
 id: mao-gong
 name: 毛公
 display: 毛公
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -12,6 +12,7 @@ birthNote: 生年不详。汉书·儒林传「為河間獻王博士」（raw/西
 death: -130
 deathAccuracy: approx
 deathNote: 卒年不详。景十三王传「立二十六年薨」（raw/西汉/漢書/卷053-景十三王傳.md:23），本库刘德卒年系前130。取献王薨年为可见活动下限，非寿数。
+title: 河间献王博士，毛诗所本
 aliases:
   - 毛苌
 sources:
@@ -22,3 +23,5 @@ sources:
     part: 景十三王传
     kind: classic
 ---
+
+毛公，赵人，治《诗》，为河间献王博士，授同国贯长卿。长卿授解延年，延年授徐敖。由是言《毛诗》者，本之徐敖，后立于学官。

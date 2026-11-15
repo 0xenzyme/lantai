@@ -2,7 +2,7 @@
 id: kou-qianzhi
 name: 寇谦之
 display: 寇谦之
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -25,3 +25,5 @@ sources:
     part: 释老志
     kind: classic
 ---
+
+昌平人，汉中郎将寇修之之后。少好仙道，修张鲁之术。遇成公兴于嵩山，得《录图真经》。诣魏，说太武崇道。太武因改元太平真君，亲受符箓。真君九年卒，葬以道士之礼。

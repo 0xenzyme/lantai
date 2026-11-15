@@ -2,7 +2,7 @@
 id: shen-gong
 name: 申公
 display: 申公
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -12,6 +12,7 @@ birthNote: 生年不详。史记·儒林列传「高祖過魯，申公以弟子�
 death: -140
 deathAccuracy: approx
 deathNote: 卒年不详。同传「今上初即位……天子使使束帛加璧安車駟馬迎申公……申公亦疾免以歸，數年卒」（raw/先秦-西汉/史記/卷121-儒林列傳.md:31）。今上初即位取建元元年，本库注记为前140。「数年卒」无年数，不另取前135。此为被征之年，非寿数。
+title: 鲁诗初祖，为楚王戊傅
 aliases:
   - 申培公
 sources:
@@ -22,3 +23,5 @@ sources:
     part: 高帝纪
     kind: classic
 ---
+
+申公，鲁人，少与楚元王交俱事齐人浮丘伯受《诗》。元王薨，傅楚王戊，戊不好学，及戊立为王，胥靡申公。申公愧之，归鲁教授。武帝初即位，以安车蒲轮迎，问治乱，对曰「为治者不在多言，顾力行何如耳」，以为太中大夫。后病免归卒。

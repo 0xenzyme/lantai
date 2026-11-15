@@ -2,7 +2,7 @@
 id: feng-ba
 name: 冯跋
 display: 冯跋
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
@@ -26,3 +26,5 @@ sources:
     part: 海夷冯跋传
     kind: classic
 ---
+
+长乐信都人，慕容氏北燕之旧臣。高云为宠臣所杀，冯跋因众推为天王，都龙城，国号燕。务农桑，省赋役，境内粗安。泰常五年，惊怖而卒。弟弘杀其子，代立。

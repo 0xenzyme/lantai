@@ -2,13 +2,14 @@
 id: yang-xianrong
 name: 羊献容
 display: 羊献容
-profile: brief
+profile: full
 gender: female
 polity:
   - jin
 birthAccuracy: unknown
 death: 322
 deathAccuracy: exact
+title: 晋惠帝皇后，五废五立
 sources:
   - work: 资治通鉴
     part: 卷092·晋纪十四·永昌元年
@@ -17,3 +18,5 @@ sources:
     part: 卷031·惠羊皇后
     kind: classic
 ---
+
+泰山南城人，父玄之。太安元年立为皇后。成都王颖、张方、河间王顒更相废立，屡免屡复。洛阳陷，没于刘曜。曜僭位，以为皇后，生二子。曜问「吾何如司马家儿」，后曰「陛下开基之圣主，彼亡国之暗夫」，曜甚爱宠之。卒，伪谥献文皇后。

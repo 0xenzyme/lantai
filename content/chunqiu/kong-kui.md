@@ -2,7 +2,7 @@
 id: kong-kui
 name: 孔悝
 display: 孔悝
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -480
 deathAccuracy: approx
 deathNote: 卒年不详，取前480年为活动下限（非寿数）。依据春秋左传正义·哀公十五年「迫孔悝於廁，強盟之」（raw/春秋/春秋左傳正義/卷59.md:242）。
+title: 卫大夫，蒯聵劫盟
 sources:
   - work: 春秋左传正义
     part: 哀公十五年
     kind: classic
 ---
+
+卫大夫，孔圉之子，母孔伯姬。哀公十五年，太子蒯聵劫之于厕，强与盟而登台，遂入卫自立。子路为孔氏邑宰，赴难而死。

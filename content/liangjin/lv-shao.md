@@ -2,13 +2,14 @@
 id: lv-shao
 name: 吕绍
 display: 吕绍
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
 birthAccuracy: unknown
 death: 399
 deathAccuracy: exact
+title: 后凉嗣主，在位数日
 sources:
   - work: 资治通鉴
     part: 卷111·晋纪三十三·隆安三年
@@ -17,3 +18,5 @@ sources:
     part: 载记第二十二·吕纂
     kind: classic
 ---
+
+吕光世子。光病笃，禅位，绍嗣为天王，光自号太上皇帝，戒绍委重纂、弘。光死，纂、弘兄弟逼之，绍不能制，登紫阁自杀，在位数日。

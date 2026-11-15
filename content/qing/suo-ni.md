@@ -2,7 +2,7 @@
 id: suo-ni
 name: 索尼
 display: 索尼
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -13,8 +13,11 @@ birthAccuracy: unknown
 death: 1667
 deathAccuracy: exact
 deathNote: 清史稿·卷249·索尼传：康熙六年六月卒，谥文忠（世祖崩后与苏克萨哈、遏必隆、鳌拜同受遗诏辅政，传文系年即康熙六年）。
+title: 四辅政之首，一等公
 sources:
   - work: 清史稿
     part: 卷249·索尼传
     kind: classic
 ---
+
+赫舍里氏，满洲正黄旗人。历事太祖、太宗，内大臣。世祖崩，受遗诏辅政，居四辅政之首。康熙六年六月卒，谥文忠，追封一等公。

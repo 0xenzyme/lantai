@@ -2,7 +2,7 @@
 id: qin-hou
 name: 秦侯
 display: 秦侯
-profile: brief
+profile: full
 gender: male
 polity:
   - qin
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -848
 deathAccuracy: approx
 deathNote: 卒年不详。史记：秦嬴生秦侯，秦侯立十年卒，生公伯（卷005:29）；公伯立三年卒（卷005:32）。秦仲立二十三年死于戎，今本竹书系于周宣王六年（前 822，周纪:385）。按世次上推，秦侯卒约当前 848，非精确年。
+title: 秦侯，嬴氏二世
 sources:
   - work: 史记
     part: 秦本纪
@@ -18,3 +19,5 @@ sources:
     part: 周纪
     kind: classic
 ---
+
+秦侯，秦嬴之子，嬴氏第二世之君。立十年卒，子公伯立。其在位行事，史无明载，世次见《史记·秦本纪》。

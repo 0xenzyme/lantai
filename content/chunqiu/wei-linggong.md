@@ -2,7 +2,7 @@
 id: wei-linggong
 name: 姬元
 display: 卫灵公
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -493
 deathAccuracy: exact
 deathNote: 左传·哀公二年（前493）卫灵公卒；史记·卫康叔世家「夏，靈公卒」，此后立出公辄。襄公卒前535，灵公立前534，在位四十二年得前493。
+title: 卫君，孔子适卫
 sources:
   - work: 春秋左传
     part: 哀公二年
@@ -18,3 +19,5 @@ sources:
     part: 卫康叔世家
     kind: classic
 ---
+
+卫灵公元，襄公之子。在位四十二年。孔子尝适卫，灵公与夫人同车，宦者参乘，使孔子为次乘，招摇市过之；又不用其言。太子蒯聩出奔宋。卒，卫人立其孙辄，是为出公。

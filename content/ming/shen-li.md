@@ -2,7 +2,7 @@
 id: shen-li
 name: 沈鲤
 display: 沈鲤
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -12,8 +12,11 @@ birthNote: 本传作「二十九年，趙志臯卒……詔鯉以故官兼東閣
 death: 1615
 deathAccuracy: approx
 deathNote: 本传作「二十九年，趙志臯卒……詔鯉以故官兼東閣大學士」`raw/明/明史/卷217.md:55`；卒年无确载，约在万历四十三年（1615），此系近似，非寿数。
+title: 万历阁臣，与沈一贯相忤
 sources:
   - work: 明史
     part: 卷217·沈鲤传
     kind: classic
 ---
+
+字仲化，归德人。嘉靖中举乡试，四十四年成进士。神宗在东宫，鲤为讲官，敷奏端雅，所陈说独契帝心。万历二十九年，赵志皋卒，诏以故官兼东阁大学士。遇事秉正不挠，屡格中官横索，与沈一贯积不相能，遂同致仕。里居五年卒，年八十五，赠太师，谥文端。

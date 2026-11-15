@@ -2,7 +2,7 @@
 id: chen-huaigong
 name: 媯柳
 display: 陈怀公
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -502
 deathAccuracy: approx
 deathNote: 史记·陈杞世家「是年，惠公卒，子懷公柳立……留之，因卒吳」。怀公召于吴而卒，惠公约卒前503，怀公卒年约前502，作约年。
+title: 陈侯，召于吴而卒
 sources:
   - work: 史记
     part: 陈杞世家
     kind: classic
 ---
+
+陈怀公，名柳。楚既灭而复封陈，怀公嗣立。吴势日张，召怀公，怀公不得已而往，遂卒于吴。

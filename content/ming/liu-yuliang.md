@@ -2,7 +2,7 @@
 id: liu-yuliang
 name: 刘宇亮
 display: 刘宇亮
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+绵竹人，万历四十七年进士。崇祯十年八月擢礼部尚书，与傅冠、薛国观同入阁。十一年六月孔贞运罢归，遂代为首辅。大清兵深入，自请督察军情，趋晋州避敌，为知州陈弘绪所拒。薛国观与杨嗣昌谋倾之，落职闲住，久之卒于家。

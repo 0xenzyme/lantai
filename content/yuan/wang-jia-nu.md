@@ -2,7 +2,7 @@
 id: wang-jia-nu
 name: 汪家奴
 display: 汪家奴
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 1355
 deathAccuracy: approx
 deathNote: 卒年不详。至正十五年为中书右丞相，取1355为任官年，非寿数。至正二十七年追封不作卒年。依据「汪家奴 　（四月由樞密同知為平章，十月除樞密知院。）」（raw/元/元史/卷113.md:244）
+title: 顺帝朝两度为相
 sources:
   - work: 元史
     part: 卷113·宰相年表二
@@ -18,3 +19,5 @@ sources:
     part: 卷044·顺帝七；卷077·祭祀志六
     kind: classic
 ---
+
+至正十四年，由枢密同知为中书平章政事，十月除枢密知院。十五年二月，复居相位。二十七年，追封。

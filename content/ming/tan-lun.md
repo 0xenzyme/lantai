@@ -2,7 +2,7 @@
 id: tan-lun
 name: 谭纶
 display: 谭纶
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1577
 deathAccuracy: approx
 deathNote: 本传作「綸三疏乞罷，優詔留之。五年卒官」`raw/明/明史/卷222.md:34`；此「五年」指万历五年（1577），姑系之，此系近似。
+title: 抗倭名将，与戚继光齐名
 sources:
   - work: 明史
     part: 卷222·谭纶传
     kind: classic
 ---
+
+字子理，宜黄人。嘉靖二十三年进士。沈毅知兵。时东南倭患已四年，朝议练乡兵，纶亦练千人，立束伍法，未久即成精锐，与戚继光齐名，称「谭、戚」。历官台州、福建，累破倭寇。后协理戎政，起兵部尚书，加太子少保。卒于官，赠太子太保，谥襄敏。

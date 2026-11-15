@@ -2,7 +2,7 @@
 id: cai-qian
 name: 蔡牵
 display: 蔡牵
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -11,8 +11,11 @@ birthAccuracy: unknown
 death: 1809
 deathAccuracy: approx
 deathNote: 生卒无确载于本库。清史稿卷350作嘉庆十年（1805）会剿蔡牵、追至小琉球；卒年 1809 为候选台账约略系年，本库引句无明文，非寿数。raw/清/清史稿/卷350.md:52
+title: 乾嘉间海上武装首领
 sources:
   - work: 清史稿
     part: 卷350·邱良功传
     kind: classic
 ---
+
+海上武装首领，众号数万，扰浙、闽、粤三省洋面。李长庚造霆船，屡败之。嘉庆十四年九月，王得禄、邱良功合剿，逼其船，冲断船尾，遂落海死。

@@ -2,7 +2,7 @@
 id: ji-er-ha-lang
 name: 济尔哈朗
 display: 济尔哈朗
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -16,6 +16,7 @@ birthNote: 传载顺治十二年薨、年五十七（虚岁），自卒年 1655 
 death: 1655
 deathAccuracy: exact
 deathNote: 清史稿·卷215·郑献亲王济尔哈朗传：顺治十二年五月疾革，翌日薨，年五十七。卷5·世祖本纪：十二年五月辛卯，和硕郑亲王济尔哈朗薨。庄亲王舒尔哈齐第六子，太祖抚育，封和硕郑亲王，为定远大将军下湖广。
+title: 清初郑亲王
 aliases:
   - 郑亲王
   - 信义辅政叔王
@@ -27,3 +28,5 @@ sources:
     part: 卷5·世祖本纪
     kind: classic
 ---
+
+舒尔哈齐第六子，太祖抚育。封和硕郑亲王，为定远大将军下湖广。顺治初与多尔衮同辅政，号信义辅政叔王。十二年五月薨，年五十七。

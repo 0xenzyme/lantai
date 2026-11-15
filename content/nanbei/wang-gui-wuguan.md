@@ -2,7 +2,7 @@
 id: wang-gui-wuguan
 name: 王轨
 display: 王轨
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 王轨传
     kind: classic
 ---
+
+太原祁人。仕周，从武帝平齐，数有战功，出为徐州总管。性严重，善抚军。武帝尝问以国本，轨直谓太子非君临之器，武帝不以为然。及宣帝立，追恨前言，大象元年遣内史杜虔信就徐州杀之。

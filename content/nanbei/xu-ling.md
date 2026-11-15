@@ -2,7 +2,7 @@
 id: xu-ling
 name: 徐陵
 display: 徐陵
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 徐陵传
     kind: classic
 ---
+
+字孝穆，东海郯人，徐摛长子。八岁能属文，十二通庄老。梁时与父摛并为东宫抄撰学士，文并绮艳，世号徐庾体。使魏，魏收嘲以今日之热，陵以王肃始制礼仪反诘，收大惭。使齐被留，累求复命不遣。归陈，位至尚书左仆射。至德元年卒，年七十七。

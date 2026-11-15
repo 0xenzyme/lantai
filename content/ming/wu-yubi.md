@@ -2,7 +2,7 @@
 id: wu-yubi
 name: 吴与弼
 display: 吴与弼
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -11,8 +11,11 @@ birthNote: 本传天顺元年自言「今年且六十八」，又作「成化五
 death: 1469
 deathAccuracy: exact
 deathNote: 本传作「成化五年卒」`raw/明/明史/卷282.md:101`。成化五年为1469。
+title: 明初儒者，屡荐不起
 sources:
   - work: 明史
     part: 卷282·儒林传一·吴与弼
     kind: classic
 ---
+
+字子传，崇仁人。年十九，见《伊洛渊源图》，慨然响慕，遂罢举子业，尽读《四子》《五经》洛闽诸录，不下楼者数年。中岁家益贫，躬亲耕稼，非其义，一介不取。正统、景泰间，何自学、涂谦、陈述先后荐之，诏韩雍备礼敦遣，竟不至。石亨欲引之，会亨败而止。

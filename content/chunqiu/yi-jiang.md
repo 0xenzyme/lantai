@@ -2,7 +2,7 @@
 id: yi-jiang
 name: 夷姜
 display: 夷姜
-profile: brief
+profile: full
 gender: female
 polity:
   - wei-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -696
 deathAccuracy: exact
 deathNote: 春秋左传正义·桓公十六年（前696）「夷姜縊。」（raw/春秋/春秋左傳正義/卷06.md:618）。
+title: 卫宣公庶母
 sources:
   - work: 春秋左传正义
     part: 桓公十六年
     kind: classic
 ---
+
+夷姜，卫宣公之庶母。宣公蒸于夷姜，生急子，以为太子。及宣公自取急子之妻，生寿、朔，朔谗急子，夷姜以是年缢。

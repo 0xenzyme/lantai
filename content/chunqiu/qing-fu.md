@@ -2,14 +2,15 @@
 id: qing-fu
 name: 庆父
 display: 庆父
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
 birthAccuracy: unknown
-death: -660
+death: -659
 deathAccuracy: exact
-deathNote: 史记·鲁周公世家「慶父……乃自殺」（闵公二年、前660）；左传谓之共仲。庆父不死，鲁难未已。
+deathNote: 弑闵公、奔莒在闵公二年（前660）；季友以赂求之于莒，庆父归而自缢在僖公元年（前659），取史记·鲁周公世家「乃自杀」系年。左传谓之共仲。庆父不死，鲁难未已。
+title: 鲁公子，两弑鲁君
 sources:
   - work: 史记
     part: 鲁周公世家
@@ -18,3 +19,5 @@ sources:
     part: 闵公二年
     kind: classic
 ---
+
+鲁桓公之子，庄公之弟，一称共仲。连弑子般、闵公二君，鲁人不容，出奔莒。季友以赂求之于莒，庆父归而自缢。谚曰「庆父不死，鲁难未已」。

@@ -2,7 +2,7 @@
 id: shen-guifen
 name: 沈桂芬
 display: 沈桂芬
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -14,6 +14,7 @@ birthNote: 传载年六十有四（虚岁），自卒年（光绪六年，公历
 death: 1880
 deathAccuracy: exact
 deathNote: 清史稿·卷436·沈桂芬传：久卧病，光绪六年卒，谥文定；卷177·军机大臣年表：光绪六年庚辰条 沈桂芬（十二月癸亥卒）。兵部尚书、军机大臣。农历十二月卒，公历已入1881年1月。
+title: 军机大臣，兵部尚书
 sources:
   - work: 清史稿
     part: 卷436·沈桂芬传
@@ -22,3 +23,5 @@ sources:
     part: 卷177·军机大臣年表
     kind: classic
 ---
+
+江苏吴江人。同治初入直军机，官至兵部尚书，直枢廷十余年。凡交涉、边事多所筹划。光绪六年卒于位，谥文定。

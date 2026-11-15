@@ -2,7 +2,7 @@
 id: he-wuzou
 name: 何吾驺
 display: 何吾驺
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+香山人。万历四十七年进士，历官少詹事。崇祯五年擢礼部右侍郎，六年十一月加尚书，同王应熊入阁。温体仁欲斥许誉卿，吾驺助文震孟争之，为体仁所劾，夺职罢归。后唐王立于福州，召为首辅，闽疆既失，引疾归卒。

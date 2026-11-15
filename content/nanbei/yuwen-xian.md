@@ -2,7 +2,7 @@
 id: yuwen-xian
 name: 宇文宪
 display: 宇文宪
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 齐炀王宪传
     kind: classic
 ---
+
+齐炀王宪，字毗贺突，太祖第五子。性通敏有度量。十六为益州总管，善于抚绥，蜀人怀之。保定中，晋公护东伐，宪与达奚武、王雄军于邙山，齐兵奄出军后，诸军恇骇退散，唯宪亲自督励，众心乃安。后从武帝平齐，勋第一。宣政元年，武帝召入宫，乃缢之。

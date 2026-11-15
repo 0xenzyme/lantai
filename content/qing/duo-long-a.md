@@ -2,7 +2,7 @@
 id: duo-long-a
 name: 多隆阿
 display: 多隆阿
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1864
 deathAccuracy: approx
 deathNote: 本传不载生年与寿数。清史稿卷409作同治三年（1864）春亲督兵力攻盩厔；今以该年为活动下限系年，非寿数。raw/清/清史稿/卷409.md:57
+title: 湘军悍将，盩厔殉
 sources:
   - work: 清史稿
     part: 卷409·多隆阿传
     kind: classic
 ---
+
+字礼堂，呼尔拉特氏，满洲正白旗人，黑龙江驻防。咸丰三年从胜保解怀庆围；继从僧格林沁克连镇、冯官屯。同治三年春，督兵进攻盩厔，中炮创发卒。与鲍超齐名，时称多、鲍。

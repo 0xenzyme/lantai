@@ -2,7 +2,7 @@
 id: zhou-wen
 name: 周文
 display: 周文
-profile: brief
+profile: full
 gender: male
 polity:
   - minbian
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -209
 deathAccuracy: approx
 deathNote: 史记：陈王与周文将军印，西击秦至戏，章邯破之，「周文自剄，軍遂不戰」（陈涉世家:28）。周文西击秦在二世元年，败死在其后，台账取前 209，此年为自刭之年，非寿数。
+title: 陈王将军，西击秦
 sources:
   - work: 史记
     part: 陈涉世家
     kind: classic
 ---
+
+陈之贤人，尝为项燕军视日，事春申君，自言习兵。陈王与之将军印，西击秦，行收兵至关，车千乘，卒数十万，至戏而军。秦令少府章邯免郦山徒击之，尽败其军。周文走出关，止次曹阳、渑池，章邯追破，遂自刭，军遂不战。

@@ -2,7 +2,7 @@
 id: gao-heng
 name: 高恒
 display: 北齐幼主高恒
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -11,6 +11,7 @@ birthAccuracy: exact
 death: 577
 deathAccuracy: disputed
 deathNote: 北齐亡后与后主同被赐死，卒年有 577、578 两说；生年由即位时年八岁上推。据「隆化二年春正月乙亥，卽皇帝位，時八歲」raw/北朝/北齊書/卷8.md:241
+title: 北齐幼主，八岁即位国亡
 sources:
   - work: 北齐书
     part: 卷008·后主幼主纪
@@ -19,3 +20,5 @@ sources:
     part: 卷008·齐本纪下
     kind: classic
 ---
+
+后主高纬之子。隆化二年正月，即皇帝位，时八岁，改元承光。周师日逼，幼主自邺东走，禅位于任城王湝。与太上皇俱为周将尉迟纲所获，送长安。齐亡，赐死。

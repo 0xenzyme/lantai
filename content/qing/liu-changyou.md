@@ -2,15 +2,18 @@
 id: liu-changyou
 name: 刘长佑
 display: 刘长佑
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
 birthAccuracy: unknown
 death: 1887
 deathAccuracy: exact
+title: 楚勇旧将，总督云贵
 sources:
   - work: 清史稿
     part: 卷419·列传二百六（刘长佑传）
     kind: classic
 ---
+
+湖南新宁人，字印渠。与江忠源同起楚勇，独领一军，转战两湖、江西。官至广西巡抚、云贵总督。在滇筹边，力主固圉。卒谥武慎。

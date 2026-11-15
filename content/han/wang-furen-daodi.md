@@ -2,15 +2,18 @@
 id: wang-furen-daodi
 name: 王翁须
 display: 史皇孙王夫人（悼后）
-profile: brief
+profile: full
 gender: female
 polity:
   - han
 birthAccuracy: unknown
 death: -91
 deathAccuracy: exact
+title: 宣帝生母，追尊悼后
 sources:
   - work: 汉书
     part: 外戚传上·卷097上
     kind: classic
 ---
+
+王翁须，史皇孙刘进之妻，宣帝母也，家本涿郡蠡吾。太始中，得幸于史皇孙。征和二年，生宣帝。帝生数月，卫太子、皇孙败，家人子皆坐诛，莫有收葬者，唯宣帝得全。即位后，追尊谥曰悼后，求得外祖母王媼，赐舅爵关内侯。

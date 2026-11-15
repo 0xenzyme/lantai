@@ -2,7 +2,7 @@
 id: yu-chen
 name: 庾琛
 display: 庾琛
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 310
 deathAccuracy: approx
 deathNote: 本传作永嘉初（约307—310）为建威将军、过江为会稽太守（raw/晋/晉書/卷093.md:38）；此系任官之年，卒年无载，非寿数。
+title: 东晋外戚，明穆皇后父
 sources:
   - work: 晋书
     part: 卷093·外戚·庾琛
     kind: classic
 ---
+
+字子美，明穆庾皇后之父，兄衮在《孝友传》。永嘉初为建威将军，过江，为会稽太守，征为丞相军谘祭酒，卒官。以后父追赠左将军，妻毌丘氏追封乡君，子亮陈先志不受。咸和中，成帝又诏追赠骠骑将军、仪同三司，亮又辞焉。

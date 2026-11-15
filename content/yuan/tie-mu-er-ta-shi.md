@@ -2,7 +2,7 @@
 id: tie-mu-er-ta-shi
 name: 铁木儿塔识
 display: 铁木儿塔识
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 至正七年拜相后从上京还暴薨，年四十六，虚岁上推生年1302，非精确生年。依据「後至元六年，拜中書右丞」（raw/元/元史/卷140.md:57）
 death: 1347
 deathAccuracy: exact
+title: 元末良相，世其家学
 sources:
   - work: 元史
     part: 铁木儿塔识传
     kind: classic
 ---
+
+字九龄，国王脱脱之子。事明宗潜邸，历礼部尚书、大都留守。至正中，伯颜罢相，尽心辅赞；拜御史大夫，奏请除罪及妻孥之令。七年，拜左丞相，立内外通调之法，分海漕米四十万石沿河备荒。从上京还，入政事堂甫一日，暴疾薨，年四十六，谥文忠。

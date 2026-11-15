@@ -2,15 +2,18 @@
 id: wang-yun-xiaowu
 name: 王蕴
 display: 王蕴
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 384
 deathAccuracy: exact
+title: 东晋外戚，开仓赈饥
 sources:
   - work: 晋书
     part: 卷093·外戚·王蕴
     kind: classic
 ---
+
+字叔仁，司徒左长史王濛之子，孝武定皇后之父。起家佐著作郎，累迁尚书吏部郎。性平和，不抑寒素。补吴兴太守，属郡荒人饥，辄开仓振贷，主簿请先表待报，蕴曰「若表上须报，何以救将死之命」。朝廷以违科免官，士庶诣阙讼之。太元九年卒，年五十五。

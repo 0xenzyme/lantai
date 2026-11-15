@@ -2,7 +2,7 @@
 id: ding-kuan
 name: 丁宽
 display: 丁宽
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -154
 deathAccuracy: approx
 deathNote: 卒年不详。汉书·儒林传「景帝時，寬為梁孝王將軍距吳、楚，號丁將軍」（raw/西汉/漢書/卷088-儒林傳.md:36）。吴楚七国之乱本库系前154。取此年为可见活动年，非寿数。
+title: 号丁将军，易学以梁丘贺传
 aliases:
   - 丁将军
 sources:
@@ -17,3 +18,5 @@ sources:
     part: 儒林传
     kind: classic
 ---
+
+丁宽字子襄，梁人。初为梁项生从者，读《易》精敏，才过项生，遂事田何。学成，田何曰「《易》以东矣」。复从周王孙受古义，号《周氏传》。景帝时，为梁孝王将军距吴楚，号丁将军，作《易说》三万言。授田王孙，由是《易》有施、孟、梁丘之学。

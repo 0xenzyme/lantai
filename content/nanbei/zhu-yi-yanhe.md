@@ -2,7 +2,7 @@
 id: zhu-yi-yanhe
 name: 朱异
 display: 朱异
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -28,3 +28,5 @@ sources:
     part: 朱异传
     kind: classic
 ---
+
+字彦和，吴郡钱唐人。年十余好蒲博，既长折节从师，遍治《五经》，尤明《礼》《易》。沈约戏曰「卿年少，何乃不廉」。明山宾表荐，高祖曰「朱异实异」。自周舍卒后，代掌机谋，诏诰敕书并兼掌之。侯景归降，探微旨主纳。景反，以讨异为名。太清二年惭愤卒。

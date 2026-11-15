@@ -2,13 +2,14 @@
 id: wei-juyuan
 name: 韦巨源
 display: 韦巨源
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 710
 deathAccuracy: exact
+title: 中宗宰相，党韦后
 sources:
   - work: 新唐书
     part: 卷61·表第一 宰相上
@@ -17,3 +18,5 @@ sources:
     part: 卷92·列传第四十二
     kind: classic
 ---
+
+韦巨源，周京兆尹韦总曾孙。武后时历司宾少卿、文昌右丞，同凤阁鸾台平章事，再为神都留守。中宗时，累迁侍中、中书令，封舒国公，附韦后为三等亲。景龙三年，进尚书令。南郊之礼，希韦后旨，请皇后为亚献，巨源自为终献。韦氏败，为乱兵所杀，年八十。

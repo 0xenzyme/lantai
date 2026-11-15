@@ -2,7 +2,7 @@
 id: qin-ninggong
 name: 秦宁公
 display: 秦宁公
-profile: brief
+profile: full
 gender: male
 polity:
   - qin
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -704
 deathAccuracy: exact
 deathNote: 史记·秦本纪「寧公生十歲立，立十二年卒，葬西山」。文公卒前716，宁公立前715，十二年得前704。
+title: 秦伯，十岁即位
 sources:
   - work: 史记
     part: 秦本纪
     kind: classic
 ---
+
+秦伯，文公之孙。十岁即位，在位十二年，葬西山。三庶长废其太子武公，而立少子出子，秦权始下于群臣。

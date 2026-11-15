@@ -2,7 +2,7 @@
 id: ma-xichong
 name: 马希崇
 display: 楚末主
-profile: brief
+profile: full
 gender: male
 polity:
   - shiguo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 951
 deathAccuracy: approx
 deathNote: 资治通鉴·卷290 繫于广顺元年（951）「悉以軍府事委馬希崇。希崇復多私曲」（raw/通代/資治通鑑/卷290.md:83）；此为受委军府事之年，非寿数。
+title: 楚末主，请命南唐
 sources:
   - work: 资治通鉴
     part: 卷290·后周纪一
     kind: classic
 ---
+
+希崇，希萼弟也。希萼臣于李景，尽以军政事任希崇。希崇与楚旧将徐威、陆孟俊、鲁绾等谋作乱，劫库兵，缚希萼，迎希崇以立，又遣彭师暠囚希萼于衡山。既而惧，亦请命于李景。景遣边镐入楚，尽迁马氏之族于金陵。显德三年，率兄弟十七人归京师，拜右羽林统军。

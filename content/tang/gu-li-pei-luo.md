@@ -2,7 +2,7 @@
 id: gu-li-pei-luo
 name: 骨力裴罗
 display: 骨力裴罗
-profile: brief
+profile: full
 gender: male
 polity:
   - huihu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 742
 deathAccuracy: approx
 deathNote: 天宝初（约 742）助拔悉蜜击走乌苏可汗，本传未系确年；以该活动年为锚，非寿数。 — raw/唐/新唐書/卷217上.md:35
+title: 回纥可汗，尽得匈奴故地
 sources:
   - work: 新唐书
     part: 卷217上·回鹘上
     kind: classic
 ---
+
+回纥护输之子。天宝初与葛逻禄自称左右叶护，助拔悉蜜击走乌苏可汗。后三年袭破拔悉蜜，斩颉跌伊施可汗，自称骨咄禄毗伽阙可汗，唐册为怀仁可汗。又攻杀突厥白眉可汗，斥地东极室韦，西尽金山，尽得古匈奴地。死，子磨延啜立。

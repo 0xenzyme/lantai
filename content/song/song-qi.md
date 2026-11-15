@@ -2,15 +2,18 @@
 id: song-qi
 name: 宋琪
 display: 宋琪
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 996
 deathAccuracy: exact
+title: 岁中四迁至宰相
 sources:
   - work: 宋史
     part: 太宗本紀一
     kind: classic
 ---
+
+字俶宝，幽州蓟人。少好学，契丹岁开贡部，举进士中第，署寿安王侍读。乾德四年召拜左补阙、开封府推官。太宗即位，太平兴国八年同判三司，寻参知政事；十月，与李昉同拜平章事，自员外郎岁中四迁至宰相。端拱初进位吏部尚书。至道二年卒，谥惠安。

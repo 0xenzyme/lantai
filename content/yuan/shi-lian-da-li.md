@@ -2,7 +2,7 @@
 id: shi-lian-da-li
 name: 失怜答里
 display: 失怜答里
-profile: brief
+profile: full
 gender: female
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1309
 deathAccuracy: approx
 deathNote: 卒年不详，取1309年为活动年（非寿数）。依据「大德三年十月，立為后」（raw/元/元史/卷114.md:46）
+title: 成宗元妃，追尊皇后
 sources:
   - work: 元史
     part: 后妃一
     kind: classic
 ---
+
+弘吉剌氏，斡罗陈之女。大德三年十月，立为皇后。生皇子德寿，早薨。武宗至大三年十月，追尊谥贞慈静懿皇后，升祔成宗庙室。

@@ -2,15 +2,18 @@
 id: chen-huanghou-1528
 name: 孝洁陈皇后
 display: 孝洁陈皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - ming
 birthAccuracy: unknown
 death: 1528
 deathAccuracy: exact
+title: 世宗元配，两谥悼灵孝洁
 sources:
   - work: 明史
     part: 卷114·后妃二·孝洁肃皇后传
     kind: classic
 ---
+
+元城人。嘉靖元年册立为皇后。帝性严厉，一日与后同坐，张、方二妃进茗，帝循视其手，后恚投杯起，帝大怒，后惊悸堕娠而崩，时嘉靖七年十月。初谥悼灵，葬袄儿峪。十五年礼臣议请，改谥孝洁。穆宗即位，迁葬永陵。

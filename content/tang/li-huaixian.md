@@ -2,7 +2,7 @@
 id: li-huaixian
 name: 李怀仙
 display: 李怀仙
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 768
 deathAccuracy: approx
 deathNote: 大历三年（768）为麾下朱希彩、朱泚等所杀；「共斩怀仙，族其家」。 — raw/唐/新唐書/卷212.md:23
+title: 卢龙节度，为下所杀
 sources:
   - work: 新唐书
     part: 卷212·藩镇卢龙
     kind: classic
 ---
+
+柳城胡人，世事契丹，守营州，善骑射，智数敏给。安禄山以为裨将。史朝义授幽州节度使，赴镇斩高如震，州部悉平。朝义败，遂降，仆固怀恩表为卢龙节度使。因招还散亡，治城邑甲兵，自署文武，贡赋不入。大历三年，为麾下朱希彩、朱泚兄弟所杀，族其家。

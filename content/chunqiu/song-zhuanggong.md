@@ -2,7 +2,7 @@
 id: song-zhuanggong
 name: 子馮
 display: 宋庄公
-profile: brief
+profile: full
 gender: male
 polity:
   - song-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -691
 deathAccuracy: approx
 deathNote: 史记·宋微子世家「十九年，莊公卒」，自殇公卒前710顺推得前691；春秋经·庄公二年「乙酉，宋公馮卒」作前692。两说差一年，试跑名单取前691，作约年。
+title: 宋公，华督所立
 sources:
   - work: 史记
     part: 宋微子世家
@@ -18,3 +19,5 @@ sources:
     part: 庄公二年
     kind: classic
 ---
+
+宋公，名冯，穆公之子。华督弑殇公，迎冯于郑而立之。在位十九年卒，子湣公立。其卒年，史记作前691，春秋经书前692，两说差一岁，说者存疑。

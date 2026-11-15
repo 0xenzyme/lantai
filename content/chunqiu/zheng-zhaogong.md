@@ -2,7 +2,7 @@
 id: zheng-zhaogong
 name: 姬忽
 display: 郑昭公
-profile: brief
+profile: full
 gender: male
 polity:
   - zheng
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -695
 deathAccuracy: exact
 deathNote: 春秋经传系于鲁桓公十七年（前695）：高渠弥弑昭公而立公子亹；史记·郑世家同载其事。
+title: 郑昭公，见弒于渠弥
 sources:
   - work: 春秋左传
     part: 桓公十七年
@@ -18,3 +19,5 @@ sources:
     part: 郑世家
     kind: classic
 ---
+
+郑庄公之太子，祭仲立之。为太子时，恶高渠弥，庄公弗听，卒用为卿；及即位，惧其杀己。昭公二年冬十月辛卯，渠弥与昭公出猎，射杀昭公于野。祭仲立其弟子亹；后齐人杀子亹，而轘高渠弥。

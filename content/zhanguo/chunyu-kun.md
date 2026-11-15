@@ -2,7 +2,7 @@
 id: chunyu-kun
 name: 淳于髡
 display: 淳于髡
-profile: brief
+profile: full
 gender: male
 polity:
   - qi
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -319
 deathAccuracy: approx
 deathNote: 生卒不详，取前319年为活动年（非寿数）。据史记·孟子荀卿列传（raw/先秦-西汉/史記/卷074-孟子荀卿列傳.md:34）「客有見髡於梁惠王，惠王屏左右」。本库梁惠王卒年前319，两说并存。
+title: 齐稷下辩士，滑稽多智
 sources:
   - work: 史记
     part: 孟子荀卿列传
     kind: classic
 ---
+
+齐之赘婿，长不满七尺，滑稽多辩，数使诸侯。齐威王沈湎不治，百官莫敢谏，髡说以隐曰：「国中有大鸟，止王之庭，三年不蜚又不鸣。」王乃朝县令长七十二人，赏一人，诛一人，奋兵而出。威王八年，楚大发兵加齐，髡之赵请救，得精兵十万，楚夜引兵而去。齐人颂曰「炙毂过髡」。

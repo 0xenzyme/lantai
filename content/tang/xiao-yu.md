@@ -2,7 +2,7 @@
 id: xiao-yu
 name: 萧瑀
 display: 萧瑀
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
@@ -12,6 +12,7 @@ birthNote: 本传「遘疾薨于宫所，年七十四」；卒年有贞观二十
 death: 648
 deathAccuracy: disputed
 deathNote: 本纪系贞观二十二年（648）六月癸酉薨；本传作贞观二十一年（647），两说并存，今从本纪。 — raw/唐/舊唐書/卷3.md:343
+title: 凌烟功臣，疾风知劲草
 sources:
   - work: 新唐书
     part: 卷61·表第一 宰相上
@@ -23,3 +24,5 @@ sources:
     part: 卷63·列传第十三 封伦 萧瑀
     kind: classic
 ---
+
+萧瑀，字时文，梁武帝后裔，年九岁封新安郡王。仕隋为河池郡守，高祖定关中，以郡归国，封宋国公。历内史令、尚书左仆射。性峭鲠，多忤旨，尝请出家而复悔，出牧商州。后图形凌烟阁，太宗赐诗曰「疾风知劲草，版荡识诚臣」。薨年七十四，谥贞褊。

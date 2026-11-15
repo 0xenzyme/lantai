@@ -2,13 +2,14 @@
 id: meng-guan
 name: 孟观
 display: 孟观
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 301
 deathAccuracy: exact
+title: 生擒齐万年之将
 sources:
   - work: 晋书
     part: 卷060·孟观传
@@ -17,3 +18,5 @@ sources:
     part: 卷004·惠帝纪
     kind: classic
 ---
+
+字叔时，渤海东光人。少好读书，解天文。受贾后旨宣诏诛杨骏。氐帅齐万年反于关中，诸将覆败相继，观身当矢石，大战十数皆破之，生擒万年，威慑氐羌。赵王伦篡位，观为安南将军屯宛；义军起，观以天象谓伦当终，为伦守，帝反正，被诛，夷三族。

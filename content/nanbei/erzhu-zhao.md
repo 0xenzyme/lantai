@@ -2,7 +2,7 @@
 id: erzhu-zhao
 name: 尔朱兆
 display: 尔朱兆
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 尔朱兆传
     kind: classic
 ---
+
+尔朱荣之从子，骁勇善战。荣死，兆入洛，杀孝庄帝，立节闵帝。俄与高欢争，韩陵之败，众散。窜于穷山，杀所乘马，自缢于树。荣之业，自是而绝。

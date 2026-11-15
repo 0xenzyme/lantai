@@ -2,7 +2,7 @@
 id: zou-shouyi
 name: 邹守益
 display: 邹守益
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1511
 deathAccuracy: approx
 deathNote: 本传作「守益舉正德六年會試第一」`raw/明/明史/卷283.md:53`；正德六年为1511。后文「居家二十餘年卒」不系年。此为任官年，非寿数。
+title: 王守仁高弟，江右王学
 sources:
   - work: 明史
     part: 卷283·儒林传二·邹守益
     kind: classic
 ---
+
+字谦之，安福人。举正德六年会试第一，出王守仁门，以廷对第三人授翰林院编修。逾年告归，谒守仁，讲学于赣州。宸濠反，与守仁军事。嘉靖三年，帝欲去兴献帝本生之称，守益疏谏，忤旨被责，逾月复上疏。后落职，居家二十余年，讲学不辍。

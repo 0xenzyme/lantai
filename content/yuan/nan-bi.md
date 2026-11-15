@@ -2,7 +2,7 @@
 id: nan-bi
 name: 南必
 display: 南必
-profile: brief
+profile: full
 gender: female
 polity:
   - yuan
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1283
 deathAccuracy: approx
 deathNote: 卒年不详，取1283年为活动年（非寿数）。依据「至元二十年，納為皇后，繼守正宮」（raw/元/元史/卷114.md:43）
+title: 世祖继后，预闻朝政
 sources:
   - work: 元史
     part: 后妃一
     kind: classic
 ---
+
+弘吉剌氏，纳陈孙仙童之女。至元二十年，纳为皇后，继守正宫。时世祖春秋高，颇预政事，相臣常不得见帝，辄因后奏事。有子一人，名铁蔑赤。

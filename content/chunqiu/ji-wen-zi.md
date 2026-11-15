@@ -2,7 +2,7 @@
 id: ji-wen-zi
 name: 季孙行父
 display: 季文子
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -568
 deathAccuracy: exact
 deathNote: 史记·鲁周公世家「五年，季文子卒……以相三君」（襄公五年，前568）。
+title: 鲁相，历事三君
 sources:
   - work: 史记
     part: 鲁周公世家
     kind: classic
 ---
+
+鲁世卿，相宣、成、襄三君。妾不衣帛，马不食粟，家无私积。孔子称其三思而后行。襄公五年卒，子武子立。

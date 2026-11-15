@@ -2,7 +2,7 @@
 id: lu-dinggong
 name: 姬宋
 display: 鲁定公
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -495
 deathAccuracy: exact
 deathNote: 史记·鲁周公世家「十五年，定公卒，子將立，是爲哀公」。定公元年前509，十五年得前495。
+title: 鲁君，孔子相夹谷
 sources:
   - work: 史记
     part: 鲁周公世家
     kind: classic
 ---
+
+鲁国国君。以孔子为中都宰，进为大司寇。定公十年，与齐侯会于夹谷，孔子相礼，齐归郓、讙、龟阴之田。十四年，受齐女乐，孔子行。十五年卒。

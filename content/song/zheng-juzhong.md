@@ -2,15 +2,18 @@
 id: zheng-juzhong
 name: 郑居中
 display: 郑居中
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 1123
 deathAccuracy: exact
+title: 徽宗朝太宰郑居中
 sources:
   - work: 宋史
     part: 宰輔三
     kind: classic
 ---
+
+字达夫，开封人。登进士第，以贵妃从兄弟进，大观元年同知枢密院，以外戚秉政辞。蔡京再相，助之。政和中，拜少保、太宰，存纪纲，守格令，抑侥幸。力陈不可夹攻契丹。入朝暴遇疾，数日卒，年六十五，谥文正。

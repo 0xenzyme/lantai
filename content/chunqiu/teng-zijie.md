@@ -2,7 +2,7 @@
 id: teng-zijie
 name: 滕子结
 display: 滕子结
-profile: brief
+profile: full
 gender: male
 polity:
   - teng-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -491
 deathAccuracy: exact
 deathNote: 春秋左传·哀公四年（前491）「秋，八月，甲寅，滕子結卒」（raw/春秋/春秋左傳正義/卷57.md:256）。经书滕子结卒。
+title: 滕子结，谥顷
 sources:
   - work: 春秋左传
     part: 哀公四年
     kind: classic
 ---
+
+滕君，名结。哀公四年八月卒。滕在春秋之末，介于吴、越、鲁、齐之间，岁有征求，其君谨事大国，故久不灭。

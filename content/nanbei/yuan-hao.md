@@ -2,7 +2,7 @@
 id: yuan-hao
 name: 元颢
 display: 北海王元颢
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: 529
 deathAccuracy: exact
 deathNote: 卒年承上下文推定。据「顥自轘轅出至臨潁，為臨潁縣卒所斬」raw/南北朝/北史/卷019.md:176
+title: 北海王，借梁兵入洛称帝
 sources:
   - work: 北史
     part: 卷019·献文六王
@@ -18,3 +19,5 @@ sources:
     part: 卷010·孝庄纪
     kind: classic
 ---
+
+章武王融之子，字子明。为徐州刺史，坐赃贿除名。后复王爵，兼左仆射、西道行台，讨宿勤明远，解豳、华之围。武泰初为相州刺史，属尔朱荣入洛，遂奔梁。梁武以为魏主，假兵将令其北入。永安二年入洛，据有都邑，而骄怠纵酒。庄帝讨之，为县卒所斩。

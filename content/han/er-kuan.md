@@ -2,7 +2,7 @@
 id: er-kuan
 name: 儿宽
 display: 儿宽
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -102
 deathAccuracy: approx
 deathNote: 据《汉书·公孙弘卜式儿宽传》「寬爲御史大夫……居位九歲，以官卒」：元封元年（前110）为御史大夫，居位九岁卒，推得约前102，作 approx。（原文：raw/西汉/漢書/卷058-公孫弘卜式兒寬傳.md:83）
+title: 带经而锄，为御史大夫
 sources:
   - work: 汉书
     part: 公孙弘卜式儿宽传·卷058
     kind: classic
 ---
+
+儿宽，千乘人，治《尚书》，事欧阳生，受业孔安国。贫无资用，为弟子都养，带经而锄，休息辄读诵。张汤为廷尉，奇其材，以为奏谳掾。迁左内史，表奏开六辅渠，定水令以广溉田，收租税时裁阔狭，吏民大信爱之。元封元年为御史大夫，居位九岁卒。

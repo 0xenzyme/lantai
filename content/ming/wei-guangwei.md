@@ -2,7 +2,7 @@
 id: wei-guangwei
 name: 魏广微
 display: 魏广微
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -27,3 +27,5 @@ sources:
     part: 卷110·表十一·宰辅年表二
     kind: classic
 ---
+
+南乐人，侍郎允贞子也。万历三十二年进士，历南京礼部侍郎。魏忠贤用事，以同乡同姓潜结之，召拜礼部尚书，遂与顾秉谦俱以原官兼东阁大学士。性阴狡，杨涟之劾忠贤二十四罪，忠贤属为调旨，一如忠贤意。以札通忠贤，时称「外魏公」。后许归，居二年卒于家。

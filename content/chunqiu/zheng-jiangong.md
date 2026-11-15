@@ -2,7 +2,7 @@
 id: zheng-jiangong
 name: 姬嘉
 display: 郑简公
-profile: brief
+profile: full
 gender: male
 polity:
   - zheng
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -530
 deathAccuracy: exact
 deathNote: 史记·郑世家「三十六年，簡公卒，子定公寧立」。僖公卒前566，简公立前565，三十六年得前530。
+title: 郑简公，委政子产
 sources:
   - work: 史记
     part: 郑世家
     kind: classic
 ---
+
+郑僖公之子，五岁而立。三年，子孔使尉止杀相子驷而欲自立，子产曰「子驷为不可，诛之，今又效之，是乱无时息也」，子孔从之。十二年，诛专权之子孔，以子产为卿。二十二年，吴延陵季子见子产，戒以为政必以礼。三十六年卒。

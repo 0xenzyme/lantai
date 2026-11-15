@@ -2,7 +2,7 @@
 id: wang-shenzhong
 name: 王慎中
 display: 王慎中
-profile: brief
+profile: full
 gender: male
 polity:
   - ming
@@ -12,8 +12,11 @@ birthNote: 本传作「十八舉嘉靖五年進士」`raw/明/明史/卷287.md:6
 death: 1559
 deathAccuracy: approx
 deathNote: 本传作「年五十一而終」`raw/明/明史/卷287.md:64`，不著卒年；由生年上推约1559，此系近似。
+title: 明中叶古文家，与唐顺之齐名
 sources:
   - work: 明史
     part: 卷287·王慎中传
     kind: classic
 ---
+
+字道思，晋江人。四岁能诵诗，十八举嘉靖五年进士，授户部主事。时唐顺之、陈束、李开先等咸在部曹，慎中与讲习，学大进。为文初主秦汉，已悟欧、曾之法，尽焚旧作，一意师仿曾巩，卓然成家，与顺之齐名，天下称「王、唐」。壮年废弃，益肆力古文。

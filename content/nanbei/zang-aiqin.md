@@ -2,7 +2,7 @@
 id: zang-aiqin
 name: 臧爱亲
 display: 臧爱亲
-profile: brief
+profile: full
 gender: female
 polity:
   - nan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 生年无史料直书，由卒年与享年虚岁上推。据「義熙四年正月甲午，殂於東城，時年四十八」raw/南朝/宋書/卷41.md:189
 death: 408
 deathAccuracy: exact
+title: 宋武帝敬皇后，东莞臧氏
 sources:
   - work: 宋书
     part: 卷041·后妃
     kind: classic
 ---
+
+讳爱亲，东莞人。祖汪尚书郎，父儁郡功曹。后适高祖，生会稽宣长公主兴弟。高祖以俭正率下，后恭谨不违。及高祖兴复晋室，居上相之重，而后器服粗素，不为亲属请谒。义熙四年正月甲午，殂于东城，时年四十八，追赠豫章公夫人。宋初，追尊武敬皇后。

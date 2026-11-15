@@ -2,7 +2,7 @@
 id: li-liangzuo
 name: 李谅祚
 display: 李谅祚
-profile: brief
+profile: full
 gender: male
 polity:
   - xixia
@@ -10,8 +10,11 @@ birth: 1047
 birthAccuracy: exact
 death: 1067
 deathAccuracy: exact
+title: 西夏毅宗，亲政去蕃礼
 sources:
   - work: 宋史
     part: 外国一·夏国上
     kind: classic
 ---
+
+夏景宗元昊之子，小字宁令哥，两岁即位，母没藏氏临朝。幼养于母族讹庞，讹庞因专国政，数东侵不已；既长，忌其专，讨杀之，夷其族。已而请去蕃礼，从汉仪，上书自言慕中国衣冠。后诱杀知保安军杨定，边患复起。十二月遽殂，年二十一，谥昭英皇帝，庙号毅宗。

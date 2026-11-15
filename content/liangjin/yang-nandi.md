@@ -2,13 +2,14 @@
 id: yang-nandi
 name: 杨难敌
 display: 杨难敌
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
 birthAccuracy: unknown
 death: 334
 deathAccuracy: exact
+title: 仇池氐王，刘曜所署武都王
 sources:
   - work: 资治通鉴
     part: 卷095·晋纪十七·咸和九年
@@ -17,3 +18,5 @@ sources:
     part: 卷103·载记第三·刘曜
     kind: classic
 ---
+
+仇池氐，杨茂搜之子。父卒，与弟坚头分统部曲，自号左贤王，屯下辨。刘曜亲征氐羌，难敌率众来拒，为前锋所败，退保仇池，遣使称藩，曜假黄钺，封武都王，子弟为公侯列将者十五人。后奔汉中，还袭仇池，执田崧。

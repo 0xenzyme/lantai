@@ -2,13 +2,14 @@
 id: sima-jun-fufeng
 name: 司马骏
 display: 司马骏
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 286
 deathAccuracy: exact
+title: 扶风王，关中遗爱
 sources:
   - work: 晋书
     part: 卷003·武帝纪
@@ -17,3 +18,5 @@ sources:
     part: 卷038·扶风武王骏
     kind: classic
 ---
+
+宣帝之子。督雍凉，镇关中。遣将讨树机能，二十部面缚军门，诸胡降者二十万口，由是徙封扶风王。齐王攸出镇，骏表谏恳切，帝不从，遂发病薨，追赠大司马。西土闻丧，泣者盈路，百姓为立碑，长老见碑无不下拜。

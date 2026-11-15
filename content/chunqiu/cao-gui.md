@@ -2,7 +2,7 @@
 id: cao-gui
 name: 曹刿
 display: 曹刿
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -684
 deathAccuracy: approx
 deathNote: 卒年不详，取前684年为活动下限（非寿数）。依据春秋左传正义·庄公十年「公將戰，曹劌請見。」（raw/春秋/春秋左傳正義/卷07.md:509）。
+title: 鲁勇士，长勺之战
 sources:
   - work: 春秋左传正义
     part: 庄公十年
     kind: classic
 ---
+
+鲁人曹刿。庄公十年，齐师伐鲁，公将战，刿请见，问战所凭。及战于长勺，齐人三鼓，刿曰可矣，鲁师逐齐，论一鼓作气。

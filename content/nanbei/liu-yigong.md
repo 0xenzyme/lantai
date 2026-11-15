@@ -2,7 +2,7 @@
 id: liu-yigong
 name: 刘义恭
 display: 刘义恭
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -26,3 +26,5 @@ sources:
     part: 江夏文献王义恭传
     kind: classic
 ---
+
+宋武帝之子。元嘉初封江夏王，历南徐、南兖诸州刺史，入为司徒、录尚书事，位遇隆重。世祖即位，进位太宰，号为宗臣之长。前废帝立，义恭与柳元景等谋除嬖幸戴法兴，谋泄，帝遣兵就第诛之，断析支体。

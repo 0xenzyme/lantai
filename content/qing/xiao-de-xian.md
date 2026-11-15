@@ -2,15 +2,18 @@
 id: xiao-de-xian
 name: 孝德显皇后
 display: 孝德显皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - qing
 birthAccuracy: unknown
 death: 1849
 deathAccuracy: exact
+title: 咸丰帝元配，追册孝德后
 sources:
   - work: 清史稿
     part: 卷214·孝德显皇后传
     kind: classic
 ---
+
+萨克达氏，太常寺少卿富泰女。道光二十七年，宣宗为皇子，册为嫡福晋。二十九年十二月乙亥薨。文宗即位，追册谥曰孝德皇后。权攒田村，同治初移静安庄，旋葬定陵。光绪、宣统屡加谥，曰孝德温惠诚顺慈庄恪慎徽懿恭天赞圣显皇后。

@@ -2,7 +2,7 @@
 id: shan-si
 name: 赡思
 display: 赡思
-profile: brief
+profile: full
 gender: male
 polity:
   - yuan
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 本传享年74，虚岁上推生年1278，非精确生年。依据「年七十有四」（raw/元/元史/卷190.md:196）
 death: 1351
 deathAccuracy: exact
+title: 大食裔儒宗，明习刑名
 sources:
   - work: 元史
     part: 儒学二·赡思
     kind: classic
 ---
+
+字得之，其先大食国人。大父鲁坤东迁丰州，因家真定。生九岁，日记古经传至千言。邃于经，而《易》学尤深，天文、地理、算数无不究。历台宪，所至理冤泽物，平反大辟之狱甚众，然未尝故出人罪。至正十一年卒于家，年七十四，谥文孝。

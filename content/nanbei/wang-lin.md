@@ -2,7 +2,7 @@
 id: wang-lin
 name: 王琳
 display: 王琳
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -25,3 +25,5 @@ sources:
     part: 吴明彻传
     kind: classic
 ---
+
+会稽山阴人。梁元帝时官至平南将军、湘州刺史，部曲万人，皆其旧卒。江陵陷，琳保湘州，附于北齐，齐以为司空、骠骑大将军，镇寿春。陈太建五年，吴明彻来伐，军无粮而溃，明彻虑其有变，遣左右追杀之，传首建康。

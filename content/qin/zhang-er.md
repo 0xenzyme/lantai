@@ -2,7 +2,7 @@
 id: zhang-er
 name: 张耳
 display: 张耳
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: -202
 deathAccuracy: exact
 deathNote: 张耳陈馀列传：汉五年张耳薨，谥景王。汉五年是前 202 年。
+title: 常山王，赵景王
 aliases:
   - 常山王
   - 赵景王
@@ -24,3 +25,5 @@ sources:
     part: 高祖本纪
     kind: classic
 ---
+
+大梁人，少为魏公子毋忌客，尝亡命游外黄，宦魏为外黄令。高祖为布衣时尝从之游。秦灭魏，与陈馀变姓名之陈，为里监门。从项王入关，立为常山王。陈馀击破之，亡归汉。从韩信破赵于井陉，汉立为赵王。五年，薨，谥景王。

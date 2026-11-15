@@ -2,15 +2,18 @@
 id: ding-richang
 name: 丁日昌
 display: 丁日昌
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
 birthAccuracy: unknown
 death: 1882
 deathAccuracy: exact
+title: 晚清办洋务大臣
 sources:
   - work: 清史稿
     part: 卷448·列传二百三十五（丁日昌传）
     kind: classic
 ---
+
+字禹生，广东丰顺人。以廪贡生治乡团，数却潮州寇。入曾国藩幕，李鸿章檄主上海机器局，积勋至江苏巡抚。疏陈六事，请设局编刻牧令诸书。光绪初抚福建，躬散福州水灾，全活数十万。后加总督衔，驻南洋会办海防。八年卒，恤如制。

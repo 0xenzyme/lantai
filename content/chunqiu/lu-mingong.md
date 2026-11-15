@@ -2,7 +2,7 @@
 id: lu-mingong
 name: 姬启
 display: 鲁闵公
-profile: brief
+profile: full
 gender: male
 polity:
   - lu
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -660
 deathAccuracy: exact
 deathNote: 史记·鲁周公世家「湣公二年……慶父使卜齮襲殺湣公於武闈」。湣公元年前661，二年得前660（史记湣公即春秋闵公）。
+title: 鲁君，为庆父所弑
 sources:
   - work: 史记
     part: 鲁周公世家
@@ -18,3 +19,5 @@ sources:
     part: 闵公二年
     kind: classic
 ---
+
+鲁国国君，庄公之子。庆父擅权，连弑嗣君。闵公二年，庆父使卜齮袭杀公于武闈，国人汹惧。季友立僖公，庆父出奔莒。

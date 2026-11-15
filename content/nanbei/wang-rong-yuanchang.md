@@ -2,7 +2,7 @@
 id: wang-rong-yuanchang
 name: 王融
 display: 王融
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 王融传
     kind: classic
 ---
+
+琅邪临沂人。起家晋安王国常侍。有俊才，自恃门地，日夜期以宰辅。与竟陵王萧子良相善，为西邸文士之选。永明十一年，世祖不豫，融戎服绛袍立于中书省门，欲奉子良入承顾命。事觉，诏于狱赐死，年二十七。

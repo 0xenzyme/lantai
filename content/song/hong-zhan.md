@@ -2,7 +2,7 @@
 id: hong-zhan
 name: 洪湛
 display: 洪湛
-profile: brief
+profile: full
 gender: male
 polity:
   - song
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1003
 deathAccuracy: approx
 deathNote: 咸平五年春狱事之后，「六年，会赦移惠州，至化州调马驿卒，年四十一」（raw/宋/宋史/卷441.md:189）。六年上承咸平。
+title: 伏阁请立太子者
 sources:
   - work: 宋史
     part: 文苑三
     kind: classic
 ---
+
+字惟清，升州上元人。五岁能诗，未冠录所著为《龆年集》。雍熙二年廷试高等。端拱初伏阁请立许王，贬知容州。后五使西北议边要，真宗有意擢任。咸平五年坐任懿贿案，削籍流儋州，赦移惠州，卒于化州调马驿，年四十一。

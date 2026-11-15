@@ -2,15 +2,18 @@
 id: zhen-fei
 name: 珍妃
 display: 珍妃
-profile: brief
+profile: full
 gender: female
 polity:
   - qing
 birthAccuracy: unknown
 death: 1900
 deathAccuracy: exact
+title: 光绪帝珍妃，庚子沉井
 sources:
   - work: 清史稿
     part: 卷214·恪顺皇贵妃传
     kind: classic
 ---
+
+他他拉氏，端康皇贵妃女弟。同选为珍嫔，进珍妃。以忤太后，谕责其习尚奢华，屡有乞请，降贵人，逾年仍封珍妃。二十六年，太后出巡，沈于井。二十七年，上还京师，追进皇贵妃，葬西直门外，移祔崇陵。

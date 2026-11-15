@@ -2,15 +2,18 @@
 id: wang-mi-zhiyuan
 name: 王谧
 display: 王谧
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 407
 deathAccuracy: exact
+title: 东晋司徒，奉玺于桓玄
 sources:
   - work: 晋书
     part: 卷065·王导传附谧
     kind: classic
 ---
+
+字稚远，王导之后。少有美誉，历黄门郎、侍中。桓玄举兵，衔命诣玄，深见敬昵，玄篡，以谧兼太保，奉玺册，封武昌县开国公。刘裕为布衣，众未之识，谧独奇之，谓当为一代英雄。裕破玄，谧领扬州刺史、录尚书事。义熙三年卒，年四十八。

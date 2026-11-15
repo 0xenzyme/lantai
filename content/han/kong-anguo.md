@@ -2,7 +2,7 @@
 id: kong-anguo
 name: 孔安国
 display: 孔安国
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -91
 deathAccuracy: approx
 deathNote: 卒年不详。史记·孔子世家「安國為今皇帝博士，至臨淮太守，蚤卒」（raw/先秦-西汉/史記/卷047-孔子世家.md:190）；汉书·儒林传「遭巫蠱，未立於學官」（raw/西汉/漢書/卷088-儒林傳.md:73）。巫蛊之祸本库系征和二年前91。取此年为可见活动下限，非寿数。刘歆移书另有「天汉之后」，本库未系天汉绝对年，不取无出处的前130。
+title: 孔氏古文尚书，司马迁问故
 sources:
   - work: 史记
     part: 孔子世家
@@ -18,3 +19,5 @@ sources:
     part: 儒林传
     kind: classic
 ---
+
+孔安国，孔子后裔，为武帝博士。孔氏有古文《尚书》，安国以今文字读之，因以起其家，逸《书》得十余篇，遭巫蛊未立于学官。为谏大夫，授都尉朝，而司马迁亦从安国问故，迁书载《尧典》《禹贡》诸篇，多古文说。儿宽受业安国，后至御史大夫。

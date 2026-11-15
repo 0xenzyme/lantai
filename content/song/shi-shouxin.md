@@ -2,15 +2,18 @@
 id: shi-shouxin
 name: 石守信
 display: 石守信
-profile: brief
+profile: full
 gender: male
 polity:
   - song
 birthAccuracy: unknown
 death: 984
 deathAccuracy: exact
+title: 宋初释兵权，封威武郡王
 sources:
   - work: 宋史
     part: 石守信传
     kind: classic
 ---
+
+开封浚仪人。事后周，从征高平、淮南，迁殿前都指挥使。宋初，与高怀德平李筠于泽潞，加同平章事；李重进反，为行营都部署，果克其城。乾德初，太祖因晚朝与饮，谕以释兵，遂称病乞解，以散官就第。太平兴国九年卒，年五十七，追封威武郡王，谥武烈。

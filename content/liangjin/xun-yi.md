@@ -2,15 +2,18 @@
 id: xun-yi
 name: 荀顗
 display: 荀顗
-profile: brief
+profile: full
 gender: male
 polity:
   - jin
 birthAccuracy: unknown
 death: 274
 deathAccuracy: exact
+title: 西晋太尉，奉诏定晋礼
 sources:
   - work: 晋书
     part: 卷039·荀顗传
     kind: classic
 ---
+
+字景倩，魏太尉彧之第六子。性至孝，博学洽闻。为魏少帝执经，预讨毌丘俭、文钦有功。咸熙中迁司空。武帝践祚，进爵为公，拜司徒，迁太尉，行太子太傅。及蜀平，奉命定礼仪，上请羊祜等撰定晋礼，又奉命定乐。泰始十年薨，谥康，配飨清庙。

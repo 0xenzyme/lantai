@@ -2,15 +2,18 @@
 id: da-na-shi-li
 name: 答纳失里
 display: 答纳失里
-profile: brief
+profile: full
 gender: female
 polity:
   - yuan
 birthAccuracy: unknown
 death: 1335
 deathAccuracy: exact
+title: 顺帝首任皇后，见鸩
 sources:
   - work: 元史
     part: 后妃一
     kind: classic
 ---
+
+钦察氏，太师太平王燕铁木儿之女。至顺四年，立为后，元统二年授册宝。三年，后兄御史大夫唐其势以谋逆诛，弟塔剌海走匿后宫，后以衣蔽之，因迁后出宫，丞相伯颜鸩后于开平民舍。

@@ -2,7 +2,7 @@
 id: qiguo-yingong
 name: 杞隐公
 display: 杞隐公
-profile: brief
+profile: full
 gender: male
 polity:
   - qi-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -506
 deathAccuracy: exact
 deathNote: 史记·陈杞世家（前506）「七月，隱公弟遂弒隱公自立」（raw/先秦-西汉/史記/卷036-陳杞世家.md:72）。同段先书「悼公十二年卒，子隱公乞立」。左传定公四年（前506）杞伯成卒于会，成即悼公。弑隐公在同年七月，取前506。
+title: 杞国国君，为弟所弑
 sources:
   - work: 史记
     part: 陈杞世家
@@ -18,3 +19,5 @@ sources:
     part: 定公四年
     kind: classic
 ---
+
+杞伯，名乞。孝公卒而立，同年七月，其弟遂弑之而自立，是为僖公。杞在春秋最为小弱，又内相贼，故卒以不振。

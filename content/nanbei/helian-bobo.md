@@ -2,7 +2,7 @@
 id: helian-bobo
 name: 赫连勃勃
 display: 赫连勃勃
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
@@ -27,3 +27,5 @@ sources:
     part: 铁弗刘虎传
     kind: classic
 ---
+
+鲜卑铁弗氏，刘卫辰之子。仕秦为将，遂据朔方。晋义熙三年，僭称天王于统万，国号大夏。性残忍，嗜杀戮。魏太武袭统万，夏以亡。始光二年死，子昌立。

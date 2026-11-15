@@ -2,7 +2,7 @@
 id: xiao-xian-583
 name: 萧铣
 display: 萧铣
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -11,8 +11,11 @@ birthAccuracy: approx
 birthNote: 舊唐書·卷56 本傳作「竟斬於都市，年三十九」而無生年，資治通鑑·卷189 繫武德四年（621）斬於都市（raw/通代/資治通鑑/卷189.md:188），生年由卒年與年數上推，非以年數為壽數。
 death: 621
 deathAccuracy: exact
+title: 后梁宗室，江陵称帝
 sources:
   - work: 资治通鉴
     part: 卷189·唐纪五
     kind: classic
 ---
+
+后梁宣帝曾孙也。少孤贫，佣书自给，事母以孝闻。炀帝时以外戚为罗川令。大业十三年，董景珍等推铣为主，自称梁王，义宁二年僭称皇帝，都江陵，胜兵四十余万。然性疑忌，大臣相次诛戮，兵势日弱。武德四年，孝恭、李靖进讨，铣出降，斩于京师，年三十九。

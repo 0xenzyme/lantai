@@ -2,7 +2,7 @@
 id: zhuang-zhou
 name: 庄子
 display: 庄子
-profile: brief
+profile: full
 gender: male
 polity:
   - song-guo
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -329
 deathAccuracy: approx
 deathNote: 生卒不详，取前329年为活动年（非寿数）。据史记·老子韩非列传（raw/先秦-西汉/史記/卷063-老子韓非列傳.md:38）「楚威王聞莊周賢，使使厚幣迎之」。楚威王卒年本库前329。史记只称蒙人，未写宋；词表无蒙，暂标宋国。
+title: 蒙漆园吏，终身不仕
 aliases:
   - 庄周
 sources:
@@ -17,3 +18,5 @@ sources:
     part: 老子韩非列传
     kind: classic
 ---
+
+蒙人，名周，尝为蒙漆园吏，与梁惠王、齐宣王同时。其学无所不窥，要本归于老子之言，著书十余万言，大抵率寓言也。楚威王闻庄周贤，使使厚币迎之，许以为相。周笑谓使者曰「子独不见郊祭之牺牛乎？养食数岁，衣以文绣，以入大庙」，宁游戏污渎之中自快，无为有国者所羁，终身不仕。

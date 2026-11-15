@@ -2,7 +2,7 @@
 id: han-guang
 name: 韩广
 display: 韩广
-profile: brief
+profile: full
 gender: male
 polity:
   - qin
@@ -12,6 +12,7 @@ birthAccuracy: unknown
 death: -206
 deathAccuracy: approx
 deathNote: 项羽本纪汉之元年：臧荼之国，因逐韩广之辽东，广弗听，荼击杀广无终。汉元年是前 206 年；本纪只系其年，不著月份，故不标 exact。
+title: 燕王，项王徙为辽东王
 aliases:
   - 燕王广
   - 辽东王
@@ -24,3 +25,5 @@ sources:
     part: 高祖本纪
     kind: classic
 ---
+
+故上谷卒史，陈涉使将兵北徇燕地，燕人因立广为燕王。项王既定诸侯，徙广为辽东王。臧荼之国，因逐广之辽东，广弗听，荼击杀广于无终，并王其地。

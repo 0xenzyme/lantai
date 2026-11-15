@@ -2,7 +2,7 @@
 id: wei-rui
 name: 韦叡
 display: 韦叡
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 韦叡传
     kind: classic
 ---
+
+京兆杜陵人。梁武起兵，首赞其谋。为豫州刺史，有政声。天监六年，与曹景宗救钟离，魏中山王元英众号百万，叡为诸军之冠，夜以水军火攻其邵阳洲桥，钟离之围遂解。普通元年八月卒于家，年七十九。

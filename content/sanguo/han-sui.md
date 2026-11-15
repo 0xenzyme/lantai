@@ -2,7 +2,7 @@
 id: han-sui
 name: 韩遂
 display: 韩遂
-profile: brief
+profile: full
 gender: male
 polity:
   - han
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 215
 deathAccuracy: disputed
 deathNote: 卒年有异说（214 / 215）：《武帝纪》系「西平、金城诸将麴演、蒋石等共斩送韩遂首」于建安二十年（215）五月之后。两说并存，取 215，不取一为精确。 raw/三国/三國志/卷01.md:210
+title: 西州名将，割据凉州
 sources:
   - work: 三国志
     part: 魏书一 武帝纪
     kind: classic
 ---
+
+韩遂字文约，金城人，与同郡边章俱著名西州。汉末举兵，众十余万；后与马腾结为异姓兄弟，又以部曲相侵，更为仇敌。建安十六年，与马超等拒曹操于潼关，为贾诩所谋，渭南一战大溃。遂走西平，依氐王千万。建安二十年，西平、金城诸将麴演、蒋石等共斩送其首，遂死，年七十余。

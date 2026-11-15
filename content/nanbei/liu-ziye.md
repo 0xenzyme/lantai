@@ -2,7 +2,7 @@
 id: liu-ziye
 name: 刘子业
 display: 宋前废帝刘子业
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 前废帝纪
     kind: classic
 ---
+
+宋孝武帝长子。大明八年立为皇太子。孝武帝崩，即帝位，年十六。诛害宰辅，宗室诸王无得免者。湘东王彧等幽之于宫中，寿寂之怀刀直入，追斩之，时年十七。在位一年，改元景和，史称前废帝。

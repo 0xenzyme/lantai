@@ -2,7 +2,7 @@
 id: yuan-baoju
 name: 元宝炬
 display: 西魏文帝元宝炬
-profile: brief
+profile: full
 gender: male
 polity:
   - bei
@@ -25,3 +25,5 @@ sources:
     part: 文帝纪下
     kind: classic
 ---
+
+北魏宗室，封南阳王，位太尉公。孝武西入关，齐神武立清河王亶，亶南走，宇文泰奉宝炬即皇帝位，都长安，改元大统，是称西魏文帝。军国政事一决于泰，在位十七年。大统十七年春三月崩，皇太子钦嗣位。

@@ -2,7 +2,7 @@
 id: yu-zhongwen
 name: 于仲文
 display: 于仲文
-profile: brief
+profile: full
 gender: male
 polity:
   - sui
@@ -12,8 +12,11 @@ birthNote: 隋書·卷60 本傳作「卒于家，時年六十八」，生年由�
 death: 612
 deathAccuracy: disputed
 deathNote: 資治通鑑·卷181 繫大業八年（612）「仲文憂恚，發病困篤，乃出之，卒於家」（raw/通代/資治通鑑/卷181.md:182）；隋書·卷60 只作「卒于家，時年六十八」而無年，他書或繫大業九年，取 612 一說並存異。
+title: 破尉迥的明断之将
 sources:
   - work: 资治通鉴
     part: 卷181·隋纪五
     kind: classic
 ---
+
+字次武，建平公义之兄子。少聪敏，九岁见周太祖，对曰「资父事君，忠孝而已」。尉迥之乱，拒诱致命，羸师破檀让于蓼堤，诈取金乡，伏兵破席毗罗，河南悉平，拜柱国。辽东之役，破高丽辎重于乌骨城；及萨水败绩，诸将委罪，独系仲文，忧恚发病卒，年六十八。

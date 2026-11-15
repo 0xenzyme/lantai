@@ -2,7 +2,7 @@
 id: wei-xianggong
 name: 姬惡
 display: 卫襄公
-profile: brief
+profile: full
 gender: male
 polity:
   - wei-guo
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: -535
 deathAccuracy: exact
 deathNote: 史记·卫康叔世家「九年，襄公卒」。献公卒前544，襄公立前543，九年得前535。
+title: 卫君，康叔托梦
 sources:
   - work: 史记
     part: 卫康叔世家
     kind: classic
 ---
+
+卫襄公恶，献公之子。楚灵王会诸侯，襄公称病不往。贱妾有身，梦人谓曰「我康叔也，令尔子必有卫」。既生男元，襄公曰「天所置也」。夫人无子，乃立元为嗣，是为灵公。九年卒。

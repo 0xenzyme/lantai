@@ -2,7 +2,7 @@
 id: chen-xuangong
 name: 媯杵臼
 display: 陈宣公
-profile: brief
+profile: full
 gender: male
 polity:
   - chen
@@ -10,6 +10,7 @@ birthAccuracy: unknown
 death: -648
 deathAccuracy: exact
 deathNote: 春秋经·僖公十二年「陳侯杵臼卒」（前648）。史记·陈杞世家「四十五年，宣公卒」顺推差一年，从经传。
+title: 陈侯，太子见杀完奔齐
 sources:
   - work: 春秋左传
     part: 僖公十二年
@@ -18,3 +19,5 @@ sources:
     part: 陈杞世家
     kind: classic
 ---
+
+陈宣公，名杵臼。杀太子御寇，公子完惧祸奔齐，齐桓公以为工正，陈氏之族因著于齐。卒于前648年，子穆公款立。

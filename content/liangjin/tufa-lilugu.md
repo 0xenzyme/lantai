@@ -2,13 +2,14 @@
 id: tufa-lilugu
 name: 秃发利鹿孤
 display: 秃发利鹿孤
-profile: brief
+profile: full
 gender: male
 polity:
   - shiliuguo
 birthAccuracy: unknown
 death: 402
 deathAccuracy: exact
+title: 南凉康王，建学延胄子
 sources:
   - work: 资治通鉴
     part: 卷112·晋纪三十四·元兴元年
@@ -17,3 +18,5 @@ sources:
     part: 载记第二十六·秃发利鹿孤
     kind: classic
 ---
+
+河西鲜卑秃发部，乌孤之弟。乌孤坠马死，利鹿孤立，徙居西平。使麹梁明聘于段业，以兄终弟及自解。败吕纂于三堆，傉檀乘虚袭姑臧。纳史暠之言，建学而延胄子。寝疾，令车骑嗣业。在位三年死，伪谥康王。

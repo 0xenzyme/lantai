@@ -2,7 +2,7 @@
 id: luo-bu-cang-dan-jin
 name: 罗卜藏丹津
 display: 罗卜藏丹津
-profile: brief
+profile: full
 gender: male
 polity:
   - mongol
@@ -10,8 +10,11 @@ birthAccuracy: unknown
 death: 1723
 deathAccuracy: approx
 deathNote: 生卒无考。清史稿卷517作雍正元年（1723）青海酋罗卜藏丹津叛；今以该事件年为活动下限系年，非寿数。raw/清/清史稿/卷517.md:70
+title: 青海蒙古叛酋
 sources:
   - work: 清史稿
     part: 卷517·土司六·甘肃
     kind: classic
 ---
+
+青海和硕特蒙古，顾实汗之裔。雍正元年，据青海叛，犯西宁。年羹尧拜大将军，岳钟琪为前锋，直捣其巢。罗卜藏丹津遁入准部，余众悉降。

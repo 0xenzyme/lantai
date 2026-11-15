@@ -2,7 +2,7 @@
 id: liu-dan-jingling
 name: 刘诞
 display: 刘诞
-profile: brief
+profile: full
 gender: male
 polity:
   - nan
@@ -27,3 +27,5 @@ sources:
     part: 竟陵王诞传
     kind: classic
 ---
+
+宋文帝第六子，封竟陵王。历雍州刺史、南兖州刺史，有兵略。与中书令袁顗相结，蓄异志。大明三年七月，据广陵反，官军克城，斩之，传首京邑。

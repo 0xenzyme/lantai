@@ -2,7 +2,7 @@
 id: li-shanlan
 name: 李善兰
 display: 李善兰
-profile: brief
+profile: full
 gender: male
 polity:
   - qing
@@ -13,6 +13,7 @@ birthAccuracy: unknown
 death: 1884
 deathAccuracy: exact
 deathNote: 清史稿·卷507·畴人传·李善兰：咸丰初客上海，与伟烈亚力同译几何原本后九卷、代微积拾级，粤匪陷吴越后依曾国藩军中，同治七年用巡抚郭嵩焘荐征入同文馆，充算学总教习、总理衙门章京，授户部郎中、三品卿衔，「光绪十年，卒于官，年垂七十」。年号明载，即 1884 年。「年垂七十」是举成数而非确岁，故生年不上推。
+title: 晚清算学名家
 aliases:
   - 壬叔
   - 秋纫
@@ -21,3 +22,5 @@ sources:
     part: 卷507·畴人传·李善兰
     kind: classic
 ---
+
+字壬叔，浙江海宁人。诸生，从陈奂受经，于算术好之独深。咸丰初客上海，与伟烈亚力同译《几何原本》后九卷、《代微积拾级》。同治七年征入同文馆，充算学总教习，授户部郎中、三品卿衔。光绪十年卒于官，年垂七十。

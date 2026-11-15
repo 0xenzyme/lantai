@@ -2,13 +2,14 @@
 id: pei-guangting
 name: 裴光庭
 display: 裴光庭
-profile: brief
+profile: full
 gender: male
 polity:
   - tang
 birthAccuracy: unknown
 death: 733
 deathAccuracy: exact
+title: 开元宰相，行循资格
 sources:
   - work: 新唐书
     part: 卷62·表第二 宰相中
@@ -17,3 +18,5 @@ sources:
     part: 卷8·本纪第八 玄宗上
     kind: classic
 ---
+
+裴光庭，裴行俭之子。早孤，母库狄氏入宫，因得进。开元十三年，玄宗将封泰山，张说欲加兵备边，光庭曰：封禅所以告成功，告成而惧夷狄，何以昭德。十七年，拜中书侍郎、同平章事，迁侍中，兼吏部尚书，奏用循资格。后封正平男，卒年五十八，谥忠献。

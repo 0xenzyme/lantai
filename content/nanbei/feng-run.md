@@ -2,7 +2,7 @@
 id: feng-run
 name: 冯润
 display: 孝文幽皇后冯润
-profile: brief
+profile: full
 gender: female
 polity:
   - bei
@@ -26,3 +26,5 @@ sources:
     part: 皇后传·孝文幽皇后
     kind: classic
 ---
+
+冯熙之女，冯太后之侄女。孝文初入掖庭为夫人，病归。太后崩，复入，进昭仪，遂有宠。性妒，谮废孝文皇后。孝文崩，为遗诏所命，强饮椒酒而尽。
