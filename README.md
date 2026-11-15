@@ -105,10 +105,10 @@ npm run content:check              # 校验编译结果，不重写文件
 
 需要批量新增或修订历史内容时，使用[内容生产与自动准入](docs/内容工作流.md)工作流。它把研究与起草、独立审核、自动准入分到不同会话，避免同一会话既起草又批准。
 
-- **执行会话**读取 `.agents/skills/event-production/SKILL.md`：研究并准备候选批次，运行只读预检，然后停在待审状态。
-- **审核会话**读取 `.agents/skills/event-review/SKILL.md`：核对史料与完整候选，记录结论后运行准入工具，自动应用通过项、保留未通过项。
+- **事件**：执行会话读取 `.agents/skills/event-production/SKILL.md`，研究并准备候选批次，运行只读预检后停在待审状态；审核会话读取 `.agents/skills/event-review/SKILL.md`，核对史料与完整候选后运行准入工具。
+- **人物**：执行会话读取 `.agents/skills/people-production/SKILL.md`（`publish` 发布新人物、`revise` 修订已登记人物）；审核会话读取 `.agents/skills/people-review/SKILL.md`。
 
-两个入口当前只覆盖事件。人物与 Collection 仍按上文的手动命令维护。候选材料保存在本地 `workspace/content/`，该目录不随站点公开，也不进入 Git。
+两个方向共用同一 envelope 协议与自动准入工具，自动应用通过项、保留未通过项。Collection 仍按上文的手动命令维护。候选材料保存在本地 `workspace/content/`，该目录不随站点公开，也不进入 Git。
 
 ## 史料与准确性
 
