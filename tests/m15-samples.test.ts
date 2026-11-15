@@ -33,7 +33,7 @@ test('李白作品、经历、出处与别名贯通正式 loader，不生成安�
 
 test('资料不足人物缺省读取，不伪造年份、归属或可选字段', async () => {
   globalThis.fetch = localFetch as typeof fetch;
-  const brief = await loadPersonDetail('public/data/people/yuan-shang.json', 'yuan-shang');
+  const brief = await loadPersonDetail('public/data/people/duan-suying.json', 'duan-suying');
   assert.equal(brief.profile, 'brief');
   assert.equal(brief.birthAccuracy, 'unknown');
   assert.equal(brief.bio, undefined);
