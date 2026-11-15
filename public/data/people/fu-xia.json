@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -680,
   "deathAccuracy": "exact",
+  "title": "郑大夫，纳厉公",
+  "bio": "郑大夫傅瑕。厉公在栎，侵郑获瑕，瑕请纳君而盟。瑕遂杀郑子及其二子，纳厉公。厉公入，以贰诛之。",
   "polity": [
     "zheng"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

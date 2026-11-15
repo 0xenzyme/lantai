@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -481,
   "deathAccuracy": "exact",
+  "title": "孟懿子，孔子弟子",
+  "bio": "鲁卿，孟僖子之子，谥懿，世称孟懿子。尝问孝于孔子，孔子告以无违。定公十二年，与季孙斯帅师堕费。哀公十四年卒。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

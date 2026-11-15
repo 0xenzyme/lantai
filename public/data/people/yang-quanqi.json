@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 399,
   "deathAccuracy": "exact",
+  "title": "东晋雍州刺史，枭首朱雀门",
+  "bio": "弘农华阴人，汉太尉震之后，七世有名德。沈勇果劲，自云门户承籍，江表莫比。以击走苻坚将潘猛、窦冲，拜龙骧将军。殷仲堪引为司马，代郗恢为雍州刺史。隆安三年，桓玄举兵，佺期与仲堪战败，单马奔襄阳，为追兵所获，传首京都，枭于朱雀门。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

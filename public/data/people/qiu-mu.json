@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -682,
   "deathAccuracy": "exact",
+  "title": "宋大夫，死君之难",
+  "bio": "宋大夫。南宫长万弑闵公于蒙泽，仇牧闻之趋入，当阶而叱，万怒击杀之。说者谓仇牧不畏强御，盖能死其官者也。",
   "polity": [
     "song-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

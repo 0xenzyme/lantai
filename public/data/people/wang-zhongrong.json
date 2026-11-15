@@ -6,12 +6,14 @@
   "death": 887,
   "deathAccuracy": "approx",
   "deathNote": "光启三年（887）为部将常行儒所杀；「三年」承同段光启纪年。 — raw/唐/新唐書/卷187.md:32",
+  "title": "河中节度使，平黄巢",
+  "bio": "王重荣，太原祁人，为河中牙将。黄巢陷长安，节度使李都臣贼，胁说绝桥自守，斩贼使，主留后。败朱温舟师，说降温，赐名全忠。会杨复光荐李克用，遂平巢复京师，封琅邪郡王。后与田令孜争盐池，引克用败朱玫，斩嗣襄王煴。光启三年，为部将常行儒所杀。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

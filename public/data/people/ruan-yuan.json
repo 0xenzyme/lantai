@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1849,
   "deathAccuracy": "exact",
+  "title": "乾嘉学者，一代师表",
+  "bio": "江苏仪征人，字伯元。乾隆五十四年进士，历巡抚、总督。倡设学海堂、诂经精舍，刊《十三经注疏》《经籍纂诂》，著《畴人传》。卒谥文达。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

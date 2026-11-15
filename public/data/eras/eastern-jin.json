@@ -4,13 +4,272 @@
   "from": 317,
   "to": 420,
   "contractVersion": 1,
+  "summary": "从司马睿建康即位到刘裕代晋，东晋历公元 317—420 年；门阀政治、屡兴北伐与淝水之战构成偏安江左的主线。",
   "group": "weijin-nanbei",
-  "personCount": 0,
+  "personCount": 254,
   "eventCount": 28,
-  "founderRecords": [],
-  "topics": [],
-  "people": [],
+  "body": "本页按现有收录组织东晋阅读。人物来自两晋十六国专题的编辑选取，门阀士族与北伐将帅在列；事件按朝代区间与显式推荐确定，刘裕代晋以后归入南北朝。",
+  "capitals": [
+    {
+      "name": "建康",
+      "note": "东晋都城，在今江苏南京。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "sima-rui",
+      "name": "司马睿",
+      "display": "晋元帝司马睿",
+      "birth": 276,
+      "birthAccuracy": "exact",
+      "death": 323,
+      "deathAccuracy": "exact",
+      "title": "东晋元帝，王与马共天下",
+      "bio": "司马懿曾孙，琅邪王觐之子。永嘉之乱后以安东将军镇建康，用王导之谋，收江东士族之心。建武元年即晋王位，明年称帝，都建康。政出王氏，导内而敦外，时人语曰「王与马，共天下」。永昌元年忧愤成疾而崩，年四十七。",
+      "tags": [
+        "东晋",
+        "衣冠南渡"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "topics": [
+    "liangjin"
+  ],
+  "people": [
+    {
+      "id": "sima-rui",
+      "name": "司马睿",
+      "display": "晋元帝司马睿",
+      "birth": 276,
+      "birthAccuracy": "exact",
+      "death": 323,
+      "deathAccuracy": "exact",
+      "title": "东晋元帝，王与马共天下",
+      "bio": "司马懿曾孙，琅邪王觐之子。永嘉之乱后以安东将军镇建康，用王导之谋，收江东士族之心。建武元年即晋王位，明年称帝，都建康。政出王氏，导内而敦外，时人语曰「王与马，共天下」。永昌元年忧愤成疾而崩，年四十七。",
+      "tags": [
+        "东晋",
+        "衣冠南渡"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-dao",
+      "name": "王导",
+      "display": "王导",
+      "birth": 276,
+      "birthAccuracy": "exact",
+      "death": 339,
+      "deathAccuracy": "exact",
+      "title": "丞相，江东衣冠之主，愦愦之政",
+      "bio": "琅邪临沂人，王览之孙。与元帝素相亲善，倾心推奉，为之定江东之计，招顾荣、贺循以收吴士。历事元、明、成三帝，为相二十余年，务在清静，每劝帝克己励节。晚年尤简素，自言「人言我愦愦，后人当思此愦愦」。咸康五年卒，年六十四。",
+      "tags": [
+        "东晋",
+        "琅邪王氏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huan-wen",
+      "name": "桓温",
+      "display": "桓温",
+      "birth": 312,
+      "birthAccuracy": "exact",
+      "death": 373,
+      "deathAccuracy": "exact",
+      "title": "大司马，灭成汉、三伐北方，欲加九锡",
+      "bio": "谯国龙亢人，宣城太守彝之子，尚南康长公主。永和三年灭成汉，由是威名日盛，前后北伐三度，一度至灞上、枋头，终以粮尽而还。尝抚枕叹曰「既不能流芳后世，不足复遗臭万载邪」。太和六年废帝奕，立简文，谋加九锡未成。宁康元年卒，年六十二。",
+      "tags": [
+        "东晋",
+        "北伐"
+      ],
+      "categories": [
+        "regent",
+        "general",
+        "official"
+      ],
+      "primary": "regent",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xie-an",
+      "name": "谢安",
+      "display": "谢安",
+      "birth": 320,
+      "birthAccuracy": "exact",
+      "death": 385,
+      "deathAccuracy": "exact",
+      "title": "太保，围棋赌墅，淝水之主",
+      "bio": "陈郡阳夏人，少有重名，累辟不起，隐居东山，与王羲之、支遁游，年四十余始出。为宰相，以静镇之，桓温死而晋室安。太元八年苻坚南下，安以谢石、谢玄八万拒之，围棋赌墅以示不惊，既捷而过户限，不觉屐齿之折。太元十年卒，年六十六。",
+      "tags": [
+        "东晋",
+        "淝水",
+        "陈郡谢氏"
+      ],
+      "categories": [
+        "chancellor",
+        "official"
+      ],
+      "primary": "chancellor",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "xie-xuan",
+      "name": "谢玄",
+      "display": "谢玄",
+      "birth": 343,
+      "birthAccuracy": "exact",
+      "death": 388,
+      "deathAccuracy": "exact",
+      "title": "前将军，北府兵之帅，淝水前锋",
+      "bio": "陈郡阳夏人，谢安之侄。为兖州刺史，募京口劲勇，号北府兵，刘牢之、何谦皆其部。太元八年淝水之战为前锋，以八千破前秦十数万，风声鹤唳、草木皆兵。后乘胜北伐至邺，以叔父安卒、朝廷掣肘而还。太元十三年卒，年四十六。",
+      "tags": [
+        "东晋",
+        "淝水",
+        "北府兵"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-xizhi",
+      "name": "王羲之",
+      "display": "王羲之",
+      "birth": 303,
+      "birthAccuracy": "exact",
+      "death": 361,
+      "deathAccuracy": "exact",
+      "title": "右军将军，兰亭集序，书圣",
+      "bio": "琅邪临沂人，王导从子。起家秘书郎，为右军将军、会稽内史。永和九年与谢安、孙绰等四十一人会于会稽山阴之兰亭，修禊赋诗，其序三百二十四字，为天下第一行书。骨鲠称疾去郡，与道士许迈共修服食。升平五年卒，年五十九，赠金紫光禄大夫。",
+      "tags": [
+        "东晋",
+        "兰亭"
+      ],
+      "categories": [
+        "calligraphy",
+        "official"
+      ],
+      "primary": "calligraphy",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "events": [
+    {
+      "id": "zuti-beifa",
+      "name": "祖逖北伐",
+      "display": "祖逖北伐",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "campaign",
+      "importance": 2,
+      "year": 313,
+      "yearAccuracy": "exact",
+      "yearNote": "建兴元年（313）祖逖拜奋威将军、豫州刺史，率部曲百余家渡江，中流击楫而誓。《晋书·祖逖传》未系年，起兵年份据《资治通鉴》卷八十八建兴元年（已核 wikisource 原文），中国纪年口径。",
+      "endYear": 321,
+      "endYearAccuracy": "exact",
+      "endYearNote": "大兴四年（321）九月壬寅，镇西将军、豫州刺史祖逖卒（《晋书·元帝纪》）；本传云'俄卒于雍丘，时年五十六'，北伐随之中止。",
+      "place": "谯城",
+      "placeNow": "今安徽亳州一带",
+      "belligerents": [
+        "jin",
+        "shiliuguo"
+      ],
+      "commanders": [
+        {
+          "id": "zu-ti",
+          "side": "jin"
+        },
+        {
+          "id": "shi-hu",
+          "side": "shiliuguo"
+        }
+      ],
+      "people": [
+        "zu-ti",
+        "sima-rui",
+        "liu-kun",
+        "shi-le",
+        "shi-hu"
+      ],
+      "result": "黄河以南尽为晋土，与后赵隔河对峙；祖逖卒后成果尽失",
+      "tags": [
+        "campaign",
+        "北伐"
+      ],
+      "dynasties": [
+        "western-jin",
+        "eastern-jin",
+        "shiliuguo"
+      ],
+      "desc": "建兴元年（313）祖逖率部曲百余家渡江，中流击楫而誓；经谯城、雍丘诸役连挫后赵石虎、桃豹，大兴三年（320）前后黄河以南尽为晋土，石勒不敢窥兵河南、求通使交市。大兴四年（321）祖逖卒于雍丘，北伐遂止，收复之地相继复失。",
+      "sources": [
+        {
+          "work": "晋书",
+          "part": "卷六",
+          "kind": "classic"
+        },
+        {
+          "work": "晋书",
+          "part": "卷六十二",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷八十八",
+          "kind": "classic"
+        }
+      ]
+    },
     {
       "id": "simarui-dengji",
       "name": "司马睿即位建东晋",
@@ -117,53 +376,6 @@
       ]
     },
     {
-      "id": "mogaoku-kaizhuo",
-      "name": "敦煌莫高窟开凿",
-      "display": "敦煌莫高窟开凿",
-      "kind": "point",
-      "type": "cultural",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 366,
-      "yearAccuracy": "exact",
-      "yearNote": "武周圣历元年（698）《李克让重修莫高窟佛龛碑》记前秦建元二年沙门乐僔至敦煌鸣沙山造窟一龛，建元二年即 366 年。366 年敦煌名义上属前凉张天锡，碑文记年用前秦年号。",
-      "place": "莫高窟",
-      "placeNow": "今甘肃敦煌东南鸣沙山东麓",
-      "polity": [
-        "shiliuguo"
-      ],
-      "result": "戈壁崖壁上的石窟群自此发端，丝路佛教艺术在河西落地生根",
-      "aliases": [
-        "莫高窟",
-        "敦煌石窟",
-        "千佛洞"
-      ],
-      "tags": [
-        "佛教",
-        "石窟",
-        "丝路"
-      ],
-      "dynasties": [
-        "eastern-jin",
-        "shiliuguo"
-      ],
-      "desc": "前秦建元二年（366）沙门乐僔杖锡西行，至敦煌鸣沙山，见金光状有千佛显现，乃于崖面凿窟一龛，禅修其中；其后法良禅师自东而至，于乐僔窟侧更即营建，后世碑记称「伽蓝之起，滥觞于二僧」。崖面自此不断有新窟凿出，历十六国、北朝、隋唐而续建千余年，塑绘累增至七百余窟。敦煌地接西域、道俗交得，其地早有塔寺之设（《魏书·释老志》），莫高窟起后成为丝路上规模最大、保存最完整的一处佛教石窟群。乐僔、法良生卒无考，全库暂无 canonical 人物条目，故本条只记事件。",
-      "sources": [
-        {
-          "work": "李克让重修莫高窟佛龛碑",
-          "part": "碑文",
-          "kind": "classic"
-        },
-        {
-          "work": "魏书",
-          "part": "释老志",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
       "id": "feishui-zhizhan",
       "name": "淝水之战",
       "display": "淝水之战",
@@ -252,50 +464,6 @@
       ]
     },
     {
-      "id": "beiwei-jianli",
-      "name": "北魏立国",
-      "display": "北魏立国",
-      "kind": "point",
-      "type": "political",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 386,
-      "yearAccuracy": "exact",
-      "yearNote": "386 年（登国元年）拓跋珪复国称代王；改国号魏、称皇帝、都平城在 398 年（天兴元年），通史以 386 为北朝起点。",
-      "place": "盛乐",
-      "placeNow": "今内蒙古和林格尔北",
-      "polity": [
-        "bei"
-      ],
-      "people": [
-        "tuoba-gui"
-      ],
-      "result": "拓跋氏复国建魏，北朝一百六十余年之业自此始",
-      "aliases": [
-        "nb-tuoba",
-        "拓跋珪建魏"
-      ],
-      "dynasties": [
-        "eastern-jin",
-        "shiliuguo"
-      ],
-      "desc": "386 年（登国元年）拓跋珪即代王位，都会盛乐，连破窟咄、刘显与柔然，离散部落稍稍归附。398 年（天兴元年）称皇帝，迁都平城，定国号为魏，置百官、定律令、劝课农桑。北魏自此与南朝东西对峙百六十年，均田、府兵、汉化诸大政皆由此启，是为北朝之首。",
-      "sources": [
-        {
-          "work": "魏书",
-          "part": "太祖纪",
-          "kind": "classic"
-        },
-        {
-          "work": "北史",
-          "part": "魏本纪一",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
       "id": "liu-yu-dai-jin",
       "name": "刘裕代晋",
       "display": "刘裕代晋",
@@ -343,5 +511,15 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "元帝纪、恭帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "世说新语",
+      "kind": "classic"
+    }
+  ]
 }

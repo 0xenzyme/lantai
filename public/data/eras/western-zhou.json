@@ -4,9 +4,21 @@
   "from": -1046,
   "to": -771,
   "contractVersion": 1,
+  "summary": "从武王克商到幽王死于犬戎，西周约当公元前 1046—前 771 年；分封、宗法与礼乐构成此后八百年政治秩序的底版。",
   "group": "pre-qin",
-  "personCount": 145,
+  "personCount": 144,
   "eventCount": 13,
+  "body": "本页按现有收录组织西周阅读。人物来自西周专题的编辑选取，以共和行政前后的王室与列国人物为主；事件按朝代区间与显式推荐确定，幽王覆亡为止，平王东迁以后归入春秋。",
+  "capitals": [
+    {
+      "name": "镐京",
+      "note": "西周都城，在今陕西西安西南。"
+    },
+    {
+      "name": "洛邑",
+      "note": "成周，周公营建，在今河南洛阳。"
+    }
+  ],
   "founderRecords": [],
   "topics": [
     "xizhou"
@@ -27,6 +39,28 @@
       ],
       "categories": [
         "monarch"
+      ],
+      "polity": [
+        "zhou"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "shao-hu",
+      "name": "召虎",
+      "display": "召穆公",
+      "birthAccuracy": "unknown",
+      "death": -823,
+      "deathAccuracy": "approx",
+      "deathNote": "卒年不详。国人暴动时藏太子；宣王前期金文与《诗经》仍见召伯，取宣王五年前后为活动下限，非确凿卒年。",
+      "title": "召公奭之后，共和行政的关键卿士",
+      "bio": "厉王时谏谤，以子代太子静。共和期内与周定公行政。宣王初年仍见其名，是把厉王、宣王两条接上的人。",
+      "tags": [
+        "共和"
+      ],
+      "categories": [
+        "qingshi"
       ],
       "polity": [
         "zhou"
@@ -90,50 +124,6 @@
       ],
       "categories": [
         "monarch"
-      ],
-      "polity": [
-        "zhou"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "shao-hu",
-      "name": "召虎",
-      "display": "召穆公",
-      "birthAccuracy": "unknown",
-      "death": -823,
-      "deathAccuracy": "approx",
-      "deathNote": "卒年不详。国人暴动时藏太子；宣王前期金文与《诗经》仍见召伯，取宣王五年前后为活动下限，非确凿卒年。",
-      "title": "召公奭之后，共和行政的关键卿士",
-      "bio": "厉王时谏谤，以子代太子静。共和期内与周定公行政。宣王初年仍见其名，是把厉王、宣王两条接上的人。",
-      "tags": [
-        "共和"
-      ],
-      "categories": [
-        "qingshi"
-      ],
-      "polity": [
-        "zhou"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "zhou-dinggong",
-      "name": "周定公",
-      "display": "周定公",
-      "birthAccuracy": "unknown",
-      "death": -828,
-      "deathAccuracy": "approx",
-      "deathNote": "卒年不详。仅见共和行政，《史记》与召穆公共相王室；共和十四年后事迹不见，取厉王死年为活动下限。",
-      "title": "周公旦之后，共和二相之一",
-      "bio": "《史记》记周、召二相行政，号曰共和。《竹书纪年》别作共伯和摄政。本图从《史记》，把他和召穆公画成并列的两条。",
-      "tags": [
-        "共和"
-      ],
-      "categories": [
-        "qingshi"
       ],
       "polity": [
         "zhou"
@@ -312,51 +302,6 @@
       ]
     },
     {
-      "id": "guoren-baodong",
-      "name": "国人暴动",
-      "display": "国人暴动",
-      "kind": "point",
-      "type": "rebellion",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "importance": 3,
-      "year": -841,
-      "yearAccuracy": "exact",
-      "yearNote": "厉王奔彘与共和元年同为前841，《史记·周本纪》与《竹书纪年》一致，为中国确切纪年之始。",
-      "place": "镐京（宗周）",
-      "placeNow": "今陕西西安西南（沣镐遗址一带）",
-      "polity": [
-        "zhou"
-      ],
-      "people": [
-        "ji-hu",
-        "shao-hu"
-      ],
-      "result": "国人逐厉王奔彘，王权中断十四年；此后周天子权威大减。",
-      "aliases": [
-        "厉王奔彘",
-        "彘之乱"
-      ],
-      "dynasties": [
-        "western-zhou"
-      ],
-      "desc": "厉王弭谤，国人相与畔袭王宫，厉王出奔于彘，时为前841年。此后王权中断十四年，周天子权威大减。共和行政的主体有周召二相行政（《史记》）与共伯和摄行（《竹书纪年》）两说，本条只取暴动与奔彘的事实层。",
-      "sources": [
-        {
-          "work": "史記",
-          "part": "卷004 周本紀",
-          "kind": "classic"
-        },
-        {
-          "work": "今本竹書紀年疏證",
-          "part": "卷下 厲王八年、十三年",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
       "id": "quanrong-gong-youwang",
       "name": "犬戎攻幽王",
       "display": "犬戎攻幽王",
@@ -409,5 +354,16 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "史记",
+      "part": "周本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "尚书",
+      "part": "牧誓、康诰",
+      "kind": "classic"
+    }
+  ]
 }

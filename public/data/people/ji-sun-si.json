@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -492,
   "deathAccuracy": "exact",
+  "title": "季桓子，受齐女乐",
+  "bio": "季平子之子，鲁执政。定公十二年，与仲孙何忌帅师堕费，始有隳三都之议。齐人归女乐，桓子受之，孔子遂去鲁。哀公三年卒。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

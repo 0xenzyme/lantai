@@ -6,12 +6,14 @@
   "death": -501,
   "deathAccuracy": "exact",
   "deathNote": "左传·定公九年（前501）「鄭駟歂殺鄧析，而用其竹刑」。",
+  "title": "郑辩者，作竹刑",
+  "bio": "郑人邓析。工刑名之辩，私造竹刑以立异于子产之政。前501年，郑驷歂杀之，而卒用其竹刑。",
   "polity": [
     "zheng"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -5,13 +5,15 @@
   "birthAccuracy": "unknown",
   "death": 1863,
   "deathAccuracy": "exact",
+  "title": "淮北捻首，反复叛降",
+  "bio": "安徽凤台人，诸生。结捻据淮北，号「苗练」。同治元年反，陷寿州；二年复叛，围寿州、六安，陷颍上。僧格林沁督诸军攻剿，诛之。",
   "polity": [
     "qing",
     "minbian"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

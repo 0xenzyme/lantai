@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -556,
   "deathAccuracy": "exact",
+  "title": "宋卿，会吴见贬",
+  "bio": "宋卿，华氏。襄公十四年，会吴于向，与齐崔杼、卫北宫括同以惰慢不摄见贬，经不书名。十七年卒，弟华臣因乱其室出奔。",
   "polity": [
     "song-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

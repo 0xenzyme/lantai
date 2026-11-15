@@ -6,12 +6,14 @@
   "death": 1274,
   "deathAccuracy": "exact",
   "deathNote": "至元十一年以疾卒，即1274。依据「至元八年與阿老瓦丁至京師」（raw/元/元史/卷203.md:79）",
+  "title": "回回炮匠，破襄阳城",
+  "bio": "回回氏，西域旭烈人。善造炮，至元八年与阿老瓦丁至京师。十年，从国兵攻襄阳，相地势置炮于城东南隅，重一百五十斤，机发声震天地，所击无不摧陷，宋安抚吕文焕惧，以城降。赐银二百五十两，命为回回炮手总管，佩虎符。十一年，以疾卒，子布伯袭职。",
   "polity": [
     "yuan"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

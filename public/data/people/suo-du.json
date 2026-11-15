@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1285,
   "deathAccuracy": "exact",
+  "title": "元初骁将，死绥交趾",
+  "bio": "扎剌儿氏。骁勇善战，入宿卫。从攻襄樊，先登樊城。宋平，留守临安，复婺、衢、处诸州。后行省泉州，浮海伐占城，斩首数万。二十一年，从镇南王征交趾，班师独后，为所遮，战死。赠荣禄大夫，谥襄愍。",
   "polity": [
     "yuan"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

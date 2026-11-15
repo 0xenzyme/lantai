@@ -6,12 +6,14 @@
   "death": -478,
   "deathAccuracy": "exact",
   "deathNote": "左传·哀公十七年（前478）楚惠王北伐灭陈；史记·陈杞世家「殺陳湣公，遂滅陳」而系于是岁孔子卒（前479）。两说从经传取前478。",
+  "title": "陈末主，楚灭陈",
+  "bio": "陈湣公，名越，陈之末主。吴既破楚入郢，陈事吴，故楚惠王怨陈。哀公十七年，楚北伐，灭陈，杀湣公，陈遂绝祀。",
   "polity": [
     "chen"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

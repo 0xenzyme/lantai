@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 393,
   "deathAccuracy": "exact",
+  "title": "东晋名将，淝水唱坚败",
+  "bio": "字次伦，义阳人，父焘为益州刺史。世为名将，以讨司马勋功封襄平子。宁康初镇襄阳，苻丕围之，序母韩氏登城察筑，谓夫人城，序固守历年，为督护李伯护所卖而陷，没于苻坚，以为尚书。淝水之战，序说谢石宜及其未会击之，却阵时唱云「坚败」，遂得归。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

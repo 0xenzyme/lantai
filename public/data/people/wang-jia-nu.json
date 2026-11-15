@@ -6,12 +6,14 @@
   "death": 1355,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详。至正十五年为中书右丞相，取1355为任官年，非寿数。至正二十七年追封不作卒年。依据「汪家奴 　（四月由樞密同知為平章，十月除樞密知院。）」（raw/元/元史/卷113.md:244）",
+  "title": "顺帝朝两度为相",
+  "bio": "至正十四年，由枢密同知为中书平章政事，十月除枢密知院。十五年二月，复居相位。二十七年，追封。",
   "polity": [
     "yuan"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

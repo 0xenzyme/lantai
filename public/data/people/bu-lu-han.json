@@ -6,12 +6,14 @@
   "death": 1295,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详，取1295年为活动年（非寿数）。依据「元貞初，立為皇后。大德三年十月，授冊寶」（raw/元/元史/卷114.md:49）",
+  "title": "成宗皇后，谋立被废",
+  "bio": "伯岳吾氏，驸马脱里思之女。元贞初，立为皇后，大德三年十月授册宝。成宗多疾，后居中用事，信任哈剌哈孙，大德之政人称平允。尝谋贬答吉与仁宗往怀州。成宗崩，谋立安西王阿难答，仁宗入清宫禁，构后以私通事，出居东安州。",
   "polity": [
     "yuan"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

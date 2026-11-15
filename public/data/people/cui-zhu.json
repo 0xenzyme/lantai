@@ -6,12 +6,14 @@
   "death": -546,
   "deathAccuracy": "approx",
   "deathNote": "左传·襄公二十七年（前546）崔氏内乱，庆封乘之灭崔，崔杼死。试跑名单作约年。",
+  "title": "齐大夫，弑庄公",
+  "bio": "齐大夫崔杼。与棠姜通，庄公亦通焉，杼弑之，立景公，自为右相。庆封利其产，因内间灭崔氏，杼及其妻子皆死。",
   "polity": [
     "qi"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

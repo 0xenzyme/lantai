@@ -6,12 +6,14 @@
   "death": -563,
   "deathAccuracy": "exact",
   "deathNote": "春秋左传正义·襄公十年（前563）「殺子駟、子國、子耳」（raw/春秋/春秋左傳正義/卷31.md:130）。",
+  "title": "郑当国，见诛西宫",
+  "bio": "郑穆公之子，公子騑。襄公时当国，为田洫以正封疆，侵四族之田。尉止等因之作乱，襄公十年冬十月戊辰，帅贼攻执政于西宫之朝，杀子驷、子国、子耳，劫郑伯以如北宫。史记言子驷欲自立为君，故子孔使尉止除之。",
   "polity": [
     "zheng"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

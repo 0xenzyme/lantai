@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1799,
   "deathAccuracy": "exact",
+  "title": "乾嘉经学家，博山知县",
+  "bio": "字虚谷，偃师人，父绍周官吏部郎中。居父母丧，哀毁自励，屋圮，架洿以居，斧朽木燎寒，诵读不辍。从大兴朱筠游，益为博通之学。乾隆四十五年进士，五十六年授山东博山知县。免玻璃入贡，革煤炭供馈，创范泉书院，与诸生讲实学，决狱无留。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1519,
   "deathAccuracy": "exact",
+  "title": "宪宗庶四子，兴献王",
+  "bio": "宪宗庶四子。成化二十三年封兴王，弘治七年就藩安陆州。子厚熜入承大统，是为世宗，追尊献皇帝，庙号睿宗。嘉靖初，廷臣议追崇所生父，杨廷和持之，议三上三却；张璁、桂萼以考兴献王为是，卒定大礼。其母邵氏迎入宫中，是为寿安皇太后。",
   "polity": [
     "ming"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "ming",

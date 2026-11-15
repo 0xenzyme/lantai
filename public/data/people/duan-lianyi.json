@@ -6,12 +6,13 @@
   "death": 1080,
   "deathAccuracy": "exact",
   "title": "为杨义贞所弑",
+  "bio": "段思廉之子，嗣立。在位五年，为杨义贞所弑。高智升起兵讨平其乱，迎立段寿辉；自是段氏之柄，浸归于高。",
   "polity": [
     "dali"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

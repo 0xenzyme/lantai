@@ -6,12 +6,14 @@
   "death": -518,
   "deathAccuracy": "exact",
   "deathNote": "春秋经·昭公二十四年「仲孫玃卒」（前518），注云孟僖子也。临终属其二子（孟懿子、南宫敬叔）师事孔子。试跑名单原作前535，按经传改前518。",
+  "title": "鲁卿，托子师孔子",
+  "bio": "鲁卿，仲孙氏。昭公七年从君如楚为介，不能相仪，归而讲礼，学而后行之。二十四年病，属其二子师事仲尼，孟氏、南宫氏由此传礼。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

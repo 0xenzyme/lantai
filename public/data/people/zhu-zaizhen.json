@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1565,
   "deathAccuracy": "exact",
+  "title": "世宗庶四子，景恭王",
+  "bio": "世宗庶四子。嘉靖十八年封景王，四十年就藩德安府，无子，封除。景王就藩，赐予概裁省；国除后，其故籍田为潞王所得，多至四万顷。后福王常洵之国，版籍更定，尺寸皆夺之民间，海内骚然，论者推原事始，实自景藩始。",
   "polity": [
     "ming"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "ming",

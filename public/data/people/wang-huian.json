@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 866,
   "deathAccuracy": "exact",
+  "title": "懿宗贵妃，僖宗生母",
+  "bio": "懿宗惠安皇后王氏，史阙其家世。咸通中，册号贵妃，生普王。七年薨。十四年，普王即位，是为僖宗，追尊为皇太后，上谥惠安，祔主懿宗庙，即其园为寿陵。凡后缌麻以上属，僖宗悉授以官。",
   "polity": [
     "tang"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

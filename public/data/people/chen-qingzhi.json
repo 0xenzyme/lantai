@@ -7,12 +7,14 @@
   "death": 539,
   "deathAccuracy": "exact",
   "birthNote": "生年无史料直书，由卒年与享年虚岁上推。据「五年十月，卒，時年五十六」raw/南朝/梁書/卷32.md:38",
+  "title": "梁名将，白袍入洛阳",
+  "bio": "字子云，义兴国山人。幼从梁武帝，以谨慎见亲。尝奉元颢北讨，以七千人自发铚县至于洛阳，十四旬平三十二城，四十七战，所向无前，麾下悉白袍。后为北兖州刺史，讨平僧强。大同五年卒，谥武。",
   "polity": [
     "nan"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

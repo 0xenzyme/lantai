@@ -4,10 +4,46 @@
   "from": 1038,
   "to": 1227,
   "contractVersion": 1,
+  "aliases": [
+    "夏国",
+    "大白高国"
+  ],
+  "summary": "从元昊称帝到亡于蒙古，西夏历公元 1038—1227 年近一百九十年；与宋辽金鼎立，以河西河套为根基，自创文字与制度。",
   "group": "song-liao-jin-yuan",
   "personCount": 0,
   "eventCount": 57,
-  "founderRecords": [],
+  "body": "本页按现有收录组织西夏阅读。人物专题暂未开设，事件按朝代区间自动选录，围绕元昊称帝、宋夏和战与蒙古灭夏展开；史事以《宋史·夏国传》与《续资治通鉴长编》等宋方记载为主。",
+  "capitals": [
+    {
+      "name": "兴庆府",
+      "note": "西夏都城，在今宁夏银川，后期改称中兴府。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "li-yuanhao",
+      "name": "李元昊",
+      "display": "李元昊",
+      "birth": 1003,
+      "birthAccuracy": "exact",
+      "death": 1048,
+      "deathAccuracy": "exact",
+      "title": "称帝建夏、三川口好水川之祸源",
+      "bio": "德明之子，继立后去唐宋赐姓，创蕃书，定官制。宝元元年称帝，国号夏；三川口、好水川、定川寨三败宋军，庆历和议成，宋岁赐银绢。后被太子宁令哥所弑。",
+      "tags": [
+        "西夏"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "xixia"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "topics": [],
   "people": [],
   "events": [
@@ -307,5 +343,15 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "夏国传",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴长编",
+      "kind": "classic"
+    }
+  ]
 }

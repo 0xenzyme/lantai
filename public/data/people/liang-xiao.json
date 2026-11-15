@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -543,
   "deathAccuracy": "exact",
+  "title": "郑伯有，见杀羊肆",
+  "bio": "郑大夫，字伯有，穆公之曾孙。嗜酒，为窟室，夜饮而怠于政。与公孙黑不相能。襄公三十年，郑人杀之于羊肆，子产为政自此始。",
   "polity": [
     "zheng"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

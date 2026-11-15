@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1023,
   "deathAccuracy": "exact",
+  "title": "真宗朝宰相，谥文懿",
+  "bio": "字道济。举进士，淳化中伏阁请立许王，贬知端州。真宗时极论王超、傅潜玩寇，景德中参知政事。丁谓既贬，代谓为相。卒赠太师、中书令，谥文懿。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

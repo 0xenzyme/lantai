@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 532,
   "deathAccuracy": "exact",
+  "title": "北魏汝南王，性不伦，奔梁",
+  "bio": "汝南王悦，高祖之子。好读佛经，览书史，为性不伦，倜傥难测。清河王怿为元叉所害，悦了无仇恨之意，以桑落酒候伺之，尽私佞，叉以悦为侍中、太尉。及闻尔朱荣肆毒于河阴，遂南奔萧衍，衍立为魏主。齐献武示意欲立之，悦清狂如故，乃止。出帝初除大司马，卒。",
   "polity": [
     "bei"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

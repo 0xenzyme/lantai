@@ -6,12 +6,14 @@
   "death": 395,
   "deathAccuracy": "approx",
   "deathNote": "本传作太元二十年（395）会病卒（raw/晋/晉書/卷094.md:176）；此系活动年，非寿数。",
+  "title": "东晋隐士，琴艺雕塑兼绝",
+  "bio": "字安道，谯国人。博学善属文，能鼓琴，工书画，巧艺靡不毕综，性不乐当世。武陵王晞闻其善琴，使人召之，逵对使者破琴曰「安道不为王门伶人」。徙居会稽，屡辞征命。太元末皇太子出东宫，朝议加旌命，会病卒。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

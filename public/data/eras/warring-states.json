@@ -4,38 +4,20 @@
   "from": -475,
   "to": -221,
   "contractVersion": 1,
+  "aliases": [
+    "战国时期"
+  ],
+  "summary": "从三家分晋到秦并六国，战国约当公元前 475—前 221 年；变法、兼并战争与诸子争鸣重塑天下，最终走向秦的统一。",
   "group": "pre-qin",
   "personCount": 187,
   "eventCount": 64,
+  "body": "本页按现有收录组织战国阅读。人物来自战国与儒家两个专题的编辑选取，变法君臣、名将纵横家与诸子并见；事件按朝代区间与显式推荐确定，秦统一以后归入秦朝。",
   "founderRecords": [],
   "topics": [
     "zhanguo",
     "rujia"
   ],
   "people": [
-    {
-      "id": "ying-shixi",
-      "name": "嬴师隰",
-      "display": "秦献公",
-      "birthAccuracy": "unknown",
-      "death": -362,
-      "deathAccuracy": "disputed",
-      "deathNote": "《秦本纪》作二十四年卒，《六国年表》作二十三年。今从年表，卒于前 362 年。",
-      "title": "秦君，止从死，徙都栎阳",
-      "bio": "灵公之子，出子被杀后自河西迎立。废人殉，迁都栎阳，东伐复河西。孝公元年那道求贤令里，秦要找回的就是他这一段。生年无载，条只从卒年往回画。",
-      "tags": [
-        "秦国",
-        "变法前夜"
-      ],
-      "categories": [
-        "monarch"
-      ],
-      "polity": [
-        "qin"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
     {
       "id": "ying-quliang",
       "name": "嬴渠梁",
@@ -59,70 +41,23 @@
       "lane": ""
     },
     {
-      "id": "ying-si",
-      "name": "嬴驷",
-      "display": "秦惠文王",
-      "birth": -356,
-      "birthAccuracy": "approx",
-      "death": -311,
+      "id": "shang-yang",
+      "name": "公孙鞅",
+      "display": "商鞅",
+      "birthAccuracy": "unknown",
+      "death": -338,
       "deathAccuracy": "exact",
-      "birthNote": "《秦本纪》：惠文君三年王冠，正义引《礼记》二十行冠礼。元年为前 337 年，据此推算生于前 356 年前后，史无明载。",
-      "title": "秦王，车裂商鞅，用张仪取河西",
-      "bio": "孝公之子。即位当年车裂商鞅，法存而人亡。用张仪行连横，用司马错灭蜀，丹阳败楚取汉中。条从商鞅之死开始，铺到张仪连横之前。",
+      "title": "秦孝公相，变法者",
+      "bio": "卫人。入秦说孝公，废井田、明赏罚、强耕战。孝公卒，被车裂。他的条几乎全落在孝公在位期内，短而陡。",
       "tags": [
         "秦国",
-        "连横"
+        "变法"
       ],
       "categories": [
-        "monarch",
-        "diplomat"
+        "minister"
       ],
       "polity": [
         "qin"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "ying-dang",
-      "name": "嬴荡",
-      "display": "秦武王",
-      "birthAccuracy": "unknown",
-      "death": -307,
-      "deathAccuracy": "exact",
-      "title": "秦王，四年而绝膑",
-      "bio": "惠文王之子。拔宜阳、通三川，窥周室而与孟说举鼎，绝膑而死。无子，异母弟稷自燕归，是为昭襄王。战国最短的一条秦王条，正好把孝公与昭襄王之间的空档补上。",
-      "tags": [
-        "秦国",
-        "短命"
-      ],
-      "categories": [
-        "monarch"
-      ],
-      "polity": [
-        "qin"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "tian-yinqi",
-      "name": "田因齐",
-      "display": "齐威王",
-      "birthAccuracy": "unknown",
-      "death": -320,
-      "deathAccuracy": "exact",
-      "title": "田齐国君，稷下与桂陵、马陵",
-      "bio": "用邹忌、孙膑。桂陵、马陵败魏，齐最强。稷下学宫在他的条里铺开，孟子稍后才走进同一条齐国线。",
-      "tags": [
-        "齐国",
-        "稷下"
-      ],
-      "categories": [
-        "monarch"
-      ],
-      "polity": [
-        "qi"
       ],
       "gender": "male",
       "lane": ""
@@ -148,153 +83,56 @@
       ],
       "gender": "male",
       "lane": ""
+    },
+    {
+      "id": "bai-qi",
+      "name": "白起",
+      "display": "白起",
+      "birthAccuracy": "unknown",
+      "death": -257,
+      "deathAccuracy": "exact",
+      "title": "秦将，武安君，坑杀长平",
+      "bio": "郿人。拔郢、烧夷陵，长平坑赵卒。不肯再将围邯郸，昭王赐死。战国最陡的一条武将条，停在邯郸未下之年。",
+      "tags": [
+        "秦国",
+        "长平"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "qin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "qu-yuan",
+      "name": "屈平",
+      "display": "屈原",
+      "birth": -340,
+      "birthAccuracy": "approx",
+      "death": -278,
+      "deathAccuracy": "approx",
+      "birthNote": "生卒皆为后人所系，约怀王、顷襄王之世。",
+      "deathNote": "传统系于顷襄王时投汨罗，约前 278 年。",
+      "title": "楚三闾大夫，《离骚》作者",
+      "bio": "楚贵族。联齐抗秦，被谗见疏。怀王入秦不返，他作《离骚》，后投汨罗。士人泳道上，这条文学的条对着张仪的连横。",
+      "tags": [
+        "楚国",
+        "离骚"
+      ],
+      "categories": [
+        "scholar"
+      ],
+      "polity": [
+        "chu"
+      ],
+      "gender": "unknown",
+      "lane": ""
     }
   ],
   "events": [
-    {
-      "id": "wuyue-zhanzheng",
-      "name": "吴越争霸",
-      "display": "吴越争霸",
-      "kind": "span",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "war",
-      "importance": 3,
-      "year": -496,
-      "yearAccuracy": "exact",
-      "yearNote": "以槜李之战（定公十四年＝前496，勾践新立与阖闾第一次正面交战）为起点；终点越灭吴（哀公二十二年＝前473）。区间内节点：夫椒（前494）、黄池之年越袭吴都（前482）、笠泽（前478）、围吴三年（约前475—前473）。",
-      "endYear": -473,
-      "endYearAccuracy": "exact",
-      "endYearNote": "《春秋·哀公二十二年》「冬，十一月，丁卯，越滅吳」；史記吳太伯世家夫差二十三年十一月丁卯越敗吳——两系一致。",
-      "belligerents": [
-        "yue",
-        "wu-guo"
-      ],
-      "commanders": [
-        {
-          "id": "si-goujian",
-          "side": "yue"
-        },
-        {
-          "id": "ji-guang",
-          "side": "wu-guo"
-        },
-        {
-          "id": "ji-fucha",
-          "side": "wu-guo"
-        },
-        {
-          "id": "wu-yuan",
-          "side": "wu-guo"
-        },
-        {
-          "id": "fan-li",
-          "side": "yue"
-        },
-        {
-          "id": "wen-zhong",
-          "side": "yue"
-        }
-      ],
-      "people": [
-        "tai-zai-pi"
-      ],
-      "aliases": [
-        "吴越战争"
-      ],
-      "dynasties": [
-        "spring-autumn",
-        "warring-states"
-      ],
-      "desc": "吴越两代争霸的全程：前496槜李勾践以罪人自剄乱吴阵、阖闾伤指死；前494夫椒夫差报仇、勾践五千保栖会稽而入臣于吴；勾践归国生聚教训二十余年；前484夫差胜齐于艾陵、赐死伍子胥；前482黄池会盟之顷越袭入吴都获太子友；前478笠泽决战吴师大乱；越再围吴三年，前473十一月丁卯吴亡，夫差自缢，勾践北上会齐晋、号称霸王。战争起于吴强越弱而终于吴亡越霸，东南格局完全倒转。",
-      "sources": [
-        {
-          "work": "春秋左傳正義",
-          "part": "卷56（定公十三、十四年經傳）",
-          "kind": "classic"
-        },
-        {
-          "work": "春秋左傳正義",
-          "part": "卷60（哀公十七、二十二年經傳）",
-          "kind": "classic"
-        },
-        {
-          "work": "史記",
-          "part": "卷031·吳太伯世家",
-          "kind": "classic"
-        },
-        {
-          "work": "史記",
-          "part": "卷041·越王句踐世家",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "yue-mie-wu",
-      "name": "越灭吴",
-      "display": "越灭吴",
-      "kind": "point",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "campaign",
-      "importance": 3,
-      "year": -473,
-      "yearAccuracy": "exact",
-      "yearNote": "《春秋·哀公二十二年》「冬，十一月，丁卯，越滅吳」；《左傳》請使吳王居甬東、乃縊；《史記·吳太伯世家》夫差二十三年十一月丁卯越敗吳、遂自剄死——经传两系一致，争议小。围城战起于约前475（越世家「留圍之三年」）。",
-      "place": "吳都（姑蘇）",
-      "placeNow": "今江苏省苏州市",
-      "belligerents": [
-        "yue",
-        "wu-guo"
-      ],
-      "commanders": [
-        {
-          "id": "si-goujian",
-          "side": "yue"
-        },
-        {
-          "id": "ji-fucha",
-          "side": "wu-guo"
-        }
-      ],
-      "people": [
-        "fan-li",
-        "wen-zhong",
-        "tai-zai-pi"
-      ],
-      "parent": "wuyue-zhanzheng",
-      "aliases": [
-        "吴国灭亡"
-      ],
-      "dynasties": [
-        "warring-states"
-      ],
-      "desc": "笠泽之败后越围吴都三年，吴民疲敝。越复攻破吴师，栖吴王于姑苏之山；夫差使公孙雄肉袒膝行请成（愿如会稽之赦），范蠡曰「天以吴赐越，越其可逆天乎」，鼓进兵不许。越请使吴王居甬东、君百家，夫差辞「孤老矣，焉能事君」，自缢死，蔽面曰吾无面见子胥；吴亡，勾践诛太宰嚭。勾践遂北上会齐晋诸侯于徐州、致贡于周，周元王使人赐胙、命为伯，号令中原。",
-      "sources": [
-        {
-          "work": "春秋左傳正義",
-          "part": "卷60（哀公十七、二十二年經傳）",
-          "kind": "classic"
-        },
-        {
-          "work": "史記",
-          "part": "卷031·吳太伯世家",
-          "kind": "classic"
-        },
-        {
-          "work": "史記",
-          "part": "卷041·越王句踐世家",
-          "kind": "classic"
-        }
-      ]
-    },
     {
       "id": "sanjia-fenjin",
       "name": "三家分晋",
@@ -391,80 +229,6 @@
       ]
     },
     {
-      "id": "guiling-zhizhan",
-      "name": "桂陵之战",
-      "display": "桂陵之战",
-      "kind": "point",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "battle",
-      "importance": 3,
-      "year": -353,
-      "yearAccuracy": "exact",
-      "yearNote": "通鉴卷002显王十六年(前353)齐田忌孙膑救赵、十月邯郸降魏、齐败魏于桂陵(本地已核);古本竹书纪年(水经·济水注引)『梁惠成王十七年,齐田期伐我东鄙,战于桂阳,我师败逋』,桂阳即桂陵据史记·孙子吴起列传索隐王劭按《纪年》『梁惠王十七年,齐田忌败梁于桂陵』,惠成王元年前369计即前353,两系统互证为 exact。史记·魏世家系于惠王十八年(以惠王元年前370计,恰为前353),合。",
-      "place": "桂陵",
-      "placeNow": "河南长垣一带(一说山东菏泽东北,存疑)",
-      "belligerents": [
-        "qi",
-        "wei-zhanguo"
-      ],
-      "commanders": [
-        {
-          "id": "sun-bin",
-          "side": "qi"
-        },
-        {
-          "id": "pang-juan",
-          "side": "wei-zhanguo"
-        }
-      ],
-      "people": [
-        "tian-yinqi",
-        "wei-huiwang",
-        "zhao-chenghou"
-      ],
-      "result": "齐以孙膑「围魏救赵」败魏军于桂陵，庞涓被擒（《史记》系其死于马陵）",
-      "aliases": [
-        "围魏救赵",
-        "齐魏桂陵之战",
-        "guiling"
-      ],
-      "dynasties": [
-        "warring-states"
-      ],
-      "desc": "魏围赵都邯郸,齐威王以田忌为将、孙膑为师救赵,孙膑『批亢捣虚』疾走大梁,魏军回师,齐军与魏军战于桂陵,大破魏军。围魏救赵成为中国军事史经典战例;1972年银雀山汉简《孙膑兵法·擒庞涓》证实此役,且载庞涓于桂陵被擒(《史记》则记其死于马陵)。",
-      "sources": [
-        {
-          "work": "资治通鉴",
-          "part": "卷002·周纪二",
-          "kind": "classic"
-        },
-        {
-          "work": "史记",
-          "part": "卷065·孙子吴起列传",
-          "kind": "classic"
-        },
-        {
-          "work": "古本竹书纪年",
-          "part": "惠成王十七年",
-          "kind": "classic"
-        },
-        {
-          "work": "史记",
-          "part": "卷043·趙世家",
-          "kind": "classic"
-        },
-        {
-          "work": "孙膑兵法",
-          "part": "擒庞涓",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
       "id": "maling-zhizhan",
       "name": "马陵之战",
       "display": "马陵之战",
@@ -517,6 +281,132 @@
         {
           "work": "资治通鉴",
           "part": "卷002·周纪二",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "changping-zhizhan",
+      "name": "长平之战",
+      "display": "长平之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": -260,
+      "yearAccuracy": "exact",
+      "yearNote": "《史記·白起王翦列傳》昭王四十七年（前260）四月王齕攻趙、秦陰使武安君白起為上將軍，大破趙軍；《史記·秦本紀》四十七年「大破趙於長平，四十餘萬盡殺之」；《資治通鑑》卷5赧王五十五年（前260）同。《呂氏春秋·卷18》「秦雖大勝於長平，三年然後決」——自前262上黨降趙起對峙約三年，主錨取決戰之年。",
+      "place": "長平",
+      "placeNow": "山西省晋城市高平市西北（长平之战遗址）",
+      "belligerents": [
+        "qin",
+        "zhao"
+      ],
+      "commanders": [
+        {
+          "id": "bai-qi",
+          "side": "qin"
+        },
+        {
+          "id": "lian-po",
+          "side": "zhao"
+        },
+        {
+          "id": "zhao-kuo-changping",
+          "side": "zhao"
+        }
+      ],
+      "people": [
+        "ying-ji",
+        "zhao-xiaochengwang"
+      ],
+      "result": "白起全歼赵军四十余万（载），赵括战死，六国再无力单独抗秦",
+      "dynasties": [
+        "warring-states"
+      ],
+      "desc": "秦攻韩上党，上党降赵引发秦赵会战；廉颇坚壁相持，秦行反间以赵括代将，白起包抄断粮，赵军四十余万（载）被歼，赵括战死。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "卷七十三·卷073）",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷五",
+          "kind": "classic"
+        },
+        {
+          "work": "吕氏春秋",
+          "part": "卷十八",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷四十三·卷043）",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "qin-mie-liuguo",
+      "name": "秦灭六国战争",
+      "display": "秦灭六国战争",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": -236,
+      "yearAccuracy": "exact",
+      "yearNote": "起锚取《資治通鑑》卷6始皇十一年（前236）：「將軍王翦、桓齮、楊端和伐趙，攻鄴，取九城。王翦攻閼與、轑陽」——秦统一大攻势之始；另一常用起锚为始皇十七年（前230）內史騰滅韓（六国之首亡）。终锚始皇二十六年（前221）王賁入臨淄、齊王建降。两口径均已核于本地原典。",
+      "endYear": -221,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "qin",
+        "zhao",
+        "han-guo",
+        "wei-zhanguo",
+        "chu",
+        "yan",
+        "qi"
+      ],
+      "commanders": [
+        {
+          "id": "wang-jian",
+          "side": "qin"
+        }
+      ],
+      "people": [
+        "ying-zheng"
+      ],
+      "result": "十年之间六国次第而亡，秦并天下、海内为郡县",
+      "dynasties": [
+        "warring-states",
+        "qin"
+      ],
+      "desc": "秦王政亲政后启动统一战争：前230年（秦王政十七）内史腾灭韩、虏韩王安；前229—前228年王翦破赵，李牧遭谗被杀，虏赵王迁，公子嘉走代自立；前226年破燕拔蓟，燕王喜走辽东；前225年王贲引河沟灌大梁，魏王假降；前224—前223年王翦率六十万大破楚军、杀项燕、虏楚王负刍；前222年破辽东虏燕王喜，并代；前221年王贲入临淄，齐王建不战而降。十年之间六国次第而亡，海内归于一统。",
+      "sources": [
+        {
+          "work": "资治通鉴",
+          "part": "卷六",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷七",
+          "kind": "classic"
+        },
+        {
+          "work": "史记",
+          "part": "卷六·卷006）",
           "kind": "classic"
         }
       ]
@@ -615,5 +505,15 @@
       ]
     }
   ],
-  "sources": []
+  "sources": [
+    {
+      "work": "战国策",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "秦本纪、秦始皇本纪",
+      "kind": "classic"
+    }
+  ]
 }

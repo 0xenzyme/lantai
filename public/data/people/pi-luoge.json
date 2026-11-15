@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 748,
   "deathAccuracy": "exact",
+  "title": "南诏诏主，并五诏",
+  "bio": "皮逻阁，南诏蒙氏，盛逻皮之子。开元二十六年，诏授特进，封越国公，赐名归义。破洱河蛮，策授云南王。渐强盛，并五诏，服群蛮，破吐蕃之众。二十七年，徙居大和城。天宝七载卒，子阁罗凤嗣。",
   "polity": [
     "nanzhao"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

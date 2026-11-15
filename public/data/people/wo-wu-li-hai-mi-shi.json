@@ -6,12 +6,14 @@
   "death": 1248,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详，取1248年为活动年（非寿数）。依据「定宗崩，后抱子失列門垂簾聽政者六月」（raw/元/元史/卷114.md:25）",
+  "title": "定宗后，抱子听政",
+  "bio": "定宗钦淑皇后，名斡兀立海迷失。定宗崩，后抱子失列门垂帘听政者六月。至元二年，追谥钦淑皇后。",
   "polity": [
     "yuan"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

@@ -6,12 +6,14 @@
   "death": -478,
   "deathAccuracy": "exact",
   "deathNote": "史记·陈杞世家（前478）「十六年，湣公弟閼路弒湣公代立」（raw/先秦-西汉/史記/卷036-陳杞世家.md:72）。同段「湣公十五年，楚惠王滅陳」。陈世家谓灭陈之岁孔子卒，本库孔子卒年前479，故十六年当为前478。台账作前477，与此差一年，不取。",
+  "title": "杞君，为弟所弑",
+  "bio": "杞国国君。当楚惠王之世，事楚以自存。其在位十五年，楚灭陈；十六年，弟阏路弑之而代立，史不绝书，杞之末造如此。",
   "polity": [
     "qi-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

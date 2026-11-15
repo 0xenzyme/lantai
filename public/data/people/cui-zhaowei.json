@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 896,
   "deathAccuracy": "exact",
+  "title": "昭宗奸相，赐自尽",
+  "bio": "清河人，进士及第。昭宗时历中书舍人、翰林学士，进同平章事。性奸险，内结宦官，外连藩镇。王行瑜称兵向阙，韦昭度、李磎并以无辜见害。太原之师诛行瑜，罢相，再贬梧州司马，所在赐自尽。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

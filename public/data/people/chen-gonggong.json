@@ -6,12 +6,14 @@
   "death": -614,
   "deathAccuracy": "exact",
   "deathNote": "史记·陈杞世家「十八年，共公卒，子靈公平國立」。共公元年前631（六年当楚成王卒前626、十一年当秦穆公卒前621），十八年得前614。",
+  "title": "陈侯，在位十八年卒",
+  "bio": "陈共公，名朔。在位十八年卒，子灵公平国立。时楚庄王北图霸业，陈、郑皆楚之与国，会盟征伐，惟楚是从。",
   "polity": [
     "chen"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1801,
   "deathAccuracy": "exact",
+  "title": "辨伪学者，文选学",
+  "bio": "浙江仁和人，字诒穀。乾隆三十一年进士，历刑部郎中、江南道监察御史，乞养归。著《读书脞录》《家语疏证》，辨王肃伪撰之妄；又有《文选考异》。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

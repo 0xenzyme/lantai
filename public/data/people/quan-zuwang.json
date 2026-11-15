@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1755,
   "deathAccuracy": "exact",
+  "title": "续修宋元学案的史家",
+  "bio": "浙江鄞县人，字绍衣。乾隆元年进士，改庶吉士，散馆不得志而归。承黄宗羲之绪，搜辑乡邦文献，续修《宋元学案》，表彰明季忠义。著《鲒埼亭集》。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

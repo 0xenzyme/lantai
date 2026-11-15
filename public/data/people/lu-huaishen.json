@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 716,
   "deathAccuracy": "exact",
+  "title": "开元宰相，人称伴食宰相",
+  "bio": "卢怀慎，滑州灵昌人。少清谨，举进士，历监察御史、吏部员外郎。景龙中迁右御史台中丞，疏陈时政得失。开元初，与姚崇对掌枢密，自以吏道不及，每事推让，时人谓之「伴食宰相」。迁黄门监，兼吏部尚书。以疾卒，赠荆州大都督，谥曰文成。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

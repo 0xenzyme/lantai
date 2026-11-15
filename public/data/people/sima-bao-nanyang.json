@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 320,
   "deathAccuracy": "exact",
+  "title": "南阳王世子，自称晋王",
+  "bio": "南阳王模之子。模败死，保领余众，阻上邽，抚有秦陇，自称晋王。会上邽大饥，士众窘困，张春奉保南奔，将投凉州张寔，未至而保病薨，时年二十七。保体质丰伟，尝自称重八百斤。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

@@ -6,12 +6,14 @@
   "death": 1214,
   "deathAccuracy": "approx",
   "deathNote": "此年为可见活动年（任官年），非卒年、非寿数。嘉定七年廷对擢第三（raw/宋/宋史/卷430.md:95）。本传「其亡也，天子闵之」，无卒年。",
+  "title": "朱熹弟子，廷对第三",
+  "bio": "字公晦，昭武人。初见朱熹，以「果」名斋。长游太学，学官李道传折行辈就见。嘉定七年廷对第三，为泉州观察推官，真德秀守郡，以师友礼之，政事咸咨。不肯少贬以合史弥远，为台臣劾罢。归，学者毕集。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

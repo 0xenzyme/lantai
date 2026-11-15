@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 237,
   "deathAccuracy": "exact",
+  "title": "张飞长女，后主皇后",
+  "bio": "敬哀皇后，车骑将军张飞长女也。章武元年，纳为太子妃。建兴元年，后主即位，立为皇后。在位十五年，薨，葬南陵。其妹后亦入为贵人，延熙元年策立为皇后。",
   "polity": [
     "shu"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "sanguo",

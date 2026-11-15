@@ -6,12 +6,14 @@
   "death": -609,
   "deathAccuracy": "exact",
   "deathNote": "史记·鲁周公世家「十八年二月，文公卒」。文公元年前626，十八年得前609。",
+  "title": "鲁君，襄仲杀太子",
+  "bio": "鲁国国君，僖公之子。时晋楚争霸，鲁介于其间。十八年二月公卒，仲遂杀太子恶及公子视，立其子俀，是为宣公，鲁政始移于东门。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

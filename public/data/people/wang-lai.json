@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1813,
   "deathAccuracy": "exact",
+  "title": "清中叶算学家",
+  "bio": "安徽歙县人，字孝婴，号衡斋。嘉庆十二年以优贡生入都，与修天文、时宪二志。书成，选授石埭县训导。与焦循、李锐辩算学，制浑天、简平诸仪。著《衡斋算学》。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

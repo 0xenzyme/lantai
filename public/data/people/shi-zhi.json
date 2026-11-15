@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 351,
   "deathAccuracy": "exact",
+  "title": "后赵末主，据襄国而亡",
+  "bio": "石虎之子。石鉴死，祗僭称尊号于襄国，连结姚弋仲、苻洪以拒冉闵。闵攻襄国百余日，祗去帝号称赵王，遣使乞师；其将刘显竟杀祗，传首于鄴，后赵亡。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

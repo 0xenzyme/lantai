@@ -6,12 +6,14 @@
   "death": -673,
   "deathAccuracy": "exact",
   "deathNote": "春秋经·庄公二十一年「秋，七月，戊戌，夫人姜氏薨」（前673）。鲁桓公夫人，齐僖公之女，与齐襄公通而致桓公死于车。",
+  "title": "鲁桓夫人",
+  "bio": "文姜，齐僖公之女，鲁桓公夫人。桓公会齐侯于濼，遂及文姜如齐，齐侯通焉，公谪之，是年夏四月，公薨于齐。后夫人屡会齐侯。庄公二十一年七月戊戌薨。",
   "polity": [
     "lu"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

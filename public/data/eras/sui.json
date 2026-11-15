@@ -4,10 +4,49 @@
   "from": 581,
   "to": 618,
   "contractVersion": 1,
+  "aliases": [
+    "隋朝"
+  ],
+  "summary": "从杨坚代周到恭帝禅唐，隋朝历公元 581—618 年；统一、创制与大运河的功业与炀帝朝的急政在同一时间轴上展开。",
   "group": "sui-tang-wudai",
-  "personCount": 73,
+  "personCount": 72,
   "eventCount": 20,
-  "founderRecords": [],
+  "body": "本页按现有收录组织隋朝阅读。人物来自隋代专题的编辑选取，皇室、开国将相与乱末群雄并见；事件按朝代区间与显式推荐确定，李渊建国以后归入唐。",
+  "capitals": [
+    {
+      "name": "大兴城",
+      "note": "隋都，即长安，在今陕西西安。"
+    },
+    {
+      "name": "洛阳",
+      "note": "隋东都。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "yang-jian",
+      "name": "杨坚",
+      "display": "隋文帝杨坚",
+      "birth": 541,
+      "birthAccuracy": "exact",
+      "death": 604,
+      "deathAccuracy": "exact",
+      "title": "隋文帝，代周建隋，开皇之治",
+      "bio": "弘农华阴人，杨忠之子，其女为周宣帝皇后。大象二年宣帝崩，静帝幼，坚为辅政，明年受禅，国号隋，改元开皇。在位二十四年，行三省六部，颁《开皇律》，废九品而始科举，置义仓、均田，户口滋殖。晚年猜忌，废太子勇而立广。仁寿四年崩于仁寿宫，年六十四。",
+      "tags": [
+        "隋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "polity": [
+        "sui"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "topics": [
     "sui"
   ],
@@ -59,51 +98,6 @@
       "lane": ""
     },
     {
-      "id": "yang-you",
-      "name": "杨侑",
-      "display": "隋恭帝杨侑",
-      "birth": 605,
-      "birthAccuracy": "exact",
-      "death": 619,
-      "deathAccuracy": "exact",
-      "title": "代王，禅唐后被杀",
-      "bio": "炀帝之孙。大业十三年被立于长安，次年禅于李渊。武德二年被杀。",
-      "tags": [
-        "隋"
-      ],
-      "categories": [
-        "monarch"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "sui"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "yang-yong",
-      "name": "杨勇",
-      "display": "房陵王杨勇",
-      "birthAccuracy": "unknown",
-      "death": 604,
-      "deathAccuracy": "exact",
-      "title": "杨坚长子，太子而废，为杨广所杀",
-      "bio": "杨坚长子，开皇元年立为皇太子。性宽厚率意，颇好学，然多内宠，冬至百官朝之而不知节，独孤后与杨素因构之。开皇二十年废为庶人，囚于内史省。仁寿四年文帝崩，广秘不发丧，矫诏赐勇死，追封房陵王。隋之易储，此为其始。",
-      "tags": [
-        "隋",
-        "夺嫡"
-      ],
-      "categories": [
-        "royal-kin"
-      ],
-      "polity": [
-        "sui"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
       "id": "gao-jiong",
       "name": "高颎",
       "display": "高颎",
@@ -127,111 +121,55 @@
       "lane": ""
     },
     {
-      "id": "yang-su",
-      "name": "杨素",
-      "display": "杨素",
-      "birth": 544,
+      "id": "yu-wen-kai",
+      "name": "宇文恺",
+      "display": "宇文恺",
+      "birth": 555,
       "birthAccuracy": "exact",
-      "death": 606,
+      "death": 612,
       "deathAccuracy": "exact",
-      "title": "尚书令，平陈水战，为炀帝所忌",
-      "bio": "弘农华阴人，性疏辩，善属文，与杨坚同族。开皇八年为行军元帅，出三峡，以五牙大舰破陈，江南遂定。数与突厥战，皆大克获。后附晋王广，助之夺宗，既而威权日盛，炀帝外示殊礼而内甚忌之。大业二年疾笃，帝日遣医问，然密问其死期，卒年六十三。",
+      "title": "将作大匠，大兴城与东都洛阳",
+      "bio": "朔方夏州人，本出鲜卑，宇文忻之弟。好学，多技艺，有巧思。开皇二年营大兴城，规制宏大，为隋唐长安之始；炀帝即位营东都洛阳，凿通济渠，又造大帐、观风行殿、六合城。著《东都图记》《明堂图议》。大业八年卒，年五十八。",
       "tags": [
         "隋"
       ],
       "categories": [
-        "regent",
-        "general"
+        "craft"
       ],
       "polity": [
         "sui"
       ],
       "gender": "male",
       "lane": ""
+    },
+    {
+      "id": "li-mi",
+      "name": "李密",
+      "display": "李密",
+      "birth": 582,
+      "birthAccuracy": "exact",
+      "death": 619,
+      "deathAccuracy": "exact",
+      "title": "瓦岗之主，据洛口仓，降唐而复叛",
+      "bio": "辽东襄平人，李弼曾孙，少袭蒲山公。大业九年从杨玄感起兵，玄感败，亡命雍丘，后入瓦岗，说翟让取洛口仓，开仓恣民所取，众至数十万，自为魏公。既杀让而部曲离心，为王世充所败，奔唐，复叛，武德二年为盛彦师斩于熊耳山，年三十七。",
+      "tags": [
+        "隋末",
+        "瓦岗"
+      ],
+      "categories": [
+        "warlord",
+        "rebel"
+      ],
+      "primary": "rebel",
+      "polity": [
+        "sui",
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
     }
   ],
   "events": [
-    {
-      "id": "kaihuang-lv",
-      "name": "开皇律",
-      "display": "开皇律",
-      "kind": "span",
-      "type": "institutional",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 581,
-      "yearAccuracy": "exact",
-      "yearNote": "开皇元年（581）诏高颎、杨素等更定新律；三年（583）再定，成十二卷五百条定本，两端均有《隋書》卷二五 刑法志系年。",
-      "endYear": 583,
-      "endYearAccuracy": "exact",
-      "endYearNote": "开皇三年定本十二卷五百条，据《隋書》卷二五 刑法志系年。",
-      "polity": [
-        "sui"
-      ],
-      "people": [
-        "yang-jian",
-        "gao-jiong",
-        "yang-su",
-        "niu-hong"
-      ],
-      "result": "定留五百条十二卷，刑网简要，唐律直承此制",
-      "aliases": [
-        "开皇新律"
-      ],
-      "dynasties": [
-        "northern-southern",
-        "sui"
-      ],
-      "desc": "开皇元年（581），隋诏高颎、杨素等更定新律，蠲除前代枭首轘裂之法，置十恶之条；三年（583）又敕苏威、牛弘等再定，定留五百条、十二卷，刑网简要。开皇律为唐律的直接蓝本，隋唐刑制自此定型。",
-      "sources": [
-        {
-          "work": "隋書",
-          "part": "卷二五 刑法志",
-          "note": "开皇元年更定新律、三年再定留五百条十二卷",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "sanxing-liubu",
-      "name": "三省六部制确立",
-      "display": "三省六部制确立",
-      "kind": "point",
-      "type": "institutional",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 581,
-      "yearAccuracy": "exact",
-      "yearNote": "开皇元年（581）改制，《隋書》卷二八 百官志有明确系年。",
-      "polity": [
-        "sui"
-      ],
-      "people": [
-        "yang-jian"
-      ],
-      "result": "三省六部中央官制定型，为唐宋所承",
-      "aliases": [
-        "三省六部制",
-        "五省六曹"
-      ],
-      "dynasties": [
-        "northern-southern",
-        "sui"
-      ],
-      "desc": "开皇元年（581），隋改周之六官，置三师、三公及尚书、门下、内史、秘书、内侍等省，尚书省总吏部、礼部、兵部、都官、度支、工部六曹事，是为八座。开皇三年改都官为刑部、度支为民部，六部名目由此定型，为唐宋所承。",
-      "sources": [
-        {
-          "work": "隋書",
-          "part": "卷二八 百官志",
-          "note": "开皇元年改周六官，置五省，尚书省总六曹事",
-          "kind": "classic"
-        }
-      ]
-    },
     {
       "id": "yang-jian-dai-zhou",
       "name": "杨坚代周",
@@ -271,48 +209,6 @@
         {
           "work": "隋书",
           "part": "高祖纪",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "sanzheng-liubu",
-      "name": "三省六部制确立",
-      "display": "三省六部制确立",
-      "kind": "point",
-      "type": "institutional",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 583,
-      "yearAccuracy": "disputed",
-      "yearNote": "隋书·百官志下记开皇初废北周六官而置尚书、门下、内史三省与尚书省六部。旧说或系于开皇元年（581）改官之始，或系于开皇三年（583）罢郡存州、改度支为民部之后。轴年取开皇三年，异说见注。",
-      "polity": [
-        "sui"
-      ],
-      "people": [
-        "yang-jian"
-      ],
-      "result": "尚书、门下、内史三省与尚书省六曹定型，同年四月改都官为刑部、度支为民部",
-      "aliases": [
-        "五省六部",
-        "隋三省制"
-      ],
-      "dynasties": [
-        "northern-southern",
-        "sui"
-      ],
-      "desc": "开皇初隋文帝废北周六官，改置尚书、门下、内史三省与尚书省六部。三省分掌出令、审议与执行，六部分理吏、礼、兵、刑、民、工诸务，寺监与州县之制亦同时归并。此制为唐所直承，历宋元明清不改其大端，是中国中央官制定型的标志，也是隋对后世影响最久的一项制度建设。",
-      "sources": [
-        {
-          "work": "隋书",
-          "part": "百官志下",
-          "kind": "classic"
-        },
-        {
-          "work": "通典",
-          "part": "职官",
           "kind": "classic"
         }
       ]
@@ -425,9 +321,100 @@
           "kind": "classic"
         }
       ]
+    },
+    {
+      "id": "dayunhe-kaozhuo",
+      "name": "隋炀帝开凿大运河",
+      "display": "开凿大运河",
+      "kind": "point",
+      "type": "cultural",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 605,
+      "yearAccuracy": "exact",
+      "yearNote": "大业元年（605）营东都并开通济渠，四年（608）开永济渠，六年（610）开江南河。轴年取首役通济渠之年，全工跨度不另立实体。",
+      "polity": [
+        "sui"
+      ],
+      "people": [
+        "yang-guang"
+      ],
+      "result": "通济渠、永济渠、江南河相继成，以洛阳为中心贯通南北水运",
+      "aliases": [
+        "隋唐大运河",
+        "通济渠"
+      ],
+      "dynasties": [
+        "sui"
+      ],
+      "desc": "大业元年（605）隋炀帝营东都洛阳，并发河南、淮北诸郡民开通济渠，自西苑引谷、洛水入黄河，又自板渚引河入汴、经泗达淮；四年开永济渠北通涿郡，六年开江南河至余杭。数年间以洛阳为中心、北抵涿郡、南达余杭的水运干线成形，河畔筑御道、树以柳。运河把东南财赋与北方边防连成一体，唐宋赖以转运；役急民困亦使之成为隋亡的近因之一。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "炀帝纪上",
+          "kind": "classic"
+        },
+        {
+          "work": "通典",
+          "part": "州郡典·河南府、古荆河州",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jiangdu-zhibian",
+      "name": "江都之变",
+      "display": "江都之变",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 618,
+      "yearAccuracy": "exact",
+      "yearNote": "大业十四年（618）三月，宇文化及等率骁果于江都宫弑炀帝；隋亡以此变为断限，同年五月李渊受禅建唐。",
+      "polity": [
+        "sui"
+      ],
+      "people": [
+        "yang-guang",
+        "yu-wen-huaji",
+        "yang-hao"
+      ],
+      "result": "炀帝被弑、秦王浩被立为傀儡，隋朝实际终结",
+      "aliases": [
+        "江都宫变",
+        "炀帝被弑"
+      ],
+      "dynasties": [
+        "sui",
+        "tang"
+      ],
+      "desc": "大业十四年（618）三月，宇文化及、宇文智及与司马德戡等率骁果入江都宫，缢杀隋炀帝，并杀蜀王秀等宗室，立秦王杨浩为傀儡，率众北归。炀帝既死，东都立越王侗、长安立代王侑，隋室分而为二，名实俱亡。此变结束炀帝一朝，也标志隋的终结；同年五月李渊受禅，唐立。司马德戡暂无 canonical 人物条目。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "炀帝纪下",
+          "kind": "classic"
+        },
+        {
+          "work": "隋书",
+          "part": "宇文化及传",
+          "kind": "classic"
+        }
+      ]
     }
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "隋书",
+      "part": "高祖纪、炀帝纪、地理志",
+      "kind": "classic"
+    }
+  ]
 }

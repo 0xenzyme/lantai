@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1273,
   "deathAccuracy": "exact",
+  "title": "襄阳殉国的宋将",
+  "bio": "荆湖都统。襄阳受围，日夕守战。吕文焕出降，天顺仰天叹曰：「生为宋臣，死当为宋鬼。」即所守处自缢死。赠定江军承宣使，封其妻，官其二子。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

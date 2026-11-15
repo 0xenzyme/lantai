@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 318,
   "deathAccuracy": "exact",
+  "title": "汉赵主，虏怀愍二帝",
+  "bio": "字玄明，一名载，元海第四子。幼而聪悟，年十四究通经史，工草隶，善属文。弑兄自立，遣刘曜、王弥陷洛阳，虏怀帝北去；寻又陷长安，降愍帝，晋室遂东。在位九年，后期游宴后宫，委政于子粲。卒谥昭武皇帝。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

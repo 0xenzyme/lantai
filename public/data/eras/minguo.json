@@ -4,9 +4,24 @@
   "from": 1912,
   "to": 1949,
   "contractVersion": 1,
+  "aliases": [
+    "中华民国"
+  ],
+  "summary": "从中华民国成立到 1949 年，民国历公元 1912—1949 年；北洋更迭、国民革命、抗战与内战交织，中国由帝制国家转向现代国家。",
   "group": "minguo",
   "personCount": 0,
   "eventCount": 34,
+  "body": "本页按现有收录组织民国阅读。人物专题暂未开设，事件按朝代区间自动选录，从清帝逊位、五四运动到抗战内战的节点连成主线；断代取公元 1912—1949 年，此后史事不在本站范围。",
+  "capitals": [
+    {
+      "name": "北京",
+      "note": "北洋政府时期的都城。"
+    },
+    {
+      "name": "南京",
+      "note": "1912 年临时政府与 1927 年以后的都城。"
+    }
+  ],
   "founderRecords": [],
   "topics": [],
   "people": [],
@@ -276,5 +291,14 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "中华民国史",
+      "kind": "modern"
+    },
+    {
+      "work": "剑桥中华民国史",
+      "kind": "modern"
+    }
+  ]
 }

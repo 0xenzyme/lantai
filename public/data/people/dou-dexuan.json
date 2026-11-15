@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 666,
   "deathAccuracy": "exact",
+  "title": "高宗左相，检校封禅使",
+  "bio": "钜鹿男。麟德元年为大司宪，与司刑太常伯刘祥道等九人为持节大使，分行天下。乾封初，检校左相，兼司元太常伯。及高宗封禅泰山，与李勣、许敬宗、陆敦信并为检校封禅使。其年八月卒。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

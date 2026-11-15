@@ -4,39 +4,33 @@
   "from": 420,
   "to": 589,
   "contractVersion": 1,
+  "aliases": [
+    "南北朝时期"
+  ],
+  "summary": "从刘裕代晋到隋灭陈，南北朝历公元 420—589 年；北魏改制、六镇之乱与侯景之乱交错，南北由对峙走向重归统一。",
   "group": "weijin-nanbei",
   "personCount": 269,
   "eventCount": 69,
+  "body": "本页按现有收录组织南北朝阅读。人物来自南朝北朝专题的编辑选取，南北帝王、权将与文人学者并见；事件按朝代区间与显式推荐确定，隋灭陈以后归入隋朝。",
+  "capitals": [
+    {
+      "name": "建康",
+      "note": "南朝都城，在今江苏南京。"
+    },
+    {
+      "name": "平城",
+      "note": "北魏早期都城，在今山西大同。"
+    },
+    {
+      "name": "洛阳",
+      "note": "北魏孝文帝迁都后的都城。"
+    }
+  ],
   "founderRecords": [],
   "topics": [
     "nanbei"
   ],
   "people": [
-    {
-      "id": "tuoba-gui",
-      "name": "拓跋珪",
-      "display": "道武帝拓跋珪",
-      "birth": 371,
-      "birthAccuracy": "exact",
-      "death": 409,
-      "deathAccuracy": "exact",
-      "title": "北魏道武帝，复代建魏，定都平城",
-      "bio": "鲜卑拓跋部人，什翼犍之孙，代亡后依独孤部，年十五即代王位，改国号魏。破库莫奚、高车、柔然，与后燕战于参合陂，坑降卒数万。天兴元年定都平城，置百官、定律令、营宫室、劝农耕。晚年好药饵而躁扰，为其子绍所弑，年三十九。",
-      "tags": [
-        "北朝",
-        "北魏"
-      ],
-      "categories": [
-        "monarch",
-        "founding"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "bei"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
     {
       "id": "tuoba-tao",
       "name": "拓跋焘",
@@ -50,31 +44,6 @@
       "tags": [
         "北朝",
         "北魏"
-      ],
-      "categories": [
-        "monarch"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "bei"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "yuan-hong",
-      "name": "元宏",
-      "display": "孝文帝元宏",
-      "birth": 467,
-      "birthAccuracy": "exact",
-      "death": 499,
-      "deathAccuracy": "exact",
-      "title": "北魏孝文帝，改汉姓、迁洛阳",
-      "bio": "鲜卑拓跋部人，本姓拓跋，献文帝长子。太和十四年亲政，十七年以南伐为名迁都洛阳，禁胡语胡服，改拓跋为元，定姓族、通婚姻、改制度，鲜卑尽化于汉。又数亲征南齐，不得志而还。太和二十三年崩于谷塘原，年三十三，太子恪立。",
-      "tags": [
-        "北朝",
-        "北魏",
-        "汉化"
       ],
       "categories": [
         "monarch"
@@ -113,25 +82,24 @@
       "lane": ""
     },
     {
-      "id": "cui-hao",
-      "name": "崔浩",
-      "display": "崔浩",
-      "birth": 381,
+      "id": "yuan-hong",
+      "name": "元宏",
+      "display": "孝文帝元宏",
+      "birth": 467,
       "birthAccuracy": "exact",
-      "death": 450,
+      "death": 499,
       "deathAccuracy": "exact",
-      "title": "北魏司徒，谋谟冠一时，国史之狱被诛",
-      "bio": "清河东武城人，崔宏之子，博览经史，历仕三帝，凡军国大计皆先咨而后行。破柔然、灭夏、取北凉，皆与谋。太延五年总史任，直书拓跋旧事，刊石立于衢路，鲜卑诸公见而忿之。太平真君十一年被收，诛于城南，清河崔氏及姻亲尽夷其族，年七十。",
+      "title": "北魏孝文帝，改汉姓、迁洛阳",
+      "bio": "鲜卑拓跋部人，本姓拓跋，献文帝长子。太和十四年亲政，十七年以南伐为名迁都洛阳，禁胡语胡服，改拓跋为元，定姓族、通婚姻、改制度，鲜卑尽化于汉。又数亲征南齐，不得志而还。太和二十三年崩于谷塘原，年三十三，太子恪立。",
       "tags": [
         "北朝",
-        "北魏"
+        "北魏",
+        "汉化"
       ],
       "categories": [
-        "official",
-        "strategist",
-        "gentry"
+        "monarch"
       ],
-      "primary": "official",
+      "primary": "monarch",
       "polity": [
         "bei"
       ],
@@ -139,24 +107,48 @@
       "lane": ""
     },
     {
-      "id": "li-daoyuan",
-      "name": "郦道元",
-      "display": "郦道元",
-      "birthAccuracy": "unknown",
-      "death": 527,
+      "id": "xiao-yan",
+      "name": "萧衍",
+      "display": "梁武帝萧衍",
+      "birth": 464,
+      "birthAccuracy": "exact",
+      "death": 549,
       "deathAccuracy": "exact",
-      "title": "《水经注》作者，死于阴盘驿",
-      "bio": "范阳涿鹿人，父范为青州刺史。历任冀州、鲁阳、东荆州刺史，执法清刻，为权豪所惮。好学，历览奇书，以《水经》简略，为之作注四十卷，记水道千二百余，因水以证地，即地以存古，引书四百余种。孝昌三年为关右大使，至阴盘驿亭为萧宝夤所害。",
+      "title": "梁武帝，在位四十八年，饿死台城",
+      "bio": "南兰陵中都里人，萧顺之之子，与萧道成同族。起兵襄阳，中兴二年受齐和帝禅，改国号梁。在位四十八年，礼佛断酒肉，立国学、修五礼，江左文物之盛，南朝第一。晚年佞佛，侯景之乱起，太清三年台城陷，幽于净居殿，所求不供，忧愤寝疾而崩，年八十六。",
       "tags": [
-        "北朝",
-        "北魏"
+        "南朝",
+        "萧梁"
       ],
       "categories": [
-        "official",
-        "scholar",
-        "science"
+        "monarch",
+        "falling"
       ],
-      "primary": "science",
+      "primary": "monarch",
+      "polity": [
+        "nan"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yuwen-yong",
+      "name": "宇文邕",
+      "display": "周武帝宇文邕",
+      "birth": 543,
+      "birthAccuracy": "exact",
+      "death": 578,
+      "deathAccuracy": "exact",
+      "title": "北周武帝，诛宇文护，灭齐灭佛",
+      "bio": "代武川鲜卑人，宇文泰第四子。即位十二年而政在宇文护，建德元年含元殿诛之，始亲政。建德三年诏断佛道二教，悉毁经像，僧道并令还俗，号为三武之祸之一。六年灭北齐，北方再一统。宣政元年亲伐突厥，至云阳宫不豫而崩，年三十六。",
+      "tags": [
+        "北朝",
+        "北周"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
       "polity": [
         "bei"
       ],
@@ -165,51 +157,6 @@
     }
   ],
   "events": [
-    {
-      "id": "liu-yu-dai-jin",
-      "name": "刘裕代晋",
-      "display": "刘裕代晋",
-      "kind": "point",
-      "type": "political",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 420,
-      "yearAccuracy": "exact",
-      "polity": [
-        "nan"
-      ],
-      "people": [
-        "liu-yu",
-        "sima-dewen"
-      ],
-      "result": "刘裕受禅称帝，国号宋，南朝开始",
-      "aliases": [
-        "刘裕建宋",
-        "刘宋代晋",
-        "nb-song",
-        "lj-liuyu"
-      ],
-      "dynasties": [
-        "eastern-jin",
-        "shiliuguo",
-        "northern-southern"
-      ],
-      "desc": "420 年（永初元年）六月，刘裕设坛南郊受晋恭帝司马德文禅让，即皇帝位，国号宋，东晋亡。晋室自渡江以来门阀与皇权共治的格局就此终结，历史进入南朝时代。",
-      "sources": [
-        {
-          "work": "宋书",
-          "part": "武帝纪",
-          "kind": "classic"
-        },
-        {
-          "work": "南史",
-          "part": "宋本纪",
-          "kind": "classic"
-        }
-      ]
-    },
     {
       "id": "beiwei-tongyi-beifang",
       "name": "北魏统一北方",
@@ -255,55 +202,6 @@
         {
           "work": "宋书",
           "part": "索虏传",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "yuanjia-beifa",
-      "name": "元嘉北伐",
-      "display": "元嘉北伐",
-      "kind": "span",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "war",
-      "importance": 3,
-      "year": 430,
-      "yearAccuracy": "exact",
-      "yearNote": "三次北伐（430、450、452），以 430 年第一次为起点；旧专题条目以 450 年（第二次，规模最大）为锚。",
-      "endYear": 452,
-      "endYearAccuracy": "exact",
-      "belligerents": [
-        "nan",
-        "bei"
-      ],
-      "people": [
-        "liu-yilong",
-        "tan-daoji",
-        "tuoba-tao"
-      ],
-      "result": "三次北伐皆败，宋军力大耗，南北均势向北倾斜",
-      "aliases": [
-        "元嘉三次北伐",
-        "nb-yuanjia"
-      ],
-      "dynasties": [
-        "shiliuguo",
-        "northern-southern"
-      ],
-      "desc": "宋文帝刘义隆“自践阼便有志北略”，元嘉七年（430）命到彦之率军五万取河南诸戍，冬为魏军反攻尽失；元嘉二十七年（450）分兵两路大举北上，王玄谟围滑台不克，魏太武帝率军反攻直抵瓜步；二十九年（452）再出师，仍无功而返。三次北伐耗尽“元嘉之治”积累，辛弃疾“元嘉草草，赢得仓皇北顾”即咏此局。",
-      "sources": [
-        {
-          "work": "宋书",
-          "part": "索虏传",
-          "kind": "classic"
-        },
-        {
-          "work": "魏书",
-          "part": "世祖纪",
           "kind": "classic"
         }
       ]
@@ -399,43 +297,106 @@
       ]
     },
     {
-      "id": "xiao-yan-dai-qi",
-      "name": "萧衍代齐建梁",
-      "display": "萧衍代齐建梁",
+      "id": "zhongli-zhizhan",
+      "name": "钟离之战",
+      "display": "钟离之战",
       "kind": "point",
-      "type": "political",
+      "type": "military",
       "catalogs": [
+        "military",
         "history"
       ],
+      "scale": "battle",
       "importance": 3,
-      "year": 502,
+      "year": 507,
       "yearAccuracy": "exact",
-      "polity": [
-        "nan"
+      "place": "钟离",
+      "placeNow": "今安徽凤阳东北",
+      "belligerents": [
+        "nan",
+        "bei"
+      ],
+      "commanders": [
+        {
+          "id": "wei-rui",
+          "side": "nan"
+        },
+        {
+          "id": "chang-yizhi",
+          "side": "nan"
+        },
+        {
+          "id": "yuan-ying",
+          "side": "bei"
+        }
       ],
       "people": [
-        "xiao-yan",
-        "shen-yue"
+        "wei-rui",
+        "chang-yizhi",
+        "yuan-ying"
       ],
-      "result": "萧衍受禅称帝，国号梁，梁武帝时代开启",
+      "result": "魏军大溃，俘斩数十万，梁魏战争自此转折",
       "aliases": [
-        "萧衍建梁",
-        "梁代齐",
-        "nb-xiao"
+        "邵阳洲之战"
       ],
       "dynasties": [
         "northern-southern"
       ],
-      "desc": "齐明帝身后宗室相残，永元中东昏侯肆虐，雍州刺史萧衍自襄阳起兵，501 年破建康杀东昏侯，502 年（天监元年）四月受齐禅即皇帝位，国号梁。沈约、范云佐命草禅代之礼。梁武帝在位近五十年，南朝文物制度至此极盛。",
+      "desc": "天监五年魏中山王元英率军数十万围梁昌义之于钟离，连城四十余。六年春梁将韦叡、曹景宗驰援，夜掘长堑树鹿角据邵阳洲，淮水暴涨时纵舰乘流、以火焚魏洲上营垒，魏军大溃，赴淮死者十余万，元英、杨大眼仅以身免。南朝对北朝罕见的大歼灭战，钟离此后稳固为梁之淮南门户。",
       "sources": [
         {
           "work": "梁书",
-          "part": "武帝纪",
+          "part": "韦叡传",
           "kind": "classic"
         },
         {
           "work": "南史",
-          "part": "梁本纪",
+          "part": "韦叡传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "houjing-zhi-luan",
+      "name": "侯景之乱",
+      "display": "侯景之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 548,
+      "yearAccuracy": "exact",
+      "endYear": 552,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "nan"
+      ],
+      "people": [
+        "hou-jing",
+        "xiao-yan",
+        "chen-ba-xian",
+        "wang-sengbian"
+      ],
+      "result": "侯景败死，三吴残破、梁室崩溃，南朝由盛转衰",
+      "aliases": [
+        "侯景叛梁"
+      ],
+      "dynasties": [
+        "northern-southern"
+      ],
+      "desc": "548 年（太清二年）东魏叛将侯景据寿春举兵反梁，渡江围台城百三十日，城陷，梁武帝忧愤而崩；景旋废立，551 年僭位。552 年王僧辩、陈霸先自江州东下，破侯景于建康，景败死。三吴经此残破，梁宗室萧绎、萧詧各倚外援，南朝在江南的统治重心自此瓦解，陈与西梁皆由此而生。",
+      "sources": [
+        {
+          "work": "梁书",
+          "part": "侯景传",
+          "kind": "classic"
+        },
+        {
+          "work": "南史",
+          "part": "贼臣传",
           "kind": "classic"
         }
       ]
@@ -443,5 +404,16 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "魏书",
+      "part": "高祖纪、地形志",
+      "kind": "classic"
+    },
+    {
+      "work": "南史",
+      "part": "梁本纪",
+      "kind": "classic"
+    }
+  ]
 }

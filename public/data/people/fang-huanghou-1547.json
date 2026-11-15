@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1547,
   "deathAccuracy": "exact",
+  "title": "世宗第三后，救驾获殊礼",
+  "bio": "江宁人。嘉靖十年三月与诸氏同册为九嫔。张后废，遂立为后。二十一年，宫婢杨金英等谋弑逆，以组缢帝项，误为死结得不绝，后驰至解组，帝苏，乃进后父泰和伯锐爵为侯。二十六年十一月崩，以元后礼葬，预名其地永陵，谥孝烈。",
   "polity": [
     "ming"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "ming",

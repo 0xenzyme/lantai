@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 662,
   "deathAccuracy": "exact",
+  "title": "高宗宰相，浿江道总管",
+  "bio": "任雅相，高宗时为燕然都护。显庆中，副苏定方讨西突厥沙钵罗可汗，蹋雪追奔，俘贺鲁。龙朔元年，为浿江道行军总管，分道伐高丽，二年薨于军。为将未尝奏亲戚故吏从军，曰：官无大小，皆国家公器，岂可苟便其私。军中赏罚皆平，人服其公。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 409,
   "deathAccuracy": "exact",
+  "title": "北燕主，复姓高氏",
+  "bio": "字子雨，宝之养子，本高句丽支庶，姓高氏，冯跋奇其志度而友之。慕容熙失政，冯跋等推云为主，遂即天王位，复姓高氏，改元正始，北燕由此始。宠养壮士离班、桃仁为腹心，赏赐月至数千万，二人恃宠，怀剑入而弑之。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

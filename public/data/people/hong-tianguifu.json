@@ -8,13 +8,15 @@
   "deathAccuracy": "approx",
   "birthNote": "清史稿卷475作洪秀全死时「其子年十六，袭伪位」，又云「秀全生时即号其子为幼主，或曰本名天贵福」；由卒年与年岁逆推，生年约 1849，非确数。raw/清/清史稿/卷475.md:398",
   "deathNote": "本传引句不载卒年。卒年 1864 为候选台账约略系年（天京失陷之年），本库无明文可徵，非寿数。raw/清/清史稿/卷475.md:398",
+  "title": "太平天国幼天王",
+  "bio": "洪秀全之子，秀全生时即号为幼主，或曰本名天贵福。同治三年天京陷，秀全卒，年十六，袭位。突围走江西，为清军所获。",
   "polity": [
     "qing",
     "minbian"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

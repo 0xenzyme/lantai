@@ -6,12 +6,14 @@
   "death": 452,
   "deathAccuracy": "approx",
   "deathNote": "只书「高宗初崩」。高宗文成帝兴安元年当 452，「初」不能定月，活动年，非寿数。据「高宗初崩，祔葬金陵」raw/北朝/魏書/卷13.md:62",
+  "title": "太武赫连皇后",
+  "bio": "赫连勃勃之女，太武帝拓跋焘之皇后。史不著其入宫年。太武遇害，宗爱之乱作。高宗文成帝即位之初，后崩，祔葬金陵。",
   "polity": [
     "bei"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1795,
   "deathAccuracy": "exact",
+  "title": "校勘学家，抱经堂本",
+  "bio": "浙江仁和人。乾隆十七年探花，授编修。归田后主讲钟山、娄东诸书院。精校勘，所校经子史籍，世称抱经堂本。著《抱经堂文集》。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

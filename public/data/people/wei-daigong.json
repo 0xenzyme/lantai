@@ -6,12 +6,14 @@
   "death": -660,
   "deathAccuracy": "exact",
   "deathNote": "史记·卫康叔世家「戴公申元年卒」。懿公同岁（前660）为狄所灭，宋桓公迎卫之遗民立戴公，旋卒。",
+  "title": "卫君，庐于曹",
+  "bio": "卫戴公申，昭伯顽之子。狄杀懿公，宋桓公逆卫之遗民而宵济，立戴公以庐于曹。立一年而卒。齐桓公乃率诸侯城楚丘，更立其弟燬，是为文公。",
   "polity": [
     "wei-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

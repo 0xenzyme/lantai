@@ -6,12 +6,14 @@
   "death": -664,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详，取前664年为活动下限（非寿数）。依据春秋左传正义·庄公三十年「鬥穀於菟為令尹，自毀其家，以紓楚國之難」（raw/春秋/春秋左傳正義/卷09.md:334）。",
+  "title": "楚令尹斗谷于菟",
+  "bio": "楚令尹，斗谷于菟。庄公三十年，子元乱，申公斗班杀子元，穀於菟为令尹，自毁其家，以纾楚国之难。子张问曰「令尹子文三仕为令尹，无喜色；三已之，无愠色，旧令尹之政必以告新令尹」，子曰「忠矣」。",
   "polity": [
     "chu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

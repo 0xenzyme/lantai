@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 619,
   "deathAccuracy": "exact",
+  "title": "围炀帝于雁门",
+  "bio": "突厥可汗，启民之子咄吉世。立而继其藩职，表请尚公主，隋诏从其俗。大业十一年，率种落数十万围帝于雁门，援军方至，引去，由是朝贡遂绝。又立刘武周为定杨可汗，遗梁师都狼头纛，助为边患。武德二年，将渡河会梁师都，会疾卒。",
   "polity": [
     "tujue"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "sui",

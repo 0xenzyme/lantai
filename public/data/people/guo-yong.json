@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1187,
   "deathAccuracy": "exact",
+  "title": "峡州隐士，颐正先生",
+  "bio": "字子和，先洛阳人，忠孝子。传父《易》学，隐居峡州，放浪长杨山谷，号白云先生。乾道中守臣荐，旌召不起，赐冲晦处士，更封颐正先生。淳熙初，与二程、张载、游酢、杨时及父，七家之说裒为《大易粹言》行世。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1139,
   "deathAccuracy": "exact",
+  "title": "夏崇宗，建国学设弟子员",
+  "bio": "夏惠宗秉常之长子，生三岁即位，母梁氏临朝。元祐初告哀于宋，辽以成安公主妻之。建中靖国元年建国学，设弟子员三百，立养贤务以廪食之。后与宋兵连数岁，金人起，地多为其所夺。在位五十四年，谥圣文皇帝。",
   "polity": [
     "xixia"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

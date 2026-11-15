@@ -6,12 +6,14 @@
   "death": -256,
   "deathAccuracy": "approx",
   "deathNote": "生卒不详，取前256年为被杀之年（非寿数）。据史记·卫康叔世家（raw/先秦-西汉/史記/卷037-衛康叔世家.md:145）「懷君三十一年，朝魏，魏囚殺懷君」。由元君十四年秦置东郡（本库前242）上推，不另考。",
+  "title": "卫君，朝魏见杀",
+  "bio": "卫嗣君卒，子怀君立。怀君三十一年，朝魏，魏囚杀怀君，魏更立嗣君之弟，是为元君。卫自嗣君时更贬号曰君，独有濮阳，至是益削弱，终于秦并天下而绝祀。",
   "polity": [
     "wei-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "zhanguo",

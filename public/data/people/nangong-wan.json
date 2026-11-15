@@ -6,12 +6,14 @@
   "death": -682,
   "deathAccuracy": "exact",
   "deathNote": "左传·庄公十二年（前682）弑闵公作乱败，奔陈被归，宋人醢之。",
+  "title": "宋大夫，弑闵公",
+  "bio": "宋大夫，名万。庄公十二年，弑其君闵公，杀大夫仇牧。败走奔陈，以乘车辇其母，一日而至。宋人请之，陈人归，宋人醢之。",
   "polity": [
     "song-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 390,
   "deathAccuracy": "exact",
+  "title": "孝武帝淑媛，安恭二帝之母",
+  "bio": "松滋浔阳人。以美色能歌弹，入宫为淑媛，生安帝、恭帝。太元十五年薨，赠夫人。安帝即位，追崇皇太后，陵曰熙平。",
   "polity": [
     "jin"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

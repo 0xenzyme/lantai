@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1860,
   "deathAccuracy": "exact",
+  "title": "常州学派经师",
+  "bio": "江苏长洲人，字于庭。嘉庆五年举人，官湖南新宁知县，庄述祖之甥。通训诂名物，志在西汉家法，得庄氏真传。著《论语说义》《过庭录》等。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

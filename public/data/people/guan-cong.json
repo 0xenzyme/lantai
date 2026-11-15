@@ -6,12 +6,14 @@
   "death": -529,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详，取前529年为活动下限（非寿数）。依据春秋左传正义·昭公十三年「使觀從從師於乾谿」（raw/春秋/春秋左傳正義/卷46.md:85）。",
+  "title": "楚人，灵王之乱",
+  "bio": "楚人观从，观起之子。灵王无道，观从首谋其乱，迎立公子比。灵王缢于申亥之家，子比旋亦自尽，卒成平王之立。",
   "polity": [
     "chu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

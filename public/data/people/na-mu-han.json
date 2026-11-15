@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1301,
   "deathAccuracy": "exact",
+  "title": "世祖子，北安王那木罕",
+  "bio": "世祖第四子。至元中封北平王，与右丞相安童统诸军于阿力麻里备海都。十四年，宗王昔里吉劫之，拘安童以叛。后改封北安王。大德五年薨，延祐七年赐谥昭定。",
   "polity": [
     "yuan"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

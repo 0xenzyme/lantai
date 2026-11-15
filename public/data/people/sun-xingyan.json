@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1818,
   "deathAccuracy": "exact",
+  "title": "乾嘉经史学家",
+  "bio": "江苏阳湖人，字伯渊。乾隆五十二年进士，官山东督粮道。邃于经史、小学、金石，尤精《尚书》，著《尚书今古文注疏》《问字堂集》。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

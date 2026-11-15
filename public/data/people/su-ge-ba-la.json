@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1327,
   "deathAccuracy": "exact",
+  "title": "英宗皇后，早崩无子",
+  "bio": "亦启烈氏，昌国公主益里海涯之女。至治元年，册为皇后。泰定四年六月崩，谥曰庄静懿圣皇后。",
   "polity": [
     "yuan"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

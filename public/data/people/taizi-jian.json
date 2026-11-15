@@ -6,12 +6,14 @@
   "death": -522,
   "deathAccuracy": "disputed",
   "deathNote": "史记·楚世家、伍子胥列传记建奔郑后为郑所诛而年次不明，通说系于前522；左传·哀公十六年追叙「鄭人殺之」，未系年。试跑名单标存疑，作 disputed，从名单取前522。",
+  "title": "楚太子建，死于郑",
+  "bio": "楚平王之太子。费无极谗之，使出居城父，备边。建遂奔郑，郑人杀之。其子胜，是为白公，后为乱于楚，杀子西、子期而劫惠王。",
   "polity": [
     "chu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1135,
   "deathAccuracy": "exact",
+  "title": "金太宗，灭辽破汴",
+  "bio": "吴乞买，太祖之弟。以谙班勃极烈辅政，太祖崩，即柩前位，改元天会。三年，娄室获辽主，辽亡。四年，宗翰克汴京；五年，虏徽、钦二帝北归。十三年正月，崩于明德宫，年六十一，庙号太宗。",
   "polity": [
     "liao-jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

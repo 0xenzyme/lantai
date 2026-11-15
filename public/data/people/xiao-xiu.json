@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "（梁书·安成康王秀传）书其卒，系天监十七年。",
   "title": "安成康王，梁武帝弟，历镇皆有惠政，学者称之",
+  "bio": "梁武帝之弟，封安成王。天监中历会稽、江、郢诸州刺史，所至皆有惠政。性俭约，善抚下，及去，人追思之。天监十七年卒，谥曰康。",
   "tags": [
     "南北朝",
     "梁"
@@ -20,7 +21,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

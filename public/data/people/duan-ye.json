@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 401,
   "deathAccuracy": "exact",
+  "title": "北凉开国之主",
+  "bio": "京兆人。博涉史传，有尺牍之才，为吕光建康太守。沮渠男成、蒙逊起兵，推业为主，为凉州牧、建康公，改元神玺，北凉由此始。业儒素长者，无他权略，威禁不行，信谗杀男成。蒙逊因众怨攻之，左右皆散，遂见杀。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

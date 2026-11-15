@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 311,
   "deathAccuracy": "exact",
+  "title": "西晋南阳王，镇关中败死",
+  "bio": "字元表，高密王泰之子。少好学，与元帝及范阳王虓齐名宗室。永嘉初代河间王顒镇关中，时关中饥荒，百姓相食，模力不能制。洛京倾覆，牙门赵染降刘聪，聪遣子粲攻长安，模遂降，为粲所杀。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

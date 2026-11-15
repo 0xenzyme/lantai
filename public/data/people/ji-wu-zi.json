@@ -6,12 +6,14 @@
   "death": -535,
   "deathAccuracy": "exact",
   "deathNote": "史记·鲁周公世家「七年，季武子卒」（昭公七年，前535）。",
+  "title": "季氏，作三军分公室",
+  "bio": "季文子之子，鲁执政。襄公十一年，作三军，三分公室而各有其一，鲁国之政尽归三桓。又作林钟。昭公七年卒。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

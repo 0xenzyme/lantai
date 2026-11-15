@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1902,
   "deathAccuracy": "exact",
+  "title": "两江总督，南洋大臣",
+  "bio": "湖南新宁人，字岘庄。以团练从刘长佑，代统其军，累擢江西巡抚。光绪中总督两江，为南洋大臣。庚子之变，与东南督抚立互保约，江浙赖以无事。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

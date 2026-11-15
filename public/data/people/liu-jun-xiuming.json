@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "「劭、濬及劭四子……並梟首大航，暴尸於市」（宋书·二凶传），承元嘉三十年纪传系年。",
   "title": "始兴王，与元凶同弑父，伏诛于大航",
+  "bio": "宋文帝第二子，封始兴王。母潘淑妃，嬖爱倾后宫。与太子劭昵甚，尝共为巫蛊，诅上早崩。元嘉三十年，劭弑立，濬豫其谋。孝武入讨，并伏诛于大航。",
   "tags": [
     "南北朝",
     "刘宋"
@@ -21,7 +22,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

@@ -4,10 +4,54 @@
   "from": 1115,
   "to": 1234,
   "contractVersion": 1,
+  "aliases": [
+    "金朝",
+    "大金"
+  ],
+  "summary": "从完颜阿骨打建国到蔡州城破，金历公元 1115—1234 年；灭辽亡北宋而据中原，与南宋和战百年，终亡于蒙古与宋的夹攻。",
   "group": "song-liao-jin-yuan",
   "personCount": 0,
   "eventCount": 44,
-  "founderRecords": [],
+  "body": "本页按现有收录组织金代阅读。人物专题暂未开设，事件按朝代区间自动选录，涵盖大金建国、靖康之变、绍兴和议与蒙金战争；断代取公元 1115—1234 年，与南宋时间轴互相交叠。",
+  "capitals": [
+    {
+      "name": "会宁府",
+      "note": "金初都城上京，在今黑龙江哈尔滨阿城。"
+    },
+    {
+      "name": "中都",
+      "note": "1153 年海陵王迁都后的都城，在今北京。"
+    },
+    {
+      "name": "开封",
+      "note": "金末南迁后的都城南京。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "wanyan-aguda",
+      "name": "完颜阿骨打",
+      "display": "完颜阿骨打",
+      "birth": 1068,
+      "birthAccuracy": "exact",
+      "death": 1123,
+      "deathAccuracy": "exact",
+      "title": "金太祖，起兵反辽建大金",
+      "bio": "女真完颜部首领，以二千五百人起兵，出河店、护步答冈以少胜多，称帝建国大金。与宋约海上之盟夹攻辽，未及灭辽而卒。",
+      "tags": [
+        "金"
+      ],
+      "categories": [
+        "outsider",
+        "monarch"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "topics": [],
   "people": [],
   "events": [
@@ -315,5 +359,11 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "金史",
+      "part": "太祖纪、地理志",
+      "kind": "classic"
+    }
+  ]
 }

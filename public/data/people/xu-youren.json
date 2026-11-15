@@ -7,12 +7,14 @@
   "death": 1364,
   "deathAccuracy": "exact",
   "birthNote": "本传享年78，虚岁上推生年1287，非精确生年。依据「二十四年九月二十一日卒，年七十八」（raw/元/元史/卷182.md:63）",
+  "title": "历事七朝，元老直臣",
+  "bio": "字可用，其先世居颍，后徙汤阴。擢延祐二年进士第，历同知辽州事、御史、中书左丞。当权臣恣睢之时，绝不巧避，事有不便，明辨力争。盗起河南，画备御策十五条以授郡将。二十四年九月卒，年七十八，谥文忠。",
   "polity": [
     "yuan"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

@@ -6,12 +6,14 @@
   "death": 421,
   "deathAccuracy": "disputed",
   "deathNote": "通鉴系永初二年（421）恂自杀（raw/通代/資治通鑑/卷119.md:101）；《晋书》卷八七记事互异，卒年两说未定。",
+  "title": "西凉末主，殉于敦煌",
+  "bio": "暠之子，歆之弟。歆败死，郡人宋承等以恂在郡有惠政，密信招之，推为冠军将军、凉州刺史。蒙逊自率众二万攻敦煌，三面起堤，引水灌城；恂遣壮士连版为桥潜决其堤，不克，城陷，自杀，西凉遂亡。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 799,
   "deathAccuracy": "exact",
+  "title": "德宗宰相，单骑赴汴",
+  "bio": "字混成，河中虞乡人。擢明经。大历中送崇徽公主于回纥，为判官，折其市马邀直之请。李怀光反，说以归顺。贞元五年同中书门下平章事。后为宣武节度使，不召兵，独赴汴，禽邓惟恭，军粗安。卒，年七十六，谥曰恭惠。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 941,
   "deathAccuracy": "exact",
+  "title": "吴越文穆王，置择能院",
+  "bio": "元瓘，字明宝，镠子也。少为质于田頵，頵戒左右曰「今日不胜，必斩钱郎」，是日頵战死，元瓘得归。镠卒，诸将请立之，袭封吴越国王。置择能院，选吴中文士录用之。然性奢僭，天福六年杭州大火，烧其宫室迨尽，避之，火辄随发，因狂疾而卒，年五十五，谥曰文穆。",
   "polity": [
     "shiguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "wudai",

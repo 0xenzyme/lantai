@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 330,
   "deathAccuracy": "exact",
+  "title": "东晋豫州刺史，从苏峻诛",
+  "bio": "字士少，豫州刺史祖逖之弟，与逖相友爱。逖卒，自侍中代领其众，为平西将军、豫州刺史。自以名辈不后郗、卞而不豫顾命，又望开府不见许，遂怀怨望。苏峻举兵，推崇约，约使逖子涣、女婿许柳以兵会。峻败，奔石勒，勒诈令聚会，杀之，并亲属百余人。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

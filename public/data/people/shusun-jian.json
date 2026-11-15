@@ -7,12 +7,14 @@
   "death": 437,
   "deathAccuracy": "exact",
   "birthNote": "生年无史料直书，由卒年与享年虚岁上推。据「太延三年薨，時年七十三」raw/北朝/魏書/卷29.md:80",
+  "title": "北魏初名将，威震青齐",
+  "bio": "代人。仕魏，沉敏多智，东西征伐，常为谋主。与长孙道生济河而南，破刘义隆兖州刺史竺灵秀，斩首五千余级。又拒檀道济、王仲德之救滑台，焚绝粮道，安颉因得拔城。后为平原镇大将，封丹阳王，加征南大将军。太延三年薨，年七十三，谥曰襄王。",
   "polity": [
     "bei"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

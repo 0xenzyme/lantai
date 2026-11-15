@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1721,
   "deathAccuracy": "exact",
+  "title": "清初历算大家",
+  "bio": "安徽宣城人。贯通中西历算，于天文、算学皆有发明，著《历学答问》《方程论》等百余卷。康熙帝尝称其学，为一代历算宗师。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

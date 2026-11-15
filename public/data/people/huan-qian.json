@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 410,
   "deathAccuracy": "exact",
+  "title": "桓冲之子，桓楚执政",
+  "bio": "字敬祖，桓冲之子，以父功封宜阳县侯。桓玄篡位，谦预机要。玄败，与桓振复陷江陵，劫迁乘舆，振肆虐，谦保护乘舆有功。振败，奔后秦姚兴。谯纵称藩于秦，表请谦东下，于道占募，百姓感冲遗惠，投者二万，卒为刘道规所斩。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

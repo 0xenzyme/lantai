@@ -6,12 +6,14 @@
   "death": 528,
   "deathAccuracy": "exact",
   "deathNote": "卒年承上下文推定。据「榮入洛也，見害於河陰」raw/北朝/魏書/卷19下.md:94",
+  "title": "北魏宗室重臣，河阴之变遇害",
+  "bio": "东平王略，字儁兴，中山王熙之弟。元叉专政，黜为怀朔镇副将。熙起兵，略南奔，萧衍封为中山王。元法僧叛，衍以为大都督令诣彭城，为安乐王鉴所破。后征还，除侍中、义阳王，改封东平王，迁尚书令，灵太后甚宠任之。尔朱荣入洛，见害于河阴。谥文贞。",
   "polity": [
     "bei"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

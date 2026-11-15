@@ -6,12 +6,14 @@
   "death": -616,
   "deathAccuracy": "exact",
   "deathNote": "左传·文公十一年（前616）鲁败狄于咸，获长狄侨如，富父终甥摏其喉以戈杀之；史记·鲁周公世家「獲長翟喬如」。",
+  "title": "长狄渠帅，见获于鲁",
+  "bio": "长狄帅侨如。鲁文公十一年，狄伐鲁，鲁败之于咸，获侨如，富父终甥以戈摏其喉杀之。长狄种因是浸衰。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 222,
   "deathAccuracy": "exact",
+  "title": "蜀汉将军，战没夷陵",
+  "bio": "冯习，蜀汉将军。章武元年，先主忿孙权之袭关羽，帅诸军伐吴，将军吴班、冯习自巫攻破吴将李异等，军次秭归。二年夏，陆议大破先主军于猇亭，习死之。",
   "polity": [
     "shu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "sanguo",

@@ -6,12 +6,14 @@
   "death": 1324,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详，取1324年为活动年（非寿数）。依据「泰定元年，冊為皇后」（raw/元/元史/卷114.md:70）",
+  "title": "泰定帝皇后",
+  "bio": "弘吉剌氏，按陈孙斡留察儿之女。泰定元年，册为皇后。其妃必罕、速哥答里，皆弘吉剌氏，兖王买住罕之女。",
   "polity": [
     "yuan"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

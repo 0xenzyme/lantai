@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "「禧愧而無言，遂賜死私第」（魏书·咸阳王禧传），系景明二年。",
   "title": "咸阳王，孝文帝弟，宣武初谋反赐死",
+  "bio": "咸阳王禧，字永寿，孝文帝之弟。太和中封，位太尉、尚书令，为世宗所重。自以为地亲任重，颇有异志，与妃兄李伯尚等谋反，事泄。景明二年，赐死于私第。诸子皆削籍，后得复属籍。",
   "tags": [
     "南北朝",
     "北魏"
@@ -20,7 +21,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

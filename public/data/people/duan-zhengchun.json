@@ -6,12 +6,14 @@
   "death": 1108,
   "deathAccuracy": "approx",
   "deathNote": "禅位为僧，以禅位之年（公元 1108）系年，非寿数；生年无载。",
+  "title": "后理国第一主",
+  "bio": "升泰临终还政，正淳复国，是为后理之始，高氏为相。在位十二年，禅位为僧，传子正严。",
   "polity": [
     "dali"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

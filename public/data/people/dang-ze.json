@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -576,
   "deathAccuracy": "exact",
+  "title": "宋司马，弱公室见杀",
+  "bio": "宋司马荡泽，字子山，桓族之后。弱公室，杀公子肥。左师华元使其属攻荡氏，杀泽，其党鱼石出奔楚。",
   "polity": [
     "song-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -6,12 +6,14 @@
   "death": -682,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详，取前682年为活动下限（非寿数）。依据史记·郑世家「十二年，宋人長萬弒其君湣公。鄭祭仲死。」（raw/先秦-西汉/史記/卷042-鄭世家.md:45）。",
+  "title": "郑卿，两易其君",
+  "bio": "郑卿。宋人执之，胁立公子突，是为厉公。昭公复归，厉公自栎入，劫仲以逐昭公。卒于鲁庄公十二年。",
   "polity": [
     "zheng"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -6,12 +6,14 @@
   "death": 403,
   "deathAccuracy": "approx",
   "deathNote": "元兴二年（403）降后秦、后凉亡（raw/通代/資治通鑑/卷113.md:49）；此系亡国之年，非寿数。",
+  "title": "后凉末主，降于后秦",
+  "bio": "字永基，光弟宝之子。吕超既弑纂，让位，隆遂僭即天王位，改元神鼎。姚兴遣姚硕德西伐，隆遣妻子为质，寻以姑臧难守，素车白马迎于道旁，率户一万东迁长安，后凉遂亡。后坐与子弼谋反，为兴所诛。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

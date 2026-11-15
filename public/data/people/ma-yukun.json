@@ -6,12 +6,14 @@
   "death": 1908,
   "deathAccuracy": "approx",
   "deathNote": "本传不载生年与寿数。清史稿卷461作「三十四年，病卒，赠太子太保……谥忠武」；三十四年为光绪三十四年，即 1908，证据只及年，故标 approx。raw/清/清史稿/卷461.md:43",
+  "title": "毅军将领，谥忠武",
+  "bio": "安徽蒙城人。隶毅军，从宋庆战辽左。甲午之役，御日军于牛庄；庚子，御联军于天津。积功至浙江提督。光绪三十四年病卒，赠太子太保。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

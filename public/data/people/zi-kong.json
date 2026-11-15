@@ -6,12 +6,14 @@
   "death": -554,
   "deathAccuracy": "exact",
   "deathNote": "春秋左传正义·襄公十九年（前554）「甲辰，子展、子西率國人伐之，殺子孔而分其室」（raw/春秋/春秋左傳正義/卷34.md:74）。",
+  "title": "郑司徒，专权见杀",
+  "bio": "郑卿公子嘉，穆公之子，为司徒。襄公十年，知尉止之难而不告，故独不死。子驷死，子孔当国，为载书以位序听政辟，欲专其权；子产请焚书以安众，乃焚于仓门之外。襄公十九年，子展、子西率国人伐之，杀子孔而分其室。",
   "polity": [
     "zheng"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

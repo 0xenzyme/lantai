@@ -4,10 +4,48 @@
   "from": 916,
   "to": 1125,
   "contractVersion": 1,
+  "aliases": [
+    "辽朝",
+    "契丹"
+  ],
+  "summary": "从耶律阿保机建契丹到天祚帝亡国，辽历公元 916—1125 年；与五代北宋对峙，以五京与南北面官制治理农牧两类社会。",
   "group": "song-liao-jin-yuan",
   "personCount": 0,
   "eventCount": 88,
-  "founderRecords": [],
+  "body": "本页按现有收录组织辽代阅读。人物专题暂未开设，事件按朝代区间自动选录，涵盖契丹建国、灭后晋、澶渊定盟与辽金战争；断代取公元 916—1125 年，与五代、北宋的时间轴互相交叠。",
+  "capitals": [
+    {
+      "name": "上京临潢府",
+      "note": "辽皇都，在今内蒙古巴林左旗。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "yelv-abaoji",
+      "name": "耶律阿保机",
+      "display": "辽太祖",
+      "birth": 872,
+      "birthAccuracy": "exact",
+      "death": 926,
+      "deathAccuracy": "exact",
+      "title": "契丹之君，并八部而建辽基",
+      "bio": "契丹迭剌部酋裔。唐末八部争立，阿保机并兼之，筑城置邑，用韩延徽、康默记辈正君臣、定耦耕，制契丹大字。东灭渤海，西服奚霫；与晋王李克用云州会盟约为兄弟，已而背盟取山北，与梁联好。天显元年建国号契丹，旋殂于扶余城。",
+      "tags": [
+        "契丹",
+        "辽"
+      ],
+      "categories": [
+        "monarch",
+        "founding",
+        "outsider"
+      ],
+      "polity": [
+        "liao-jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "topics": [],
   "people": [],
   "events": [
@@ -308,5 +346,15 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "辽史",
+      "part": "太祖纪、地理志",
+      "kind": "classic"
+    },
+    {
+      "work": "契丹国志",
+      "kind": "classic"
+    }
+  ]
 }

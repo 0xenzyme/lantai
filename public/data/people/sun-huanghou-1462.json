@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1462,
   "deathAccuracy": "exact",
+  "title": "宣宗皇后，取宫人子为己子",
+  "bio": "邹平人。幼入宫，宣宗即位封贵妃，请于太后制金宝，贵妃有宝自此始。无子，阴取宫人子为己子，即英宗也。宣德三年胡后废，遂册为皇后。英宗北狩，命郕王监国；及还，幽于南宫，后数入省视。石亨等谋夺门，先密白太后，许之。天顺六年崩，谥孝恭章皇后。",
   "polity": [
     "ming"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "ming",

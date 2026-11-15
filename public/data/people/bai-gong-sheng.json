@@ -6,12 +6,14 @@
   "death": -479,
   "deathAccuracy": "exact",
   "deathNote": "左传·哀公十六年（前479）白公胜作乱败，「白公奔山而縊」；史记·楚世家载其袭杀令尹子西、子期于朝。",
+  "title": "楚王孙，白公之乱",
+  "bio": "楚平王之孙，太子建之子，以父难奔吴。返楚为巢大夫，求伐郑以复父仇。怀王十五年，袭杀令尹子西、子期于朝，惠王几殆。叶公定之，胜败，奔山而缢。",
   "polity": [
     "chu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 315,
   "deathAccuracy": "exact",
+  "title": "西晋末湘中流民之主",
+  "bio": "字景文，蜀郡成都人。州举秀才，为醴陵令。巴蜀流人布在荆湘，为旧民所侵苦，众共推弢为主，自称梁益二州牧、平难将军、湘州刺史，攻破郡县。元帝命王敦、陶侃讨之，前后数十战，请降不许，众溃，突围遁走，道死。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

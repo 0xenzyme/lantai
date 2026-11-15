@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1796,
   "deathAccuracy": "exact",
+  "title": "四库馆纂修，宋史专家",
+  "bio": "浙江余姚人，字二云。乾隆三十八年进士，充四库馆纂修官。于宋人著述尤该洽，尝欲重修宋史，未就。著《尔雅正义》《南江文集》。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

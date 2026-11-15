@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "「帝常慮子良有異志，及薨，甚悅」（南齐书·竟陵文宣王子良传），系隆昌元年。",
   "title": "竟陵文宣王，开西邸聚文学之士，鸡笼山下开讲",
+  "bio": "字云英，齐武帝第二子，封竟陵郡王。礼才好士，开西邸聚沈约、谢朓、王融等，号竟陵八友。又于鸡笼山开馆讲学，士庶云集。隆昌元年薨，谥文宣。",
   "tags": [
     "南北朝",
     "南齐"
@@ -20,7 +21,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

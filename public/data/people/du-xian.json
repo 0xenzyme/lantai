@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 740,
   "deathAccuracy": "exact",
+  "title": "开元宰相，安西清直",
+  "bio": "濮州濮阳人。举明经，补婺州参军，州吏以纸万余张为赠，止受百纸。开元中为监察御史，按碛西军，蕃人遗金，埋幕下，出境乃移牒令取之。后为安西副大都护，密知于阗王尉迟眺谋叛，发兵斩之。十四年同平章事，卒，谥曰贞孝。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

@@ -6,6 +6,8 @@
   "death": 1667,
   "deathAccuracy": "exact",
   "deathNote": "清史稿·卷249·苏克萨哈传：康熙六年上亲政，苏克萨哈奏乞守先帝陵寝，鳌拜诬以怨望、构罪状二十四款，\"卒坐苏克萨哈处绞\"；康熙八年鳌拜败，诏复官及世爵。",
+  "title": "四辅政大臣之一",
+  "bio": "满洲正白旗人。事太宗、世祖，顺治亲政，发睿亲王罪状，进领侍卫内大臣。世祖崩，受遗诏辅政。康熙六年请守陵寝，为鳌拜诬以怨望，坐绞。八年，鳌拜诛，复其官爵。",
   "categories": [
     "chancellor",
     "regent"
@@ -15,7 +17,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

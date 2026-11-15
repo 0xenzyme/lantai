@@ -4,10 +4,56 @@
   "from": 1368,
   "to": 1644,
   "contractVersion": 1,
+  "aliases": [
+    "明朝",
+    "大明"
+  ],
+  "summary": "从洪武建国到崇祯自缢，明朝历公元 1368—1644 年；废丞相、靖难之役、土木之变与晚明的内忧外患构成政治主线。",
   "group": "ming-qing",
   "personCount": 258,
   "eventCount": 39,
-  "founderRecords": [],
+  "body": "本页按现有收录组织明代阅读。人物来自明代专题的编辑选取，帝系、开国功臣与士大夫并见；事件按朝代区间与显式推荐确定，甲申之变以后归入清朝。",
+  "capitals": [
+    {
+      "name": "南京",
+      "note": "洪武都城。"
+    },
+    {
+      "name": "北京",
+      "note": "永乐迁都以后的京师。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "zhu-yuanzhang",
+      "name": "朱元璋",
+      "display": "明太祖朱元璋",
+      "birth": 1328,
+      "birthAccuracy": "exact",
+      "death": 1398,
+      "deathAccuracy": "exact",
+      "title": "驱元建明",
+      "bio": "濠州孤穷，入郭子兴红巾军，收淮西渡江取集庆。削平陈友谅、张士诚，1368 年称帝建明，北伐克大都，元亡。",
+      "tags": [
+        "元",
+        "明"
+      ],
+      "categories": [
+        "monarch",
+        "warlord",
+        "rebel",
+        "founding",
+        "falling"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "yuan",
+        "ming"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "topics": [
     "ming"
   ],
@@ -42,30 +88,6 @@
       "lane": ""
     },
     {
-      "id": "zhu-yunwen",
-      "name": "朱允炆",
-      "display": "明建文帝朱允炆",
-      "birth": 1377,
-      "birthAccuracy": "exact",
-      "death": 1402,
-      "deathAccuracy": "disputed",
-      "deathNote": "靖难四年宫中火起，不知所终。1402 是传统纪年的终点，不是确凿卒年。",
-      "title": "削藩引发靖难",
-      "bio": "太祖孙，懿文太子标之子。洪武三十一年嗣位，力行削藩；燕王棣起兵，靖难四年破南京，宫中火起，建文不知所终。",
-      "tags": [
-        "明"
-      ],
-      "categories": [
-        "monarch"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "ming"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
       "id": "zhu-di",
       "name": "朱棣",
       "display": "明成祖朱棣",
@@ -89,22 +111,24 @@
       "lane": ""
     },
     {
-      "id": "zhu-gaochi",
-      "name": "朱高炽",
-      "display": "明仁宗朱高炽",
-      "birth": 1378,
+      "id": "yu-qian",
+      "name": "于谦",
+      "display": "于谦",
+      "birth": 1398,
       "birthAccuracy": "exact",
-      "death": 1425,
+      "death": 1457,
       "deathAccuracy": "exact",
-      "title": "洪熙守成",
-      "bio": "成祖长子，体肥多病而仁厚。永乐二十二年即位，平反冤狱、轻徭薄赋，在位仅十月，开辟仁宣之治。",
+      "title": "北京保卫战",
+      "bio": "钱塘人，土木堡变后力排南迁、拥郕王监国，亲自督师破瓦剌于北京。英宗复辟，以「意欲」之罪冤死。",
       "tags": [
-        "明"
+        "明",
+        "社稷臣"
       ],
       "categories": [
-        "monarch"
+        "official",
+        "minister"
       ],
-      "primary": "monarch",
+      "primary": "minister",
       "polity": [
         "ming"
       ],
@@ -112,23 +136,25 @@
       "lane": ""
     },
     {
-      "id": "zhu-zhanji",
-      "name": "朱瞻基",
-      "display": "明宣宗朱瞻基",
-      "birth": 1399,
+      "id": "wang-shouren",
+      "name": "王守仁",
+      "display": "王阳明",
+      "birth": 1472,
       "birthAccuracy": "exact",
-      "death": 1435,
+      "death": 1529,
       "deathAccuracy": "exact",
-      "title": "仁宣之治",
-      "bio": "成祖孙，即位守成，重用三杨，与父仁宗并称仁宣之治；亦擅绘事，好促织之戏。",
+      "title": "心学集大成者",
+      "bio": "余姚人，龙场悟道，倡「致良知」「知行合一」。平宁王宸濠之乱，事功与学术并峙，世称阳明先生。",
       "tags": [
         "明"
       ],
       "categories": [
-        "monarch",
-        "painting"
+        "official",
+        "minister",
+        "neo-confucian",
+        "general"
       ],
-      "primary": "monarch",
+      "primary": "neo-confucian",
       "polity": [
         "ming"
       ],
@@ -136,22 +162,24 @@
       "lane": ""
     },
     {
-      "id": "zhu-qizhen",
-      "name": "朱祁镇",
-      "display": "明英宗朱祁镇",
-      "birth": 1427,
+      "id": "zhang-juzheng",
+      "name": "张居正",
+      "display": "张居正",
+      "birth": 1525,
       "birthAccuracy": "exact",
-      "death": 1464,
+      "death": 1582,
       "deathAccuracy": "exact",
-      "title": "土木堡被俘的皇帝",
-      "bio": "九岁即位，宠王振酿土木堡之变，为瓦剌所俘；归后幽禁南宫，复辟杀于谦。两度在位，命运独奇。",
+      "title": "万历首辅，一条鞭法",
+      "bio": "江陵人，神宗冲龄即位，任首辅摄政十年。行考成法、清丈田亩、推一条鞭，太仓粟可支十年；身后抄家，法度渐弛。",
       "tags": [
-        "明"
+        "明",
+        "改革"
       ],
       "categories": [
-        "monarch"
+        "official",
+        "chancellor"
       ],
-      "primary": "monarch",
+      "primary": "chancellor",
       "polity": [
         "ming"
       ],
@@ -160,64 +188,6 @@
     }
   ],
   "events": [
-    {
-      "id": "dadu-xianluo",
-      "name": "大都陷落",
-      "display": "大都陷落",
-      "kind": "point",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "battle",
-      "importance": 3,
-      "year": 1368,
-      "yearAccuracy": "exact",
-      "yearNote": "闰七月丙寅夜半北奔，八月庚午明军入城。元史八月原作庚申，校记改午，与明史庚午一致。应昌之死不并入。",
-      "place": "大都",
-      "belligerents": [
-        "yuan",
-        "ming"
-      ],
-      "commanders": [
-        {
-          "id": "xu-da",
-          "side": "ming"
-        },
-        {
-          "id": "shun-di",
-          "side": "yuan"
-        }
-      ],
-      "people": [
-        "zhu-yuanzhang"
-      ],
-      "result": "元廷退出大都，中原朝廷结束",
-      "aliases": [
-        "元顺帝北走",
-        "明军入大都"
-      ],
-      "dynasties": [
-        "yuan",
-        "ming"
-      ],
-      "desc": "至正二十八年闰七月丙寅夜半，元顺帝开健德门北奔。八月庚午，徐达率明军进入大都，元史称国亡。元朝在中原的朝廷由此结束。应昌之死在此后，不并入本条。",
-      "sources": [
-        {
-          "work": "元史",
-          "part": "卷四十七·顺帝本纪",
-          "note": "闰七月丙寅开健德门北奔，八月庚午大明兵入京城",
-          "kind": "classic"
-        },
-        {
-          "work": "明史",
-          "part": "卷二·太祖本纪",
-          "note": "八月庚午徐达入元都",
-          "kind": "classic"
-        }
-      ]
-    },
     {
       "id": "hongwu-chengdi",
       "name": "洪武称帝",
@@ -258,89 +228,6 @@
           "work": "续资治通鉴",
           "part": "卷二百二十",
           "note": "至正二十八年正月乙亥即皇帝位，定国号曰明，建元洪武",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "weisuo-huangce",
-      "name": "卫所与黄册",
-      "display": "卫所与黄册",
-      "kind": "span",
-      "type": "institutional",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 1370,
-      "yearAccuracy": "approx",
-      "yearNote": "洪武间置卫所、籍军户，又造黄册以定赋役。通以十四世纪七八十年代为其制大定，无单一年；黄册以洪武十四年（1381）为始造，卫所则自渡江以来次第置立。",
-      "endYear": 1381,
-      "endYearAccuracy": "exact",
-      "place": "南京",
-      "placeNow": "今江苏南京",
-      "polity": [
-        "ming"
-      ],
-      "people": [
-        "zhu-yuanzhang"
-      ],
-      "result": "兵籍定于卫所军户，赋役定于黄册里甲，明之国家骨立于此",
-      "aliases": [
-        "卫所制度",
-        "赋役黄册"
-      ],
-      "dynasties": [
-        "ming"
-      ],
-      "desc": "明之制度，其大者成于洪武。京师要害之地置卫，环海襟要之地亦置卫，一卫五千六百人，统于都指挥使司，而进退之权在兵部。军皆世籍，为一军户，父子相继；官给屯田、月粮，无事则屯种自食，有事征发，事旋归伍。其粮饷则取诸里甲。太祖乃命有司核实户口，以户为主，详具旧管、新收、开除、实在之数，为四柱式，岁以其籍献于户部，藏之内府，题本库之黄纸面者，故曰黄册。又以一百一十户为里，推丁粮多者十人为里长，余百户为十甲，岁轮一甲应役。兵农分籍，军民异数，赋出于田而役出于丁。其后军户寖失其实，屯田为势豪所蚀，卫所之兵窳，则募兵起，加派之征亦与黄册之额不合。祖制之坏，皆始于名实之睽。",
-      "sources": [
-        {
-          "work": "明史",
-          "part": "兵志",
-          "kind": "classic"
-        },
-        {
-          "work": "明史",
-          "part": "食货志",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "zhongshu-feisheng",
-      "name": "废除中书省",
-      "display": "废除中书省",
-      "kind": "point",
-      "type": "institutional",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 1380,
-      "yearAccuracy": "exact",
-      "yearNote": "洪武十三年正月戊戌。胡惟庸伏诛与废相是同一月的一件事，不拆成两条。",
-      "polity": [
-        "ming"
-      ],
-      "people": [
-        "zhu-yuanzhang",
-        "hu-wei-yong"
-      ],
-      "result": "罢中书省，废丞相，改五军都督府",
-      "aliases": [
-        "胡惟庸案",
-        "废丞相"
-      ],
-      "dynasties": [
-        "ming"
-      ],
-      "desc": "洪武十三年正月戊戌，左丞相胡惟庸伏诛。同月罢中书省，废丞相，更定六部官秩，改大都督府为五军都督府。",
-      "sources": [
-        {
-          "work": "明史",
-          "part": "卷二",
-          "note": "洪武十三年正月戊戌胡惟庸伏诛，罢中书省，废丞相，改五军都督府",
           "kind": "classic"
         }
       ]
@@ -429,9 +316,136 @@
           "kind": "classic"
         }
       ]
+    },
+    {
+      "id": "tumu-zhibian",
+      "name": "土木之变",
+      "display": "土木之变",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1449,
+      "yearAccuracy": "exact",
+      "yearNote": "正统十四年八月壬戌。次土木之日两卷异：卷十作「辛酉次土木被围，壬戌师溃」，卷三百四作「壬戌始次土木」；师溃同在壬戌，事件年 1449 不受影响。",
+      "place": "土木堡",
+      "belligerents": [
+        "ming",
+        "mongol"
+      ],
+      "commanders": [
+        {
+          "id": "zhu-qizhen",
+          "side": "ming"
+        },
+        {
+          "id": "ye-xian",
+          "side": "mongol"
+        }
+      ],
+      "people": [
+        "yu-qian",
+        "wang-zhen-ming"
+      ],
+      "result": "明军大溃，英宗被俘",
+      "aliases": [
+        "土木堡",
+        "ming-tumu",
+        "土木堡之变"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "正统十四年七月，瓦剌太师也先大举入寇，太监王振挟英宗亲征，八月辛酉次土木被围，壬戌师溃，死者数十万，英宗被俘北狩。败闻至京，侍讲徐珵请南迁，兵部侍郎于谦不可，皇太后命郕王监国。北京保卫战另列专条，不并入本条。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "卷十",
+          "note": "正统十四年八月辛酉次土木被围，壬戌师溃，帝北狩",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "卷三百二十八",
+          "note": "也先追及土木，六军大溃，帝蒙尘",
+          "kind": "classic"
+        },
+        {
+          "work": "明史",
+          "part": "卷三百四·宦官传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "saerhu-zhizhan",
+      "name": "萨尔浒之战",
+      "display": "萨尔浒之战",
+      "kind": "point",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "battle",
+      "importance": 3,
+      "year": 1619,
+      "yearAccuracy": "exact",
+      "yearNote": "万历四十七年、天命四年三月。",
+      "place": "萨尔浒",
+      "belligerents": [
+        "ming",
+        "qing"
+      ],
+      "commanders": [
+        {
+          "id": "nu-er-ha-chi",
+          "side": "qing"
+        },
+        {
+          "id": "liu-ting",
+          "side": "ming"
+        }
+      ],
+      "people": [
+        "zhu-yijun"
+      ],
+      "result": "明军三路溃败",
+      "parent": "mingqing-zhanzheng",
+      "aliases": [
+        "萨尔浒"
+      ],
+      "dynasties": [
+        "ming"
+      ],
+      "desc": "万历四十七年三月，杜松、马林、刘綎兵败战死。清史稿记杜松军出抚顺、萨尔浒，四日破三路明兵。明史称大清兵，是后出追称。杨镐无人物 id，不写入。",
+      "sources": [
+        {
+          "work": "明史",
+          "part": "卷二十一",
+          "note": "万历四十七年三月杜松、马林、刘綎败死。明史称大清兵，是后出追称",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷一",
+          "note": "天命四年杜松军出抚顺、萨尔浒，四日破三路明兵",
+          "kind": "classic"
+        }
+      ]
     }
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "明史",
+      "part": "太祖纪、成祖纪",
+      "kind": "classic"
+    }
+  ]
 }

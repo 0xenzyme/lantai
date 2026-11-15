@@ -6,12 +6,14 @@
   "death": -650,
   "deathAccuracy": "exact",
   "deathNote": "左传·僖公十年（前650）晋惠公杀里克，里克伏剑；史记·晋世家载惠公「乃殺里克」。",
+  "title": "晋卿，弑奚齐卓子",
+  "bio": "晋卿。骊姬乱国，奚齐、卓子连立连弑，皆里克之为。僖公八年，败狄于采桑。惠公立，惧其弑君之罪，杀之，里克伏剑曰「不有废也，君何以兴」。",
   "polity": [
     "jin-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

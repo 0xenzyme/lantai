@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1816,
   "deathAccuracy": "exact",
+  "title": "乾嘉间考据学者",
+  "bio": "字武承，大名人。乾隆二十七年举人，选福建罗源县知县。著书三十余种，《考信录》尤所究心。其旨在不以传注杂于经，不以诸子杂于传注，辟纬书三皇之说。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

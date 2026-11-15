@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 562,
   "deathAccuracy": "exact",
+  "title": "北齐宗室，据州反伏诛",
+  "bio": "神武从父弟子，少孤，为清河王高岳所养。文宣时封平秦王，预乾明之变，佐孝昭即位。出为冀州刺史，大宁二年秋据州反，为段韶、娄叡所擒，斩于都市，并及其三子。",
   "polity": [
     "bei"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

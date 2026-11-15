@@ -7,12 +7,14 @@
   "death": 380,
   "deathAccuracy": "exact",
   "birthNote": "载记称「太元五年崩，年二十一」（raw/晋/晉書/卷032.md:95），以卒年虚岁上推生年。",
+  "title": "东晋孝武帝皇后，嗜酒骄妒",
+  "bio": "太原晋阳人，王蕴之女，哀靖皇后之侄。谢安称其父荫望可任帝后之选。宁康三年，桓冲等奏可配德乾元，帝始纳焉。性嗜酒骄妒，帝深患之，召蕴于东堂令加训诫，后少自改饰。太元五年崩，年二十一，葬隆平陵。",
   "polity": [
     "jin"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

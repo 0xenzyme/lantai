@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1887,
   "deathAccuracy": "exact",
+  "title": "楚勇旧将，总督云贵",
+  "bio": "湖南新宁人，字印渠。与江忠源同起楚勇，独领一军，转战两湖、江西。官至广西巡抚、云贵总督。在滇筹边，力主固圉。卒谥武慎。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

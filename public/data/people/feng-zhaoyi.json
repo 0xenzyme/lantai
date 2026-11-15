@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -6,
   "deathAccuracy": "exact",
+  "title": "当熊而立，为信都太后",
+  "bio": "冯媛，冯奉世女，元帝选入后宫，生男，拜婕妤。建昭中，上幸虎圈斗兽，熊佚出圈，攀槛欲上殿，左右贵人皆惊走，冯婕妤直前当熊而立，左右格杀熊。上问何以不惧，对曰「妾恐熊至御坐，故以身当之」，上由此倍敬重。后为信都太后，遭傅太后诬祝诅，饮药自杀。",
   "polity": [
     "han"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "han",

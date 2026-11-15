@@ -6,12 +6,14 @@
   "death": -206,
   "deathAccuracy": "approx",
   "deathNote": "史记：田荣以齐反，迎击田都，田都走楚；田荣自立为齐王，「西殺擊濟北王田安，并王三齊」（项羽本纪:63）。当汉之元年，当前 206，此年为被杀之年，非寿数。",
+  "title": "齐王建之孙，济北王",
+  "bio": "故秦所灭齐王建之孙。项羽方渡河救赵，安下济北数城，引兵降项羽，立为济北王，都博阳。汉之元年，田荣以齐反，西击杀济北王安，并王三齐。",
   "polity": [
     "qin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qin",

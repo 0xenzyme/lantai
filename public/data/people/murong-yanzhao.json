@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 963,
   "deathAccuracy": "exact",
+  "title": "宋初名将，定荆湘",
+  "bio": "太原人，少以勇干闻。从周世宗征淮南。太祖即位，方握重兵屯真定，与韩令坤按治边境，加殿前都点检。李筠叛，为行营都部署讨平之。建隆二年表解军职，出为山南东道节度。四年春，抱病肩舆南征，擒汪端磔于市，荆、湘悉平。是冬卒，年五十一。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

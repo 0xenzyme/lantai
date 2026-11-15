@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1528,
   "deathAccuracy": "exact",
+  "title": "世宗元配，两谥悼灵孝洁",
+  "bio": "元城人。嘉靖元年册立为皇后。帝性严厉，一日与后同坐，张、方二妃进茗，帝循视其手，后恚投杯起，帝大怒，后惊悸堕娠而崩，时嘉靖七年十月。初谥悼灵，葬袄儿峪。十五年礼臣议请，改谥孝洁。穆宗即位，迁葬永陵。",
   "polity": [
     "ming"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "ming",

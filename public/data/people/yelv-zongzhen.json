@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1055,
   "deathAccuracy": "exact",
+  "title": "辽兴宗，钦哀后子",
+  "bio": "圣宗长子，字夷不堇，幼为齐天皇后所养。善骑射，好儒术，通音律。太平十一年六月，即柩前位，改元景福。钦哀皇后萧氏诬弑齐天皇后，久乃归政。重熙二十四年崩。",
   "polity": [
     "liao-jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

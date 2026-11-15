@@ -6,12 +6,14 @@
   "death": -588,
   "deathAccuracy": "approx",
   "deathNote": "左传·成公二年（前589）「九月，衞穆公卒」；史记·卫康叔世家于成公卒后记穆公卒、子定公臧立，年数衔接顺推作前588。两说差一年，试跑名单取前588，作约年。",
+  "title": "卫君，楚庄之世",
+  "bio": "卫穆公遫，成公之子。在位十一年。时楚庄王方盛，伐陈杀夏征舒；卫使孙良夫救鲁伐齐，复得侵地。卒，子定公臧立。",
   "polity": [
     "wei-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

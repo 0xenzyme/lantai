@@ -6,12 +6,14 @@
   "death": -680,
   "deathAccuracy": "exact",
   "deathNote": "左传·庄公十四年（前680）傅瑕杀郑子及其二子，纳厉公；史记·郑世家「假殺鄭子及其二子而迎厲公突」。",
+  "title": "郑子婴，在位十四年",
+  "bio": "齐人杀子亹，郑人立子婴，即左传所称子仪。在位十四年。庄公十四年，故郑亡厉公在栎，使人诱劫郑大夫傅瑕，要以求入；瑕曰「舍我，我为君杀郑子而入君」。六月甲子，瑕杀郑子婴及其二子，迎厉公突。郑故臣原繁忠于子仪，终以缢死。",
   "polity": [
     "zheng"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

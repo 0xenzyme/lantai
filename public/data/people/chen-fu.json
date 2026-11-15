@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1303,
   "deathAccuracy": "exact",
+  "title": "元初文士，使安南",
+  "bio": "字刚中，台州临海人。幼清峻颖悟，读书过目成诵。至元中，以布衣上大一统赋，署上蔡书院山长。二十九年，为梁曾副使安南，三书诘责陈日燇，辞直气壮，皆孚笔也。使还，除翰林待制。大德七年，劾元帅脱欢察儿不恤民隐，发仓赈饥，卒于家，年六十四。",
   "polity": [
     "yuan"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

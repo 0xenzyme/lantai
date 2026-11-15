@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "（宋书·竟陵王诞传）书大明三年七月官军克广陵城，斩诞，传首京邑。",
   "title": "竟陵王，坐广陵之叛，城破被斩",
+  "bio": "宋文帝第六子，封竟陵王。历雍州刺史、南兖州刺史，有兵略。与中书令袁顗相结，蓄异志。大明三年七月，据广陵反，官军克城，斩之，传首京邑。",
   "tags": [
     "南北朝",
     "刘宋"
@@ -21,7 +22,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

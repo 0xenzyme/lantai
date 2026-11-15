@@ -4,12 +4,173 @@
   "from": 265,
   "to": 316,
   "contractVersion": 1,
+  "summary": "从司马炎代魏到愍帝出降，西晋历公元 265—316 年；太康短暂统一之后，八王之乱与永嘉之祸使王朝走向覆亡。",
   "group": "weijin-nanbei",
-  "personCount": 0,
+  "personCount": 254,
   "eventCount": 10,
-  "founderRecords": [],
-  "topics": [],
-  "people": [],
+  "body": "本页按现有收录组织西晋阅读。人物来自两晋十六国专题的编辑选取，西晋帝系与佐命臣工在列；事件按朝代区间与显式推荐确定，衣冠南渡以后归入东晋与十六国。",
+  "capitals": [
+    {
+      "name": "洛阳",
+      "note": "西晋都城。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "sima-yan",
+      "name": "司马炎",
+      "display": "晋武帝司马炎",
+      "birth": 236,
+      "birthAccuracy": "exact",
+      "death": 290,
+      "deathAccuracy": "exact",
+      "title": "晋武帝，受魏禅，灭吴一天下",
+      "bio": "司马昭长子。咸熙二年受魏禅，改元泰始，都洛阳。太康元年灭吴，三国归晋，天下户二百四十五万。罢州郡兵，大封宗室，晚年骄怠，贾后与外戚之祸伏于此。太熙元年崩，年五十五。",
+      "tags": [
+        "三国",
+        "西晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei",
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "topics": [
+    "liangjin"
+  ],
+  "people": [
+    {
+      "id": "sima-yan",
+      "name": "司马炎",
+      "display": "晋武帝司马炎",
+      "birth": 236,
+      "birthAccuracy": "exact",
+      "death": 290,
+      "deathAccuracy": "exact",
+      "title": "晋武帝，受魏禅，灭吴一天下",
+      "bio": "司马昭长子。咸熙二年受魏禅，改元泰始，都洛阳。太康元年灭吴，三国归晋，天下户二百四十五万。罢州郡兵，大封宗室，晚年骄怠，贾后与外戚之祸伏于此。太熙元年崩，年五十五。",
+      "tags": [
+        "三国",
+        "西晋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "wei",
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yang-hu",
+      "name": "羊祜",
+      "display": "羊祜",
+      "birth": 221,
+      "birthAccuracy": "exact",
+      "death": 278,
+      "deathAccuracy": "exact",
+      "title": "征南大将军，与陆抗对境而各保其民",
+      "bio": "泰山南城人，蔡邕外孙。都督荆州十年，开屯田、修学校，与吴将陆抗对境，各保分界，抗遗之酒，祜饮之不疑。上疏请伐吴，未及行而卒，年五十八。南州人闻之罢市巷哭，襄阳百姓为立碑，望其碑者莫不流涕，谓之堕泪碑。",
+      "tags": [
+        "西晋",
+        "灭吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "du-yu",
+      "name": "杜预",
+      "display": "杜预",
+      "birth": 222,
+      "birthAccuracy": "exact",
+      "death": 285,
+      "deathAccuracy": "exact",
+      "title": "镇南大将军，灭吴统帅，作《春秋左氏传集解》",
+      "bio": "京兆杜陵人，司马昭妹夫，博学多通，朝野号曰杜武库，言其无所不有。太康元年统军南下，一举灭吴。作《春秋左氏经传集解》，又修水利、造欹器，尝言「立德不可企，立功立言可庶几」。太康五年卒，年六十三。",
+      "tags": [
+        "西晋"
+      ],
+      "categories": [
+        "general",
+        "classics"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wang-jun",
+      "name": "王濬",
+      "display": "王濬",
+      "birth": 206,
+      "birthAccuracy": "exact",
+      "death": 286,
+      "deathAccuracy": "exact",
+      "title": "龙骧将军，楼船下益州，先入建业",
+      "bio": "弘农湖人，博涉坟典，恢廓有大志。为益州刺史，作大船连舫，方百二十步，上起楼橹。太康元年自成都顺流而下，破丹阳、西陵，直抵石头，孙皓面缚舆榇降于军门。与王浑争功而不得，太康六年卒，年八十。",
+      "tags": [
+        "西晋",
+        "灭吴"
+      ],
+      "categories": [
+        "general"
+      ],
+      "primary": "general",
+      "polity": [
+        "jin"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "jia-nanfeng",
+      "name": "贾南风",
+      "display": "贾皇后贾南风",
+      "birth": 257,
+      "birthAccuracy": "exact",
+      "death": 300,
+      "deathAccuracy": "exact",
+      "title": "惠帝皇后，乱政十年，赐死于金墉",
+      "bio": "贾充之女，妒忌多权诈。元康元年诛杨骏、废太后，专朝政十年，用张华、裴頠而粗安。既而害太子遹，赵王伦遂以为名举兵，永康元年伦遣使赐金屑酒，死于金墉城。八王之乱由她这十年起。",
+      "tags": [
+        "西晋",
+        "八王之乱"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "jin"
+      ],
+      "gender": "female",
+      "lane": ""
+    }
+  ],
   "events": [
     {
       "id": "jin-jian-guo",
@@ -192,63 +353,6 @@
       ]
     },
     {
-      "id": "liu-yuan-jian-han",
-      "name": "刘渊建汉",
-      "display": "刘渊建汉",
-      "kind": "point",
-      "type": "political",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 304,
-      "yearAccuracy": "exact",
-      "yearNote": "永兴元年（304）。《晋书·刘元海载记》：「永興元年，元海乃為壇於南郊，僭即漢王位……年號元熙」；《惠帝纪》系于冬十一月，《十六国春秋》作十月，月份小异而年份无异。国号汉，史家后称汉赵/前赵（319 年刘曜徙都长安改号赵），polity 按 brief 用 shiliuguo。",
-      "place": "左国城",
-      "placeNow": "今山西离石北",
-      "polity": [
-        "shiliuguo"
-      ],
-      "people": [
-        "liu-yuan",
-        "wang-mi",
-        "shi-le"
-      ],
-      "result": "匈奴刘渊据离石、左国城称汉王，建国号汉（史称汉赵/前赵），成为此后覆灭西晋的主力，十六国之局自此开启",
-      "aliases": [
-        "刘渊称汉王",
-        "汉（汉赵/前赵）建国",
-        "刘渊起兵"
-      ],
-      "tags": [
-        "state-founding",
-        "xiongnu",
-        "sixteen-kingdoms"
-      ],
-      "dynasties": [
-        "western-jin",
-        "shiliuguo"
-      ],
-      "desc": "八王之乱中，匈奴左部帅、五部大都督刘渊被五部贵族密推为大单于。304 年自邺还并州，都离石、迁左国城，众至五万；十月（一说十一月）为坛南郊即汉王位，国号汉，建元元熙，以「汉氏之甥、兄亡弟绍」相号召，追尊刘禅。此后王弥、石勒相继来附，汉赵东出攻洛、西入长安，终灭西晋；史家以之为十六国之始。",
-      "sources": [
-        {
-          "work": "晋书",
-          "part": "卷四·帝纪第四",
-          "kind": "classic"
-        },
-        {
-          "work": "晋书",
-          "part": "卷一百一·载记第一",
-          "kind": "classic"
-        },
-        {
-          "work": "十六国春秋",
-          "part": "卷一·前赵录",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
       "id": "yongjia-zhiluan",
       "name": "永嘉之乱",
       "display": "永嘉之乱",
@@ -372,5 +476,16 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "武帝纪、惠帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ]
 }

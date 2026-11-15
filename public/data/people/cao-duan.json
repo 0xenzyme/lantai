@@ -7,12 +7,14 @@
   "death": 1434,
   "deathAccuracy": "exact",
   "birthNote": "本传作「宣德九年卒官，年五十九」`raw/明/明史/卷282.md:95`；宣德九年为1434，虚岁上推，生年约1376。",
+  "title": "明初醇儒，躬行实践",
+  "bio": "渑池人，字正夫。永乐六年举人，专心性理，以静存为要。读宋儒《太极图》《通书》《西铭》，叹道在是矣，笃志研究，坐下著足处两砖皆穿。父好释氏，为进《夜行烛》一书，父欣然从之。庐墓六年，为霍州学正，宣德九年卒官，年五十九。",
   "polity": [
     "ming"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "ming",

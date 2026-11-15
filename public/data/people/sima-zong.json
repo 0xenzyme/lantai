@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 326,
   "deathAccuracy": "exact",
+  "title": "东晋南顿王，为庾亮所诛",
+  "bio": "晋宗室，西阳王羕之弟，帝室近属。明帝时为抚军将军，与右卫将军虞胤等皆帝所亲昵，典禁兵。帝疾笃，宗与羕阴有异谋，为庾亮所发。咸和元年，宗以谋废执政伏诛，族贬为马氏，羕亦免官降爵，天下咸以亮翦削宗室。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

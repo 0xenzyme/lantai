@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "「景子，濟江，於中流船壞，以溺薨」（陈书·衡阳献王昌传），系天嘉元年三月。",
   "title": "衡阳献王，陈武帝嫡子，归国途中溺薨于江",
+  "bio": "陈武帝嫡子。武帝时留质于周。文帝即位，累请归，周遣之。天嘉元年三月济江，中流船坏，遂以溺薨。赠衡阳王，谥献。",
   "tags": [
     "南北朝",
     "陈"
@@ -20,7 +21,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

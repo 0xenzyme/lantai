@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -710,
   "deathAccuracy": "exact",
+  "title": "孔子六世祖",
+  "bio": "宋大夫，正考父之子，孔子六世祖。桓公二年，太宰华督攻孔氏，杀父嘉而妻其妻。子奔鲁，其后以孔为氏。",
   "polity": [
     "song-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

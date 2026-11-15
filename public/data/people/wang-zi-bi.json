@@ -6,12 +6,14 @@
   "death": -529,
   "deathAccuracy": "exact",
   "deathNote": "左传·昭公十三年（前529）弃疾立，子比自缢；史记·楚世家「子比爲王十餘日……又俱誅」。",
+  "title": "楚王子比，立十余日",
+  "bio": "楚共王之子，字子干，灵王之弟。灵王虐，比与弃疾等帅师入郢，立比为王。立十余日，弃疾为乱，比自缢。其立其亡，皆不逾时。",
   "polity": [
     "chu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

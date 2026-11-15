@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 346,
   "deathAccuracy": "exact",
+  "title": "前凉文公，开拓西域",
+  "bio": "字公庭，张茂兄之子。幼而奇伟，十岁能属文，十八统任。使将杨宣越流沙伐龟兹、鄯善，西域并降，鄯善王献女。分州置沙、河二州，筑谦光殿，穷尽珍巧。勤修庶政，远近嘉咏，号积贤君。遣使上疏称臣而不奉正朔。在位二十二年卒，年四十。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

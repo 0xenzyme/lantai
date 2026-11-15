@@ -8,6 +8,8 @@
   "deathAccuracy": "exact",
   "birthNote": "清史稿·卷410·彭玉麟传：光绪十六年（1890）卒，年七十五；据享年虚岁上推约生于1816年。",
   "deathNote": "清史稿·卷410·彭玉麟传：光绪十六年（1890）卒，年七十五，赠太子太保，谥刚直。",
+  "title": "湘军水师创建者",
+  "bio": "湖南衡阳人，字雪琴。与杨载福同创湘军水师，转战长江，克沿江郡县。后数巡阅江防，刚直自厉，不营一廛。卒谥刚直。",
   "categories": [
     "general"
   ],
@@ -16,7 +18,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

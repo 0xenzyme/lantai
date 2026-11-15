@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "「延和二年四月，蒙遜死」（魏书·沮渠蒙逊传）。",
   "title": "北凉武宣王，灭西凉而统一河西，雄杰之主",
+  "bio": "临松卢水胡人，匈奴左沮渠之后，世为部帅。初事段业，后杀业自立，称张掖公。灭西凉，迁姑臧，尽有河西。魏太武遣使，拜为凉王。延和二年死，子牧犍立，北凉以亡。",
   "tags": [
     "南北朝",
     "北凉"
@@ -20,7 +21,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

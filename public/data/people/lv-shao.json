@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 399,
   "deathAccuracy": "exact",
+  "title": "后凉嗣主，在位数日",
+  "bio": "吕光世子。光病笃，禅位，绍嗣为天王，光自号太上皇帝，戒绍委重纂、弘。光死，纂、弘兄弟逼之，绍不能制，登紫阁自杀，在位数日。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

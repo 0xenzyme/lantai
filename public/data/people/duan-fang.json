@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1911,
   "deathAccuracy": "exact",
+  "title": "清末督抚，考察宪政",
+  "bio": "字午桥，托忒克氏，满洲正白旗人。光绪中历陕西按察使、湖北巡抚，摄湖广、两江总督。设学堂，办警察，造兵舰。奉使出东西各国考政治，成《欧美政治要义》。宣统三年督办川汉、粤汉铁路，至资州，为变兵所害，赠太子太保，谥忠敏。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

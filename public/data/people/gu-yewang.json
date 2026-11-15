@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "（陈书·顾野王传）书至德元年卒；其时隋开皇元年，卒于隋世而不书隋年。",
   "title": "撰《玉篇》三十卷，经史百家无不该览",
+  "bio": "吴郡人，字希冯。梁末为太子中舍人，入陈历黄门侍郎、光禄卿。博综经史，工丹青。撰《玉篇》三十卷，又著《舆地志》。至德元年卒。",
   "tags": [
     "南北朝",
     "陈"
@@ -21,7 +22,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

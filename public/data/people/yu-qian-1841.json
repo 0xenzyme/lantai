@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1841,
   "deathAccuracy": "exact",
+  "title": "鸦片战争间殉国总督",
+  "bio": "原名裕泰，字鲁山，博罗忒氏，蒙古镶黄旗人，班第曾孙。嘉庆二十二年进士。道光十九年署两江总督。二十年英兵陷定海，主战，谓浙江必应速战，劾琦善五罪。二十一年罢伊里布，代之。秋，定海、镇海相继陷，裕谦先誓必死，投泮池，拯之出，卒于途。谥靖节。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

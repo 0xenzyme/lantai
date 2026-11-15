@@ -6,12 +6,14 @@
   "birthAccuracy": "approx",
   "deathAccuracy": "unknown",
   "birthNote": "《宋史·卷246》作「建炎元年六月，生於南京」（raw/宋/宋史/卷246.md:100），即 1127 年；台账精度未定，作 approx。",
+  "title": "苗刘之变中的元懿太子",
+  "bio": "高宗子，母潘贤妃。建炎元年六月，生于南京，拜检校少保，封魏国公。苗傅、刘正彦之变，逼帝禅位，改元明受。傅等伏诛，立为皇太子，从幸建康。宫人误蹴金炉有声，惊悸，疾转剧而薨，谥元懿。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

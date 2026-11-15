@@ -4,14 +4,26 @@
   "from": 1644,
   "to": 1912,
   "contractVersion": 1,
+  "aliases": [
+    "清朝",
+    "大清"
+  ],
+  "summary": "从入关定鼎到清帝逊位，清朝历公元 1644—1912 年；康雍乾盛世、近代危机与变法革命首尾相接，帝制在此终结。",
   "group": "ming-qing",
   "personCount": 282,
   "eventCount": 56,
-  "founderRecords": [],
-  "topics": [
-    "qing"
+  "body": "本页按现有收录组织清代阅读。人物来自清代专题的编辑选取，帝后与满汉臣工并见；事件按朝代区间与显式推荐确定，清帝逊位以后归入民国，入关以前的后金史事按本站口径同属清。",
+  "capitals": [
+    {
+      "name": "盛京",
+      "note": "入关前都城，在今辽宁沈阳。"
+    },
+    {
+      "name": "北京",
+      "note": "1644 年定鼎后的都城。"
+    }
   ],
-  "people": [
+  "founderRecords": [
     {
       "id": "nu-er-ha-chi",
       "name": "努尔哈赤",
@@ -35,41 +47,22 @@
       ],
       "gender": "male",
       "lane": ""
-    },
+    }
+  ],
+  "topics": [
+    "qing"
+  ],
+  "people": [
     {
-      "id": "hong-taiji",
-      "name": "皇太极",
-      "display": "皇太极",
-      "birth": 1592,
+      "id": "nu-er-ha-chi",
+      "name": "努尔哈赤",
+      "display": "努尔哈赤",
+      "birth": 1559,
       "birthAccuracy": "exact",
-      "death": 1643,
+      "death": 1626,
       "deathAccuracy": "exact",
-      "title": "改国号为清",
-      "bio": "努尔哈赤第八子，继位后改族名满洲、国号大清，称帝南略，收服漠南蒙古。",
-      "tags": [
-        "清"
-      ],
-      "categories": [
-        "monarch",
-        "founding"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "qing"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "fu-lin",
-      "name": "福临",
-      "display": "顺治",
-      "birth": 1638,
-      "birthAccuracy": "exact",
-      "death": 1661,
-      "deathAccuracy": "exact",
-      "title": "入关第一帝",
-      "bio": "皇太极第九子，幼龄即位，多尔衮摄政；清军入关后定鼎北京，为入关首帝。",
+      "title": "后金大汗",
+      "bio": "建州女真酋长，统一诸部，1616 年建后金称汗，创八旗、定满文，奠定清之基。",
       "tags": [
         "清"
       ],
@@ -152,116 +145,33 @@
       ],
       "gender": "male",
       "lane": ""
+    },
+    {
+      "id": "ci-xi",
+      "name": "慈禧",
+      "display": "慈禧太后",
+      "birth": 1835,
+      "birthAccuracy": "exact",
+      "death": 1908,
+      "deathAccuracy": "exact",
+      "title": "垂帘听政",
+      "bio": "咸丰懿贵妃，同治生母；同治、光绪两朝垂帘训政，实为晚清最高掌权者。",
+      "tags": [
+        "清"
+      ],
+      "categories": [
+        "consort",
+        "regent"
+      ],
+      "primary": "consort",
+      "polity": [
+        "qing"
+      ],
+      "gender": "female",
+      "lane": ""
     }
   ],
   "events": [
-    {
-      "id": "mingqing-zhanzheng",
-      "name": "明清战争",
-      "display": "明清战争",
-      "kind": "span",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "war",
-      "importance": 3,
-      "year": 1618,
-      "yearAccuracy": "exact",
-      "yearNote": "天命三年二月下抚顺起，到康熙元年永历帝死止。",
-      "endYear": 1662,
-      "endYearAccuracy": "exact",
-      "belligerents": [
-        "ming",
-        "qing"
-      ],
-      "commanders": [
-        {
-          "id": "nu-er-ha-chi",
-          "side": "qing"
-        }
-      ],
-      "result": "永历帝被杀，清史稿写明亡",
-      "aliases": [
-        "辽东战争"
-      ],
-      "dynasties": [
-        "ming",
-        "qing"
-      ],
-      "desc": "天命三年二月，努尔哈赤以七大恨告天伐明，下抚顺。战争收到康熙元年四月永历帝被绞，清史稿写明亡。终点不是郑成功取台湾。一六一六年至一六三六年国号仍是金，交战方沿用 qing。",
-      "sources": [
-        {
-          "work": "清史稿",
-          "part": "卷一",
-          "note": "天命三年二月以七大恨告天伐明，下抚顺",
-          "kind": "classic"
-        },
-        {
-          "work": "清史稿",
-          "part": "卷四百七十四",
-          "note": "康熙元年四月吴三桂绞杀朱由榔，明亡",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "mingmo-minbian",
-      "name": "明末民变",
-      "display": "明末民变",
-      "kind": "span",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "war",
-      "importance": 3,
-      "year": 1628,
-      "yearAccuracy": "exact",
-      "yearNote": "崇祯元年陕西流贼大起，顺治二年闰六月李自成自缢。",
-      "endYear": 1645,
-      "endYearAccuracy": "exact",
-      "belligerents": [
-        "ming",
-        "minbian"
-      ],
-      "commanders": [
-        {
-          "id": "li-zicheng",
-          "side": "minbian"
-        },
-        {
-          "id": "zhang-xianzhong",
-          "side": "minbian"
-        }
-      ],
-      "result": "李自成自缢，清史稿写贼党悉平",
-      "aliases": [
-        "流贼",
-        "李自成起兵"
-      ],
-      "dynasties": [
-        "ming",
-        "qing"
-      ],
-      "desc": "崇祯元年，陕西流贼大起，分掠鄜州、延安。顺治二年闰六月甲申，李自成窜九宫山自缢，清史稿写贼党悉平。本条收到李自成之死，清军入关不并入这场战争。",
-      "sources": [
-        {
-          "work": "明史",
-          "part": "卷二十三",
-          "note": "崇祯元年陕西流贼大起，分掠鄜州、延安",
-          "kind": "classic"
-        },
-        {
-          "work": "清史稿",
-          "part": "卷四",
-          "note": "顺治二年闰六月甲申李自成窜九宫山自缢，贼党悉平",
-          "kind": "classic"
-        }
-      ]
-    },
     {
       "id": "jiashen-zhibian",
       "name": "甲申之变",
@@ -314,108 +224,6 @@
           "work": "清史稿",
           "part": "卷四",
           "note": "顺治元年三月李自成陷燕京，明帝自经",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "shanhaiguan-zhizhan",
-      "name": "山海关之战",
-      "display": "山海关之战",
-      "kind": "point",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "battle",
-      "importance": 3,
-      "year": 1644,
-      "yearAccuracy": "exact",
-      "yearNote": "顺治元年四月己卯。",
-      "place": "山海关",
-      "belligerents": [
-        "qing",
-        "minbian"
-      ],
-      "commanders": [
-        {
-          "id": "li-zicheng",
-          "side": "minbian"
-        }
-      ],
-      "result": "大顺军溃，李自成弃北京西走",
-      "parent": "mingqing-zhanzheng",
-      "aliases": [
-        "清军入关",
-        "一片石"
-      ],
-      "dynasties": [
-        "ming",
-        "qing"
-      ],
-      "desc": "顺治元年四月己卯，清军至山海关，大顺军二十余万溃，乙酉李自成弃燕京西走。明史记是年夏四月大清兵破贼于山海关。交战双方是清与大顺，不把明朝加成第三方。",
-      "sources": [
-        {
-          "work": "清史稿",
-          "part": "卷四",
-          "note": "顺治元年四月己卯师至山海关，大顺军大溃，乙酉李自成弃燕京西走",
-          "kind": "classic"
-        },
-        {
-          "work": "明史",
-          "part": "卷二十四",
-          "note": "崇祯十七年夏四月大清兵破贼于山海关",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "yongli-zhongjie",
-      "name": "永历政权终结",
-      "display": "永历政权终结",
-      "kind": "point",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "campaign",
-      "importance": 3,
-      "year": 1662,
-      "yearAccuracy": "exact",
-      "yearNote": "顺治十八年十二月执献，康熙元年四月被杀。卷6把十二月记在康熙元年标题之前。两事的公历都在 1662。不用 1661。",
-      "place": "缅甸",
-      "belligerents": [
-        "ming",
-        "qing"
-      ],
-      "commanders": [
-        {
-          "id": "wu-sangui",
-          "side": "qing"
-        }
-      ],
-      "result": "永历帝被绞杀，清史稿写明亡",
-      "parent": "mingqing-zhanzheng",
-      "aliases": [
-        "永历之死"
-      ],
-      "dynasties": [
-        "qing"
-      ],
-      "desc": "顺治十八年十二月，吴三桂军入缅，缅人执永历帝朱由榔以献。康熙元年四月，吴三桂以弓弦绞杀由榔及其子，清史稿写明亡。绞杀句没有地点，摘录也不写昆明或云南，本条不作会战，地点只记执献所在的缅甸。",
-      "sources": [
-        {
-          "work": "清史稿",
-          "part": "卷六",
-          "note": "顺治十八年十二月吴三桂军入缅，缅人执朱由榔以献",
-          "kind": "classic"
-        },
-        {
-          "work": "清史稿",
-          "part": "卷四百七十四",
-          "note": "十二月缅甸执送军前。康熙元年四月弓弦绞杀，明亡。绞杀句没有地点",
           "kind": "classic"
         }
       ]
@@ -475,9 +283,157 @@
           "kind": "classic"
         }
       ]
+    },
+    {
+      "id": "yapian-zhanzheng",
+      "name": "鸦片战争",
+      "display": "鸦片战争",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1840,
+      "yearAccuracy": "exact",
+      "yearNote": "道光二十年英人陷定海，二十二年白门条约。",
+      "endYear": 1842,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "qing",
+        "yingjili"
+      ],
+      "commanders": [
+        {
+          "id": "lin-zexu",
+          "side": "qing"
+        }
+      ],
+      "people": [
+        "lin-zexu",
+        "dao-guang"
+      ],
+      "result": "英人陷定海，白门条约成",
+      "dynasties": [
+        "qing"
+      ],
+      "desc": "道光二十年，林则徐击毁载烟洋艇，英人陷定海县。二十一年英人寇广东虎门，副将陈连陛及其子举鹏死之。道光二十二年画诺于静海寺，是为白门条约。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷十八",
+          "note": "林則徐等奏擊毀載煙洋艇",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷十八",
+          "note": "英人陷定海縣",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷十九",
+          "note": "英人寇廣東虎門，副將陳連陛及其子舉鵬死之",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷一百五十四",
+          "note": "畫諾於靜海寺，是為白門條約",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jiawu-zhanzheng",
+      "name": "甲午战争",
+      "display": "甲午战争",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1894,
+      "yearAccuracy": "exact",
+      "yearNote": "光绪二十年七月日本侵朝鲜，下诏宣战。马关和约在光绪二十一年。",
+      "endYear": 1895,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "qing",
+        "riben"
+      ],
+      "people": [
+        "guang-xu"
+      ],
+      "result": "下诏宣战，马关和约成",
+      "dynasties": [
+        "qing"
+      ],
+      "desc": "光绪二十年七月，日本侵朝鲜，下诏宣战。光绪二十一年李鸿章与日本全权在马关会议，和约成。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷二十三",
+          "note": "日本侵朝鮮，下詔宣戰",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷二十四",
+          "note": "李鴻章與日本全權伊籐博文、陸奧宗光馬關會議。和約成",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "wuchang-qiyi",
+      "name": "武昌新军变",
+      "display": "武昌新军变",
+      "kind": "point",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 1911,
+      "yearAccuracy": "exact",
+      "yearNote": "宣统三年八月乙卯武昌新军变，遂陷武昌。",
+      "place": "武昌",
+      "polity": [
+        "qing"
+      ],
+      "result": "遂陷武昌",
+      "aliases": [
+        "武昌起义"
+      ],
+      "dynasties": [
+        "qing"
+      ],
+      "desc": "宣统三年八月乙卯，武昌新军变附于革命党，总督瑞澂弃城走，遂陷武昌。清朝在湖北的省城失守，各省随后响应。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷二十五",
+          "note": "武昌新軍變附於革命黨，總督瑞澂棄城走，遂陷武昌",
+          "kind": "classic"
+        }
+      ]
     }
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "清史稿",
+      "part": "太祖本纪、食货志",
+      "kind": "classic"
+    }
+  ]
 }

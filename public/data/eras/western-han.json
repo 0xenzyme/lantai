@@ -4,15 +4,21 @@
   "from": -202,
   "to": 8,
   "contractVersion": 1,
+  "aliases": [
+    "前汉"
+  ],
+  "summary": "从刘邦称帝到王莽代汉，西汉历公元前 202—公元 8 年；休养生息、独尊儒术与北击匈奴构成帝国由守转攻的主线。",
   "group": "qin-han",
   "personCount": 211,
   "eventCount": 28,
-  "founderRecords": [],
-  "topics": [
-    "han",
-    "rujia"
+  "body": "本页按现有收录组织西汉阅读。人物来自西汉与儒家两个专题的编辑选取，帝王外戚、将相名臣与经师并见；事件按朝代区间与显式推荐确定，王莽代汉以后归入新朝。",
+  "capitals": [
+    {
+      "name": "长安",
+      "note": "西汉都城。"
+    }
   ],
-  "people": [
+  "founderRecords": [
     {
       "id": "liu-bang",
       "name": "刘邦",
@@ -35,70 +41,29 @@
       ],
       "gender": "male",
       "lane": ""
-    },
+    }
+  ],
+  "topics": [
+    "han",
+    "rujia"
+  ],
+  "people": [
     {
-      "id": "liu-ying",
-      "name": "刘盈",
-      "display": "汉惠帝",
-      "birth": -210,
-      "birthAccuracy": "exact",
-      "death": -188,
+      "id": "liu-bang",
+      "name": "刘邦",
+      "display": "汉高祖",
+      "birth": -256,
+      "birthAccuracy": "disputed",
+      "death": -195,
       "deathAccuracy": "exact",
-      "title": "西汉第二位皇帝",
-      "bio": "高祖太子，前 195 年即位。吕后实际掌权，在位七年。惠帝的条很短，权在吕后那一条上。",
+      "birthNote": "生年有前 256、前 247 两说",
+      "title": "西汉开国皇帝",
+      "bio": "沛县布衣出身，秦末起兵，垓下灭项羽，前 202 年称帝。在位期间行黄老之术、与民休息，奠定汉家四百年基业。",
       "tags": [
-        "汉"
+        "布衣天子"
       ],
       "categories": [
-        "monarch"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "han"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "liu-heng",
-      "name": "刘恒",
-      "display": "汉文帝",
-      "birth": -203,
-      "birthAccuracy": "approx",
-      "death": -157,
-      "deathAccuracy": "exact",
-      "title": "西汉第五位皇帝",
-      "bio": "代王入继大统。轻徭薄赋、废除肉刑，与景帝两朝合称「文景之治」，是汉初休养生息的顶点。",
-      "tags": [
-        "文景之治",
-        "无为而治"
-      ],
-      "categories": [
-        "monarch",
-        "huanglao"
-      ],
-      "polity": [
-        "han"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "liu-qi",
-      "name": "刘启",
-      "display": "汉景帝",
-      "birth": -188,
-      "birthAccuracy": "exact",
-      "death": -141,
-      "deathAccuracy": "exact",
-      "title": "西汉第六位皇帝",
-      "bio": "用晁错之策削藩，引发七国之乱；乱平之后中央集权大定，为武帝的扩张留下完整的国力。",
-      "tags": [
-        "削藩",
-        "文景之治"
-      ],
-      "categories": [
-        "monarch"
+        "founding"
       ],
       "polity": [
         "han"
@@ -132,22 +97,71 @@
       "lane": ""
     },
     {
-      "id": "liu-fuling",
-      "name": "刘弗陵",
-      "display": "汉昭帝",
-      "birth": -94,
-      "birthAccuracy": "exact",
-      "death": -74,
+      "id": "wei-qing",
+      "name": "卫青",
+      "display": "卫大将军",
+      "birthAccuracy": "unknown",
+      "death": -106,
       "deathAccuracy": "exact",
-      "title": "西汉第八位皇帝",
-      "bio": "八岁即位，霍光辅政。轻徭薄赋、与匈奴和亲，扭转武帝末年凋敝，二十一岁早崩。",
+      "birthNote": "生年不详",
+      "title": "西汉大司马大将军，长平侯",
+      "bio": "卫子夫之弟，骑奴出身。前 127 年收复河南地置朔方郡，前 119 年漠北之战击溃单于主力。为将仁厚，不养士不结党。",
       "tags": [
-        "霍光辅政",
-        "早崩"
+        "河南地",
+        "漠北之战"
       ],
       "categories": [
-        "monarch",
-        "regent"
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huo-qubing",
+      "name": "霍去病",
+      "display": "冠军侯",
+      "birth": -140,
+      "birthAccuracy": "exact",
+      "death": -117,
+      "deathAccuracy": "exact",
+      "title": "西汉骠骑将军",
+      "bio": "十七岁出征，十九岁两战河西，二十一岁与卫青分道漠北，封狼居胥。二十四岁病逝，一生二十三年，全部在武帝朝内。「匈奴未灭，无以家为」。",
+      "tags": [
+        "封狼居胥",
+        "河西之战",
+        "享年23"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "sima-qian",
+      "name": "司马迁",
+      "display": "太史公",
+      "birth": -145,
+      "birthAccuracy": "approx",
+      "death": -86,
+      "deathAccuracy": "approx",
+      "birthNote": "生卒皆为约数",
+      "title": "西汉史学家，《史记》作者",
+      "bio": "曾从董仲舒学《春秋》。前 99 年为降匈奴的李陵辩护，触怒武帝受宫刑，发愤著《史记》，成「史家之绝唱」。",
+      "tags": [
+        "史记",
+        "李陵之祸",
+        "宫刑"
+      ],
+      "categories": [
+        "official",
+        "historian"
       ],
       "polity": [
         "han"
@@ -245,102 +259,6 @@
       ]
     },
     {
-      "id": "baideng-zhiwei",
-      "name": "白登之围",
-      "display": "白登之围",
-      "kind": "point",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "battle",
-      "importance": 3,
-      "year": -200,
-      "yearAccuracy": "exact",
-      "place": "白登山",
-      "placeNow": "今山西大同东北",
-      "belligerents": [
-        "han",
-        "xiongnu"
-      ],
-      "commanders": [
-        {
-          "id": "liu-bang",
-          "side": "han"
-        },
-        {
-          "id": "mo-dun",
-          "side": "xiongnu"
-        }
-      ],
-      "result": "汉军突围南还，汉匈关系转入以和亲和边境防御为主的阶段",
-      "aliases": [
-        "qian200-baideng"
-      ],
-      "dynasties": [
-        "western-han"
-      ],
-      "desc": "刘邦亲征进攻已降匈奴的韩王信所部并追击匈奴，所率先头部队在白登山被冒顿单于骑兵围困。汉军脱围后不再贸然深入草原，汉匈关系此后长期以和亲、守边与局部冲突并行。",
-      "sources": [
-        {
-          "work": "史记",
-          "part": "高祖本纪、匈奴列传",
-          "kind": "classic"
-        },
-        {
-          "work": "汉书",
-          "part": "高帝纪下、匈奴传上",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "zhulv-zhiluan",
-      "name": "诸吕之乱",
-      "display": "诸吕之乱",
-      "kind": "point",
-      "type": "political",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": -180,
-      "yearAccuracy": "exact",
-      "yearNote": "高后八年（前 180 年），周勃、陈平诛诸吕、废少帝，本纪纪年直接可查。",
-      "place": "长安",
-      "placeNow": "今陕西西安",
-      "polity": [
-        "han"
-      ],
-      "people": [
-        "zhou-bo",
-        "chen-ping",
-        "lv-chan",
-        "lv-lu"
-      ],
-      "result": "诸吕尽诛，少帝废，刘氏皇权复归",
-      "aliases": [
-        "诛诸吕"
-      ],
-      "dynasties": [
-        "western-han"
-      ],
-      "desc": "高后八年（前 180 年），吕后崩后，周勃、陈平与朱虚侯刘章等合谋诛灭诸吕，尽斩吕产、吕禄，废少帝，迎立代王刘恒即位，是为汉文帝。诛诸吕、废少帝、迎立文帝为连续一事，刘氏皇权由此复归。",
-      "sources": [
-        {
-          "work": "史記",
-          "part": "卷九 呂太后本紀",
-          "kind": "classic"
-        },
-        {
-          "work": "漢書",
-          "part": "卷三 高后紀",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
       "id": "qiguo-zhi-luan",
       "name": "七国之乱",
       "display": "七国之乱",
@@ -429,9 +347,63 @@
           "kind": "classic"
         }
       ]
+    },
+    {
+      "id": "bachu-baijia",
+      "name": "罢黜百家，表章六经",
+      "display": "独尊儒术",
+      "kind": "point",
+      "type": "institutional",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -134,
+      "yearAccuracy": "disputed",
+      "yearNote": "《漢書》武帝紀系贤良策问于元光元年五月（前 134 年）；《资治通鉴》系于建元元年（前 140 年），对策年份学界有争议，此从《漢書》本纪。",
+      "place": "长安",
+      "placeNow": "今陕西西安",
+      "polity": [
+        "han"
+      ],
+      "people": [
+        "liu-che"
+      ],
+      "result": "儒学官学地位确立，汉家制度转向儒术",
+      "aliases": [
+        "独尊儒术",
+        "尊儒更化"
+      ],
+      "dynasties": [
+        "western-han"
+      ],
+      "desc": "《漢書》武帝紀系贤良策问于元光元年五月，董仲舒、公孙弘等应策而出；董仲舒对策推明孔氏、抑黜百家，为武帝朝尊儒更化之始。事件名出于《漢書》武帝紀赞语「孝武初立，卓然罢黜百家，表章六经」，该语为后赞，不是当时诏令原文。对策年份另有建元元年（前 140 年）一说，本条从《漢書》本纪系于前 134 年，标 disputed。",
+      "sources": [
+        {
+          "work": "漢書",
+          "part": "卷六 武帝紀",
+          "kind": "classic"
+        },
+        {
+          "work": "漢書",
+          "part": "卷五六 董仲舒傳",
+          "kind": "classic"
+        }
+      ]
     }
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "高帝纪、武帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "高祖本纪",
+      "kind": "classic"
+    }
+  ]
 }

@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1807,
   "deathAccuracy": "exact",
+  "title": "乾隆朝校勘学者",
+  "bio": "原名锦鸿，字升衢，归安人。乾隆四十六年进士，官宁波府学教授。少家贫，就书肆中读，肆力经史，旁及说文、音韵、算数。四库馆开，佐校勘，与朱筠、戴震、卢文弨、金榜、程瑶田相讲习。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

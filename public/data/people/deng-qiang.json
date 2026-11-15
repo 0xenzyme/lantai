@@ -6,12 +6,14 @@
   "death": 370,
   "deathAccuracy": "approx",
   "deathNote": "苻坚载记称遣王猛率杨安、张蚝、邓羌等十将伐慕容暐（raw/晋/晉書/卷113.md:61）；事在太和五年（370），卒年无载，此系活动年，非寿数。",
+  "title": "前秦骁将，佐王猛定关东",
+  "bio": "前秦骁将，性鲠直不挠。王猛治关中，诛贵戚强豪，羌与协规齐志，百僚震肃。数从征伐：讨擒刘卫辰于木根山，平苻柳之乱，率步骑三万攻洛阳而镇金墉。及王猛伐燕，与张蚝率锐卒陷阵，大破慕容评于潞川，前燕遂亡。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

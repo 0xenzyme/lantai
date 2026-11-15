@@ -4,67 +4,211 @@
   "from": 304,
   "to": 439,
   "contractVersion": 1,
+  "aliases": [
+    "五胡十六国"
+  ],
+  "summary": "从刘渊建汉到北魏统一北方，胡族政权在公元 304—439 年间更迭于华北；胡汉杂糅的制度与文化为北朝奠定基础。",
   "group": "weijin-nanbei",
-  "personCount": 0,
+  "personCount": 254,
   "eventCount": 41,
-  "founderRecords": [],
-  "topics": [],
-  "people": [],
-  "events": [
+  "body": "本页按现有收录组织十六国阅读。人物来自两晋十六国专题的编辑选取，胡族君主与汉人士臣并见；事件按朝代区间与显式推荐确定，北魏统一北方以后归入南北朝。",
+  "founderRecords": [
     {
-      "id": "baxia-zhiluan",
-      "name": "八王之乱",
-      "display": "八王之乱",
-      "kind": "span",
-      "type": "political",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 291,
-      "yearAccuracy": "exact",
-      "yearNote": "《晋书·惠帝纪》：元康元年三月辛卯诛太傅杨骏、贾后矫诏废皇太后，六月矫诏使楚王玮杀汝南王亮、卫瓘后旋诛玮——诸王干政自此始，通史通作 291 年起。",
-      "endYear": 306,
-      "endYearAccuracy": "exact",
-      "endYearNote": "终于光熙元年：东海王越迎惠帝还洛、录尚书事掌政，十一月庚午惠帝崩于显阳殿（儒略历 307-01-08，「或云司马越之鸩」），立怀帝，乱平。endYear 按中国纪年取 306（光熙元年）。",
-      "polity": [
-        "jin"
-      ],
-      "people": [
-        "jia-nanfeng",
-        "sima-liang",
-        "sima-wei",
-        "sima-lun",
-        "sima-jiong",
-        "sima-yi-changsha",
-        "sima-ying",
-        "sima-yong",
-        "sima-yue-donghai",
-        "sima-zhong"
-      ],
-      "result": "前后十六年诸王与贾后连环相攻，赵王伦一度篡位；东海王越最终胜出但西晋中央与宗室武力耗竭，直接开启五胡入局与永嘉之乱",
-      "aliases": [
-        "八王争权",
-        "诸王之乱"
-      ],
+      "id": "liu-yuan",
+      "name": "刘渊",
+      "display": "刘渊",
+      "birthAccuracy": "unknown",
+      "death": 310,
+      "deathAccuracy": "exact",
+      "title": "汉赵之主，匈奴称汉，开十六国之局",
+      "bio": "新兴匈奴人，冒顿之后，冒姓刘氏。少好学，习《毛诗》《京氏易》《春秋左氏传》，孙吴兵法皆诵之。八王乱起，说成都王颖归匈奴，遂于左国城即汉王位，追尊刘禅，用汉号以争正朔。永嘉四年卒，子和与聪相继，十六国自此始。",
       "tags": [
-        "civil-war",
-        "court-politics",
-        "succession"
+        "十六国",
+        "汉赵",
+        "匈奴"
       ],
-      "dynasties": [
-        "western-jin",
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
         "shiliuguo"
       ],
-      "desc": "晋惠帝暗弱，元康元年（291）皇后贾南风借楚王玮诛太傅杨骏而干政，此后汝南王亮、楚王玮、赵王伦、齐王冏、长沙王乂、成都王颖、河间王颙、东海王越八宗王（并贾后一党）连环相攻，赵王伦一度篡位。荡阴之战后惠帝被挟迁邺、长安，306 年司马越胜出、惠帝暴崩，立怀帝，乱平——但西晋国力与禁军耗竭，匈奴、羯等武装借诸王征调入局，为永嘉之乱埋下祸根。",
-      "sources": [
-        {
-          "work": "晋书",
-          "part": "卷四·帝纪第四",
-          "kind": "classic"
-        }
-      ]
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "topics": [
+    "liangjin"
+  ],
+  "people": [
+    {
+      "id": "liu-yuan",
+      "name": "刘渊",
+      "display": "刘渊",
+      "birthAccuracy": "unknown",
+      "death": 310,
+      "deathAccuracy": "exact",
+      "title": "汉赵之主，匈奴称汉，开十六国之局",
+      "bio": "新兴匈奴人，冒顿之后，冒姓刘氏。少好学，习《毛诗》《京氏易》《春秋左氏传》，孙吴兵法皆诵之。八王乱起，说成都王颖归匈奴，遂于左国城即汉王位，追尊刘禅，用汉号以争正朔。永嘉四年卒，子和与聪相继，十六国自此始。",
+      "tags": [
+        "十六国",
+        "汉赵",
+        "匈奴"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
     },
+    {
+      "id": "shi-le",
+      "name": "石勒",
+      "display": "石勒",
+      "birth": 274,
+      "birthAccuracy": "exact",
+      "death": 333,
+      "deathAccuracy": "exact",
+      "title": "后赵之主，起自奴隶而兼河北",
+      "bio": "上党武乡羯人，少行贩洛阳，为人力耕，后为汲桑之党，遂附刘渊。转战河北，并王浚、刘曜，据襄国称赵王，后称帝。不识字而听人读史，闻郦食其劝立六国后而惊，闻留侯谏乃曰「赖此耳」。咸和八年卒，年六十。",
+      "tags": [
+        "十六国",
+        "后赵",
+        "羯"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "fu-jian",
+      "name": "苻坚",
+      "display": "前秦苻坚",
+      "birth": 338,
+      "birthAccuracy": "exact",
+      "death": 385,
+      "deathAccuracy": "exact",
+      "title": "前秦天王，一统北方而败于淝水",
+      "bio": "略阳临渭氐人，苻雄之子。用王猛治国，劝农桑、修学校，并灭前燕、前凉、代，统一北方。建元十九年发九十万众伐晋，淝水一败而风声鹤唳，鲜卑、羌乘之而起。太安元年为姚苌所缢于新平佛寺，年四十八。北方一统只此一次，也只此十五年。",
+      "tags": [
+        "十六国",
+        "前秦",
+        "淝水"
+      ],
+      "categories": [
+        "monarch",
+        "outsider"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "murong-ke",
+      "name": "慕容恪",
+      "display": "慕容恪",
+      "birthAccuracy": "unknown",
+      "death": 367,
+      "deathAccuracy": "exact",
+      "birthNote": "载记无岁数，不编生年。",
+      "deathNote": "传卒句无年号；通鉴卷一百一系太和二年（＝建熙八年，367）恪卒，二月以中山王冲代为大司马。",
+      "title": "前燕太宰，行周公事而摄幼主",
+      "bio": "慕容皝第四子，字玄恭。廉台之战以铁锁连马破冉闵。暐以幼冲嗣位，恪为太宰录尚书，行周公事，总摄朝权而不失臣节。围吕护于野王，谓十旬其毙必矣，不战而屈人。临终荐慕容垂自代，评不能用。太和二年卒，桓温曰「慕容恪尚存，所忧方为大耳」，燕政自此衰。",
+      "tags": [
+        "十六国",
+        "前燕",
+        "慕容"
+      ],
+      "categories": [
+        "general",
+        "minister",
+        "royal-kin"
+      ],
+      "primary": "general",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "murong-chui",
+      "name": "慕容垂",
+      "display": "慕容垂",
+      "birth": 326,
+      "birthAccuracy": "exact",
+      "death": 396,
+      "deathAccuracy": "exact",
+      "title": "后燕之主，枋头却桓温，复国而卒于军",
+      "bio": "昌黎棘城鲜卑人，前燕慕容皝第五子。枋头之战大败桓温，威名振于南北。为慕容评所忌，奔秦依苻坚；淝水败后复国，称燕王于中山。建兴十年伐魏，过参合陂见积骸如山，惭愤呕血，卒于上谷，年七十一。后燕随之一蹶不振。",
+      "tags": [
+        "十六国",
+        "后燕",
+        "慕容"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "general",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "yao-chang",
+      "name": "姚苌",
+      "display": "姚苌",
+      "birth": 330,
+      "birthAccuracy": "approx",
+      "death": 393,
+      "deathAccuracy": "exact",
+      "birthNote": "太元十八年（393）死，年六十四，虚岁上推生年。",
+      "title": "后秦之主，缢苻坚于新平",
+      "bio": "羌人，姚弋仲第二十四子，姚襄之弟。襄败死，苌率众降秦，坚以为龙骧将军。苻睿败死，苌惧诛而叛，自称万年秦王，缢坚于新平佛寺，僭即皇帝位，都长安，史称后秦。与苻登转战相持连年，军中数有夜惊。太元十八年寝疾，梦坚使鬼兵夜袭，至长安而卒，时年六十四。",
+      "tags": [
+        "十六国",
+        "后秦",
+        "羌"
+      ],
+      "categories": [
+        "monarch",
+        "outsider",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "shiliuguo"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
+  "events": [
     {
       "id": "liu-yuan-jian-han",
       "name": "刘渊建汉",
@@ -242,114 +386,20 @@
           "kind": "classic"
         }
       ]
-    },
-    {
-      "id": "simarui-dengji",
-      "name": "司马睿即位建东晋",
-      "display": "司马睿即位建东晋",
-      "kind": "span",
-      "type": "political",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 317,
-      "yearAccuracy": "exact",
-      "yearNote": "《晋书·元帝纪》：建武元年（317）三月辛卯，即晋王位，大赦改元，备百官、立宗庙社稷于建康。即位分两步：317 即晋王位、318 即皇帝位（见 endYear）；year 取政权成立之 317（中国纪年口径）。通行换算即晋王位日在 317-04-06。",
-      "endYear": 318,
-      "endYearAccuracy": "exact",
-      "endYearNote": "大兴元年（318）三月丙辰，百僚上尊号，是日即皇帝位，改元大兴（通行换算约 318-04-26），东晋帝统正式确立。《恭帝纪》追叙「元帝以丁丑岁称晋王」，丁丑即 317，与纪文互证。",
-      "place": "建康",
-      "placeNow": "今江苏南京",
-      "polity": [
-        "jin"
-      ],
-      "people": [
-        "sima-rui",
-        "wang-dao"
-      ],
-      "result": "西晋亡后晋室在江左重建，东晋立（317/318–420），司马睿为元帝，王导辅政",
-      "aliases": [
-        "东晋建立",
-        "司马睿即晋王位",
-        "司马睿称帝",
-        "晋室中兴",
-        "建武改元"
-      ],
-      "tags": [
-        "dynasty-change",
-        "gate-clan",
-        "regime-founding"
-      ],
-      "dynasties": [
-        "eastern-jin",
-        "shiliuguo"
-      ],
-      "desc": "建武元年（317）三月，中原板荡、愍帝被执，琅邪王司马睿依魏晋故事即晋王位，改元建武，立宗庙社稷于建康；大兴元年（318）三月愍帝崩问至，遂即皇帝位，改元大兴，是为东晋。睿以王导为腹心，倚侨姓士族而联络江东大族，时人语曰「王与马，共天下」。晋祚自此续于江左百余年，中国政治重心首次永久南移。",
-      "sources": [
-        {
-          "work": "晋书",
-          "part": "卷九十八",
-          "kind": "classic"
-        },
-        {
-          "work": "晋书",
-          "part": "卷六",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "gengxu-tuduan",
-      "name": "庚戌土断",
-      "display": "庚戌土断",
-      "kind": "point",
-      "type": "institutional",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 364,
-      "yearAccuracy": "exact",
-      "yearNote": "《晋书·哀帝纪》：兴宁二年（364）三月庚戌朔，大阅户人，严法禁，称为庚戌制。year 取中国纪年 364（兴宁二年）。",
-      "place": "东晋全境（侨州郡县所在）",
-      "placeNow": "东晋辖境（长江中下游为主）",
-      "polity": [
-        "jin"
-      ],
-      "people": [
-        "huan-wen"
-      ],
-      "result": "侨户就地编入所在郡县实籍（废挟注本郡），国家户籍与赋役体系重整，扩大财赋兵源",
-      "aliases": [
-        "庚戌制",
-        "兴宁土断"
-      ],
-      "tags": [
-        "institutional",
-        "land-system",
-        "household-registration"
-      ],
-      "dynasties": [
-        "eastern-jin",
-        "shiliuguo"
-      ],
-      "desc": "兴宁二年（364）三月庚戌朔，东晋大阅户人、严明法禁，推行土断，史称庚戌制。永嘉南渡以来朝廷许侨人「挟注本郡」以系还乡之望，侨置郡县与白籍使户籍赋役紊乱；庚戌土断清检流寓户口、就地编入实籍，取消侨姓免调特权，扩大国家财赋与兵源，通说由大司马桓温主持，为东晋历次土断中最著名者（其后义熙土断踵行之）。",
-      "sources": [
-        {
-          "work": "晋书",
-          "part": "卷八",
-          "kind": "classic"
-        },
-        {
-          "work": "晋书",
-          "part": "卷七十五",
-          "kind": "classic"
-        }
-      ]
     }
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "晋书",
+      "part": "载记",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "晋纪",
+      "kind": "classic"
+    }
+  ]
 }

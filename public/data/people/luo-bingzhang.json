@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1867,
   "deathAccuracy": "exact",
+  "title": "四川总督，擒石达开",
+  "bio": "广东花县人。由进士历湖南巡抚，移四川总督。督川十年，肃吏治、筹军实。同治二年，擒石达开于大渡河，蜀境以安。卒谥文忠。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

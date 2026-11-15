@@ -6,12 +6,14 @@
   "death": -592,
   "deathAccuracy": "exact",
   "deathNote": "春秋左传·宣公十七年（前592）「夏，葬許昭公」（raw/春秋/春秋左傳正義/卷24.md:217）。同卷宣公十七年经：「十有七年，春，王正月。庚子，许男锡我卒」（raw/春秋/春秋左传正义/卷24.md:213），夏葬许昭公。卒、葬同在宣公十七年，取前592。台账只引葬文。",
+  "title": "许君，卒葬同年",
+  "bio": "许昭公锡我，许君。宣公十七年春，庚子卒；夏葬许昭公。卒、葬同在其年，经传互见，故系其卒于是岁。",
   "polity": [
     "xu-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 318,
   "deathAccuracy": "exact",
+  "title": "汉赵嗣主，为靳准所弑",
+  "bio": "字士光，汉主聪之子。少俊杰，才兼文武。既嗣伪位，荒耽酒色，游宴后庭，军国之事一决于靳准。准勒兵入宫，升光极前殿，使甲士执粲，数而杀之，刘氏男女无少长皆斩于东市。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

@@ -6,12 +6,13 @@
   "death": 1096,
   "deathAccuracy": "exact",
   "title": "改号大中国，临终还政段氏",
+  "bio": "高智升之子，嗣为鄯阐侯。段正明禅位，升泰自立，改国号大中国。在位二年，临终命还政段氏，立正淳，后理之国始于此。",
   "polity": [
     "dali"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

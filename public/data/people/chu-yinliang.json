@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1790,
   "deathAccuracy": "exact",
+  "title": "乾隆朝经学家",
+  "bio": "字搢升，长洲人。乾隆十六年召试举人，授内阁中书，官至刑部员外郎。少以博雅名，中年覃精经术，一以注疏为归。著《仪礼管见》，撰《公羊释例》三十篇，又长算术，著《句股广问》。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

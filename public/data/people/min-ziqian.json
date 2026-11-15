@@ -6,12 +6,14 @@
   "birthAccuracy": "approx",
   "deathAccuracy": "unknown",
   "birthNote": "生年据史记·仲尼弟子列传「少孔子15岁」上推。孔子生年取史记前551，少15岁得前536，为生年约数，非卒年（raw/先秦-西汉/史記/卷067-仲尼弟子列傳.md:34）。",
+  "title": "孔门弟子，德行称首",
+  "bio": "鲁人，名损，孔子弟子，少孔子十五岁。列德行科，与颜渊、冉伯牛、仲弓并称。季氏使为费宰，骞善为之辞，曰如有复我者，必在汶上矣。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

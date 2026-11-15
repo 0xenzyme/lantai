@@ -4,9 +4,14 @@
   "from": -2070,
   "to": -1600,
   "contractVersion": 1,
+  "aliases": [
+    "夏朝"
+  ],
+  "summary": "从禹奠基到桀亡，夏后氏的传承约当公元前 2070—前 1600 年；其世系见于文献记载，年代与范围仍依赖考古发现与文献互证。",
   "group": "pre-qin",
   "personCount": 0,
   "eventCount": 3,
+  "body": "本页按现有收录组织夏代阅读。人物专题暂未开设，事件以夏朝建立、甘之战与鸣条之战等节点为线索；断代取约前 2070—前 1600 年，叙述以文献记载与考古研究能够互证的部分为限，不作过度铺陈。",
   "founderRecords": [],
   "topics": [],
   "people": [],
@@ -138,5 +143,16 @@
   ],
   "collections": [],
   "collectionRecords": [],
-  "sources": []
+  "sources": [
+    {
+      "work": "史记",
+      "part": "夏本纪",
+      "kind": "classic"
+    },
+    {
+      "work": "尚书",
+      "part": "甘誓",
+      "kind": "classic"
+    }
+  ]
 }

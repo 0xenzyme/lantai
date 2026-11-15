@@ -6,12 +6,14 @@
   "death": -659,
   "deathAccuracy": "exact",
   "deathNote": "左传·僖公元年（前659）齐人取而杀之于夷；史记·鲁周公世家「齊桓公聞哀姜與慶父亂以危魯……而殺之」。鲁庄公夫人。",
+  "title": "鲁庄公夫人，庆父之乱",
+  "bio": "齐女，鲁庄公夫人。庄公卒，与叔庆父通，几危鲁国。齐桓公闻其乱，使人取而杀之于夷，丧至自齐。",
   "polity": [
     "lu"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

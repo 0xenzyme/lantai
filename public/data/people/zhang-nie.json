@@ -6,12 +6,14 @@
   "death": 1121,
   "deathAccuracy": "approx",
   "deathNote": "此年为可见活动年（任官年），非卒年、非寿数。宣和三年上舍选中第（raw/宋/宋史/卷445.md:77）。本传未见卒年。",
+  "title": "力陈守淮的中书舍人",
+  "bio": "字巨山，襄阳人。宣和三年，上舍选中第。刘子羽荐于张浚，辟利州路安抚司干办公事。绍兴五年召对，劝筑坞堡、兴屯田、备舟楫，以守淮南，除秘书省正字。金人叛盟，两省草檄，独取其所进者。后会疽发背卒，年五十三。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

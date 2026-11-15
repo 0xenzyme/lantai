@@ -6,12 +6,14 @@
   "death": -517,
   "deathAccuracy": "exact",
   "deathNote": "春秋左传正义·昭公二十五年（前517）「冬十月戊辰，叔孫婼卒。」（raw/春秋/春秋左傳正義/卷51.md:76）。",
+  "title": "鲁叔孙昭子，死于公后",
+  "bio": "鲁叔孙氏，叔孙豹之庶子，谥昭。定公元年，其子成子逆昭公之丧于乾侯。昭二十五年，聘于宋。宋右师乐大心卑宋大夫而贱司城氏，昭子谓「是贱其身也，无礼必亡」。其年冬卒。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

@@ -6,12 +6,14 @@
   "death": 696,
   "deathAccuracy": "approx",
   "deathNote": "万岁通天元年（696）五月反，陷营州；年承卷内万岁通天元年。 — raw/唐/新唐書/卷004.md:255",
+  "title": "契丹叛将，自号可汗",
+  "bio": "契丹松漠都督。营州都督赵文翽骄沓，数侵侮其下，尽忠等皆怨望。万岁通天元年，与妻兄归诚刺史孙万荣杀文翽，举兵反，攻陷营州，自号无上可汗，以万荣为将。武后改其名为尽灭。俄而死，突厥默啜袭破其部。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

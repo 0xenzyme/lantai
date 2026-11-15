@@ -4,10 +4,51 @@
   "from": 960,
   "to": 1279,
   "contractVersion": 1,
+  "aliases": [
+    "宋朝"
+  ],
+  "summary": "从陈桥兵变到厓山之役，两宋历公元 960—1279 年；重文轻武、变法争论与辽夏金元的和战构成政治主线，市井文化空前繁荣。",
   "group": "song-liao-jin-yuan",
-  "personCount": 413,
+  "personCount": 412,
   "eventCount": 98,
-  "founderRecords": [],
+  "body": "本页按现有收录组织宋代阅读。人物来自宋代专题的编辑选取，帝后、士大夫与将帅文人并见；事件按朝代区间与显式推荐确定，靖康前后分属北宋南宋，厓山以后归入元。",
+  "capitals": [
+    {
+      "name": "东京开封府",
+      "note": "北宋都城。"
+    },
+    {
+      "name": "临安府",
+      "note": "南宋都城，在今浙江杭州。"
+    }
+  ],
+  "founderRecords": [
+    {
+      "id": "zhao-kuangyin",
+      "name": "赵匡胤",
+      "display": "赵匡胤",
+      "birth": 927,
+      "birthAccuracy": "exact",
+      "death": 976,
+      "deathAccuracy": "exact",
+      "title": "宋太祖，陈桥兵变开国",
+      "bio": "涿郡人，仕后周为殿前都点检。显德七年陈桥驿兵变，黄袍加身，代周称帝，国号宋，都开封。杯酒释兵权，罢宿将典禁军；先南后北，开启一统。",
+      "tags": [
+        "宋",
+        "北宋"
+      ],
+      "categories": [
+        "monarch",
+        "founding"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "topics": [
     "song"
   ],
@@ -38,23 +79,26 @@
       "lane": ""
     },
     {
-      "id": "zhao-guangyi",
-      "name": "赵光义",
-      "display": "赵光义",
-      "birth": 939,
+      "id": "wang-anshi",
+      "name": "王安石",
+      "display": "王安石",
+      "birth": 1021,
       "birthAccuracy": "exact",
-      "death": 997,
+      "death": 1086,
       "deathAccuracy": "exact",
-      "title": "宋太宗，完成一统",
-      "bio": "太祖之弟，即位后灭北汉，结束五代十国分裂；两度北伐契丹失利，自此守内虚外。留心文治，扩大科举。",
+      "title": "熙宁变法，荆公新学",
+      "bio": "临川人，翰林学士。神宗朝拜相，行青苗、募役、市易诸法，欲富国强兵，史称熙宁变法。新旧党争由此起，身后争议千年。",
       "tags": [
         "宋",
-        "北宋"
+        "北宋",
+        "改革"
       ],
       "categories": [
-        "monarch"
+        "chancellor",
+        "literature",
+        "classics"
       ],
-      "primary": "monarch",
+      "primary": "chancellor",
       "polity": [
         "song"
       ],
@@ -62,23 +106,25 @@
       "lane": ""
     },
     {
-      "id": "zhao-hen",
-      "name": "赵恒",
-      "display": "赵恒",
-      "birth": 968,
+      "id": "sima-guang",
+      "name": "司马光",
+      "display": "司马光",
+      "birth": 1019,
       "birthAccuracy": "exact",
-      "death": 1022,
+      "death": 1086,
       "deathAccuracy": "exact",
-      "title": "宋真宗，澶渊之盟",
-      "bio": "太宗第三子，即位后与契丹定澶渊之盟，纳币称兄。晚年崇道教、封禅泰山，造天书，国库为耗。",
+      "title": "旧党领袖，《资治通鉴》",
+      "bio": "陕州夏县人，宝元进士。反对新法，退居洛阳十五年，主编《资治通鉴》二百九十四卷。哲宗初拜相，尽废新法。",
       "tags": [
         "宋",
-        "北宋"
+        "北宋",
+        "旧党"
       ],
       "categories": [
-        "monarch"
+        "chancellor",
+        "historian"
       ],
-      "primary": "monarch",
+      "primary": "historian",
       "polity": [
         "song"
       ],
@@ -86,23 +132,27 @@
       "lane": ""
     },
     {
-      "id": "zhao-zhen",
-      "name": "赵祯",
-      "display": "赵祯",
-      "birth": 1010,
+      "id": "su-shi",
+      "name": "苏轼",
+      "display": "苏轼",
+      "birth": 1037,
       "birthAccuracy": "exact",
-      "death": 1063,
+      "death": 1101,
       "deathAccuracy": "exact",
-      "title": "宋仁宗，庆历之治",
-      "bio": "真宗子，在位四十二年，宽厚恭俭，纳范仲淹庆历新政，崇儒兴学。朝多君子，号为盛治，而积弱之弊渐显。",
+      "title": "东坡居士，北宋文豪",
+      "bio": "眉山人，嘉祐进士，欧阳修叹其所为「他日文章必独步天下」。诗词书画俱绝，因乌台诗案贬黄州；仕途蹭蹬而性情旷达。",
       "tags": [
         "宋",
         "北宋"
       ],
       "categories": [
-        "monarch"
+        "official",
+        "literature",
+        "poetry",
+        "calligraphy",
+        "painting"
       ],
-      "primary": "monarch",
+      "primary": "poetry",
       "polity": [
         "song"
       ],
@@ -110,46 +160,24 @@
       "lane": ""
     },
     {
-      "id": "zhao-shu",
-      "name": "赵曙",
-      "display": "宋英宗赵曙",
-      "birth": 1032,
+      "id": "yue-fei",
+      "name": "岳飞",
+      "display": "岳飞",
+      "birth": 1103,
       "birthAccuracy": "exact",
-      "death": 1067,
+      "death": 1142,
       "deathAccuracy": "exact",
-      "title": "仁宗养子，濮议之争",
-      "bio": "濮安懿王允让第十三子，仁宗无嗣，立为皇子。治平即位，濮议起，追崇本生父，朝论汹汹。",
-      "tags": [
-        "宋"
-      ],
-      "categories": [
-        "monarch"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "song"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "zhao-xu",
-      "name": "赵顼",
-      "display": "赵顼",
-      "birth": 1048,
-      "birthAccuracy": "exact",
-      "death": 1085,
-      "deathAccuracy": "exact",
-      "title": "宋神宗，熙宁变法",
-      "bio": "英宗子，即位旋用王安石变法，图强御夏。新法行之利弊相半，元丰改制官制；晚年新党内部亦生龃龉。",
+      "title": "武穆，精忠报国",
+      "bio": "相州汤阴人，农家子，从军抗金，组建岳家军，郾城大捷。力主恢复，累官至枢密副使。为秦桧所构，以「莫须有」冤死风波亭。",
       "tags": [
         "宋",
-        "北宋"
+        "南宋",
+        "抗金"
       ],
       "categories": [
-        "monarch"
+        "general"
       ],
-      "primary": "monarch",
+      "primary": "general",
       "polity": [
         "song"
       ],
@@ -219,111 +247,6 @@
       ]
     },
     {
-      "id": "beijiu-shibingquan",
-      "name": "杯酒释兵权",
-      "display": "杯酒释兵权",
-      "kind": "point",
-      "type": "political",
-      "catalogs": [
-        "history"
-      ],
-      "importance": 3,
-      "year": 961,
-      "yearAccuracy": "disputed",
-      "yearNote": "续资治通鉴把宴饮和庚午罢军职写在建隆二年秋七月之后。宋史建隆二年七月有壬戌、辛未、壬申，庚午可以落在这一月，但本纪不书罢军职。石守信传作乾德初。轴年取建隆二年，即961。乾德初不另立一条。",
-      "polity": [
-        "song"
-      ],
-      "people": [
-        "zhao-kuangyin",
-        "zhao-pu"
-      ],
-      "result": "石守信、高怀德、王审琦、张令铎罢领禁军，改授节度使。石守信仍挂侍卫都指挥使，兵权已不在。殿前副都点检不再除人。",
-      "aliases": [
-        "释兵权"
-      ],
-      "dynasties": [
-        "liao",
-        "song"
-      ],
-      "desc": "建隆二年秋七月庚午，石守信、高怀德、王审琦、张令铎罢领禁军，改授节度使；石守信仍挂侍卫都指挥使，兵权已不在，殿前副都点检不再除人。石守信传把同一次宴饮系于乾德初。禁军主将退出统兵，宋初军事权力从宿将手里收到皇帝。",
-      "sources": [
-        {
-          "work": "续资治通鉴",
-          "part": "卷2",
-          "kind": "classic"
-        },
-        {
-          "work": "宋史",
-          "part": "卷250",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
-      "id": "beisong-tongyi",
-      "name": "北宋统一战争",
-      "display": "宋统一",
-      "kind": "span",
-      "type": "military",
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "scale": "war",
-      "importance": 3,
-      "year": 963,
-      "yearAccuracy": "exact",
-      "yearNote": "起乾德元年平荆湖，止太平兴国四年五月北汉降。吴越纳土在这个跨度里，但是纳土，不挂成战役。南唐纳降日跨入976年，不改变战争的979终点。",
-      "endYear": 979,
-      "endYearAccuracy": "exact",
-      "belligerents": [
-        "song",
-        "jingnan",
-        "hunan",
-        "houshu",
-        "nanhan",
-        "nantang",
-        "beihan"
-      ],
-      "people": [
-        "zhao-kuangyin",
-        "zhao-guangyi"
-      ],
-      "result": "荆湖、后蜀、南汉、南唐和北汉先后并入宋，十国的割据局面结束。",
-      "aliases": [
-        "宋灭诸国",
-        "宋平列国"
-      ],
-      "dynasties": [
-        "liao",
-        "song"
-      ],
-      "desc": "乾德元年至太平兴国四年五月，宋先后平荆湖、后蜀、南汉、南唐，并灭北汉。荆湖、后蜀、南汉、南唐和北汉先后并入宋，十国的割据局面结束。这场十余年的征服把南方和河东并进宋的疆域；吴越纳土不挂成战役。",
-      "sources": [
-        {
-          "work": "宋史",
-          "part": "卷1",
-          "kind": "classic"
-        },
-        {
-          "work": "宋史",
-          "part": "卷2",
-          "kind": "classic"
-        },
-        {
-          "work": "宋史",
-          "part": "卷3",
-          "kind": "classic"
-        },
-        {
-          "work": "宋史",
-          "part": "卷4",
-          "kind": "classic"
-        }
-      ]
-    },
-    {
       "id": "chanyuan-zhimeng",
       "name": "澶渊之盟",
       "display": "澶渊之盟",
@@ -377,47 +300,67 @@
       ]
     },
     {
-      "id": "yuanhao-chengdi",
-      "name": "元昊称帝",
-      "display": "元昊称帝",
-      "kind": "point",
-      "type": "political",
+      "id": "xining-bianfa",
+      "name": "熙宁变法",
+      "display": "熙宁变法",
+      "kind": "span",
+      "type": "institutional",
       "catalogs": [
         "history"
       ],
       "importance": 3,
-      "year": 1038,
+      "year": 1069,
       "yearAccuracy": "exact",
-      "yearNote": "夏国传系于宋宝元元年，表文写十月十一日郊坛即皇帝位、国称大夏。该日为 1038-11-10，不跨年。宋廷至宝元元年十二月才记「赵元昊反」，二年正月才收到称帝表。",
+      "yearNote": "熙宁二年二月庚子王安石参知政事，同月创置三司条例司。终点取元丰八年三月戊戌神宗崩，为 1085-04-01。新法成批废除在元祐，不放进本条终点。",
+      "endYear": 1085,
+      "endYearAccuracy": "exact",
       "polity": [
-        "xixia"
+        "song"
       ],
       "people": [
-        "li-yuanhao",
-        "zhao-zhen"
+        "wang-anshi",
+        "zhao-xu",
+        "sima-guang"
       ],
+      "result": "青苗、免役、保甲、保马、方田、市易等作为一套新法施行，至神宗死仍在；元丰五年改行新官制，仍属同一改革期。",
       "aliases": [
-        "西夏建国",
-        "天授礼法延祚"
+        "王安石变法",
+        "熙丰新法",
+        "song-xining"
       ],
       "dynasties": [
         "liao",
         "song",
         "xixia"
       ],
-      "desc": "宋宝元元年十月十一日，李元昊郊坛即皇帝位，国号大夏，年号天授礼法延祚。宋廷到当年十二月才记「赵元昊反」，次年正月才收到称帝表。党项政权由此从封授变为敌国。西夏立国，其后的宋夏战争与和议由此而起。",
+      "desc": "熙宁二年二月，王安石参知政事，设制置三司条例司，议行新法。青苗、免役、保甲、保马、方田、市易等作为一套施行，元丰五年改行新官制，至神宗死仍在。赋役、兵农和中央财政的抽取方式由此改变，元丰官制仍属同一改革期。",
       "sources": [
         {
           "work": "宋史",
-          "part": "卷四百八十五",
+          "part": "卷十四",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷三百二十七",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷十六",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷十七",
           "kind": "classic"
         }
       ]
     },
     {
-      "id": "qingli-songxia-zhanzheng",
-      "name": "庆历宋夏战争",
-      "display": "庆历宋夏",
+      "id": "jingkang-zhibian",
+      "name": "靖康之变",
+      "display": "靖康之变",
       "kind": "span",
       "type": "military",
       "catalogs": [
@@ -426,46 +369,109 @@
       ],
       "scale": "war",
       "importance": 3,
-      "year": 1040,
+      "year": 1125,
       "yearAccuracy": "exact",
-      "yearNote": "起于康定元年正月延州三川口。终于庆历四年十月庚寅赐誓诏（1044-10-25）；十二月乙未封夏国主为 1044-12-29，仍在 1044。",
-      "endYear": 1044,
+      "yearNote": "金史天会三年十月甲辰诏诸将伐宋，为 1125-11-03。宋纪把分道入攻、禅位写在宣和七年十二月：己酉为 1126-01-07，庚申禅位为 1126-01-18，辛酉钦宗即位为 1126-01-19。起点取金军受诏出兵的 1125，不取已经入 1126 的禅位日。终点靖康二年四月庚申朔二帝北迁，为 1127-05-13。",
+      "endYear": 1127,
       "endYearAccuracy": "exact",
       "belligerents": [
         "song",
-        "xixia"
+        "jin-chao"
       ],
       "people": [
-        "li-yuanhao",
-        "zhao-zhen",
-        "fan-zhongyan",
-        "han-qi"
+        "zhao-ji",
+        "zhao-huan",
+        "wanyan-zonghan",
+        "wanyan-zongwang",
+        "li-gang",
+        "chong-shidao"
       ],
-      "result": "宋军三战皆败，庆历四年宋册元昊为夏国主，岁赐银绢茶彩二十五万五千，战事停止。",
+      "result": "金军两路攻入，开封陷落，徽钦二帝北迁，北宋灭亡。",
       "aliases": [
-        "元昊攻宋",
-        "宋夏战争"
+        "靖康之难",
+        "靖康之祸",
+        "金灭北宋",
+        "song-jingkang"
       ],
       "dynasties": [
         "liao",
         "song",
-        "xixia"
+        "xixia",
+        "jin-chao"
       ],
-      "desc": "康定元年正月，元昊寇延州，宋夏大战起于三川口，其后好水川、定川寨宋军再败。庆历四年宋册元昊为夏国主，岁赐银绢茶彩二十五万五千，战事停止。三场会战同属这一战争，宋夏边界秩序由此改写，并以和议收场。",
+      "desc": "天会三年十月，金诏诸将伐宋，宗翰、宗望分两路攻入。开封陷落，靖康二年四月庚申朔，金人以徽、钦二帝北归，法驾礼器与府库为一空。北宋灭亡，政权存亡由此改变。",
+      "sources": [
+        {
+          "work": "金史",
+          "part": "卷三",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷二十二",
+          "kind": "classic"
+        },
+        {
+          "work": "宋史",
+          "part": "卷二十三",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "shaoxing-heyi",
+      "name": "绍兴和议",
+      "display": "绍兴和议",
+      "kind": "span",
+      "type": "diplomatic",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": 1141,
+      "yearAccuracy": "exact",
+      "yearNote": "宋绍兴十一年立盟书，续资系于十一月：淮水中流、割唐邓、银绢各二十五万。金皇统二年二月曹勋许同样岁币和画淮，三月册宋帝，四月以臣宋告中外。不把整约收成无说明的1142。",
+      "endYear": 1142,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "song",
+        "jin-chao"
+      ],
+      "people": [
+        "zhao-gou",
+        "qin-hui",
+        "wanyan-zongbi"
+      ],
+      "result": "宋金以淮水中流为界，宋割唐、邓，岁奉银二十五万两、绢二十五万匹。金于次年册宋帝，并宣告宋为臣。",
+      "aliases": [
+        "皇统和议",
+        "song-shaoxing"
+      ],
+      "dynasties": [
+        "song",
+        "xixia",
+        "jin-chao"
+      ],
+      "desc": "绍兴十一年十一月，宋金立盟书，约以淮水中流画疆，割唐、邓，岁奉银二十五万两、绢二十五万匹。皇统二年二月，金收同样的岁币和画淮，三月册宋帝，四月以臣宋告中外。这次和议写定边界、岁币和名分，南北对峙由此稳定到1161年。",
       "sources": [
         {
           "work": "宋史",
-          "part": "卷十",
+          "part": "卷29",
           "kind": "classic"
         },
         {
-          "work": "宋史",
-          "part": "卷十一",
+          "work": "金史",
+          "part": "卷4",
           "kind": "classic"
         },
         {
-          "work": "宋史",
-          "part": "卷四百八十五",
+          "work": "金史",
+          "part": "卷77",
+          "kind": "classic"
+        },
+        {
+          "work": "续资治通鉴",
+          "part": "卷124",
           "kind": "classic"
         }
       ]
@@ -564,5 +570,15 @@
       ]
     }
   ],
-  "sources": []
+  "sources": [
+    {
+      "work": "宋史",
+      "part": "太祖纪、地理志",
+      "kind": "classic"
+    },
+    {
+      "work": "续资治通鉴长编",
+      "kind": "classic"
+    }
+  ]
 }

@@ -6,12 +6,14 @@
   "death": -538,
   "deathAccuracy": "exact",
   "deathNote": "左传·昭公四年（前538）楚灵王伐吴克朱方，执庆封，灭其族。奔吴之前为齐相。",
+  "title": "齐相，灭族于楚",
+  "bio": "齐大夫，崔杼之党。崔杼既死，庆封当国，自为相。当国而淫，为田氏、鲍氏、高氏所逐，奔吴居于朱方。楚灵王克朱方，执庆封而灭其族。",
   "polity": [
     "qi"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

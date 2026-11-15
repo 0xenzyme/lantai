@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1368,
   "deathAccuracy": "exact",
+  "title": "宁宗皇后，在位月余",
+  "bio": "弘吉剌氏。至顺三年十月，宁宗即位，立为皇后。十一月壬辰，宁宗崩，年七岁，后在位仅月余。至正二十八年崩，升祔宁宗庙。",
   "polity": [
     "yuan"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "yuan",

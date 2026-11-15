@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -517,
   "deathAccuracy": "exact",
+  "title": "鲁大夫，助昭公攻季氏",
+  "bio": "郈氏，鲁大夫。与季平子有鸡斗之怨。昭公二十五年，从昭公伐季氏，孟氏执而杀之于南门之西，昭公遂出奔齐。",
   "polity": [
     "lu"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

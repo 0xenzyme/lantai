@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1275,
   "deathAccuracy": "exact",
+  "title": "宋末左丞相，极论似道",
+  "bio": "字仲潜，一字伯晦，绍兴新昌人。登嘉定十三年进士第，咸淳中入枢府，官至参知政事。德祐元年，进少保、左丞相兼枢密使，加都督诸路军马，极陈贾似道误国丧师之罪。后与陈宜中不协，罢为醴泉观使，是年十二月薨。为人清修刚劲。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

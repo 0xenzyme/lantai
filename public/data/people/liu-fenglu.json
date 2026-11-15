@@ -6,12 +6,14 @@
   "birthAccuracy": "exact",
   "death": 1829,
   "deathAccuracy": "exact",
+  "title": "今文经师，常州学派",
+  "bio": "江苏武进人，字申受。庄存与外孙，尽传其学。嘉庆十九年进士，官礼部主事。治《春秋》公羊学，著《公羊何氏释例》，开常州学派宗风。",
   "polity": [
     "qing"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

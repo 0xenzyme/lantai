@@ -6,12 +6,14 @@
   "death": 1101,
   "deathAccuracy": "approx",
   "deathNote": "此年为可见活动年（任官年），非卒年、非寿数。建中靖国初官京师，召对忤旨去（raw/宋/宋史/卷428.md:23）。本传无卒年。建中靖国仅一年。",
+  "title": "程门四先生之一",
+  "bio": "字显道，寿春上蔡人。与游酢、吕大临、杨时在程颐之门，号「四先生」。登进士第，建中靖国初，官京师，召对忤旨，废为民。记问该赡，程颐称其「力学，切问而近思」。所著《论语说》行于世。",
   "polity": [
     "song"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "song",

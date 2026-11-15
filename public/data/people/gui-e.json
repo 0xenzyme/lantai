@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 1531,
   "deathAccuracy": "exact",
+  "title": "大礼议主将，谥文襄",
+  "bio": "字子实，安仁人。正德六年进士。嘉靖初与张璁倡大礼之议，请称孝宗为皇伯考、兴献帝为皇考，遂以议礼骤贵，官至礼部尚书兼武英殿大学士。性猜狠，好排异己。十年正月得请归，卒于家，赠太傅，谥文襄。",
   "polity": [
     "ming"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "ming",

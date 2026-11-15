@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 690,
   "deathAccuracy": "exact",
+  "title": "武周宰相，批颊僧怀义",
+  "bio": "苏良嗣，苏世长之子。武后时入为纳言，迁文昌左相、同凤阁鸾台三品。遇僧怀义于朝堂，怀义偃蹇不为礼，良嗣命左右捽曳，批其颊数十；太后曰：阿师当于北门出入，南牙宰相所往来，勿犯也。又沮裴匪躬鬻苑中蔬果。天授元年为特进，三月薨。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

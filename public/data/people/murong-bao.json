@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 398,
   "deathAccuracy": "exact",
+  "title": "后燕主，魏师入而国衰",
+  "bio": "字道祐，垂之第四子。及为太子，砥砺自修，敦崇儒学。嗣伪位，魏师大至，弃中山走龙城；段速骨之乱，南奔于外，兰汗遣使迎驾，宝还至龙城，为汗所弑，时年四十四，在位三年。谥惠愍皇帝。",
   "polity": [
     "shiliuguo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

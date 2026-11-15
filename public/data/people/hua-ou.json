@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": -611,
   "deathAccuracy": "exact",
+  "title": "宋大夫，华督曾孙",
+  "bio": "宋大夫，华督曾孙。文公十五年来盟于鲁，公与之宴，耦以先人督得罪殇公，辞不敢当，请承命于亚旅。十六年卒。",
   "polity": [
     "song-guo"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

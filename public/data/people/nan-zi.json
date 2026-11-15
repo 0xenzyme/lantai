@@ -6,12 +6,14 @@
   "death": -496,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详，取前496年为活动下限（非寿数）。依据春秋左传正义·定公十四年「衛侯為夫人南子召宋朝」（raw/春秋/春秋左傳正義/卷56.md:217）。",
+  "title": "卫灵公夫人",
+  "bio": "卫灵公夫人，宋女。定公十四年，灵公为夫人召宋朝。孔子适卫，夫人欲见，子路不悦，孔子矢之。灵公与夫人同车，使孔子次乘，孔子去卫。",
   "polity": [
     "wei-guo"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "chunqiu",

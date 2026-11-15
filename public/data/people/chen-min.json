@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 307,
   "deathAccuracy": "exact",
+  "title": "西晋末据吴会自号楚公",
+  "bio": "字令通，庐江人。建漕运之策，以破石冰功为广陵相。中原乱，据历阳收兵，遂有吴越之地，自号都督江东诸军事、大司马、楚公，加九锡。江东望族顾荣、周玘潜引晋师，临阵以白羽扇麾之，敏众溃，单骑走江乘，为义兵所斩。",
   "polity": [
     "jin"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "liangjin",

@@ -6,12 +6,14 @@
   "death": 423,
   "deathAccuracy": "approx",
   "deathNote": "卒年取活动年，为收录下限，非寿数。据「原懼不勝，遂謀為逆，事洩伏誅」raw/北朝/魏書/卷30.md:52",
+  "title": "代人勇将，尚公主谋逆伏诛",
+  "bio": "代人，以勇力进。尚上党公主，赐爵西平侯。从征库莫奚、蠕蠕，数有功。后惧祸，谋为逆，事泄伏诛。",
   "polity": [
     "bei"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

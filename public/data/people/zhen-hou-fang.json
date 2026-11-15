@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 251,
   "deathAccuracy": "exact",
+  "title": "曹芳皇后，正始四年立",
+  "bio": "甄氏，齐王曹芳之后也。正始四年夏四月乙卯，立为皇后，大赦。在位八年，嘉平三年秋七月壬戌崩，葬于太清陵。",
   "polity": [
     "wei"
   ],
   "gender": "female",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "sanguo",

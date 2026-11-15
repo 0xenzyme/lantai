@@ -5,12 +5,14 @@
   "birthAccuracy": "unknown",
   "death": 875,
   "deathAccuracy": "exact",
+  "title": "僖宗宰相，封还制书",
+  "bio": "萧倣，萧俛从父弟。为给事中，僖宗除李燧为岭南节度使，命已行，倣封还制书，帝为追回成命。吏部侍郎时，上疏谏帝奉佛过度，愿罢讲筵、勤政事。咸通末，以左仆射同平章事，进司空。乾符二年薨。",
   "polity": [
     "tang"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "tang",

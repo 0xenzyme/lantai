@@ -6,12 +6,14 @@
   "death": 554,
   "deathAccuracy": "approx",
   "deathNote": "554 为废黜之年，非寿数；史不载生卒。据「三年春正月，安定公宇文泰廢帝而立齊王廓」raw/南北朝/北史/卷005.md:106",
+  "title": "西魏废帝，为宇文泰所废",
+  "bio": "西魏废帝，文帝长子。大统十三年立为皇太子，大统十七年嗣位，无所改作。时安定公宇文泰专政，钦居帝位而不能去。魏恭帝三年春正月，泰废帝而立齐王廓，帝出居旧邸。史不载其卒年。",
   "polity": [
     "bei"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

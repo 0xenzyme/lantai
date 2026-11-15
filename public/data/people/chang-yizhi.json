@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "「普通三年，徵爲護軍將軍……四年十月，卒」（梁书·昌义之传）。",
   "title": "钟离之战守城主将，以三千人抗魏数十万",
+  "bio": "历城人，有武干。仕梁守钟离，天监五年拒魏中山王元英之攻，凭城固守，会曹景宗、韦睿赴援，大破魏军。后官至护军将军。普通四年卒。",
   "tags": [
     "南北朝",
     "梁"
@@ -20,7 +21,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",

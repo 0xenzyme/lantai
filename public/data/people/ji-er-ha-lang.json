@@ -8,6 +8,8 @@
   "deathAccuracy": "exact",
   "birthNote": "传载顺治十二年薨、年五十七（虚岁），自卒年 1655 上推。",
   "deathNote": "清史稿·卷215·郑献亲王济尔哈朗传：顺治十二年五月疾革，翌日薨，年五十七。卷5·世祖本纪：十二年五月辛卯，和硕郑亲王济尔哈朗薨。庄亲王舒尔哈齐第六子，太祖抚育，封和硕郑亲王，为定远大将军下湖广。",
+  "title": "清初郑亲王",
+  "bio": "舒尔哈齐第六子，太祖抚育。封和硕郑亲王，为定远大将军下湖广。顺治初与多尔衮同辅政，号信义辅政叔王。十二年五月薨，年五十七。",
   "categories": [
     "general",
     "royal-kin",
@@ -18,7 +20,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "qing",

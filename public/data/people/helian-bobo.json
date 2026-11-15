@@ -7,6 +7,7 @@
   "deathAccuracy": "exact",
   "deathNote": "「始光二年，屈孑死，昌僭立」（魏书·铁弗刘虎传），勃勃即屈孑，太宗所改名。",
   "title": "夏王，筑统万城而僭号，其死即北魏西进之机",
+  "bio": "鲜卑铁弗氏，刘卫辰之子。仕秦为将，遂据朔方。晋义熙三年，僭称天王于统万，国号大夏。性残忍，嗜杀戮。魏太武袭统万，夏以亡。始光二年死，子昌立。",
   "tags": [
     "南北朝",
     "夏"
@@ -21,7 +22,7 @@
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "nanbei",
