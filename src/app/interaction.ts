@@ -22,7 +22,6 @@ import {
 } from './render';
 import { canUseInertia, eventTooltip, hideCard, personTooltip } from './view';
 import { ctx, dom, getHooks, layouts, motion, state, W, type Selection } from './runtime';
-import { topicForDynasty } from './model';
 
 // ---------- 命中测试 ----------
 
@@ -333,9 +332,6 @@ export function ribbonPointer(): void {
     }
     const year = ribbonXAt(event.clientX);
     centerDomain(year, state.domain[1] - state.domain[0]);
-    const dynasty = state.library.dynasties.find((item) => year >= item.from && year <= item.to);
-    const target = dynasty ? topicForDynasty(state.library, dynasty.id) : null;
-    if (target && target.id !== state.topicId) void getHooks().setTopic(target.id);
     draw();
     getHooks().syncTimelineUrl();
   });

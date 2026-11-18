@@ -18,12 +18,15 @@ function makeLibrary(overrides: Partial<Library> = {}): Library {
     events: [],
     eventById: new Map(),
     eventsByPerson: new Map(),
+    eventSearch: [],
     dynasties: [],
     categoryNames: new Map(),
     polityNames: new Map(),
     people: [],
     personById: new Map(),
     topicCache: new Map(),
+    loadedLines: new Set(),
+    lineLoads: new Map(),
     ...overrides,
   };
 }

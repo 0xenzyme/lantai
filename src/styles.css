@@ -264,18 +264,6 @@ body.skin-deepspace .line-btn.active {
   background: var(--hair);
 }
 
-.topic-select {
-  max-width: 150px;
-  padding: 5px 8px;
-  border: 1px solid var(--hair);
-  border-radius: 8px;
-  background: var(--search-bg);
-  color: var(--ink);
-  font: inherit;
-  font-size: 12.5px;
-  cursor: pointer;
-}
-
 .search {
   position: relative;
 }
@@ -808,9 +796,6 @@ body.timeline-app:not(.timeline-legacy) .badge[data-event-type='cultural'] {
 @media (max-width: 1100px) {
   .search-input {
     width: 130px;
-  }
-  .topic-select {
-    max-width: 120px;
   }
 }
 
@@ -4794,7 +4779,6 @@ body.timeline-app #card.show {
   }
 
   body.timeline-app .line-btn,
-  body.timeline-app .topic-select,
   body.timeline-app .tool,
   body.timeline-app .chip,
   body.timeline-app .card-close,
@@ -4949,8 +4933,7 @@ body.timeline-app #app:empty {
   overflow: visible;
 }
 
-.lt-filter-group h2,
-.lt-topic-select-label {
+.lt-filter-group h2 {
   display: block;
   margin: 0 0 8px;
   color: var(--lt-gold);
@@ -5062,18 +5045,6 @@ body.timeline-app #app:empty {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-}
-
-.lt-timeline-filters .topic-select {
-  width: 100%;
-  min-height: 36px;
-  margin-top: 4px;
-  border: 1px solid #80684f;
-  border-radius: 6px;
-  background: #30241a;
-  color: var(--lt-wood-text);
-  font: inherit;
-  font-size: 13px;
 }
 
 .lt-filter-reset {
@@ -5272,7 +5243,8 @@ body.timeline-app .hint {
   border: 0;
   background: none;
   color: var(--lt-ink-secondary);
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 1.4;
 }
 
 .lt-zoom {
@@ -5429,6 +5401,7 @@ body.timeline-app .timeline-accessible-entities {
   bottom: auto;
   left: auto;
   z-index: 35;
+  width: auto;
   flex: none;
   max-height: none;
   padding: 0;
@@ -8514,7 +8487,7 @@ body.timeline-app.skin-deepspace:not(.timeline-legacy) {
   }
 }
 
-/* 状态栏优先保留图例、实体入口和缩放；辅助手势提示让位于主控件。 */
+/* 状态栏保留图例、手势提示、实体入口和缩放；提示可换行，但不隐藏。 */
 .lt-zoom {
   flex: none;
 }
@@ -8532,12 +8505,6 @@ body.timeline-app .lt-timeline-statusbar .hint {
 @media (min-width: 641px) {
   .lt-legend {
     flex: none;
-  }
-}
-
-@media (max-width: 1500px) {
-  body.timeline-app .lt-timeline-statusbar .hint {
-    display: none;
   }
 }
 
@@ -8640,6 +8607,11 @@ body.timeline-app .lt-timeline-statusbar .hint {
   .lt-filter-toggle {
     width: 44px;
     height: 44px;
+  }
+
+  .lt-timeline-search .search-hit {
+    min-height: 44px;
+    align-items: center;
   }
 
   body.timeline-app .lt-timeline-detail {

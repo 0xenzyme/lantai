@@ -21,7 +21,7 @@ import {
 } from './layout';
 import { EVENT_COLORS, SKINS, paletteFor, skinColor, type Palette } from './skins';
 import { FONT_SANS, FONT_SERIF, clamp, fmtYear, personFrom, personTo, pickStep, roundRect } from './util';
-import { contentH, ctx, dom, getHooks, H, layouts, loadingTopic, rctx, sctx, state, W } from './runtime';
+import { contentH, ctx, dom, getHooks, H, layouts, loadingLine, loadingTopic, rctx, sctx, state, W } from './runtime';
 import { syncAccessibleEntities } from './accessibility';
 
 // ---------- 坐标 ----------
@@ -161,7 +161,12 @@ export function renderScene(c: CanvasRenderingContext2D, width: number, height: 
     c.fillStyle = C.muted;
     c.font = `13px ${FONT_SANS}`;
     c.textAlign = 'center';
-    c.fillText(loadingTopic ? '正在载入专题…' : '当前筛选下没有条目', width / 2, height / 2);
+    const emptyLabel = loadingTopic
+      ? '正在载入专题…'
+      : loadingLine
+        ? `正在载入${loadingLine === 'military' ? '军事' : '历史'}事件…`
+        : '当前筛选下没有条目';
+    c.fillText(emptyLabel, width / 2, height / 2);
     c.textAlign = 'left';
     return;
   }
@@ -1107,6 +1112,11 @@ function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
 
 let densityCache: number[] | null = null;
 const DENSITY_BUCKETS = 240;
+
+/** 事件线按需加载后必须让朝代带的密度统计重新计算。 */
+export function invalidateEventDensity(): void {
+  densityCache = null;
+}
 
 function densityBuckets(): number[] {
   if (densityCache) return densityCache;

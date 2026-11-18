@@ -7,6 +7,7 @@
  */
 
 import type { Library } from './model';
+import type { EventRecord } from '../types';
 import type { Route } from '../routing';
 import { parseHash, writeHash, writeLineHash, decodeHash, type HistoryMode } from '../routing';
 import { exportBasename, exportView } from './exporter';
@@ -21,14 +22,13 @@ import {
   layoutHeight,
   type LaneLayout,
 } from './layout';
-import { createLibrary, findTopicEntry, loadTopicData } from './model';
+import { createLibrary, ensureEventLines, ensureLine, findTopicEntry, loadTopicData, type TimeLineId } from './model';
 import { SKINS, isSkinId, type SkinId } from './skins';
 import { clamp, fmtYear, personFrom, personTo } from './util';
 import {
   announce,
   applySkin,
   buildLanePanel,
-  buildTopicSelect,
   flashHint,
   hideCard,
   hideCardSilent,
@@ -48,6 +48,7 @@ import {
   drawStars,
   fullSpan,
   hdrH,
+  invalidateEventDensity,
   largeRowsActive,
   maxScroll,
   peopleSpan,
@@ -79,6 +80,7 @@ import {
   initialTimeline,
   initializeRuntimeDom,
   setLayouts,
+  setLoadingLine,
   setLoadingTopic,
   setState,
   setViewportSize,
@@ -140,7 +142,6 @@ export async function boot(root: ParentNode, signal: AbortSignal): Promise<void>
       groups: { people: true, war: true, history: true },
     });
     document.body.classList.add('timeline-app');
-    buildTopicSelect();
     wireEvents(signal);
     syncChipAvailability();
     applySkin(state.skin, false);
@@ -170,12 +171,15 @@ export async function boot(root: ParentNode, signal: AbortSignal): Promise<void>
     else {
       state.topic = await loadTopicData(state.library, state.topicId);
       state.viewId = state.topic?.views[0]?.id ?? null;
-      buildTopicSelect();
       ensureDomain();
     }
     await applyTimelineState(initialTimeline);
     if (signal.aborted) return;
     resize();
+    // 首屏已经可交互；事件线在这之后才按需加载。浏览器测试以这一刻为“首包”边界。
+    document.body.dataset.timelineReady = 'true';
+    document.body.dataset.timelineReadyAt = String(Math.round(performance.now()));
+    if (state.line !== 'people') void loadLineView(state.line);
     frameId = requestAnimationFrame(loop);
   } catch (error) {
     if (signal.aborted) return;
@@ -325,7 +329,10 @@ function lineLabel(): string {
 // ---------- 内容线 / 专题 ----------
 
 function setLine(line: LineId, sync = true): void {
-  if (line === state.line) return;
+  if (line === state.line) {
+    if (line !== 'people') void loadLineView(line);
+    return;
+  }
   state.line = line;
   localStorage.setItem(STORAGE.line, line);
   state.chip = 'all';
@@ -335,7 +342,6 @@ function setLine(line: LineId, sync = true): void {
   document.querySelectorAll<HTMLElement>('.line-btn').forEach((button) => {
     button.classList.toggle('active', button.dataset.line === line);
   });
-  dom.topicSelect.hidden = line !== 'people';
   dom.search.value = '';
   syncChipAvailability();
   state.scrollY = 0;
@@ -348,6 +354,52 @@ function setLine(line: LineId, sync = true): void {
   if (sync) syncHash('replace');
   syncTimelineUrl();
   draw();
+  if (line !== 'people') void loadLineView(line);
+}
+
+const lineViewLoads = new Map<TimeLineId, Promise<void>>();
+
+function lineLabelFor(id: TimeLineId): string {
+  return id === 'military' ? '军事' : '历史';
+}
+
+/**
+ * 按需加载一条完整事件线。加载时画布显示“正在载入…”，
+ * 完成后重建泳道与布局；并发调用共享同一请求。
+ */
+function loadLineView(line: TimeLineId): Promise<void> {
+  const loaded = state.library.loadedLines.has(line);
+  if (loaded) return Promise.resolve();
+  const pending = lineViewLoads.get(line);
+  if (pending) return pending;
+  const task = (async () => {
+    const visible = state.line === line;
+    if (visible) {
+      setLoadingLine(line);
+      announce(`正在载入${lineLabelFor(line)}事件…`);
+      rebuildLayout();
+      draw();
+    }
+    try {
+      await ensureLine(state.library, line);
+    } catch (error) {
+      console.warn(`[${lineLabelFor(line)}事件线加载失败]`, error);
+      if (state.line === line) flashHint(`${lineLabelFor(line)}事件载入失败，请稍后重试`);
+    } finally {
+      invalidateEventDensity();
+      if (state.line === line) {
+        setLoadingLine(null);
+        buildLanePanel();
+        rebuildLayout();
+        draw();
+        if (state.library.loadedLines.has(line)) announce(`已载入${lineLabelFor(line)}事件`);
+      }
+    }
+  })().finally(() => {
+    lineViewLoads.delete(line);
+  });
+  lineViewLoads.set(line, task);
+  return task;
 }
 
 /** 「女性」只对人物线有意义，事件线上禁用，避免点了之后整图变暗、像滤镜坏了。 */
@@ -372,15 +424,11 @@ function reportChipResult(label: string): void {
 }
 
 async function setTopic(topicId: string, sync = true): Promise<void> {
-  if (topicId === state.topicId && state.topic) {
-    dom.topicSelect.value = topicId;
-    return;
-  }
+  if (topicId === state.topicId && state.topic) return;
   const entry = findTopicEntry(state.library, topicId);
   if (!entry) return;
   state.topicId = topicId;
   localStorage.setItem(STORAGE.topic, topicId);
-  dom.topicSelect.value = topicId;
   setLoadingTopic(true);
   const topic = await loadTopicData(state.library, topicId);
   setLoadingTopic(false);
@@ -413,6 +461,18 @@ function ensureDomain(): void {
 
 // ---------- 选择 ----------
 
+/** 事件不在首包索引的完整数据里时，按 catalogs 拉取对应事件线；失败返回 null。 */
+async function resolveEventRecord(id: string): Promise<EventRecord | null> {
+  const loaded = state.library.eventById.get(id);
+  if (loaded) return loaded;
+  flashHint('正在载入事件数据…');
+  await ensureEventLines(state.library, id);
+  invalidateEventDensity();
+  const event = state.library.eventById.get(id) ?? null;
+  if (event && state.line !== 'people') buildLanePanel();
+  return event;
+}
+
 async function selectAndReveal(selection: Selection, sync = true, keepDomain = false): Promise<void> {
   state.selected = selection;
   if (selection.kind === 'person') {
@@ -443,14 +503,16 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
     announce(`人物：${record?.display ?? selection.id}`);
     if (sync) writeTopicHash('replace');
   } else {
-    const event = state.library.eventById.get(selection.id);
-    if (event) {
-      if (!keepDomain && !restoringTimeline) centerDomain(event.year, 180);
-      if (state.line !== 'people' && !restoringTimeline) scrollTo('event', event.id);
-      announce(`事件：${event.display || event.name}`);
-      if (sync && state.line !== 'people') {
-        writeLineHash(state.line, 'event', event.id, 'push');
-      }
+    const event = await resolveEventRecord(selection.id);
+    if (!event) {
+      flashHint(`没有找到事件「${selection.id}」`);
+      return;
+    }
+    if (!keepDomain && !restoringTimeline) centerDomain(event.year, 180);
+    if (state.line !== 'people' && !restoringTimeline) scrollTo('event', event.id);
+    announce(`事件：${event.display || event.name}`);
+    if (sync && state.line !== 'people') {
+      writeLineHash(state.line, 'event', event.id, 'push');
     }
   }
   showCard(selection);
@@ -506,6 +568,7 @@ async function applyRoute(route: Route | null): Promise<void> {
   if (route.axis === 'time' && route.lineId) {
     hideCardSilent();
     setLine(route.lineId as LineId, false);
+    await loadLineView(route.lineId);
     rebuildLayout();
     if (route.eventId) {
       const event = state.library.eventById.get(route.eventId);
@@ -626,7 +689,6 @@ function wireEvents(signal: AbortSignal): void {
     syncTimelineUrl();
     draw();
   });
-  dom.topicSelect.addEventListener('change', () => void setTopic(dom.topicSelect.value));
   dom.chips.addEventListener('click', (event) => {
     const chip = (event.target as HTMLElement).closest<HTMLElement>('.chip');
     if (!chip?.dataset.filter || chip.hasAttribute('disabled')) return;

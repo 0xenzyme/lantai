@@ -87,11 +87,8 @@ test('现有 Chrome 应用兼容：深链、切换、章节、搜索、面板、
     page.on('pageerror', (error) => errors.push(error.message));
     await page.goto(`${origin}/#tang`);
     await page.waitForSelector('#boot', { state: 'hidden' });
-    assert.equal(await page.locator('#topic-select').getAttribute('value'), null);
-    assert.equal(
-      await page.locator('#topic-select').evaluate((element) => (element as HTMLSelectElement).value),
-      'tang',
-    );
+    await page.waitForSelector('#topic-head .lt-topic-name', { state: 'visible' });
+    assert.equal(await page.locator('#topic-head .lt-topic-name').innerText(), '唐');
 
     await page.fill('#search', '李太白');
     await page.waitForSelector('.search-hit[data-id="li-bai"]');

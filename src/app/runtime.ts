@@ -73,6 +73,13 @@ export function setLoadingTopic(next: boolean): void {
   loadingTopic = next;
 }
 
+/** 当前可见事件线正在加载的目录；null 表示没有可见的线加载。 */
+export let loadingLine: 'military' | 'history' | null = null;
+
+export function setLoadingLine(next: 'military' | 'history' | null): void {
+  loadingLine = next;
+}
+
 export let initial: Route | null = null;
 export let initialTimeline: TimelineState | null = null;
 
@@ -120,7 +127,6 @@ export interface TimelineDom {
   stripToggle: HTMLButtonElement;
   search: HTMLInputElement;
   searchResults: HTMLElement;
-  topicSelect: HTMLSelectElement;
   status: HTMLElement;
   exportMenu: HTMLElement;
   topbar: HTMLElement;
@@ -155,7 +161,6 @@ export function initializeRuntimeDom(root: ParentNode): void {
     stripToggle: get<HTMLButtonElement>('#strip-toggle'),
     search: get<HTMLInputElement>('#search'),
     searchResults: get<HTMLElement>('#search-results'),
-    topicSelect: get<HTMLSelectElement>('#topic-select'),
     status: get<HTMLElement>('#status'),
     exportMenu: get<HTMLElement>('#export-menu'),
     topbar: get<HTMLElement>('#topbar'),

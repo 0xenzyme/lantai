@@ -124,10 +124,6 @@ export function TimelinePage() {
               </div>
             </div>
             <div id="lane-chapters" />
-            <label className="lt-topic-select-label" htmlFor="topic-select">
-              朝代 / 主题
-            </label>
-            <select className="topic-select" id="topic-select" title="选择要浏览的朝代或主题" />
             <button type="button" className="lt-filter-reset" id="btn-reset-filters">
               重置筛选
             </button>
@@ -145,13 +141,7 @@ export function TimelinePage() {
             >
               筛选
             </button>
-            <button type="button" className="lt-dynasty-arrow" id="topic-prev" aria-label="上一个专题">
-              ‹
-            </button>
             <div className="lt-dynasty-head-text" id="topic-head" aria-live="polite" />
-            <button type="button" className="lt-dynasty-arrow" id="topic-next" aria-label="下一个专题">
-              ›
-            </button>
           </div>
           <div id="stage">
             <canvas

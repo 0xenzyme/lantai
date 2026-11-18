@@ -4,25 +4,30 @@ import test from 'node:test';
 import { catalog, event, eventLine, person } from './fixtures';
 import { validateCatalog } from '../src/contract';
 import { eventSummary, collectionFeature, eraSummary, sectionHeading } from '../src/site/components';
-import { eventRecords, retrySiteData, selectHomeEvents } from '../src/site/data';
+import { eventRecords, retrySiteData } from '../src/site/data';
+import { compileHomeEvents } from '../pipeline/compile';
 import { homePage } from '../src/site/home';
 import { loadSitePage } from '../src/site/page-loader';
 import type { EventLineView } from '../src/types';
 
-test('首页事件选择会去重、按时间排序并跳过失效编辑 id', () => {
+test('首页纪事在编译期解析编辑配置，坏 id 跳过并按展示顺序排列', () => {
   const early = event({ id: 'early', year: -300, importance: 1 });
   const late = event({ id: 'late', year: 700, importance: 3 });
-  const sameId = event({ id: 'late', year: 701, importance: 1 });
+  const duplicate = event({ id: 'late', year: 701, importance: 1 });
 
   assert.deepEqual(
-    selectHomeEvents([late, early, sameId], ['late', 'missing', 'early', 'late']).map((item) => item.id),
+    compileHomeEvents({ dynasties: [], collections: [], events: ['late', 'missing', 'early', 'late'] }, [
+      late,
+      early,
+      duplicate,
+    ]).map((item) => item.id),
     ['early', 'late'],
   );
-  assert.deepEqual(selectHomeEvents([late], ['late'], 0), []);
   assert.deepEqual(
-    [late, early, sameId].map((item) => item.id),
-    ['late', 'early', 'late'],
+    compileHomeEvents(undefined, [early, late]).map((item) => item.id),
+    ['late', 'early'],
   );
+  assert.deepEqual(compileHomeEvents({ dynasties: [], collections: [], events: ['missing'] }, [early, late]), []);
 });
 
 test('事件线合并只保留一个事件，并按年份、importance 和 id 稳定排序', () => {
@@ -119,15 +124,14 @@ test('共享内容原语保留既有 data attributes 和可访问入口', () => 
   assert.match(collection, /&lt;简介&gt;/);
 });
 
-test('首页路由请求 history 和 military 两条事件线', async () => {
+test('首页路由不再请求完整事件线，只取目录、群像与断代', async () => {
   retrySiteData();
   const requests: string[] = [];
-  const siteCatalog = catalog({ editorial: { dynasties: [], collections: [], events: [] } });
+  const siteCatalog = catalog({
+    editorial: { dynasties: [], collections: [], events: [] },
+    homeEvents: [event({ id: 'featured' })],
+  });
   assert.deepEqual(validateCatalog(siteCatalog), []);
-  const lines = {
-    '/data/history.json': eventLine({ id: 'history' }),
-    '/data/military.json': eventLine({ id: 'military' }),
-  };
   globalThis.fetch = async (input) => {
     const url = String(input);
     requests.push(url);
@@ -138,24 +142,29 @@ test('首页路由请求 history 和 military 两条事件线', async () => {
           ? []
           : url === '/data/eras.json'
             ? []
-            : lines[url as keyof typeof lines];
+            : undefined;
     if (value === undefined) return new Response('missing', { status: 404 });
     return new Response(JSON.stringify(value), { status: 200, headers: { 'Content-Type': 'application/json' } });
   };
 
   await loadSitePage('/', '');
-  assert.ok(requests.includes('/data/history.json'));
-  assert.ok(requests.includes('/data/military.json'));
+  assert.ok(requests.includes('/data/index.json'));
+  assert.ok(requests.includes('/data/collections.json'));
+  assert.ok(requests.includes('/data/eras.json'));
+  assert.ok(!requests.includes('/data/history.json'));
+  assert.ok(!requests.includes('/data/military.json'));
 });
 
 test('首页使用整幅 Hero 背景并输出轻量实体脉络节点', () => {
   const selected = event({ id: 'selected', display: '<编辑 & "事件">', year: 300 });
-  const fallback = event({ id: 'fallback', display: '未选事件', year: 100 });
   const featuredPerson = person({ id: 'person-a', display: '<人物 & 甲>' });
   const html = homePage({
-    catalog: catalog({ editorial: { dynasties: [], collections: ['series'], events: ['selected'] } }),
+    catalog: catalog({
+      editorial: { dynasties: [], collections: ['series'], events: ['selected'] },
+      homeEvents: [selected],
+    }),
     people: [],
-    events: [eventLine({ id: 'history', events: [fallback, selected] })],
+    events: [],
     collections: [
       {
         contractVersion: 1,

@@ -131,15 +131,7 @@ export function announce(text: string): void {
   dom.status.textContent = text;
 }
 
-// ---------- 专题下拉 / 泳道面板 ----------
-
-export function buildTopicSelect(): void {
-  dom.topicSelect.innerHTML = state.library.topics
-    .map((entry) => `<option value="${esc(entry.id)}">${esc(entry.title)}</option>`)
-    .join('');
-  dom.topicSelect.value = state.topicId;
-  dom.topicSelect.hidden = state.line !== 'people';
-}
+// ---------- 章节与泳道面板 ----------
 
 export function buildLanePanel(): void {
   const laneDefs: { id: string; name: string; color: string; count: number }[] = [];
@@ -252,26 +244,23 @@ interface SearchHit {
   meta: string;
 }
 
-function aliasIndex(): Map<string, string> {
-  if (aliasCache) return aliasCache;
-  const map = new Map<string, string>();
-  for (const event of state.library.events) {
-    for (const alias of event.aliases ?? []) map.set(alias, event.id);
+function aliasEventId(query: string): string | undefined {
+  const needle = query.trim();
+  // 事件瘦索引最多几百条，直接反查即可；不缓存，事件线按需加载后不会读到旧索引。
+  for (let index = state.library.eventSearch.length - 1; index >= 0; index -= 1) {
+    const record = state.library.eventSearch[index];
+    if (record.aliases?.includes(needle)) return record.id;
   }
-  aliasCache = map;
-  return map;
+  return undefined;
 }
-
-let aliasCache: Map<string, string> | null = null;
 
 export function runSearch(query: string): SearchHit[] {
   const needle = query.trim().toLowerCase();
   if (needle.length === 0) return [];
   const hits: SearchHit[] = [];
-  const aliasEventId = aliasIndex().get(query.trim());
+  const aliasId = aliasEventId(query);
 
   for (const record of state.library.people) {
-    if (record.kind === 'event') continue;
     const fields = [record.name, record.display, ...(record.aliases ?? []), ...(record.tags ?? [])];
     if (!fields.some((field) => field && field.toLowerCase().includes(needle))) continue;
     hits.push({
@@ -284,10 +273,10 @@ export function runSearch(query: string): SearchHit[] {
   }
 
   const eventHits: SearchHit[] = [];
-  for (const event of state.library.events) {
+  for (const event of state.library.eventSearch) {
     if (eventHits.length >= 8) break;
     const matched =
-      event.id === aliasEventId ||
+      event.id === aliasId ||
       [event.name, event.display, ...(event.aliases ?? [])].some(
         (field) => field && field.toLowerCase().includes(needle),
       );

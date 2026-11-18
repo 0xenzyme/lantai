@@ -62,7 +62,11 @@ test('React SPA 年表到内容页的皮肤与连续搜索导航', { timeout: 12
     document.body.append(link);
   });
   await page.locator('#react-test-timeline-link').click();
-  await page.waitForFunction(() => document.querySelector<HTMLSelectElement>('#topic-select')?.value === 'tang');
+  await page.waitForFunction(
+    () =>
+      new URLSearchParams(location.search).get('topic') === 'tang' &&
+      document.querySelector('#topic-head .lt-topic-name')?.textContent === '唐',
+  );
   assert.match(page.url(), /topic=tang/);
   await page.locator('#react-test-timeline-link').evaluate((link) => link.remove());
   await page.locator('.lt-main-nav a[href="/people"]').click();

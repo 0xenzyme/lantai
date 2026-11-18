@@ -66,10 +66,6 @@ function syncTopicHead(): void {
     const line = state.library.lines[state.line];
     head.innerHTML = `<span class="lt-topic-name">${esc(line.title)}</span><span class="lt-topic-range">${fmtYear(line.range[0])} — ${fmtYear(line.range[1])}</span>`;
   }
-  const prev = document.getElementById('topic-prev') as HTMLButtonElement | null;
-  const next = document.getElementById('topic-next') as HTMLButtonElement | null;
-  if (prev) prev.disabled = index <= 0;
-  if (next) next.disabled = index < 0 || index >= topics.length - 1;
 }
 
 let bandBuilt = false;
@@ -139,18 +135,6 @@ function setFilterDrawer(open: boolean, restoreFocus = false): void {
   else if (restoreFocus) toggle.focus();
 }
 
-async function jumpToTopic(topicId: string): Promise<void> {
-  if (state.line !== 'people') getHooks().setLine('people', false);
-  await getHooks().setTopic(topicId);
-}
-
-function stepTopic(delta: number): void {
-  const topics = state.library.topics;
-  const index = topics.findIndex((topic) => topic.id === state.topicId);
-  const next = topics[index + delta];
-  if (next) void jumpToTopic(next.id);
-}
-
 export function wireWorkspace(
   onExport: (format: 'png' | 'svg') => void,
   onResetFilters: () => void,
@@ -178,9 +162,6 @@ export function wireWorkspace(
       draw();
     });
   });
-
-  document.getElementById('topic-prev')?.addEventListener('click', () => stepTopic(-1));
-  document.getElementById('topic-next')?.addEventListener('click', () => stepTopic(1));
 
   const track = document.getElementById('dynasty-track');
   track?.addEventListener('click', (event) => {
