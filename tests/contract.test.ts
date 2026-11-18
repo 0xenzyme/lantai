@@ -1,8 +1,14 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { validateCatalog, validateEventLine, validateTopic } from '../src/contract';
-import { CONTRACT_VERSION } from '../src/types';
+import {
+  validateCatalog,
+  validateEventLine,
+  validateTimelineEventIndex,
+  validateTimelinePeopleIndex,
+  validateTopic,
+} from '../src/contract';
+import { CONTRACT_VERSION, type Catalog, type TimelineEventIndex, type TimelinePeopleIndex } from '../src/types';
 import { catalog, event, eventLine, topic } from './fixtures';
 
 test('合法目录通过校验', () => {
@@ -100,6 +106,88 @@ test('专题 id 与目录不一致会被拒绝', () => {
 
 test('合法事件线通过校验', () => {
   assert.deepEqual(validateEventLine(eventLine(), 'military'), []);
+});
+
+test('目录 homeEvents 通过校验并拒绝坏记录', () => {
+  const good = catalog({ homeEvents: [event({ id: 'featured' })] });
+  assert.deepEqual(validateCatalog(good), []);
+  const badEvents = [
+    event({ id: 'featured', year: 0 }),
+    { ...event({ id: 'featured' }), importance: 9 },
+  ] as Catalog['homeEvents'];
+  const problems = validateCatalog(catalog({ homeEvents: badEvents }));
+  assert.ok(problems.some((item) => item.includes('homeEvents featured year 无效')));
+  assert.ok(problems.some((item) => item.includes('不能是公元 0 年')));
+  assert.ok(problems.some((item) => item.includes('homeEvents featured id 重复')));
+  assert.ok(problems.some((item) => item.includes('homeEvents featured importance 无效')));
+});
+
+test('年表人物瘦索引通过校验并拒绝缺检索字段的记录', () => {
+  const good: TimelinePeopleIndex = {
+    contractVersion: CONTRACT_VERSION,
+    people: [
+      {
+        id: 'li-bai',
+        name: '李白',
+        display: '李白',
+        aliases: ['太白'],
+        tags: ['诗'],
+        gender: 'male',
+        birth: 701,
+        death: 762,
+        birthAccuracy: 'exact',
+        deathAccuracy: 'exact',
+        topicId: 'tang',
+        topicTitle: '唐',
+      },
+    ],
+  };
+  assert.deepEqual(validateTimelinePeopleIndex(good), []);
+  const problems = validateTimelinePeopleIndex({
+    contractVersion: CONTRACT_VERSION,
+    people: [
+      { ...good.people[0], topicId: '' },
+      { ...good.people[0], id: 'li-bai', display: '' },
+      { ...good.people[0], id: 'bad-year', birth: 0, birthAccuracy: 'unknown' },
+      { ...good.people[0], id: 'bad-gender', gender: 'other' as never },
+    ],
+  });
+  assert.ok(problems.some((item) => item.includes('li-bai 缺少 topicId')));
+  assert.ok(problems.some((item) => item.includes('li-bai id 重复')));
+  assert.ok(problems.some((item) => item.includes('bad-year birth 无效')));
+  assert.ok(problems.some((item) => item.includes('bad-gender gender 无效')));
+});
+
+test('年表事件瘦索引通过校验并拒绝坏目录与年份', () => {
+  const good: TimelineEventIndex = {
+    contractVersion: CONTRACT_VERSION,
+    events: [
+      {
+        id: 'anshi-zhiluan',
+        name: '安史之乱',
+        display: '安史之乱',
+        year: 755,
+        endYear: 763,
+        type: 'rebellion',
+        importance: 3,
+        catalogs: ['military', 'history'],
+      },
+    ],
+  };
+  assert.deepEqual(validateTimelineEventIndex(good), []);
+  const problems = validateTimelineEventIndex({
+    contractVersion: CONTRACT_VERSION,
+    events: [
+      { ...good.events[0], catalogs: [] },
+      { ...good.events[0], id: 'year-zero', year: 0 },
+      { ...good.events[0], id: 'bad-catalog', catalogs: ['other' as never] },
+      { ...good.events[0], id: 'bad-end', endYear: 700 },
+    ],
+  });
+  assert.ok(problems.some((item) => item.includes('anshi-zhiluan catalogs 为空')));
+  assert.ok(problems.some((item) => item.includes('year-zero year 无效')));
+  assert.ok(problems.some((item) => item.includes('bad-catalog catalogs 无效')));
+  assert.ok(problems.some((item) => item.includes('bad-end endYear 无效')));
 });
 
 test('事件线校验覆盖公元 0 年、重复 id 与分段归属', () => {

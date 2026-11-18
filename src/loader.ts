@@ -7,22 +7,29 @@ import {
   validateEraDetail,
   validateEraIndex,
   validatePersonDetail,
+  validateTimelineEventIndex,
+  validateTimelinePeopleIndex,
   validateTopic,
 } from './contract';
-import type {
-  Catalog,
-  CatalogEntry,
-  CenturySegment,
-  CollectionDetail,
-  CollectionSummary,
-  EventDetail,
-  EraDetail,
-  EraSummary,
-  EventLineView,
-  EventRecord,
-  PersonDetail,
-  SearchRecord,
-  Topic,
+import {
+  CONTRACT_VERSION,
+  type Catalog,
+  type CatalogEntry,
+  type CenturySegment,
+  type CollectionDetail,
+  type CollectionSummary,
+  type EventDetail,
+  type EraDetail,
+  type EraSummary,
+  type EventLineView,
+  type EventRecord,
+  type PersonDetail,
+  type SearchRecord,
+  type TimelineEventIndex,
+  type TimelineEventRecord,
+  type TimelinePeopleIndex,
+  type TimelinePersonRecord,
+  type Topic,
 } from './types';
 
 export { validateEventLine } from './contract';
@@ -150,6 +157,60 @@ export async function loadSearchIndex(url: string): Promise<SearchRecord[]> {
     throw new Error(`加载人物索引失败：${res.status} ${res.statusText} — ${url}`);
   }
   return (await res.json()) as SearchRecord[];
+}
+
+function timelinePersonIsUsable(record: TimelinePersonRecord): boolean {
+  return validateTimelinePeopleIndex({ contractVersion: CONTRACT_VERSION, people: [record] }).length === 0;
+}
+
+function timelineEventIsUsable(record: TimelineEventRecord): boolean {
+  return validateTimelineEventIndex({ contractVersion: CONTRACT_VERSION, events: [record] }).length === 0;
+}
+
+/** 年表人物瘦索引：坏记录按 loader 既有口径过滤，单条坏数据不阻塞首屏。 */
+export async function loadTimelinePeopleIndex(url: string): Promise<TimelinePersonRecord[]> {
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`加载年表人物索引失败：${res.status} ${res.statusText} — ${url}`);
+  }
+  const payload = (await res.json()) as TimelinePeopleIndex;
+  if (payload?.contractVersion !== CONTRACT_VERSION || !Array.isArray(payload.people)) {
+    throw new Error(`年表人物索引结构无效：${url}`);
+  }
+  const problems = validateTimelinePeopleIndex(payload);
+  if (problems.length > 0) console.warn('[年表人物索引，已过滤坏记录]', problems.slice(0, 10));
+  const seen = new Set<string>();
+  const rows: TimelinePersonRecord[] = [];
+  for (const record of payload.people) {
+    if (seen.has(record?.id)) continue;
+    if (!record || !timelinePersonIsUsable(record)) continue;
+    seen.add(record.id);
+    rows.push(record);
+  }
+  return rows;
+}
+
+/** 年表事件瘦索引：坏记录过滤后仍保留其余事件，完整事件线稍后按需加载。 */
+export async function loadTimelineEventIndex(url: string): Promise<TimelineEventRecord[]> {
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`加载年表事件索引失败：${res.status} ${res.statusText} — ${url}`);
+  }
+  const payload = (await res.json()) as TimelineEventIndex;
+  if (payload?.contractVersion !== CONTRACT_VERSION || !Array.isArray(payload.events)) {
+    throw new Error(`年表事件索引结构无效：${url}`);
+  }
+  const problems = validateTimelineEventIndex(payload);
+  if (problems.length > 0) console.warn('[年表事件索引，已过滤坏记录]', problems.slice(0, 10));
+  const seen = new Set<string>();
+  const rows: TimelineEventRecord[] = [];
+  for (const record of payload.events) {
+    if (seen.has(record?.id)) continue;
+    if (!record || !timelineEventIsUsable(record)) continue;
+    seen.add(record.id);
+    rows.push(record);
+  }
+  return rows;
 }
 
 async function loadDetail<T>(url: string, label: string, validate: (value: T) => string[]): Promise<T> {

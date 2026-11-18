@@ -35,7 +35,8 @@ function routeEntityId(path: string): string {
 }
 
 function requiredData(path: string): SiteDataKey[] {
-  if (path === '/') return ['catalog', 'history', 'military', 'collections', 'eras'];
+  // 首页事件来自目录的 homeEvents，不再加载两条完整事件线。
+  if (path === '/') return ['catalog', 'collections', 'eras'];
   if (path === '/search') return ['catalog', 'people', 'history', 'military', 'collections', 'eras'];
   if (path === '/people') return ['catalog', 'people', 'collections'];
   if (path === '/events') return ['people', 'history', 'military', 'eras'];

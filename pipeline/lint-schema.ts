@@ -3,6 +3,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import type { Catalog, DynastyProfile, HomeEditorial, Topic } from '../src/types';
+import type { TimelineEventIndex, TimelinePeopleIndex } from '../src/types';
 import type { CandidateEntry, LintMessage, RegistryEvent, RegistryPerson } from './types';
 import type { RegistryCollection } from '../src/types';
 
@@ -44,6 +45,12 @@ const homeEditorialSchema = JSON.parse(
 ) as SchemaProp;
 const candidateSchema = JSON.parse(
   readFileSync(join(pipelineRoot, 'schema', 'candidate.schema.json'), 'utf8'),
+) as SchemaProp;
+const timelinePeopleSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'timeline-people.schema.json'), 'utf8'),
+) as SchemaProp;
+const timelineEventsSchema = JSON.parse(
+  readFileSync(join(pipelineRoot, 'schema', 'timeline-events.schema.json'), 'utf8'),
 ) as SchemaProp;
 
 function typeMatches(value: unknown, type: string): boolean {
@@ -169,4 +176,12 @@ export function lintDynastyProfileSchema(profile: DynastyProfile, path: string):
 
 export function lintHomeEditorialSchema(editorial: HomeEditorial, path: string): LintMessage[] {
   return lintSchemaValue(editorial, homeEditorialSchema, homeEditorialSchema, path);
+}
+
+export function lintTimelinePeopleSchema(index: TimelinePeopleIndex, path: string): LintMessage[] {
+  return lintSchemaValue(index, timelinePeopleSchema, timelinePeopleSchema, path);
+}
+
+export function lintTimelineEventSchema(index: TimelineEventIndex, path: string): LintMessage[] {
+  return lintSchemaValue(index, timelineEventsSchema, timelineEventsSchema, path);
 }

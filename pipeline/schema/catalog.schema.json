@@ -48,6 +48,25 @@
       }
     },
     "collectionCategories": { "type": "array", "items": { "$ref": "#/$defs/vocabTerm" } },
+    "dynasties": { "type": "array", "items": { "$ref": "#/$defs/dynastyTerm" } },
+    "homeEvents": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "display", "kind", "year", "yearAccuracy", "type", "importance"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "display": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["point", "span"] },
+          "year": { "type": "integer" },
+          "yearAccuracy": { "enum": ["exact", "approx", "disputed", "unknown"] },
+          "type": { "enum": ["military", "political", "rebellion", "institutional", "diplomatic", "cultural"] },
+          "importance": { "type": "integer" }
+        }
+      }
+    },
     "editorial": {
       "type": "object",
       "additionalProperties": false,
@@ -76,6 +95,17 @@
         "id": { "type": "string", "minLength": 1 },
         "name": { "type": "string", "minLength": 1 },
         "rank": { "type": "integer" }
+      }
+    },
+    "dynastyTerm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "from", "to"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "from": { "type": "integer" },
+        "to": { "type": "integer" }
       }
     }
   }

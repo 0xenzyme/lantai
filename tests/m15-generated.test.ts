@@ -7,8 +7,17 @@ import {
   validateCollectionIndex,
   validateEventDetail,
   validatePersonDetail,
+  validateTimelineEventIndex,
+  validateTimelinePeopleIndex,
 } from '../src/contract';
-import type { CollectionDetail, CollectionSummary, EventDetail, PersonDetail } from '../src/types';
+import type {
+  CollectionDetail,
+  CollectionSummary,
+  EventDetail,
+  PersonDetail,
+  TimelineEventIndex,
+  TimelinePeopleIndex,
+} from '../src/types';
 
 function read<T>(path: string): T {
   return JSON.parse(readFileSync(path, 'utf8')) as T;
@@ -34,6 +43,19 @@ test('所有生成详情与 Collection 产物通过运行时 contract', () => {
       [],
     );
   }
+});
+
+test('年表首包瘦索引通过运行时 contract 且不含 bio', () => {
+  const people = read<TimelinePeopleIndex>('public/data/timeline-people.json');
+  assert.deepEqual(validateTimelinePeopleIndex(people), []);
+  assert.ok(people.people.length > 0);
+  assert.equal(
+    people.people.some((record) => 'bio' in record),
+    false,
+  );
+  const events = read<TimelineEventIndex>('public/data/timeline-events.json');
+  assert.deepEqual(validateTimelineEventIndex(events), []);
+  assert.ok(events.events.length > 0);
 });
 
 test('人物事件反查去重且只来自显式 people 或 commanders', () => {

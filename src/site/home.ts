@@ -1,6 +1,6 @@
 import type { CollectionSummary, EraSummary, EventRecord, Person, PersonDetail } from '../types';
 import { bannerPicture } from './banner';
-import { collectionCategoryName, eventRecords, selectHomeEvents, type SiteLibrary } from './data';
+import { collectionCategoryName, type SiteLibrary } from './data';
 import { escapeHtml } from './escape';
 import { collectionFeature, eraSummary, eventDates, eventSummary, eventType, sectionHeading } from './components';
 import { icon } from './icons';
@@ -90,10 +90,7 @@ export function homePage(library: SiteLibrary, pathPeople: PersonDetail[] = []):
     return collection ? [collection] : [];
   });
   const featuredPeople = uniquePeople(recommendedCollections, pathPeople).slice(0, 3);
-  const allEvents = eventRecords(library);
-  const featuredEvents = editorial.events?.length
-    ? selectHomeEvents(allEvents, editorial.events, 3)
-    : [...allEvents].sort((left, right) => right.importance - left.importance || left.year - right.year).slice(0, 3);
+  const featuredEvents = library.catalog?.homeEvents ?? [];
   const failed = (id: string) => library.failures.includes(id);
   const heroPerson = featuredPeople[0];
   const heroCollection = recommendedCollections[0];
@@ -125,7 +122,7 @@ export function homePage(library: SiteLibrary, pathPeople: PersonDetail[] = []):
         ${sectionHeading('兰台精选', { id: 'home-featured-title', className: 'lt-home-section-heading', description: '从人物、纪事与断代出发，找到下一段阅读路径。' })}
         <div class="lt-home-featured-grid">
           <section class="lt-home-recommendations lt-home-featured-group" aria-labelledby="home-collections-title">${sectionHeading('精选群像', { id: 'home-collections-title', level: 3, className: 'lt-home-group-heading', href: '/collections', linkLabel: '查看全部' })}${failed('collections') ? homeState('精选群像暂时无法加载。', 'collections') : recommendedCollections.length ? `<div class="lt-home-collection-list">${recommendedCollections.map((collection) => homeCollectionCard(library, collection)).join('')}</div>` : homeState('当前没有编辑精选群像。')}</section>
-          <section class="lt-home-recommendations lt-home-featured-group" aria-labelledby="home-events-title">${sectionHeading('本期纪事', { id: 'home-events-title', level: 3, className: 'lt-home-group-heading', href: '/events', linkLabel: '浏览纪事' })}${failed('history') || failed('military') ? homeState('本期纪事暂时无法加载。', failed('history') ? 'history' : 'military') : featuredEvents.length ? `<ul class="lt-home-event-list">${featuredEvents.map(homeEventCard).join('')}</ul>` : homeState('纪事资料尚未载入。')}</section>
+          <section class="lt-home-recommendations lt-home-featured-group" aria-labelledby="home-events-title">${sectionHeading('本期纪事', { id: 'home-events-title', level: 3, className: 'lt-home-group-heading', href: '/events', linkLabel: '浏览纪事' })}${featuredEvents.length ? `<ul class="lt-home-event-list">${featuredEvents.map(homeEventCard).join('')}</ul>` : homeState('纪事资料尚未载入。')}</section>
           <section class="lt-home-recommendations lt-home-featured-group" aria-labelledby="home-eras-title">${sectionHeading('推荐朝代', { id: 'home-eras-title', level: 3, className: 'lt-home-group-heading', href: '/eras', linkLabel: '浏览断代' })}${failed('eras') ? homeState('推荐朝代暂时无法加载。', 'eras') : recommendedEras.length ? `<ul class="lt-era-recommendations lt-home-era-list">${recommendedEras.map(homeEraCard).join('')}</ul>` : homeState('朝代资料尚未整理。')}</section>
         </div>
       </section>

@@ -9,10 +9,16 @@ import {
   type EventLineView,
   type PersonDetail,
   type SourceRef,
+  type TimelineEventIndex,
+  type TimelinePeopleIndex,
   type Topic,
 } from './types';
 
 const detailAccuracies = new Set(['exact', 'approx', 'disputed', 'unknown']);
+const eventTypes = new Set(['military', 'political', 'rebellion', 'institutional', 'diplomatic', 'cultural']);
+const eventAccuracies = new Set(['exact', 'approx', 'disputed', 'unknown']);
+const genders = new Set(['female', 'male', 'unknown']);
+const eventCatalogs = new Set(['military', 'history']);
 
 function sourceProblems(sources: SourceRef[] | undefined, label: string): string[] {
   if (!Array.isArray(sources) || sources.length === 0) return [`${label} 缺少 sources`];
@@ -263,8 +269,6 @@ export function validateEventLine(line: EventLineView, expectedId?: string): str
   const eventRows = Array.isArray(line?.events) ? line.events : [];
   const segmentRows = Array.isArray(line?.segments) ? line.segments : [];
   const eventIds = new Set<string>();
-  const eventTypes = new Set(['military', 'political', 'rebellion', 'institutional', 'diplomatic', 'cultural']);
-  const accuracies = new Set(['exact', 'approx', 'disputed', 'unknown']);
   for (const event of eventRows) {
     const tag = `事件 ${event?.id ?? '(空)'}`;
     if (!event || typeof event !== 'object') {
@@ -279,14 +283,14 @@ export function validateEventLine(line: EventLineView, expectedId?: string): str
     if (event.kind !== 'point' && event.kind !== 'span') problems.push(`${tag} kind 无效`);
     if (!Number.isInteger(event.year) || event.year === 0) problems.push(`${tag} year 无效（不能是公元 0 年）`);
     if (eventTypes.has(event.type) === false) problems.push(`${tag} type 无效`);
-    if (!accuracies.has(event.yearAccuracy)) problems.push(`${tag} yearAccuracy 无效`);
+    if (!eventAccuracies.has(event.yearAccuracy)) problems.push(`${tag} yearAccuracy 无效`);
     if (
       event.endYear !== undefined &&
       (!Number.isInteger(event.endYear) || event.endYear === 0 || event.endYear < event.year)
     ) {
       problems.push(`${tag} endYear 无效`);
     }
-    if (event.endYear !== undefined && !accuracies.has(event.endYearAccuracy ?? ''))
+    if (event.endYear !== undefined && !eventAccuracies.has(event.endYearAccuracy ?? ''))
       problems.push(`${tag} endYearAccuracy 无效`);
     if (event.kind === 'span' && event.endYear === undefined) problems.push(`${tag} span 缺少 endYear`);
     if (event.kind === 'point' && event.endYear !== undefined) problems.push(`${tag} point 不应有 endYear`);
@@ -342,6 +346,104 @@ export function validateEventLine(line: EventLineView, expectedId?: string): str
     );
     if (segment && (event.year < segment.from || event.year > segment.to)) {
       problems.push(`事件 ${event.id} 的年份不在所属分段范围内`);
+    }
+  }
+  return problems;
+}
+
+/**
+ * 年表人物瘦索引。它只服务首屏检索、深链与生卒显示，
+ * 因此必须保留 id、姓名、别名、性别、生卒与专题归属，但不含 bio。
+ */
+export function validateTimelinePeopleIndex(index: TimelinePeopleIndex): string[] {
+  const problems: string[] = [];
+  if (!index || index.contractVersion !== CONTRACT_VERSION) {
+    problems.push(`年表人物索引 contractVersion 应为 ${CONTRACT_VERSION}`);
+  }
+  if (!Array.isArray(index?.people)) {
+    problems.push('年表人物索引 people 不是数组');
+    return problems;
+  }
+  const ids = new Set<string>();
+  for (const record of index.people) {
+    const tag = `年表人物 ${record?.id ?? '(空)'}`;
+    if (!record || typeof record !== 'object') {
+      problems.push(`${tag} 不是对象`);
+      continue;
+    }
+    if (typeof record.id !== 'string' || record.id.length === 0) problems.push(`${tag} 缺少 id`);
+    else if (ids.has(record.id)) problems.push(`${tag} id 重复`);
+    else ids.add(record.id);
+    if (typeof record.name !== 'string' || record.name.trim() === '') problems.push(`${tag} 缺少 name`);
+    if (typeof record.display !== 'string' || record.display.trim() === '') problems.push(`${tag} 缺少 display`);
+    if (typeof record.topicId !== 'string' || record.topicId.trim() === '') problems.push(`${tag} 缺少 topicId`);
+    if (typeof record.topicTitle !== 'string' || record.topicTitle.trim() === '')
+      problems.push(`${tag} 缺少 topicTitle`);
+    if (!detailAccuracies.has(record.birthAccuracy)) problems.push(`${tag} birthAccuracy 无效`);
+    if (!detailAccuracies.has(record.deathAccuracy)) problems.push(`${tag} deathAccuracy 无效`);
+    if (record.birth !== undefined && (!Number.isInteger(record.birth) || record.birth === 0))
+      problems.push(`${tag} birth 无效`);
+    if (record.death !== undefined && (!Number.isInteger(record.death) || record.death === 0))
+      problems.push(`${tag} death 无效`);
+    if (record.birth === undefined && record.birthAccuracy !== 'unknown')
+      problems.push(`${tag} 缺少生年，birthAccuracy 应为 unknown`);
+    if (record.death === undefined && record.deathAccuracy !== 'unknown')
+      problems.push(`${tag} 缺少卒年，deathAccuracy 应为 unknown`);
+    if (record.birth !== undefined && record.death !== undefined && record.birth > record.death)
+      problems.push(`${tag} 生年晚于卒年`);
+    if (record.gender !== undefined && !genders.has(record.gender)) problems.push(`${tag} gender 无效`);
+    if (record.aliases !== undefined) {
+      if (!Array.isArray(record.aliases) || record.aliases.some((alias) => typeof alias !== 'string' || !alias.trim()))
+        problems.push(`${tag} aliases 无效`);
+    }
+    if (record.tags !== undefined) {
+      if (
+        !Array.isArray(record.tags) ||
+        record.tags.some((tagValue) => typeof tagValue !== 'string' || !tagValue.trim())
+      )
+        problems.push(`${tag} tags 无效`);
+    }
+  }
+  return problems;
+}
+
+/** 年表事件瘦索引。完整事件线按需加载，索引只负责检索和目录归属。 */
+export function validateTimelineEventIndex(index: TimelineEventIndex): string[] {
+  const problems: string[] = [];
+  if (!index || index.contractVersion !== CONTRACT_VERSION) {
+    problems.push(`年表事件索引 contractVersion 应为 ${CONTRACT_VERSION}`);
+  }
+  if (!Array.isArray(index?.events)) {
+    problems.push('年表事件索引 events 不是数组');
+    return problems;
+  }
+  const ids = new Set<string>();
+  for (const record of index.events) {
+    const tag = `年表事件 ${record?.id ?? '(空)'}`;
+    if (!record || typeof record !== 'object') {
+      problems.push(`${tag} 不是对象`);
+      continue;
+    }
+    if (typeof record.id !== 'string' || record.id.length === 0) problems.push(`${tag} 缺少 id`);
+    else if (ids.has(record.id)) problems.push(`${tag} id 重复`);
+    else ids.add(record.id);
+    if (typeof record.name !== 'string' || record.name.trim() === '') problems.push(`${tag} 缺少 name`);
+    if (typeof record.display !== 'string' || record.display.trim() === '') problems.push(`${tag} 缺少 display`);
+    if (!Number.isInteger(record.year) || record.year === 0) problems.push(`${tag} year 无效（不能是公元 0 年）`);
+    if (record.endYear !== undefined) {
+      if (!Number.isInteger(record.endYear) || record.endYear === 0 || record.endYear < record.year)
+        problems.push(`${tag} endYear 无效`);
+    }
+    if (!eventTypes.has(record.type)) problems.push(`${tag} type 无效`);
+    if (![1, 2, 3].includes(record.importance)) problems.push(`${tag} importance 无效`);
+    if (!Array.isArray(record.catalogs) || record.catalogs.length === 0) {
+      problems.push(`${tag} catalogs 为空`);
+    } else if (record.catalogs.some((catalog) => !eventCatalogs.has(catalog))) {
+      problems.push(`${tag} catalogs 无效`);
+    }
+    if (record.aliases !== undefined) {
+      if (!Array.isArray(record.aliases) || record.aliases.some((alias) => typeof alias !== 'string' || !alias.trim()))
+        problems.push(`${tag} aliases 无效`);
     }
   }
   return problems;
@@ -562,6 +664,55 @@ export function validateCatalog(catalog: Catalog): string[] {
     if (item.file) {
       if (files.has(item.file)) problems.push(`专题 file 重复：${item.file}`);
       files.add(item.file);
+    }
+  }
+
+  if (catalog.dynasties !== undefined) {
+    if (!Array.isArray(catalog.dynasties)) {
+      problems.push('dynasties 不是数组');
+    } else {
+      const seenDynasties = new Set<string>();
+      for (const dynasty of catalog.dynasties) {
+        const tag = `朝代 ${dynasty?.id ?? '(空)'}`;
+        if (!dynasty || typeof dynasty !== 'object') {
+          problems.push(`${tag} 不是对象`);
+          continue;
+        }
+        if (typeof dynasty.id !== 'string' || dynasty.id.length === 0) problems.push(`${tag} 缺少 id`);
+        else if (seenDynasties.has(dynasty.id)) problems.push(`${tag} id 重复`);
+        else seenDynasties.add(dynasty.id);
+        if (typeof dynasty.name !== 'string' || dynasty.name.trim() === '') problems.push(`${tag} 缺少 name`);
+        if (!Number.isInteger(dynasty.from) || !Number.isInteger(dynasty.to) || dynasty.from >= dynasty.to)
+          problems.push(`${tag} 年份区间无效`);
+      }
+    }
+  }
+
+  const homeEvents = catalog.homeEvents;
+  if (homeEvents !== undefined) {
+    if (!Array.isArray(homeEvents) || homeEvents.length > 3) {
+      problems.push('homeEvents 应为最多 3 条的事件数组');
+    } else {
+      const seenHomeIds = new Set<string>();
+      for (const event of homeEvents) {
+        const tag = `homeEvents ${event?.id ?? '(空)'}`;
+        if (typeof event?.id !== 'string' || event.id.length === 0) problems.push(`${tag} 缺少 id`);
+        else if (seenHomeIds.has(event.id)) problems.push(`${tag} id 重复`);
+        else seenHomeIds.add(event.id);
+        if (typeof event?.name !== 'string' || event.name.trim() === '') problems.push(`${tag} 缺少 name`);
+        if (typeof event?.display !== 'string' || event.display.trim() === '') problems.push(`${tag} 缺少 display`);
+        if (event?.kind !== 'point' && event?.kind !== 'span') problems.push(`${tag} kind 无效`);
+        if (!Number.isInteger(event?.year) || event.year === 0) problems.push(`${tag} year 无效（不能是公元 0 年）`);
+        if (!eventTypes.has(event?.type)) problems.push(`${tag} type 无效`);
+        if (!eventAccuracies.has(event?.yearAccuracy)) problems.push(`${tag} yearAccuracy 无效`);
+        if (![1, 2, 3].includes(event?.importance)) problems.push(`${tag} importance 无效`);
+        if (
+          event?.endYear !== undefined &&
+          (!Number.isInteger(event.endYear) || event.endYear === 0 || event.endYear < event.year)
+        ) {
+          problems.push(`${tag} endYear 无效`);
+        }
+      }
     }
   }
   return problems;

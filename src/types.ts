@@ -424,12 +424,16 @@ export interface Catalog {
   themes: VocabTerm[];
   categories: CategoryTerm[];
   topics: CatalogEntry[];
+  /** 年表首屏用的朝代区间表。事件线未加载时，底部朝代带与专题区间仍需要它。 */
+  dynasties?: DynastyTerm[];
   /** 政权词表。事件卡要用它把 belligerents 的 id 翻成中文名。 */
   polities?: VocabTerm[];
   /** 三条内容线。人物按专题组织，军事与历史事件按时间组织。 */
   lines?: CatalogLine[];
   collectionCategories?: VocabTerm[];
   editorial?: HomeEditorial;
+  /** 首页纪事的完整事件记录（编译期解析 editorial.events，按展示顺序排列），首页因此无需下载两条事件线。 */
+  homeEvents?: EventRecord[];
 }
 
 export interface TopicFilters {
@@ -467,4 +471,50 @@ export interface SearchRecord {
   importance?: EventImportance;
   topicId: string;
   topicTitle: string;
+}
+
+/**
+ * 年表首包的人物瘦记录：只保留检索、深链、生卒显示和人物卡身份所需的字段。
+ * 不含 bio、title、categories、polity；专题正文仍由 loadTopic 按需加载。
+ */
+export interface TimelinePersonRecord {
+  id: string;
+  name: string;
+  display: string;
+  aliases?: string[];
+  tags?: string[];
+  gender?: Gender;
+  birth?: number;
+  death?: number;
+  birthAccuracy: Accuracy;
+  deathAccuracy: Accuracy;
+  topicId: string;
+  topicTitle: string;
+}
+
+/**
+ * 年表首包的事件瘦记录：只保留检索、排序和决定该加载哪条事件线所需的字段。
+ * 完整事件（简介、来源、人物、父子关系）仍在 military.json / history.json 中按需加载。
+ */
+export interface TimelineEventRecord {
+  id: string;
+  name: string;
+  display: string;
+  aliases?: string[];
+  year: number;
+  endYear?: number;
+  type: EventType;
+  importance: EventImportance;
+  /** 事件实际进入的目录，用于按需加载对应事件线。 */
+  catalogs: EventCatalog[];
+}
+
+export interface TimelinePeopleIndex {
+  contractVersion: number;
+  people: TimelinePersonRecord[];
+}
+
+export interface TimelineEventIndex {
+  contractVersion: number;
+  events: TimelineEventRecord[];
 }

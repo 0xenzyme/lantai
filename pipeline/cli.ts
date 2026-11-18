@@ -26,6 +26,7 @@ import { checkLegacyEventManifest } from './event-migration';
 import { EventMarkdownError } from './event-md';
 import { CollectionMarkdownError } from './collection-md';
 import { lintPipeline, summarizeRoster } from './lint';
+import { lintTimelineEventSchema, lintTimelinePeopleSchema } from './lint-schema';
 import { loadPipeline } from './load';
 import { PersonMarkdownError } from './person-md';
 import type { LintMessage, PipelineData } from './types';
@@ -79,13 +80,27 @@ function main(): void {
     }
     throw error;
   }
-  const { catalog, topics, events, lines } = compileAll(data);
+  const { catalog, topics, events, lines, timelinePeople, timelineEvents } = compileAll(data);
   const lints = lintPipeline(data, topics, catalog);
   const roster = summarizeRoster(data);
   console.log(
     `收录进度：简表 ${roster.brief} 人，详表 ${roster.full} 人，候选待核 ${roster.pending} 人，不收 ${roster.rejected} 人，事件 ${events.length} 条`,
   );
   const errors = lints.filter((item) => item.level === 'error').map((item) => `error ${item.path}: ${item.message}`);
+  errors.push(
+    ...lintTimelinePeopleSchema(
+      { contractVersion: catalog.contractVersion, people: timelinePeople },
+      'public/data/timeline-people.json',
+    )
+      .filter((item) => item.level === 'error')
+      .map((item) => `error ${item.path}: ${item.message}`),
+    ...lintTimelineEventSchema(
+      { contractVersion: catalog.contractVersion, events: timelineEvents },
+      'public/data/timeline-events.json',
+    )
+      .filter((item) => item.level === 'error')
+      .map((item) => `error ${item.path}: ${item.message}`),
+  );
   const warnings = lints
     .filter((item) => item.level === 'warning')
     .map((item) => `warning ${item.path}: ${item.message}`);
@@ -94,6 +109,8 @@ function main(): void {
   const files: Array<[string, unknown]> = [
     ['index.json', catalog],
     ['people.json', compilePeopleSearch(data, topics)],
+    ['timeline-people.json', { contractVersion: catalog.contractVersion, people: timelinePeople }],
+    ['timeline-events.json', { contractVersion: catalog.contractVersion, events: timelineEvents }],
     ['collections.json', compileCollectionSummaries(data)],
     ['eras.json', compileEraSummaries(data, topics, events)],
     ...lines.map((line) => [`${line.id}.json`, line] as [string, unknown]),

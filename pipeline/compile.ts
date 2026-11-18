@@ -13,10 +13,21 @@ import {
   type RegistryCollection,
   type CollectionDetail,
   type CollectionSummary,
+  type HomeEditorial,
   type SearchRecord,
+  type TimelineEventIndex,
+  type TimelineEventRecord,
+  type TimelinePeopleIndex,
+  type TimelinePersonRecord,
   type Topic,
 } from '../src/types';
-import { validateCatalog, validateEventLine, validateTopic } from '../src/contract';
+import {
+  validateCatalog,
+  validateEventLine,
+  validateTimelineEventIndex,
+  validateTimelinePeopleIndex,
+  validateTopic,
+} from '../src/contract';
 import { buildSegments } from './segments';
 import type { PersonOverlay, PipelineData, RegistryEvent, RegistryPerson } from './types';
 import { profileOf, mergeTopicRelations, resolveCollectionRelationKey } from './lint';
@@ -153,6 +164,7 @@ export function compileCatalog(data: PipelineData): Catalog {
     themes: data.themes,
     categories: data.categories,
     polities: data.polities,
+    dynasties: data.dynasties,
     topics: data.topics.map((draft) => ({
       id: draft.meta.id,
       title: draft.meta.title,
@@ -166,6 +178,34 @@ export function compileCatalog(data: PipelineData): Catalog {
     collectionCategories: data.collectionCategories,
     editorial: data.homeEditorial,
   };
+}
+
+/**
+ * 首页纪事记录：把 editorial 配置解析为完整事件并按展示顺序排列，
+ * 首页因此不需要下载两条完整事件线。语义与原运行时 selectHomeEvents 一致：
+ * 配置态按 year 升序、importance 降序展示；未配置时回退到 importance 最高的事件。
+ */
+export function compileHomeEvents(editorial: HomeEditorial | undefined, events: EventRecord[]): EventRecord[] {
+  const byId = new Map(events.map((event) => [event.id, event]));
+  const configured = editorial?.events ?? [];
+  if (configured.length > 0) {
+    const selected: EventRecord[] = [];
+    for (const id of configured) {
+      const event = byId.get(id);
+      if (event && !selected.some((item) => item.id === id)) selected.push(event);
+    }
+    return selected
+      .sort(
+        (left, right) =>
+          left.year - right.year || right.importance - left.importance || left.id.localeCompare(right.id),
+      )
+      .slice(0, 3);
+  }
+  return [...events]
+    .sort(
+      (left, right) => right.importance - left.importance || left.year - right.year || left.id.localeCompare(right.id),
+    )
+    .slice(0, 3);
 }
 
 const DYNASTY_GROUPS: Record<string, EraSummary['group']> = {
@@ -366,6 +406,73 @@ export function compilePeopleSearch(data: PipelineData, topics: Topic[]): Search
     if (registry.bio) row.bio = registry.bio;
   }
   return rows;
+}
+
+/**
+ * 年表首包人物瘦索引：保留检索、深链、生卒显示和人物卡身份字段，去掉 bio。
+ * 同一个人跨专题出现时只保留首次出现，与年表 personById 的既有口径一致。
+ */
+export function compileTimelinePeopleIndex(data: PipelineData, topics: Topic[]): TimelinePersonRecord[] {
+  const seen = new Set<string>();
+  const rows: TimelinePersonRecord[] = [];
+  for (const topic of topics) {
+    for (const person of topic.people) {
+      if (seen.has(person.id)) continue;
+      seen.add(person.id);
+      const registry = data.people.get(person.id);
+      const row: TimelinePersonRecord = {
+        id: person.id,
+        name: person.name,
+        display: person.display,
+        birthAccuracy: person.birthAccuracy,
+        deathAccuracy: person.deathAccuracy,
+        topicId: topic.meta.id,
+        topicTitle: topic.meta.title,
+      };
+      if (registry?.aliases?.length) row.aliases = registry.aliases;
+      if (person.tags && person.tags.length > 0) row.tags = person.tags;
+      if (person.gender) row.gender = person.gender;
+      if (person.birth !== undefined) row.birth = person.birth;
+      if (person.death !== undefined) row.death = person.death;
+      rows.push(row);
+    }
+  }
+  return rows;
+}
+
+/**
+ * 年表首包事件瘦索引：按实际目录成员资格记录 catalogs，供检索与按需加载。
+ * 完整事件记录仍只存在于 military.json / history.json。
+ */
+export function compileTimelineEventIndex(events: EventRecord[]): TimelineEventRecord[] {
+  const memberships = new Map<string, Array<'military' | 'history'>>();
+  for (const line of ['military', 'history'] as const) {
+    for (const event of eventsForLine(events, line)) {
+      const catalogs = memberships.get(event.id);
+      if (catalogs) catalogs.push(line);
+      else memberships.set(event.id, [line]);
+    }
+  }
+  const rows: TimelineEventRecord[] = [];
+  for (const event of events) {
+    const catalogs = memberships.get(event.id);
+    if (!catalogs || catalogs.length === 0) continue;
+    const row: TimelineEventRecord = {
+      id: event.id,
+      name: event.name,
+      display: event.display,
+      year: event.year,
+      type: event.type,
+      importance: event.importance,
+      catalogs,
+    };
+    if (event.endYear !== undefined) row.endYear = event.endYear;
+    if (event.aliases && event.aliases.length > 0) row.aliases = event.aliases;
+    rows.push(row);
+  }
+  return rows.sort(
+    (left, right) => left.year - right.year || right.importance - left.importance || left.id.localeCompare(right.id),
+  );
 }
 
 function personBase(registry: RegistryPerson): Omit<Person, 'lane'> {
@@ -597,21 +704,32 @@ export function compileAll(data: PipelineData): {
   topics: Topic[];
   events: EventRecord[];
   lines: EventLineView[];
+  timelinePeople: TimelinePersonRecord[];
+  timelineEvents: TimelineEventRecord[];
 } {
-  const catalog = compileCatalog(data);
-  const topics = data.topics.map((draft) => compileTopic(data, draft.meta.id));
   const events = compileEvents(data);
+  const catalog: Catalog = {
+    ...compileCatalog(data),
+    homeEvents: compileHomeEvents(data.homeEditorial, events),
+  };
+  const topics = data.topics.map((draft) => compileTopic(data, draft.meta.id));
   const lines = [compileLine(data, 'military'), compileLine(data, 'history')];
+  const timelinePeople = compileTimelinePeopleIndex(data, topics);
+  const timelineEvents = compileTimelineEventIndex(events);
+  const peopleIndex: TimelinePeopleIndex = { contractVersion: CONTRACT_VERSION, people: timelinePeople };
+  const eventIndex: TimelineEventIndex = { contractVersion: CONTRACT_VERSION, events: timelineEvents };
   const problems = [
     ...validateCatalog(catalog).map((item) => `目录：${item}`),
     ...topics.flatMap((topic) => validateTopic(topic, topic.meta.id).map((item) => `${topic.meta.id}：${item}`)),
     // 事件线产物是前端直接读取的独立 JSON，不能只靠运行时 loader 把关。
     ...lines.flatMap((line) => validateEventLine(line, line.id).map((item) => `${line.id}：${item}`)),
+    ...validateTimelinePeopleIndex(peopleIndex).map((item) => `timeline-people：${item}`),
+    ...validateTimelineEventIndex(eventIndex).map((item) => `timeline-events：${item}`),
   ];
   if (problems.length > 0) {
     throw new Error(`编译校验未通过（${problems.length} 项）：\n${problems.join('\n')}`);
   }
-  return { catalog, topics, events, lines };
+  return { catalog, topics, events, lines, timelinePeople, timelineEvents };
 }
 
 export function toPrettyJson(value: unknown): string {

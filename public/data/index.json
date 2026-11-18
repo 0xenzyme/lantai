@@ -902,6 +902,164 @@
       "name": "中国共产党"
     }
   ],
+  "dynasties": [
+    {
+      "id": "xia",
+      "name": "夏",
+      "from": -2070,
+      "to": -1600
+    },
+    {
+      "id": "shang",
+      "name": "商",
+      "from": -1600,
+      "to": -1046
+    },
+    {
+      "id": "western-zhou",
+      "name": "西周",
+      "from": -1046,
+      "to": -771
+    },
+    {
+      "id": "spring-autumn",
+      "name": "春秋",
+      "from": -770,
+      "to": -476
+    },
+    {
+      "id": "warring-states",
+      "name": "战国",
+      "from": -475,
+      "to": -221
+    },
+    {
+      "id": "qin",
+      "name": "秦",
+      "from": -221,
+      "to": -207
+    },
+    {
+      "id": "western-han",
+      "name": "西汉",
+      "from": -202,
+      "to": 8
+    },
+    {
+      "id": "xin",
+      "name": "新",
+      "from": 8,
+      "to": 23
+    },
+    {
+      "id": "eastern-han",
+      "name": "东汉",
+      "from": 25,
+      "to": 220
+    },
+    {
+      "id": "three-kingdoms",
+      "name": "三国",
+      "from": 220,
+      "to": 280
+    },
+    {
+      "id": "western-jin",
+      "name": "西晋",
+      "from": 265,
+      "to": 316
+    },
+    {
+      "id": "eastern-jin",
+      "name": "东晋",
+      "from": 317,
+      "to": 420
+    },
+    {
+      "id": "shiliuguo",
+      "name": "十六国",
+      "from": 304,
+      "to": 439
+    },
+    {
+      "id": "northern-southern",
+      "name": "南北朝",
+      "from": 420,
+      "to": 589
+    },
+    {
+      "id": "sui",
+      "name": "隋",
+      "from": 581,
+      "to": 618
+    },
+    {
+      "id": "tang",
+      "name": "唐",
+      "from": 618,
+      "to": 907
+    },
+    {
+      "id": "wudai",
+      "name": "五代十国",
+      "from": 907,
+      "to": 960
+    },
+    {
+      "id": "liao",
+      "name": "辽",
+      "from": 916,
+      "to": 1125
+    },
+    {
+      "id": "song",
+      "name": "宋",
+      "from": 960,
+      "to": 1279
+    },
+    {
+      "id": "xixia",
+      "name": "西夏",
+      "from": 1038,
+      "to": 1227
+    },
+    {
+      "id": "jin-chao",
+      "name": "金",
+      "from": 1115,
+      "to": 1234
+    },
+    {
+      "id": "mongol",
+      "name": "大蒙古国",
+      "from": 1206,
+      "to": 1271
+    },
+    {
+      "id": "yuan",
+      "name": "元",
+      "from": 1271,
+      "to": 1368
+    },
+    {
+      "id": "ming",
+      "name": "明",
+      "from": 1368,
+      "to": 1644
+    },
+    {
+      "id": "qing",
+      "name": "清",
+      "from": 1644,
+      "to": 1912
+    },
+    {
+      "id": "minguo",
+      "name": "民国",
+      "from": 1912,
+      "to": 1949
+    }
+  ],
   "topics": [
     {
       "id": "xizhou",
@@ -1196,5 +1354,167 @@
       "anshi-zhiluan",
       "yapian-zhanzheng"
     ]
-  }
+  },
+  "homeEvents": [
+    {
+      "id": "qin-yitong",
+      "name": "秦统一六国",
+      "display": "秦统一六国",
+      "kind": "point",
+      "type": "political",
+      "catalogs": [
+        "history"
+      ],
+      "importance": 3,
+      "year": -221,
+      "yearAccuracy": "exact",
+      "yearNote": "《史記·秦始皇本紀》二十六年（前221）：「齊王建與其相后勝發兵守其西界，不通秦。秦使將軍王賁從燕南攻齊，得齊王建」；《資治通鑑》卷7始皇二十六年（前221）：「王賁自燕南攻齊，卒入臨淄，民莫敢格者……齊王遂降，秦遷之共」。",
+      "polity": [
+        "qin"
+      ],
+      "people": [
+        "ying-zheng"
+      ],
+      "dynasties": [
+        "warring-states",
+        "qin"
+      ],
+      "desc": "前221年王贲自燕南下灭齐，齐王建不战而降，六国尽并于秦。秦王政称「皇帝」，分天下为三十六郡，海内为郡县、书同文、车同轨，战国时代终结。",
+      "sources": [
+        {
+          "work": "史记",
+          "part": "卷六·卷006）",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷七",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "anshi-zhiluan",
+      "name": "安史之乱",
+      "display": "安史之乱",
+      "kind": "span",
+      "type": "rebellion",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "importance": 3,
+      "year": 755,
+      "yearAccuracy": "exact",
+      "endYear": 763,
+      "endYearAccuracy": "exact",
+      "polity": [
+        "tang"
+      ],
+      "people": [
+        "an-lu-shan",
+        "shi-si-ming",
+        "li-long-ji",
+        "yang-yu-huan",
+        "ge-shu-han",
+        "guo-zi-yi",
+        "li-guang-bi",
+        "zhang-xun"
+      ],
+      "result": "唐廷平定叛乱但中央财政、兵制与藩镇关系长期改组",
+      "aliases": [
+        "安禄山史思明之乱",
+        "tang-tianbao"
+      ],
+      "dynasties": [
+        "tang"
+      ],
+      "desc": "755 年十一月，安禄山以讨杨国忠为名起兵范阳，率十五万众南下。次年六月哥舒翰败于灵宝，潼关失守，玄宗奔蜀，马嵬驿兵变后太子即位灵武，是为肃宗。757 年唐军借回纥援兵反攻，先后收复西京长安与东都洛阳，其间张巡死守睢阳。安禄山死后安庆绪、史思明相继统领叛军，与唐廷相持至 763 年史朝义败死，叛乱平定。战后朝廷以安史降将分帅河北，藩镇割据格局由此形成，唐朝由盛转衰。",
+      "sources": [
+        {
+          "work": "旧唐书",
+          "part": "肃宗本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "旧唐书",
+          "part": "郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "新唐书",
+          "part": "郭子仪传",
+          "kind": "classic"
+        },
+        {
+          "work": "资治通鉴",
+          "part": "卷二百一十七至二百二十三",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yapian-zhanzheng",
+      "name": "鸦片战争",
+      "display": "鸦片战争",
+      "kind": "span",
+      "type": "military",
+      "catalogs": [
+        "military",
+        "history"
+      ],
+      "scale": "war",
+      "importance": 3,
+      "year": 1840,
+      "yearAccuracy": "exact",
+      "yearNote": "道光二十年英人陷定海，二十二年白门条约。",
+      "endYear": 1842,
+      "endYearAccuracy": "exact",
+      "belligerents": [
+        "qing",
+        "yingjili"
+      ],
+      "commanders": [
+        {
+          "id": "lin-zexu",
+          "side": "qing"
+        }
+      ],
+      "people": [
+        "lin-zexu",
+        "dao-guang"
+      ],
+      "result": "英人陷定海，白门条约成",
+      "dynasties": [
+        "qing"
+      ],
+      "desc": "道光二十年，林则徐击毁载烟洋艇，英人陷定海县。二十一年英人寇广东虎门，副将陈连陛及其子举鹏死之。道光二十二年画诺于静海寺，是为白门条约。",
+      "sources": [
+        {
+          "work": "清史稿",
+          "part": "卷十八",
+          "note": "林則徐等奏擊毀載煙洋艇",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷十八",
+          "note": "英人陷定海縣",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷十九",
+          "note": "英人寇廣東虎門，副將陳連陛及其子舉鵬死之",
+          "kind": "classic"
+        },
+        {
+          "work": "清史稿",
+          "part": "卷一百五十四",
+          "note": "畫諾於靜海寺，是為白門條約",
+          "kind": "classic"
+        }
+      ]
+    }
+  ]
 }

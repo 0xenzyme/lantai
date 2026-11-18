@@ -2,7 +2,15 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 
 import { validateCollectionDetail, validateCollectionIndex } from '../src/contract';
-import { loadCollectionDetail, loadCollectionIndex, loadEventDetail, loadLine, loadPersonDetail } from '../src/loader';
+import {
+  loadCollectionDetail,
+  loadCollectionIndex,
+  loadEventDetail,
+  loadLine,
+  loadPersonDetail,
+  loadTimelineEventIndex,
+  loadTimelinePeopleIndex,
+} from '../src/loader';
 import { CONTRACT_VERSION } from '../src/types';
 import type { CollectionDetail, EventDetail, PersonDetail } from '../src/types';
 import { event, eventLine } from './fixtures';
@@ -117,6 +125,66 @@ test('运行时拒绝空可选字段、缺来源和无效精度', async () => {
     experiences: [{ id: 'bad', label: '经历', yearAccuracy: 'approx', note: '经历', sources: [] }],
   });
   await assert.rejects(loadPersonDetail('/people/old-person.json', 'old-person'), /yearNote|sources/);
+});
+
+test('年表瘦索引过滤坏记录并拒绝错误版本', async () => {
+  mockJson({
+    contractVersion: CONTRACT_VERSION,
+    people: [
+      {
+        id: 'li-bai',
+        name: '李白',
+        display: '李白',
+        birth: 701,
+        death: 762,
+        birthAccuracy: 'exact',
+        deathAccuracy: 'exact',
+        topicId: 'tang',
+        topicTitle: '唐',
+      },
+      { id: 'bad', name: '坏', display: '坏', topicId: 'tang', topicTitle: '唐', birthAccuracy: 'nope' },
+      {
+        id: 'li-bai',
+        name: '重复',
+        display: '重复',
+        birthAccuracy: 'unknown',
+        deathAccuracy: 'unknown',
+        topicId: 'tang',
+        topicTitle: '唐',
+      },
+    ],
+  });
+  const people = await loadTimelinePeopleIndex('/data/timeline-people.json');
+  assert.deepEqual(
+    people.map((record) => record.id),
+    ['li-bai'],
+  );
+
+  mockJson({
+    contractVersion: CONTRACT_VERSION,
+    events: [
+      {
+        id: 'anshi-zhiluan',
+        name: '安史之乱',
+        display: '安史之乱',
+        year: 755,
+        type: 'rebellion',
+        importance: 3,
+        catalogs: ['military', 'history'],
+      },
+      { id: 'zero', name: '零年', display: '零年', year: 0, type: 'military', importance: 1, catalogs: ['military'] },
+    ],
+  });
+  const events = await loadTimelineEventIndex('/data/timeline-events.json');
+  assert.deepEqual(
+    events.map((record) => record.id),
+    ['anshi-zhiluan'],
+  );
+
+  mockJson({ contractVersion: CONTRACT_VERSION + 1, people: [] });
+  await assert.rejects(loadTimelinePeopleIndex('/data/timeline-people.json'), /结构无效/);
+  mockJson({ contractVersion: CONTRACT_VERSION + 1, events: [] });
+  await assert.rejects(loadTimelineEventIndex('/data/timeline-events.json'), /结构无效/);
 });
 
 test('malformed Collection 运行时输入返回问题而不是抛 TypeError', () => {

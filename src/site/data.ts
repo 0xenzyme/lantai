@@ -95,15 +95,16 @@ export function loadSiteLibrary(keys: SiteDataKey[] = SITE_DATA_ALL): Promise<Si
           return fallback;
         }
       };
-      const catalog = keys.includes('catalog')
-        ? await (siteCatalog ??= loadCatalog('/data/index.json').catch((error) => {
-            siteCatalog = undefined;
-            throw error;
-          }))
-        : undefined;
-      const [people, history, military, collections, eras] = await Promise.all([
+      // 全部数据并行加载：catalog 放进同一轮 Promise.all，避免先等一次往返。
+      const [catalog, people, history, military, collections, eras] = await Promise.all([
+        keys.includes('catalog')
+          ? (siteCatalog ??= loadCatalog('/data/index.json').catch((error) => {
+              siteCatalog = undefined;
+              throw error;
+            }))
+          : undefined,
         keys.includes('people')
-          ? await (sitePeople ??= loadSearchIndex('/data/people.json').catch((error) => {
+          ? (sitePeople ??= loadSearchIndex('/data/people.json').catch((error) => {
               sitePeople = undefined;
               throw error;
             }))
@@ -191,18 +192,6 @@ export function sortEvents(events: readonly EventRecord[]): EventRecord[] {
   return [...events].sort(
     (left, right) => left.year - right.year || right.importance - left.importance || left.id.localeCompare(right.id),
   );
-}
-
-/** 根据首页编辑配置选取事件；坏 id 会被安全跳过，结果按时间顺序返回。 */
-export function selectHomeEvents(
-  events: readonly EventRecord[],
-  configuredIds: readonly string[],
-  limit = 3,
-): EventRecord[] {
-  if (limit <= 0) return [];
-  const byId = new Map(uniqueEvents(events).map((event) => [event.id, event]));
-  const selected = uniqueEvents(configuredIds.flatMap((id) => (byId.has(id) ? [byId.get(id)!] : [])));
-  return sortEvents(selected).slice(0, limit);
 }
 
 export function eventRecords(library: SiteLibrary): EventRecord[] {
