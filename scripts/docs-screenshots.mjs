@@ -52,10 +52,11 @@ mkdirSync(OUT, { recursive: true });
 const server = await startDevServer();
 const browser = await chromium.launch();
 try {
-  // 1. 桌面全景：含站点 hero 的完整年表页。
-  const desktop = await browser.newContext({ viewport: { width: 1600, height: 1000 }, deviceScaleFactor: 2 });
+  // 1. 代表性场景（README 首图）：「诗书与释道」章节 + 李白选中，
+  //    人物、战事、历史事件三条泳道齐全，详情卡打开。
+  const desktop = await browser.newContext({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 2 });
   const page = await desktop.newPage();
-  await page.goto(`${ORIGIN}/timeline?topic=tang&from=580&to=980`);
+  await page.goto(`${ORIGIN}/timeline?topic=tang&view=wen&person=li-bai&from=650&to=830`);
   await readyTimeline(page);
   await page.screenshot({ path: join(OUT, 'timeline-tang.png') });
   await page.close();
@@ -64,18 +65,18 @@ try {
   // 1b. 社交分享卡（og:image / twitter:image）：og 常用 1200x630，单倍缩放控制体积。
   const og = await browser.newContext({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 });
   const ogPage = await og.newPage();
-  await ogPage.goto(`${ORIGIN}/timeline?topic=tang&from=580&to=980`);
+  await ogPage.goto(`${ORIGIN}/timeline?topic=tang&view=wen&person=li-bai&from=650&to=830`);
   await readyTimeline(ogPage);
   await ogPage.screenshot({ path: join(ROOT, 'public', 'images', 'history-timeline.png') });
   await ogPage.close();
   await og.close();
 
-  // 2. 人物与同轴事件：深链李白 + 天宝章节，详情卡打开、选中行可见。
-  const detail = await browser.newContext({ viewport: { width: 1600, height: 1000 }, deviceScaleFactor: 2 });
+  // 2. 全景规模感：唐全览，数百人生平同轴。
+  const detail = await browser.newContext({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 2 });
   const detailPage = await detail.newPage();
-  await detailPage.goto(`${ORIGIN}/timeline?topic=tang&view=tianbao&person=li-bai&from=700&to=775`);
+  await detailPage.goto(`${ORIGIN}/timeline?topic=tang&from=580&to=980`);
   await readyTimeline(detailPage);
-  await detailPage.screenshot({ path: join(OUT, 'timeline-person-detail.png') });
+  await detailPage.screenshot({ path: join(OUT, 'timeline-overview.png') });
   await detailPage.close();
   await detail.close();
 
@@ -95,24 +96,24 @@ try {
 
   // 4. 交互演示视频：缩放 → 平移 → 选中人物，展示核心手势。
   const video = await browser.newContext({
-    viewport: { width: 1600, height: 1000 },
+    viewport: { width: 1920, height: 1080 },
     deviceScaleFactor: 1,
-    recordVideo: { dir: OUT, size: { width: 1600, height: 1000 } },
+    recordVideo: { dir: OUT, size: { width: 1920, height: 1080 } },
   });
   const videoPage = await video.newPage();
   await videoPage.goto(`${ORIGIN}/timeline?topic=tang&from=580&to=980`);
   await readyTimeline(videoPage);
-  await videoPage.mouse.move(800, 620);
+  await videoPage.mouse.move(980, 700);
   for (let step = 0; step < 8; step += 1) {
     await videoPage.mouse.wheel(0, -120);
     await videoPage.waitForTimeout(220);
   }
   await videoPage.waitForTimeout(500);
   await videoPage.mouse.down();
-  await videoPage.mouse.move(500, 620, { steps: 14 });
+  await videoPage.mouse.move(600, 700, { steps: 14 });
   await videoPage.mouse.up();
   await videoPage.waitForTimeout(400);
-  await videoPage.mouse.click(760, 640);
+  await videoPage.mouse.click(940, 720);
   await videoPage.waitForTimeout(1200);
   const videoFile = videoPage.video();
   await videoPage.close();
