@@ -170,9 +170,12 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
                 name="q"
                 type="search"
                 defaultValue={query}
-                placeholder="搜索人物、事件、群像 ⌘K"
+                placeholder="搜索人物、事件、群像"
                 required
               />
+              <kbd className="lt-global-search-kbd" aria-hidden="true">
+                ⌘K
+              </kbd>
               <input type="hidden" name="type" value="all" />
             </div>
           </form>

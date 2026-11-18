@@ -3702,6 +3702,24 @@ body.timeline-app .ribbon :focus-visible {
   background: #30241a;
 }
 
+/* Cmd/Ctrl+K 提示徽标：桌面显示，触屏设备无意义，小屏隐藏。 */
+.lt-global-search-kbd {
+  margin-right: 10px;
+  padding: 2px 7px;
+  border: 1px solid rgb(207 155 83 / 55%);
+  border-radius: 5px;
+  color: rgb(224 196 158 / 80%);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+@media (max-width: 860px) {
+  .lt-global-search-kbd {
+    display: none;
+  }
+}
+
 .lt-global-search-submit {
   display: grid;
   width: 40px;

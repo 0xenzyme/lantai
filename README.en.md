@@ -1,15 +1,36 @@
-# History Timeline
+# Lantai · Four Millennia of Chinese History on One Timeline
 
-An interactive, zoomable timeline of Chinese historical figures and events, covering 2070 BCE to 1949 CE.
+[![CI](https://github.com/0xenzyme/lantai/actions/workflows/ci.yml/badge.svg)](https://github.com/0xenzyme/lantai/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/Code-MIT-blue)](LICENSE)
+[![Content: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--SA%204.0-orange)](LICENSE-CONTENT.md)
 
-- Live site: <https://lantai.0xenzyme.dev>
-- 中文说明：[README.md](README.md)
+**3,506 historical figures · 708 events · 2070 BCE — 1949 CE**, aligned on a single zoomable, searchable timeline.
+Lifelines of people sit next to the wars and events of their time — drag Li Bai next to the An Lushan Rebellion and history becomes a web.
 
-## Features
+> **Try it live: <https://lantai.0xenzyme.dev>**
+> Pure static site, no login required. 中文说明见 [README.md](README.md)。
 
-- Three catalogs over one entity library: people, military events, and history events.
-- Dynasty topics with chapters and lanes.
-- Search, shareable deep links, PNG and SVG export, and two skins.
+![Tang dynasty overview](.github/assets/timeline-tang.png)
+
+## Highlights
+
+- **People and events on one axis**: select any person or event and a gold year line anchors everything alive at that moment into one vertical slice. Every viewport and selection is a shareable URL.
+- **Adaptive density**: at full span, hundreds of lifelines compress into dense bars; zoom into a narrow window and rows upgrade automatically to "name · dates · lifeline" cards — no manual toggle.
+- **Shareable, exportable**: deep links restore viewport, chapter and selection; export the current view as PNG or SVG.
+- **Mobile ready**: the primary path works at 375px width with 44px touch targets.
+- **One archival design**: a paper, wood and gold "chronicle archive" palette shared by the canvas and every page via a single token map.
+
+![Person detail with co-axial wars](.github/assets/timeline-person-detail.png)
+
+![Zoom, pan and selection demo](.github/assets/timeline-demo.webm)
+
+## Engineering notes
+
+- **Canvas timeline engine**: [d3-zoom](https://d3js.org/d3-zoom) gestures with a custom lane layout; 4,000+ entries stay smooth across four millennia.
+- **Canvas accessibility**: a DOM entity list stays in sync with the viewport, so keyboard and screen-reader users can walk through the real entries in view — where most canvas projects ship nothing.
+- **Lean first package**: the boot path loads a lean index under 200KB gzipped; full event lines load on demand with an automatic fallback.
+- **Light and static**: runtime dependencies are React plus d3-zoom/scale/selection. No server, no database, no external fonts or third-party scripts; `dist/` self-hosts on any static server (full CSP).
+- **Content as code**: one Markdown file per person, JSON Schema validation and lint gates at compile time, same CI as the code.
 
 ## Quick start
 
@@ -17,18 +38,33 @@ Requires Node.js 22 or newer.
 
 ```bash
 npm ci
-npm run dev            # http://localhost:5180
+npm run dev        # http://localhost:5180
+npm run build      # type checks + content validation + dist/
 npm test
-npm run format:check
-npm run build          # output in dist/
 ```
 
-## Structure
+## Contributing content
 
-`content/` holds the Markdown sources, `pipeline/` validates and compiles them, `public/data/` holds the generated JSON that is committed with the sources, `src/` is the canvas application, and `tests/` and `docs/` hold the tests and design notes.
+Adding a person is one Markdown file:
 
-Content rules are written in Chinese: `pipeline/PLAYBOOK.md` for people and `docs/事件线规则.md` for events.
+```bash
+npm run people:new -- <topic> <id>   # scaffolds content/<topic>/<id>.md
+# fill in identity, life dates and sources, then:
+npm run people:format && npm run content
+```
+
+Events and collections work the same way (`events:new` / `collections:new`). The content rules are written in Chinese:
+
+- [内容编写手册](pipeline/PLAYBOOK.md) — admission, date accuracy (`exact` / `approx` / `disputed` / `unknown`), sources, polity attribution
+- [事件线规则](docs/事件线规则.md) — event entities and citation rules
+- [CONTRIBUTING.md](CONTRIBUTING.md) — code and docs workflow
+
+Report errors through Issues with checkable sources. Bulk content production runs on an auditable two-session agent pipeline (drafting and independent review stay separate); see [内容工作流](docs/内容工作流.md).
+
+This is an open-collaboration visualization and does not replace professional historical research or primary sources.
 
 ## License
 
-Code is MIT licensed. Original historical copy and structured content are CC BY-SA 4.0. See [LICENSE](LICENSE) and [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
+- Code: [MIT](LICENSE)
+- Original historical copy and structured content: [CC BY-SA 4.0](LICENSE-CONTENT.md)
+- Classical texts and third-party material keep their original terms
