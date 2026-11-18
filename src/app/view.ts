@@ -6,9 +6,9 @@
 import { renderEventCard, renderPersonCard, type CardContext } from './cards';
 import { mountPortraits } from '../site/portrait';
 import { BAR_H, ROW_GAP, buildEventLayout, topicPeopleForView } from './layout';
-import { SKINS, TYPE_NAMES, invalidatePalette, paletteFor, skinColor, type SkinId } from './skins';
+import { TYPE_NAMES } from './skins';
 import { esc, fmtYear } from './util';
-import { draw, resetNebula, skinPalette, visibleEvents } from './render';
+import { draw, skinPalette, visibleEvents } from './render';
 import { dom, getHooks, state, STORAGE, type Selection } from './runtime';
 
 // ---------- 详情卡 ----------
@@ -16,7 +16,6 @@ import { dom, getHooks, state, STORAGE, type Selection } from './runtime';
 function cardContext(): CardContext {
   return {
     library: state.library,
-    skin: state.skin,
     palette: skinPalette(),
     topic: state.topic,
   };
@@ -156,7 +155,7 @@ export function buildLanePanel(): void {
       (lane) => `
     <label class="lane-row">
       <input type="checkbox" data-lane="${esc(lane.id)}" ${state.hiddenLanes.has(laneKey(lane.id)) ? '' : 'checked'} />
-      <span class="lane-swatch" style="background:${esc(skinColor(state.skin, lane.color))}"></span>
+      <span class="lane-swatch" style="background:${esc(lane.color)}"></span>
       <span>${esc(lane.name)}</span>
       <span class="lane-count">${lane.count}</span>
     </label>
@@ -205,22 +204,7 @@ export function setAllLanes(show: boolean): void {
   draw();
 }
 
-// ---------- 皮肤 ----------
-
-export function applySkin(skin: SkinId, redraw = true): void {
-  state.skin = skin;
-  localStorage.setItem(STORAGE.skin, skin);
-  document.body.classList.toggle('skin-voyage', skin === 'voyage');
-  document.body.classList.toggle('skin-deepspace', skin === 'deepspace');
-  // 画布配色读的是 body 上的变量，class 换完才能取，取不到就当场报错。
-  invalidatePalette();
-  paletteFor(skin);
-  resetNebula();
-  if (redraw) {
-    buildLanePanel();
-    draw();
-  }
-}
+// ---------- 事件条等视图状态 ----------
 
 export function syncStripToggle(): void {
   const inPeople = state.line === 'people';
@@ -229,10 +213,6 @@ export function syncStripToggle(): void {
   dom.stripToggle.setAttribute('aria-expanded', String(inPeople && state.stripOpen));
   document.body.classList.toggle('strip-open', inPeople && state.stripOpen);
   getHooks().resizeChart();
-}
-
-export function canUseInertia(): boolean {
-  return SKINS[state.skin].inertia && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
 // ---------- 搜索 ----------

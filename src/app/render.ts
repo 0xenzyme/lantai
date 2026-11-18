@@ -19,9 +19,9 @@ import {
   type LaneLayout,
   type LayoutItem,
 } from './layout';
-import { EVENT_COLORS, SKINS, paletteFor, skinColor, type Palette } from './skins';
+import { EVENT_COLORS, paletteFor, ribbonBand, type Palette } from './skins';
 import { FONT_SANS, FONT_SERIF, clamp, fmtYear, personFrom, personTo, pickStep, roundRect } from './util';
-import { contentH, ctx, dom, getHooks, H, layouts, loadingLine, loadingTopic, rctx, sctx, state, W } from './runtime';
+import { contentH, ctx, dom, getHooks, H, layouts, loadingLine, loadingTopic, rctx, state, W } from './runtime';
 import { syncAccessibleEntities } from './accessibility';
 
 // ---------- 坐标 ----------
@@ -116,7 +116,7 @@ export function personDim(person: Person): boolean {
 // ---------- 绘制 ----------
 
 export function skinPalette(): Palette {
-  return paletteFor(state.skin);
+  return paletteFor();
 }
 
 /**
@@ -146,17 +146,14 @@ export function draw(): void {
   if (dom.ribbon.clientWidth > 0 && dom.ribbon.clientHeight > 0) {
     renderRibbon(rctx, 0, 0, dom.ribbon.clientWidth, dom.ribbon.clientHeight);
   }
-  updateNebula();
   getHooks().syncChrome?.();
 }
 
 export function renderScene(c: CanvasRenderingContext2D, width: number, height: number): void {
   const C = skinPalette();
   c.clearRect(0, 0, width, height);
-  if (state.skin === 'voyage') {
-    c.fillStyle = C.paper;
-    c.fillRect(0, 0, width, height);
-  }
+  c.fillStyle = C.paper;
+  c.fillRect(0, 0, width, height);
   if (layouts.length === 0) {
     c.fillStyle = C.muted;
     c.font = `13px ${FONT_SANS}`;
@@ -232,7 +229,6 @@ function drawGridlines(c: CanvasRenderingContext2D): void {
 }
 
 function drawLanes(c: CanvasRenderingContext2D, width: number, height: number): void {
-  const skin = SKINS[state.skin];
   const C = skinPalette();
   c.save();
   c.beginPath();
@@ -240,27 +236,6 @@ function drawLanes(c: CanvasRenderingContext2D, width: number, height: number): 
   c.clip();
   c.translate(0, hdrH() - state.scrollY);
 
-  if (state.line === 'people' && state.skin !== 'voyage') {
-    for (const event of state.library.events) {
-      if (event.kind !== 'span' || event.endYear === undefined) continue;
-      const x0 = xOf(event.year);
-      const x1 = xOf(event.endYear);
-      const color = skinColor(state.skin, EVENT_COLORS[event.type]);
-      if (skin.glow) {
-        const gradient = c.createLinearGradient(0, 0, 0, contentH);
-        gradient.addColorStop(0, 'rgba(0,0,0,0)');
-        gradient.addColorStop(0.25, color);
-        gradient.addColorStop(0.75, color);
-        gradient.addColorStop(1, 'rgba(0,0,0,0)');
-        c.fillStyle = gradient;
-      } else {
-        c.fillStyle = color;
-      }
-      c.globalAlpha = chipMatchEvent(event) ? C.eventAlpha : C.eventAlphaDim;
-      c.fillRect(x0, 0, Math.max(2, x1 - x0), contentH);
-    }
-    c.globalAlpha = 1;
-  }
   if (state.line === 'people' && state.selected?.kind === 'person') drawRelations(c);
 
   for (const lane of layouts) {
@@ -412,7 +387,7 @@ function drawEventBar(
 ): void {
   const C = skinPalette();
   const event = item.event;
-  const color = skinColor(state.skin, EVENT_COLORS[event.type]);
+  const color = EVENT_COLORS[event.type];
   const selected = state.selected?.kind === 'event' && state.selected.id === event.id;
   const dim = !chipMatchEvent(event);
   c.globalAlpha = dim ? 0.15 : 1;
@@ -437,10 +412,6 @@ function drawEventBar(
       c.fillStyle = selected ? '#fbdd8f' : '#f3dfb7';
     } else {
       c.fillStyle = color;
-    }
-    if (SKINS[state.skin].glow && !dim) {
-      c.shadowColor = color;
-      c.shadowBlur = 7;
     }
     if (selected && isHistory) {
       c.shadowColor = '#f5c85c';
@@ -487,10 +458,6 @@ function drawEventBar(
     if (selected) {
       c.strokeStyle = C.accent;
       c.lineWidth = 2;
-      if (SKINS[state.skin].glow) {
-        c.shadowColor = C.accent;
-        c.shadowBlur = 12;
-      }
       c.beginPath();
       roundRect(c, x0 - 2.5, yTop - 2.5, width + 5, barHeight + 5, expanded ? 8 : 5);
       c.stroke();
@@ -500,10 +467,6 @@ function drawEventBar(
     const x = xOf(event.year);
     const radius = markerRadius(event);
     c.fillStyle = color;
-    if (SKINS[state.skin].glow && !dim) {
-      c.shadowColor = color;
-      c.shadowBlur = 8;
-    }
     drawEventNode(c, event, x, yTop + BAR_H / 2, radius, color);
     c.shadowBlur = 0;
     drawLabel(
@@ -518,10 +481,6 @@ function drawEventBar(
     if (selected) {
       c.strokeStyle = C.accent;
       c.lineWidth = 2;
-      if (SKINS[state.skin].glow) {
-        c.shadowColor = C.accent;
-        c.shadowBlur = 12;
-      }
       c.beginPath();
       c.arc(x, yTop + BAR_H / 2, radius + 3.5, 0, Math.PI * 2);
       c.stroke();
@@ -551,7 +510,7 @@ function drawPersonBar(
   const width = Math.max(3, x1 - x0);
   const selected = state.selected?.kind === 'person' && state.selected.id === person.id;
   const dim = personDim(person);
-  const color = item.color ? skinColor(state.skin, item.color) : laneColor(lane);
+  const color = item.color ?? laneColor(lane);
 
   c.globalAlpha = dim ? 0.15 : 1;
   if (!hasBirth || !hasDeath) {
@@ -568,10 +527,6 @@ function drawPersonBar(
     c.fillStyle = gradient;
   } else {
     c.fillStyle = color;
-  }
-  if (SKINS[state.skin].glow && !dim) {
-    c.shadowColor = color;
-    c.shadowBlur = 7;
   }
   c.beginPath();
   roundRect(c, x0, yTop, width, BAR_H, 3);
@@ -602,10 +557,6 @@ function drawPersonBar(
   if (selected) {
     c.strokeStyle = C.accent;
     c.lineWidth = 2;
-    if (SKINS[state.skin].glow) {
-      c.shadowColor = C.accent;
-      c.shadowBlur = 12;
-    }
     c.beginPath();
     roundRect(c, x0 - 2.5, yTop - 2.5, width + 5, BAR_H + 5, 5);
     c.stroke();
@@ -623,7 +574,7 @@ function drawPersonLifeRow(
 ): void {
   const person = item.person;
   const C = skinPalette();
-  const color = item.color ? skinColor(state.skin, item.color) : laneColor(lane);
+  const color = item.color ?? laneColor(lane);
   const x0 = Math.max(plotPadding(), xOf(personFrom(person.birth, person.death)));
   const x1 = Math.min(W - PAD_X, Math.max(x0 + 3, xOf(personTo(person.birth, person.death))));
   const midY = yTop + BAR_H / 2;
@@ -776,7 +727,7 @@ function drawPersonEventMarkers(c: CanvasRenderingContext2D, person: Person, mid
   for (const event of linked) {
     const x = xOf(event.year);
     if (x < gutter + 36 || x > W - PAD_X - 24 || x - previousX < 84 || drawn >= 3) continue;
-    const color = skinColor(state.skin, EVENT_COLORS[event.type]);
+    const color = EVENT_COLORS[event.type];
     c.fillStyle = skinPalette().paper;
     c.beginPath();
     c.arc(x, midY, 4, 0, Math.PI * 2);
@@ -823,7 +774,7 @@ function drawLabel(
 }
 
 function laneColor(lane: LaneLayout): string {
-  return skinColor(state.skin, lane.color);
+  return lane.color;
 }
 
 function drawRelations(c: CanvasRenderingContext2D): void {
@@ -839,15 +790,11 @@ function drawRelations(c: CanvasRenderingContext2D): void {
     const other = barCenter(otherId);
     if (!other) continue;
     const type = topic.relationTypes.find((item) => item.id === relation.type);
-    const color = type?.color ? skinColor(state.skin, type.color) : C.muted;
+    const color = type?.color ?? C.muted;
     const midX = (mine.x + other.x) / 2;
     const midY = (mine.y + other.y) / 2 - 24;
     c.strokeStyle = color;
     c.lineWidth = 1.5;
-    if (SKINS[state.skin].glow) {
-      c.shadowColor = color;
-      c.shadowBlur = 6;
-    }
     if (type?.dash) c.setLineDash(type.dash.split(' ').map(Number));
     c.beginPath();
     c.moveTo(mine.x, mine.y);
@@ -881,44 +828,20 @@ function barCenter(id: string): { x: number; y: number } | null {
 // ---------- 吸顶头部 ----------
 
 function drawHeader(c: CanvasRenderingContext2D, width: number): void {
-  const skin = SKINS[state.skin];
   const C = skinPalette();
   c.save();
   c.fillStyle = C.headerBg;
   c.fillRect(0, 0, width, hdrH());
 
-  const dynasties = state.library.dynasties;
-  const paintOrder = [...dynasties].sort((a, b) => b.to - b.from - (a.to - a.from));
   c.textAlign = 'center';
   c.textBaseline = 'alphabetic';
-  const hues = dynastyHues(dynasties);
-  // 02 基准：巡航皮肤的刻度尺是深木底 + 米白刻度，不再铺淡彩朝代色带；
-  // 朝代定位由中央场景头与底部朝代导航条承担。深空皮肤保留原色带。
-  const paintBands = state.skin !== 'voyage';
-  for (const dynasty of paintBands ? paintOrder : []) {
-    const x0 = Math.max(0, xOf(dynasty.from));
-    const x1 = Math.min(width, xOf(dynasty.to));
-    const bandW = x1 - x0;
-    if (x1 <= 0 || x0 >= width || bandW < 2) continue;
-    c.fillStyle = skin.footerBand(hues.get(dynasty.id) ?? 0);
-    c.fillRect(x0, 0, bandW, AXIS_H);
-    if (coveredAt((dynasty.from + dynasty.to) / 2, dynasty, dynasties)) continue;
-    c.fillStyle = C.ribbonText;
-    if (bandW > 110) {
-      c.font = `bold 12px ${FONT_SANS}`;
-      c.fillText(`${dynasty.name} ${fmtYear(dynasty.from)}—${fmtYear(dynasty.to)}`, (x0 + x1) / 2, 15);
-    } else if (bandW > 40) {
-      c.font = `bold 12px ${FONT_SANS}`;
-      c.fillText(dynasty.name, (x0 + x1) / 2, 15);
-    }
-  }
 
   const [d0, d1] = state.domain;
   c.lineWidth = 1;
 
   const step = axisStep(c);
-  c.fillStyle = state.skin === 'voyage' ? C.axisText : C.ink2;
-  c.strokeStyle = state.skin === 'voyage' ? C.axisText : C.ink2;
+  c.fillStyle = C.axisText;
+  c.strokeStyle = C.axisText;
   c.font = `12px ${FONT_SANS}`;
   c.textAlign = 'center';
   c.beginPath();
@@ -981,7 +904,7 @@ function drawHeader(c: CanvasRenderingContext2D, width: number): void {
 
   if (largeLayoutActive()) {
     const dividerX = plotPadding() - 12;
-    c.fillStyle = state.skin === 'voyage' ? C.axisText : C.ink2;
+    c.fillStyle = C.axisText;
     c.font = `600 14px ${FONT_SERIF}`;
     c.textAlign = 'left';
     c.fillText('年份', PAD_X, 30);
@@ -1014,7 +937,6 @@ function dynastyHues(dynasties: DynastyTerm[]): Map<string, number> {
 
 /** 事件条带：像素距离小于 32 时聚合成计数标记。 */
 function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
-  const skin = SKINS[state.skin];
   const C = skinPalette();
   const [d0, d1] = state.domain;
   const events = state.library.events
@@ -1041,12 +963,8 @@ function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
     if (cluster.length === 1) {
       const event = cluster[0];
       const x = xOf(event.year);
-      const color = skinColor(state.skin, EVENT_COLORS[event.type]);
+      const color = EVENT_COLORS[event.type];
       const selected = state.selected?.kind === 'event' && state.selected.id === event.id;
-      if (skin.glow) {
-        c.shadowColor = color;
-        c.shadowBlur = 8;
-      }
       c.fillStyle = color;
       if (event.kind === 'span' && event.endYear !== undefined) {
         const x1 = xOf(event.endYear);
@@ -1074,10 +992,6 @@ function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
       if (selected) {
         c.strokeStyle = C.accent;
         c.lineWidth = 2;
-        if (skin.glow) {
-          c.shadowColor = C.accent;
-          c.shadowBlur = 10;
-        }
         c.beginPath();
         c.arc(x, stripTop + STRIP_H - 16, 9, 0, Math.PI * 2);
         c.stroke();
@@ -1086,12 +1000,8 @@ function drawEventStrip(c: CanvasRenderingContext2D, width: number): void {
     } else {
       const years = cluster.map((event) => event.year);
       const center = xOf(Math.round((Math.min(...years) + Math.max(...years)) / 2));
-      const color = skinColor(state.skin, EVENT_COLORS[cluster[0].type]);
+      const color = EVENT_COLORS[cluster[0].type];
       c.fillStyle = color;
-      if (skin.glow) {
-        c.shadowColor = color;
-        c.shadowBlur = 8;
-      }
       c.beginPath();
       roundRect(c, center - 12, stripTop + STRIP_H - 15, 24, 14, 4);
       c.fill();
@@ -1131,7 +1041,6 @@ function densityBuckets(): number[] {
 }
 
 export function renderRibbon(c: CanvasRenderingContext2D, x0: number, y0: number, width: number, height: number): void {
-  const skin = SKINS[state.skin];
   const C = skinPalette();
   c.save();
   c.translate(x0, y0);
@@ -1171,7 +1080,7 @@ export function renderRibbon(c: CanvasRenderingContext2D, x0: number, y0: number
     const bx1 = rx(dynasty.to);
     const bandW = bx1 - bx0;
     if (bandW < 0.5) continue;
-    c.fillStyle = skin.ribbonBand(hues.get(dynasty.id) ?? 0);
+    c.fillStyle = ribbonBand(hues.get(dynasty.id) ?? 0);
     c.fillRect(bx0, bandY, Math.max(1, bandW - 1), bandH);
     if (bandW > 26 && !coveredAt((dynasty.from + dynasty.to) / 2, dynasty, dynasties)) {
       c.fillStyle = C.ribbonText;
@@ -1186,10 +1095,6 @@ export function renderRibbon(c: CanvasRenderingContext2D, x0: number, y0: number
   c.fillRect(vx0, 2, vx1 - vx0, height - 4);
   c.strokeStyle = C.accent;
   c.lineWidth = 1.5;
-  if (skin.glow) {
-    c.shadowColor = C.accent;
-    c.shadowBlur = 8;
-  }
   c.strokeRect(vx0, 2, Math.max(4, vx1 - vx0), height - 4);
   c.shadowBlur = 0;
   c.fillStyle = C.accent;
@@ -1203,60 +1108,4 @@ export function ribbonXAt(clientX: number): number {
   const [g0, g1] = fullSpan();
   const ratio = clamp((clientX - rect.left) / Math.max(1, rect.width), 0, 1);
   return g0 + ratio * (g1 - g0);
-}
-
-// ---------- 星空与星云（仅深空） ----------
-
-const STARS = Array.from({ length: 240 }, () => ({
-  x: Math.random(),
-  y: Math.random(),
-  r: Math.random() * 1.3 + 0.3,
-  depth: 0.25 + Math.random() * 0.75,
-  phase: Math.random() * Math.PI * 2,
-}));
-
-export function drawStars(time: number): void {
-  if (!SKINS[state.skin].stars) return;
-  const SW = dom.stars.clientWidth;
-  const SH = dom.stars.clientHeight;
-  if (SW === 0 || SH === 0) return;
-  sctx.clearRect(0, 0, SW, SH);
-  const full = fullSpan();
-  const center = (state.domain[0] + state.domain[1]) / 2;
-  const offset = (center - (full[0] + full[1]) / 2) * 0.35;
-  const zoomK = 200 / Math.max(1, state.domain[1] - state.domain[0]);
-  sctx.fillStyle = '#ffffff';
-  for (const star of STARS) {
-    const sx = (((star.x * SW + offset * star.depth) % SW) + SW) % SW;
-    const twinkle = 0.55 + 0.45 * Math.sin(time / 900 + star.phase);
-    sctx.globalAlpha = 0.25 * twinkle + 0.12;
-    sctx.beginPath();
-    sctx.arc(sx, star.y * SH, star.r * (0.8 + zoomK * 0.2 * star.depth), 0, Math.PI * 2);
-    sctx.fill();
-  }
-  sctx.globalAlpha = 1;
-}
-
-let nebulaIndex = -1;
-
-function updateNebula(): void {
-  if (!SKINS[state.skin].stars) {
-    nebulaIndex = -1;
-    return;
-  }
-  const center = (state.domain[0] + state.domain[1]) / 2;
-  const dynasties = state.library.dynasties;
-  let index = dynasties.findIndex((dynasty) => center >= dynasty.from && center <= dynasty.to);
-  if (index === -1) index = 0;
-  if (index === nebulaIndex) return;
-  nebulaIndex = index;
-  const hue = (index * 41) % 360;
-  dom.nebula.style.background =
-    `radial-gradient(120% 90% at 50% 115%, hsla(${hue}, 58%, 26%, 0.6), transparent 62%),` +
-    `radial-gradient(80% 60% at 18% -10%, hsla(${(hue + 60) % 360}, 50%, 18%, 0.5), transparent 60%)`;
-}
-
-/** 换皮肤后强制造一次星云渐变；背景色随后由 updateNebula 按当前视窗重算。 */
-export function resetNebula(): void {
-  nebulaIndex = -1;
 }

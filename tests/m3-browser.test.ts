@@ -231,29 +231,6 @@ test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归'
   assert.match(page.url(), /event=changban-zhizhan/);
   assert.match(page.url(), /line=military/);
 
-  const deepSpace = await browser.newPage({ viewport: { width: 1440, height: 900 } });
-  await deepSpace.goto(`${origin}/timeline?topic=tang&view=tianbao&person=li-bai&from=710&to=770`);
-  await deepSpace.evaluate(() => localStorage.setItem('ht-skin', 'deepspace'));
-  await deepSpace.reload();
-  await ready(deepSpace, '.timeline-app #card.show');
-  const deepSpaceTo = new URL(deepSpace.url()).searchParams.get('to');
-  await deepSpace.mouse.move(700, 500);
-  await deepSpace.mouse.wheel(0, -100);
-  await deepSpace.waitForFunction((before) => new URLSearchParams(location.search).get('to') !== before, deepSpaceTo);
-  await deepSpace.goto(`${origin}/timeline?topic=tang&view=tianbao&person=li-bai&from=650&to=830`);
-  await ready(deepSpace, '.timeline-app #card.show');
-  await deepSpace.mouse.move(650, 500);
-  await deepSpace.mouse.down();
-  await deepSpace.mouse.move(690, 500, { steps: 3 });
-  await deepSpace.mouse.up();
-  await deepSpace.waitForTimeout(1400);
-  const inertialUrl = deepSpace.url();
-  await deepSpace.mouse.move(700, 500);
-  await deepSpace.mouse.wheel(0, 0);
-  await deepSpace.waitForTimeout(100);
-  assert.equal(deepSpace.url(), inertialUrl, '惯性停止后 URL 应保留最终视窗');
-  await deepSpace.close();
-
   const touch = await browser.newPage({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true });
   await touch.goto(`${origin}${tang}`);
   await ready(touch, '.timeline-app #card.show');

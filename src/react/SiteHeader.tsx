@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent as ReactKeyboardEvent } from 'react';
 import { openSiteUrl } from '../site/context';
 import { ICON_PATHS, type IconId } from '../site/icons';
-import { selectSkin } from './navigation-events';
 
 export type SiteSection = 'home' | 'timeline' | 'people' | 'collections' | 'events' | 'eras' | 'search' | 'other';
 
@@ -19,7 +18,7 @@ const NAV_ITEMS: Array<readonly [SiteSection, string, string, IconId]> = [
   ['eras', '/eras', '断代', 'eras'],
 ];
 
-type DialogId = 'help' | 'settings';
+type DialogId = 'help';
 
 export function Icon({ id, className = '' }: { id: IconId; className?: string }) {
   return (
@@ -43,11 +42,9 @@ export function Icon({ id, className = '' }: { id: IconId; className?: string })
 export function SiteHeader({ section, query = '' }: NavigationContext) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dialog, setDialog] = useState<DialogId | null>(null);
-  const [skin, setSkin] = useState(() => localStorage.getItem('ht-skin') ?? 'voyage');
   const menuRef = useRef<HTMLElement>(null);
   const menuToggleRef = useRef<HTMLButtonElement>(null);
   const helpDialogRef = useRef<HTMLDialogElement>(null);
-  const settingsDialogRef = useRef<HTMLDialogElement>(null);
   const dialogTriggerRef = useRef<HTMLElement | null>(null);
   const lastSectionRef = useRef<SiteSection>(section);
 
@@ -64,9 +61,8 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
   }, [menuOpen]);
 
   useEffect(() => {
-    const element =
-      dialog === 'help' ? helpDialogRef.current : dialog === 'settings' ? settingsDialogRef.current : null;
-    for (const candidate of [helpDialogRef.current, settingsDialogRef.current]) {
+    const element = dialog === 'help' ? helpDialogRef.current : null;
+    for (const candidate of [helpDialogRef.current]) {
       if (!candidate) continue;
       if (candidate === element && !candidate.open) candidate.showModal();
       if (candidate !== element && candidate.open) candidate.close();
@@ -203,16 +199,6 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
           >
             <Icon id="help" />
           </button>
-          <button
-            className="lt-icon-button"
-            type="button"
-            data-settings-open
-            aria-haspopup="dialog"
-            aria-label="设置"
-            onClick={(event) => openDialog('settings', event.currentTarget)}
-          >
-            <Icon id="settings" />
-          </button>
           <a
             className="lt-icon-button"
             href="https://github.com/0xenzyme/lantai"
@@ -244,14 +230,6 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
           onClick={(event) => openDialog('help', event.currentTarget)}
         >
           操作说明
-        </button>
-        <button
-          type="button"
-          data-settings-open
-          aria-haspopup="dialog"
-          onClick={(event) => openDialog('settings', event.currentTarget)}
-        >
-          设置
         </button>
         <a href="https://github.com/0xenzyme/lantai" target="_blank" rel="noreferrer noopener">
           GitHub
@@ -285,7 +263,7 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
         <h3>年表</h3>
         <ul>
           <li>滚轮缩放时间窗，拖动平移；点击人物或事件查看预览。</li>
-          <li>底部朝代带可按年代跳转；专题下拉切换朝代与主题。</li>
+          <li>底部朝代带可按年代跳转；底部王朝轨切换朝代与主题。</li>
           <li>键盘：画布聚焦后，左右方向键平移，加号减号缩放。</li>
           <li>「分类」选择显示的泳道与事件类型；「导出」保存 PNG 或 SVG。</li>
         </ul>
@@ -295,51 +273,6 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
           <li>人物与事件详情页的「在年表中查看」回到对应时间窗。</li>
           <li>目录页筛选与排序写入地址栏，可直接分享链接。</li>
         </ul>
-      </dialog>
-      <dialog
-        ref={settingsDialogRef}
-        className="lt-header-dialog"
-        data-settings-dialog
-        aria-labelledby="lt-settings-title"
-        onCancel={(event) => {
-          event.preventDefault();
-          setDialog(null);
-        }}
-        onClick={(event) => {
-          if (event.target === event.currentTarget) setDialog(null);
-        }}
-      >
-        <div className="lt-header-dialog-head">
-          <h2 id="lt-settings-title">设置</h2>
-          <button
-            className="lt-icon-button"
-            type="button"
-            data-dialog-close
-            aria-label="关闭设置"
-            onClick={() => setDialog(null)}
-          >
-            ×
-          </button>
-        </div>
-        <fieldset className="lt-skin-options">
-          <legend>年表主题</legend>
-          {(['voyage', 'deepspace'] as const).map((value) => (
-            <label key={value}>
-              <input
-                type="radio"
-                name="lt-skin"
-                value={value}
-                checked={skin === value}
-                onChange={() => {
-                  setSkin(value);
-                  selectSkin(value);
-                }}
-              />{' '}
-              {value === 'voyage' ? '巡航（纸本）' : '深空（星空）'}
-            </label>
-          ))}
-        </fieldset>
-        <p className="lt-section-note">主题作用于年表画布，进入年表时生效；内容页始终使用编年档案馆配色。</p>
       </dialog>
     </>
   );

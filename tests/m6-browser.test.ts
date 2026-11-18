@@ -311,10 +311,10 @@ test('M6 production 共享页头四视口一致且年表章节生效', { timeout
   });
   assert.equal(actionVisible, true, '桌面详情主操作必须固定在预览栏内');
   const beforeDialog = page.url();
-  await page.locator('.lt-header-tools [data-settings-open]').click();
+  await page.locator('.lt-header-tools [data-help-open]').click();
   await page.keyboard.press('Escape');
   assert.equal(
-    await page.locator('[data-settings-dialog]').evaluate((dialog) => (dialog as HTMLDialogElement).open),
+    await page.locator('[data-help-dialog]').evaluate((dialog) => (dialog as HTMLDialogElement).open),
     false,
   );
   assert.equal(await page.locator('#card').getAttribute('class'), 'card lt-timeline-detail show');
@@ -347,14 +347,12 @@ test('M6 production Canvas 在 149% 缩放保持像素比', { timeout: 90_000 },
   await page.waitForFunction(() => {
     const canvas = document.querySelector('#chart') as HTMLCanvasElement;
     const context = canvas.getContext('2d') as CanvasRenderingContext2D;
-    const stars = (document.querySelector('#stars') as HTMLCanvasElement).getContext('2d') as CanvasRenderingContext2D;
     const ribbonCanvas = document.querySelector('#ribbon-canvas') as HTMLCanvasElement;
     const ribbon = ribbonCanvas.getContext('2d') as CanvasRenderingContext2D;
     return (
       Math.abs(devicePixelRatio - 1.49) < 0.01 &&
       Math.abs(canvas.width / canvas.clientWidth - devicePixelRatio) < 0.02 &&
       Math.abs(context.getTransform().a - devicePixelRatio) < 0.01 &&
-      Math.abs(stars.getTransform().a - devicePixelRatio) < 0.01 &&
       (ribbonCanvas.parentElement!.clientWidth === 0 || Math.abs(ribbon.getTransform().a - devicePixelRatio) < 0.01)
     );
   });
@@ -444,14 +442,14 @@ test('M6 production 年表移动焦点闭环与筛选抽屉', { timeout: 90_000 
   await page.goto(`${origin}/people`);
   await ready(page, '.lt-person-directory');
   await page.locator('[data-site-menu]').click();
-  await page.locator('#lt-site-menu [data-settings-open]').click();
+  await page.locator('#lt-site-menu [data-help-open]').click();
   await page.keyboard.press('Escape');
   assert.equal(
-    await page.locator('[data-settings-dialog]').evaluate((dialog) => (dialog as HTMLDialogElement).open),
+    await page.locator('[data-help-dialog]').evaluate((dialog) => (dialog as HTMLDialogElement).open),
     false,
   );
   assert.equal(await page.locator('#lt-site-menu').isVisible(), true);
-  assert.equal(await page.evaluate(() => document.activeElement?.hasAttribute('data-settings-open')), true);
+  assert.equal(await page.evaluate(() => document.activeElement?.hasAttribute('data-help-open')), true);
   await page.keyboard.press('Escape');
   assert.equal(await page.locator('#lt-site-menu').isHidden(), true);
   assert.equal(await page.evaluate(() => document.activeElement?.hasAttribute('data-site-menu')), true);

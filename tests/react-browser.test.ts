@@ -49,10 +49,6 @@ test('React SPA 年表到内容页的皮肤与连续搜索导航', { timeout: 12
 
   await page.goto(`${origin}/timeline`);
   await page.waitForSelector('.timeline-app #chart');
-  await page.locator('.lt-header-tools [data-settings-open]').click();
-  await page.locator('input[name="lt-skin"][value="deepspace"]').check();
-  await page.waitForSelector('body.skin-deepspace');
-  await page.locator('[data-settings-dialog] [data-dialog-close]').click();
   await page.evaluate(() => {
     const link = document.createElement('a');
     link.id = 'react-test-timeline-link';
@@ -76,7 +72,7 @@ test('React SPA 年表到内容页的皮肤与连续搜索导航', { timeout: 12
     backgroundToken: getComputedStyle(document.body).getPropertyValue('--bg').trim(),
   }));
   assert.match(body.className, /skin-voyage/);
-  assert.doesNotMatch(body.className, /skin-deepspace|timeline-app/);
+  assert.doesNotMatch(body.className, /timeline-app/);
   assert.ok(body.backgroundToken.length > 0);
 
   const globalQuery = page.locator('.lt-global-search input[name="q"]');

@@ -38,8 +38,6 @@ export function App() {
       document.title = '年表 · 兰台';
     } else {
       document.title = '正在加载 · 兰台';
-      document.body.classList.remove('skin-deepspace');
-      document.body.classList.add('skin-voyage');
     }
   }, [timeline, route.pathname, route.hash]);
 

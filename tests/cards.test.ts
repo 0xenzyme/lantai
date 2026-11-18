@@ -57,7 +57,6 @@ function makePalette(overrides: Partial<Palette> = {}): Palette {
 function makeContext(overrides: Partial<CardContext> = {}): CardContext {
   return {
     library: makeLibrary(),
-    skin: 'voyage',
     palette: makePalette(),
     topic: null,
     ...overrides,

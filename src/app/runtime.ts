@@ -7,7 +7,6 @@ import type { Topic } from '../types';
 import type { EntityGroups, LaneLayout } from './layout';
 import type { Library } from './model';
 import type { Route } from '../routing';
-import type { SkinId } from './skins';
 import type { TimelineState } from '../timeline-state';
 
 export type LineId = 'people' | 'military' | 'history';
@@ -15,7 +14,6 @@ export type ChipId = 'all' | 'military' | 'political' | 'cultural' | 'female';
 export type Selection = { kind: 'person' | 'event'; id: string };
 
 export const STORAGE = {
-  skin: 'ht-skin',
   line: 'ht-line',
   strip: 'ht-strip',
   lanes: 'ht-hidden-lanes',
@@ -25,7 +23,6 @@ export const DEFAULT_TOPIC = 'han';
 
 export interface AppState {
   library: Library;
-  skin: SkinId;
   line: LineId;
   topicId: string;
   topic: Topic | null;
@@ -99,22 +96,17 @@ export interface DragState {
   anchor: number;
   scrollY: number;
   moved: boolean;
-  lastX: number;
-  lastT: number;
 }
 
-/** 指针拖拽与惯性；只有 interaction 写这些字段，loop 读惯性并清零。 */
-export const motion: { drag: DragState | null; inertia: number; dragging: boolean } = {
+/** 指针拖拽状态；只有 interaction 写这些字段。 */
+export const motion: { drag: DragState | null; dragging: boolean } = {
   drag: null,
-  inertia: 0,
   dragging: false,
 };
 
 export interface TimelineDom {
   stage: HTMLElement;
   canvas: HTMLCanvasElement;
-  stars: HTMLCanvasElement;
-  nebula: HTMLElement;
   ribbon: HTMLCanvasElement;
   card: HTMLElement;
   cardBody: HTMLElement;
@@ -134,7 +126,6 @@ export interface TimelineDom {
 
 export const dom = {} as TimelineDom;
 export let ctx: CanvasRenderingContext2D;
-export let sctx: CanvasRenderingContext2D;
 export let rctx: CanvasRenderingContext2D;
 
 /** React 提交 DOM 后绑定本次挂载的元素，避免模块缓存保留已卸载的 canvas。 */
@@ -147,8 +138,6 @@ export function initializeRuntimeDom(root: ParentNode): void {
   Object.assign(dom, {
     stage: get<HTMLElement>('#stage'),
     canvas: get<HTMLCanvasElement>('#chart'),
-    stars: get<HTMLCanvasElement>('#stars'),
-    nebula: get<HTMLElement>('#nebula'),
     ribbon: get<HTMLCanvasElement>('#ribbon-canvas'),
     card: get<HTMLElement>('#card'),
     cardBody: get<HTMLElement>('#card-body'),
@@ -166,7 +155,6 @@ export function initializeRuntimeDom(root: ParentNode): void {
     topbar: get<HTMLElement>('#topbar'),
   } satisfies TimelineDom);
   ctx = dom.canvas.getContext('2d') as CanvasRenderingContext2D;
-  sctx = dom.stars.getContext('2d') as CanvasRenderingContext2D;
   rctx = dom.ribbon.getContext('2d') as CanvasRenderingContext2D;
 }
 /** 浏览器缩放会改变 devicePixelRatio；每次 resize 都重新读取，避免旧位图被拉伸。 */

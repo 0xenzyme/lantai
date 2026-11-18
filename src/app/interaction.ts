@@ -20,7 +20,7 @@ import {
   xOf,
   yearAt,
 } from './render';
-import { canUseInertia, eventTooltip, hideCard, personTooltip } from './view';
+import { eventTooltip, hideCard, personTooltip } from './view';
 import { ctx, dom, getHooks, layouts, motion, state, W, type Selection } from './runtime';
 
 // ---------- 命中测试 ----------
@@ -132,7 +132,6 @@ export function canvasPointer(signal: AbortSignal): void {
     'lantai:flush-view',
     () => {
       window.clearTimeout(wheelTimer);
-      motion.inertia = 0;
       motion.dragging = false;
     },
     { signal },
@@ -155,7 +154,6 @@ export function canvasPointer(signal: AbortSignal): void {
       return;
     }
     motion.dragging = true;
-    motion.inertia = 0;
     motion.drag = {
       x: event.clientX,
       y: event.clientY,
@@ -163,8 +161,6 @@ export function canvasPointer(signal: AbortSignal): void {
       anchor: yearAt(event.clientX - dom.canvas.getBoundingClientRect().left),
       scrollY: state.scrollY,
       moved: false,
-      lastX: event.clientX,
-      lastT: performance.now(),
     };
     dom.canvas.setPointerCapture(event.pointerId);
   });
@@ -189,13 +185,6 @@ export function canvasPointer(signal: AbortSignal): void {
     if (!drag) {
       hover(event);
       return;
-    }
-    if (canUseInertia()) {
-      const now = performance.now();
-      const dt = Math.max(1, now - drag.lastT);
-      motion.inertia = motion.inertia * 0.7 + ((event.clientX - drag.lastX) / dt) * 0.3;
-      drag.lastT = now;
-      drag.lastX = event.clientX;
     }
     const dx = event.clientX - drag.x;
     const rawDy = event.clientY - drag.y;
@@ -243,7 +232,6 @@ export function canvasPointer(signal: AbortSignal): void {
       getHooks().syncTimelineUrl();
       return;
     }
-    motion.inertia = 0;
     const rect = dom.canvas.getBoundingClientRect();
     const hit = hitTest(event.clientX - rect.left, event.clientY - rect.top);
     if (hit) void getHooks().selectAndReveal(hit);

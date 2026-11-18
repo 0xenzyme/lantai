@@ -1,19 +1,10 @@
 import type { Accuracy, EventRecord, Person, Relation, Topic } from '../types';
 import type { Library } from './model';
-import {
-  EVENT_COLORS,
-  SCALE_NAMES,
-  SOURCE_KIND_NAMES,
-  TYPE_NAMES,
-  skinColor,
-  type Palette,
-  type SkinId,
-} from './skins';
+import { EVENT_COLORS, SCALE_NAMES, SOURCE_KIND_NAMES, TYPE_NAMES, type Palette } from './skins';
 import { esc, fmtYear } from './util';
 
 export interface CardContext {
   library: Library;
-  skin: SkinId;
   palette: Palette;
   topic: Topic | null;
 }
@@ -146,7 +137,7 @@ export function renderEventCard(ctx: CardContext, event: EventRecord): string {
       : fmtYear(event.year);
   const notes = [event.yearNote, event.endYearNote].filter(Boolean) as string[];
   const badges = [
-    `<span class="badge" data-event-type="${esc(event.type)}" style="background:${esc(skinColor(ctx.skin, EVENT_COLORS[event.type]))}">${esc(TYPE_NAMES[event.type])}</span>`,
+    `<span class="badge" data-event-type="${esc(event.type)}" style="background:${esc(EVENT_COLORS[event.type])}">${esc(TYPE_NAMES[event.type])}</span>`,
     event.scale ? `<span class="badge" style="background:${esc(c.muted)}">${esc(SCALE_NAMES[event.scale])}</span>` : '',
     `<span class="badge" style="background:${esc(c.accent)}">${'★'.repeat(event.importance)}</span>`,
   ]

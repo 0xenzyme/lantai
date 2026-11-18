@@ -23,11 +23,10 @@ import {
   type LaneLayout,
 } from './layout';
 import { createLibrary, ensureEventLines, ensureLine, findTopicEntry, loadTopicData, type TimeLineId } from './model';
-import { SKINS, isSkinId, type SkinId } from './skins';
+import { invalidatePalette, paletteFor } from './skins';
 import { clamp, fmtYear, personFrom, personTo } from './util';
 import {
   announce,
-  applySkin,
   buildLanePanel,
   flashHint,
   hideCard,
@@ -41,11 +40,10 @@ import {
   toggleLane,
   trapCardFocus,
 } from './view';
-import { canvasPointer, centerDomain, drawPreservingAnchor, keyboardEvents, ribbonPointer } from './interaction';
+import { canvasPointer, centerDomain, keyboardEvents, ribbonPointer } from './interaction';
 import {
   chipMatchEvent,
   draw,
-  drawStars,
   fullSpan,
   hdrH,
   invalidateEventDensity,
@@ -53,12 +51,10 @@ import {
   maxScroll,
   peopleSpan,
   personDim,
-  plotWidth,
   renderRibbon,
   renderScene,
   skinPalette,
   visibleEvents,
-  yearAt,
 } from './render';
 import {
   DEFAULT_TOPIC,
@@ -72,7 +68,6 @@ import {
   layouts,
   motion,
   rctx,
-  sctx,
   setContentH,
   setHooks,
   setInitial,
@@ -91,12 +86,10 @@ import {
 } from './runtime';
 import { parseTimelineState, writeTimelineState, type TimelineState } from '../timeline-state';
 import { openTimelineEntity } from './navigation';
-import { SKIN_CHANGE_EVENT } from '../react/navigation-events';
 import { syncWorkspaceChrome, wireWorkspace } from './workspace';
 
 const RIBBON_H = 76;
 let restoringTimeline = false;
-let lastFrameTime = 0;
 let lastDpr = currentDpr();
 let frameId = 0;
 let resizeObserver: ResizeObserver | null = null;
@@ -106,7 +99,6 @@ let resizeObserver: ResizeObserver | null = null;
 export async function boot(root: ParentNode, signal: AbortSignal): Promise<void> {
   initializeRuntimeDom(root);
   const bootEl = root.querySelector<HTMLElement>('#boot');
-  lastFrameTime = 0;
   lastDpr = currentDpr();
   signal.addEventListener(
     'abort',
@@ -114,7 +106,6 @@ export async function boot(root: ParentNode, signal: AbortSignal): Promise<void>
       cancelAnimationFrame(frameId);
       resizeObserver?.disconnect();
       resizeObserver = null;
-      motion.inertia = 0;
       motion.drag = null;
       motion.dragging = false;
       document.documentElement.style.removeProperty('--topbar-h');
@@ -128,7 +119,6 @@ export async function boot(root: ParentNode, signal: AbortSignal): Promise<void>
     bootEl?.remove();
     setState({
       library,
-      skin: isSkinId(localStorage.getItem(STORAGE.skin)) ? (localStorage.getItem(STORAGE.skin) as SkinId) : 'voyage',
       line: initialLine(),
       topicId: initialTopic(library),
       topic: null,
@@ -144,7 +134,10 @@ export async function boot(root: ParentNode, signal: AbortSignal): Promise<void>
     document.body.classList.add('timeline-app');
     wireEvents(signal);
     syncChipAvailability();
-    applySkin(state.skin, false);
+    // 画布配色读的是 body 上的变量，class 挂上后才能取，取不到就当场报错。
+    document.body.classList.add('skin-voyage');
+    invalidatePalette();
+    paletteFor();
     setInitial(location.hash.replace('#', '').trim().length > 0 ? parseHash(location.hash, library.catalog) : null);
     setInitialTimeline(location.pathname === '/timeline' ? parseTimelineState(location.search) : null);
     const returnUrl = sessionStorage.getItem('lantai-return-url');
@@ -197,7 +190,6 @@ export async function boot(root: ParentNode, signal: AbortSignal): Promise<void>
 async function applyTimelineState(timeline: TimelineState | null): Promise<void> {
   if (!timeline) return;
   restoringTimeline = true;
-  motion.inertia = 0;
   motion.dragging = false;
   document.body.dataset.timelineRestoring = 'true';
   try {
@@ -615,14 +607,6 @@ function wireEvents(signal: AbortSignal): void {
   document.querySelectorAll<HTMLElement>('.line-btn').forEach((button) => {
     button.addEventListener('click', () => void setLine(button.dataset.line as LineId));
   });
-  window.addEventListener(
-    SKIN_CHANGE_EVENT,
-    (event) => {
-      const skin = (event as CustomEvent<unknown>).detail;
-      if (typeof skin === 'string' && isSkinId(skin)) applySkin(skin);
-    },
-    { signal },
-  );
   document.getElementById('btn-reset')?.addEventListener('click', () => void resetView());
   document.getElementById('btn-export')?.addEventListener('click', (event) => {
     event.stopPropagation();
@@ -858,48 +842,13 @@ async function runExport(format: 'png' | 'svg'): Promise<void> {
 
 // ---------- 循环与尺寸 ----------
 
-function loop(time: number): void {
+function loop(): void {
   if (!dom.canvas.isConnected) return;
   const dpr = currentDpr();
   if (dpr !== lastDpr) {
     lastDpr = dpr;
     resize();
   }
-  const previousTime = lastFrameTime;
-  lastFrameTime = time;
-  const elapsed = previousTime === 0 ? 16.7 : Math.min(50, time - previousTime);
-  const wasInertial = Math.abs(motion.inertia) > 0.01;
-  if (
-    SKINS[state.skin].inertia &&
-    !window.matchMedia('(prefers-reduced-motion: reduce)').matches &&
-    !motion.dragging &&
-    Math.abs(motion.inertia) > 0.01 &&
-    W > 0
-  ) {
-    const yearsPerPx = (state.domain[1] - state.domain[0]) / plotWidth();
-    const shift = motion.inertia * elapsed * yearsPerPx;
-    const span = state.domain[1] - state.domain[0];
-    const full = fullSpan();
-    let d0 = state.domain[0] - shift;
-    let d1 = state.domain[1] - shift;
-    if (d0 < full[0]) {
-      d0 = full[0];
-      d1 = d0 + span;
-      motion.inertia = 0;
-    }
-    if (d1 > full[1]) {
-      d1 = full[1];
-      d0 = d1 - span;
-      motion.inertia = 0;
-    }
-    const anchor = yearAt(W / 2);
-    state.domain = [d0, d1];
-    motion.inertia *= Math.exp(-elapsed / 180);
-    if (Math.abs(motion.inertia) <= 0.01) motion.inertia = 0;
-    drawPreservingAnchor(anchor, W / 2);
-  }
-  if (wasInertial && Math.abs(motion.inertia) <= 0.01) syncTimelineUrl();
-  drawStars(time);
   frameId = requestAnimationFrame(loop);
 }
 
@@ -918,11 +867,6 @@ function resize(): void {
   document.documentElement.style.setProperty('--topbar-h', `${dom.topbar.offsetHeight}px`);
   const dpr = currentDpr();
   resizeChart();
-  dom.stars.width = Math.round(window.innerWidth * dpr);
-  dom.stars.height = Math.round(window.innerHeight * dpr);
-  dom.stars.style.width = `${window.innerWidth}px`;
-  dom.stars.style.height = `${window.innerHeight}px`;
-  sctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   const ribbon = dom.ribbon.parentElement as HTMLElement;
   dom.ribbon.width = Math.round(ribbon.clientWidth * dpr);
   dom.ribbon.height = Math.round(ribbon.clientHeight * dpr);

@@ -17,8 +17,6 @@ export function TimelinePage() {
 
   return (
     <div id="timeline-root" ref={rootRef}>
-      <div id="nebula" aria-hidden="true" />
-      <canvas id="stars" aria-hidden="true" />
       <div className="boot" id="boot">
         正在载入数据…
       </div>
