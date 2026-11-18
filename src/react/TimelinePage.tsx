@@ -149,6 +149,20 @@ export function TimelinePage() {
               aria-label="历史时间轴。使用左右方向键平移，加减键缩放；也可打开当前时间窗实体列表选择对象。"
               aria-describedby="timeline-description"
             />
+            <div className="lt-gesture-hint" id="gesture-hint" hidden aria-hidden="true">
+              <p className="lt-gesture-hint-title">开始探索</p>
+              <ul>
+                <li>
+                  <strong>滚轮</strong>缩放时间窗
+                </li>
+                <li>
+                  <strong>拖动</strong>平移年代
+                </li>
+                <li>
+                  <strong>点击</strong>查看人物或事件
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="lt-timeline-statusbar">
             <div className="lt-legend" aria-label="图例">
@@ -199,6 +213,9 @@ export function TimelinePage() {
           <div id="card-body" />
           <div id="card-actions" />
           <p className="lt-detail-empty" id="detail-empty">
+            <span className="lt-detail-empty-seal" aria-hidden="true">
+              兰台
+            </span>
             选择人物或事件，在这里查看预览。
           </p>
         </aside>

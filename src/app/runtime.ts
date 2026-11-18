@@ -14,6 +14,7 @@ export type ChipId = 'all' | 'military' | 'political' | 'cultural' | 'female';
 export type Selection = { kind: 'person' | 'event'; id: string };
 
 export const STORAGE = {
+  onboarded: 'ht-onboarded',
   line: 'ht-line',
   strip: 'ht-strip',
   lanes: 'ht-hidden-lanes',

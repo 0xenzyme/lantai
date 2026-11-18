@@ -170,7 +170,7 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
                 name="q"
                 type="search"
                 defaultValue={query}
-                placeholder="搜索人物、事件、群像、朝代……"
+                placeholder="搜索人物、事件、群像 ⌘K"
                 required
               />
               <input type="hidden" name="type" value="all" />
@@ -270,6 +270,7 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
         <h3>全站</h3>
         <ul>
           <li>全站搜索覆盖人物、事件、群像和朝代，输入关键词后回车或点击搜索按钮。</li>
+          <li>快捷键 ⌘K / Ctrl+K 唤起快速查找，直达人物与纪事详情。</li>
           <li>人物与事件详情页的「在年表中查看」回到对应时间窗。</li>
           <li>目录页筛选与排序写入地址栏，可直接分享链接。</li>
         </ul>

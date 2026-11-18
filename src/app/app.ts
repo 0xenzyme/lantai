@@ -172,6 +172,7 @@ export async function boot(root: ParentNode, signal: AbortSignal): Promise<void>
     // 首屏已经可交互；事件线在这之后才按需加载。浏览器测试以这一刻为“首包”边界。
     document.body.dataset.timelineReady = 'true';
     document.body.dataset.timelineReadyAt = String(Math.round(performance.now()));
+    maybeShowGestureHint(signal);
     if (state.line !== 'people') void loadLineView(state.line);
     frameId = requestAnimationFrame(loop);
   } catch (error) {
@@ -597,6 +598,33 @@ async function applyRoute(route: Route | null): Promise<void> {
 }
 
 // ---------- 交互绑定 ----------
+
+/** 首屏手势浮层：只对没有明确目标的新访客出现，任意操作或超时后消失并记忆。 */
+function maybeShowGestureHint(signal: AbortSignal): void {
+  const el = document.getElementById('gesture-hint');
+  if (!el) return;
+  if (localStorage.getItem(STORAGE.onboarded) === '1') return;
+  // 带目标进入（hash 深链、选中实体、恢复的视窗状态）不打扰。
+  // from/to/view 不算目标：普通进入也会被 syncTimelineUrl 写进地址栏。
+  if (location.hash.trim().length > 0) return;
+  const params = new URLSearchParams(location.search);
+  if (params.get('person') || params.get('event')) return;
+  // parseTimelineState 对空参数也返回空对象，只有真带了字段才算恢复视窗。
+  if (initialTimeline && Object.values(initialTimeline).some((value) => value !== undefined)) return;
+  el.hidden = false;
+  const dismiss = (): void => {
+    if (el.hidden) return;
+    el.hidden = true;
+    localStorage.setItem(STORAGE.onboarded, '1');
+    window.removeEventListener('wheel', dismiss);
+    window.removeEventListener('pointerdown', dismiss);
+    window.removeEventListener('keydown', dismiss);
+  };
+  window.addEventListener('wheel', dismiss, { passive: true, signal });
+  window.addEventListener('pointerdown', dismiss, { signal });
+  window.addEventListener('keydown', dismiss, { signal });
+  window.setTimeout(dismiss, 5000);
+}
 
 function wireEvents(signal: AbortSignal): void {
   document.querySelector('#timeline-entity-list')?.addEventListener('click', (event) => {

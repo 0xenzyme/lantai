@@ -3,6 +3,7 @@ import { flushSync } from 'react-dom';
 import { wireEntityLinks, wireReturnLinks, wireSiteLinks } from '../site/context';
 import { isTimelinePage, readBrowserLocation, type BrowserLocation } from './location';
 import { SITE_ROUTE_EVENT, TIMELINE_ROUTE_EVENT } from './navigation-events';
+import { QuickSearch } from './QuickSearch';
 import { SitePage } from './SitePage';
 import { TimelinePage } from './TimelinePage';
 
@@ -41,5 +42,10 @@ export function App() {
     }
   }, [timeline, route.pathname, route.hash]);
 
-  return timeline ? <TimelinePage /> : <SitePage route={route} />;
+  return (
+    <>
+      {timeline ? <TimelinePage /> : <SitePage route={route} />}
+      <QuickSearch />
+    </>
+  );
 }
