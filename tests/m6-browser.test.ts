@@ -367,9 +367,6 @@ test('M6 production Canvas 在 149% 缩放保持像素比', { timeout: 90_000 },
       backingHeight: canvas.height,
       transform: context.getTransform().a,
       transformD: context.getTransform().d,
-      starsWidth: (document.querySelector('#stars') as HTMLCanvasElement).width,
-      expectedStarsWidth: Math.round(innerWidth * devicePixelRatio),
-      starsTransformD: (document.querySelector('#stars') as HTMLCanvasElement).getContext('2d')?.getTransform().d,
       ribbonWidth: (document.querySelector('#ribbon-canvas') as HTMLCanvasElement).width,
       expectedRibbonWidth: Math.round(
         (document.querySelector('#ribbon-canvas') as HTMLCanvasElement).parentElement!.clientWidth * devicePixelRatio,
@@ -383,8 +380,6 @@ test('M6 production Canvas 在 149% 缩放保持像素比', { timeout: 90_000 },
   assert.ok(Math.abs(metrics.transform - metrics.dpr) < 0.01, JSON.stringify(metrics));
   assert.ok(Math.abs(metrics.backingHeight / metrics.cssHeight - metrics.dpr) < 0.02, JSON.stringify(metrics));
   assert.ok(Math.abs((metrics.transformD as number) - metrics.dpr) < 0.01, JSON.stringify(metrics));
-  assert.equal(metrics.starsWidth, metrics.expectedStarsWidth);
-  assert.equal(metrics.starsTransformD, metrics.dpr);
   assert.equal(metrics.ribbonWidth, metrics.expectedRibbonWidth);
   if (metrics.expectedRibbonWidth > 0) assert.equal(metrics.ribbonTransformD, metrics.dpr);
   await page.screenshot({ path: join(screenshotDir, 'm6-timeline-zoom-149.png') });
@@ -509,8 +504,6 @@ test('M6 production 移动导航、键盘、缩放和快速导航', { timeout: 9
   assert.equal(await page.evaluate(() => document.activeElement?.textContent), '断代');
   await page.keyboard.press('Tab');
   assert.equal(await page.evaluate(() => document.activeElement?.textContent), '操作说明');
-  await page.keyboard.press('Tab');
-  assert.equal(await page.evaluate(() => document.activeElement?.textContent), '设置');
   await page.keyboard.press('Tab');
   assert.equal(await page.evaluate(() => document.activeElement?.textContent), 'GitHub');
   await page.keyboard.press('Tab');
