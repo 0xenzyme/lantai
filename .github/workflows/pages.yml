@@ -1,8 +1,9 @@
 name: Pages
 
+# 线上 lantai.0xenzyme.dev 已由 Cloudflare Pages 提供。
+# 此 workflow 已在 GitHub 上停用（disabled_manually），且不再在 push 时触发。
+# 不要重新启用，除非要恢复 GitHub Pages 备用发布。
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

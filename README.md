@@ -39,7 +39,8 @@ flowchart LR
   PIPE --> DATA["public/data JSON"]
   DATA --> APP["src 加载与画布渲染"]
   APP --> DIST["dist 静态产物"]
-  DIST --> PAGES["GitHub Pages"]
+  DIST --> CF["Cloudflare Pages（线上）"]
+  DIST -. 已停用 .-> PAGES["GitHub Pages"]
 ```
 
 ## 本地运行
@@ -70,7 +71,7 @@ npm run format:check  # Prettier 格式校验
 npm run hooks:install  # 可选：把 .githooks 设为提交前校验
 ```
 
-部署由 `.github/workflows/pages.yml` 自动完成，步骤见 [部署说明](docs/部署.md)。`dist/` 也可直接上传到任意静态托管。
+线上站点是 Cloudflare Pages 项目 `lantai`，域名 `https://lantai.0xenzyme.dev/`，响应头来自 `public/_headers`。当前这次发布是直接上传 `dist/`，还没有接 Git 构建。GitHub Pages 的自定义域名已解除，`.github/workflows/pages.yml` 已停用。细节见 [部署说明](docs/部署.md)。
 
 ## 内容维护
 

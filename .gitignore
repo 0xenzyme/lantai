@@ -21,6 +21,7 @@ harness/
 .tmp-window-check.mjs
 .playwright-cli/
 .playwright-mcp/
+.wrangler/
 
 # 本地 AI 与截图工具的产物，不进入版本控制
 .claude/
