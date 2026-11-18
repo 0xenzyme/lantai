@@ -58,7 +58,7 @@ try {
   const page = await desktop.newPage();
   await page.goto(`${ORIGIN}/timeline?topic=tang&view=wen&person=li-bai&from=650&to=830`);
   await readyTimeline(page);
-  await page.screenshot({ path: join(OUT, 'timeline-tang.png') });
+  await page.screenshot({ path: join(OUT, 'timeline-tang.jpg'), type: 'jpeg', quality: 82 });
   await page.close();
   await desktop.close();
 
@@ -67,7 +67,7 @@ try {
   const ogPage = await og.newPage();
   await ogPage.goto(`${ORIGIN}/timeline?topic=tang&view=wen&person=li-bai&from=650&to=830`);
   await readyTimeline(ogPage);
-  await ogPage.screenshot({ path: join(ROOT, 'public', 'images', 'history-timeline.png') });
+  await ogPage.screenshot({ path: join(ROOT, 'public', 'images', 'history-timeline.jpg'), type: 'jpeg', quality: 85 });
   await ogPage.close();
   await og.close();
 
@@ -76,7 +76,7 @@ try {
   const detailPage = await detail.newPage();
   await detailPage.goto(`${ORIGIN}/timeline?topic=tang&from=580&to=980`);
   await readyTimeline(detailPage);
-  await detailPage.screenshot({ path: join(OUT, 'timeline-overview.png') });
+  await detailPage.screenshot({ path: join(OUT, 'timeline-overview.jpg'), type: 'jpeg', quality: 82 });
   await detailPage.close();
   await detail.close();
 
@@ -90,7 +90,7 @@ try {
   const mobilePage = await mobile.newPage();
   await mobilePage.goto(`${ORIGIN}/timeline?topic=tang&from=600&to=950`);
   await readyTimeline(mobilePage);
-  await mobilePage.screenshot({ path: join(OUT, 'timeline-mobile.png') });
+  await mobilePage.screenshot({ path: join(OUT, 'timeline-mobile.jpg'), type: 'jpeg', quality: 82 });
   await mobilePage.close();
   await mobile.close();
 

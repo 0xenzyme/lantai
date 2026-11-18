@@ -10,7 +10,7 @@ Lifelines of people sit next to the wars and events of their time — drag Li Ba
 > **Try it live: <https://lantai.0xenzyme.dev>**
 > Pure static site, no login required. 中文说明见 [README.md](README.md)。
 
-![Li Bai aligned with the wars and events of his time](.github/assets/timeline-tang.png)
+![Li Bai aligned with the wars and events of his time](.github/assets/timeline-tang.jpg)
 
 ## Highlights
 
@@ -20,7 +20,7 @@ Lifelines of people sit next to the wars and events of their time — drag Li Ba
 - **Mobile ready**: the primary path works at 375px width with 44px touch targets.
 - **One archival design**: a paper, wood and gold "chronicle archive" palette shared by the canvas and every page via a single token map.
 
-![Tang overview: hundreds of lifelines on one axis](.github/assets/timeline-overview.png)
+![Tang overview: hundreds of lifelines on one axis](.github/assets/timeline-overview.jpg)
 
 ![Zoom, pan and selection demo](.github/assets/timeline-demo.webm)
 

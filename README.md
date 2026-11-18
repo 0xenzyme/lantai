@@ -10,7 +10,7 @@
 > **在线体验：<https://lantai.0xenzyme.dev>**
 > 纯静态站点，无需登录，加载即用。英文说明见 [README.en.md](README.en.md)。
 
-![李白与同时代的战事、事件同轴](.github/assets/timeline-tang.png)
+![李白与同时代的战事、事件同轴](.github/assets/timeline-tang.jpg)
 
 ## 为什么值得一看
 
@@ -20,7 +20,7 @@
 - **移动端可用**：375px 宽的主路径完整可用，44px 触控目标。
 - **统一的典籍设计**：宣纸、深木、沉金的「编年档案馆」配色，画布与页面共用同一套色板 token，不会各画各的。
 
-![唐全览：数百人生平同轴](.github/assets/timeline-overview.png)
+![唐全览：数百人生平同轴](.github/assets/timeline-overview.jpg)
 
 ![缩放、平移与选中交互演示](.github/assets/timeline-demo.webm)
 
