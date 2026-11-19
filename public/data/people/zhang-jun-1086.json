@@ -27,7 +27,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yue-fei",
+      "target": "zhang-jun-1086",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "飞冤狱，世忠救之而俊独助桧成其事"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "jinjun-dujiang",

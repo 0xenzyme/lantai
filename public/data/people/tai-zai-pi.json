@@ -21,7 +21,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "ji-fucha",
+      "target": "tai-zai-pi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宰嚭谀而受贿，吴以之亡"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "tai-zai-pi",
+      "target": "wu-yuan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "嚭受越赂谮子胥，夫差赐死属镂"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "fujiao-zhizhan",

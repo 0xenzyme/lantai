@@ -27,7 +27,44 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "su-shi",
+      "target": "su-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。嘉祐间父子文名动京师"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-xun",
+      "target": "su-zhe",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。辙亦以文名世，并称三苏"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "su-xun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "上洵所著书二十二篇于朝，士争传诵"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

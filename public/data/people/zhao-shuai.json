@@ -21,7 +21,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "ji-chonger",
+      "target": "zhao-shuai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从亡旧臣，返国后使为原大夫"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "zhao-dun-622",
+      "target": "zhao-shuai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。盾继为正卿，始专晋政"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

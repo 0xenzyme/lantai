@@ -180,12 +180,6 @@
       ]
     },
     {
-      "id": "nanzheng-menghuo",
-      "roles": [
-        "commander"
-      ]
-    },
-    {
       "id": "yizhou-zhizhan",
       "roles": [
         "person"
@@ -208,12 +202,6 @@
       "id": "zhuge-liang-nanzheng",
       "roles": [
         "person",
-        "commander"
-      ]
-    },
-    {
-      "id": "zhugeliang-beifa",
-      "roles": [
         "commander"
       ]
     }

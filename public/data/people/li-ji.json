@@ -14,6 +14,9 @@
   "categories": [
     "official"
   ],
+  "polity": [
+    "jin-guo"
+  ],
   "gender": "female",
   "contractVersion": 1,
   "profile": "full",
@@ -55,11 +58,13 @@
   "sources": [
     {
       "work": "史记",
-      "part": "晋世家"
+      "part": "晋世家",
+      "kind": "classic"
     },
     {
       "work": "国语",
-      "part": "晋语"
+      "part": "晋语",
+      "kind": "classic"
     }
   ]
 }

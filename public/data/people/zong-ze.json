@@ -27,7 +27,32 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zong-ze",
+      "target": "yue-fei",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "奇其才授阵图，飞论运用存乎一心"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zong-ze",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命为东京留守，泽屡疏请上还京"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "nansong-jianli",

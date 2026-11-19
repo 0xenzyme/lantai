@@ -78,6 +78,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "yue-fei",
+      "target": "zhang-jun-1086",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "飞冤狱，世忠救之而俊独助桧成其事"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zong-ze",
+      "target": "yue-fei",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "奇其才授阵图，飞论运用存乎一心"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -64,6 +64,18 @@
       "topicIds": [
         "chunqiu"
       ]
+    },
+    {
+      "source": "ji-guang",
+      "target": "zhuan-zhu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "鱼肠之剑刺王僚，公子光因得自立"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
     }
   ],
   "events": [

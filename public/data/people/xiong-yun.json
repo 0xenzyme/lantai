@@ -40,6 +40,31 @@
       "topicIds": [
         "chunqiu"
       ]
+    },
+    {
+      "source": "ji-chonger",
+      "target": "xiong-yun",
+      "type": "rival",
+      "directed": false,
+      "since": -632,
+      "notes": [
+        "城濮之战，晋退避三舍而胜楚定霸"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "xiong-yun",
+      "target": "zi-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "令尹子玉，城濮败而自裁"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
     }
   ],
   "events": [

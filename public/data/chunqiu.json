@@ -674,6 +674,9 @@
         "official"
       ],
       "primary": "official",
+      "polity": [
+        "jin-guo"
+      ],
       "gender": "female"
     },
     {
@@ -888,7 +891,11 @@
         "scholar-official",
         "confucian"
       ],
-      "primary": "scholar-official"
+      "primary": "scholar-official",
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "sun-wu",
@@ -4523,6 +4530,8 @@
       "deathAccuracy": "approx",
       "birth": -521,
       "death": -481,
+      "birthNote": "生年无确载，由卒年与年岁之说倒推为前 521，为约数。",
+      "deathNote": "卒年无确载，通行系于前 481 前后；《孔子家语》又有年三十一早死之说。",
       "title": "孔门德行第一",
       "bio": "字子渊。孔子屡称其好学、不迁怒、不贰过，年四十而卒，后人尊为复圣。",
       "tags": [
@@ -4531,7 +4540,11 @@
       "categories": [
         "confucian"
       ],
-      "primary": "confucian"
+      "primary": "confucian",
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "zhu-zhiwu",
@@ -8544,6 +8557,242 @@
       "target": "shi-kuang",
       "type": "ruler-subject",
       "note": "晋平公铸大钟，乐工皆谓善，师旷独曰不调，请验之于民；又引琴以谏君言之莫违"
+    },
+    {
+      "source": "kong-zi",
+      "target": "yan-hui",
+      "type": "peer",
+      "note": "弟子，德行科；箪食瓢饮，早夫子而卒"
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-lu",
+      "type": "peer",
+      "note": "弟子政事科；死于卫难，结缨而绝"
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-gong",
+      "type": "peer",
+      "note": "弟子言语科；夫子没，庐墓六年"
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-xia",
+      "type": "peer",
+      "note": "弟子文学科；孔子没后居西河教授"
+    },
+    {
+      "source": "kong-zi",
+      "target": "min-ziqian",
+      "type": "peer",
+      "note": "弟子德行科；孝哉闵子骞，不仕大夫"
+    },
+    {
+      "source": "mengsun-heji",
+      "target": "kong-zi",
+      "type": "peer",
+      "note": "孟懿子遵父僖子遗命，与弟学礼于孔子"
+    },
+    {
+      "source": "yang-huo",
+      "target": "kong-zi",
+      "type": "peer",
+      "note": "馈豚欲见，劝孔子出仕；诺而不果"
+    },
+    {
+      "source": "ji-sun-si",
+      "target": "kong-zi",
+      "type": "peer",
+      "note": "季桓子受齐女乐，三日不朝，孔子遂行"
+    },
+    {
+      "source": "kong-zi",
+      "target": "lu-dinggong",
+      "type": "ruler-subject",
+      "since": -501,
+      "note": "定公以为司寇，夹谷之会以礼却齐"
+    },
+    {
+      "source": "kong-zi",
+      "target": "yan-ying",
+      "type": "peer",
+      "note": "景公欲以尼溪封孔子，婴以为儒难轨法"
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-chan",
+      "type": "peer",
+      "note": "称子产惠人；闻其卒，出涕曰古之遗爱"
+    },
+    {
+      "source": "kong-zi",
+      "target": "nan-zi",
+      "type": "peer",
+      "note": "卫灵公夫人；子见南子，子路不说"
+    },
+    {
+      "source": "kong-zi",
+      "target": "qu-boyu",
+      "type": "peer",
+      "note": "居卫所交时贤，孔子称君子哉蘧伯玉"
+    },
+    {
+      "source": "ji-chonger",
+      "target": "zhao-shuai",
+      "type": "ruler-subject",
+      "note": "从亡旧臣，返国后使为原大夫"
+    },
+    {
+      "source": "ji-chonger",
+      "target": "wei-chou",
+      "type": "ruler-subject",
+      "note": "从亡旧臣魏武子，奔狄十九年随返"
+    },
+    {
+      "source": "ji-chonger",
+      "target": "xu-chen",
+      "type": "ruler-subject",
+      "note": "从亡旧臣；城濮蒙马以虎皮先犯陈蔡"
+    },
+    {
+      "source": "ji-chonger",
+      "target": "xiong-yun",
+      "type": "rival",
+      "since": -632,
+      "note": "城濮之战，晋退避三舍而胜楚定霸"
+    },
+    {
+      "source": "mi-lv",
+      "target": "sun-shu-ao",
+      "type": "ruler-subject",
+      "note": "虞丘所荐，任为令尹而楚国大治"
+    },
+    {
+      "source": "mi-lv",
+      "target": "dou-yue-jiao",
+      "type": "rival",
+      "note": "越椒作乱于皋浒，庄王遂灭若敖氏"
+    },
+    {
+      "source": "xiong-yun",
+      "target": "zi-yu",
+      "type": "ruler-subject",
+      "note": "令尹子玉，城濮败而自裁"
+    },
+    {
+      "source": "ji-guang",
+      "target": "zhuan-zhu",
+      "type": "ruler-subject",
+      "note": "鱼肠之剑刺王僚，公子光因得自立"
+    },
+    {
+      "source": "ji-fucha",
+      "target": "tai-zai-pi",
+      "type": "ruler-subject",
+      "note": "太宰嚭谀而受贿，吴以之亡"
+    },
+    {
+      "source": "wu-yuan",
+      "target": "tai-zai-pi",
+      "type": "rival",
+      "note": "嚭受越赂谮子胥，夫差赐死属镂"
+    },
+    {
+      "source": "wu-she",
+      "target": "wu-yuan",
+      "type": "kin",
+      "note": "父子。奢为费无极所谗，见杀于楚"
+    },
+    {
+      "source": "fan-li",
+      "target": "xi-shi",
+      "type": "peer",
+      "note": "与谋教习西施郑旦，献吴以乱其政"
+    },
+    {
+      "source": "qi-chunqiu-jinggong",
+      "target": "yan-ying",
+      "type": "ruler-subject",
+      "note": "历相三公，与景公论和同而谏侈"
+    },
+    {
+      "source": "qi-chunqiu-jinggong",
+      "target": "sima-rangju",
+      "type": "ruler-subject",
+      "note": "晏婴所荐，命为将军却燕晋之师"
+    },
+    {
+      "source": "cui-zhu",
+      "target": "qi-zhuanggong-hou",
+      "type": "rival",
+      "note": "崔杼弑庄公，改立景公而专齐政"
+    },
+    {
+      "source": "qi-taishi",
+      "target": "cui-zhu",
+      "type": "rival",
+      "note": "太史直书崔杼弑其君，二弟继书而死"
+    },
+    {
+      "source": "zhao-shuai",
+      "target": "zhao-dun-622",
+      "type": "kin",
+      "note": "父子。盾继为正卿，始专晋政"
+    },
+    {
+      "source": "zhao-dun-622",
+      "target": "jin-linggong",
+      "type": "rival",
+      "note": "灵公欲杀盾，赵穿弑君而董狐书盾"
+    },
+    {
+      "source": "zhao-shuo",
+      "target": "zhao-wu",
+      "type": "kin",
+      "note": "父子。下宫之难后，赵武复立"
+    },
+    {
+      "source": "han-jue",
+      "target": "zhao-wu",
+      "type": "peer",
+      "note": "韩厥言于晋侯，乃立武而反其田"
+    },
+    {
+      "source": "xun-shou",
+      "target": "xun-ying",
+      "type": "kin",
+      "note": "父子。邲之败，首射连尹襄老以易子归"
+    },
+    {
+      "source": "jin-daogong",
+      "target": "xun-ying",
+      "type": "ruler-subject",
+      "note": "悼公之世任知罃为执政，谋疲楚复霸"
+    },
+    {
+      "source": "luan-ying",
+      "target": "shi-gai",
+      "type": "rival",
+      "note": "范匄逐栾盈，盈还入绛作乱而死"
+    },
+    {
+      "source": "xiang-xu",
+      "target": "zhao-wu",
+      "type": "peer",
+      "note": "向戌弭兵，晋楚会于宋而两交相见"
+    },
+    {
+      "source": "ji-wusheng",
+      "target": "shu-duan",
+      "type": "kin",
+      "note": "兄弟。段欲袭郑，庄公克之于鄢"
+    },
+    {
+      "source": "ji-wusheng",
+      "target": "ying-kaoshu",
+      "type": "ruler-subject",
+      "note": "颍考叔献阙地及泉之策，母子如初"
     }
   ],
   "events": [

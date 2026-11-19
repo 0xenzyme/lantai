@@ -47,6 +47,12 @@
   ],
   "events": [
     {
+      "id": "chenqiao-bingbian",
+      "roles": [
+        "person"
+      ]
+    },
+    {
       "id": "houzhou-gong-houshu",
       "roles": [
         "commander"

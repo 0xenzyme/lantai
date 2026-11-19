@@ -55,6 +55,31 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "han-shizhong",
+      "target": "qin-hui",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "诣桧诘莫须有，三字何以服天下"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "lu-you",
+      "target": "qin-hui",
+      "type": "rival",
+      "directed": false,
+      "since": 1153,
+      "notes": [
+        "锁厅试居桧孙塤之先，桧怒而显黜之"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

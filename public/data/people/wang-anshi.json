@@ -69,6 +69,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "su-shi",
+      "target": "wang-anshi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "议新法不合；元丰末道过金陵相见"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -19,7 +19,8 @@
     "chai-zongxun",
     "zhao-guangyi",
     "zhao-pu",
-    "fan-zhi"
+    "fan-zhi",
+    "han-tong"
   ],
   "result": "后周恭帝禅位，赵匡胤称帝，国号宋。",
   "aliases": [
@@ -34,7 +35,7 @@
     "liao",
     "song"
   ],
-  "desc": "显德七年正月癸卯夜，赵匡胤宿于陈桥驿，未曙军变，将士推戴。甲辰恭帝禅位，赵匡胤称帝；建隆元年正月乙巳改元，定国号宋。后周由此而亡，宋朝建立。",
+  "desc": "显德七年正月癸卯夜，赵匡胤宿于陈桥驿，未曙军变，将士推戴。副都指挥使韩通谋御之，王彦昇杀通于其第；即位后赠韩通中书令，命以礼收葬。甲辰恭帝禅位，赵匡胤称帝；建隆元年正月乙巳改元，定国号宋。后周由此而亡，宋朝建立。",
   "sources": [
     {
       "work": "旧五代史",
@@ -179,6 +180,27 @@
       "polity": [
         "wudai",
         "song"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "han-tong",
+      "name": "韩通",
+      "display": "韩通",
+      "birthAccuracy": "unknown",
+      "death": 960,
+      "deathAccuracy": "exact",
+      "title": "陈桥之变中殉周的侍卫副帅",
+      "bio": "后周侍卫马步军副都指挥使。陈桥兵变，通自内奔出欲拒，为王彦升所杀，满门同殉。太祖赠中书令，以葬礼旌其忠。",
+      "tags": [
+        "后周"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "wudai"
       ],
       "gender": "male",
       "lane": ""

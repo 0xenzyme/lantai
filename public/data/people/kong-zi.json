@@ -18,6 +18,10 @@
     "scholar-official",
     "confucian"
   ],
+  "polity": [
+    "lu"
+  ],
+  "gender": "unknown",
   "contractVersion": 1,
   "profile": "full",
   "topics": [
@@ -33,6 +37,163 @@
     }
   ],
   "relations": [
+    {
+      "source": "kong-zi",
+      "target": "yan-hui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子，德行科；箪食瓢饮，早夫子而卒"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-lu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子政事科；死于卫难，结缨而绝"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-gong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子言语科；夫子没，庐墓六年"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-xia",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子文学科；孔子没后居西河教授"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "min-ziqian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子德行科；孝哉闵子骞，不仕大夫"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "mengsun-heji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "孟懿子遵父僖子遗命，与弟学礼于孔子"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "yang-huo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "馈豚欲见，劝孔子出仕；诺而不果"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-sun-si",
+      "target": "kong-zi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "季桓子受齐女乐，三日不朝，孔子遂行"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "lu-dinggong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -501,
+      "notes": [
+        "定公以为司寇，夹谷之会以礼却齐"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "yan-ying",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "景公欲以尼溪封孔子，婴以为儒难轨法"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "zi-chan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "称子产惠人；闻其卒，出涕曰古之遗爱"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "nan-zi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "卫灵公夫人；子见南子，子路不说"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "kong-zi",
+      "target": "qu-boyu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "居卫所交时贤，孔子称君子哉蘧伯玉"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
     {
       "source": "kong-zi",
       "target": "yan-hui",
@@ -108,7 +269,8 @@
   "sources": [
     {
       "work": "史记",
-      "part": "孔子世家"
+      "part": "孔子世家",
+      "kind": "classic"
     }
   ]
 }

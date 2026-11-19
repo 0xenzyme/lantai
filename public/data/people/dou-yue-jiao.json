@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "dou-yue-jiao",
+      "target": "mi-lv",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越椒作乱于皋浒，庄王遂灭若敖氏"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

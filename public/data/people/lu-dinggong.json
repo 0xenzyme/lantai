@@ -21,7 +21,21 @@
       "lane": "lord"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "lu-dinggong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -501,
+      "notes": [
+        "定公以为司寇，夹谷之会以礼却齐"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "jiagu-zhihui",

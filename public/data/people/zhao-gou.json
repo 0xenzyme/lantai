@@ -102,6 +102,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zong-ze",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命为东京留守，泽屡疏请上还京"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

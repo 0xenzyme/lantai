@@ -21,7 +21,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "cui-zhu",
+      "target": "qi-zhuanggong-hou",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "崔杼弑庄公，改立景公而专齐政"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "cui-zhu",
+      "target": "qi-taishi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太史直书崔杼弑其君，二弟继书而死"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

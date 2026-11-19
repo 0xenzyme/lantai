@@ -6,6 +6,8 @@
   "birthAccuracy": "approx",
   "death": -238,
   "deathAccuracy": "approx",
+  "birthNote": "生年史无确载，前 313 为通行推定约数，诸家异说不一。",
+  "deathNote": "卒年史无确载，前 238 为通行推定约数，当春申君遇害前后。",
   "title": "战国儒家，倡性恶、礼法",
   "bio": "赵人，三为齐稷下学宫祭酒。主性恶、重礼义师法。韩非、李斯出其门，思想亦为汉儒所取。",
   "tags": [
@@ -17,6 +19,10 @@
     "scholar",
     "confucian"
   ],
+  "polity": [
+    "qi"
+  ],
+  "gender": "unknown",
   "contractVersion": 1,
   "profile": "full",
   "topics": [
@@ -88,7 +94,8 @@
   "sources": [
     {
       "work": "史记",
-      "part": "孟子荀卿列传"
+      "part": "孟子荀卿列传",
+      "kind": "classic"
     }
   ]
 }

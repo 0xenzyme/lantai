@@ -31,7 +31,32 @@
       "lane": "lord"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "qi-chunqiu-jinggong",
+      "target": "yan-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "历相三公，与景公论和同而谏侈"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "qi-chunqiu-jinggong",
+      "target": "sima-rangju",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晏婴所荐，命为将军却燕晋之师"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "jiagu-zhihui",

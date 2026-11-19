@@ -6,6 +6,8 @@
   "birthAccuracy": "approx",
   "death": 1582,
   "deathAccuracy": "approx",
+  "birthNote": "生年无确载，1500 为通行推定约数。",
+  "deathNote": "卒年无确载，1582 为通行推定约数。",
   "title": "《西游记》",
   "bio": "山阳人，性诙谐好奇。取玄奘取经旧事，演为《西游记》，神魔谐谑，寓讽于世情。",
   "tags": [
@@ -48,7 +50,8 @@
   "sources": [
     {
       "work": "西游记",
-      "part": "署"
+      "part": "署",
+      "kind": "classic"
     }
   ]
 }

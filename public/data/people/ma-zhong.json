@@ -45,15 +45,10 @@
   ],
   "events": [
     {
-      "id": "nanzheng-menghuo",
-      "roles": [
-        "commander"
-      ]
-    },
-    {
       "id": "zhuge-liang-nanzheng",
       "roles": [
-        "person"
+        "person",
+        "commander"
       ]
     }
   ],

@@ -53,6 +53,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhou-dunyi",
+      "target": "cheng-yi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "与兄颢同从敦颐受业，遂厌科举之习"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

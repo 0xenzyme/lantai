@@ -836,6 +836,8 @@
       "deathAccuracy": "approx",
       "birth": -372,
       "death": -289,
+      "birthNote": "生年史无确载，前 372 为通行推定，诸家异说不一。",
+      "deathNote": "卒年史无确载，前 289 为通行推定，诸家异说不一。",
       "title": "战国儒家，倡性善、仁政",
       "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
       "tags": [
@@ -847,7 +849,11 @@
         "scholar",
         "confucian"
       ],
-      "primary": "scholar"
+      "primary": "scholar",
+      "polity": [
+        "zhu-guo"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "qu-yuan",
@@ -884,6 +890,8 @@
       "deathAccuracy": "approx",
       "birth": -313,
       "death": -238,
+      "birthNote": "生年史无确载，前 313 为通行推定约数，诸家异说不一。",
+      "deathNote": "卒年史无确载，前 238 为通行推定约数，当春申君遇害前后。",
       "title": "战国儒家，倡性恶、礼法",
       "bio": "赵人，三为齐稷下学宫祭酒。主性恶、重礼义师法。韩非、李斯出其门，思想亦为汉儒所取。",
       "tags": [
@@ -895,7 +903,11 @@
         "scholar",
         "confucian"
       ],
-      "primary": "scholar"
+      "primary": "scholar",
+      "polity": [
+        "qi"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "han-fei",
@@ -906,6 +918,7 @@
       "deathAccuracy": "exact",
       "birth": -280,
       "death": -233,
+      "birthNote": "生年不见本传，前 280 为通行的推定约数。",
       "title": "法家集大成者",
       "bio": "韩国公子，学于荀子。使秦后为李斯所害。其书合法、术、势，为秦政所本。",
       "tags": [
@@ -914,7 +927,11 @@
       "categories": [
         "legalism"
       ],
-      "primary": "legalism"
+      "primary": "legalism",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "ying-zao",

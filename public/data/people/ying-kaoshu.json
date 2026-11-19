@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "ji-wusheng",
+      "target": "ying-kaoshu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "颍考叔献阙地及泉之策，母子如初"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

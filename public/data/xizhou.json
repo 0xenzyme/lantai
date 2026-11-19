@@ -400,6 +400,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "zhou"
+      ],
       "gender": "male"
     },
     {
@@ -949,6 +952,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "zhou"
+      ],
       "gender": "male"
     },
     {
@@ -970,6 +976,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "zhou"
+      ],
       "gender": "male"
     },
     {
@@ -990,6 +999,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "guo-guo"
+      ],
       "gender": "male"
     },
     {
@@ -1648,6 +1660,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "qi-guo"
+      ],
       "gender": "male"
     },
     {
@@ -1714,6 +1729,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "qi-guo"
+      ],
       "gender": "male"
     },
     {
@@ -1734,6 +1752,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "qi-guo"
+      ],
       "gender": "male"
     },
     {
@@ -1777,6 +1798,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "qi-guo"
+      ],
       "gender": "male"
     },
     {
@@ -1843,6 +1867,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "qi-guo"
+      ],
       "gender": "male"
     },
     {
@@ -2074,6 +2101,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "shen-guo"
+      ],
       "gender": "male"
     },
     {
@@ -2254,6 +2284,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "song-guo"
+      ],
       "gender": "male"
     },
     {
@@ -2274,6 +2307,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "song-guo"
+      ],
       "gender": "male"
     },
     {
@@ -2294,6 +2330,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "song-guo"
+      ],
       "gender": "male"
     },
     {
@@ -2314,6 +2353,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "song-guo"
+      ],
       "gender": "male"
     },
     {
@@ -2747,6 +2789,9 @@
         "vassal"
       ],
       "primary": "vassal",
+      "polity": [
+        "xu-guo"
+      ],
       "gender": "male"
     },
     {

@@ -21,7 +21,20 @@
       "lane": "shi"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "cui-zhu",
+      "target": "qi-taishi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太史直书崔杼弑其君，二弟继书而死"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -2474,22 +2474,10 @@
         "history"
       ],
       "aliases": [
-        "推恩诏"
-      ]
-    },
-    {
-      "id": "tuienling",
-      "name": "推恩令",
-      "display": "推恩令",
-      "year": -127,
-      "type": "institutional",
-      "importance": 2,
-      "catalogs": [
-        "history"
-      ],
-      "aliases": [
+        "推恩诏",
         "推恩之令",
-        "令诸侯得推恩分子弟"
+        "令诸侯得推恩分子弟",
+        "tuienling"
       ]
     },
     {
@@ -2924,7 +2912,7 @@
       ]
     },
     {
-      "id": "sun-ce-ping-jiangdong",
+      "id": "sunce-ping-jiangdong",
       "name": "孙策平定江东",
       "display": "孙策平定江东",
       "year": 195,
@@ -2938,21 +2926,9 @@
       "aliases": [
         "孙策平江东",
         "孙策渡江",
-        "曲阿之战"
+        "曲阿之战",
+        "sun-ce-ping-jiangdong"
       ]
-    },
-    {
-      "id": "sunce-ping-jiangdong",
-      "name": "孙策平定江东",
-      "display": "孙策平定江东",
-      "year": 195,
-      "type": "military",
-      "importance": 2,
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "endYear": 196
     },
     {
       "id": "caocao-feng-tianzi",
@@ -3330,18 +3306,6 @@
       ]
     },
     {
-      "id": "nanzheng-menghuo",
-      "name": "诸葛亮南征",
-      "display": "诸葛亮南征",
-      "year": 225,
-      "type": "military",
-      "importance": 2,
-      "catalogs": [
-        "military",
-        "history"
-      ]
-    },
-    {
       "id": "zhuge-liang-nanzheng",
       "name": "诸葛亮南征",
       "display": "诸葛亮南征",
@@ -3354,7 +3318,8 @@
       ],
       "aliases": [
         "南中平定战",
-        "南征南中"
+        "南征南中",
+        "nanzheng-menghuo"
       ]
     },
     {
@@ -3371,21 +3336,9 @@
       "endYear": 234,
       "aliases": [
         "诸葛亮五次北伐",
-        "武侯北伐"
+        "武侯北伐",
+        "zhugeliang-beifa"
       ]
-    },
-    {
-      "id": "zhugeliang-beifa",
-      "name": "诸葛亮北伐",
-      "display": "诸葛亮北伐",
-      "year": 228,
-      "type": "military",
-      "importance": 3,
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "endYear": 234
     },
     {
       "id": "jieting-zhizhan",
@@ -5111,7 +5064,7 @@
       ]
     },
     {
-      "id": "sanxing-liubu",
+      "id": "sansheng-liubu",
       "name": "三省六部制确立",
       "display": "三省六部制确立",
       "year": 581,
@@ -5122,7 +5075,11 @@
       ],
       "aliases": [
         "三省六部制",
-        "五省六曹"
+        "五省六曹",
+        "五省六部",
+        "隋三省制",
+        "sanxing-liubu",
+        "sanzheng-liubu"
       ]
     },
     {
@@ -5139,21 +5096,6 @@
         "杨坚代周称帝",
         "隋代北周",
         "sui-jian"
-      ]
-    },
-    {
-      "id": "sanzheng-liubu",
-      "name": "三省六部制确立",
-      "display": "三省六部制确立",
-      "year": 583,
-      "type": "institutional",
-      "importance": 3,
-      "catalogs": [
-        "history"
-      ],
-      "aliases": [
-        "五省六部",
-        "隋三省制"
       ]
     },
     {
@@ -5878,7 +5820,7 @@
       ]
     },
     {
-      "id": "yongzhen-gaige",
+      "id": "yongzhen-gexin",
       "name": "永贞革新",
       "display": "永贞革新",
       "year": 805,
@@ -5889,18 +5831,8 @@
       ],
       "aliases": [
         "永贞改革",
-        "二王八司马"
-      ]
-    },
-    {
-      "id": "yongzhen-gexin",
-      "name": "永贞革新",
-      "display": "永贞革新",
-      "year": 805,
-      "type": "institutional",
-      "importance": 2,
-      "catalogs": [
-        "history"
+        "二王八司马",
+        "yongzhen-gaige"
       ]
     },
     {
@@ -5966,7 +5898,7 @@
       ]
     },
     {
-      "id": "changqing-hui-meng",
+      "id": "changqing-huimeng",
       "name": "长庆会盟",
       "display": "长庆会盟",
       "year": 821,
@@ -5975,22 +5907,12 @@
       "catalogs": [
         "history"
       ],
+      "endYear": 822,
       "aliases": [
         "唐蕃长庆会盟",
-        "长庆盟"
+        "长庆盟",
+        "changqing-hui-meng"
       ]
-    },
-    {
-      "id": "changqing-huimeng",
-      "name": "长庆会盟",
-      "display": "长庆会盟",
-      "year": 821,
-      "type": "diplomatic",
-      "importance": 2,
-      "catalogs": [
-        "history"
-      ],
-      "endYear": 823
     },
     {
       "id": "ganlu-zhibian",
@@ -6141,22 +6063,12 @@
       "importance": 2,
       "catalogs": [
         "history"
-      ]
-    },
-    {
-      "id": "wangjian-chengdi",
-      "name": "前蜀建立",
-      "display": "前蜀建立",
-      "year": 907,
-      "type": "political",
-      "importance": 2,
-      "catalogs": [
-        "history"
       ],
       "aliases": [
         "王建称帝",
         "大蜀建立",
-        "前蜀建国"
+        "前蜀建国",
+        "wangjian-chengdi"
       ]
     },
     {
@@ -6444,7 +6356,7 @@
       ]
     },
     {
-      "id": "houdang-mie-qianshu",
+      "id": "houtang-mie-qianshu",
       "name": "后唐灭前蜀",
       "display": "后唐灭前蜀",
       "year": 925,
@@ -6456,21 +6368,9 @@
       ],
       "aliases": [
         "同光伐蜀",
-        "郭崇韬伐蜀"
+        "郭崇韬伐蜀",
+        "houdang-mie-qianshu"
       ]
-    },
-    {
-      "id": "houtang-mie-qianshu",
-      "name": "后唐灭前蜀",
-      "display": "后唐灭前蜀",
-      "year": 925,
-      "type": "military",
-      "importance": 2,
-      "catalogs": [
-        "military",
-        "history"
-      ],
-      "endYear": 926
     },
     {
       "id": "qidan-mie-bohai",
@@ -6524,21 +6424,11 @@
       "importance": 2,
       "catalogs": [
         "history"
-      ]
-    },
-    {
-      "id": "mengzhixiang-chengdi",
-      "name": "后蜀建立",
-      "display": "后蜀建立",
-      "year": 934,
-      "type": "political",
-      "importance": 2,
-      "catalogs": [
-        "history"
       ],
       "aliases": [
         "孟知祥称帝",
-        "后蜀建国"
+        "后蜀建国",
+        "mengzhixiang-chengdi"
       ]
     },
     {
@@ -9293,7 +9183,8 @@
       "catalogs": [
         "military",
         "history"
-      ]
+      ],
+      "endYear": 1686
     },
     {
       "id": "nibuchu-heyue",

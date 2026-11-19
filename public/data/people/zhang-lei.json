@@ -21,7 +21,20 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "su-shi",
+      "target": "zhang-lei",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "苏门四学士之一，与补之耒并称"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

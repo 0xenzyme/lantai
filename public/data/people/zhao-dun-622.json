@@ -21,7 +21,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zhao-dun-622",
+      "target": "zhao-shuai",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。盾继为正卿，始专晋政"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "jin-linggong",
+      "target": "zhao-dun-622",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "灵公欲杀盾，赵穿弑君而董狐书盾"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

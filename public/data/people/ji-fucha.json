@@ -65,6 +65,18 @@
       "topicIds": [
         "chunqiu"
       ]
+    },
+    {
+      "source": "ji-fucha",
+      "target": "tai-zai-pi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宰嚭谀而受贿，吴以之亡"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
     }
   ],
   "events": [

@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "nan-zi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "卫灵公夫人；子见南子，子路不说"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

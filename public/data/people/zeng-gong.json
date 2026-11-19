@@ -28,7 +28,20 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "ou-yangxiu",
+      "target": "zeng-gong",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "巩布衣时修见其文，延誉而显于世"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

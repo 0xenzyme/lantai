@@ -21,7 +21,20 @@
       "lane": "shi"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "qi-chunqiu-jinggong",
+      "target": "sima-rangju",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晏婴所荐，命为将军却燕晋之师"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

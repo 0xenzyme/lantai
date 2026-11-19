@@ -6,6 +6,8 @@
   "birthAccuracy": "approx",
   "death": -481,
   "deathAccuracy": "approx",
+  "birthNote": "生年无确载，由卒年与年岁之说倒推为前 521，为约数。",
+  "deathNote": "卒年无确载，通行系于前 481 前后；《孔子家语》又有年三十一早死之说。",
   "title": "孔门德行第一",
   "bio": "字子渊。孔子屡称其好学、不迁怒、不贰过，年四十而卒，后人尊为复圣。",
   "tags": [
@@ -14,6 +16,10 @@
   "categories": [
     "confucian"
   ],
+  "polity": [
+    "lu"
+  ],
+  "gender": "unknown",
   "contractVersion": 1,
   "profile": "full",
   "topics": [
@@ -29,6 +35,18 @@
     }
   ],
   "relations": [
+    {
+      "source": "kong-zi",
+      "target": "yan-hui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子，德行科；箪食瓢饮，早夫子而卒"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
     {
       "source": "kong-zi",
       "target": "yan-hui",
@@ -49,7 +67,8 @@
   "sources": [
     {
       "work": "史记",
-      "part": "仲尼弟子列传"
+      "part": "仲尼弟子列传",
+      "kind": "classic"
     }
   ]
 }

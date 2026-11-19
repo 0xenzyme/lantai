@@ -6,6 +6,7 @@
   "birthAccuracy": "approx",
   "death": -80,
   "deathAccuracy": "exact",
+  "birthNote": "生年无确载，据《平准书》年十三入侍倒推为前 152，为约数。",
   "title": "汉武帝时任大农令、大司农",
   "bio": "洛阳商人子，推行盐铁官营、均输平准、算缗告缗，为武帝的战争机器提供财政。昭帝时在盐铁会议上与儒生辩论，后卷入政争被诛。",
   "tags": [
@@ -68,11 +69,13 @@
   "sources": [
     {
       "work": "史记",
-      "part": "平准书"
+      "part": "平准书",
+      "kind": "classic"
     },
     {
       "work": "汉书",
-      "part": "食货志"
+      "part": "食货志",
+      "kind": "classic"
     }
   ]
 }

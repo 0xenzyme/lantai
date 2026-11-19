@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "xiang-xu",
+      "target": "zhao-wu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "向戌弭兵，晋楚会于宋而两交相见"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

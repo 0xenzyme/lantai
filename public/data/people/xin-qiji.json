@@ -43,6 +43,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chen-liang",
+      "target": "xin-qiji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同游鹅湖，纵论恢复，相酬以词"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

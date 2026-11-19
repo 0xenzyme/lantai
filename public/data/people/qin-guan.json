@@ -27,7 +27,20 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "su-shi",
+      "target": "qin-guan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "苏门四学士，词称婉约之宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

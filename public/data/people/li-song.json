@@ -80,12 +80,6 @@
   ],
   "events": [
     {
-      "id": "yongzhen-gaige",
-      "roles": [
-        "person"
-      ]
-    },
-    {
       "id": "yongzhen-gexin",
       "roles": [
         "person"

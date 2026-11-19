@@ -20,7 +20,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "ji-sun-si",
+      "target": "kong-zi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "季桓子受齐女乐，三日不朝，孔子遂行"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

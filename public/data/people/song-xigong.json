@@ -14,6 +14,9 @@
   "categories": [
     "vassal"
   ],
+  "polity": [
+    "song-guo"
+  ],
   "gender": "male",
   "contractVersion": 1,
   "profile": "full",
@@ -59,7 +62,8 @@
   "sources": [
     {
       "work": "史记",
-      "part": "宋微子世家"
+      "part": "宋微子世家",
+      "kind": "classic"
     }
   ]
 }

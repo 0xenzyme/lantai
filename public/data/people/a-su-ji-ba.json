@@ -6,6 +6,7 @@
   "birthAccuracy": "approx",
   "death": 1328,
   "deathAccuracy": "disputed",
+  "birthNote": "生年不见《元史》，1320 为推定约数。",
   "deathNote": "上都兵败后不知所终。1328 是天顺兵败之年，不是确凿卒年。",
   "title": "两都之战中的幼主",
   "bio": "泰定帝之子，致和元年泰定崩后于上都立，年号天顺；旋为大都文宗兵败，不知所终。",
@@ -77,7 +78,8 @@
   "sources": [
     {
       "work": "元史",
-      "part": "天顺帝本纪"
+      "part": "天顺帝本纪",
+      "kind": "classic"
     }
   ]
 }

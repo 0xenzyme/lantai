@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "mi-lv",
+      "target": "sun-shu-ao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "虞丘所荐，任为令尹而楚国大治"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

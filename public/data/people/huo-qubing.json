@@ -79,7 +79,14 @@
       ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "mobei-zhizhan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
   "collections": [],
   "sources": [
     {

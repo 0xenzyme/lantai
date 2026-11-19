@@ -26,7 +26,20 @@
       "lane": "ru"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "zi-gong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子言语科；夫子没，庐墓六年"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

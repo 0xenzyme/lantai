@@ -6,6 +6,7 @@
   "birthAccuracy": "approx",
   "death": -180,
   "deathAccuracy": "exact",
+  "birthNote": "生年无直接记载，前 241 由卒年与年岁倒推，为约数。",
   "title": "汉高祖皇后，中国第一位临朝称制的女性",
   "bio": "刘邦崩后临朝八年，封诸吕为王，残害刘氏诸子。司马迁为之立《吕太后本纪》，承认其实际统治地位。",
   "tags": [
@@ -132,7 +133,8 @@
   "sources": [
     {
       "work": "史记",
-      "part": "吕太后本纪"
+      "part": "吕太后本纪",
+      "kind": "classic"
     }
   ]
 }

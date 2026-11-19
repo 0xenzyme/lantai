@@ -6,6 +6,8 @@
   "birthAccuracy": "approx",
   "death": 1330,
   "deathAccuracy": "approx",
+  "birthNote": "生年不见载籍，1245 为通行推定约数。",
+  "deathNote": "卒年不见载籍，1330 为通行推定约数。",
   "title": "棉纺革新者",
   "bio": "松江乌泥泾人，流落崖州得黎族织技，返乡教错纱配色、捍弹纺车，松江布甲天下，民祀为神。",
   "tags": [
@@ -48,7 +50,8 @@
   "sources": [
     {
       "work": "辍耕录",
-      "part": "黄道婆"
+      "part": "黄道婆",
+      "kind": "classic"
     }
   ]
 }

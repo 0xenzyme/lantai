@@ -28,7 +28,32 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "fan-zhongyan",
+      "target": "han-qi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同帅陕西御元昊，天下称为韩范"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-shu",
+      "target": "han-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "琦请建储定策，迎立英宗并调停两宫"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "haoshuichuan-zhizhan",

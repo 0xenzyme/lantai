@@ -14,6 +14,9 @@
   "categories": [
     "vassal"
   ],
+  "polity": [
+    "qi-guo"
+  ],
   "gender": "male",
   "contractVersion": 1,
   "profile": "full",
@@ -46,7 +49,8 @@
   "sources": [
     {
       "work": "史记",
-      "part": "陈杞世家"
+      "part": "陈杞世家",
+      "kind": "classic"
     }
   ]
 }

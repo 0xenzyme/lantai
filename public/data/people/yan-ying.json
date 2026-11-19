@@ -21,7 +21,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "yan-ying",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "景公欲以尼溪封孔子，婴以为儒难轨法"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "qi-chunqiu-jinggong",
+      "target": "yan-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "历相三公，与景公论和同而谏侈"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

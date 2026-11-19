@@ -54,6 +54,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "han-shizhong",
+      "target": "qin-hui",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "诣桧诘莫须有，三字何以服天下"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

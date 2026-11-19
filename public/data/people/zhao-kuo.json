@@ -52,6 +52,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "han-tuozhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宁宗既立，侂胄欲推定策恩而专政"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

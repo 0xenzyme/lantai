@@ -5,12 +5,21 @@
   "birthAccuracy": "unknown",
   "death": 191,
   "deathAccuracy": "exact",
+  "title": "车骑将军、太尉，讨凉州叛军",
+  "bio": "灵帝末为司空。中平二年，北宫伯玉、边章、韩遂入寇三辅侵逼园陵，朝廷以温为车骑将军假节讨之，董卓、周慎并统于温；其冬美阳之战因夜流星大破边章、韩遂，而周慎围榆中败还，温不能定凉州。中平三年春遣使就长安拜温为太尉，三公在外始于温，其冬征还京师。昔温参军事孙坚劝其陈兵斩卓，温以「卓有威名，方倚以西行」不从。初平二年，董卓使人诬卫尉温与袁术交通，十月壬戌笞杀温于市以塞天变。",
+  "tags": [
+    "东汉",
+    "凉州"
+  ],
+  "categories": [
+    "general"
+  ],
   "polity": [
     "han"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "donghan",
@@ -25,6 +34,16 @@
     {
       "work": "资治通鉴",
       "part": "卷60 汉纪五十二",
+      "kind": "classic"
+    },
+    {
+      "work": "后汉书",
+      "part": "卷72 董卓列传",
+      "kind": "classic"
+    },
+    {
+      "work": "后汉书",
+      "part": "卷9 孝献帝纪",
       "kind": "classic"
     }
   ]

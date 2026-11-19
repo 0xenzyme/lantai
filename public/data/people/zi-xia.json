@@ -26,7 +26,20 @@
       "lane": "ru"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "zi-xia",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子文学科；孔子没后居西河教授"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

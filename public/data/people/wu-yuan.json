@@ -78,6 +78,30 @@
       "topicIds": [
         "chunqiu"
       ]
+    },
+    {
+      "source": "tai-zai-pi",
+      "target": "wu-yuan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "嚭受越赂谮子胥，夫差赐死属镂"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "wu-she",
+      "target": "wu-yuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。奢为费无极所谗，见杀于楚"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
     }
   ],
   "events": [

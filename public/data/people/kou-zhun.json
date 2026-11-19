@@ -42,6 +42,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "kou-zhun",
+      "target": "wang-qinruo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "钦若与准不协，谮澶渊为城下之盟"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "ding-wei",
+      "target": "kou-zhun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谓媒孽其过，遂罢准相而贬雷州"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

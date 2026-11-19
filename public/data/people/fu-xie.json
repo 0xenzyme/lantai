@@ -5,12 +5,21 @@
   "birthAccuracy": "unknown",
   "death": 187,
   "deathAccuracy": "exact",
+  "title": "汉阳太守，死凉州之难",
+  "bio": "北地灵州人，字南容，少师事太尉刘宽。为护军司马从皇甫嵩讨张角，上疏言天下之祸不由外皆兴于内，直指阉竖弄权；破张角功多当封，为中常侍赵忠所谮，竟不封。崔烈议弃凉州，燮厉言「斩司徒，天下乃安」，帝从其议，朝廷重其方鲠。权贵疾之，出为汉阳太守，善恤人，叛羌怀恩降附，广开屯田列置四十余营。中平四年耿鄙伐韩遂兵败，贼围汉阳，燮子干劝弃郡归乡，燮以「食禄又欲避其难乎」固守，临阵战没，谥壮节侯。",
+  "tags": [
+    "东汉",
+    "凉州"
+  ],
+  "categories": [
+    "official"
+  ],
   "polity": [
     "han"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "donghan",
@@ -21,10 +30,18 @@
   "relations": [],
   "events": [],
   "collections": [],
+  "aliases": [
+    "傅南容"
+  ],
   "sources": [
     {
       "work": "后汉书",
       "part": "卷8 孝灵帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "后汉书",
+      "part": "卷58 虞傅盖臧列传",
       "kind": "classic"
     }
   ]

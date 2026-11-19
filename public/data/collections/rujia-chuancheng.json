@@ -120,6 +120,10 @@
         "scholar-official",
         "confucian"
       ],
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown",
       "lane": ""
     },
     {
@@ -130,6 +134,8 @@
       "birthAccuracy": "approx",
       "death": -481,
       "deathAccuracy": "approx",
+      "birthNote": "生年无确载，由卒年与年岁之说倒推为前 521，为约数。",
+      "deathNote": "卒年无确载，通行系于前 481 前后；《孔子家语》又有年三十一早死之说。",
       "title": "孔门德行第一",
       "bio": "字子渊。孔子屡称其好学、不迁怒、不贰过，年四十而卒，后人尊为复圣。",
       "tags": [
@@ -138,6 +144,10 @@
       "categories": [
         "confucian"
       ],
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown",
       "lane": ""
     },
     {
@@ -148,6 +158,8 @@
       "birthAccuracy": "approx",
       "death": -435,
       "deathAccuracy": "approx",
+      "birthNote": "生年无确载，前 505 为通行推定约数。",
+      "deathNote": "卒年无确载，前 435 为通行推定约数，诸家推算不一。",
       "title": "孔门弟子，以孝著称",
       "bio": "字子舆。相传《孝经》出其门，并下传子思。宋以后列四配，称宗圣。",
       "tags": [
@@ -157,6 +169,10 @@
       "categories": [
         "confucian"
       ],
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown",
       "lane": ""
     },
     {
@@ -167,6 +183,8 @@
       "birthAccuracy": "approx",
       "death": -289,
       "deathAccuracy": "approx",
+      "birthNote": "生年史无确载，前 372 为通行推定，诸家异说不一。",
+      "deathNote": "卒年史无确载，前 289 为通行推定，诸家异说不一。",
       "title": "战国儒家，倡性善、仁政",
       "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
       "tags": [
@@ -178,6 +196,10 @@
         "scholar",
         "confucian"
       ],
+      "polity": [
+        "zhu-guo"
+      ],
+      "gender": "unknown",
       "lane": ""
     },
     {

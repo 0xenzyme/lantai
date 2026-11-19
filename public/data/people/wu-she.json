@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "wu-she",
+      "target": "wu-yuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。奢为费无极所谗，见杀于楚"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

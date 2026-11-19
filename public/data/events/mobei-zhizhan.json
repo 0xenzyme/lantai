@@ -18,15 +18,25 @@
     "han",
     "xiongnu"
   ],
+  "people": [
+    "li-guang",
+    "wei-qing",
+    "huo-qubing"
+  ],
   "result": "汉军重创匈奴主力并远征漠北，匈奴对汉北部边境的战略压力显著减弱",
   "dynasties": [
     "western-han"
   ],
-  "desc": "汉武帝命卫青、霍去病各率五万骑兵越过大漠，分别攻击匈奴单于与左贤王部。卫青击退单于主力，霍去病深入漠北并举行祭告仪式；汉军取得重大胜利，但也付出大量战马损失。",
+  "desc": "汉武帝命卫青、霍去病各率五万骑兵越过大漠，分别攻击匈奴单于与左贤王部。卫青击退单于主力，霍去病深入漠北并举行祭告仪式；汉军取得重大胜利，但也付出大量战马损失。前将军李广与右将军赵食其军出东道失道后期，卫青令长史簿责其对簿，李广自言「诸校尉无罪，乃我自失道」，引刀自剄，一军皆哭。",
   "sources": [
     {
       "work": "史记",
       "part": "卫将军骠骑列传",
+      "kind": "classic"
+    },
+    {
+      "work": "史记",
+      "part": "卷109 李将军列传",
       "kind": "classic"
     },
     {
@@ -38,6 +48,78 @@
   "contractVersion": 1,
   "children": [],
   "components": [],
-  "personRecords": [],
+  "personRecords": [
+    {
+      "id": "li-guang",
+      "name": "李广",
+      "display": "飞将军",
+      "birthAccuracy": "unknown",
+      "death": -119,
+      "deathAccuracy": "exact",
+      "birthNote": "生年不详",
+      "title": "西汉名将，人称「飞将军」",
+      "bio": "历文、景、武三朝，与匈奴七十余战未尝不大捷者言过其实，却始终未能封侯。漠北之战受卫青调度走东路失道，不愿受刀笔吏之辱，引刀自刎。",
+      "tags": [
+        "飞将军",
+        "难封",
+        "漠北之战"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "wei-qing",
+      "name": "卫青",
+      "display": "卫大将军",
+      "birthAccuracy": "unknown",
+      "death": -106,
+      "deathAccuracy": "exact",
+      "birthNote": "生年不详",
+      "title": "西汉大司马大将军，长平侯",
+      "bio": "卫子夫之弟，骑奴出身。前 127 年收复河南地置朔方郡，前 119 年漠北之战击溃单于主力。为将仁厚，不养士不结党。",
+      "tags": [
+        "河南地",
+        "漠北之战"
+      ],
+      "categories": [
+        "consort-kin"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "huo-qubing",
+      "name": "霍去病",
+      "display": "冠军侯",
+      "birth": -140,
+      "birthAccuracy": "exact",
+      "death": -117,
+      "deathAccuracy": "exact",
+      "title": "西汉骠骑将军",
+      "bio": "十七岁出征，十九岁两战河西，二十一岁与卫青分道漠北，封狼居胥。二十四岁病逝，一生二十三年，全部在武帝朝内。「匈奴未灭，无以家为」。",
+      "tags": [
+        "封狼居胥",
+        "河西之战",
+        "享年23"
+      ],
+      "categories": [
+        "general"
+      ],
+      "polity": [
+        "han"
+      ],
+      "gender": "male",
+      "lane": ""
+    }
+  ],
   "collections": []
 }

@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "luan-ying",
+      "target": "shi-gai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "范匄逐栾盈，盈还入绛作乱而死"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

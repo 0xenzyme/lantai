@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "yang-huo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "馈豚欲见，劝孔子出仕；诺而不果"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

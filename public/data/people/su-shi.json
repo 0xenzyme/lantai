@@ -81,6 +81,78 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "su-shi",
+      "target": "su-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。嘉祐间父子文名动京师"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-shi",
+      "target": "su-zhe",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。嘉祐同榜，并称二苏"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-shi",
+      "target": "huang-tingjian",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "苏门四学士，诗并称苏黄"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-shi",
+      "target": "qin-guan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "苏门四学士，词称婉约之宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-shi",
+      "target": "zhang-lei",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "苏门四学士之一，与补之耒并称"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-shi",
+      "target": "wang-anshi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "议新法不合；元丰末道过金陵相见"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

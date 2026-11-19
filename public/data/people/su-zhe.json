@@ -28,7 +28,32 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "su-xun",
+      "target": "su-zhe",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。辙亦以文名世，并称三苏"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-shi",
+      "target": "su-zhe",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。嘉祐同榜，并称二苏"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

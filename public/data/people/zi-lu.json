@@ -21,7 +21,20 @@
       "lane": "shi"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "zi-lu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子政事科；死于卫难，结缨而绝"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

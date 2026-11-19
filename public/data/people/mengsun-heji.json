@@ -20,7 +20,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "mengsun-heji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "孟懿子遵父僖子遗命，与弟学礼于孔子"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

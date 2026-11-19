@@ -75,15 +75,9 @@
   ],
   "events": [
     {
-      "id": "sun-ce-ping-jiangdong",
-      "roles": [
-        "person",
-        "commander"
-      ]
-    },
-    {
       "id": "sunce-ping-jiangdong",
       "roles": [
+        "person",
         "commander"
       ]
     }

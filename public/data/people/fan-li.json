@@ -52,6 +52,18 @@
       "topicIds": [
         "chunqiu"
       ]
+    },
+    {
+      "source": "fan-li",
+      "target": "xi-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与谋教习西施郑旦，献吴以乱其政"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
     }
   ],
   "events": [

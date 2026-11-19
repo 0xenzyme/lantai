@@ -31,7 +31,20 @@
       "lane": "lord"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "jin-linggong",
+      "target": "zhao-dun-622",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "灵公欲杀盾，赵穿弑君而董狐书盾"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "zhaodun-zhuanzheng",

@@ -27,7 +27,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kou-zhun",
+      "target": "wang-qinruo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "钦若与准不协，谮澶渊为城下之盟"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

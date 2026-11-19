@@ -28,7 +28,20 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "fan-zhongyan",
+      "target": "li-yuanhao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元昊犯边，仲淹知延州御之"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "dingchuanzhai-zhizhan",

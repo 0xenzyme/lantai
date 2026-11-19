@@ -21,7 +21,20 @@
       "lane": "shi"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "min-ziqian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弟子德行科；孝哉闵子骞，不仕大夫"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "zi-chan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "称子产惠人；闻其卒，出涕曰古之遗爱"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "zichan-zhuxingshu",

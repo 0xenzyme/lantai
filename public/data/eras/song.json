@@ -207,7 +207,8 @@
         "chai-zongxun",
         "zhao-guangyi",
         "zhao-pu",
-        "fan-zhi"
+        "fan-zhi",
+        "han-tong"
       ],
       "result": "后周恭帝禅位，赵匡胤称帝，国号宋。",
       "aliases": [
@@ -222,7 +223,7 @@
         "liao",
         "song"
       ],
-      "desc": "显德七年正月癸卯夜，赵匡胤宿于陈桥驿，未曙军变，将士推戴。甲辰恭帝禅位，赵匡胤称帝；建隆元年正月乙巳改元，定国号宋。后周由此而亡，宋朝建立。",
+      "desc": "显德七年正月癸卯夜，赵匡胤宿于陈桥驿，未曙军变，将士推戴。副都指挥使韩通谋御之，王彦昇杀通于其第；即位后赠韩通中书令，命以礼收葬。甲辰恭帝禅位，赵匡胤称帝；建隆元年正月乙巳改元，定国号宋。后周由此而亡，宋朝建立。",
       "sources": [
         {
           "work": "旧五代史",
@@ -519,6 +520,10 @@
             "scholar-official",
             "confucian"
           ],
+          "polity": [
+            "lu"
+          ],
+          "gender": "unknown",
           "lane": ""
         },
         {
@@ -529,6 +534,8 @@
           "birthAccuracy": "approx",
           "death": -289,
           "deathAccuracy": "approx",
+          "birthNote": "生年史无确载，前 372 为通行推定，诸家异说不一。",
+          "deathNote": "卒年史无确载，前 289 为通行推定，诸家异说不一。",
           "title": "战国儒家，倡性善、仁政",
           "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
           "tags": [
@@ -540,6 +547,10 @@
             "scholar",
             "confucian"
           ],
+          "polity": [
+            "zhu-guo"
+          ],
+          "gender": "unknown",
           "lane": ""
         },
         {

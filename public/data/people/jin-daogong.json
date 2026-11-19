@@ -31,7 +31,20 @@
       "lane": "lord"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "jin-daogong",
+      "target": "xun-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "悼公之世任知罃为执政，谋疲楚复霸"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "jin-daogong-fuba",

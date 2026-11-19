@@ -38,6 +38,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "wen-tianxiang",
+      "target": "zhang-shijie",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同起兵勤王，共守行朝以终宋祚"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

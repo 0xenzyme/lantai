@@ -31,7 +31,20 @@
       "lane": "lord"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "cui-zhu",
+      "target": "qi-zhuanggong-hou",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "崔杼弑庄公，改立景公而专齐政"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

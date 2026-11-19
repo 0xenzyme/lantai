@@ -6,12 +6,21 @@
   "death": 79,
   "deathAccuracy": "approx",
   "deathNote": "卒年不详。传云「四年，诏与诸儒论《五经》于白虎观」raw/东汉/後漢書/卷79下.md:147，其后「卒于官」不著年；取建初四年（79）为活动系年，非寿数。",
+  "title": "白虎观《公羊》义难贾逵",
+  "bio": "扶风漆人，字元春，少习《公羊春秋》，沉思专精，知名太学，深为班固所重，固奏记荐于东平王苍。尝读《左氏传》谓不得圣人深意，作《难左氏义》四十一事。建初元年举方正为议郎，后拜博士；四年诏与诸儒论《五经》于白虎观，以《公羊》义难贾逵，往返皆有理证，最为通儒。再迁尚书令，及马氏废坐所举免归，岁余复征再迁侍中，卒于官。",
+  "tags": [
+    "东汉"
+  ],
+  "categories": [
+    "scholar",
+    "classics"
+  ],
   "polity": [
     "han"
   ],
   "gender": "male",
   "contractVersion": 1,
-  "profile": "brief",
+  "profile": "full",
   "topics": [
     {
       "id": "donghan",
@@ -22,6 +31,9 @@
   "relations": [],
   "events": [],
   "collections": [],
+  "aliases": [
+    "李元春"
+  ],
   "sources": [
     {
       "work": "后汉书",

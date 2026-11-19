@@ -9,44 +9,59 @@
     "history"
   ],
   "scale": "campaign",
-  "importance": 2,
+  "importance": 3,
   "year": 195,
-  "yearAccuracy": "exact",
-  "yearNote": "兴平二年（195）孙策渡江击刘繇，建安元年（196）克会稽，江东底定。",
-  "endYear": 196,
-  "endYearAccuracy": "exact",
-  "place": "江东",
-  "placeNow": "今长江下游南岸，苏南、皖南与浙北一带",
+  "yearAccuracy": "approx",
+  "yearNote": "三国志·吴书·孙破虏讨逆传注引江表传「是岁兴平二年也」、资治通鉴卷61均系渡江击刘繇于兴平二年（195），起点另有兴平元年（194）说；终点以建安四年（199）袭皖、破沙羡、入豫章为江东平定（通鉴卷63），孙策 200 年卒，亦有系至 200 者。",
+  "endYear": 199,
+  "endYearAccuracy": "approx",
+  "endYearNote": "平定终点有建安四年（199）入豫章与建安五年（200）孙策卒两说，取 199。",
+  "place": "曲阿",
+  "placeNow": "今江苏丹阳",
   "belligerents": [
     "wu",
-    "han"
+    "minbian"
   ],
   "commanders": [
     {
       "id": "sun-ce",
       "side": "wu"
+    },
+    {
+      "id": "zhou-yu",
+      "side": "wu"
     }
   ],
   "people": [
+    "sun-ce",
     "zhou-yu",
-    "zhang-zhao",
-    "taishi-ci",
-    "sun-quan"
+    "taishi-ci"
   ],
-  "result": "孙策逐刘繇、降王朗、破严白虎，据有江东六郡，为孙吴立国奠基",
+  "result": "孙策以数千之众渡江，连破刘繇、严白虎、王朗、刘勋、黄祖，至 199 年取豫章，据有江东，奠定孙吴立国之基",
+  "aliases": [
+    "孙策平江东",
+    "孙策渡江",
+    "曲阿之战",
+    "sun-ce-ping-jiangdong"
+  ],
   "dynasties": [
     "eastern-han"
   ],
-  "desc": "195 年孙策以袁术所遣兵渡江，击走扬州刺史刘繇，收其部曲；次年东进会稽，太守王朗出降，又平严白虎等豪强，据有会稽、吴郡、丹阳、豫章诸郡。孙策以张昭、周瑜分掌文武，江东政权由此成型。此役是孙氏由袁术部曲转为独立势力的转折点，其弟孙权继之而开吴国。",
+  "desc": "兴平二年（195）孙策得袁术所给千余兵，行收兵至五六千而渡江击刘繇，攻破牛渚营，进击曲阿，繇败走丹徒；神亭之战与太史慈单骑相斗，后慈归其麾下。继引兵渡浙江，据会稽、攻破严白虎等，自领会稽太守，以张昭、张纮等为谋主。建安四年（199）与周瑜袭皖城破刘勋，进击黄祖于沙羡，兵临豫章，华歆出降，江东大定。孙策以数千之众转斗千里，据有江东，为孙吴立国奠基。",
   "sources": [
     {
       "work": "三国志",
-      "part": "吴书·孙破虏讨逆传",
+      "part": "卷46",
       "kind": "classic"
     },
     {
-      "work": "三国志",
-      "part": "吴书·吴主传",
+      "work": "资治通鉴",
+      "part": "卷61",
+      "kind": "classic"
+    },
+    {
+      "work": "资治通鉴",
+      "part": "卷63",
       "kind": "classic"
     }
   ],
@@ -54,6 +69,31 @@
   "children": [],
   "components": [],
   "personRecords": [
+    {
+      "id": "sun-ce",
+      "name": "孙策",
+      "display": "孙策",
+      "birth": 175,
+      "birthAccuracy": "exact",
+      "death": 200,
+      "deathAccuracy": "exact",
+      "title": "讨逆将军，定江东，遇刺而亡",
+      "bio": "孙坚长子，年十余已结知名士。以袁术所余千余兵渡江，五年间平定吴、会稽、丹阳、豫章、庐陵，江东遂定。美姿颜，能笑语，人称孙郎。建安五年猎于丹徒，为许贡客所射，创甚而卒，年二十六，弟权代之。",
+      "tags": [
+        "三国",
+        "孙吴"
+      ],
+      "categories": [
+        "general",
+        "founding"
+      ],
+      "primary": "general",
+      "polity": [
+        "wu"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
     {
       "id": "zhou-yu",
       "name": "周瑜",
@@ -79,30 +119,6 @@
       "lane": ""
     },
     {
-      "id": "zhang-zhao",
-      "name": "张昭",
-      "display": "张昭",
-      "birth": 156,
-      "birthAccuracy": "exact",
-      "death": 236,
-      "deathAccuracy": "exact",
-      "title": "辅吴将军，江东文臣之首",
-      "bio": "彭城人，少好学，博览众书。汉末避难江东，孙策以为长史、抚军中郎将，文武之事一以委之。策死，与周瑜共辅孙权。赤壁前主降，遂不得为相。性刚直，权尝以土塞其门，昭亦以土封其内。嘉禾五年卒，年八十一。",
-      "tags": [
-        "三国",
-        "孙吴"
-      ],
-      "categories": [
-        "official"
-      ],
-      "primary": "official",
-      "polity": [
-        "wu"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
       "id": "taishi-ci",
       "name": "太史慈",
       "display": "太史慈",
@@ -118,56 +134,6 @@
       ],
       "categories": [
         "general"
-      ],
-      "primary": "general",
-      "polity": [
-        "wu"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "sun-quan",
-      "name": "孙权",
-      "display": "吴大帝孙权",
-      "birth": 182,
-      "birthAccuracy": "exact",
-      "death": 252,
-      "deathAccuracy": "exact",
-      "title": "吴大帝，赤壁抗曹，晚年昏悖",
-      "bio": "孙坚次子，孙策之弟。年十五为阳羡长，兄死受事，举贤任能，赤壁用周瑜破曹操，遂据江东。建安二十四年袭荆州取关羽，黄武元年称吴王，黄龙元年称帝。晚年二子争宠、吕壹用事，赤乌十三年崩，年七十一。",
-      "tags": [
-        "三国",
-        "孙吴"
-      ],
-      "categories": [
-        "monarch",
-        "founding"
-      ],
-      "primary": "monarch",
-      "polity": [
-        "wu"
-      ],
-      "gender": "male",
-      "lane": ""
-    },
-    {
-      "id": "sun-ce",
-      "name": "孙策",
-      "display": "孙策",
-      "birth": 175,
-      "birthAccuracy": "exact",
-      "death": 200,
-      "deathAccuracy": "exact",
-      "title": "讨逆将军，定江东，遇刺而亡",
-      "bio": "孙坚长子，年十余已结知名士。以袁术所余千余兵渡江，五年间平定吴、会稽、丹阳、豫章、庐陵，江东遂定。美姿颜，能笑语，人称孙郎。建安五年猎于丹徒，为许贡客所射，创甚而卒，年二十六，弟权代之。",
-      "tags": [
-        "三国",
-        "孙吴"
-      ],
-      "categories": [
-        "general",
-        "founding"
       ],
       "primary": "general",
       "polity": [

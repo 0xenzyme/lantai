@@ -43,7 +43,11 @@
         "scholar-official",
         "confucian"
       ],
-      "primary": "scholar-official"
+      "primary": "scholar-official",
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "yan-hui",
@@ -54,6 +58,8 @@
       "deathAccuracy": "approx",
       "birth": -521,
       "death": -481,
+      "birthNote": "生年无确载，由卒年与年岁之说倒推为前 521，为约数。",
+      "deathNote": "卒年无确载，通行系于前 481 前后；《孔子家语》又有年三十一早死之说。",
       "title": "孔门德行第一",
       "bio": "字子渊。孔子屡称其好学、不迁怒、不贰过，年四十而卒，后人尊为复圣。",
       "tags": [
@@ -62,7 +68,11 @@
       "categories": [
         "confucian"
       ],
-      "primary": "confucian"
+      "primary": "confucian",
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "zeng-zi",
@@ -73,6 +83,8 @@
       "deathAccuracy": "approx",
       "birth": -505,
       "death": -435,
+      "birthNote": "生年无确载，前 505 为通行推定约数。",
+      "deathNote": "卒年无确载，前 435 为通行推定约数，诸家推算不一。",
       "title": "孔门弟子，以孝著称",
       "bio": "字子舆。相传《孝经》出其门，并下传子思。宋以后列四配，称宗圣。",
       "tags": [
@@ -82,7 +94,11 @@
       "categories": [
         "confucian"
       ],
-      "primary": "confucian"
+      "primary": "confucian",
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "zi-si",
@@ -93,6 +109,8 @@
       "deathAccuracy": "approx",
       "birth": -483,
       "death": -402,
+      "birthNote": "生年无确载，由孔子卒年与其年岁倒推为前 483，为约数。",
+      "deathNote": "卒年无确载，前 402 为通行推定约数，诸家异说不一。",
       "title": "孔子之孙，《中庸》传人",
       "bio": "字子思。孟子一派尊他为曾子之后、孟子之前的枢纽；《中庸》旧题出其门。",
       "tags": [
@@ -102,7 +120,11 @@
       "categories": [
         "confucian"
       ],
-      "primary": "confucian"
+      "primary": "confucian",
+      "polity": [
+        "lu"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "meng-zi",
@@ -113,6 +135,8 @@
       "deathAccuracy": "approx",
       "birth": -372,
       "death": -289,
+      "birthNote": "生年史无确载，前 372 为通行推定，诸家异说不一。",
+      "deathNote": "卒年史无确载，前 289 为通行推定，诸家异说不一。",
       "title": "战国儒家，倡性善、仁政",
       "bio": "邹人。游齐、梁，主张民贵君轻。后儒以孔孟并称，宋以后尊为亚圣。",
       "tags": [
@@ -124,7 +148,11 @@
         "scholar",
         "confucian"
       ],
-      "primary": "scholar"
+      "primary": "scholar",
+      "polity": [
+        "zhu-guo"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "xun-zi",
@@ -135,6 +163,8 @@
       "deathAccuracy": "approx",
       "birth": -313,
       "death": -238,
+      "birthNote": "生年史无确载，前 313 为通行推定约数，诸家异说不一。",
+      "deathNote": "卒年史无确载，前 238 为通行推定约数，当春申君遇害前后。",
       "title": "战国儒家，倡性恶、礼法",
       "bio": "赵人，三为齐稷下学宫祭酒。主性恶、重礼义师法。韩非、李斯出其门，思想亦为汉儒所取。",
       "tags": [
@@ -146,7 +176,11 @@
         "scholar",
         "confucian"
       ],
-      "primary": "scholar"
+      "primary": "scholar",
+      "polity": [
+        "qi"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "han-fei",
@@ -157,6 +191,7 @@
       "deathAccuracy": "exact",
       "birth": -280,
       "death": -233,
+      "birthNote": "生年不见本传，前 280 为通行的推定约数。",
       "title": "法家集大成者",
       "bio": "韩国公子，学于荀子。使秦后为李斯所害。其书合法、术、势，为秦政所本。",
       "tags": [
@@ -165,7 +200,11 @@
       "categories": [
         "legalism"
       ],
-      "primary": "legalism"
+      "primary": "legalism",
+      "polity": [
+        "han-guo"
+      ],
+      "gender": "unknown"
     },
     {
       "id": "dong-zhongshu",
@@ -177,6 +216,7 @@
       "birth": -179,
       "death": -104,
       "birthNote": "生卒皆为约数",
+      "deathNote": "卒年无确载，前 104 为通行推定约数，本传止记以寿终。",
       "title": "西汉儒学家，「罢黜百家」的倡议者",
       "bio": "以「天人三策」应对武帝，提出「诸不在六艺之科孔子之术者，皆绝其道」，儒学由此成为汉家官学。著《春秋繁露》。",
       "tags": [

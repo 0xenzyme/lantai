@@ -52,6 +52,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-shu",
+      "target": "han-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "琦请建储定策，迎立英宗并调停两宫"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

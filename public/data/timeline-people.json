@@ -3082,6 +3082,7 @@
         "六经",
         "论语"
       ],
+      "gender": "unknown",
       "birth": -551,
       "death": -479
     },
@@ -5637,6 +5638,7 @@
       "tags": [
         "复圣"
       ],
+      "gender": "unknown",
       "birth": -521,
       "death": -481
     },
@@ -8871,6 +8873,7 @@
         "仁政",
         "亚圣"
       ],
+      "gender": "unknown",
       "birth": -372,
       "death": -289
     },
@@ -8907,6 +8910,7 @@
         "礼法",
         "稷下"
       ],
+      "gender": "unknown",
       "birth": -313,
       "death": -238
     },
@@ -8921,6 +8925,7 @@
       "tags": [
         "法术势"
       ],
+      "gender": "unknown",
       "birth": -280,
       "death": -233
     },
@@ -17198,6 +17203,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 125
     },
@@ -17209,6 +17217,13 @@
       "deathAccuracy": "unknown",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "建世帝"
+      ],
+      "tags": [
+        "东汉",
+        "赤眉"
+      ],
       "gender": "male",
       "birth": 10
     },
@@ -17220,6 +17235,13 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "邓昭伯"
+      ],
+      "tags": [
+        "东汉",
+        "外戚"
+      ],
       "gender": "male",
       "death": 121
     },
@@ -17231,6 +17253,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "female",
       "death": 102
     },
@@ -17242,6 +17267,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "female",
       "death": 165
     },
@@ -17253,6 +17281,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "female",
       "death": 178
     },
@@ -17264,6 +17295,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "female",
       "death": 181
     },
@@ -17275,6 +17309,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "female",
       "death": 189
     },
@@ -17286,6 +17323,9 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "female",
       "death": 200
     },
@@ -17297,6 +17337,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 67
     },
@@ -17308,6 +17351,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "刘伯安"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 193
     },
@@ -17319,6 +17368,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 197
     },
@@ -17330,6 +17382,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 192
     },
@@ -17341,6 +17396,13 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "傅南容"
+      ],
+      "tags": [
+        "东汉",
+        "凉州"
+      ],
       "gender": "male",
       "death": 187
     },
@@ -17352,6 +17414,10 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉",
+        "凉州"
+      ],
       "gender": "male",
       "death": 191
     },
@@ -17363,6 +17429,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "周次叔"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 107
     },
@@ -17374,6 +17446,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "荀仲豫"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 209
     },
@@ -17385,6 +17463,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "仲长公理"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 220
     },
@@ -17396,6 +17480,12 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "崔子真"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 169
     },
@@ -17407,6 +17497,13 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "张元节"
+      ],
+      "tags": [
+        "东汉",
+        "党锢"
+      ],
       "gender": "male",
       "death": 196
     },
@@ -17418,6 +17515,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "杨文先"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 225
     },
@@ -17429,6 +17532,10 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉",
+        "黄巾"
+      ],
       "gender": "male",
       "death": 184
     },
@@ -17440,6 +17547,13 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "孙稚卿"
+      ],
+      "tags": [
+        "东汉",
+        "宦官"
+      ],
       "gender": "male",
       "death": 132
     },
@@ -17451,6 +17565,13 @@
       "deathAccuracy": "disputed",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "边允"
+      ],
+      "tags": [
+        "东汉",
+        "凉州"
+      ],
       "gender": "male",
       "death": 186
     },
@@ -17462,6 +17583,10 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉",
+        "羌乱"
+      ],
       "gender": "male",
       "death": 112
     },
@@ -17473,6 +17598,9 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 189
     },
@@ -17484,17 +17612,29 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "郑少赣"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
-      "death": 19
+      "death": 33
     },
     {
       "id": "jia-kui",
       "name": "贾逵",
       "display": "贾逵",
       "birthAccuracy": "unknown",
-      "deathAccuracy": "approx",
+      "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "贾景伯"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 101
     },
@@ -17506,6 +17646,12 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "服子慎"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 190
     },
@@ -17517,6 +17663,12 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "桓春卿"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 59
     },
@@ -17528,6 +17680,12 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "丁孝公"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 94
     },
@@ -17539,6 +17697,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "楼次子"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 100
     },
@@ -17550,6 +17714,12 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "李元春"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 79
     },
@@ -17561,6 +17731,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "包子良"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 65
     },
@@ -17572,6 +17748,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "伏叔齐"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 84
     },
@@ -17583,6 +17765,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "刘桓公"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 57
     },
@@ -17594,6 +17782,12 @@
       "deathAccuracy": "exact",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "洼子玉"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 41
     },
@@ -17605,6 +17799,12 @@
       "deathAccuracy": "approx",
       "topicId": "donghan",
       "topicTitle": "东汉",
+      "aliases": [
+        "卫敬仲"
+      ],
+      "tags": [
+        "东汉"
+      ],
       "gender": "male",
       "death": 57
     },
@@ -52384,6 +52584,7 @@
         "孝经",
         "宗圣"
       ],
+      "gender": "unknown",
       "birth": -505,
       "death": -435
     },
@@ -52399,6 +52600,7 @@
         "中庸",
         "述圣"
       ],
+      "gender": "unknown",
       "birth": -483,
       "death": -402
     }

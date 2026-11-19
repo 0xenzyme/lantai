@@ -6,6 +6,8 @@
   "birthAccuracy": "approx",
   "death": -435,
   "deathAccuracy": "approx",
+  "birthNote": "生年无确载，前 505 为通行推定约数。",
+  "deathNote": "卒年无确载，前 435 为通行推定约数，诸家推算不一。",
   "title": "孔门弟子，以孝著称",
   "bio": "字子舆。相传《孝经》出其门，并下传子思。宋以后列四配，称宗圣。",
   "tags": [
@@ -15,6 +17,10 @@
   "categories": [
     "confucian"
   ],
+  "polity": [
+    "lu"
+  ],
+  "gender": "unknown",
   "contractVersion": 1,
   "profile": "full",
   "topics": [
@@ -57,7 +63,8 @@
   "sources": [
     {
       "work": "史记",
-      "part": "仲尼弟子列传"
+      "part": "仲尼弟子列传",
+      "kind": "classic"
     }
   ]
 }

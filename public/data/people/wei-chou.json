@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "ji-chonger",
+      "target": "wei-chou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从亡旧臣魏武子，奔狄十九年随返"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

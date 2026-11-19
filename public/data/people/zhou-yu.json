@@ -70,16 +70,10 @@
       ]
     },
     {
-      "id": "sun-ce-ping-jiangdong",
+      "id": "sunce-ping-jiangdong",
       "roles": [
         "person",
         "commander"
-      ]
-    },
-    {
-      "id": "sunce-ping-jiangdong",
-      "roles": [
-        "person"
       ]
     }
   ],

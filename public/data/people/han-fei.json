@@ -6,6 +6,7 @@
   "birthAccuracy": "approx",
   "death": -233,
   "deathAccuracy": "exact",
+  "birthNote": "生年不见本传，前 280 为通行的推定约数。",
   "title": "法家集大成者",
   "bio": "韩国公子，学于荀子。使秦后为李斯所害。其书合法、术、势，为秦政所本。",
   "tags": [
@@ -14,6 +15,10 @@
   "categories": [
     "legalism"
   ],
+  "polity": [
+    "han-guo"
+  ],
+  "gender": "unknown",
   "contractVersion": 1,
   "profile": "full",
   "topics": [
@@ -61,7 +66,8 @@
   "sources": [
     {
       "work": "史记",
-      "part": "老子韩非列传"
+      "part": "老子韩非列传",
+      "kind": "classic"
     }
   ]
 }

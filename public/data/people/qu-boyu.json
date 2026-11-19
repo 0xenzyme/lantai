@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "kong-zi",
+      "target": "qu-boyu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "居卫所交时贤，孔子称君子哉蘧伯玉"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

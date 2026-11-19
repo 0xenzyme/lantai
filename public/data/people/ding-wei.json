@@ -27,7 +27,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "ding-wei",
+      "target": "kou-zhun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谓媒孽其过，遂罢准相而贬雷州"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

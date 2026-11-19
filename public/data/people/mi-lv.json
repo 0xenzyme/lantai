@@ -27,7 +27,32 @@
       "lane": "south"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "mi-lv",
+      "target": "sun-shu-ao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "虞丘所荐，任为令尹而楚国大治"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "dou-yue-jiao",
+      "target": "mi-lv",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "越椒作乱于皋浒，庄王遂灭若敖氏"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "bi-zhizhan",

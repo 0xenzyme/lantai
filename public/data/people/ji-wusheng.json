@@ -39,6 +39,30 @@
       "topicIds": [
         "chunqiu"
       ]
+    },
+    {
+      "source": "ji-wusheng",
+      "target": "shu-duan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。段欲袭郑，庄公克之于鄢"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "ji-wusheng",
+      "target": "ying-kaoshu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "颍考叔献阙地及泉之策，母子如初"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
     }
   ],
   "events": [

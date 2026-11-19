@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "han-jue",
+      "target": "zhao-wu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "韩厥言于晋侯，乃立武而反其田"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

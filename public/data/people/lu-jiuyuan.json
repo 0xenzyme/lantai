@@ -27,7 +27,21 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "lu-jiuyuan",
+      "target": "zhu-xi",
+      "type": "peer",
+      "directed": false,
+      "since": 1175,
+      "notes": [
+        "鹅湖之会，论学多不合而各成其统"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

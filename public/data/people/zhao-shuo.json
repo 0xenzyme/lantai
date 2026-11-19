@@ -21,7 +21,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zhao-shuo",
+      "target": "zhao-wu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。下宫之难后，赵武复立"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

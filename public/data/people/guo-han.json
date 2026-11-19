@@ -15,6 +15,9 @@
   "categories": [
     "vassal"
   ],
+  "polity": [
+    "zhou"
+  ],
   "gender": "male",
   "contractVersion": 1,
   "profile": "full",
@@ -47,7 +50,8 @@
   "sources": [
     {
       "work": "今本竹书纪年",
-      "part": "周纪"
+      "part": "周纪",
+      "kind": "classic"
     }
   ]
 }

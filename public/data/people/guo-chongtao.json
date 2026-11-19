@@ -47,7 +47,15 @@
       ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "houtang-mie-qianshu",
+      "roles": [
+        "person",
+        "commander"
+      ]
+    }
+  ],
   "collections": [],
   "aliases": [
     "郭崇韬"

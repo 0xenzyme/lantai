@@ -78,6 +78,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-xu",
+      "target": "sima-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "与王安石议新法不合，退居洛修通鉴"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

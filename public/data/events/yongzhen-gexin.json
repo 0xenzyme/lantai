@@ -7,32 +7,51 @@
   "catalogs": [
     "history"
   ],
-  "importance": 2,
+  "importance": 3,
   "year": 805,
   "yearAccuracy": "exact",
+  "place": "长安",
   "polity": [
     "tang"
   ],
   "people": [
     "li-song",
+    "li-chun",
     "wang-shu-wen",
     "wang-pi",
-    "wei-zhi-yi"
+    "wei-zhi-yi",
+    "liu-yu-xi",
+    "liu-zong-yuan"
   ],
-  "result": "顺宗内禅，革新派被逐，改革八月而止",
+  "result": "顺宗朝罢宫市、禁进奉、谋收宦官兵权，八月而败；顺宗内禅宪宗，革新派被贬为州司马",
+  "aliases": [
+    "永贞改革",
+    "二王八司马",
+    "yongzhen-gaige"
+  ],
   "dynasties": [
     "tang"
   ],
-  "desc": "永贞元年（805）顺宗即位，王叔文、王伾等主政，引韦执谊为相，罢宫市、禁额外进奉，谋收宦官与藩镇兵权，史称永贞革新。八月顺宗内禅，宪宗即位，革新派被贬为州司马（所谓二王八司马），改革八月而止。革新是唐中央对付宦官与藩镇的又一次制度尝试，失败后问题延续至晚唐。",
+  "desc": "永贞元年（805）正月顺宗即位，王叔文、王伾等主政，引韦执谊为相，罢宫市、禁额外进奉，谋收宦官与藩镇兵权，并以刘禹锡、柳宗元等在外朝配合，史称永贞革新。俱文珍等宦官集团反制，顺宗病重，八月内禅于宪宗李纯，革新派被贬为州司马（所谓二王八司马），改革八月而止。这次短暂革新是唐中央对付宦官与藩镇的又一次制度尝试，失败后问题延续至晚唐。",
   "sources": [
     {
       "work": "旧唐书",
-      "part": "顺宗本纪、王叔文传",
+      "part": "卷14 顺宗本紀",
+      "kind": "classic"
+    },
+    {
+      "work": "旧唐书",
+      "part": "卷135 王叔文傳",
+      "kind": "classic"
+    },
+    {
+      "work": "新唐书",
+      "part": "卷168 王叔文傳",
       "kind": "classic"
     },
     {
       "work": "资治通鉴",
-      "part": "卷二百三十六",
+      "part": "卷236",
       "kind": "classic"
     }
   ],
@@ -52,6 +71,30 @@
       "bio": "德宗长子，即位即病风喑，任用王叔文等行永贞革新，旋为俱文珍等所迫内禅，贬逐革新诸人。",
       "tags": [
         "唐"
+      ],
+      "categories": [
+        "monarch"
+      ],
+      "primary": "monarch",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "li-chun",
+      "name": "李纯",
+      "display": "唐宪宗李纯",
+      "birth": 778,
+      "birthAccuracy": "exact",
+      "death": 820,
+      "deathAccuracy": "exact",
+      "title": "唐宪宗，元和中兴，藩镇暂服",
+      "bio": "李诵长子，永贞元年即位。用杜黄裳、裴度、李绛、武元衡，平西川刘辟、镇海李锜，元和十二年雪夜入蔡州擒吴元济，淄青、成德相继听命，河南北三十余州复为朝廷所有，史称元和中兴。晚年服饵求长生，性躁而多内宠，元和十五年为宦官陈弘志等所弑于中和殿，年四十三。",
+      "tags": [
+        "唐",
+        "元和中兴"
       ],
       "categories": [
         "monarch"
@@ -132,6 +175,56 @@
         "chancellor"
       ],
       "primary": "chancellor",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-yu-xi",
+      "name": "刘禹锡",
+      "display": "刘禹锡",
+      "birth": 772,
+      "birthAccuracy": "exact",
+      "death": 842,
+      "deathAccuracy": "exact",
+      "title": "太子宾客，玄都观诗，二十三年弃置身",
+      "bio": "彭城人，贞元进士，登博学宏辞科。永贞元年参与王叔文革新，事败贬朗州司马，凡十年；元和十年召还，作《玄都观桃花》「玄都观里桃千树，尽是刘郎去后栽」，执政不悦，再贬连州。历夔、和二州，晚年归洛，与白居易唱和。会昌二年卒，年七十一。",
+      "tags": [
+        "唐"
+      ],
+      "categories": [
+        "poetry",
+        "official"
+      ],
+      "primary": "poetry",
+      "polity": [
+        "tang"
+      ],
+      "gender": "male",
+      "lane": ""
+    },
+    {
+      "id": "liu-zong-yuan",
+      "name": "柳宗元",
+      "display": "柳宗元",
+      "birth": 773,
+      "birthAccuracy": "exact",
+      "death": 819,
+      "deathAccuracy": "exact",
+      "title": "柳州刺史，永州八记，死于贬所",
+      "bio": "河东解人，后徙于吴，少精敏绝伦，为文卓伟精致。贞元进士，与韩愈同为古文之倡。永贞元年坐王叔文党，贬永州司马，居十年，作《永州八记》。元和十年徙柳州刺史，州人信巫鬼而杀牛，为设教禁，又赎男女奴婢。元和十四年卒于柳州，年四十七。",
+      "tags": [
+        "唐",
+        "古文运动"
+      ],
+      "categories": [
+        "literature",
+        "confucian",
+        "official"
+      ],
+      "primary": "literature",
       "polity": [
         "tang"
       ],

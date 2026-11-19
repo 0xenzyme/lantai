@@ -56,6 +56,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "su-xun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "上洵所著书二十二篇于朝，士争传诵"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "zeng-gong",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "巩布衣时修见其文，延誉而显于世"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

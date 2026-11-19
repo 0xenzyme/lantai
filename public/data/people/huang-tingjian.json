@@ -28,7 +28,20 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "su-shi",
+      "target": "huang-tingjian",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "苏门四学士，诗并称苏黄"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

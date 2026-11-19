@@ -41,6 +41,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhou-dunyi",
+      "target": "cheng-hao",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "颢年十五六，与弟从敦颐问学"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

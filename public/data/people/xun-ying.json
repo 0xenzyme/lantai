@@ -21,7 +21,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "xun-shou",
+      "target": "xun-ying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。邲之败，首射连尹襄老以易子归"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    },
+    {
+      "source": "jin-daogong",
+      "target": "xun-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "悼公之世任知罃为执政，谋疲楚复霸"
+      ],
+      "topicIds": [
+        "chunqiu"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [
