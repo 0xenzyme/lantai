@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "status": "inventory-frozen",
+  "status": "reconciliation-in-progress",
   "canonicalSource": "content/events/<id>.md",
   "legacySource": "pipeline/topics/<topic>/topic.json#events[]",
   "generatedAt": "2026-10-03",
@@ -187,19 +187,27 @@
         "ji-jing"
       ],
       "legacyDesc": "谤言止于监谤。国人攻王，厉王出奔；太子静匿召公家。中国连续纪年从这一年算起。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "guoren-baodong",
+      "aliases": [
+        "guoren-baodong"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/guoren-baodong.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -217,19 +225,27 @@
         "ji-hu"
       ],
       "legacyDesc": "《史记》谓周、召二相行政，号曰共和；《竹书纪年》谓共伯和摄政。本图人物从《史记》，异说写在这里。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "gonghe-xingzheng",
+      "aliases": [
+        "gonghe"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/gonghe-xingzheng.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -557,19 +573,27 @@
         "shen-hou"
       ],
       "legacyDesc": "诸侯迎立宜臼，迁都洛邑。连续纪年不中断，政治中心从渭河搬到伊洛——春秋专题从这里接上。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "pingwang-dongqian",
+      "aliases": [
+        "pingwang-dongqian"
+      ],
+      "status": "verified",
       "duplicateGroup": "same-name-62fa5fa79f--770",
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/pingwang-dongqian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -584,19 +608,27 @@
         "ji-yijiu"
       ],
       "legacyDesc": "迁都洛邑。春秋的镜头从这里打开：周王条短，诸侯条开始变长。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "pingwang-dongqian",
+      "aliases": [
+        "dongqian"
+      ],
+      "status": "verified",
       "duplicateGroup": "same-name-62fa5fa79f--770",
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/pingwang-dongqian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -611,19 +643,27 @@
         "ji-wusheng"
       ],
       "legacyDesc": "隐公元年。《春秋》的第一笔写在兄弟之争上，王室已经管不住畿内诸侯。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "keduan-yuyan",
+      "aliases": [
+        "ke-duan"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/keduan-yuyan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -668,19 +708,27 @@
         "guan-zhong"
       ],
       "legacyDesc": "齐率诸侯伐楚，盟于召陵。尊王攘夷第一次画成中原对南方的对峙。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "zhaoling-zhimeng",
+      "aliases": [
+        "zhaoling"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/zhaoling-zhimeng.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -698,19 +746,27 @@
         "hu-yan"
       ],
       "legacyDesc": "申生自杀，重耳奔狄。出亡的长条从这一年伸出去，十九年后才接上晋侯的位子。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "liji-zhiluan",
+      "aliases": [
+        "liji-luan"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/liji-zhiluan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -783,19 +839,27 @@
         "xian-zhen"
       ],
       "legacyDesc": "晋败楚于城濮，会诸侯于践土。文公在位九年里最密的一笔，退敌与受盟叠在同一年。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "chengpu-zhizhan",
+      "aliases": [
+        "chengpu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/chengpu-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -838,19 +902,27 @@
         "mi-lv"
       ],
       "legacyDesc": "晋楚战于邲，晋师败绩。问鼎的楚条压过中原霸主条，春秋的重心南移。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "bi-zhizhan",
+      "aliases": [
+        "bizhan"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/bi-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -894,19 +966,27 @@
         "sun-wu"
       ],
       "legacyDesc": "阖闾、伍员、孙武破楚入郢。南线第一次由吴压过楚。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "boju-zhizhan",
+      "aliases": [
+        "baiju"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/boju-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -951,19 +1031,27 @@
         "wen-zhong"
       ],
       "legacyDesc": "夫差报檇李，败越于夫椒。勾践请成，会稽之耻起算。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "fujiao-zhizhan",
+      "aliases": [
+        "kuaiji"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/fujiao-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1006,19 +1094,27 @@
         "kong-zi"
       ],
       "legacyDesc": "鲁哀公十六年。同一时期吴越尚未终局，《春秋》的笔停了，争霸还在继续。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "kongzi-zu",
+      "aliases": [
+        "kongzi-zu"
+      ],
+      "status": "verified",
       "duplicateGroup": "legacy-id-kongzi-zu",
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/kongzi-zu.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1067,19 +1163,27 @@
         "jin-liegong"
       ],
       "legacyDesc": "周威烈王命韩赵魏为诸侯。本专题镜头从这一年打开，人物要再过半个世纪才密起来。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "sanjia-fenjin",
+      "aliases": [
+        "sanjia"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/sanjia-fenjin.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1123,19 +1227,27 @@
         "shang-yang"
       ],
       "legacyDesc": "两次变法，秦从西陲变成可以东出的国。孝公与商鞅的条在这一段完全重叠。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "shangyang-bianfa",
+      "aliases": [
+        "shangyang-bianfa"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/shangyang-bianfa.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1182,19 +1294,27 @@
         "zhao-chenghou"
       ],
       "legacyDesc": "围魏救赵。孙膑的条刚刚出现，庞涓已经与他画成敌对。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "guiling-zhizhan",
+      "aliases": [
+        "guiling"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/guiling-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1211,19 +1331,27 @@
         "wei-huiwang"
       ],
       "legacyDesc": "减灶诱敌。庞涓的条在这一年截断，孙膑的条也几乎停在此处。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "maling-zhizhan",
+      "aliases": [
+        "maling"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/maling-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1267,19 +1395,27 @@
         "zhao-yong"
       ],
       "legacyDesc": "武灵王改服习骑。赵条从此可以北进，也把后来的长平对手养成了。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "hufu-qishe",
+      "aliases": [
+        "hufu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/hufu-qishe.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1353,19 +1489,27 @@
         "tian-di"
       ],
       "legacyDesc": "燕昭王二十八年，下齐七十余城。昭王条末尾最密的一年。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "leyifa-qi",
+      "aliases": [
+        "leyi-faqi"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/leyifa-qi.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1443,19 +1587,27 @@
         "zhao-xiaochengwang"
       ],
       "legacyDesc": "廉颇被代，赵括出。白起坑杀赵卒。山东再没有能与秦对峙的举国之战。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "changping-zhizhan",
+      "aliases": [
+        "changping"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/changping-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1650,19 +1802,27 @@
         "zhou-anwang"
       ],
       "legacyDesc": "田氏请命于周，年表齐国纪年从太公起数；康公迁于海上、不得食邑而卒。姜齐与田齐两条并排，读的是齐换了主人。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "tianshi-daiqi",
+      "aliases": [
+        "tianhe-liehoushi"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/tianshi-daiqi.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1937,19 +2097,27 @@
         "wu-guang"
       ],
       "legacyDesc": "陈胜、吴广失期当斩，斩木为兵，揭竿而起，号张楚，天下响应。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "daizexiang-qiyi",
+      "aliases": [
+        "qin-daze"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/daizexiang-qiyi.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -1966,19 +2134,27 @@
         "xiong-xin"
       ],
       "legacyDesc": "项羽破釜沉舟，九战绝秦军甬道，俘王离；章邯率余众降，秦主力尽丧。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "julu-zhizhan",
+      "aliases": [
+        "qin-julu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/julu-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2081,19 +2257,27 @@
         "liu-bang"
       ],
       "legacyDesc": "韩信十面埋伏，四面楚歌。项羽突围至乌江自刎。同年刘邦即皇帝位，国号汉。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "gaixia-zhizhan",
+      "aliases": [
+        "qin-gaixia"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/gaixia-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2109,19 +2293,27 @@
         "lv-zhi"
       ],
       "legacyDesc": "垓下之战后项羽自刎，刘邦即皇帝位于定陶氾水之阳，定都长安。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "han-jian-guo",
+      "aliases": [
+        "qian202-chengdi"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/han-jian-guo.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2137,19 +2329,27 @@
         "mo-dun"
       ],
       "legacyDesc": "刘邦亲征匈奴被围白登山七日，此后汉匈以和亲维持大致和平六十余年。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "baideng-zhiwei",
+      "aliases": [
+        "qian200-baideng"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/baideng-zhiwei.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2282,19 +2482,27 @@
         "dou-ying"
       ],
       "legacyDesc": "吴楚等国以「诛晁错、清君侧」起兵，晁错朝服斩于东市；乱三月而平。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "qiguo-zhi-luan",
+      "aliases": [
+        "qian154-qiguo"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/qiguo-zhi-luan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2395,19 +2603,27 @@
         "dong-zhongshu"
       ],
       "legacyDesc": "「诸不在六艺之科孔子之术者，皆绝其道，勿使并进」，儒学自此成为官方正统。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "bachu-baijia",
+      "aliases": [
+        "qian134-bachu"
+      ],
+      "status": "verified",
       "duplicateGroup": "same-name-f8ccfa6912--134",
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/bachu-baijia.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2512,19 +2728,28 @@
         "yi-zhi-xie"
       ],
       "legacyDesc": "卫青、霍去病各率五万骑分道出击，霍去病封狼居胥；李广走东路失道，不愿受刀笔吏之辱而自刎。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "mobei-zhizhan",
+      "aliases": [
+        "qian119-mobei"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/mobei-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json",
+        "workspace/content/raw/legacy-reconcile-20261119/backlog.md",
+        "workspace/content/raw/event-gapfill-20261119/accepted.json"
+      ],
+      "review": [
+        "workspace/content/raw/event-gapfill-20261119/accepted.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2624,19 +2849,27 @@
         "wei-zifu"
       ],
       "legacyDesc": "江充构陷太子刘据，太子起兵兵败自杀，皇后卫子夫自尽，长安死者数万。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "wugu-zhihuo",
+      "aliases": [
+        "qian91-wugu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/wugu-zhihuo.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2681,19 +2914,27 @@
         "huo-guang"
       ],
       "legacyDesc": "郡国贤良文学与桑弘羊当廷辩论盐铁官营之弊，桓宽据其记录成《盐铁论》。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "yantie-huiyi",
+      "aliases": [
+        "qian81-yantie"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/yantie-huiyi.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -2933,19 +3174,27 @@
         "deng-yu"
       ],
       "legacyDesc": "刘秀鄗南称帝，旋定洛阳。先后平赤眉、灭公孙述，天下复归一统，史称光武中兴。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "guangwu-dengji",
+      "aliases": [
+        "dh-chengdi"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/guangwu-dengji.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3099,19 +3348,27 @@
         "liu-zhi"
       ],
       "legacyDesc": "宦官诬陷士人结党诽谤朝廷，李膺、陈蕃等下狱处死，前后禁锢名士数百人，清流一蹶不振。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "danggu-zhi-huo",
+      "aliases": [
+        "dh-danggu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/danggu-zhi-huo.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3128,19 +3385,27 @@
         "liu-hong"
       ],
       "legacyDesc": "张角以太平道倡「苍天已死，黄天当立」，八州并起。皇甫嵩、朱儁镇压，乱虽平而州郡兵权渐重。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "huangjin-zhi-luan",
+      "aliases": [
+        "dh-huangjin"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/huangjin-zhi-luan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3216,19 +3481,27 @@
         "yuan-shao"
       ],
       "legacyDesc": "曹操以少胜多，焚乌巢之粮，袁绍全军溃败，北方归曹。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "guandu-zhizhan",
+      "aliases": [
+        "sg-guanxiu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/guandu-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3246,19 +3519,27 @@
         "liu-bei"
       ],
       "legacyDesc": "孙刘联军火攻，曹军败于乌林。三分天下之势由此而定。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "chibi-zhizhan",
+      "aliases": [
+        "sg-chibi"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/chibi-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3361,19 +3642,27 @@
         "lu-xun"
       ],
       "legacyDesc": "刘备倾国报吴，陆逊坚守后火烧连营七百里，备败退白帝城。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "yiling-zhizhan",
+      "aliases": [
+        "sg-yiling"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/yiling-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3390,19 +3679,27 @@
         "liu-shan"
       ],
       "legacyDesc": "刘备崩，谓亮「君才十倍曹丕，必能安国」。亮受遗诏辅后主。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "baidi-tuogu",
+      "aliases": [
+        "sg-baidi"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/baidi-tuogu.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3420,19 +3717,27 @@
         "sima-yi"
       ],
       "legacyDesc": "六出祁山，上方谷、五丈原，与司马懿相持。234 年亮卒于渭滨，北伐无果。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "zhuge-liang-beifa",
+      "aliases": [
+        "sg-qibu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/zhuge-liang-beifa.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3449,19 +3754,27 @@
         "cao-shuang"
       ],
       "legacyDesc": "司马懿发动政变，诛曹爽一族，曹魏大权尽归司马氏。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "gaopingling-zhibian",
+      "aliases": [
+        "sg-gaoping"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/gaopingling-zhibian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3566,19 +3879,27 @@
         "sima-yue-donghai"
       ],
       "legacyDesc": "贾后专政引发宗室诸王相屠，中枢崩坏，伏永嘉之祸。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "baxia-zhiluan",
+      "aliases": [
+        "lj-bawang"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/baxia-zhiluan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3595,19 +3916,27 @@
         "sima-yue-donghai"
       ],
       "legacyDesc": "匈奴汉国陷洛阳，怀帝被俘；316 年愍帝出降，西晋亡。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "yongjia-zhiluan",
+      "aliases": [
+        "lj-yongjia"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/yongjia-zhiluan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3623,19 +3952,27 @@
         "wang-dao"
       ],
       "legacyDesc": "司马睿称晋王于建康，王导主政，北方士族南奔，「王与马共天下」。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "yiguan-nandu",
+      "aliases": [
+        "lj-dongdu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/yiguan-nandu.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3650,19 +3987,27 @@
         "zu-ti"
       ],
       "legacyDesc": "中流击楫而誓，收复黄河以南，然朝廷不力，逖忧愤而卒。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "zuti-beifa",
+      "aliases": [
+        "lj-jiti"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/zuti-beifa.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3680,19 +4025,27 @@
         "xie-xuan"
       ],
       "legacyDesc": "苻坚率百万之众南下，谢玄北府兵八万破之。风声鹤唳，前秦瓦解。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "feishui-zhizhan",
+      "aliases": [
+        "lj-feishui"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/feishui-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3709,19 +4062,27 @@
         "liu-yu"
       ],
       "legacyDesc": "桓玄废安帝自立，国号楚。次年刘裕起兵讨玄，晋室复存而实权已移。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "huanxuan-cuanwei",
+      "aliases": [
+        "lj-huanxuan"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/huanxuan-cuanwei.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -3737,19 +4098,27 @@
         "sima-dewen"
       ],
       "legacyDesc": "刘裕废晋恭帝自立，国号宋，开启南朝。两晋一百五十五年至此而终。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "liu-yu-dai-jin",
+      "aliases": [
+        "lj-liuyu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/liu-yu-dai-jin.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4150,19 +4519,27 @@
         "yuwen-chan"
       ],
       "legacyDesc": "北周静帝禅位于隋王杨坚，国号隋，都大兴。高颎定三省六部之制。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "yang-jian-dai-zhou",
+      "aliases": [
+        "sui-jian"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/yang-jian-dai-zhou.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4181,19 +4558,27 @@
         "chen-shubao"
       ],
       "legacyDesc": "贺若弼渡京口、韩擒虎入朱雀门，陈后主就擒。分裂二百七十年复归一统。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "sui-mie-chen",
+      "aliases": [
+        "sui-pingchen"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/sui-mie-chen.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4292,19 +4677,27 @@
         "yu-wen-shu"
       ],
       "legacyDesc": "举国远征，溃于辽东；役兴盗起，天下骚然。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "sui-zheng-gaogouli",
+      "aliases": [
+        "sui-san"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/sui-zheng-gaogouli.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4815,19 +5208,27 @@
         "zhu-zhen"
       ],
       "legacyDesc": "晋王李存勖即位于魏州，旋袭汴州，梁末帝死之，五代第一朝易主。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "houtang-mie-liang",
+      "aliases": [
+        "wudai-923"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/houtang-mie-liang.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4844,19 +5245,27 @@
         "zhou-dewei"
       ],
       "legacyDesc": "从马直军乱，伶人郭从谦纵火弑逆，庄宗殂，明宗由乱军得位。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "xingjiaomen-zhibian",
+      "aliases": [
+        "wudai-926"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/xingjiaomen-zhibian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4873,19 +5282,27 @@
         "li-congke"
       ],
       "legacyDesc": "河东举兵，契丹主自雁门来援，约割卢龙雁门以北；唐废帝自焚，后晋立。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "shi-jingtang-jie-bing",
+      "aliases": [
+        "wudai-936"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/shi-jingtang-jie-bing.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4901,19 +5318,27 @@
         "yang-zhao-yining"
       ],
       "legacyDesc": "通海节度使段思平联滇东三十七部起兵，灭大义宁，建国号大理；云南自成一系，不复入中原之数。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "dali-jianli",
+      "aliases": [
+        "wudai-937-dali"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/dali-jianli.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -4989,19 +5414,27 @@
         "he-hui"
       ],
       "legacyDesc": "世宗新立，亲犯矢石破北汉；先遁之将按诛，由是整军东向。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "gaoping-zhizhan",
+      "aliases": [
+        "wudai-954"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/gaoping-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5047,19 +5480,28 @@
         "zhao-pu"
       ],
       "legacyDesc": "殿前都点检赵匡胤黄袍加身，还汴受周禅；韩通死之，中原自此归一姓。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "chenqiao-bingbian",
+      "aliases": [
+        "wudai-960"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/chenqiao-bingbian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json",
+        "workspace/content/raw/legacy-reconcile-20261119/backlog.md",
+        "workspace/content/raw/event-gapfill-20261119/accepted.json"
+      ],
+      "review": [
+        "workspace/content/raw/event-gapfill-20261119/accepted.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5075,19 +5517,27 @@
         "zhao-kuangyin"
       ],
       "legacyDesc": "宋师入剑门，后蜀不战而降。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "mie-houshu",
+      "aliases": [
+        "wudai-965"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/mie-houshu.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5103,19 +5553,27 @@
         "zhao-kuangyin"
       ],
       "legacyDesc": "潘美克广州，刘鋹火舰不效出降。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "mie-nanhan",
+      "aliases": [
+        "wudai-971"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/mie-nanhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5158,19 +5616,27 @@
         "qian-hongchu"
       ],
       "legacyDesc": "钱俶上版籍十三州，吴越国除，东南以一。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "wuyue-natu",
+      "aliases": [
+        "wudai-978"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/wuyue-natu.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5185,19 +5651,27 @@
         "zhao-guangyi"
       ],
       "legacyDesc": "宋太宗进围太原，刘继元降，十国之局终，唐末藩镇之分局亦终。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "mie-beihan",
+      "aliases": [
+        "wudai-979"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/mie-beihan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5269,19 +5743,27 @@
         "kou-zhun"
       ],
       "legacyDesc": "契丹南下，寇准力促真宗渡河亲征，士气大振；遂定盟纳币，宋辽息兵百余年。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "chanyuan-zhimeng",
+      "aliases": [
+        "song-chanzhou"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/chanyuan-zhimeng.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5297,19 +5779,27 @@
         "fan-zhongyan"
       ],
       "legacyDesc": "范仲淹上十事疏，行裁冗、修武备、推科举改革，旋为守旧者攻讦而罢。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "qingli-xinzheng",
+      "aliases": [
+        "song-qingli"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/qingli-xinzheng.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5326,19 +5816,27 @@
         "sima-guang"
       ],
       "legacyDesc": "神宗用王安石行青苗、募役、市易、保甲诸法，富国强兵；新旧党争由此起，元丰后法弊渐显。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "xining-bianfa",
+      "aliases": [
+        "song-xining"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/xining-bianfa.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5381,19 +5879,27 @@
         "zhao-gou"
       ],
       "legacyDesc": "金兵破汴京，徽钦二帝被掳北去，北宋亡。康王赵构仓促南渡。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "jingkang-zhibian",
+      "aliases": [
+        "song-jingkang"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/jingkang-zhibian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5409,19 +5915,27 @@
         "li-gang"
       ],
       "legacyDesc": "赵构即位于南京应天府，后定都临安。李纲主战首拜相，旬日而罢。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "nansong-jianli",
+      "aliases": [
+        "song-nanidu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/nansong-jianli.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5466,19 +5980,27 @@
         "qin-hui"
       ],
       "legacyDesc": "宋金划淮为界，宋称臣纳币。南北对峙格局遂定，恢复之议暂歇。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "shaoxing-heyi",
+      "aliases": [
+        "song-shaoxing"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/shaoxing-heyi.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5699,19 +6221,27 @@
         "tie-mu-dieer"
       ],
       "legacyDesc": "英宗锐志更化，铁失等发动政变于南坡，弑帝并拜住，新政中辍。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "nanpo-zhibian",
+      "aliases": [
+        "yuan-nanpo"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/nanpo-zhibian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -5988,19 +6518,27 @@
         "nai-yan"
       ],
       "legacyDesc": "东道诸王乃颜连兵而西，世祖扶病亲征，一战擒之。辽东诸王部众被分，东北道自此不复为患。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "naiyan-zhiluan",
+      "aliases": [
+        "yuan-naiyan"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/naiyan-zhiluan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6074,19 +6612,27 @@
         "a-su-ji-ba"
       ],
       "legacyDesc": "泰定帝崩，燕铁木儿于大都拥图帖睦尔，上都立天顺帝阿速吉八，两都交兵而大都胜，元室的帝位自此由权臣定夺。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "tianli-zhibian",
+      "aliases": [
+        "yuan-liangdu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/tianli-zhibian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6190,19 +6736,27 @@
         "zhu-di"
       ],
       "legacyDesc": "改北平为京师，营建紫禁城，天子守边，奠定此后五百年都城格局。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "beijing-qiandu",
+      "aliases": [
+        "ming-qiandu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/beijing-qiandu.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6218,19 +6772,27 @@
         "zhu-di"
       ],
       "legacyDesc": "郑和七下西洋，历三十余国，宝船遮海，通好远邦，为古代航海之极。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "zhenghe-xiayang",
+      "aliases": [
+        "ming-xiyang"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/zhenghe-xiayang.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6248,19 +6810,27 @@
         "ye-xian"
       ],
       "legacyDesc": "英宗亲征瓦剌，土木堡溃败被俘；于谦力排南迁，拥郕王监国，督师破敌于北京。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "tumu-zhibian",
+      "aliases": [
+        "ming-tumu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/tumu-zhibian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6515,19 +7085,27 @@
         "zhu-yuanzhang"
       ],
       "legacyDesc": "蓝玉以谋反诛，列侯以下坐死者万五千人。开国功臣至是一空，唯汤和数人得以令终。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "lanyu-an",
+      "aliases": [
+        "ming-lanyu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/lanyu-an.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6544,19 +7122,27 @@
         "zhu-houzhao"
       ],
       "legacyDesc": "宁王宸濠据南昌举兵，略九江、攻安庆。提督王守仁仓卒起义兵，四十三日而擒之。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "ningwang-zhiluan",
+      "aliases": [
+        "ming-chenhao"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/ningwang-zhiluan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6572,19 +7158,27 @@
         "zhu-houcong"
       ],
       "legacyDesc": "世宗欲尊本生父母为帝后，廷臣与之为礼议之争。杨廷和先已去位，至是左顺门哭谏者被廷杖，议礼之臣遂定。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "dali-yi",
+      "aliases": [
+        "ming-dali"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/dali-yi.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6600,19 +7194,27 @@
         "zhu-houcong"
       ],
       "legacyDesc": "俺答大举入寇，薄都城而焚掠近畿八日，援兵皆观望不敢战。此后始议筑边墙、练蓟镇之兵。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "gengxu-zhibian",
+      "aliases": [
+        "ming-gengxu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/gengxu-zhibian.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -6629,19 +7231,27 @@
         "zhu-yijun"
       ],
       "legacyDesc": "明四路出师十余万讨后金，努尔哈赤以集中之兵破其分路，刘綎等三路先后败没，辽事遂不可问。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "saerhu-zhizhan",
+      "aliases": [
+        "ming-saerhu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/saerhu-zhizhan.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -7081,19 +7691,28 @@
         "mu-zhang-a"
       ],
       "legacyDesc": "林则徐虎门销烟，英舰叩关；关天培虎门殉国，清战败签《南京条约》，国门洞开。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "yapian-zhanzheng",
+      "aliases": [
+        "qing-yapian"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/yapian-zhanzheng.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json",
+        "workspace/content/raw/legacy-reconcile-20261119/backlog.md",
+        "workspace/content/raw/event-gapfill-20261119/accepted.json"
+      ],
+      "review": [
+        "workspace/content/raw/event-gapfill-20261119/accepted.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -7115,19 +7734,27 @@
         "li-xiu-cheng"
       ],
       "legacyDesc": "洪秀全起事建号，席卷半壁；曾国藩湘军苦战，克天京而平，清廷元气大伤。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "taiping-qiyi",
+      "aliases": [
+        "qing-taiping"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/taiping-qiyi.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -7175,19 +7802,27 @@
         "ding-ru-chang"
       ],
       "legacyDesc": "北洋水师与日决战黄海，邓世昌蹈海殉国；战后割台赔款，洋务受挫，举国震动。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "jiawu-zhanzheng",
+      "aliases": [
+        "qing-jiawu"
+      ],
+      "status": "verified",
       "duplicateGroup": null,
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/jiawu-zhanzheng.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -7641,19 +8276,27 @@
         "kong-zi"
       ],
       "legacyDesc": "鲁哀公十六年，孔子卒于曲阜，年七十三。其后学散游诸侯，儒学始分。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "kongzi-zu",
+      "aliases": [
+        "kongzi-zu"
+      ],
+      "status": "verified",
       "duplicateGroup": "legacy-id-kongzi-zu",
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/kongzi-zu.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     },
     {
@@ -7750,19 +8393,27 @@
         "dong-zhongshu"
       ],
       "legacyDesc": "武帝采董仲舒对策，儒学成为官方正统，孔门之学由此进入制度。",
-      "candidateId": null,
-      "aliases": [],
-      "status": "frozen-inline",
+      "candidateId": "bachu-baijia",
+      "aliases": [
+        "bachu"
+      ],
+      "status": "verified",
       "duplicateGroup": "same-name-f8ccfa6912--134",
-      "evidence": [],
-      "review": [],
+      "evidence": [
+        "content/events/bachu-baijia.md",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-mapping.json",
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
+      "review": [
+        "workspace/content/raw/legacy-reconcile-20261119/reconcile-review.json"
+      ],
       "gates": {
-        "identity": "pending",
-        "taxonomy": "pending",
-        "evidence": "pending",
-        "references": "pending",
-        "compile": "pending",
-        "catalog": "pending"
+        "identity": "pass",
+        "taxonomy": "pass",
+        "evidence": "pass",
+        "references": "pass",
+        "compile": "pass",
+        "catalog": "pass"
       }
     }
   ],
