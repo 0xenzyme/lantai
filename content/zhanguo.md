@@ -35,7 +35,10 @@
 | [zhang-yi](zhanguo/zhang-yi.md) | 张仪 | 张仪 | full |
 | [su-qin](zhanguo/su-qin.md) | 苏秦 | 苏秦 | full |
 | [lin-xiangru](zhanguo/lin-xiangru.md) | 蔺相如 | 蔺相如 | full |
+| [meng-zi](zhanguo/meng-zi.md) | 孟轲 | 孟子 | full |
 | [qu-yuan](zhanguo/qu-yuan.md) | 屈平 | 屈原 | full |
+| [xun-zi](zhanguo/xun-zi.md) | 荀况 | 荀子 | full |
+| [han-fei](zhanguo/han-fei.md) | 韩非 | 韩非子 | full |
 | [ying-zao](zhanguo/ying-zao.md) | 秦躁公 | 秦躁公 | full |
 | [ying-huai](zhanguo/ying-huai.md) | 秦怀公 | 秦怀公 | full |
 | [ying-ling](zhanguo/ying-ling.md) | 秦灵公 | 秦灵公 | full |

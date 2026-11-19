@@ -19,6 +19,7 @@
 | [shen-hou](xizhou/shen-hou.md) | 申侯 | 申侯 | full |
 | [ji-you](xizhou/ji-you.md) | 姬友 | 郑桓公 | full |
 | [bao-gong](xizhou/bao-gong.md) | 暴公 | 暴公 | full |
+| [bao-xu](xizhou/bao-xu.md) | 褒姁 | 褒姁 | full |
 | [bo-shi](xizhou/bo-shi.md) | 伯士 | 伯士 | full |
 | [bo-yu](xizhou/bo-yu.md) | 伯御 | 伯御 | full |
 | [cai-lihou](xizhou/cai-lihou.md) | 蔡厉侯 | 蔡厉侯 | full |
@@ -42,6 +43,9 @@
 | [fang-shu](xizhou/fang-shu.md) | 方叔 | 方叔 | full |
 | [feng-wang](xizhou/feng-wang.md) | 丰王 | 丰王 | full |
 | [gong-bo-he](xizhou/gong-bo-he.md) | 共伯和 | 共伯和 | full |
+| [guo-changfu](xizhou/guo-changfu.md) | 虢公长父 | 虢公长父 | full |
+| [guo-han](xizhou/guo-han.md) | 虢公翰 | 虢公翰 | full |
+| [guo-shu](xizhou/guo-shu.md) | 虢叔 | 东虢虢叔 | full |
 | [guo-wengong](xizhou/guo-wengong.md) | 虢文公 | 虢文公 | full |
 | [han-hou](xizhou/han-hou.md) | 韩侯 | 韩侯 | full |
 | [han-ji](xizhou/han-ji.md) | 韩姞 | 韩姞 | full |
@@ -69,11 +73,16 @@
 | [jue-fu](xizhou/jue-fu.md) | 蹶父 | 蹶父 | full |
 | [jue-quma](xizhou/jue-quma.md) | 蹶 | 蹶趣马 | full |
 | [miao-ying](xizhou/miao-ying.md) | 缪嬴 | 缪嬴 | full |
+| [mou-qugong](xizhou/mou-qugong.md) | 谋娶公 | 杞谋娶公 | full |
 | [nan-zhong](xizhou/nan-zhong.md) | 南仲 | 南仲 | full |
 | [qi-chenggong](xizhou/qi-chenggong.md) | 姜脱 | 齐成公 | full |
+| [qi-degong](xizhou/qi-degong.md) | 杞德公 | 杞德公 | full |
+| [qi-gonggong](xizhou/qi-gonggong.md) | 杞共公 | 杞共公 | full |
 | [qi-hugong](xizhou/qi-hugong.md) | 姜静 | 齐胡公 | full |
+| [qi-jinggong](xizhou/qi-jinggong.md) | 杞靖公 | 杞靖公 | full |
 | [qi-ligong](xizhou/qi-ligong.md) | 姜无忌 | 齐厉公 | full |
 | [qi-wengong](xizhou/qi-wengong.md) | 姜赤 | 齐文公 | full |
+| [qi-wugong-qi](xizhou/qi-wugong-qi.md) | 杞武公 | 杞武公 | full |
 | [qi-wugong](xizhou/qi-wugong.md) | 姜寿 | 齐武公 | full |
 | [qi-xiangong](xizhou/qi-xiangong.md) | 姜山 | 齐献公 | full |
 | [qi-zhuanggong](xizhou/qi-zhuanggong.md) | 姜购 | 齐庄公 | full |
@@ -83,6 +92,7 @@
 | [qin-zhuanggong](xizhou/qin-zhuanggong.md) | 秦庄公 | 秦庄公 | full |
 | [reng-shu](xizhou/reng-shu.md) | 仍叔 | 仍叔 | full |
 | [rong-yigong](xizhou/rong-yigong.md) | 荣夷公 | 荣夷公 | full |
+| [shen-bo](xizhou/shen-bo.md) | 申伯 | 申伯 | full |
 | [shen-hou-nv](xizhou/shen-hou-nv.md) | 申后 | 申后 | full |
 | [shi-bo](xizhou/shi-bo.md) | 史伯 | 史伯 | full |
 | [shi-fu](xizhou/shi-fu.md) | 师服 | 师服 | full |
@@ -90,6 +100,10 @@
 | [shu-dai](xizhou/shu-dai.md) | 叔带 | 赵叔带 | full |
 | [shu-kan](xizhou/shu-kan.md) | 叔堪 | 楚叔堪 | full |
 | [si-ren-mengzi](xizhou/si-ren-mengzi.md) | 孟子 | 寺人孟子 | full |
+| [song-aigong](xizhou/song-aigong.md) | 宋哀公 | 宋哀公 | full |
+| [song-daigong](xizhou/song-daigong.md) | 宋戴公 | 宋戴公 | full |
+| [song-huigong](xizhou/song-huigong.md) | 子覵 | 宋惠公 | full |
+| [song-xigong](xizhou/song-xigong.md) | 子举 | 宋釐公 | full |
 | [su-gong](xizhou/su-gong.md) | 苏公 | 苏公 | full |
 | [wei-gongbo](xizhou/wei-gongbo.md) | 姬余 | 卫共伯 | full |
 | [wei-he](xizhou/wei-he.md) | 姬和 | 卫武公 | full |
@@ -108,6 +122,7 @@
 | [xiong-yi](xizhou/xiong-yi.md) | 熊仪 | 楚若敖 | full |
 | [xiong-yong](xizhou/xiong-yong.md) | 熊勇 | 楚熊勇 | full |
 | [xiong-zhici](xizhou/xiong-zhici.md) | 熊执疵 | 楚越章王 | full |
+| [xu-nan](xizhou/xu-nan.md) | 许男 | 许男 | full |
 | [yan-fu](xizhou/yan-fu.md) | 奄父 | 赵奄父 | full |
 | [yan-huihou](xizhou/yan-huihou.md) | 燕惠侯 | 燕惠侯 | full |
 | [yan-qinghou](xizhou/yan-qinghou.md) | 燕顷侯 | 燕顷侯 | full |

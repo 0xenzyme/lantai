@@ -14,6 +14,7 @@
 | [ren-zong](yuan/ren-zong.md) | 爱育黎拔力八达 | 元仁宗爱育黎拔力八达 | full |
 | [ying-zong](yuan/ying-zong.md) | 硕德八剌 | 元英宗硕德八剌 | full |
 | [yesun-temur](yuan/yesun-temur.md) | 也孙铁木儿 | 元泰定帝也孙铁木儿 | full |
+| [a-su-ji-ba](yuan/a-su-ji-ba.md) | 阿速吉八 | 元天顺帝阿速吉八 | full |
 | [tu-tiemuer](yuan/tu-tiemuer.md) | 图帖睦尔 | 元文宗图帖睦尔 | full |
 | [he-shila](yuan/he-shila.md) | 和世㻋 | 元明宗和世㻋 | full |
 | [yi-linzhiban](yuan/yi-linzhiban.md) | 懿璘质班 | 元宁宗懿璘质班 | full |
@@ -69,6 +70,7 @@
 | [ba-si-ba](yuan/ba-si-ba.md) | 八思巴 | 八思巴 | full |
 | [liu-yin](yuan/liu-yin.md) | 刘因 | 刘因 | full |
 | [dan-ba](yuan/dan-ba.md) | 胆巴 | 胆巴 | full |
+| [guan-hanqing](yuan/guan-hanqing.md) | 关汉卿 | 关汉卿 | full |
 | [xian-yu-shu](yuan/xian-yu-shu.md) | 鲜于枢 | 鲜于枢 | full |
 | [wang-yun-yuan](yuan/wang-yun-yuan.md) | 王恽 | 王恽 | full |
 | [a-nige](yuan/a-nige.md) | 阿尼哥 | 阿尼哥 | full |
@@ -78,6 +80,8 @@
 | [guan-daosheng](yuan/guan-daosheng.md) | 管道升 | 管道升 | full |
 | [ma-zhiyuan](yuan/ma-zhiyuan.md) | 马致远 | 马致远 | full |
 | [zhao-mengfu](yuan/zhao-mengfu.md) | 赵孟頫 | 赵孟頫 | full |
+| [wang-shifu](yuan/wang-shifu.md) | 王实甫 | 王实甫 | full |
+| [huang-daopo](yuan/huang-daopo.md) | 黄道婆 | 黄道婆 | full |
 | [wang-zhen](yuan/wang-zhen.md) | 王祯 | 王祯 | full |
 | [wu-cheng](yuan/wu-cheng.md) | 吴澄 | 吴澄 | full |
 | [xu-qian](yuan/xu-qian.md) | 许谦 | 许谦 | full |
@@ -91,9 +95,11 @@
 | [wang-mian](yuan/wang-mian.md) | 王冕 | 王冕 | full |
 | [yang-weizhen](yuan/yang-weizhen.md) | 杨维桢 | 杨维桢 | full |
 | [li-tan](yuan/li-tan.md) | 李璮 | 李璮 | full |
+| [a-he-ma](yuan/a-he-ma.md) | 阿合马 | 阿合马 | full |
 | [hai-du](yuan/hai-du.md) | 海都 | 海都 | full |
 | [han-shantong](yuan/han-shantong.md) | 韩山童 | 韩山童 | full |
 | [xu-shouhui](yuan/xu-shouhui.md) | 徐寿辉 | 徐寿辉 | full |
+| [liu-futong](yuan/liu-futong.md) | 刘福通 | 刘福通 | full |
 | [chen-youliang](yuan/chen-youliang.md) | 陈友谅 | 陈友谅 | full |
 | [ming-yuzhen](yuan/ming-yuzhen.md) | 明玉珍 | 明玉珍 | full |
 | [han-liner](yuan/han-liner.md) | 韩林儿 | 韩林儿 | full |

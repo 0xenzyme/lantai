@@ -1,0 +1,27 @@
+---
+id: guo-changfu
+name: 虢公长父
+display: 虢公长父
+profile: full
+gender: male
+polity:
+  - zhou
+categories:
+  - vassal
+birthAccuracy: unknown
+death: -839
+deathAccuracy: approx
+deathNote: 卒年不详。仅见竹书厉王三年命伐淮夷不克。
+title: 厉王时虢君，伐淮夷不克
+tags:
+  - 虢
+  - 淮夷
+aliases:
+  - 虢公长父
+sources:
+  - work: 今本竹书纪年
+    part: 周纪
+    kind: classic
+---
+
+竹书厉王三年淮夷侵洛，王命虢公长父伐之，不克。史记周本纪不见其名。

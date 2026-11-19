@@ -29,6 +29,7 @@
 | [ji-guang](chunqiu/ji-guang.md) | 姬光 | 吴王阖闾 | full |
 | [ji-fucha](chunqiu/ji-fucha.md) | 姬夫差 | 吴王夫差 | full |
 | [si-goujian](chunqiu/si-goujian.md) | 姒勾践 | 越王勾践 | full |
+| [li-ji](chunqiu/li-ji.md) | 骊姬 | 骊姬 | full |
 | [guan-zhong](chunqiu/guan-zhong.md) | 管夷吾 | 管仲 | full |
 | [bao-shuya](chunqiu/bao-shuya.md) | 鲍叔牙 | 鲍叔牙 | full |
 | [hu-yan](chunqiu/hu-yan.md) | 狐偃 | 狐偃 | full |
@@ -37,6 +38,7 @@
 | [wu-yuan](chunqiu/wu-yuan.md) | 伍员 | 伍子胥 | full |
 | [fan-li](chunqiu/fan-li.md) | 范蠡 | 范蠡 | full |
 | [wen-zhong](chunqiu/wen-zhong.md) | 文种 | 文种 | full |
+| [kong-zi](chunqiu/kong-zi.md) | 孔丘 | 孔子 | full |
 | [sun-wu](chunqiu/sun-wu.md) | 孙武 | 孙武 | full |
 | [jin-zhaohou](chunqiu/jin-zhaohou.md) | 姬伯 | 晋昭侯 | full |
 | [jin-xiaohou](chunqiu/jin-xiaohou.md) | 姬平 | 晋孝侯 | full |
@@ -236,6 +238,7 @@
 | [zhuan-zhu](chunqiu/zhuan-zhu.md) | 专诸 | 专诸 | full |
 | [wang-zi-chao](chunqiu/wang-zi-chao.md) | 姬朝 | 王子朝 | full |
 | [tai-zai-pi](chunqiu/tai-zai-pi.md) | 伯嚭 | 太宰嚭 | full |
+| [yan-hui](chunqiu/yan-hui.md) | 颜回 | 颜回 | full |
 | [zhu-zhiwu](chunqiu/zhu-zhiwu.md) | 烛之武 | 烛之武 | full |
 | [shen-baoxu](chunqiu/shen-baoxu.md) | 申包胥 | 申包胥 | full |
 | [ji-zha](chunqiu/ji-zha.md) | 季札 | 季札 | full |

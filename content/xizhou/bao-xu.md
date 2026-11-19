@@ -1,0 +1,26 @@
+---
+id: bao-xu
+name: 褒姁
+display: 褒姁
+profile: full
+gender: male
+polity:
+  - zhou
+categories:
+  - vassal
+birthAccuracy: unknown
+death: -771
+deathAccuracy: approx
+deathNote: 卒年不详。国语记褒姁有狱、入女于王而生伯服，取镐京之年为可见下限。
+title: 褒国之君，入女于王
+tags:
+  - 褒
+aliases:
+  - 褒姁
+sources:
+  - work: 国语
+    part: 郑语
+    kind: classic
+---
+
+国语：褒姁有狱，入女于王，王嬖是女至于为后而生伯服。史记只称褒人有罪。

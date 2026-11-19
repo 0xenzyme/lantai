@@ -39,11 +39,14 @@ test('资料不足人物缺省读取，不伪造年份、归属或可选字段',
   assert.equal(brief.bio, undefined);
   assert.equal(brief.works, undefined);
   assert.equal(brief.experiences, undefined);
-  const legacy = read<PersonDetail>('public/data/people/bao-xu.json');
+  const legacy = read<PersonDetail>('public/data/people/kuai-zhong.json');
   assert.equal(legacy.birth, undefined);
   assert.equal(legacy.polity, undefined);
   assert.equal(legacy.works, undefined);
   assert.equal(legacy.experiences, undefined);
+  const migrated = read<PersonDetail>('public/data/people/bao-xu.json');
+  assert.deepEqual(migrated.polity, ['zhou']);
+  assert.equal(migrated.profile, 'full');
 });
 
 test('安史之乱组合保留事实类型，成员和组成说明、出处可往返', async () => {

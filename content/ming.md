@@ -121,6 +121,8 @@
 | [dong-qichang](ming/dong-qichang.md) | 董其昌 | 董其昌 | full |
 | [xu-xiake](ming/xu-xiake.md) | 徐霞客 | 徐霞客 | full |
 | [song-yingxing](ming/song-yingxing.md) | 宋应星 | 宋应星 | full |
+| [luo-guanzhong](ming/luo-guanzhong.md) | 罗贯中 | 罗贯中 | full |
+| [wu-chengen](ming/wu-chengen.md) | 吴承恩 | 吴承恩 | full |
 | [hu-wei-yong](ming/hu-wei-yong.md) | 胡惟庸 | 胡惟庸 | full |
 | [wang-zhen-ming](ming/wang-zhen-ming.md) | 王振 | 王振 | full |
 | [ye-xian](ming/ye-xian.md) | 也先 | 也先 | full |
