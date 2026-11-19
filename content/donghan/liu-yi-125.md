@@ -2,15 +2,22 @@
 id: liu-yi-125
 name: 刘懿
 display: 汉少帝刘懿（北乡侯）
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - monarch
 birthAccuracy: unknown
 death: 125
 deathAccuracy: exact
+title: 北乡侯，阎氏所立少帝
+tags:
+  - 东汉
 sources:
   - work: 后汉书
     part: 卷5 孝安帝纪
     kind: classic
 ---
+
+章帝孙，济北惠王寿之子，封北乡侯。延光四年三月安帝崩于南巡途次，阎皇后临朝，与其兄车骑将军阎显定策禁中，立北乡侯懿为帝。同年十月辛亥少帝薨；宦官孙程等旋诛江京、阎显，迎立济阴王为顺帝。

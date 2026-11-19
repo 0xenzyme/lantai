@@ -2,15 +2,24 @@
 id: fu-gong
 name: 伏恭
 display: 伏恭
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - scholar
 birthAccuracy: unknown
 death: 84
 deathAccuracy: exact
+title: 司空，齐诗伏氏学
+tags:
+  - 东汉
+aliases:
+  - 伏叔齐
 sources:
   - work: 后汉书
     part: 儒林列传下
     kind: classic
 ---
+
+琅邪东武人，字叔齐，司徒伏湛之兄子，少传伏黯学，习《齐诗》。为剧县令十三年，以惠政公廉闻；青州举尤异，太常试经第一拜博士，迁常山太守，教授不辍，北州多为伏氏学。永平四年帝临辟雍，于行礼中拜为司空，儒者以为荣；省减父黯章句浮辞，定为二十万言。建初二年肃宗行饗礼，以为三老。元和元年卒，年九十，赐葬显节陵下。

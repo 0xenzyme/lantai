@@ -2,16 +2,25 @@
 id: huan-rong
 name: 桓荣
 display: 桓荣
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - scholar
 birthAccuracy: unknown
 death: 59
 deathAccuracy: approx
 deathNote: 传不载卒年。传云「三十年，拜为太常」raw/东汉/後漢書/卷37.md:21，「永平二年，三雍初成，拜荣为五更」同卷 :25，其后尚有荣卒之文；取永平二年（59）为活动下限系年，非寿数。
+title: 帝师，五更，关内侯
+tags:
+  - 东汉
+aliases:
+  - 桓春卿
 sources:
   - work: 后汉书
     part: 桓荣丁鸿列传
     kind: classic
 ---
+
+沛郡龙亢人，字春卿，少学长安习《欧阳尚书》，事博士朱普，贫窭佣以自给，十五年不窥家园。建武十九年年六十余始辟大司徒府，以《尚书》授皇太子（显宗），帝称「得生几晚」；二十八年拜太子少傅，三十年迁太常。显宗即位尊以师礼，永平二年三雍初成拜为五更，封关内侯食邑五千户，天子亲自执业，每言辄曰「大师在是」。初受朱普章句四十万言，入授显宗减为二十三万言，子郁复删定成十二万言，由是有桓君大小太常章句。门徒多至公卿，子郁嗣。

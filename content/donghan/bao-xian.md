@@ -2,15 +2,24 @@
 id: bao-xian
 name: 包咸
 display: 包咸
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - scholar
 birthAccuracy: unknown
 death: 65
 deathAccuracy: exact
+title: 大鸿胪，明帝《论语》师
+tags:
+  - 东汉
+aliases:
+  - 包子良
 sources:
   - work: 后汉书
     part: 儒林列传下
     kind: classic
 ---
+
+会稽曲阿人，字子良，少受业长安，师事博士右师细君，习《鲁诗》《论语》。王莽末为赤眉所得，拘执十余日晨夜诵经自若，贼异而遣之，因立精舍讲授。建武中入授皇太子《论语》并为其章句，官至大鸿胪；显宗以其有师傅恩，赏赐奉禄增于诸卿，咸皆散与诸生之贫者。永平八年卒于官，年七十二。

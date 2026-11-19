@@ -2,15 +2,23 @@
 id: zhang-liang-184
 name: 张梁
 display: 张梁
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - rebel
 birthAccuracy: unknown
 death: 184
 deathAccuracy: exact
+title: 黄巾人公将军，张角之弟
+tags:
+  - 东汉
+  - 黄巾
 sources:
   - work: 后汉书
     part: 卷71 皇甫嵩朱儁列传
     kind: classic
 ---
+
+巨鹿人，张角之弟，黄巾军「人公将军」。中平元年与兄角、宝一时俱起，所在燔烧官府劫略聚邑，旬日之间天下响应，京师震动。皇甫嵩进兵讨之，与梁战于广宗，梁众精勇嵩不能克；嵩闭营休士以观其变，知贼意稍懈，潜夜勒兵鸡鸣驰赴其阵，战至晡时大破之，斩梁，获首三万级，赴河死者五万许人。角先已病死，剖棺戮尸，传首京师。

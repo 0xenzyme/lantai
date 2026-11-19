@@ -2,15 +2,22 @@
 id: deng-mengnv
 name: 邓猛女
 display: 桓帝邓皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - han
+categories:
+  - consort
 birthAccuracy: unknown
 death: 165
 deathAccuracy: exact
+title: 桓帝皇后，梁冀诛后所立
+tags:
+  - 东汉
 sources:
   - work: 后汉书
     part: 卷10下 皇后纪下
     kind: classic
 ---
+
+邓香之女，和熹邓皇后从兄子之女，母宣改嫁梁纪，随母冒姓梁氏。因梁冀妻孙寿引入掖庭，永兴中为采女，绝幸；懿献梁皇后崩、梁冀诛，立为皇后，帝恶梁氏改姓薄，有司奏复为邓氏。帝多内幸，后恃尊骄忌，与郭贵人更相谮诉；延熹八年诏废，送暴室，以忧死，立七年，葬北邙。

@@ -2,16 +2,26 @@
 id: liu-penzi
 name: 刘盆子
 display: 建世帝刘盆子
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - monarch
 birth: 10
 birthAccuracy: approx
 birthNote: 传云「盆子时年十五」当建世元年（25），据以推生年约 10。 raw/东汉/後漢書/卷11.md:68
 deathAccuracy: unknown
+title: 赤眉所立建世帝
+tags:
+  - 东汉
+  - 赤眉
+aliases:
+  - 建世帝
 sources:
   - work: 后汉书
     part: 卷11 刘玄刘盆子列传
     kind: classic
 ---
+
+太山式人，城阳景王刘章之后，祖父宪元帝时封式侯，王莽时国除。赤眉过式掠盆子及二兄恭、茂于军中，盆子属右校卒吏刘侠卿主刍牧牛，号曰牛吏。樊崇等因军中齐巫之言求立刘氏，于郑北设坛场，以年次探札，盆子最幼探得帝符，时年十五，遂立为帝，号建世元年。赤眉入长安，更始降，盆子居长乐宫而诸将剽掠日甚，盆子惶恐日夜啼泣，随兄恭归玺绶请退，众莫不哀怜。建武三年樊崇等降于宜阳，盆子亦肉袒降；帝怜之以为赵王郎中，后病失明，赐荥阳均输官地，使食其税终身。

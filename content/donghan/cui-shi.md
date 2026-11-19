@@ -2,16 +2,26 @@
 id: cui-shi
 name: 崔寔
 display: 崔寔
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - scholar
+  - thinker
 birthAccuracy: unknown
 death: 169
 deathAccuracy: approx
 deathNote: 传止云「建宁中病卒」（建宁元年至四年，168—172），无确年；台账取 approx 169，非寿数。 raw/东汉/後漢書/卷52.md:455
+title: 五原太守，著《政论》
+tags:
+  - 东汉
+aliases:
+  - 崔子真
 sources:
   - work: 后汉书
     part: 卷52 崔骃列传
     kind: classic
 ---
+
+字子真，一名台，少沉静好典籍，父卒隐居墓侧。桓帝初举至孝独行之士，病不对策除为郎；论当世便事数十条，名曰《政论》，指切时要，仲长统称人主宜写一通置之坐侧。出为五原太守，教民纺绩织纴，民得免寒苦；整厉士马严烽候，虏不敢犯，常为边最。后拜尚书，以世方阻乱称疾不视事，数月免归。建宁中病卒，家徒四壁，光禄勋杨赐、太仆袁逢、少府段颎为备棺椁葬具。

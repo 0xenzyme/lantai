@@ -2,15 +2,24 @@
 id: liu-kun-57
 name: 刘昆
 display: 刘昆
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - scholar
 birthAccuracy: unknown
 death: 57
 deathAccuracy: exact
+title: 光禄勋，弘农太守
+tags:
+  - 东汉
+aliases:
+  - 刘桓公
 sources:
   - work: 后汉书
     part: 儒林列传上
     kind: classic
 ---
+
+陈留东昏人，字桓公，梁孝王之后。少习容礼，受《施氏易》，能弹雅琴；王莽时教授弟子恒五百余人，以多聚徒私行大礼系外黄狱，莽败得免。建武中为江陵令，县连年火灾，昆辄向火叩头多能降雨止风；迁弘农太守，为政三年仁化大行，虎皆负子度河。帝诏问行何德政，昆对曰「偶然耳」，帝叹「此乃长者之言」，命书诸策，令入授皇太子及诸王小侯五十余人。二十二年征为光禄勋，二十七年拜骑都尉，中元二年卒。

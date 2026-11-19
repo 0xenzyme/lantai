@@ -2,15 +2,22 @@
 id: song-hou-lingdi
 name: 宋皇后
 display: 灵帝宋皇后
-profile: brief
+profile: full
 gender: female
 polity:
   - han
+categories:
+  - consort
 birthAccuracy: unknown
 death: 178
 deathAccuracy: exact
+title: 灵帝皇后，光和元年被构废忧死
+tags:
+  - 东汉
 sources:
   - work: 后汉书
     part: 卷10下 皇后纪下
     kind: classic
 ---
+
+扶风平陵人，肃宗宋贵人之从曾孙。建宁三年选入掖庭为贵人，明年立为皇后，父酆封不其乡侯。后无宠而居正位，后宫幸姬共谮毁之；中常侍王甫枉诛勃海王悝及宋妃，恐后怨之，与程阿共构言皇后挟左道祝诅。光和元年策收玺绶，后自致暴室，以忧死，在位八年，父及兄弟并被诛。灵帝后梦桓帝怒责，许永谏请改葬昭雪，帝不能用。

@@ -2,16 +2,26 @@
 id: zhang-jian
 name: 张俭
 display: 张俭
-profile: brief
+profile: full
 gender: male
 polity:
   - han
+categories:
+  - scholar-official
 birthAccuracy: unknown
 death: 196
 deathAccuracy: approx
 deathNote: 传云「（建安初）岁余卒于许下。年八十四」，建安初年之后岁余，无确年；台账取 approx 196。 raw/东汉/後漢書/卷67.md:179
+title: 党锢名士，望门投止
+tags:
+  - 东汉
+  - 党锢
+aliases:
+  - 张元节
 sources:
   - work: 后汉书
     part: 卷67 党锢列传
     kind: classic
 ---
+
+山阳高平人，字元节，赵王张耳之后。延熹八年为东部督邮，举劾中常侍侯览及其母罪恶请诛之，览遏绝章表，由是结仇。乡人朱并上书告俭与同郡二十四人为党，刊章讨捕；俭望门投止，人莫不重其名行破家相容，所经历伏重诛者以十数，郡县为之残破。中平元年党事解还乡里，大将军、三公并辟皆不就；献帝初饥荒，倾竭财产与邑里共之。建安初征为卫尉，见曹氏世德已萌，阖门悬车不豫政事，岁余卒于许下，年八十四。
