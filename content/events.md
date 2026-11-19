@@ -173,7 +173,6 @@
 | [mayi-zhimou](events/mayi-zhimou.md) | 马邑之谋 | 马邑之谋 | military | -133 |
 | [henan-zhizhan](events/henan-zhizhan.md) | 河南之战 | 河南之战 | military | -127 |
 | [tuien-ling](events/tuien-ling.md) | 推恩令 | 推恩令 | institutional | -127 |
-| [tuienling](events/tuienling.md) | 推恩令 | 推恩令 | institutional | -127 |
 | [taixue-yu-boshi-dizi](events/taixue-yu-boshi-dizi.md) | 太学与博士弟子立 | 太学立 | institutional | -124 |
 | [hexi-zhizhan](events/hexi-zhizhan.md) | 河西之战 | 河西之战 | military | -121 |
 | [mobei-zhizhan](events/mobei-zhizhan.md) | 漠北之战 | 漠北之战 | military | -119 |
@@ -205,7 +204,6 @@
 | [xiping-shijing](events/xiping-shijing.md) | 熹平石经刊刻 | 熹平石经刊刻 | cultural | 175 |
 | [huangjin-zhi-luan](events/huangjin-zhi-luan.md) | 黄巾之乱 | 黄巾之乱 | rebellion | 184 |
 | [dong-zhuo-luan-zheng](events/dong-zhuo-luan-zheng.md) | 董卓乱政与迁都 | 董卓乱政与迁都 | political | 189 |
-| [sun-ce-ping-jiangdong](events/sun-ce-ping-jiangdong.md) | 孙策平定江东 | 孙策平定江东 | military | 195 |
 | [sunce-ping-jiangdong](events/sunce-ping-jiangdong.md) | 孙策平定江东 | 孙策平定江东 | military | 195 |
 | [caocao-feng-tianzi](events/caocao-feng-tianzi.md) | 曹操奉天子迁都许 | 奉天子都许 | political | 196 |
 | [caowei-tuntian](events/caowei-tuntian.md) | 曹魏屯田制 | 曹魏屯田制 | institutional | 196 |
@@ -233,12 +231,10 @@
 | [caopi-fawu](events/caopi-fawu.md) | 曹丕三路伐吴 | 曹丕三路伐吴 | military | 222 |
 | [yiling-zhizhan](events/yiling-zhizhan.md) | 夷陵之战 | 夷陵之战 | military | 222 |
 | [baidi-tuogu](events/baidi-tuogu.md) | 白帝托孤 | 白帝托孤 | political | 223 |
-| [nanzheng-menghuo](events/nanzheng-menghuo.md) | 诸葛亮南征 | 诸葛亮南征 | military | 225 |
 | [zhuge-liang-nanzheng](events/zhuge-liang-nanzheng.md) | 诸葛亮南征 | 诸葛亮南征 | military | 225 |
 | [jieting-zhizhan](events/jieting-zhizhan.md) | 街亭之战 | 街亭之战 | military | 228 |
 | [shiting-zhizhan](events/shiting-zhizhan.md) | 石亭之战 | 石亭之战 | military | 228 |
 | [zhuge-liang-beifa](events/zhuge-liang-beifa.md) | 诸葛亮北伐 | 诸葛亮北伐 | military | 228 |
-| [zhugeliang-beifa](events/zhugeliang-beifa.md) | 诸葛亮北伐 | 诸葛亮北伐 | military | 228 |
 | [sunquan-chengdi](events/sunquan-chengdi.md) | 孙权称帝，建号吴 | 孙权称帝，建号吴 | political | 229 |
 | [zhongfen-tianxia-zhimeng](events/zhongfen-tianxia-zhimeng.md) | 吴蜀中分天下之盟 | 中分天下之盟 | diplomatic | 229 |
 | [simayi-ping-liaodong](events/simayi-ping-liaodong.md) | 司马懿平辽东 | 司马懿平辽东 | military | 238 |
@@ -349,9 +345,8 @@
 | [pingyang-zhizhan](events/pingyang-zhizhan.md) | 平阳之战 | 平阳之战 | military | 576 |
 | [yuchijiong-zhiluan](events/yuchijiong-zhiluan.md) | 尉迟迥之乱 | 尉迟迥之乱 | rebellion | 580 |
 | [kaihuang-lv](events/kaihuang-lv.md) | 开皇律 | 开皇律 | institutional | 581 |
-| [sanxing-liubu](events/sanxing-liubu.md) | 三省六部制确立 | 三省六部制确立 | institutional | 581 |
+| [sansheng-liubu](events/sansheng-liubu.md) | 三省六部制确立 | 三省六部制确立 | institutional | 581 |
 | [yang-jian-dai-zhou](events/yang-jian-dai-zhou.md) | 杨坚代周 | 杨坚代周 | political | 581 |
-| [sanzheng-liubu](events/sanzheng-liubu.md) | 三省六部制确立 | 三省六部制确立 | institutional | 583 |
 | [keju-kaishi](events/keju-kaishi.md) | 隋文帝设科举 | 隋文帝设科举 | institutional | 587 |
 | [sui-mie-chen](events/sui-mie-chen.md) | 隋灭陈 | 隋灭陈 | military | 588 |
 | [fenke-juren](events/fenke-juren.md) | 开皇分科举人 | 开皇分科举人 | institutional | 598 |
@@ -403,13 +398,11 @@
 | [jingyuan-bingbian](events/jingyuan-bingbian.md) | 泾原兵变 | 泾原兵变 | political | 783 |
 | [jingyuan-zhibian](events/jingyuan-zhibian.md) | 泾原兵变与奉天之难 | 泾原兵变与奉天之难 | rebellion | 783 |
 | [qingshui-zhimeng](events/qingshui-zhimeng.md) | 清水会盟与平凉劫盟 | 清水会盟与平凉劫盟 | diplomatic | 783 |
-| [yongzhen-gaige](events/yongzhen-gaige.md) | 永贞革新 | 永贞革新 | institutional | 805 |
 | [yongzhen-gexin](events/yongzhen-gexin.md) | 永贞革新 | 永贞革新 | institutional | 805 |
 | [liupi-zhiluan](events/liupi-zhiluan.md) | 刘辟之乱 | 刘辟之乱 | rebellion | 806 |
 | [niu-li-dangzheng](events/niu-li-dangzheng.md) | 牛李党争 | 牛李党争 | political | 808 |
 | [yuanhe-huaixi](events/yuanhe-huaixi.md) | 元和淮西之战 | 元和淮西之战 | military | 815 |
 | [yuanhe-zhongxing](events/yuanhe-zhongxing.md) | 元和中兴 | 元和中兴 | political | 817 |
-| [changqing-hui-meng](events/changqing-hui-meng.md) | 长庆会盟 | 长庆会盟 | diplomatic | 821 |
 | [changqing-huimeng](events/changqing-huimeng.md) | 长庆会盟 | 长庆会盟 | diplomatic | 821 |
 | [ganlu-zhibian](events/ganlu-zhibian.md) | 甘露之变 | 甘露之变 | political | 835 |
 | [huihu-xiqian](events/huihu-xiqian.md) | 回鹘西迁 | 回鹘西迁 | military | 840 |
@@ -422,7 +415,6 @@
 | [machu-jianli](events/machu-jianli.md) | 马楚建立 | 马楚建立 | political | 907 |
 | [mayin-jian-chu](events/mayin-jian-chu.md) | 楚建国 | 楚建国 | political | 907 |
 | [qianshu-jianli](events/qianshu-jianli.md) | 前蜀建立 | 前蜀建立 | political | 907 |
-| [wangjian-chengdi](events/wangjian-chengdi.md) | 前蜀建立 | 前蜀建立 | political | 907 |
 | [wuyue-jianli](events/wuyue-jianli.md) | 吴越建立 | 吴越建立 | political | 907 |
 | [zhu-wen-dai-tang](events/zhu-wen-dai-tang.md) | 朱温篡唐 | 朱温篡唐 | political | 907 |
 | [jiazhai-zhizhan](events/jiazhai-zhizhan.md) | 夹寨之战 | 夹寨之战 | military | 908 |
@@ -443,14 +435,12 @@
 | [houdang-mie-houliang](events/houdang-mie-houliang.md) | 后唐灭后梁 | 后唐灭后梁 | military | 923 |
 | [houtang-mie-liang](events/houtang-mie-liang.md) | 后唐灭梁 | 后唐灭梁 | military | 923 |
 | [jingnan-jianli](events/jingnan-jianli.md) | 荆南建立 | 荆南建立 | political | 924 |
-| [houdang-mie-qianshu](events/houdang-mie-qianshu.md) | 后唐灭前蜀 | 后唐灭前蜀 | military | 925 |
 | [houtang-mie-qianshu](events/houtang-mie-qianshu.md) | 后唐灭前蜀 | 后唐灭前蜀 | military | 925 |
 | [qidan-mie-bohai](events/qidan-mie-bohai.md) | 契丹灭渤海 | 契丹灭渤海 | military | 926 |
 | [xingjiaomen-zhibian](events/xingjiaomen-zhibian.md) | 兴教门之变 | 兴教门之变 | political | 926 |
 | [guozijian-jiujing](events/guozijian-jiujing.md) | 监本九经 | 监本九经 | cultural | 932 |
 | [fengxiang-zhibian](events/fengxiang-zhibian.md) | 凤翔之变 | 凤翔之变 | political | 934 |
 | [houshu-jianli](events/houshu-jianli.md) | 后蜀建立 | 后蜀建立 | political | 934 |
-| [mengzhixiang-chengdi](events/mengzhixiang-chengdi.md) | 后蜀建立 | 后蜀建立 | political | 934 |
 | [ge-yanyun-shi-liu-zhou](events/ge-yanyun-shi-liu-zhou.md) | 割燕云十六州 | 割燕云十六州 | diplomatic | 936 |
 | [houjin-jianli](events/houjin-jianli.md) | 后晋建立 | 后晋建立 | political | 936 |
 | [jinyang-zhiwei](events/jinyang-zhiwei.md) | 晋阳之围 | 晋阳之围 | military | 936 |

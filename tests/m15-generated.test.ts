@@ -31,7 +31,7 @@ test('所有生成详情与 Collection 产物通过运行时 contract', () => {
     assert.deepEqual(validatePersonDetail(read<PersonDetail>(`public/data/people/${name}`), id), [], id);
   }
   const eventIds = readdirSync('public/data/events').filter((name) => name.endsWith('.json'));
-  assert.equal(eventIds.length, 708);
+  assert.equal(eventIds.length, 698);
   for (const name of eventIds) {
     const id = name.slice(0, -'.json'.length);
     assert.deepEqual(validateEventDetail(read<EventDetail>(`public/data/events/${name}`), id), [], id);
