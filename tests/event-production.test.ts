@@ -159,7 +159,7 @@ test('候选不能改 id、绕过状态或覆盖已有同名文件', () => {
 
 test('部分通过只应用合格项，pending 保留证据、原因与原始候选', () => {
   const yes = candidate();
-  const no = candidate(event('test-second'));
+  const no = candidate(event('test-second', { name: '测试改革二' }));
   delete no.review;
   const result = applyEventBatch(batch(yes, no), root, () => []);
   assert.deepEqual(result.appliedIds, ['test-reform']);
@@ -172,7 +172,7 @@ test('部分通过只应用合格项，pending 保留证据、原因与原始候
   assert.deepEqual(pending.items, [no]);
   assert.match(readFileSync(join(root, 'workspace/content/pending/test-batch/reasons.json'), 'utf8'), /尚无独立审核/);
   // Resume just the pending subset; the authoritative raw batch retains the already applied item.
-  pending.items[0] = candidate(event('test-second'));
+  pending.items[0] = candidate(event('test-second', { name: '测试改革二' }));
   const resumed = applyEventBatch(pending, root, () => []);
   assert.deepEqual(resumed.appliedIds, ['test-second']);
   assert.equal(resumed.items.find((i) => i.id === 'test-reform')?.state, 'already-applied');
@@ -206,7 +206,9 @@ test('源文件已写但索引未写的中断可恢复', () => {
 });
 
 test('未通过的组合候选不能被子事件引用；全部通过时可以共同发布', () => {
-  const parent = candidate(event('test-parent', { type: 'rebellion', endYear: 710, endYearAccuracy: 'exact' }));
+  const parent = candidate(
+    event('test-parent', { name: '测试战争', type: 'rebellion', endYear: 710, endYearAccuracy: 'exact' }),
+  );
   const child = candidate(
     event('test-child', { partOf: [{ id: 'test-parent', note: '测试组成', sources: [event().sources![0]] }] }),
   );

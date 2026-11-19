@@ -813,6 +813,27 @@ function lintDynasties(dynasties: DynastyTerm[]): LintMessage[] {
   return messages;
 }
 
+/** 同一事件只允许一个 canonical 实体：不同 id 的事件 name 重复即缺陷（事件线规则 0.1）。 */
+export function lintEventNameUniqueness(events: Map<string, RegistryEvent>, paths: Map<string, string>): LintMessage[] {
+  const messages: LintMessage[] = [];
+  const owners = new Map<string, string[]>();
+  for (const event of events.values()) {
+    const list = owners.get(event.name) ?? [];
+    list.push(event.id);
+    owners.set(event.name, list);
+  }
+  for (const [name, ids] of owners) {
+    if (ids.length < 2) continue;
+    const path = paths.get(ids[0]) ?? `content/events/${ids[0]}.md`;
+    messages.push({
+      level: 'error',
+      path,
+      message: `事件 name 重复，同一事件只能有一个 canonical 实体：${name} -> ${ids.join(', ')}`,
+    });
+  }
+  return messages;
+}
+
 export function lintEvents(data: PipelineData): LintMessage[] {
   const ctx: EventLintContext = {
     polityIds: vocabSet(data.polities),
@@ -846,6 +867,7 @@ export function lintEvents(data: PipelineData): LintMessage[] {
   }
   messages.push(...lintDynasties(data.dynasties));
   messages.push(...lintEventCompositionGraph(data.events));
+  messages.push(...lintEventNameUniqueness(data.events, data.eventPaths));
   return messages;
 }
 

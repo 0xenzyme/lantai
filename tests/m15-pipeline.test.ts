@@ -14,6 +14,7 @@ import {
   lintCollections,
   lintDiscovery,
   lintEventCompositionGraph,
+  lintEventNameUniqueness,
   lintRegistryEvent,
   lintRegistryPerson,
   mergeTopicRelations,
@@ -542,4 +543,23 @@ test('首页编辑事件引用校验重复项和不存在的 event id', () => {
     .join('\n');
   assert.match(messages, /events 不能有重复推荐/);
   assert.match(messages, /推荐事件不存在或未发布 ghost/);
+});
+
+test('事件 name 重复是缺陷：同一事件只能有一个 canonical 实体', () => {
+  const a = event({ id: 'same-name-a', name: '同名事件' });
+  const b = event({ id: 'same-name-b', name: '同名事件' });
+  const messages = lintEventNameUniqueness(
+    new Map([
+      [a.id, a],
+      [b.id, b],
+    ]),
+    new Map(),
+  )
+    .map((item) => item.message)
+    .join('\n');
+  assert.match(messages, /事件 name 重复/);
+  assert.match(messages, /same-name-a, same-name-b/);
+
+  const ok = lintEventNameUniqueness(new Map([[a.id, a]]), new Map());
+  assert.deepEqual(ok, []);
 });
