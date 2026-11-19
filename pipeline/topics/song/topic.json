@@ -2077,6 +2077,164 @@
       "target": "wanyan-yong",
       "type": "rival",
       "note": "大定之世金不轻言南牧，宋得息肩于淮汉之间"
+    },
+    {
+      "source": "su-xun",
+      "target": "su-shi",
+      "type": "kin",
+      "note": "父子。嘉祐间父子文名动京师"
+    },
+    {
+      "source": "su-xun",
+      "target": "su-zhe",
+      "type": "kin",
+      "note": "父子。辙亦以文名世，并称三苏"
+    },
+    {
+      "source": "su-shi",
+      "target": "su-zhe",
+      "type": "kin",
+      "note": "兄弟。嘉祐同榜，并称二苏"
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "su-xun",
+      "type": "peer",
+      "note": "上洵所著书二十二篇于朝，士争传诵"
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "zeng-gong",
+      "type": "mentor",
+      "note": "巩布衣时修见其文，延誉而显于世"
+    },
+    {
+      "source": "su-shi",
+      "target": "huang-tingjian",
+      "type": "mentor",
+      "note": "苏门四学士，诗并称苏黄"
+    },
+    {
+      "source": "su-shi",
+      "target": "qin-guan",
+      "type": "mentor",
+      "note": "苏门四学士，词称婉约之宗"
+    },
+    {
+      "source": "su-shi",
+      "target": "zhang-lei",
+      "type": "mentor",
+      "note": "苏门四学士之一，与补之耒并称"
+    },
+    {
+      "source": "su-shi",
+      "target": "wang-anshi",
+      "type": "peer",
+      "note": "议新法不合；元丰末道过金陵相见"
+    },
+    {
+      "source": "zhou-dunyi",
+      "target": "cheng-hao",
+      "type": "mentor",
+      "note": "颢年十五六，与弟从敦颐问学"
+    },
+    {
+      "source": "zhou-dunyi",
+      "target": "cheng-yi",
+      "type": "mentor",
+      "note": "与兄颢同从敦颐受业，遂厌科举之习"
+    },
+    {
+      "source": "zhu-xi",
+      "target": "lu-jiuyuan",
+      "type": "peer",
+      "since": 1175,
+      "note": "鹅湖之会，论学多不合而各成其统"
+    },
+    {
+      "source": "chen-liang",
+      "target": "xin-qiji",
+      "type": "peer",
+      "note": "同游鹅湖，纵论恢复，相酬以词"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "han-qi",
+      "type": "peer",
+      "note": "同帅陕西御元昊，天下称为韩范"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "li-yuanhao",
+      "type": "rival",
+      "note": "元昊犯边，仲淹知延州御之"
+    },
+    {
+      "source": "kou-zhun",
+      "target": "wang-qinruo",
+      "type": "rival",
+      "note": "钦若与准不协，谮澶渊为城下之盟"
+    },
+    {
+      "source": "kou-zhun",
+      "target": "ding-wei",
+      "type": "rival",
+      "note": "谓媒孽其过，遂罢准相而贬雷州"
+    },
+    {
+      "source": "han-shizhong",
+      "target": "qin-hui",
+      "type": "rival",
+      "note": "诣桧诘莫须有，三字何以服天下"
+    },
+    {
+      "source": "yue-fei",
+      "target": "zhang-jun-1086",
+      "type": "rival",
+      "note": "飞冤狱，世忠救之而俊独助桧成其事"
+    },
+    {
+      "source": "lu-you",
+      "target": "qin-hui",
+      "type": "rival",
+      "since": 1153,
+      "note": "锁厅试居桧孙塤之先，桧怒而显黜之"
+    },
+    {
+      "source": "zong-ze",
+      "target": "yue-fei",
+      "type": "mentor",
+      "note": "奇其才授阵图，飞论运用存乎一心"
+    },
+    {
+      "source": "wen-tianxiang",
+      "target": "zhang-shijie",
+      "type": "peer",
+      "note": "同起兵勤王，共守行朝以终宋祚"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "sima-guang",
+      "type": "ruler-subject",
+      "note": "与王安石议新法不合，退居洛修通鉴"
+    },
+    {
+      "source": "zhao-shu",
+      "target": "han-qi",
+      "type": "ruler-subject",
+      "note": "琦请建储定策，迎立英宗并调停两宫"
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "han-tuozhou",
+      "type": "ruler-subject",
+      "note": "宁宗既立，侂胄欲推定策恩而专政"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zong-ze",
+      "type": "ruler-subject",
+      "note": "命为东京留守，泽屡疏请上还京"
     }
   ],
   "events": [
