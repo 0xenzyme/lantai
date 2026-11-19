@@ -209,6 +209,9 @@ export interface CombinedLayoutOptions {
   viewId?: string | null;
   domain?: [number, number];
   largeRows?: boolean;
+  focusIds?: Set<string> | null;
+  isComparing?: boolean;
+  personResolver?: (id: string) => Person | null;
 }
 
 const WAR_TYPES: EventType[] = ['military', 'rebellion'];
@@ -221,8 +224,24 @@ function buildCombinedPeopleLayout(
   pitch: number,
   options: CombinedLayoutOptions,
 ): LaneLayout {
-  const members = topicPeopleForView(topic, options.viewId)
-    .filter((person) => !hiddenLanes.has(person.lane))
+  let candidates: Person[];
+  if (options.focusIds && options.focusIds.size > 0) {
+    const list: Person[] = [];
+    for (const id of options.focusIds) {
+      const inTopic = topic.people.find((person) => person.id === id);
+      if (inTopic) {
+        list.push(inTopic);
+      } else if (options.personResolver) {
+        const resolved = options.personResolver(id);
+        if (resolved) list.push(resolved);
+      }
+    }
+    candidates = list;
+  } else {
+    candidates = topicPeopleForView(topic, options.viewId).filter((person) => !hiddenLanes.has(person.lane));
+  }
+
+  const members = candidates
     .filter((person) =>
       overlapsDomain(personFrom(person.birth, person.death), personTo(person.birth, person.death), options.domain),
     )
@@ -248,7 +267,12 @@ function buildCombinedPeopleLayout(
       );
   return {
     id: 'people',
-    name: '人物（生卒年）',
+    name:
+      options.focusIds && options.focusIds.size > 0
+        ? options.isComparing
+          ? '人物（同屏对比）'
+          : '人物（聚焦关系网）'
+        : '人物（生卒年）',
     color: topic.lanes[0]?.color ?? EVENT_COLORS.political,
     y: 0,
     height: laneHeight(packed.rows, pitch),
@@ -281,6 +305,12 @@ export function buildCombinedLayout(
     if (!groups[section.key]) continue;
     const inSection = events
       .filter((event) => section.types.includes(event.type))
+      .filter((event) => {
+        if (!options.focusIds || options.focusIds.size === 0) return true;
+        const matchesPeople = event.people?.some((id) => options.focusIds!.has(id));
+        const matchesCommanders = event.commanders?.some((c) => options.focusIds!.has(c.id));
+        return Boolean(matchesPeople || matchesCommanders);
+      })
       .filter((event) => overlapsDomain(event.year, event.endYear ?? event.year, options.domain))
       .sort((a, b) => a.year - b.year);
     if (inSection.length === 0) continue;

@@ -7,6 +7,9 @@ export interface CardContext {
   library: Library;
   palette: Palette;
   topic: Topic | null;
+  focusMode?: boolean;
+  selectedPersonId?: string | null;
+  isCompared?: boolean;
 }
 
 /** 人物卡的字段来源：当前专题里的完整记录，或跨专题瘦索引。 */
@@ -120,10 +123,20 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
     ${polities.length > 0 ? `<div class="card-label">政权</div><div>${chips(polities)}</div>` : ''}
     ${(person.tags ?? []).length > 0 ? `<div class="card-label">标签</div><div>${chips(person.tags ?? [])}</div>` : ''}
     ${person.bio ? `<div class="card-label">简介</div><div>${esc(person.bio)}</div>` : ''}
-    ${relationRows.length > 0 ? `<div class="card-label">关系</div><div>${relationRows.join('<br>')}</div>` : ''}
+    ${
+      relationRows.length > 0
+        ? `<div class="card-label-row"><span class="card-label">关系</span><button type="button" class="lt-btn-link-focus" data-action="toggle-focus">${ctx.focusMode ? '退出聚焦' : '仅看关联'}</button></div><div>${relationRows.join('<br>')}</div>`
+        : ''
+    }
     ${eventRows.length > 0 ? `<div class="card-label">生平事件</div><div>${eventRows.join('<br>')}${moreEvents > 0 ? `<div class="card-meta">另有 ${moreEvents} 条</div>` : ''}</div>` : ''}
     <div class="card-actions">
       <a class="tool" data-open-detail href="/people/${encodeURIComponent(id)}">查看详情</a>
+      <button type="button" class="tool lt-focus-toggle ${ctx.focusMode && !ctx.isCompared ? 'active' : ''}" data-action="toggle-focus">${ctx.focusMode && !ctx.isCompared ? '✕ 退出聚焦' : relationRows.length > 0 ? '🎯 仅看关联' : '🎯 仅看此人'}</button>
+      ${
+        ctx.selectedPersonId && ctx.selectedPersonId !== id
+          ? `<button type="button" class="tool lt-compare-toggle ${ctx.isCompared ? 'active' : ''}" data-action="toggle-compare" data-id="${esc(id)}">${ctx.isCompared ? '✓ 移除对比' : '+ 加入对比'}</button>`
+          : ''
+      }
     </div>
     ${person.bio === undefined && !ctx.topic?.people.some((item) => item.id === id) ? `<div class="card-meta" style="color:${esc(c.muted)}">完整条目在它所属的专题里，切换专题后可看简介。</div>` : ''}
   `;

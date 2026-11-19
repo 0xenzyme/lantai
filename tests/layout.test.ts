@@ -260,3 +260,58 @@ test('大行模式一人一行，密条继续打包不重叠人物', () => {
   assert.equal(dense[0].presentation, 'dense');
   assert.equal(dense[0].rows, 1);
 });
+
+test('聚焦模式过滤只保留 focusIds 内人物及相关事件，忽略不相干条目', () => {
+  const scoped = topic({
+    people: [
+      person({ id: 'su-shi', lane: 'court', birth: 1037, death: 1101 }),
+      person({ id: 'huang-tingjian', lane: 'court', birth: 1045, death: 1105 }),
+      person({ id: 'dali-king', lane: 'dali', birth: 1040, death: 1100 }),
+    ],
+  });
+  const events = [
+    event({ id: 'wutai-poetry', type: 'political', year: 1079, people: ['su-shi'] }),
+    event({ id: 'unrelated-war', type: 'military', year: 1080 }),
+  ];
+
+  const focusIds = new Set(['su-shi', 'huang-tingjian']);
+  const lanes = buildCombinedLayout(scoped, events, new Set(), { people: true, war: true, history: true }, BAR_H + 4, {
+    domain: [1030, 1110],
+    focusIds,
+  });
+
+  assert.equal(lanes[0].name, '人物（聚焦关系网）');
+  assert.deepEqual(
+    lanes[0].items.map((item) => item.id),
+    ['su-shi', 'huang-tingjian'],
+  );
+
+  assert.equal(lanes.length, 2);
+  assert.equal(lanes[1].id, 'history');
+  assert.deepEqual(
+    lanes[1].items.map((item) => item.id),
+    ['wutai-poetry'],
+  );
+});
+
+test('聚焦对比模式支持跨专题解析人物并设置标题为人物（同屏对比）', () => {
+  const scoped = topic({
+    people: [person({ id: 'su-shi', birth: 1037, death: 1101 })],
+  });
+
+  const focusIds = new Set(['su-shi', 'li-bai']);
+  const lanes = buildCombinedLayout(scoped, [], new Set(), { people: true, war: false, history: false }, BAR_H + 4, {
+    domain: [700, 1120],
+    focusIds,
+    isComparing: true,
+    personResolver: (id) =>
+      id === 'li-bai' ? person({ id: 'li-bai', birth: 701, death: 762, name: '李白', display: '李白' }) : null,
+  });
+
+  assert.equal(lanes[0].name, '人物（同屏对比）');
+  assert.equal(lanes[0].items.length, 2);
+  assert.deepEqual(
+    lanes[0].items.map((item) => item.id),
+    ['li-bai', 'su-shi'],
+  );
+});

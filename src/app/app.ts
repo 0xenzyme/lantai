@@ -24,7 +24,7 @@ import {
 } from './layout';
 import { createLibrary, ensureEventLines, ensureLine, findTopicEntry, loadTopicData, type TimeLineId } from './model';
 import { invalidatePalette, paletteFor } from './skins';
-import { clamp, fmtYear, personFrom, personTo } from './util';
+import { clamp, esc, fmtYear, personFrom, personTo } from './util';
 import {
   announce,
   buildLanePanel,
@@ -45,6 +45,7 @@ import {
   chipMatchEvent,
   draw,
   fullSpan,
+  getFocusIds,
   hdrH,
   invalidateEventDensity,
   largeRowsActive,
@@ -127,6 +128,9 @@ export async function boot(root: ParentNode, signal: AbortSignal): Promise<void>
       scrollY: 0,
       chip: 'all',
       selected: null,
+      focusMode: false,
+      comparedPersonIds: new Set(),
+      compareShowRelations: false,
       hiddenLanes: readHiddenLanes(),
       stripOpen: localStorage.getItem(STORAGE.strip) === '1',
       groups: { people: true, war: true, history: true },
@@ -275,6 +279,18 @@ function readHiddenLanes(): Set<string> {
 
 function rebuildLayout(): void {
   const largeRows = largeRowsActive();
+  const isComparing = Boolean(
+    state.line === 'people' && state.focusMode && state.comparedPersonIds && state.comparedPersonIds.size > 0,
+  );
+  const focusIds =
+    state.line === 'people' && state.focusMode && state.selected?.kind === 'person' && state.topic
+      ? getFocusIds(
+          state.topic,
+          state.selected.id,
+          state.comparedPersonIds,
+          state.compareShowRelations || state.comparedPersonIds.size === 0,
+        )
+      : null;
   const build = (pitch: number): LaneLayout[] => {
     if (state.line === 'people') {
       return state.topic
@@ -282,6 +298,23 @@ function rebuildLayout(): void {
             viewId: state.viewId,
             domain: state.domain,
             largeRows,
+            focusIds,
+            isComparing,
+            personResolver: (id) => {
+              const record = state.library.personById.get(id);
+              if (!record) return null;
+              return {
+                id: record.id,
+                name: record.name,
+                display: record.display,
+                lane: record.topicId,
+                birth: record.birth,
+                death: record.death,
+                birthAccuracy: record.birthAccuracy,
+                deathAccuracy: record.deathAccuracy,
+                tags: record.tags,
+              };
+            },
           })
         : [];
     }
@@ -294,7 +327,8 @@ function rebuildLayout(): void {
   if (!largeRows && available > 0) {
     const filled = layoutHeight(next);
     if (filled > 0 && filled < available) {
-      const factor = clamp(available / filled, 1, 4);
+      const maxFactor = state.focusMode ? 2.2 : 4;
+      const factor = clamp(available / filled, 1, maxFactor);
       if (factor > 1.04) next = build(basePitch * factor);
     }
   }
@@ -496,6 +530,9 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
     announce(`人物：${record?.display ?? selection.id}`);
     if (sync) writeTopicHash('replace');
   } else {
+    if (state.focusMode) {
+      state.focusMode = false;
+    }
     const event = await resolveEventRecord(selection.id);
     if (!event) {
       flashHint(`没有找到事件「${selection.id}」`);
@@ -509,6 +546,7 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
     }
   }
   showCard(selection);
+  syncFocusPill();
   syncTimelineUrl();
   draw();
 }
@@ -523,6 +561,116 @@ function scrollTo(kind: 'person' | 'event', id: string): void {
       return;
     }
   }
+}
+
+function syncFocusPill(): void {
+  if (!dom.focusPill || !dom.focusPillText) return;
+  const active = Boolean(
+    state.line === 'people' && state.focusMode && state.selected?.kind === 'person' && state.topic,
+  );
+  if (!active) {
+    dom.focusPill.hidden = true;
+    return;
+  }
+  const person =
+    state.topic?.people.find((item) => item.id === state.selected?.id) ??
+    state.library.personById.get(state.selected!.id);
+  const name = person?.display || person?.name || state.selected?.id || '';
+  const focusIds =
+    state.topic && state.selected
+      ? getFocusIds(
+          state.topic,
+          state.selected.id,
+          state.comparedPersonIds,
+          state.compareShowRelations || state.comparedPersonIds.size === 0,
+        )
+      : new Set<string>();
+
+  if (state.comparedPersonIds.size === 0) {
+    dom.focusPillText.innerHTML = `已聚焦：<strong>${esc(name)}</strong> 与关联人物（共 ${focusIds.size} 人）`;
+    if (dom.btnToggleRelations) dom.btnToggleRelations.hidden = true;
+  } else {
+    const tagsHtml = [...state.comparedPersonIds]
+      .map((id) => {
+        const cp = state.topic?.people.find((item) => item.id === id) ?? state.library.personById.get(id);
+        const cName = cp?.display || cp?.name || id;
+        return `<span class="lt-pill-tag">${esc(cName)}<button type="button" class="lt-pill-remove" data-remove-id="${esc(id)}" title="移除对比">×</button></span>`;
+      })
+      .join('');
+    dom.focusPillText.innerHTML = `对比：<strong>${esc(name)}</strong>${tagsHtml} <span class="lt-pill-count">（共 ${focusIds.size} 人）</span>`;
+    if (dom.btnToggleRelations) {
+      dom.btnToggleRelations.hidden = false;
+      dom.btnToggleRelations.textContent = state.compareShowRelations ? '仅看对比目标' : '显示关联人物';
+    }
+  }
+
+  dom.focusPill.hidden = false;
+}
+
+function adjustCompareDomain(): void {
+  const ids = [state.selected?.id, ...state.comparedPersonIds].filter(Boolean) as string[];
+  let minYear = Infinity;
+  let maxYear = -Infinity;
+  for (const id of ids) {
+    const p = state.topic?.people.find((item) => item.id === id) ?? state.library.personById.get(id);
+    if (!p) continue;
+    const b = personFrom(p.birth, p.death);
+    const d = personTo(p.birth, p.death);
+    if (b < minYear) minYear = b;
+    if (d > maxYear) maxYear = d;
+  }
+  if (minYear < maxYear && isFinite(minYear) && isFinite(maxYear)) {
+    const span = maxYear - minYear;
+    const pad = Math.max(20, Math.round(span * 0.15));
+    state.domain = [minYear - pad, maxYear + pad];
+  }
+}
+
+function toggleComparePerson(id: string): void {
+  if (state.line !== 'people') return;
+  if (!state.selected || state.selected.kind !== 'person') {
+    state.focusMode = true;
+    state.comparedPersonIds.clear();
+    state.compareShowRelations = false;
+    void selectAndReveal({ kind: 'person', id });
+    return;
+  }
+  if (state.selected.id === id) return;
+
+  state.focusMode = true;
+  if (state.comparedPersonIds.has(id)) {
+    state.comparedPersonIds.delete(id);
+  } else {
+    state.comparedPersonIds.add(id);
+    adjustCompareDomain();
+  }
+
+  rebuildLayout();
+  syncFocusPill();
+  showCard(state.selected);
+  draw();
+}
+
+function toggleFocusMode(force?: boolean): void {
+  if (state.line !== 'people' || state.selected?.kind !== 'person') {
+    state.focusMode = false;
+    state.comparedPersonIds.clear();
+    state.compareShowRelations = false;
+    syncFocusPill();
+    return;
+  }
+  const next = force !== undefined ? force : !state.focusMode;
+  state.focusMode = next;
+  if (!next) {
+    state.comparedPersonIds.clear();
+    state.compareShowRelations = false;
+  } else {
+    state.scrollY = 0;
+  }
+  rebuildLayout();
+  syncFocusPill();
+  showCard(state.selected);
+  draw();
 }
 
 // ---------- 地址 ----------
@@ -676,6 +824,20 @@ function wireEvents(signal: AbortSignal): void {
   document.getElementById('card-close')?.addEventListener('click', hideCard);
   dom.card.addEventListener('keydown', trapCardFocus);
   dom.card.addEventListener('click', (event) => {
+    const toggle = (event.target as HTMLElement).closest<HTMLElement>('[data-action="toggle-focus"]');
+    if (toggle) {
+      event.preventDefault();
+      event.stopPropagation();
+      toggleFocusMode();
+      return;
+    }
+    const compareToggle = (event.target as HTMLElement).closest<HTMLElement>('[data-action="toggle-compare"]');
+    if (compareToggle?.dataset.id) {
+      event.preventDefault();
+      event.stopPropagation();
+      toggleComparePerson(compareToggle.dataset.id);
+      return;
+    }
     const detail = (event.target as HTMLElement).closest<HTMLAnchorElement>('[data-open-detail]');
     if (detail?.dataset.entityKind && detail.dataset.entityId) {
       event.preventDefault();
@@ -691,6 +853,23 @@ function wireEvents(signal: AbortSignal): void {
     const link = (event.target as HTMLElement).closest<HTMLElement>('.card-link');
     if (!link?.dataset.kind || !link.dataset.id) return;
     void selectAndReveal({ kind: link.dataset.kind as 'person' | 'event', id: link.dataset.id });
+  });
+  dom.btnExitFocus?.addEventListener('click', () => {
+    toggleFocusMode(false);
+  });
+  dom.btnToggleRelations?.addEventListener('click', () => {
+    state.compareShowRelations = !state.compareShowRelations;
+    rebuildLayout();
+    syncFocusPill();
+    draw();
+  });
+  dom.focusPill?.addEventListener('click', (event) => {
+    const removeBtn = (event.target as HTMLElement).closest<HTMLButtonElement>('.lt-pill-remove[data-remove-id]');
+    if (removeBtn?.dataset.removeId) {
+      event.preventDefault();
+      event.stopPropagation();
+      toggleComparePerson(removeBtn.dataset.removeId);
+    }
   });
   dom.stripToggle.addEventListener('click', () => {
     state.stripOpen = !state.stripOpen;
@@ -729,10 +908,28 @@ function wireEvents(signal: AbortSignal): void {
     }
   });
   dom.searchResults.addEventListener('click', (event) => {
-    const hit = (event.target as HTMLElement).closest<HTMLElement>('.search-hit');
-    if (!hit?.dataset.kind || !hit.dataset.id) return;
-    dom.searchResults.hidden = true;
-    void selectAndReveal({ kind: hit.dataset.kind as 'person' | 'event', id: hit.dataset.id });
+    const compareBtn = (event.target as HTMLElement).closest<HTMLElement>('[data-action="toggle-compare"]');
+    if (compareBtn?.dataset.id) {
+      event.preventDefault();
+      event.stopPropagation();
+      dom.searchResults.hidden = true;
+      dom.search.value = '';
+      toggleComparePerson(compareBtn.dataset.id);
+      return;
+    }
+    const hit = (event.target as HTMLElement).closest<HTMLElement>('[data-action="select"]');
+    if (hit?.dataset.kind && hit.dataset.id) {
+      dom.searchResults.hidden = true;
+      dom.search.value = '';
+      void selectAndReveal({ kind: hit.dataset.kind as 'person' | 'event', id: hit.dataset.id });
+      return;
+    }
+    const legacyHit = (event.target as HTMLElement).closest<HTMLElement>('.search-hit');
+    if (legacyHit?.dataset.kind && legacyHit.dataset.id) {
+      dom.searchResults.hidden = true;
+      dom.search.value = '';
+      void selectAndReveal({ kind: legacyHit.dataset.kind as 'person' | 'event', id: legacyHit.dataset.id });
+    }
   });
   document.addEventListener(
     'pointerdown',
@@ -912,5 +1109,8 @@ setHooks({
   rebuildLayout,
   resizeChart,
   syncTimelineUrl,
+  syncFocusPill,
+  toggleFocusMode,
+  toggleComparePerson,
   syncChrome: syncWorkspaceChrome,
 });

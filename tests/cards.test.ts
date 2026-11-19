@@ -146,3 +146,57 @@ test('未知人物渲染兜底卡片', () => {
   const html = renderPersonCard(makeContext(), 'nope');
   assert.ok(html.includes('未知条目'));
 });
+
+test('人物卡根据关系和聚焦模式渲染聚焦按钮与切换文案', () => {
+  const p1 = person({ id: 'su-shi', name: '苏轼', display: '苏轼' });
+  const p2 = person({ id: 'su-zhe', name: '苏辙', display: '苏辙' });
+  const testTopic = topic({
+    people: [p1, p2],
+    relations: [{ source: 'su-shi', target: 'su-zhe', type: 'kin' }],
+    relationTypes: [{ id: 'kin', name: '亲属', color: '#2e7d32', dash: null, directed: false }],
+  });
+
+  // 未聚焦状态：展示「仅看关联」
+  const unfocusedCtx = makeContext({ topic: testTopic, focusMode: false });
+  const unfocusedHtml = renderPersonCard(unfocusedCtx, 'su-shi');
+  assert.ok(unfocusedHtml.includes('data-action="toggle-focus"'));
+  assert.ok(unfocusedHtml.includes('仅看关联'));
+  assert.ok(!unfocusedHtml.includes('lt-focus-toggle active'));
+
+  // 聚焦状态：展示「退出聚焦」与 active 态
+  const focusedCtx = makeContext({ topic: testTopic, focusMode: true });
+  const focusedHtml = renderPersonCard(focusedCtx, 'su-shi');
+  assert.ok(focusedHtml.includes('退出聚焦'));
+  assert.ok(focusedHtml.includes('lt-focus-toggle active'));
+});
+
+test('人物卡支持对比操作：非主选中人物提供加入对比与移除对比按钮', () => {
+  const p1 = person({ id: 'su-shi', name: '苏轼', display: '苏轼' });
+  const p2 = person({ id: 'liu-yong', name: '柳永', display: '柳永' });
+  const testTopic = topic({ people: [p1, p2] });
+
+  // 主人物为苏轼，查看柳永：显示「+ 加入对比」
+  const notComparedCtx = makeContext({
+    topic: testTopic,
+    selectedPersonId: 'su-shi',
+    isCompared: false,
+  });
+  const notComparedHtml = renderPersonCard(notComparedCtx, 'liu-yong');
+  assert.ok(notComparedHtml.includes('data-action="toggle-compare"'));
+  assert.ok(notComparedHtml.includes('+ 加入对比'));
+  assert.ok(!notComparedHtml.includes('lt-compare-toggle active'));
+
+  // 柳永已在对比中：显示「✓ 移除对比」与 active 态
+  const comparedCtx = makeContext({
+    topic: testTopic,
+    selectedPersonId: 'su-shi',
+    isCompared: true,
+  });
+  const comparedHtml = renderPersonCard(comparedCtx, 'liu-yong');
+  assert.ok(comparedHtml.includes('✓ 移除对比'));
+  assert.ok(comparedHtml.includes('lt-compare-toggle active'));
+
+  // 查看苏轼自身：不显示对比按钮
+  const selfHtml = renderPersonCard(notComparedCtx, 'su-shi');
+  assert.ok(!selfHtml.includes('data-action="toggle-compare"'));
+});

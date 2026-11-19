@@ -13,11 +13,15 @@ import { dom, getHooks, state, STORAGE, type Selection } from './runtime';
 
 // ---------- 详情卡 ----------
 
-function cardContext(): CardContext {
+function cardContext(viewedId?: string): CardContext {
+  const selectedPersonId = state.line === 'people' && state.selected?.kind === 'person' ? state.selected.id : null;
   return {
     library: state.library,
     palette: skinPalette(),
     topic: state.topic,
+    focusMode: state.focusMode,
+    selectedPersonId,
+    isCompared: Boolean(viewedId && state.comparedPersonIds?.has(viewedId)),
   };
 }
 
@@ -74,7 +78,7 @@ export function showCard(selection: Selection): void {
   const trigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   dom.card.dataset.triggerId = trigger?.dataset.id ?? '';
   dom.card.dataset.triggerKind = trigger?.dataset.kind ?? '';
-  const context = cardContext();
+  const context = cardContext(selection.id);
   if (selection.kind === 'person') {
     dom.cardBody.innerHTML = renderPersonCard(context, selection.id);
   } else {
@@ -111,6 +115,14 @@ export function hideCard(): void {
   dom.cardActions.replaceChildren();
   syncCardModal();
   state.selected = null;
+  const hadFocus = state.focusMode;
+  state.focusMode = false;
+  state.comparedPersonIds?.clear();
+  state.compareShowRelations = false;
+  if (hadFocus) {
+    getHooks().rebuildLayout();
+    getHooks().syncFocusPill?.();
+  }
   announce('已关闭详情');
   getHooks().syncTimelineUrl();
   draw();
@@ -124,6 +136,14 @@ export function hideCardSilent(): void {
   dom.cardActions.replaceChildren();
   syncCardModal();
   state.selected = null;
+  const hadFocus = state.focusMode;
+  state.focusMode = false;
+  state.comparedPersonIds?.clear();
+  state.compareShowRelations = false;
+  if (hadFocus) {
+    getHooks().rebuildLayout();
+    getHooks().syncFocusPill?.();
+  }
 }
 
 export function announce(text: string): void {
@@ -279,15 +299,29 @@ export function renderSearchResults(query: string): void {
       query.trim().length === 0 ? '' : `<div class="search-empty">没有匹配「${esc(query.trim())}」的条目</div>`;
     return;
   }
+  const canCompare = Boolean(state.line === 'people' && state.selected?.kind === 'person');
   dom.searchResults.innerHTML = hits
-    .map(
-      (hit) => `
-    <button type="button" class="search-hit" data-kind="${hit.kind}" data-id="${esc(hit.id)}">
-      <span class="search-hit-title">${esc(hit.title)}</span>
-      <span class="search-hit-meta">${esc(hit.meta)}</span>
-    </button>
-  `,
-    )
+    .map((hit) => {
+      const isPerson = hit.kind === 'person';
+      const isSelected = isPerson && state.selected?.id === hit.id;
+      const isCompared = isPerson && Boolean(state.comparedPersonIds?.has(hit.id));
+      const showCompareBtn = canCompare && isPerson && !isSelected;
+      return `
+    <div class="search-hit" data-kind="${hit.kind}" data-id="${esc(hit.id)}">
+      <button type="button" class="search-hit-main" data-action="select" data-kind="${hit.kind}" data-id="${esc(hit.id)}">
+        <span class="search-hit-title">${esc(hit.title)}</span>
+        <span class="search-hit-meta">${esc(hit.meta)}</span>
+      </button>
+      ${
+        showCompareBtn
+          ? `<button type="button" class="search-hit-compare ${isCompared ? 'active' : ''}" data-action="toggle-compare" data-id="${esc(hit.id)}" title="${isCompared ? '取消对比' : '加入对比'}">
+              ${isCompared ? '已对比' : '+ 对比'}
+            </button>`
+          : ''
+      }
+    </div>
+  `;
+    })
     .join('');
   dom.searchResults.hidden = false;
 }

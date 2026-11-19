@@ -149,6 +149,23 @@ export function TimelinePage() {
               aria-label="历史时间轴。使用左右方向键平移，加减键缩放；也可打开当前时间窗实体列表选择对象。"
               aria-describedby="timeline-description"
             />
+            <div className="lt-focus-pill" id="focus-pill" hidden aria-live="polite">
+              <span className="lt-focus-pill-icon" aria-hidden="true">
+                🎯
+              </span>
+              <span className="lt-focus-pill-text" id="focus-pill-text" />
+              <button
+                type="button"
+                className="lt-focus-pill-btn lt-focus-pill-btn-sub"
+                id="btn-toggle-relations"
+                hidden
+              >
+                显示关联人物
+              </button>
+              <button type="button" className="lt-focus-pill-btn" id="btn-exit-focus">
+                恢复全览
+              </button>
+            </div>
             <div className="lt-gesture-hint" id="gesture-hint" hidden aria-hidden="true">
               <p className="lt-gesture-hint-title">开始探索</p>
               <ul>

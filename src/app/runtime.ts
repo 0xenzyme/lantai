@@ -33,6 +33,12 @@ export interface AppState {
   scrollY: number;
   chip: ChipId;
   selected: Selection | null;
+  /** 人物线聚焦模式：只排版选中人物及其关联人物与关联事件，收起全部无关条目。 */
+  focusMode: boolean;
+  /** 聚焦对比模式：额外加入同屏比对的人物 ID 集合。 */
+  comparedPersonIds: Set<string>;
+  /** 对比时是否展示一度关联人物（默认 false 保持对比目标极简；true 时拉入主人物关系网）。 */
+  compareShowRelations: boolean;
   hiddenLanes: Set<string>;
   stripOpen: boolean;
   /** 02 同图：人物 / 战事 / 历史事件三个分组的显隐。 */
@@ -123,6 +129,10 @@ export interface TimelineDom {
   status: HTMLElement;
   exportMenu: HTMLElement;
   topbar: HTMLElement;
+  focusPill?: HTMLElement | null;
+  focusPillText?: HTMLElement | null;
+  btnToggleRelations?: HTMLButtonElement | null;
+  btnExitFocus?: HTMLButtonElement | null;
 }
 
 export const dom = {} as TimelineDom;
@@ -154,6 +164,10 @@ export function initializeRuntimeDom(root: ParentNode): void {
     status: get<HTMLElement>('#status'),
     exportMenu: get<HTMLElement>('#export-menu'),
     topbar: get<HTMLElement>('#topbar'),
+    focusPill: root.querySelector<HTMLElement>('#focus-pill'),
+    focusPillText: root.querySelector<HTMLElement>('#focus-pill-text'),
+    btnToggleRelations: root.querySelector<HTMLButtonElement>('#btn-toggle-relations'),
+    btnExitFocus: root.querySelector<HTMLButtonElement>('#btn-exit-focus'),
   } satisfies TimelineDom);
   ctx = dom.canvas.getContext('2d') as CanvasRenderingContext2D;
   rctx = dom.ribbon.getContext('2d') as CanvasRenderingContext2D;
@@ -171,6 +185,9 @@ export interface AppHooks {
   rebuildLayout(): void;
   resizeChart(): void;
   syncTimelineUrl(mode?: 'push' | 'replace'): void;
+  syncFocusPill?(): void;
+  toggleFocusMode?(force?: boolean): void;
+  toggleComparePerson?(id: string): void;
   /** 每次绘制后同步工作区 DOM（场景头、朝代高亮、缩放读数）。 */
   syncChrome?(): void;
 }

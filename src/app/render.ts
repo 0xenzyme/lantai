@@ -3,7 +3,7 @@
  * 只读取 runtime 的共享状态，不发起导航或 DOM 装配。
  */
 
-import type { DynastyTerm, EventRecord, Person, Topic } from '../types';
+import type { DynastyTerm, EventRecord, Person, Relation, RelationType, Topic } from '../types';
 import {
   AXIS_H,
   BAR_H,
@@ -113,6 +113,82 @@ export function personDim(person: Person): boolean {
   return false;
 }
 
+export interface RelationTheme {
+  stroke: string;
+  labelBg: string;
+  text: string;
+}
+
+export const RELATION_THEMES: Record<string, RelationTheme> = {
+  'ruler-subject': { stroke: '#24527a', labelBg: '#eaf2f8', text: '#1b3e64' },
+  mentor: { stroke: '#0d766e', labelBg: '#e6f7f5', text: '#08504a' },
+  kin: { stroke: '#2e7d32', labelBg: '#edf7ed', text: '#1b5e20' },
+  peer: { stroke: '#5e4b8b', labelBg: '#f3effa', text: '#43347c' },
+  rival: { stroke: '#b91c1c', labelBg: '#fef2f2', text: '#991b1b' },
+};
+
+export function getRelationTheme(typeId: string, fallbackColor?: string): RelationTheme {
+  if (RELATION_THEMES[typeId]) return RELATION_THEMES[typeId];
+  const color = fallbackColor || '#5e4b8b';
+  return {
+    stroke: color,
+    labelBg: '#fcfaf5',
+    text: color,
+  };
+}
+
+export interface RelatedPersonInfo {
+  relation: Relation;
+  type?: RelationType;
+  theme: RelationTheme;
+}
+
+export function getRelatedPeopleMap(selectedPersonId: string): Map<string, RelatedPersonInfo> {
+  const map = new Map<string, RelatedPersonInfo>();
+  const topic = state.topic;
+  if (!topic || !topic.relations) return map;
+
+  for (const relation of topic.relations) {
+    if (relation.source !== selectedPersonId && relation.target !== selectedPersonId) continue;
+    const otherId = relation.source === selectedPersonId ? relation.target : relation.source;
+    const type = topic.relationTypes.find((item) => item.id === relation.type);
+    const theme = getRelationTheme(relation.type, type?.color);
+    map.set(otherId, { relation, type, theme });
+  }
+  return map;
+}
+
+/**
+ * 计算聚焦/对比模式需要保留的人物 ID 集合。
+ * - 当未开启对比时：保留选中人物自身及全部一度关联人物。
+ * - 当开启对比时：始终包含主人物与全部对比人物；若 includeRelations 为 true 则同时包含主人物及对比人物的关联网。
+ */
+export function getFocusIds(
+  topic: Topic,
+  selectedPersonId: string,
+  comparedPersonIds?: Set<string>,
+  includeRelations: boolean = true,
+): Set<string> {
+  const ids = new Set<string>();
+  ids.add(selectedPersonId);
+  if (comparedPersonIds) {
+    for (const id of comparedPersonIds) ids.add(id);
+  }
+  if (includeRelations && topic && topic.relations) {
+    for (const relation of topic.relations) {
+      if (relation.source === selectedPersonId) ids.add(relation.target);
+      else if (relation.target === selectedPersonId) ids.add(relation.source);
+      if (comparedPersonIds) {
+        for (const cid of comparedPersonIds) {
+          if (relation.source === cid && ids.has(relation.target)) ids.add(relation.target);
+          if (relation.target === cid && ids.has(relation.source)) ids.add(relation.source);
+        }
+      }
+    }
+  }
+  return ids;
+}
+
 // ---------- 绘制 ----------
 
 export function skinPalette(): Palette {
@@ -124,6 +200,7 @@ export function skinPalette(): Palette {
  * 宽时间窗保留 16px 密集色条，避免几千人的浏览密度损失。
  */
 export function largeRowsActive(): boolean {
+  if (state.focusMode) return false;
   if (state.line !== 'people' || !state.topic || !state.groups.people) return false;
   const [d0, d1] = state.domain;
   let count = 0;
@@ -236,7 +313,8 @@ function drawLanes(c: CanvasRenderingContext2D, width: number, height: number): 
   c.clip();
   c.translate(0, hdrH() - state.scrollY);
 
-  if (state.line === 'people' && state.selected?.kind === 'person') drawRelations(c);
+  const selectedPersonId = state.line === 'people' && state.selected?.kind === 'person' ? state.selected.id : null;
+  const relatedMap = selectedPersonId ? getRelatedPeopleMap(selectedPersonId) : new Map<string, RelatedPersonInfo>();
 
   for (const lane of layouts) {
     const topLevelGroup = state.line === 'people' && ['people', 'war', 'history'].includes(lane.id);
@@ -255,9 +333,12 @@ function drawLanes(c: CanvasRenderingContext2D, width: number, height: number): 
       const yTop = itemTop(lane, item);
       const placement = placements.get(item.id) ?? 'none';
       if (item.kind === 'event') drawEventBar(c, item, lane, yTop, placement);
-      else drawPersonBar(c, item, lane, yTop, placement);
+      else drawPersonBar(c, item, lane, yTop, placement, relatedMap);
     }
   }
+
+  if (selectedPersonId) drawRelations(c, selectedPersonId, relatedMap);
+
   c.restore();
 }
 
@@ -389,8 +470,14 @@ function drawEventBar(
   const event = item.event;
   const color = EVENT_COLORS[event.type];
   const selected = state.selected?.kind === 'event' && state.selected.id === event.id;
-  const dim = !chipMatchEvent(event);
-  c.globalAlpha = dim ? 0.15 : 1;
+  const selectedPersonId = state.line === 'people' && state.selected?.kind === 'person' ? state.selected.id : null;
+  const comparedIds = state.line === 'people' ? state.comparedPersonIds : undefined;
+  const isLinkedToPerson = Boolean(
+    (selectedPersonId && event.people?.includes(selectedPersonId)) ||
+    (comparedIds && event.people?.some((id) => comparedIds.has(id))),
+  );
+  const dim = !chipMatchEvent(event) || (Boolean(selectedPersonId) && !isLinkedToPerson);
+  c.globalAlpha = dim ? 0.18 : 1;
 
   if (event.kind === 'span') {
     const barHeight = itemHeight(lane, item);
@@ -496,10 +583,11 @@ function drawPersonBar(
   lane: LaneLayout,
   yTop: number,
   placement: Placement,
+  relatedMap?: Map<string, RelatedPersonInfo>,
 ): void {
   const person = item.person;
   if (lane.presentation === 'large') {
-    drawPersonLifeRow(c, item, lane, yTop);
+    drawPersonLifeRow(c, item, lane, yTop, relatedMap);
     return;
   }
   const C = skinPalette();
@@ -509,10 +597,19 @@ function drawPersonBar(
   const x1 = xOf(personTo(person.birth, person.death));
   const width = Math.max(3, x1 - x0);
   const selected = state.selected?.kind === 'person' && state.selected.id === person.id;
-  const dim = personDim(person);
+  const isCompared = state.line === 'people' && Boolean(state.comparedPersonIds?.has(person.id));
+  const relatedInfo =
+    state.line === 'people' && state.selected?.kind === 'person'
+      ? (relatedMap ?? getRelatedPeopleMap(state.selected.id)).get(person.id)
+      : undefined;
+  const related = Boolean(relatedInfo);
+
+  const filterDim = personDim(person);
+  const selectionActive = state.line === 'people' && state.selected?.kind === 'person';
+  const dim = filterDim || (selectionActive && !selected && !related && !isCompared);
   const color = item.color ?? laneColor(lane);
 
-  c.globalAlpha = dim ? 0.15 : 1;
+  c.globalAlpha = dim ? 0.18 : 1;
   if (!hasBirth || !hasDeath) {
     const gradient = c.createLinearGradient(x0, 0, x0 + width, 0);
     if (!hasBirth) {
@@ -555,12 +652,35 @@ function drawPersonBar(
   drawLabel(c, person.display || person.name, placement, x0, x0 + width, yTop, dim, contrastLabel(color));
 
   if (selected) {
+    c.save();
     c.strokeStyle = C.accent;
-    c.lineWidth = 2;
+    c.lineWidth = 2.5;
+    c.shadowColor = 'rgba(168, 58, 42, 0.4)';
+    c.shadowBlur = 6;
     c.beginPath();
     roundRect(c, x0 - 2.5, yTop - 2.5, width + 5, BAR_H + 5, 5);
     c.stroke();
-    c.shadowBlur = 0;
+    c.restore();
+  } else if (related && relatedInfo) {
+    c.save();
+    c.strokeStyle = relatedInfo.theme.stroke;
+    c.lineWidth = 2;
+    c.shadowColor = relatedInfo.theme.stroke;
+    c.shadowBlur = 5;
+    c.beginPath();
+    roundRect(c, x0 - 2, yTop - 2, width + 4, BAR_H + 4, 4);
+    c.stroke();
+    c.restore();
+  } else if (isCompared) {
+    c.save();
+    c.strokeStyle = '#0d766e';
+    c.lineWidth = 2;
+    c.shadowColor = 'rgba(13, 118, 110, 0.3)';
+    c.shadowBlur = 5;
+    c.beginPath();
+    roundRect(c, x0 - 2, yTop - 2, width + 4, BAR_H + 4, 4);
+    c.stroke();
+    c.restore();
   }
   c.globalAlpha = 1;
 }
@@ -571,6 +691,7 @@ function drawPersonLifeRow(
   item: Extract<LayoutItem, { kind: 'person' }>,
   lane: LaneLayout,
   yTop: number,
+  relatedMap?: Map<string, RelatedPersonInfo>,
 ): void {
   const person = item.person;
   const C = skinPalette();
@@ -579,14 +700,24 @@ function drawPersonLifeRow(
   const x1 = Math.min(W - PAD_X, Math.max(x0 + 3, xOf(personTo(person.birth, person.death))));
   const midY = yTop + BAR_H / 2;
   const selected = state.selected?.kind === 'person' && state.selected.id === person.id;
-  const dim = personDim(person);
+  const isCompared = state.line === 'people' && Boolean(state.comparedPersonIds?.has(person.id));
+  const relatedInfo =
+    state.line === 'people' && state.selected?.kind === 'person'
+      ? (relatedMap ?? getRelatedPeopleMap(state.selected.id)).get(person.id)
+      : undefined;
+  const related = Boolean(relatedInfo);
+
+  const filterDim = personDim(person);
+  const selectionActive = state.line === 'people' && state.selected?.kind === 'person';
+  const dim = filterDim || (selectionActive && !selected && !related && !isCompared);
+
   const compact = W < 640;
   const gutter = plotPadding();
   const avatarX = compact ? 20 : 36;
   const avatarRadius = compact ? 16 : 21;
   const labelX = compact ? 42 : 68;
   const rowTop = lane.y + LANE_TITLE_H + item.row * lane.pitch;
-  c.globalAlpha = dim ? 0.15 : 1;
+  c.globalAlpha = dim ? 0.18 : 1;
 
   if (selected) {
     c.fillStyle = 'rgba(207, 155, 83, 0.12)';
@@ -594,6 +725,22 @@ function drawPersonLifeRow(
     roundRect(c, 8, rowTop + 3, W - 16, lane.pitch - 6, 8);
     c.fill();
     c.strokeStyle = '#cf9b53';
+    c.lineWidth = 2;
+    c.stroke();
+  } else if (related && relatedInfo) {
+    c.fillStyle = 'rgba(207, 155, 83, 0.06)';
+    c.beginPath();
+    roundRect(c, 8, rowTop + 3, W - 16, lane.pitch - 6, 8);
+    c.fill();
+    c.strokeStyle = relatedInfo.theme.stroke;
+    c.lineWidth = 2;
+    c.stroke();
+  } else if (isCompared) {
+    c.fillStyle = 'rgba(13, 118, 110, 0.08)';
+    c.beginPath();
+    roundRect(c, 8, rowTop + 3, W - 16, lane.pitch - 6, 8);
+    c.fill();
+    c.strokeStyle = '#0d766e';
     c.lineWidth = 2;
     c.stroke();
   }
@@ -628,8 +775,8 @@ function drawPersonLifeRow(
   c.arc(avatarX, midY, avatarRadius, 0, Math.PI * 2);
   c.fillStyle = C.paper;
   c.fill();
-  c.strokeStyle = selected ? '#cf9b53' : color;
-  c.lineWidth = selected ? 2.5 : 1.5;
+  c.strokeStyle = selected ? '#cf9b53' : related && relatedInfo ? relatedInfo.theme.stroke : color;
+  c.lineWidth = selected || related ? 2.5 : 1.5;
   c.stroke();
   c.fillStyle = color;
   c.font = `600 ${compact ? 16 : 20}px ${FONT_SERIF}`;
@@ -777,52 +924,221 @@ function laneColor(lane: LaneLayout): string {
   return lane.color;
 }
 
-function drawRelations(c: CanvasRenderingContext2D): void {
-  const selection = state.selected;
-  const topic = state.topic;
-  if (!selection || selection.kind !== 'person' || !topic) return;
-  const mine = barCenter(selection.id);
-  if (!mine) return;
-  const C = skinPalette();
-  for (const relation of topic.relations) {
-    if (relation.source !== selection.id && relation.target !== selection.id) continue;
-    const otherId = relation.source === selection.id ? relation.target : relation.source;
-    const other = barCenter(otherId);
-    if (!other) continue;
-    const type = topic.relationTypes.find((item) => item.id === relation.type);
-    const color = type?.color ?? C.muted;
-    const midX = (mine.x + other.x) / 2;
-    const midY = (mine.y + other.y) / 2 - 24;
-    c.strokeStyle = color;
-    c.lineWidth = 1.5;
-    if (type?.dash) c.setLineDash(type.dash.split(' ').map(Number));
-    c.beginPath();
-    c.moveTo(mine.x, mine.y);
-    c.quadraticCurveTo(midX, midY, other.x, other.y);
-    c.stroke();
-    c.setLineDash([]);
-    c.shadowBlur = 0;
-    if (type) {
-      c.fillStyle = color;
-      c.font = `12px ${FONT_SANS}`;
-      c.textAlign = 'center';
-      c.fillText(type.name, midX, midY - 2);
-      c.textAlign = 'left';
-    }
-  }
+interface BarInfo {
+  x0: number;
+  x1: number;
+  cx: number;
+  y0: number;
+  y1: number;
+  cy: number;
 }
 
-function barCenter(id: string): { x: number; y: number } | null {
+function getBarInfo(id: string): BarInfo | null {
   for (const lane of layouts) {
     for (const item of lane.items) {
       if (item.id !== id || item.kind !== 'person') continue;
+      const x0 = xOf(item.from);
+      const x1 = xOf(item.to);
+      const y0 = barTop(lane, item.row);
+      const y1 = y0 + BAR_H;
       return {
-        x: (xOf(item.from) + xOf(item.to)) / 2,
-        y: barTop(lane, item.row) + BAR_H / 2,
+        x0,
+        x1,
+        cx: (x0 + x1) / 2,
+        y0,
+        y1,
+        cy: (y0 + y1) / 2,
       };
     }
   }
   return null;
+}
+
+function drawArrowhead(
+  c: CanvasRenderingContext2D,
+  tipX: number,
+  tipY: number,
+  angle: number,
+  color: string,
+  casingColor: string,
+): void {
+  const headLen = 9;
+  const headWidth = 5;
+  const cos = Math.cos(angle);
+  const sin = Math.sin(angle);
+  const p1x = tipX - headLen * cos + headWidth * sin;
+  const p1y = tipY - headLen * sin - headWidth * cos;
+  const p2x = tipX - headLen * cos - headWidth * sin;
+  const p2y = tipY - headLen * sin + headWidth * cos;
+
+  c.save();
+  c.strokeStyle = casingColor;
+  c.lineWidth = 3.5;
+  c.beginPath();
+  c.moveTo(p1x, p1y);
+  c.lineTo(tipX, tipY);
+  c.lineTo(p2x, p2y);
+  c.closePath();
+  c.stroke();
+
+  c.fillStyle = color;
+  c.beginPath();
+  c.moveTo(p1x, p1y);
+  c.lineTo(tipX, tipY);
+  c.lineTo(p2x, p2y);
+  c.closePath();
+  c.fill();
+  c.restore();
+}
+
+function drawRelationBadge(
+  c: CanvasRenderingContext2D,
+  label: string,
+  cx: number,
+  cy: number,
+  theme: RelationTheme,
+): void {
+  c.save();
+  c.font = `600 11px ${FONT_SANS}`;
+  const textWidth = c.measureText(label).width;
+  const badgeWidth = textWidth + 14;
+  const badgeHeight = 18;
+  const x = cx - badgeWidth / 2;
+  const y = cy - badgeHeight / 2;
+
+  c.shadowColor = 'rgba(0, 0, 0, 0.08)';
+  c.shadowBlur = 4;
+  c.fillStyle = theme.labelBg;
+  c.beginPath();
+  roundRect(c, x, y, badgeWidth, badgeHeight, badgeHeight / 2);
+  c.fill();
+
+  c.shadowColor = 'transparent';
+  c.shadowBlur = 0;
+
+  c.strokeStyle = theme.stroke;
+  c.lineWidth = 1;
+  c.beginPath();
+  roundRect(c, x, y, badgeWidth, badgeHeight, badgeHeight / 2);
+  c.stroke();
+
+  c.fillStyle = theme.text;
+  c.textAlign = 'center';
+  c.textBaseline = 'middle';
+  c.fillText(label, cx, cy + 0.5);
+  c.restore();
+}
+
+function drawRelations(
+  c: CanvasRenderingContext2D,
+  selectedPersonId?: string,
+  _relatedMap?: Map<string, RelatedPersonInfo>,
+): void {
+  const selectionId = selectedPersonId ?? (state.selected?.kind === 'person' ? state.selected.id : null);
+  const topic = state.topic;
+  if (!selectionId || !topic || !topic.relations) return;
+  const C = skinPalette();
+
+  const isFocused = state.line === 'people' && state.focusMode;
+  const activeIds = new Set<string>();
+  activeIds.add(selectionId);
+  if (isFocused && state.comparedPersonIds) {
+    for (const id of state.comparedPersonIds) activeIds.add(id);
+  }
+
+  const drawnKeys = new Set<string>();
+
+  for (const relation of topic.relations) {
+    const touchesActive = activeIds.has(relation.source) || activeIds.has(relation.target);
+    if (!touchesActive) continue;
+
+    const sourceBar = getBarInfo(relation.source);
+    const targetBar = getBarInfo(relation.target);
+    if (!sourceBar || !targetBar) continue;
+
+    const relKey = `${relation.source}:${relation.target}:${relation.type}`;
+    if (drawnKeys.has(relKey)) continue;
+    drawnKeys.add(relKey);
+
+    const type = topic.relationTypes.find((item) => item.id === relation.type);
+    const theme = getRelationTheme(relation.type, type?.color);
+
+    const isDirected = type?.directed ?? false;
+    let fromBar = sourceBar;
+    let toBar = targetBar;
+    if (!isDirected) {
+      if (relation.target === selectionId) {
+        fromBar = targetBar;
+        toBar = sourceBar;
+      }
+    }
+
+    const startX = clamp(fromBar.cx, fromBar.x0 + 4, fromBar.x1 - 4);
+    const endX = clamp(toBar.cx, toBar.x0 + 4, toBar.x1 - 4);
+
+    let startY: number;
+    let endY: number;
+    let midY: number;
+    let midX = (startX + endX) / 2;
+
+    const rowDiff = Math.abs(toBar.cy - fromBar.cy);
+    if (rowDiff <= 48) {
+      startY = fromBar.y0;
+      endY = toBar.y0;
+      const arch = Math.max(28, Math.min(60, Math.abs(endX - startX) * 0.14 + 22));
+      midY = Math.min(startY, endY) - arch;
+    } else if (toBar.cy > fromBar.cy) {
+      startY = fromBar.y1;
+      endY = toBar.y0;
+      midY = (startY + endY) / 2;
+    } else {
+      startY = fromBar.y0;
+      endY = toBar.y1;
+      midY = (startY + endY) / 2;
+    }
+
+    if (Math.abs(endX - startX) < 32) {
+      midX += (startX + endX) / 2 >= W / 2 ? -28 : 28;
+    }
+
+    c.save();
+    c.strokeStyle = C.paper;
+    c.lineWidth = 5;
+    c.beginPath();
+    c.moveTo(startX, startY);
+    c.quadraticCurveTo(midX, midY, endX, endY);
+    c.stroke();
+
+    c.strokeStyle = theme.stroke;
+    c.lineWidth = 2.5;
+    if (type?.dash) c.setLineDash(type.dash.split(' ').map(Number));
+    c.beginPath();
+    c.moveTo(startX, startY);
+    c.quadraticCurveTo(midX, midY, endX, endY);
+    c.stroke();
+    c.setLineDash([]);
+    c.restore();
+
+    c.save();
+    c.fillStyle = C.paper;
+    c.beginPath();
+    c.arc(startX, startY, 4.5, 0, Math.PI * 2);
+    c.fill();
+    c.fillStyle = theme.stroke;
+    c.beginPath();
+    c.arc(startX, startY, 3, 0, Math.PI * 2);
+    c.fill();
+    c.restore();
+
+    const arrivalAngle = Math.atan2(endY - midY, endX - midX);
+    drawArrowhead(c, endX, endY, arrivalAngle, theme.stroke, C.paper);
+
+    if (type) {
+      const badgeX = 0.25 * startX + 0.5 * midX + 0.25 * endX;
+      const badgeY = 0.25 * startY + 0.5 * midY + 0.25 * endY;
+      drawRelationBadge(c, type.name, badgeX, badgeY, theme);
+    }
+  }
 }
 
 // ---------- 吸顶头部 ----------
