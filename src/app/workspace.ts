@@ -4,11 +4,10 @@
  */
 
 import { zoomBy } from './interaction';
-import { topicPeopleForView } from './layout';
 import { topicForDynasty, topicRange } from './model';
-import { draw, fullSpan, visibleEvents } from './render';
+import { draw, fullSpan, peopleInCurrentWindow, visibleEvents } from './render';
 import { getHooks, state } from './runtime';
-import { esc, fmtYear, personFrom, personTo } from './util';
+import { esc, fmtYear } from './util';
 
 /** 每次 draw 后由 app hooks 调用：场景头、朝代高亮与缩放读数跟随状态。 */
 export function syncWorkspaceChrome(): void {
@@ -28,17 +27,9 @@ export function syncWorkspaceChrome(): void {
 
 function syncGroupCounts(): void {
   const [d0, d1] = state.domain;
-  const people = state.topic
-    ? topicPeopleForView(state.topic, state.viewId).filter(
-        (person) =>
-          !state.hiddenLanes.has(`lane:${person.lane}`) &&
-          personTo(person.birth, person.death) >= d0 &&
-          personFrom(person.birth, person.death) <= d1,
-      ).length
-    : 0;
   const events = visibleEvents().filter((event) => event.year <= d1 && (event.endYear ?? event.year) >= d0);
   const counts = {
-    people,
+    people: peopleInCurrentWindow(true).length,
     war: events.filter((event) => event.type === 'military' || event.type === 'rebellion').length,
     history: events.filter((event) => !['military', 'rebellion'].includes(event.type)).length,
   };

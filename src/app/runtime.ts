@@ -51,6 +51,14 @@ export function setState(next: AppState): void {
   state = next;
 }
 
+export function selectedPersonId(): string | undefined {
+  return state.selected?.kind === 'person' ? state.selected.id : undefined;
+}
+
+export function personCategoryVisible(lane: string, showPeople = state.groups.people): boolean {
+  return showPeople && !state.hiddenLanes.has(`lane:${lane}`);
+}
+
 export let layouts: LaneLayout[] = [];
 
 export function setLayouts(next: LaneLayout[]): void {

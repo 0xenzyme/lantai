@@ -86,7 +86,7 @@ test('现有 Chrome 应用兼容：深链、切换、章节、搜索、面板、
     const page = await browser.newPage();
     page.on('pageerror', (error) => errors.push(error.message));
     await page.goto(`${origin}/#tang`);
-    await page.waitForSelector('#boot', { state: 'hidden' });
+    await page.waitForSelector('body[data-timeline-ready="true"]', { state: 'attached' });
     await page.waitForSelector('#topic-head .lt-topic-name', { state: 'visible' });
     assert.equal(await page.locator('#topic-head .lt-topic-name').innerText(), '唐');
 

@@ -3839,19 +3839,6 @@ body.timeline-app .ribbon :focus-visible {
   background: var(--lt-wood-raised);
 }
 
-.lt-site-header .lt-header-search-home {
-  width: 44px;
-  height: 44px;
-  flex: none;
-  border-color: #80684f;
-}
-
-@media (max-width: 1199px) {
-  .lt-site-header .lt-header-search-home {
-    margin-left: auto;
-  }
-}
-
 .lt-header-dialog {
   width: min(92vw, 520px);
   padding: 24px;

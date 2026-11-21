@@ -5,6 +5,7 @@
 
 import { renderEventCard, renderPersonCard, type CardContext } from './cards';
 import { mountPortraits } from '../site/portrait';
+import type { EventRecord } from '../types';
 import { BAR_H, ROW_GAP, buildEventLayout, topicPeopleForView } from './layout';
 import { TYPE_NAMES } from './skins';
 import { esc, fmtYear } from './util';
@@ -124,8 +125,8 @@ export function hideCard(): void {
     getHooks().syncFocusPill?.();
   }
   announce('已关闭详情');
-  getHooks().syncTimelineUrl();
   draw();
+  getHooks().syncTimelineUrl();
   if (trigger) trigger.focus({ preventScroll: true });
   else dom.canvas.focus({ preventScroll: true });
 }
@@ -337,18 +338,16 @@ export function personTooltip(id: string): string {
   return `${label}　${birth != null ? fmtYear(birth) : '生年不详'} — ${death != null ? fmtYear(death) : '卒年不详'}`;
 }
 
-export function eventTooltip(id: string): string {
-  const event = state.library.eventById.get(id);
-  if (!event) return id;
+export function eventTooltip(event: EventRecord): string {
   const range =
-    event.endYear && event.endYear !== event.year
+    event.endYear !== undefined && event.endYear !== event.year
       ? `${fmtYear(event.year)} — ${fmtYear(event.endYear)}`
       : fmtYear(event.year);
   return `${event.display || event.name}　${range}`;
 }
 
 let hintTimer = 0;
-const DEFAULT_HINT = '滚轮缩放 · 拖动平移 · 点击人物或事件 · 底部朝代带可跳转';
+const DEFAULT_HINT = '滚轮缩放 · 拖动平移 · 点击选中，再点取消';
 
 export function flashHint(text: string): void {
   dom.hint.textContent = text;

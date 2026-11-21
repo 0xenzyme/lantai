@@ -208,6 +208,7 @@ export interface EntityGroups {
 export interface CombinedLayoutOptions {
   viewId?: string | null;
   domain?: [number, number];
+  selectedPersonId?: string;
   largeRows?: boolean;
   focusIds?: Set<string> | null;
   isComparing?: boolean;
@@ -217,17 +218,35 @@ export interface CombinedLayoutOptions {
 const WAR_TYPES: EventType[] = ['military', 'rebellion'];
 const HISTORY_TYPES: EventType[] = ['political', 'institutional', 'diplomatic', 'cultural'];
 
+function personOverlapsDomain(person: Person, domain: [number, number] | undefined): boolean {
+  return overlapsDomain(personFrom(person.birth, person.death), personTo(person.birth, person.death), domain);
+}
+
+/** 选中人物可以越过分类筛选，仍受当前章节和时间窗限制。 */
+export function peopleInTimeWindow(
+  topic: Topic,
+  { viewId, domain, selectedPersonId }: Pick<CombinedLayoutOptions, 'viewId' | 'domain' | 'selectedPersonId'>,
+  isCategoryVisible: (lane: string) => boolean,
+): Person[] {
+  return topicPeopleForView(topic, viewId).filter(
+    (person) =>
+      (person.id === selectedPersonId || isCategoryVisible(person.lane)) && personOverlapsDomain(person, domain),
+  );
+}
+
 /** 合并人物区：原始 lane 只负责筛选和颜色，不再把首屏拆成许多小区块。 */
 function buildCombinedPeopleLayout(
   topic: Topic,
   hiddenLanes: Set<string>,
+  showPeople: boolean,
   pitch: number,
   options: CombinedLayoutOptions,
 ): LaneLayout {
-  let candidates: Person[];
-  if (options.focusIds && options.focusIds.size > 0) {
+  const focusIds = showPeople ? options.focusIds : null;
+  let members: Person[];
+  if (focusIds?.size) {
     const list: Person[] = [];
-    for (const id of options.focusIds) {
+    for (const id of focusIds) {
       const inTopic = topic.people.find((person) => person.id === id);
       if (inTopic) {
         list.push(inTopic);
@@ -236,16 +255,14 @@ function buildCombinedPeopleLayout(
         if (resolved) list.push(resolved);
       }
     }
-    candidates = list;
+    members = list.filter((person) => personOverlapsDomain(person, options.domain));
   } else {
-    candidates = topicPeopleForView(topic, options.viewId).filter((person) => !hiddenLanes.has(person.lane));
+    members = peopleInTimeWindow(topic, options, (lane) => showPeople && !hiddenLanes.has(lane));
   }
 
-  const members = candidates
-    .filter((person) =>
-      overlapsDomain(personFrom(person.birth, person.death), personTo(person.birth, person.death), options.domain),
-    )
-    .sort((a, b) => personFrom(a.birth, a.death) - personFrom(b.birth, b.death) || (a.order ?? 99) - (b.order ?? 99));
+  members.sort(
+    (a, b) => personFrom(a.birth, a.death) - personFrom(b.birth, b.death) || (a.order ?? 99) - (b.order ?? 99),
+  );
   const laneColors = new Map(topic.lanes.map((lane) => [lane.id, lane.color]));
   const make = (person: Person, row: number): LayoutItem => ({
     kind: 'person',
@@ -267,12 +284,7 @@ function buildCombinedPeopleLayout(
       );
   return {
     id: 'people',
-    name:
-      options.focusIds && options.focusIds.size > 0
-        ? options.isComparing
-          ? '人物（同屏对比）'
-          : '人物（聚焦关系网）'
-        : '人物（生卒年）',
+    name: focusIds?.size ? (options.isComparing ? '人物（同屏对比）' : '人物（聚焦关系网）') : '人物（生卒年）',
     color: topic.lanes[0]?.color ?? EVENT_COLORS.political,
     y: 0,
     height: laneHeight(packed.rows, pitch),
@@ -296,7 +308,10 @@ export function buildCombinedLayout(
   options: CombinedLayoutOptions = {},
 ): LaneLayout[] {
   const layouts: LaneLayout[] = [];
-  if (groups.people) layouts.push(buildCombinedPeopleLayout(topic, hiddenLanes, pitch, options));
+  if (groups.people || options.selectedPersonId !== undefined) {
+    const people = buildCombinedPeopleLayout(topic, hiddenLanes, groups.people, pitch, options);
+    if (groups.people || people.items.length > 0) layouts.push(people);
+  }
   const sections: Array<{ key: 'war' | 'history'; name: string; types: EventType[]; color: string }> = [
     { key: 'war', name: '战事', types: WAR_TYPES, color: EVENT_COLORS.military },
     { key: 'history', name: '历史事件', types: HISTORY_TYPES, color: EVENT_COLORS.political },

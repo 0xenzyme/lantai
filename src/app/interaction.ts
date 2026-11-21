@@ -4,7 +4,7 @@
  */
 
 import type { EventRecord } from '../types';
-import { AXIS_H, LANE_TITLE_H, itemHeight, itemTop } from './layout';
+import { AXIS_H, LANE_TITLE_H, itemHeight, itemTop, type EventItem, type PersonItem } from './layout';
 import { FONT_SANS, clamp } from './util';
 import {
   chipMatchEvent,
@@ -21,11 +21,13 @@ import {
   yearAt,
 } from './render';
 import { eventTooltip, hideCard, personTooltip } from './view';
-import { ctx, dom, getHooks, layouts, motion, state, W, type Selection } from './runtime';
+import { ctx, dom, getHooks, layouts, motion, state, W } from './runtime';
 
 // ---------- 命中测试 ----------
 
-export function hitTest(px: number, py: number): Selection | null {
+type CanvasHit = Pick<PersonItem, 'kind' | 'id'> | Pick<EventItem, 'kind' | 'id' | 'event'>;
+
+export function hitTest(px: number, py: number): CanvasHit | null {
   if (state.line === 'people' && state.stripOpen && py > AXIS_H + 4 && py < hdrH()) {
     let best: EventRecord | null = null;
     let bestDistance = 14;
@@ -43,7 +45,7 @@ export function hitTest(px: number, py: number): Selection | null {
         best = event;
       }
     }
-    return best ? { kind: 'event', id: best.id } : null;
+    return best ? { kind: 'event', id: best.id, event: best } : null;
   }
   if (py < hdrH()) return null;
   const contentY = py - hdrH() + state.scrollY;
@@ -67,7 +69,7 @@ export function hitTest(px: number, py: number): Selection | null {
       let x1 = rect.x1 + 2;
       if (placement === 'right') x1 += 5 + labelWidth + 2;
       else if (placement === 'left') x0 -= 5 + labelWidth + 2;
-      if (px >= x0 && px <= x1) return { kind: item.kind, id: item.id };
+      if (px >= x0 && px <= x1) return item;
     }
   }
   return null;
@@ -85,7 +87,7 @@ export function hover(event: PointerEvent): void {
     tooltip.hidden = true;
     return;
   }
-  const text = hit.kind === 'person' ? personTooltip(hit.id) : eventTooltip(hit.id);
+  const text = hit.kind === 'person' ? personTooltip(hit.id) : eventTooltip(hit.event);
   tooltip.textContent = text;
   tooltip.hidden = false;
   tooltip.style.left = `${event.clientX + 12}px`;
@@ -234,8 +236,9 @@ export function canvasPointer(signal: AbortSignal): void {
     }
     const rect = dom.canvas.getBoundingClientRect();
     const hit = hitTest(event.clientX - rect.left, event.clientY - rect.top);
-    if (hit) void getHooks().selectAndReveal(hit);
-    else hideCard();
+    const selected = state.selected;
+    if (!hit || (hit.kind === selected?.kind && hit.id === selected.id)) hideCard();
+    else void getHooks().selectAndReveal({ kind: hit.kind, id: hit.id });
   });
   dom.canvas.addEventListener('pointercancel', (event) => {
     pointers.delete(event.pointerId);

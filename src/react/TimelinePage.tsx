@@ -197,7 +197,7 @@ export function TimelinePage() {
               </span>
             </div>
             <p className="hint" id="hint">
-              滚轮缩放 · 拖动平移 · 点击人物或事件
+              滚轮缩放 · 拖动平移 · 点击选中，再点取消
             </p>
             <details
               className="timeline-accessible-entities"

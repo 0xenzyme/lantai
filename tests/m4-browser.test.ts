@@ -65,16 +65,26 @@ test('M4 Chrome 内容发现、返回、四档视口、异常与年表回归', {
   assert.match(await page.locator('.lt-home-hero').innerText(), /纵横千年，人物相望/);
   assert.equal(await page.locator('.lt-era-recommendations .lt-era-card').count(), 4);
   assert.equal(await page.locator('main').count(), 1);
-  assert.equal(await page.locator('.lt-global-search').count(), 0);
-  await page.locator('.lt-header-search-home').click();
-  assert.equal(await page.evaluate(() => document.activeElement?.id), 'home-query');
+  const headerSearch = page.getByRole('search', { name: '顶栏搜索' });
+  await headerSearch.getByRole('searchbox').fill('李白');
+  await headerSearch.getByRole('searchbox').press('Enter');
+  await ready(page, '.lt-search-group [data-entity-id="li-bai"]');
+  assert.equal(new URL(page.url()).searchParams.get('q'), '李白');
+  await page.locator('.lt-main-nav a[href="/"]').click();
+  await ready(page, '.lt-home');
+  await page.keyboard.press('Control+k');
+  const quickSearch = page.getByRole('dialog', { name: '快速查找' });
+  await quickSearch.waitFor({ state: 'visible' });
+  await page.keyboard.press('Escape');
+  await quickSearch.waitFor({ state: 'hidden' });
   assert.equal(await page.locator('.lt-home-path a').count(), 3);
   assert.match(
     (await page.locator('.lt-home-path a').nth(2).getAttribute('href')) ?? '',
     /topic=.+&person=.+&from=-?\d+&to=-?\d+/,
   );
-  await page.locator('#home-query').fill('儒家传承');
-  await page.locator('.lt-home-search button').click();
+  const homeSearch = page.getByRole('search', { name: '首页搜索' });
+  await homeSearch.getByRole('searchbox').fill('儒家传承');
+  await homeSearch.getByRole('button', { name: '搜索' }).click();
   await ready(page, '.lt-search-group');
   assert.match(await page.locator('.lt-search-group').filter({ hasText: '群像' }).innerText(), /儒家传承/);
   await page.goto(`${origin}/search?q=%E5%94%90&type=dynasty`);

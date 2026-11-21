@@ -111,13 +111,6 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
     openSiteUrl(`/search?${params.toString()}`);
   };
 
-  const focusHomeSearch = () => {
-    const input = document.getElementById('home-query');
-    if (!(input instanceof HTMLInputElement)) return;
-    input.scrollIntoView({ block: 'center', behavior: 'instant' });
-    input.focus({ preventScroll: true });
-  };
-
   const linkProps = (id: SiteSection, href: string) => ({
     href,
     ...(id === 'timeline' ? { 'data-timeline-link': true } : { 'data-site-link': true }),
@@ -147,39 +140,34 @@ export function SiteHeader({ section, query = '' }: NavigationContext) {
             </a>
           ))}
         </nav>
-        {section === 'home' ? (
-          <button
-            className="lt-icon-button lt-header-search-home"
-            type="button"
-            aria-label="全站搜索"
-            aria-controls="home-query"
-            onClick={focusHomeSearch}
-          >
-            <Icon id="search" />
-          </button>
-        ) : (
-          <form className="lt-global-search" action="/search" method="get" role="search" onSubmit={submitSearch}>
-            <label htmlFor="lt-global-query">全站搜索</label>
-            <div className="lt-global-search-box">
-              <button className="lt-global-search-submit" type="submit" aria-label="搜索">
-                <Icon id="search" />
-              </button>
-              <input
-                key={`${section}:${query}`}
-                id="lt-global-query"
-                name="q"
-                type="search"
-                defaultValue={query}
-                placeholder="搜索人物、事件、群像"
-                required
-              />
-              <kbd className="lt-global-search-kbd" aria-hidden="true">
-                ⌘K
-              </kbd>
-              <input type="hidden" name="type" value="all" />
-            </div>
-          </form>
-        )}
+        <form
+          className="lt-global-search"
+          action="/search"
+          method="get"
+          role="search"
+          aria-label="顶栏搜索"
+          onSubmit={submitSearch}
+        >
+          <label htmlFor="lt-global-query">全站搜索</label>
+          <div className="lt-global-search-box">
+            <button className="lt-global-search-submit" type="submit" aria-label="搜索">
+              <Icon id="search" />
+            </button>
+            <input
+              key={`${section}:${query}`}
+              id="lt-global-query"
+              name="q"
+              type="search"
+              defaultValue={query}
+              placeholder="搜索人物、事件、群像"
+              required
+            />
+            <kbd className="lt-global-search-kbd" aria-hidden="true">
+              ⌘K
+            </kbd>
+            <input type="hidden" name="type" value="all" />
+          </div>
+        </form>
         <button
           ref={menuToggleRef}
           className="lt-menu-toggle"

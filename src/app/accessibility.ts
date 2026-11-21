@@ -1,6 +1,5 @@
-import { topicPeopleForView } from './layout';
-import { chipMatchEvent, personDim, visibleEvents } from './render';
-import { state, type Selection } from './runtime';
+import { chipMatchEvent, peopleInCurrentWindow, personDim, visibleEvents } from './render';
+import { selectedPersonId, state, type Selection } from './runtime';
 import { TYPE_NAMES } from './skins';
 import { fmtYear } from './util';
 
@@ -10,24 +9,19 @@ function yearLabel(year: number | undefined): string {
 
 export function visibleEntitySelections(): Array<Selection & { label: string; meta: string }> {
   if (state.line === 'people') {
-    const people =
-      state.groups.people && state.topic
-        ? topicPeopleForView(state.topic, state.viewId)
-            .filter(
-              (person) =>
-                !state.hiddenLanes.has(`lane:${person.lane}`) &&
-                !personDim(person) &&
-                person.birth !== undefined &&
-                person.birth <= state.domain[1] &&
-                (person.death ?? person.birth) >= state.domain[0],
-            )
-            .map((person) => ({
-              kind: 'person' as const,
-              id: person.id,
-              label: person.display || person.name,
-              meta: `${yearLabel(person.birth)}—${yearLabel(person.death)}${person.birthAccuracy === 'approx' || person.deathAccuracy === 'approx' ? ' · 含约略年份' : ''}`,
-            }))
-        : [];
+    const selected = selectedPersonId();
+    const people = peopleInCurrentWindow()
+      .filter(
+        (person) =>
+          person.id === selected ||
+          (!personDim(person) && person.birth !== undefined && (person.death ?? person.birth) >= state.domain[0]),
+      )
+      .map((person) => ({
+        kind: 'person' as const,
+        id: person.id,
+        label: person.display || person.name,
+        meta: `${yearLabel(person.birth)}—${yearLabel(person.death)}${person.birthAccuracy === 'approx' || person.deathAccuracy === 'approx' ? ' · 含约略年份' : ''}`,
+      }));
     const events = visibleEvents()
       .filter((event) => {
         const war = event.type === 'military' || event.type === 'rebellion';

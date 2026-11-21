@@ -104,7 +104,7 @@ export function homePage(library: SiteLibrary, pathPeople: PersonDetail[] = []):
           <p class="lt-home-hero-kicker">中国历史 · 交互式档案馆</p>
           <h1 id="home-title" tabindex="-1">纵横千年，人物相望</h1>
           <p class="lt-home-hero-lede">以时间为经，以人物为纬</p>
-          <form class="lt-home-search" action="/search" method="get" role="search" data-native-form>
+          <form class="lt-home-search" action="/search" method="get" role="search" aria-label="首页搜索" data-native-form>
             <label class="sr-only" for="home-query">全站搜索</label>
             <div class="lt-home-search-box">${icon('search')}<input id="home-query" type="search" name="q" placeholder="搜索人物、事件、群像、朝代……" required /><input type="hidden" name="type" value="all" /><button class="lt-home-search-submit" type="submit" aria-label="搜索">${icon('arrow-right')}</button></div>
           </form>

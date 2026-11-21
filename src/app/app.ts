@@ -68,7 +68,9 @@ import {
   initial,
   layouts,
   motion,
+  personCategoryVisible,
   rctx,
+  selectedPersonId,
   setContentH,
   setHooks,
   setInitial,
@@ -225,6 +227,10 @@ async function applyTimelineState(timeline: TimelineState | null): Promise<void>
     if (timeline.from !== undefined && timeline.to !== undefined) state.domain = [timeline.from, timeline.to];
     state.scrollY = timeline.scroll ?? state.scrollY;
     rebuildLayout();
+    if (timeline.scroll === undefined && timeline.person) {
+      const person = state.topic?.people.find((item) => item.id === timeline.person);
+      if (person && !personCategoryVisible(person.lane)) scrollTo('person', person.id);
+    }
     draw();
   } finally {
     restoringTimeline = false;
@@ -297,6 +303,7 @@ function rebuildLayout(): void {
         ? buildCombinedLayout(state.topic, state.library.events, hiddenLaneIds(), state.groups, pitch, {
             viewId: state.viewId,
             domain: state.domain,
+            selectedPersonId: selectedPersonId(),
             largeRows,
             focusIds,
             isComparing,
@@ -501,7 +508,6 @@ async function resolveEventRecord(id: string): Promise<EventRecord | null> {
 }
 
 async function selectAndReveal(selection: Selection, sync = true, keepDomain = false): Promise<void> {
-  state.selected = selection;
   if (selection.kind === 'person') {
     const record = state.library.personById.get(selection.id);
     // 人就在当前专题里时不切走：personById 是「首见即存」，跨专题人物会总跳到发布顺序最靠前的那个专题。
@@ -511,6 +517,7 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
       await setTopic(record.topicId, false);
     }
     if (state.line !== 'people') setLine('people', false);
+    state.selected = selection;
     const person = state.topic?.people.find((item) => item.id === selection.id);
     if (person) {
       const chapter = state.topic?.views.find((view) => view.id === state.viewId);
@@ -527,9 +534,12 @@ async function selectAndReveal(selection: Selection, sync = true, keepDomain = f
         scrollTo('person', person.id);
       }
     }
-    announce(`人物：${record?.display ?? selection.id}`);
+    const temporarilyShown = person && !personCategoryVisible(person.lane);
+    if (temporarilyShown) flashHint('已临时显示选中人物');
+    announce(`人物：${record?.display ?? selection.id}${temporarilyShown ? '，已临时显示' : ''}`);
     if (sync) writeTopicHash('replace');
   } else {
+    state.selected = selection;
     if (state.focusMode) {
       state.focusMode = false;
     }

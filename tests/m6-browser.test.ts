@@ -78,6 +78,8 @@ async function captureHeader(page: Page): Promise<Record<string, unknown>> {
     for (const [name, selector] of [
       ['headerBox', '.lt-site-header'],
       ['brandBox', '.lt-brand'],
+      ['navBox', '.lt-main-nav'],
+      ['searchBox', '.lt-global-search'],
     ]) {
       const rect = document.querySelector(selector)?.getBoundingClientRect();
       shared[name] = rect ? { x: rect.x, y: rect.y, width: rect.width, height: rect.height, right: rect.right } : {};
@@ -297,6 +299,10 @@ test('M6 production 共享页头四视口一致且年表章节生效', { timeout
     const peopleHeader = await captureHeader(page);
     await noOverflow(page);
     assert.deepEqual(peopleHeader, timelineHeader, `${width}px 年表与列传页头应共用同一计算样式`);
+    await page.goto(`${origin}/`);
+    await ready(page, '.lt-home');
+    await noOverflow(page);
+    assert.deepEqual(await captureHeader(page), timelineHeader, `${width}px 首页与年表页头应共用同一布局`);
     const headerBox = timelineHeader.headerBox as Record<string, number>;
     assert.equal(headerBox.height, width < 768 ? 56 : 68);
   }
@@ -481,6 +487,57 @@ test('M6 production 年表实体焦点与选中行定位', { timeout: 90_000 }, 
   await ready(page, '.timeline-app #card.show');
   const scroll = Number(new URL(page.url()).searchParams.get('scroll') ?? '0');
   assert.ok(scroll > 0, '合并人物区中靠后的选中行必须滚动到可见范围');
+  await page.close();
+});
+
+test('搜索暂时显示被筛选隐藏的选中人物', { timeout: 90_000 }, async (context) => {
+  const server = previewServer();
+  let browser: Browser | undefined;
+  context.after(async () => {
+    await browser?.close();
+    server?.kill('SIGTERM');
+  });
+  await waitForServer();
+  browser = await chromium.launch(launchOptions());
+  const page = await browser.newPage({ viewport: { width: 1446, height: 993 } });
+  const hidden = 'lane:emperor,lane:kin,lane:chancellor,lane:literati,lane:end';
+  const query = new URLSearchParams({ topic: 'tang', from: '642', to: '822', hide: hidden, strip: '1' });
+  await page.goto(`${origin}/timeline?${query}`);
+  await page.waitForSelector('body[data-timeline-ready="true"]', { state: 'attached' });
+
+  const search = page.locator('#search');
+  await search.fill('杨国忠');
+  await search.press('Enter');
+  assert.equal(await page.locator('#card .card-title').innerText(), '杨国忠');
+  await search.fill('李白');
+  await search.press('Enter');
+
+  const personItems = page.locator('#timeline-entity-list button[data-kind="person"]');
+  const liBai = personItems.and(page.locator('[data-id="li-bai"]'));
+  const duFu = personItems.and(page.locator('[data-id="du-fu"]'));
+  const literati = page.locator('input[data-lane="literati"]');
+  await liBai.and(page.locator('[aria-pressed="true"]')).waitFor({ state: 'attached' });
+  assert.equal(await page.locator('#card .card-title').innerText(), '李白');
+  assert.equal(await literati.isChecked(), false);
+  assert.equal(await duFu.count(), 0);
+  assert.equal(new URL(page.url()).searchParams.get('hide'), hidden);
+
+  await page.reload();
+  await liBai.and(page.locator('[aria-pressed="true"]')).waitFor({ state: 'attached' });
+  assert.equal(await literati.isChecked(), false);
+  await page.locator('#card-close').click();
+  await liBai.waitFor({ state: 'detached' });
+  assert.equal(new URL(page.url()).searchParams.has('person'), false);
+
+  const peopleGroup = page.locator('input[data-group="people"]');
+  await peopleGroup.uncheck();
+  await search.fill('李白');
+  await page.locator('#search-results button[data-action="select"][data-id="li-bai"]').click();
+  await liBai.and(page.locator('[aria-pressed="true"]')).waitFor({ state: 'attached' });
+  assert.equal(await peopleGroup.isChecked(), false);
+  assert.equal(await personItems.count(), 1);
+  await page.keyboard.press('Escape');
+  await liBai.waitFor({ state: 'detached' });
   await page.close();
 });
 

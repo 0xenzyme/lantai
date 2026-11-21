@@ -15,13 +15,27 @@ import {
   barTop,
   itemHeight,
   itemTop,
-  topicPeopleForView,
+  peopleInTimeWindow,
   type LaneLayout,
   type LayoutItem,
 } from './layout';
 import { EVENT_COLORS, paletteFor, ribbonBand, type Palette } from './skins';
 import { FONT_SANS, FONT_SERIF, clamp, fmtYear, personFrom, personTo, pickStep, roundRect } from './util';
-import { contentH, ctx, dom, getHooks, H, layouts, loadingLine, loadingTopic, rctx, state, W } from './runtime';
+import {
+  contentH,
+  ctx,
+  dom,
+  getHooks,
+  H,
+  layouts,
+  loadingLine,
+  loadingTopic,
+  personCategoryVisible,
+  rctx,
+  selectedPersonId,
+  state,
+  W,
+} from './runtime';
 import { syncAccessibleEntities } from './accessibility';
 
 // ---------- 坐标 ----------
@@ -195,22 +209,23 @@ export function skinPalette(): Palette {
   return paletteFor();
 }
 
+export function peopleInCurrentWindow(showPeople = state.groups.people): Person[] {
+  if (!state.topic) return [];
+  return peopleInTimeWindow(
+    state.topic,
+    { viewId: state.viewId, domain: state.domain, selectedPersonId: selectedPersonId() },
+    (lane) => personCategoryVisible(lane, showPeople),
+  );
+}
+
 /**
  * 02 双模式：窄时间窗内可见人物较少时，人物行切换为「姓名 + 生卒 + 细生命线」的大行。
  * 宽时间窗保留 16px 密集色条，避免几千人的浏览密度损失。
  */
 export function largeRowsActive(): boolean {
-  if (state.focusMode) return false;
-  if (state.line !== 'people' || !state.topic || !state.groups.people) return false;
-  const [d0, d1] = state.domain;
-  let count = 0;
-  for (const person of topicPeopleForView(state.topic, state.viewId)) {
-    if (state.hiddenLanes.has(`lane:${person.lane}`)) continue;
-    if (personTo(person.birth, person.death) < d0 || personFrom(person.birth, person.death) > d1) continue;
-    count += 1;
-    if (count > 12) return false;
-  }
-  return count > 0;
+  if (state.focusMode || state.line !== 'people') return false;
+  const count = peopleInCurrentWindow().length;
+  return count > 0 && count <= 12;
 }
 
 export function draw(): void {

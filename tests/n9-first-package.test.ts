@@ -153,6 +153,27 @@ test('N9 年表首包只加载瘦索引且 gzip 合计小于 200KB', { timeout: 
     `浏览器传输体积 ${transferTotal} 字节应小于 ${LIMIT_BYTES} 字节（编码：${serverCompressed || 'none'}）`,
   );
   assert.ok(gzipTotal < LIMIT_BYTES, `首包 gzip 合计 ${gzipTotal} 字节应小于 ${LIMIT_BYTES} 字节`);
+
+  await page.setViewportSize({ width: 1446, height: 993 });
+  const tang = new URLSearchParams({
+    topic: 'tang',
+    view: 'overview',
+    from: '572',
+    to: '736',
+    hide: 'lane:emperor,lane:kin,lane:consort,lane:chancellor,lane:general,lane:end',
+    strip: '1',
+  });
+  await page.goto(`${origin}/timeline?${tang}`);
+  await page.waitForSelector('body[data-timeline-ready="true"]', { state: 'attached' });
+  // 在此视窗中，隋灭陈位于战事区第一行的 588—589 年处。
+  await page.locator('#chart').hover({ position: { x: 111, y: 344 } });
+  const tooltip = page.locator('#tooltip');
+  await tooltip.waitFor({ state: 'visible' });
+  assert.equal(await tooltip.innerText(), '隋灭陈　588 — 589');
+  assert.ok(
+    (await dataResources(page)).every(({ path }) => !/^\/data\/(?:military|history)\.json$/.test(path)),
+    '悬浮提示不得请求完整事件线',
+  );
   await page.close();
 });
 
