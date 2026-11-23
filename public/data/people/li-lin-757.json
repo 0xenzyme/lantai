@@ -21,7 +21,20 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-lin-757",
+      "target": "li-bai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "至德初延揽入幕为谋士，后兵败白坐流夜郎"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -30,6 +30,18 @@
   ],
   "relations": [
     {
+      "source": "li-bai",
+      "target": "meng-hao-ran",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "忘年交，有《赠孟浩然》《黄鹤楼送孟浩然之广陵》"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "meng-hao-ran",
       "target": "wang-wei",
       "type": "peer",

@@ -553,3 +553,142 @@
     font-size: 22px;
   }
 }
+
+/* 局部人物关系图谱 (Local Graph) */
+.lt-person-page .lt-person-relations-panel .lt-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.lt-person-page .lt-local-relation-graph-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lt-person-page .lt-local-graph-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--lt-ink-secondary);
+}
+
+.lt-person-page .lt-graph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  font-size: 12px;
+}
+
+.lt-person-page .lt-graph-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.lt-person-page .lt-graph-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.lt-person-page .lt-local-graph-svg-box {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--lt-border-subtle);
+  background: var(--lt-surface);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.lt-person-page .lt-local-graph-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lt-person-page .lt-local-graph-edge line {
+  transition:
+    stroke-width 0.2s,
+    stroke-opacity 0.2s;
+  stroke-opacity: 0.85;
+}
+
+.lt-person-page .lt-local-graph-edge:hover line {
+  stroke-width: 3.5;
+  stroke-opacity: 1;
+}
+
+.lt-person-page .lt-local-graph-node {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.lt-person-page .lt-local-graph-node circle.lt-graph-node-circle {
+  fill: var(--lt-paper);
+  stroke: var(--lt-border);
+  stroke-width: 1.5;
+  transition:
+    fill 0.2s,
+    stroke 0.2s;
+}
+
+.lt-person-page .lt-local-graph-node.is-center circle.lt-graph-node-circle {
+  fill: var(--lt-surface-sunken);
+  stroke: var(--lt-link);
+  stroke-width: 2.5;
+}
+
+.lt-person-page .lt-local-graph-node circle.lt-graph-node-halo {
+  fill: none;
+  stroke: var(--lt-link);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+  opacity: 0.6;
+}
+
+.lt-person-page .lt-local-graph-node:hover circle.lt-graph-node-circle {
+  fill: var(--lt-surface-hover);
+  stroke: var(--lt-link);
+  stroke-width: 2.5;
+}
+
+.lt-person-page .lt-graph-node-initial {
+  fill: var(--lt-link);
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 600;
+  pointer-events: none;
+  user-select: none;
+}
+
+.lt-person-page .lt-local-graph-node.is-center .lt-graph-node-initial {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.lt-person-page .lt-graph-node-name {
+  fill: var(--lt-ink);
+  font-size: 13px;
+  font-weight: 600;
+  pointer-events: none;
+  user-select: none;
+}
+
+.lt-person-page .lt-local-graph-node.is-center .lt-graph-node-name {
+  font-size: 14px;
+  font-weight: 700;
+  fill: var(--lt-link);
+}
+
+.lt-person-page .lt-graph-hint {
+  font-size: 12px;
+  color: var(--lt-ink-secondary);
+  margin: 0;
+  line-height: 1.5;
+}

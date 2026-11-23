@@ -31,6 +31,42 @@
   ],
   "relations": [
     {
+      "source": "gao-shi",
+      "target": "li-bai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "天宝同游梁宋；后白坐永王事系狱，作诗求救于适"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "du-fu",
+      "target": "gao-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "天宝同游梁宋；流寓蜀中时适为节度使，多有唱和周济"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "ge-shu-han",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入哥舒翰幕府为掌书记，潼关兵败奔玄宗行在"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-yu",
       "target": "gao-shi",
       "type": "ruler-subject",

@@ -129,6 +129,57 @@ async function waitForServer(): Promise<void> {
   throw new Error(`production preview 不可用：${origin}`);
 }
 
+test('production sitemap 指向可直接读取正文的静态页面', async (context) => {
+  const server = previewServer();
+  context.after(() => {
+    server?.kill('SIGTERM');
+  });
+  await waitForServer();
+
+  const sitemapResponse = await fetch(`${origin}/sitemap.xml`);
+  assert.equal(sitemapResponse.status, 200);
+  const sitemap = await sitemapResponse.text();
+  const urls = Array.from(sitemap.matchAll(/<loc>([^<]+)<\/loc>/g), ([, url]) => url);
+  const publicOrigin = 'https://lantai.0xenzyme.dev';
+  for (const path of [
+    '/',
+    '/people',
+    '/events',
+    '/eras',
+    '/collections',
+    '/people/li-bai',
+    '/events/anshi-zhiluan',
+    '/eras/tang',
+    '/collections/rujia-chuancheng',
+  ]) {
+    assert.ok(urls.includes(`${publicOrigin}${path}`), `sitemap 缺少 ${path}`);
+  }
+
+  const titles = new Set<string>();
+  for (const url of urls) {
+    const published = new URL(url);
+    assert.equal(published.origin, publicOrigin);
+    assert.equal(published.search + published.hash, '');
+    const response = await fetch(`${origin}${published.pathname}`, { redirect: 'manual' });
+    assert.equal(response.status, 200, url);
+    const html = await response.text();
+    assert.ok(html.includes(`<link rel="canonical" href="${url}"`), url);
+    assert.doesNotMatch(html, /content="noindex"/);
+    assert.match(html, /<main\b[^>]*>[\s\S]*?<h1\b[^>]*>[^<]+<\/h1>[\s\S]*?<\/main>/);
+    assert.match(html, /<meta name="description" content="[^"]+"/);
+    const title = /<title>([^<]+)<\/title>/.exec(html)?.[1];
+    assert.ok(title && !titles.has(title), url);
+    titles.add(title);
+  }
+
+  for (const path of ['/timeline', '/search']) {
+    assert.ok(!urls.includes(`${publicOrigin}${path}`), path);
+    const response = await fetch(`${origin}${path}`, { redirect: 'manual' });
+    assert.equal(response.status, 200, path);
+    assert.match(await response.text(), /<meta name="robots" content="noindex"/);
+  }
+});
+
 test('M6 production 全站四视口、语义与自动化无障碍', { timeout: 180_000 }, async (context) => {
   mkdirSync(screenshotDir, { recursive: true });
   const server = previewServer();

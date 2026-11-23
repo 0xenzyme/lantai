@@ -17,9 +17,9 @@ const GROUPS: Record<string, string> = {
   minguo: '民国',
 };
 
-export function erasDirectory(library: SiteLibrary): string {
+export function erasDirectory(library: SiteLibrary, search: string): string {
   const state = parseDirectoryQuery(
-    location.search,
+    search,
     { sort: { values: ['year'] }, view: { values: ['grid'] } },
     { sort: 'year', view: 'grid' },
   );
@@ -131,24 +131,34 @@ function eraTab(era: EraDetail, tab: string, library: SiteLibrary): string {
   return eraOverview(era);
 }
 
-export function renderEraDetail(era: EraDetail, library: SiteLibrary): string {
+function renderEraDetail(
+  era: EraDetail,
+  library: SiteLibrary,
+  search: string,
+  replaceUrl?: (url: string) => void,
+): string {
   const state = parseDirectoryQuery(
-    location.search,
+    search,
     { tab: { values: TABS.map(([id]) => id) } },
     { sort: 'year', view: 'grid' },
   );
-  const requested = new URLSearchParams(location.search).get('tab');
+  const requested = new URLSearchParams(search).get('tab');
   const tab = typeof state.values.tab === 'string' ? state.values.tab : 'overview';
   const availableTabs = TABS.filter(([id]) => id !== 'collections' || era.collections.length > 0);
   const active = availableTabs.some(([id]) => id === tab) ? tab : 'overview';
   const invalidTab = requested !== null && (requested !== tab || tab !== active);
-  if (invalidTab) history.replaceState(history.state, '', `/eras/${encodeURIComponent(era.id)}`);
+  if (invalidTab) replaceUrl?.(`/eras/${encodeURIComponent(era.id)}`);
   return `<main class="lt-page lt-era-page" id="main-content">${invalidNotice({ ...state, invalid: invalidTab ? ['tab'] : [] })}<div class="lt-era-hero lt-detail-hero">${eraHero(era)}<nav class="lt-era-tabs" aria-label="朝代内容">${availableTabs.map(([id, label]) => `<a href="/eras/${encodeURIComponent(era.id)}${id === 'overview' ? '' : `?tab=${id}`}" data-site-link ${active === id ? 'aria-current="page"' : ''}>${label}</a>`).join('')}</nav></div>${eraTab(era, active, library)}</main>`;
 }
 
-export async function eraPage(id: string, library: SiteLibrary): Promise<string> {
+export async function eraPage(
+  id: string,
+  library: SiteLibrary,
+  search: string,
+  replaceUrl?: (url: string) => void,
+): Promise<string> {
   try {
-    return renderEraDetail(await loadEra(id), library);
+    return renderEraDetail(await loadEra(id), library, search, replaceUrl);
   } catch (error) {
     const notFound = error instanceof Error && error.message.includes('404');
     return `<main class="lt-page lt-state-page" id="main-content"><h1 tabindex="-1">${notFound ? '未找到该朝代' : '暂时无法加载该朝代'}</h1><p>${notFound ? `「${escapeHtml(id)}」的链接可能已失效。` : '数据请求未完成，请重试。'}</p><div class="lt-actions">${notFound ? '' : '<button class="lt-button" type="button" data-retry>重试</button>'}<a class="lt-button lt-button-secondary" href="/eras" data-site-link>返回断代</a></div></main>`;

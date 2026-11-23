@@ -306,15 +306,24 @@ export function renderCollectionDetail(
   return `<main class="lt-page lt-collection-page" id="main-content">${state.invalid.length ? `<aside class="lt-notice" role="status">无法识别页内参数：${state.invalid.map(escapeHtml).join('、')}。已保留系列内容，并使用可用视图。</aside>` : ''}<div class="lt-collection-hero lt-detail-hero">${collectionHero(collection, library)}<div class="lt-era-tabs lt-collection-tabs" role="tablist" aria-label="系列内容" data-collection-tabs>${views.map((view) => `<a id="collection-tab-${view}" role="tab" href="${collectionUrl(collection, { tab: view })}" data-site-link data-collection-tab="${view}" aria-controls="collection-view" aria-selected="${state.tab === view}" tabindex="${state.tab === view ? '0' : '-1'}">${COLLECTION_VIEW_NAMES[view]}</a>`).join('')}</div></div><div class="lt-collection-view" id="collection-view" role="tabpanel" aria-labelledby="collection-tab-${state.tab}" tabindex="-1">${content[state.tab]()}</div></main>`;
 }
 
-export async function collectionPage(id: string, library: SiteLibrary): Promise<string> {
+export async function collectionPage(
+  id: string,
+  library: SiteLibrary,
+  {
+    search,
+    defaultRelationMode,
+    replaceUrl,
+  }: {
+    search: string;
+    defaultRelationMode?: CollectionViewState['relationMode'];
+    replaceUrl?: (url: string) => void;
+  },
+): Promise<string> {
   try {
     const collection = await loadCollection(id);
-    const defaultRelationMode = window.matchMedia('(max-width: 767px)').matches ? 'list' : 'graph';
-    const state = resolveCollectionView(collection, location.search, defaultRelationMode);
+    const state = resolveCollectionView(collection, search, defaultRelationMode);
     if (state.invalid.length) {
-      history.replaceState(
-        history.state,
-        '',
+      replaceUrl?.(
         collectionUrl(collection, {
           tab: state.tab,
           member: state.member,

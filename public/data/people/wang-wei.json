@@ -32,6 +32,18 @@
   ],
   "relations": [
     {
+      "source": "li-long-ji",
+      "target": "wang-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开元中擢右拾遗，玄宗朝累官至给事中"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "meng-hao-ran",
       "target": "wang-wei",
       "type": "peer",

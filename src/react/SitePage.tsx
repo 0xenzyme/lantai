@@ -3,7 +3,7 @@ import { COLLECTION_VIEW_NAMES, type CollectionViewState } from '../site/collect
 import type { CollectionView } from '../types';
 import { retryCollection, retrySiteData, type SiteDataKey } from '../site/data';
 import { escapeHtml } from '../site/escape';
-import { loadSitePage, siteSectionFor, type SitePageResult } from '../site/page-loader';
+import { loadSitePage, sitePageTitle, siteSectionFor, type SitePageResult } from '../site/page-loader';
 import { consumeCollectionTabFocusRequest, wirePageControls } from '../site/page-controls';
 import { mountPortraits } from '../site/portrait';
 import type { BrowserLocation } from './location';
@@ -30,11 +30,15 @@ export function SitePage({ route }: { route: BrowserLocation }) {
     let active = true;
     setResult(null);
     setError(null);
-    document.title = '正在加载 · 兰台';
     if (/^\/(people|events)\/[^/]+$/.test(path) && !history.state?.lantaiDetail) {
       history.replaceState({ ...(history.state ?? {}), lantaiDetail: true }, '', location.href);
     }
-    void loadSitePage(path, route.search)
+    void loadSitePage(path, route.search, {
+      defaultRelationMode: window.matchMedia('(max-width: 767px)').matches ? 'list' : 'graph',
+      replaceUrl: (url) => {
+        if (active) history.replaceState(history.state, '', url);
+      },
+    })
       .then((next) => {
         if (active) setResult(next);
       })
@@ -52,7 +56,8 @@ export function SitePage({ route }: { route: BrowserLocation }) {
     const page = pageRef.current;
     if (!page || (!currentResult && !currentError)) return;
     const requestedTabFocus = consumeCollectionTabFocusRequest();
-    document.title = `${page.querySelector('h1')?.textContent?.trim() ?? '兰台'} · 兰台`;
+    const heading = page.querySelector('h1')?.textContent?.trim() || '页面';
+    document.title = sitePageTitle(currentError ? '' : path, heading);
     const collectionTab = page.querySelector<HTMLElement>('[data-collection-tabs]');
     if (collectionTab && requestedTabFocus) {
       collectionTab.querySelector<HTMLElement>('[aria-selected="true"]')?.focus({ preventScroll: true });

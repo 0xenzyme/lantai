@@ -35,11 +35,7 @@ export function App() {
       'timeline-legacy',
       timeline && (route.pathname !== '/timeline' || Boolean(route.hash)),
     );
-    if (timeline) {
-      document.title = '年表 · 兰台';
-    } else {
-      document.title = '正在加载 · 兰台';
-    }
+    if (timeline) document.title = '年表 · 兰台';
   }, [timeline, route.pathname, route.hash]);
 
   return (

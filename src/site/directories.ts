@@ -216,9 +216,9 @@ function emptyResults(kind: string, state: DirectoryQuery, count: number, perPag
   return '';
 }
 
-export function peopleDirectory(library: SiteLibrary): string {
+export function peopleDirectory(library: SiteLibrary, search: string): string {
   const state = parseDirectoryQuery(
-    location.search,
+    search,
     {
       dynasty: { values: library.catalog?.topics.map((topic) => topic.id) ?? [] },
       category: { values: library.catalog?.categories.map((category) => category.id) ?? [], multiple: true },
@@ -259,10 +259,10 @@ export function peopleDirectory(library: SiteLibrary): string {
   );
 }
 
-export function eventsDirectory(library: SiteLibrary): string {
+export function eventsDirectory(library: SiteLibrary, search: string): string {
   const eventTypes = ['military', 'political', 'rebellion', 'institutional', 'diplomatic', 'cultural'];
   const state = parseDirectoryQuery(
-    location.search,
+    search,
     {
       dynasty: { values: library.eras.map((era) => era.id) },
       type: { values: eventTypes, multiple: true },
@@ -318,9 +318,9 @@ export function eventsDirectory(library: SiteLibrary): string {
   );
 }
 
-export function collectionsDirectory(library: SiteLibrary): string {
+export function collectionsDirectory(library: SiteLibrary, search: string): string {
   const state = parseDirectoryQuery(
-    location.search,
+    search,
     {
       category: { values: (library.catalog?.collectionCategories ?? []).map((category) => category.id) },
       sort: { values: ['featured', 'name'] },

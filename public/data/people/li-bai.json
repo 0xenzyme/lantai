@@ -41,6 +41,54 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "li-bai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天宝初召见金銮殿，命供奉翰林，后赐金放还"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "gao-shi",
+      "target": "li-bai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "天宝同游梁宋；后白坐永王事系狱，作诗求救于适"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-lin-757",
+      "target": "li-bai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "至德初延揽入幕为谋士，后兵败白坐流夜郎"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-bai",
+      "target": "meng-hao-ran",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "忘年交，有《赠孟浩然》《黄鹤楼送孟浩然之广陵》"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

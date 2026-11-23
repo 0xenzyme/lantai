@@ -6410,7 +6410,7 @@ body.timeline-app .lt-timeline-detail {
 }
 
 .lt-person-page .lt-detail-grid {
-  grid-template-columns: 248px minmax(0, 1fr) 288px;
+  grid-template-columns: 216px minmax(340px, 1fr) minmax(440px, 1.22fr);
   gap: var(--lt-person-panel-gap);
   align-items: start;
 }
@@ -9021,4 +9021,243 @@ body.timeline-app .lt-timeline-statusbar .hint {
   background: #e6f7f5;
   border-color: #0d766e;
   color: #08504a;
+}
+
+/* 局部人物关系图谱 (Local Graph) 与工作台宽栏设计 */
+.lt-person-page .lt-person-relations-panel .lt-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.lt-person-page .lt-local-relation-graph-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.lt-person-page .lt-local-graph-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--lt-ink-secondary);
+}
+
+.lt-graph-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.lt-btn-expand-graph {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: 1px solid var(--lt-border-subtle);
+  border-radius: 6px;
+  background: var(--lt-surface);
+  color: var(--lt-link);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.lt-btn-expand-graph:hover {
+  background: var(--lt-surface-hover);
+  border-color: var(--lt-link);
+}
+
+/* 分类过滤药丸 */
+.lt-graph-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.lt-graph-filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border: 1px solid var(--lt-border-subtle);
+  border-radius: 999px;
+  background: var(--lt-surface-sunken);
+  color: var(--lt-ink);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.lt-graph-filter-pill:hover {
+  background: var(--lt-surface-hover);
+  border-color: var(--lt-border);
+}
+
+.lt-graph-filter-pill.is-active {
+  background: var(--lt-link);
+  border-color: var(--lt-link);
+  color: #fff;
+  font-weight: 600;
+}
+
+.lt-pill-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.lt-graph-filter-pill.is-active .lt-pill-dot {
+  background-color: #fff !important;
+}
+
+.lt-pill-count {
+  font-size: 11px;
+  opacity: 0.85;
+}
+
+.lt-local-graph-svg-box {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--lt-border-subtle);
+  background: var(--lt-surface);
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  touch-action: none;
+}
+
+.lt-local-graph-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+.lt-local-graph-edge line {
+  transition:
+    stroke-width 0.2s,
+    stroke-opacity 0.2s;
+  stroke-opacity: 0.85;
+}
+
+.lt-local-graph-edge:hover line {
+  stroke-width: 3.5;
+  stroke-opacity: 1;
+}
+
+.lt-local-graph-edge.is-hidden {
+  display: none;
+}
+
+.lt-local-graph-node {
+  cursor: grab;
+  transition: opacity 0.2s ease;
+}
+
+.lt-local-graph-node.is-dragging {
+  cursor: grabbing;
+}
+
+.lt-local-graph-node.is-hidden {
+  display: none;
+}
+
+.lt-local-graph-node circle.lt-graph-node-circle {
+  fill: var(--lt-paper);
+  stroke: var(--lt-border);
+  stroke-width: 1.5;
+  transition:
+    fill 0.15s,
+    stroke 0.15s;
+}
+
+.lt-local-graph-node.is-center circle.lt-graph-node-circle {
+  fill: var(--lt-surface-sunken);
+  stroke: var(--lt-link);
+  stroke-width: 2.5;
+}
+
+.lt-local-graph-node circle.lt-graph-node-halo {
+  fill: none;
+  stroke: var(--lt-link);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+  opacity: 0.6;
+}
+
+.lt-local-graph-node:hover circle.lt-graph-node-circle {
+  fill: var(--lt-surface-hover);
+  stroke: var(--lt-link);
+  stroke-width: 2.5;
+}
+
+.lt-graph-node-initial {
+  fill: var(--lt-link);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  pointer-events: none;
+  user-select: none;
+}
+
+.lt-local-graph-node.is-center .lt-graph-node-initial {
+  font-weight: 700;
+}
+
+.lt-graph-node-name {
+  fill: var(--lt-ink);
+  font-weight: 600;
+  pointer-events: none;
+  user-select: none;
+}
+
+.lt-local-graph-node.is-center .lt-graph-node-name {
+  font-weight: 700;
+  fill: var(--lt-link);
+}
+
+.lt-graph-hint {
+  font-size: 12px;
+  color: var(--lt-ink-secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* 全屏大图模式 (Expanded View) */
+.lt-local-relation-graph-wrapper.is-expanded-view {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+  background: var(--lt-surface);
+  border: 1px solid var(--lt-border);
+  border-radius: 14px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.24);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lt-local-relation-graph-wrapper.is-expanded-view .lt-local-graph-svg-box {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lt-local-relation-graph-wrapper.is-expanded-view .lt-local-graph-svg {
+  width: 100%;
+  height: 100%;
+  max-height: 80vh;
 }

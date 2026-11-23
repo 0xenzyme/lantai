@@ -13,6 +13,7 @@ import { categoryName, eventRecords, loadPerson, polityName, type SiteLibrary } 
 import { directoryFallback } from './context';
 import { formatEventRange, formatYear } from './format';
 import { icon, type IconId } from './icons';
+import { renderPersonLocalGraph } from './person-relation-graph';
 import type { EventRecord, PersonDetail, PersonExperience } from '../types';
 
 function timelineUrl(person: PersonDetail): string | null {
@@ -126,12 +127,7 @@ export function renderPersonDetail(person: PersonDetail, library: SiteLibrary): 
       )
     : '';
   const relationPanel = person.relations.length
-    ? panel(
-        'person-relations',
-        '重要关系',
-        'people',
-        `<ul class="lt-relation-list lt-person-relation-list">${relationList(person, library)}</ul>`,
-      )
+    ? `<section class="lt-section lt-person-panel lt-person-relations-panel" aria-labelledby="person-relations"><div class="lt-section-heading"><h2 id="person-relations">${icon('people')}<span>重要关系</span></h2><div class="lt-segmented" aria-label="关系呈现方式"><button type="button" data-person-relation-mode="graph" aria-pressed="true">关系图</button><button type="button" data-person-relation-mode="list" aria-pressed="false">列表</button></div></div><div class="lt-person-relation-graph-container">${renderPersonLocalGraph(person, library)}</div><div class="lt-person-relation-list-container" hidden><ul class="lt-relation-list lt-person-relation-list">${relationList(person, library)}</ul></div></section>`
     : '';
   const collectionPanel = collections.length
     ? panel(
@@ -169,7 +165,7 @@ export function renderPersonDetail(person: PersonDetail, library: SiteLibrary): 
     subtitle: person.title,
     breadcrumb,
     tone: 'paper',
-  })}<div class="lt-detail-grid lt-person-layout">${identity}<div class="lt-detail-main">${biography}${experiencePanel}${workPanel}</div><aside class="lt-detail-aside" aria-label="人物关联">${relationPanel}${collectionPanel}${eventPanel}${sourcesPanel}</aside></div></main>`;
+  })}<div class="lt-detail-grid lt-person-layout">${identity}<div class="lt-detail-main">${biography}${experiencePanel}${workPanel}${eventPanel}</div><aside class="lt-detail-aside" aria-label="人物关联">${relationPanel}${collectionPanel}${sourcesPanel}</aside></div></main>`;
 }
 
 export async function personPage(id: string, library: SiteLibrary): Promise<string> {

@@ -1404,6 +1404,48 @@
       "note": "李杜并称，醉眠秋共被"
     },
     {
+      "source": "li-long-ji",
+      "target": "li-bai",
+      "type": "ruler-subject",
+      "note": "天宝初召见金銮殿，命供奉翰林，后赐金放还"
+    },
+    {
+      "source": "li-bai",
+      "target": "gao-shi",
+      "type": "peer",
+      "note": "天宝同游梁宋；后白坐永王事系狱，作诗求救于适"
+    },
+    {
+      "source": "li-lin-757",
+      "target": "li-bai",
+      "type": "ruler-subject",
+      "note": "至德初延揽入幕为谋士，后兵败白坐流夜郎"
+    },
+    {
+      "source": "li-bai",
+      "target": "meng-hao-ran",
+      "type": "peer",
+      "note": "忘年交，有《赠孟浩然》《黄鹤楼送孟浩然之广陵》"
+    },
+    {
+      "source": "gao-shi",
+      "target": "du-fu",
+      "type": "peer",
+      "note": "天宝同游梁宋；流寓蜀中时适为节度使，多有唱和周济"
+    },
+    {
+      "source": "ge-shu-han",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "note": "入哥舒翰幕府为掌书记，潼关兵败奔玄宗行在"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "wang-wei",
+      "type": "ruler-subject",
+      "note": "开元中擢右拾遗，玄宗朝累官至给事中"
+    },
+    {
       "source": "han-yu",
       "target": "liu-zong-yuan",
       "type": "peer",

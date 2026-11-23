@@ -41,6 +41,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "ge-shu-han",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入哥舒翰幕府为掌书记，潼关兵败奔玄宗行在"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

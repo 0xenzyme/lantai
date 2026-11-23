@@ -41,6 +41,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "du-fu",
+      "target": "gao-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "天宝同游梁宋；流寓蜀中时适为节度使，多有唱和周济"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

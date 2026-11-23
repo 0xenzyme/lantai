@@ -6,6 +6,7 @@ import { eventPage } from './event';
 import { personPage } from './person';
 import { searchPage, type SearchKind } from './search';
 import { loadCollectionPeople, loadSiteLibrary, type SiteDataKey, type SiteLibrary } from './data';
+import type { CollectionViewState } from './collection-views';
 import type { SiteSection } from '../react/SiteHeader';
 
 export interface SitePageResult {
@@ -14,6 +15,18 @@ export interface SitePageResult {
   library: SiteLibrary;
   section: SiteSection;
   query: string;
+}
+
+const PAGE_TITLES = new Map([
+  ['/', '中国历史时间轴'],
+  ['/people', '列传 · 中国历史人物'],
+  ['/events', '纪事 · 中国历史事件'],
+  ['/eras', '断代 · 中国历史朝代'],
+  ['/collections', '群像 · 历史人物专题'],
+]);
+
+export function sitePageTitle(path: string, heading: string): string {
+  return `${PAGE_TITLES.get(path) ?? heading} · 兰台`;
 }
 
 export function siteSectionFor(path: string): SiteSection {
@@ -47,7 +60,11 @@ function requiredData(path: string): SiteDataKey[] {
   return ['catalog', 'people', 'history', 'military', 'collections'];
 }
 
-export async function loadSitePage(pathname: string, search: string): Promise<SitePageResult> {
+export async function loadSitePage(
+  pathname: string,
+  search: string,
+  options: { defaultRelationMode?: CollectionViewState['relationMode']; replaceUrl?: (url: string) => void } = {},
+): Promise<SitePageResult> {
   const path = pathname.replace(/\/+$/, '') || '/';
   const query = new URLSearchParams(search);
   const section = siteSectionFor(path);
@@ -60,18 +77,20 @@ export async function loadSitePage(pathname: string, search: string): Promise<Si
     content = homePage(library, people);
   } else if (/^\/people\/[^/]+$/.test(path)) content = await personPage(routeEntityId(path), library);
   else if (/^\/events\/[^/]+$/.test(path)) content = await eventPage(routeEntityId(path), library);
-  else if (/^\/eras\/[^/]+$/.test(path)) content = await eraPage(routeEntityId(path), library);
-  else if (/^\/collections\/[^/]+$/.test(path)) content = await collectionPage(routeEntityId(path), library);
+  else if (/^\/eras\/[^/]+$/.test(path))
+    content = await eraPage(routeEntityId(path), library, search, options.replaceUrl);
+  else if (/^\/collections\/[^/]+$/.test(path))
+    content = await collectionPage(routeEntityId(path), library, { ...options, search });
   else if (path === '/search') {
     const requested = query.get('type');
     const type: SearchKind = ['person', 'event', 'collection', 'dynasty'].includes(requested ?? '')
       ? (requested as SearchKind)
       : 'all';
     content = searchPage(query.get('q') ?? '', type, library, requested !== null && requested !== type);
-  } else if (path === '/people') content = peopleDirectory(library);
-  else if (path === '/events') content = eventsDirectory(library);
-  else if (path === '/collections') content = collectionsDirectory(library);
-  else if (path === '/eras') content = erasDirectory(library);
+  } else if (path === '/people') content = peopleDirectory(library, search);
+  else if (path === '/events') content = eventsDirectory(library, search);
+  else if (path === '/collections') content = collectionsDirectory(library, search);
+  else if (path === '/eras') content = erasDirectory(library, search);
   else {
     content = `<main class="lt-page lt-state-page" id="main-content"><h1 tabindex="-1">未找到该页面</h1><p>链接可能已失效。</p><a class="lt-button" href="/" data-site-link>返回首页</a></main>`;
   }
