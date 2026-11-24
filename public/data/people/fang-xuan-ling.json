@@ -31,6 +31,18 @@
   ],
   "relations": [
     {
+      "source": "fang-xuan-ling",
+      "target": "wei-zheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为贞观首辅，房谋杜断以才智佐政，魏征以直谏纠失，并为良相范式"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-shimin",
       "target": "fang-xuan-ling",
       "type": "ruler-subject",

@@ -30,6 +30,18 @@
   ],
   "relations": [
     {
+      "source": "li-yu",
+      "target": "guo-zi-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "广德元年吐蕃入长安代宗幸陕，子仪设疑兵收复；大历中拜中书令，尊为尚父"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-heng",
       "target": "li-yu",
       "type": "kin",

@@ -32,6 +32,18 @@
   ],
   "relations": [
     {
+      "source": "li-jing",
+      "target": "xu-shi-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为初唐一代军神，贞观四年李靖袭定襄，李勣屯白道断归路，合力灭东突厥"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-shimin",
       "target": "xu-shi-ji",
       "type": "ruler-subject",

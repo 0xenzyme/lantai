@@ -54,6 +54,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-jian-cheng",
+      "target": "wei-zheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "初为建成洗马深受信任，曾劝建成早图秦王；事败太宗奇其直遂释而重用"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

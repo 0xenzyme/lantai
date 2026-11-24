@@ -21,7 +21,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "guo-zi-yi",
+      "target": "pugu-huai-en",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "朔方故部，怀恩叛唐引吐蕃回纥入寇，子仪单骑免胄说退回纥合兵破贼"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

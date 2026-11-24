@@ -44,6 +44,18 @@
     },
     {
       "source": "li-heng",
+      "target": "zhang-xun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "睢阳坚守障蔽江淮财赋，肃宗闻城陷哀恸，追赠扬州大都督，名重天下"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-heng",
       "target": "du-fu",
       "type": "ruler-subject",
       "directed": true,

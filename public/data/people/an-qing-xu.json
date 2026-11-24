@@ -31,6 +31,18 @@
   ],
   "relations": [
     {
+      "source": "an-qing-xu",
+      "target": "guo-zi-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "至德二载香积寺大战大破安庆绪叛军精锐，斩首六万级光复长安洛阳"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "an-lu-shan",
       "target": "an-qing-xu",
       "type": "kin",
