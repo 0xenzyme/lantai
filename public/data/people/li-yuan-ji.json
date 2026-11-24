@@ -54,6 +54,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-jian-cheng",
+      "target": "li-yuan-ji",
+      "type": "kin",
+      "directed": false,
+      "since": 618,
+      "notes": [
+        "兄弟政治同盟联手抗衡秦王府，玄武门之变同为秦府死士所杀"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

@@ -3124,6 +3124,118 @@
       "type": "peer",
       "since": 655,
       "note": "同为太宗、高宗朝宿将，显庆年间分统诸道兵马经略西域、平定诸蕃"
+    },
+    {
+      "source": "li-mi",
+      "target": "wang-shichong",
+      "type": "rival",
+      "since": 618,
+      "note": "世充洛阳出精甲战邙山设伏大破李密，瓦岗崩溃，单雄信等降充"
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "wang-shichong",
+      "type": "peer",
+      "since": 621,
+      "note": "世充穷蹙乞救，建德引十余万众驰援虎牢关，兵败相继覆亡"
+    },
+    {
+      "source": "li-jian-cheng",
+      "target": "li-yuan-ji",
+      "type": "kin",
+      "since": 618,
+      "note": "兄弟政治同盟联手抗衡秦王府，玄武门之变同为秦府死士所杀"
+    },
+    {
+      "source": "bai-ju-yi",
+      "target": "niu-seng-ru",
+      "type": "peer",
+      "since": 832,
+      "note": "僧孺东都留守筑归仁园，白居易晚年退居洛阳日夕与僧孺赋诗唱和"
+    },
+    {
+      "source": "liu-yu-xi",
+      "target": "niu-seng-ru",
+      "type": "peer",
+      "since": 832,
+      "note": "同居洛阳晚年莫逆知交，唱酬留连，诗酒相欢"
+    },
+    {
+      "source": "yang-yan",
+      "target": "lu-qi",
+      "type": "rival",
+      "since": 780,
+      "note": "杞貌丑阴险炎深鄙之，杞得志谮炎私建庙宇图谋不轨，罢相贬死崖州"
+    },
+    {
+      "source": "liu-zong-yuan",
+      "target": "wei-zhi-yi",
+      "type": "peer",
+      "since": 805,
+      "note": "同参二王八司马永贞革新，叔文引为幕友，事败同遭远贬南荒"
+    },
+    {
+      "source": "liu-yu-xi",
+      "target": "wei-zhi-yi",
+      "type": "peer",
+      "since": 805,
+      "note": "同预二王八司马新政，执谊拜相总司制诰，事败同贬远荒并称八司马"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "cui-xuanwei",
+      "type": "ruler-subject",
+      "since": 700,
+      "note": "久视中迁天官侍郎公慎拔才，拜同平章事，玄暐正言数谏抑二张"
+    },
+    {
+      "source": "li-xian",
+      "target": "cui-xuanwei",
+      "type": "ruler-subject",
+      "since": 705,
+      "note": "神龙政变率兵入迎中宗复辟，册封博陵郡王，后为武三思所谮贬死"
+    },
+    {
+      "source": "li-shimin",
+      "target": "jie-li",
+      "type": "rival",
+      "since": 626,
+      "note": "武德九年率骑逼便桥，太宗引六骑陈信义刑白马盟，贞观四年俘入长安"
+    },
+    {
+      "source": "li-shimin",
+      "target": "a-shi-na-he-lu",
+      "type": "ruler-subject",
+      "since": 648,
+      "note": "贞观末率部内附，太宗割庭州莫贺城安置，拜左骁卫大将军瑶池都督"
+    },
+    {
+      "source": "li-zhi",
+      "target": "a-shi-na-he-lu",
+      "type": "ruler-subject",
+      "since": 651,
+      "note": "永徽中贺鲁反自号沙钵罗可汗，高宗遣苏定方平之，献俘太庙宥死"
+    },
+    {
+      "source": "songzan-ganbu",
+      "target": "li-zhi",
+      "type": "ruler-subject",
+      "since": 649,
+      "note": "高宗即位册赞普西海郡王，赞普遣使致贡，永徽元年薨遣使吊祭"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "da-zu-rong",
+      "type": "rival",
+      "since": 697,
+      "note": "营州乱起东渡辽水，天门岭破李楷固周军，据东牟山建大震国"
+    },
+    {
+      "source": "li-xian",
+      "target": "da-zu-rong",
+      "type": "ruler-subject",
+      "since": 705,
+      "note": "神龙中宗复辟遣张行俅宣抚，祚荣遣子入质通好大唐"
     }
   ],
   "events": [

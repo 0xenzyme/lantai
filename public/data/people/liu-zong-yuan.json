@@ -81,6 +81,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "liu-zong-yuan",
+      "target": "wei-zhi-yi",
+      "type": "peer",
+      "directed": false,
+      "since": 805,
+      "notes": [
+        "同参二王八司马永贞革新，叔文引为幕友，事败同遭远贬南荒"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

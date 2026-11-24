@@ -486,6 +486,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "jie-li",
+      "target": "li-shimin",
+      "type": "rival",
+      "directed": false,
+      "since": 626,
+      "notes": [
+        "武德九年率骑逼便桥，太宗引六骑陈信义刑白马盟，贞观四年俘入长安"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "a-shi-na-he-lu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 648,
+      "notes": [
+        "贞观末率部内附，太宗割庭州莫贺城安置，拜左骁卫大将军瑶池都督"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

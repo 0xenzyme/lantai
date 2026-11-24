@@ -21,7 +21,21 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "lu-qi",
+      "target": "yang-yan",
+      "type": "rival",
+      "directed": false,
+      "since": 780,
+      "notes": [
+        "杞貌丑阴险炎深鄙之，杞得志谮炎私建庙宇图谋不轨，罢相贬死崖州"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

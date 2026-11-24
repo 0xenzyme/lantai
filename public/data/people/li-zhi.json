@@ -311,6 +311,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "a-shi-na-he-lu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 651,
+      "notes": [
+        "永徽中贺鲁反自号沙钵罗可汗，高宗遣苏定方平之，献俘太庙宥死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "songzan-ganbu",
+      "target": "li-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 649,
+      "notes": [
+        "高宗即位册赞普西海郡王，赞普遣使致贡，永徽元年薨遣使吊祭"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

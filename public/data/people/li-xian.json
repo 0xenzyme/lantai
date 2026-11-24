@@ -125,6 +125,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-xian",
+      "target": "cui-xuanwei",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 705,
+      "notes": [
+        "神龙政变率兵入迎中宗复辟，册封博陵郡王，后为武三思所谮贬死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-xian",
+      "target": "da-zu-rong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 705,
+      "notes": [
+        "神龙中宗复辟遣张行俅宣抚，祚荣遣子入质通好大唐"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

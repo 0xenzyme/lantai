@@ -235,6 +235,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "cui-xuanwei",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 700,
+      "notes": [
+        "久视中迁天官侍郎公慎拔才，拜同平章事，玄暐正言数谏抑二张"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "da-zu-rong",
+      "target": "wu-zetian",
+      "type": "rival",
+      "directed": false,
+      "since": 697,
+      "notes": [
+        "营州乱起东渡辽水，天门岭破李楷固周军，据东牟山建大震国"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

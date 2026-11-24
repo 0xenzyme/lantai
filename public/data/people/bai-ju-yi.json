@@ -92,6 +92,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "bai-ju-yi",
+      "target": "niu-seng-ru",
+      "type": "peer",
+      "directed": false,
+      "since": 832,
+      "notes": [
+        "僧孺东都留守筑归仁园，白居易晚年退居洛阳日夕与僧孺赋诗唱和"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

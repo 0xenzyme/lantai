@@ -123,6 +123,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "liu-yu-xi",
+      "target": "niu-seng-ru",
+      "type": "peer",
+      "directed": false,
+      "since": 832,
+      "notes": [
+        "同居洛阳晚年莫逆知交，唱酬留连，诗酒相欢"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "liu-yu-xi",
+      "target": "wei-zhi-yi",
+      "type": "peer",
+      "directed": false,
+      "since": 805,
+      "notes": [
+        "同预二王八司马新政，执谊拜相总司制诰，事败同贬远荒并称八司马"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [
