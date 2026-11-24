@@ -104,9 +104,9 @@ test('李白局部图谱正确提取一度人物与关系连线', () => {
 
   assert.equal(nodes[0].id, 'li-bai');
   assert.equal(nodes[0].isCenter, true);
-  // 李白现在有 6 条显式关系 (杜甫、唐玄宗、高适、永王李璘、孟浩然、王维)
-  assert.equal(nodes.length, 7); // 1 中心 + 6 关联
-  assert.equal(edges.length, 6);
+  // 李白现在包含 8 条显式关联关系 (杜甫、唐玄宗、高适、永王李璘、孟浩然、王维、郭子仪、白居易)
+  assert.equal(nodes.length, 9); // 1 中心 + 8 关联
+  assert.equal(edges.length, 8);
 
   const targetIds = new Set(nodes.map((n) => n.id));
   assert.ok(targetIds.has('du-fu'));
@@ -115,6 +115,8 @@ test('李白局部图谱正确提取一度人物与关系连线', () => {
   assert.ok(targetIds.has('li-lin-757'));
   assert.ok(targetIds.has('meng-hao-ran'));
   assert.ok(targetIds.has('wang-wei'));
+  assert.ok(targetIds.has('guo-zi-yi'));
+  assert.ok(targetIds.has('bai-ju-yi'));
 });
 
 test('杜甫局部图谱正确提取盛唐文人圈与政治圈多维关系网络', () => {

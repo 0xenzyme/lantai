@@ -92,6 +92,18 @@
     },
     {
       "source": "li-shimin",
+      "target": "du-ru-hui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天策府股肱，房谋杜断临机善断，早逝太宗哭之甚恸，数度流涕思如晦"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
       "target": "li-jing",
       "type": "ruler-subject",
       "directed": true,
@@ -409,6 +421,18 @@
       "directed": true,
       "notes": [
         "赐姓李，凌烟阁功臣，后平高丽"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "xue-ren-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "安市城下白袍跃马破敌，太宗大喜授游击将军，叹曰「朕不喜得辽东，喜得卿也」"
       ],
       "topicIds": [
         "tang"

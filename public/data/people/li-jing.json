@@ -46,6 +46,18 @@
       ]
     },
     {
+      "source": "fang-xuan-ling",
+      "target": "li-jing",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "雅知其才数加引荐，同为贞观股肱文武柱石"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-shimin",
       "target": "li-jing",
       "type": "ruler-subject",

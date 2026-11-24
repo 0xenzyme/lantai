@@ -66,6 +66,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "du-ru-hui",
+      "target": "wei-zheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "贞观初共参机要，如晦善审势速断，魏征善面折极谏"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

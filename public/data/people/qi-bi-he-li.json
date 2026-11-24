@@ -40,6 +40,30 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "qi-bi-he-li",
+      "target": "xu-shi-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为唐初宿将，辽东之役分统诸道兵马合力破敌"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "qi-bi-he-li",
+      "target": "xue-ren-gui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "乾封至总章年间同征高句丽，各统精骑斩将搴旗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

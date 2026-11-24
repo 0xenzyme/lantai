@@ -32,6 +32,18 @@
   "relations": [
     {
       "source": "bai-ju-yi",
+      "target": "li-bai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "极重李白仙才，曾作《读李杜诗集》《李白墓》凭吊诗仙风范"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "bai-ju-yi",
       "target": "liu-yu-xi",
       "type": "peer",
       "directed": false,

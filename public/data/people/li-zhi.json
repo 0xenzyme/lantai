@@ -72,7 +72,7 @@
       "type": "ruler-subject",
       "directed": true,
       "notes": [
-        "开耀元年复起，其年病卒"
+        "感其万年宫救驾之忠与定天山之功，晚年云州脱胄破敌"
       ],
       "topicIds": [
         "tang"
@@ -241,6 +241,18 @@
       "directed": true,
       "notes": [
         "永徽中同三品，谏立武后，龙朔二年阵没"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "xu-shi-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗托孤重臣，拜尚书左仆射、司空；总章年间挂帅东征，终灭高句丽"
       ],
       "topicIds": [
         "tang"

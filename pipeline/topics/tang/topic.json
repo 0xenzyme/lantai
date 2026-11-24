@@ -1295,6 +1295,36 @@
     },
     {
       "source": "li-shimin",
+      "target": "du-ru-hui",
+      "type": "ruler-subject",
+      "note": "天策府股肱，房谋杜断临机善断，早逝太宗哭之甚恸，数度流涕思如晦"
+    },
+    {
+      "source": "fang-xuan-ling",
+      "target": "zhangsun-wu-ji",
+      "type": "peer",
+      "note": "天策府同僚，玄武门同谋，贞观朝并居凌烟阁功臣之首"
+    },
+    {
+      "source": "du-ru-hui",
+      "target": "zhangsun-wu-ji",
+      "type": "peer",
+      "note": "同为天策府元勋，共决玄武门大计，开创贞观之基"
+    },
+    {
+      "source": "fang-xuan-ling",
+      "target": "li-jing",
+      "type": "peer",
+      "note": "雅知其才数加引荐，同为贞观股肱文武柱石"
+    },
+    {
+      "source": "du-ru-hui",
+      "target": "wei-zheng",
+      "type": "peer",
+      "note": "贞观初共参机要，如晦善审势速断，魏征善面折极谏"
+    },
+    {
+      "source": "li-shimin",
       "target": "li-jing",
       "type": "ruler-subject",
       "note": "李靖灭东突厥、破吐谷浑"
@@ -1516,6 +1546,18 @@
       "target": "meng-hao-ran",
       "type": "peer",
       "note": "忘年交，有《赠孟浩然》《黄鹤楼送孟浩然之广陵》"
+    },
+    {
+      "source": "li-bai",
+      "target": "guo-zi-yi",
+      "type": "peer",
+      "note": "相传早年白曾解救子仪于行伍；后白系浔阳狱，子仪请以官爵赎白罪，遂免死长流"
+    },
+    {
+      "source": "bai-ju-yi",
+      "target": "li-bai",
+      "type": "peer",
+      "note": "极重李白仙才，曾作《读李杜诗集》《李白墓》凭吊诗仙风范"
     },
     {
       "source": "gao-shi",
@@ -1845,7 +1887,7 @@
       "source": "li-zhi",
       "target": "xue-ren-gui",
       "type": "ruler-subject",
-      "note": "开耀元年复起，其年病卒"
+      "note": "感其万年宫救驾之忠与定天山之功，晚年云州脱胄破敌"
     },
     {
       "source": "li-zhi",
@@ -2578,6 +2620,42 @@
       "target": "xu-shi-ji",
       "type": "ruler-subject",
       "note": "赐姓李，凌烟阁功臣，后平高丽"
+    },
+    {
+      "source": "li-zhi",
+      "target": "xu-shi-ji",
+      "type": "ruler-subject",
+      "note": "太宗托孤重臣，拜尚书左仆射、司空；总章年间挂帅东征，终灭高句丽"
+    },
+    {
+      "source": "xu-shi-ji",
+      "target": "xue-ren-gui",
+      "type": "peer",
+      "note": "总章元年李勣为主帅，仁贵为前锋经略，水陆并进合围平壤，降高丽王"
+    },
+    {
+      "source": "xu-shi-ji",
+      "target": "qi-bi-he-li",
+      "type": "peer",
+      "note": "同为唐初宿将，辽东之役分统诸道兵马合力破敌"
+    },
+    {
+      "source": "xu-shi-ji",
+      "target": "li-mi",
+      "type": "peer",
+      "note": "初聚义瓦岗，密败降唐，世勣尽献河南十州版籍于密令其献俘，不伐己功"
+    },
+    {
+      "source": "li-shimin",
+      "target": "xue-ren-gui",
+      "type": "ruler-subject",
+      "note": "安市城下白袍跃马破敌，太宗大喜授游击将军，叹曰「朕不喜得辽东，喜得卿也」"
+    },
+    {
+      "source": "xue-ren-gui",
+      "target": "qi-bi-he-li",
+      "type": "peer",
+      "note": "乾封至总章年间同征高句丽，各统精骑斩将搴旗"
     },
     {
       "source": "feng-changqing",

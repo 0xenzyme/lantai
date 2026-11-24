@@ -92,6 +92,18 @@
       ]
     },
     {
+      "source": "guo-zi-yi",
+      "target": "li-bai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "相传早年白曾解救子仪于行伍；后白系浔阳狱，子仪请以官爵赎白罪，遂免死长流"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "du-fu",
       "target": "guo-zi-yi",
       "type": "peer",

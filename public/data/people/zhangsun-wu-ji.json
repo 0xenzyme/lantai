@@ -32,6 +32,30 @@
   ],
   "relations": [
     {
+      "source": "fang-xuan-ling",
+      "target": "zhangsun-wu-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "天策府同僚，玄武门同谋，贞观朝并居凌烟阁功臣之首"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "du-ru-hui",
+      "target": "zhangsun-wu-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为天策府元勋，共决玄武门大计，开创贞观之基"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-shimin",
       "target": "zhangsun-wu-ji",
       "type": "kin",

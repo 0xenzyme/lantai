@@ -73,6 +73,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-mi",
+      "target": "xu-shi-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "初聚义瓦岗，密败降唐，世勣尽献河南十州版籍于密令其献俘，不伐己功"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [
