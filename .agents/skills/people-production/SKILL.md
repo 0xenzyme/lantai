@@ -21,34 +21,46 @@ metadata:
 
 ## 详表质量规范（升档与修订必读）
 
-详表（`profile: full`）旨在支撑深度阅读、结构化年谱与多圈层力导向关系图谱。准备 `revise` 详表提议时，必须遵循以下标准：
+详表（`profile: full`）支撑深度阅读、结构化年谱与多圈层力导向关系图谱。准备 `revise` 详表提议时必须遵循以下标准。**人名、数字、官衔、系年和引语，写入前都要在本地 `raw/` 原典里定位核对；核不到的事实不写。** 批次目录里每个文件写什么，见 [contracts.md](references/contracts.md)《批次工作目录》。
 
 1. **生平传记（Biography）分期叙事**：
-   - 告别简单的一两句百科摘要，采用具有历史深度的分期叙事（核心人物 3~4 段，普通详表人物 2~3 段，字数约 250~500 字）。
-   - 结构清晰覆盖：① 早年起步/家庭渊源；② 政治或文化高光/极盛功业；③ 重大挫折/变乱转折；④ 晚年结局与千秋定评。
-   - 正式 Markdown 传记直接作为正文段落书写，不进入 Frontmatter。
+   - 告别一两句百科摘要，写分期叙事。核心人物（帝王、名相、名将、文豪）4 段、700~1100 字；普通详表人物 3~4 段、500~900 字。
+   - 结构覆盖：① 早年与出身；② 功业高光；③ 挫折与转折；④ 晚年与定评。史料少的人物写短，不为凑字数扩写。
+   - `bio` 是正文里的纯段落，段与段之间空一行。不写 Markdown 标题、强调和列表：页面按空行分段后原样显示，`npm run content:check` 会拒绝带标题的 bio。
+   - 引号内的引语必须与原典逐字一致。原典是繁体时只转成简体用字，不改字，不增删。
 2. **个人经历（Experiences）与时代事件联动**：
-   - 核心人物提炼 3~5 个关键人生节点，录入 `experiences` 数组（含 `id`、`label`、`note`、`sources`）。
-   - 若经历对应库中已有公共事件，使用 `event: <event-id>` 显式关联。
-   - **严格约束**：使用 `event` 时严禁重复填写 `year/endYear/place`（由公共事件自动继承），且由于未直接显式写年份，`yearAccuracy` 必须填写 `unknown`。
+   - 核心人物提炼 3~5 个关键人生节点，录入 `experiences`（含 `id`、`label`、`note`、`sources`）。
+   - 对应库中已有公共事件时，用 `event: <event-id>` 关联。该事件的 `people` 或 `commanders` 必须已经包含本人。
+   - **严格约束**：使用 `event` 时不得填写 `year`、`endYear`、`place`（由公共事件继承），`yearAccuracy` 填 `unknown`。
+   - 不用 `event` 的经历自带 `year`、`yearAccuracy`、`place`。`exact` 只用于原典明确给出这一年的情况。
 3. **重要关系（Relations）与图谱密度**：
-   - 在所属各 `pipeline/topics/<id>/topic.json` 补齐有叙事意义的 `relations`。每条必须有清晰、具体的 `note` 解释关系背景。
-   - 核心枢纽人物（帝王、名相、文豪、统帅）原则上建立 5~15 条核心关系边，支撑多圈层内外轨局部图谱；普通详表人物至少补充 2~4 条有效连线，避免单线孤悬。
-   - 善用 `npm run relations:candidates -- <topic> <person-id>` 检索同代重叠人物；严禁凭空盲写，每条关系须经史实考证确认具有叙事交互价值。
+   - 关系提案写在批次 `items/<id>.json` 的 `relations` 里，不直接改 `topic.json`。它随本人的审核一起通过后，由工具合并进专题。
+   - 每条关系必须有 `note`，一句话说清为什么值得画，不超过 30 字（工具上限 50 字）。
+   - 核心枢纽人物（帝王、名相、文豪、统帅）原则上建立 5~15 条核心关系边；普通详表人物至少 2~4 条。
+   - 先用 `npm run relations:candidates -- <topic> <person-id>` 检索同代重叠人物。候选只供研究，每条关系都要在原典里找到两人交互的依据。
 4. **代表作品（Works）**：
-   - 文人、学者、思想家等详表人物需提炼代表作品（诗赋、专著、篇章），注明类别、年份与版本出处。
+   - 文人、学者、思想家等详表人物提炼代表作品（诗赋、专著、篇章），注明类别、可考年份与出处。创作年不可考时不填 `year`。
+5. **证据（Evidence）与 claim**：
+   - 每条 evidence 是原典的逐字摘录，保留原典的繁体用字；`locator` 写卷篇，并包含对应 `sources[].part`。不相邻的句子用「……」连接。
+   - `bio` 每一段里的硬事实都要在 `claims` 里列出，并指向支撑它的 evidence。只写「据本传」不算映射。
 
 ## 生产辅助工具链
 
-- `npm run people:audit`：全站人物数据质量体检看板（统计传记深度、关系密度、经历与作品覆盖率，并输出待升级核心人物建议清单）。
-- `npm run people:audit -- --topic <id>`：单专题数据质量体检与人物列表。
-- `npm run people:suggest-events -- <person-id>`：根据人物自动从公共事件库检索匹配项，输出即用型 `experiences` 结构化代码与同场关系候选。
+- `npm run sources:search -- <繁体正则> --work <书名>`：在本地原典里检索，输出命中位置和上下文。`--list` 列出可用的书。原典正文是繁体，检索词也要用繁体。
+- `npm run sources:search -- <本传开头的几个字> --work <书名> --chars 8000`：整段读取，从首次命中处输出连续正文，可按提示加 `--skip` 续读。先用检索定位本传开头，再用它一次读完本传，摘录从这里逐字复制。
+- `npm run people:audit`：全站人物数据质量体检看板（传记深度、关系密度、经历与作品覆盖率、各专题达标率、待升级核心人物名单）。
+- `npm run people:audit -- --topic <id> --list`：输出该专题全部人物的指标（JSON），按升级优先级降序。
+- `npm run people:suggest-events -- <person-id>`：从公共事件库检索与该人物匹配的事件，给出可直接改用的 `experiences` 片段和同场人物。
 - `npm run relations:candidates -- <topic> <person-id>`：检索同代重叠人物，辅助构筑局部关系图谱。
+- `npm run people:batch:init -- …`：建批次目录，为每个人放下正式原文作草稿起点。
+- `npm run people:batch:check -- --id <批次id> --person <人物id>`：单人自检（格式、claim 映射、摘录逐字、人物 lint、全局投影），并给出内容指纹。交接前必须通过。
+- `npm run people:batch:assemble -- --id <批次id>`：把带审核结论的候选组装成 `batch.json`。
+- `npm run people:batch:relations -- --id <批次id> [--apply]`：预演或写入已通过审核的关系提案。
 
 ## 按反馈继续
 
 用户把 raw 或 pending 批次交回执行者时，只修改待处理候选。proposal 变化后移除该项旧 review，重新预检并交接；保留 accepted 中的既有审核依据。已接受项目需要进一步修订时新建批次。
 
-没有关系的人物不造关系候选凑数。详表升档需要 relations 时，可先用 `npm run relations:candidates -- <topic> <person-id>` 看同时代候选，但候选只供研究，须人工判断叙事意义后写进 `topic.json`（每条带 note），再进人物批次。证据不足时保留缺口，不循环改措辞求通过。未知专题或泳道不猜。
+没有关系的人物不造关系候选凑数。详表升档需要 relations 时，可先用 `npm run relations:candidates -- <topic> <person-id>` 看同时代候选，但候选只供研究，须人工判断叙事意义后写进批次 `items/<id>.json` 的 `relations`（每条带 note），随本人审核通过后由工具合并进 `topic.json`。证据不足时保留缺口，不循环改措辞求通过。未知专题或泳道不猜。
 
 用户人工切换 Agent 是角色交接，不是内容批准。模型名称不作为准入凭证，执行者不猜测审核者的工具或模型。本入口不含正式内容写入、commit、push 或 deploy。

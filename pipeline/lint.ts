@@ -328,6 +328,10 @@ export function lintRegistryPerson(
   if (person.profile === 'brief' && person.bio?.trim()) {
     messages.push({ level: 'error', path, message: '已写 bio，profile 应为 full' });
   }
+  // 详情页把 bio 按空行分段后原样输出，不渲染 Markdown；标题行会把井号露在页面上。
+  if (typeof person.bio === 'string' && /^#{1,6}[ \t]+\S/m.test(person.bio)) {
+    messages.push({ level: 'error', path, message: '[PERSON_BIO_HEADING] bio 只写正文段落，不写 Markdown 标题' });
+  }
   if (person.profile && (!person.polity || person.polity.length === 0)) {
     messages.push({ level: 'error', path, message: '简表必须写 polity' });
   }

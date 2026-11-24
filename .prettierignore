@@ -16,5 +16,7 @@ pipeline/vocab/
 pipeline/events-migration-manifest.json
 node_modules/
 package-lock.json
+# 本机工作流引擎的运行产物，不入库
+.zcode/
 *.log
 .DS_Store

@@ -66,7 +66,7 @@ export const FULL_TEMPLATE: RegistryPerson = {
   tags: ['待填'],
   aliases: ['待填'],
   sources: [{ work: '待填', part: '待填', kind: 'classic' }],
-  bio: '待填。两三句：身份、和轴上其他人的关系、为什么出现。',
+  bio: '待填。分期叙事，只写正文段落，段间空一行；每条事实都要能在原典里核对。',
 };
 
 export function formatPersonMarkdown(person: RegistryPerson): string {

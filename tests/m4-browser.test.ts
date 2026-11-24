@@ -105,7 +105,10 @@ test('M4 Chrome 内容发现、返回、四档视口、异常与年表回归', {
   await page.locator('.lt-era-tabs a').filter({ hasText: '关键人物' }).click();
   await page.locator('a[data-entity-id="li-bai"]').first().click();
   await ready(page, '.lt-person-page');
-  assert.match(await page.locator('.lt-person-page').innerText(), /与 杜甫|← 杜甫|→ 杜甫/);
+  // 关系面板默认显示关系图；列表视图才用「与 / ← / →」表述方向。
+  assert.match(await page.locator('.lt-person-relations-panel').innerText(), /杜甫/);
+  await page.locator('[data-person-relation-mode="list"]').click();
+  assert.match(await page.locator('.lt-person-relation-list-container').innerText(), /与 杜甫|← 杜甫|→ 杜甫/);
   await page.locator('[data-return-fallback]').click();
   await ready(page, '.lt-era-page');
   await page.locator('.lt-era-hero a[data-timeline-link]').click();
@@ -141,6 +144,8 @@ test('M4 Chrome 内容发现、返回、四档视口、异常与年表回归', {
   await ready(page, '.lt-person-card');
   await page.locator('.lt-person-card h3 a[data-entity-id="li-bai"]').click();
   await ready(page, '.lt-person-page');
+  // 关系面板默认显示关系图；切到列表后沿关系链接跳到杜甫。
+  await page.locator('[data-person-relation-mode="list"]').click();
   await page.locator('.lt-relation-list a[data-entity-id="du-fu"]').first().click();
   await ready(page, '.lt-person-page');
   assert.equal(new URL(page.url()).pathname, '/people/du-fu');

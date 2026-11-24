@@ -23,7 +23,21 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zhao-defang",
+      "target": "zhao-kuangyin",
+      "type": "kin",
+      "directed": false,
+      "since": 960,
+      "notes": [
+        "太祖四子封岐王，太平兴国早卒，后世演为八贤王"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

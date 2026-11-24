@@ -165,11 +165,17 @@ test('N9 年表首包只加载瘦索引且 gzip 合计小于 200KB', { timeout: 
   });
   await page.goto(`${origin}/timeline?${tang}`);
   await page.waitForSelector('body[data-timeline-ready="true"]', { state: 'attached' });
-  // 在此视窗中，隋灭陈位于战事区第一行的 588—589 年处。
-  await page.locator('#chart').hover({ position: { x: 111, y: 344 } });
+  // 在此视窗中，隋灭陈位于战事区第一行的 588—589 年处。行高会随布局微调，纵向试几个相邻位置。
   const tooltip = page.locator('#tooltip');
-  await tooltip.waitFor({ state: 'visible' });
-  assert.equal(await tooltip.innerText(), '隋灭陈　588 — 589');
+  let tip = '';
+  for (const y of [346, 344, 348, 342, 350]) {
+    await page.locator('#chart').hover({ position: { x: 120, y } });
+    await page.waitForTimeout(300);
+    if (!(await tooltip.isVisible())) continue;
+    tip = (await tooltip.innerText()).trim();
+    if (tip.startsWith('隋灭陈')) break;
+  }
+  assert.equal(tip, '隋灭陈　588 — 589');
   assert.ok(
     (await dataResources(page)).every(({ path }) => !/^\/data\/(?:military|history)\.json$/.test(path)),
     '悬浮提示不得请求完整事件线',

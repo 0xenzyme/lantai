@@ -37,24 +37,26 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 
 ### 详表
 
-在已经上轴的人身上补齐支撑深度阅读与关系图谱的文字、年表和叙事网络：
+在已经上轴的人身上补齐支撑深度阅读与关系图谱的文字、年表和叙事网络。**人名、数字、官衔、系年和引语，写入前都要在本地 `raw/` 原典里定位核对；核不到的事实不写。** 具体流程见 `docs/内容工作流.md`，标准细则见 `.agents/skills/people-production/SKILL.md`《详表质量规范》。
 
 1. **生平传记（Biography）**：
-   - 告别简单的一两句百科摘要，采用具有历史纵深的分期叙事（核心人物 3~4 段，普通详表人物 2~3 段，字数约 250~500 字）。
-   - 结构清晰覆盖：① 早年起步/际遇；② 政治或文化高光/极盛功业；③ 重大挫折/变乱转折；④ 晚年结局与千秋定评。
-   - Markdown 里 `bio` 写作正文 Markdown 段落，不要写进文首 Frontmatter。存量 JSON 仍把 `bio` 写在字段里。
+   - 告别一两句百科摘要，写分期叙事。核心人物（帝王、名相、名将、文豪）4 段、700~1100 字；普通详表人物 3~4 段、500~900 字。史料少的人物写短，不为凑字数扩写。
+   - 结构覆盖：① 早年与出身；② 功业高光；③ 挫折与转折；④ 晚年与定评。
+   - Markdown 里 `bio` 写作正文里的纯段落，段间空一行，不写进文首 Frontmatter。不写 Markdown 标题、强调和列表：页面按空行分段后原样显示，校验会拒绝带标题的 bio。存量 JSON 仍把 `bio` 写在字段里。
+   - 引号内的引语与原典逐字一致。原典是繁体时只转成简体用字，不改字，不增删。
 2. **个人经历（Experiences）与时代事件关联**：
    - 核心人物提炼 3~5 个重大人生节点，录入 `experiences` 数组（含 `id`、`label`、`note`、`sources`）。
-   - 若经历对应库中已有的公共事件，使用 `event: <event-id>` 显式关联（此时免填且禁止重复填 `year/place`，管线将自动继承公共事件权威年份），中栏将自动呈现结构化的年谱与时代大事件卡片。
+   - 若经历对应库中已有的公共事件，使用 `event: <event-id>` 显式关联（此时不得填写 `year`、`endYear`、`place`，管线继承公共事件的权威年份，`yearAccuracy` 填 `unknown`）。该事件的 `people` 或 `commanders` 必须已包含本人。
 3. **重要关系（Relations）与图谱密度**：
-   - 在所属各 `pipeline/topics/<id>/topic.json` 补齐有叙事意义的 `relations`。每条必须有清晰有力的 `note` 说明。
-   - 核心枢纽人物（帝王、名相、大文豪、名将）原则上建立 5~15 条核心关系边，支撑多圈层力导向局部图谱；普通详表人物至少补充 2~4 条有效连线，避免单线孤悬。
-   - 善用 `npm run relations:candidates -- <topic> <person-id>` 检索同代重叠人物，严禁不加考证直接抄录候选，每条关系须由人工或严格史料证实叙事价值。
+   - 核心枢纽人物（帝王、名相、大文豪、名将）原则上建立 5~15 条核心关系边，支撑多圈层力导向局部图谱；普通详表人物至少 2~4 条有效连线。
+   - 每条关系必须有 `note`，一句话说清为什么值得画，不超过 30 字。
+   - 关系随人物一起进批次：写在批次 `items/<id>.json` 的 `relations` 里，通过独立审核后由工具合并进 `pipeline/topics/<id>/topic.json`。不直接改 `topic.json`。
+   - 用 `npm run relations:candidates -- <topic> <person-id>` 检索同代重叠人物。候选只供研究，每条关系都要在原典里找到两人交互的依据。
 4. **代表作品（Works）**：
-   - 文人、学者、艺术家详表人物按规范提炼代表作品（诗歌、散文、专著等），注明作品类别、可考年份与版本出处。
+   - 文人、学者、艺术家详表人物按规范提炼代表作品（诗歌、散文、专著等），注明作品类别、可考年份与版本出处。创作年不可考时不填 `year`。
 5. **元数据与准入**：
-   - 补齐 `title`、`tags`、`categories`，把 `profile` 改为 `full`。
-   - 写完 Markdown 先跑 `npm run people:format`，让文首顺序与模板一致；再跑 `npm run content` 重新编译。
+   - 补齐 `title`、`tags`、`categories`、`primary`，把 `profile` 改为 `full`。
+   - 草稿格式须与 `npm run people:format` 的输出一致。
 
 没有关系的简表人物留在轴上。详表人物若仍没有任何关系，校验按专题汇总告警，不因此拒绝编译。
 
@@ -68,7 +70,7 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 - 写了年份，但出处里没有 `classic` 或 `modern`（`kind` 省略视为 `classic`）
 - 显式 `profile` 缺 `polity`；标了 `full` 却没有 `bio`；标了 `brief` 却已经写了 `bio`
 - 显式 `profile` 的 `approx` 没有对应 note
-- 人物 Markdown 缺文首、`profile`、`gender` 或出处 `kind`；`bio` 写进文首；字段不在模板里；`id` 与文件名不一致；格式与 `people:format` 的输出不一致；模板文件与 `pipeline/person-md.ts` 不一致
+- 人物 Markdown 缺文首、`profile`、`gender` 或出处 `kind`；`bio` 写进文首；`bio` 里写了 Markdown 标题；字段不在模板里；`id` 与文件名不一致；格式与 `people:format` 的输出不一致；模板文件与 `pipeline/person-md.ts` 不一致
 - 同一个人同时出现在 `content/<topic>/<id>.md` 和 `pipeline/registry/people/<id>.json`，或出现在两个专题目录里
 - `content/<topic>.md` 索引和目录里的人物对不上
 
@@ -173,7 +175,7 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 
 ## 文案
 
-`bio` 两三句，服务读图：身份、和轴上其他人的关系、为什么出现在这一章。不要粘贴百科。
+人物源文件里的 `bio` 是详表传记，按《详表》的分期叙事写。专题在 `topic.json` 里的 `bio` 覆盖只服务读图：两三句，写身份、和轴上其他人的关系、为什么出现在这一章。两者都不粘贴百科，也不写 Markdown 标题。
 
 专题覆盖用于换角度，例如董仲舒在汉代专题称「董仲舒」，在儒学专题称「董子」。生卒仍是同一条登记。
 

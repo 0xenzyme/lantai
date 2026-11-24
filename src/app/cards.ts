@@ -41,6 +41,11 @@ function chips(items: string[]): string {
   return items.map((item) => `<span class="card-chip">${esc(item)}</span>`).join('');
 }
 
+/** 画布卡片只放传记的首段；分段全文在人物详情页。 */
+export function cardBio(bio: string | undefined): string | undefined {
+  return bio?.split(/\n\s*\n/).find((text) => text.trim());
+}
+
 function link(kind: 'person' | 'event', id: string, text: string): string {
   // 人物链接附水墨意象头像，缺图时保留首字 monogram。
   const portrait =
@@ -90,6 +95,7 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
   const life = `${edge(person.birth, person.birthAccuracy)} — ${edge(person.death, person.deathAccuracy)}`;
   const categories = (person.categories ?? []).map((item) => library.categoryNames.get(item) ?? item);
   const polities = (person.polity ?? []).map((item) => library.polityNames.get(item) ?? item);
+  const bio = cardBio(person.bio)?.trim();
 
   const relationRows = relationsOf(ctx, id)
     .map((relation) => {
@@ -122,7 +128,7 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
     ${categories.length > 0 ? `<div class="card-label">分类</div><div>${chips(categories)}</div>` : ''}
     ${polities.length > 0 ? `<div class="card-label">政权</div><div>${chips(polities)}</div>` : ''}
     ${(person.tags ?? []).length > 0 ? `<div class="card-label">标签</div><div>${chips(person.tags ?? [])}</div>` : ''}
-    ${person.bio ? `<div class="card-label">简介</div><div>${esc(person.bio)}</div>` : ''}
+    ${bio ? `<div class="card-label">简介</div><div>${esc(bio)}</div>` : ''}
     ${
       relationRows.length > 0
         ? `<div class="card-label-row"><span class="card-label">关系</span><button type="button" class="lt-btn-link-focus" data-action="toggle-focus">${ctx.focusMode ? '退出聚焦' : '仅看关联'}</button></div><div>${relationRows.join('<br>')}</div>`

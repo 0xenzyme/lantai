@@ -26,7 +26,21 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zhao-guangyi",
+      "target": "yang-ye",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 979,
+      "notes": [
+        "灭北汉得降将杨业深加器重擢判代州，雍熙北伐陈家谷战没，太宗震悼痛惜"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "yongxi-beifa",

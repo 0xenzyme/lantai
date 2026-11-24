@@ -6557,6 +6557,11 @@ body.timeline-app .lt-timeline-detail {
   line-height: 1.9;
 }
 
+.lt-person-page .lt-person-bio {
+  display: grid;
+  gap: 12px;
+}
+
 .lt-person-page .lt-person-experience-list {
   display: grid;
   gap: 12px;

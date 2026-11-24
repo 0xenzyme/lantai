@@ -35910,8 +35910,17 @@
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
+      "aliases": [
+        "范文素",
+        "鲁国公"
+      ],
       "tags": [
-        "宋"
+        "宋",
+        "北宋",
+        "宰相",
+        "五代",
+        "开国首辅",
+        "廉介"
       ],
       "gender": "male",
       "birth": 911,
@@ -36421,9 +36430,17 @@
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
+      "aliases": [
+        "赵匡胤",
+        "宋太祖",
+        "赵香孩"
+      ],
       "tags": [
         "宋",
-        "北宋"
+        "北宋",
+        "开国皇帝",
+        "陈桥兵变",
+        "杯酒释兵权"
       ],
       "gender": "male",
       "birth": 927,
@@ -36437,9 +36454,18 @@
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
+      "aliases": [
+        "赵匡义",
+        "赵炅",
+        "宋太宗"
+      ],
       "tags": [
         "宋",
-        "北宋"
+        "北宋",
+        "皇帝",
+        "金匮之盟",
+        "灭北汉",
+        "雍熙北伐"
       ],
       "gender": "male",
       "birth": 939,
@@ -36453,9 +36479,16 @@
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
+      "aliases": [
+        "赵则平",
+        "韩王"
+      ],
       "tags": [
         "宋",
-        "北宋"
+        "北宋",
+        "宰相",
+        "开国元勋",
+        "半部论语"
       ],
       "gender": "male",
       "birth": 922,
@@ -41393,11 +41426,23 @@
       "id": "shi-shouxin",
       "name": "石守信",
       "display": "石守信",
-      "birthAccuracy": "unknown",
+      "birthAccuracy": "exact",
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "石守信",
+        "威武郡王"
+      ],
+      "tags": [
+        "宋",
+        "北宋",
+        "开国名将",
+        "义社十兄弟",
+        "杯酒释兵权"
+      ],
       "gender": "male",
+      "birth": 928,
       "death": 984
     },
     {

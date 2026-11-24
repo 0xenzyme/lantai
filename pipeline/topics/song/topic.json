@@ -2235,6 +2235,83 @@
       "target": "zong-ze",
       "type": "ruler-subject",
       "note": "命为东京留守，泽屡疏请上还京"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "shi-shouxin",
+      "type": "ruler-subject",
+      "since": 960,
+      "note": "义社十兄弟结拜义契，陈桥建宋拜侍卫都指挥使，杯酒释兵权首位纳印交权"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "fan-zhi",
+      "type": "ruler-subject",
+      "since": 960,
+      "note": "陈桥即位范质率百官下拜，留任宋初首任宰相，撤政事堂宰相坐榻改立奏自质始"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "pan-mei",
+      "type": "ruler-subject",
+      "since": 960,
+      "note": "开国宿将，受命南征灭南汉、平江南，开疆拓土"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "zhao-dezhao",
+      "type": "kin",
+      "since": 960,
+      "note": "太祖次子封燕王，从太宗征幽州，高梁河溃败受责忧愤自刎"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "zhao-defang",
+      "type": "kin",
+      "since": 960,
+      "note": "太祖四子封岐王，太平兴国早卒，后世演为八贤王"
+    },
+    {
+      "source": "zhao-pu",
+      "target": "fan-zhi",
+      "type": "peer",
+      "since": 960,
+      "note": "宋初同列政事堂，范质老成持重奉法，赵普帷幄谋断定策，交替主持相柄"
+    },
+    {
+      "source": "zhao-pu",
+      "target": "shi-shouxin",
+      "type": "peer",
+      "since": 960,
+      "note": "共预陈桥翊戴开国，赵普雪夜定削藩策，守信晚朝顺承释兵权出镇"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "zhao-pu",
+      "type": "ruler-subject",
+      "since": 976,
+      "note": "杜太后金匮之盟托孤，赵普进呈誓书助太宗固统，晚年三度拜相"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "yang-ye",
+      "type": "ruler-subject",
+      "since": 979,
+      "note": "灭北汉得降将杨业深加器重擢判代州，雍熙北伐陈家谷战没，太宗震悼痛惜"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "pan-mei",
+      "type": "ruler-subject",
+      "since": 976,
+      "note": "雍熙北伐为主帅，陈家谷监军王侁冒进致杨业陷死，降秩武胜军节度使"
+    },
+    {
+      "source": "shi-shouxin",
+      "target": "zhao-guangyi",
+      "type": "ruler-subject",
+      "since": 976,
+      "note": "开国宿将，太宗朝出为前军地道都部署从征太原灭北汉，寻卒"
     }
   ],
   "events": [

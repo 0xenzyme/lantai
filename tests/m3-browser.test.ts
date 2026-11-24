@@ -82,10 +82,16 @@ test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归'
   assert.match(personText, /701—762 年/);
   assert.match(personText, /约 742 年/);
   assert.match(personText, /尚无直接关联事件/);
-  assert.doesNotMatch(personText, /安史之乱/);
+  // 传记本身可以提到安史之乱；没有显式关联该人物的公共事件不得进入事件面板。
+  assert.doesNotMatch(await page.locator('section[aria-labelledby="person-events"]').innerText(), /安史之乱/);
   assert.doesNotMatch(personText, /蜀道难[\s\S]{0,50}创作于/);
-  await page.locator('.lt-year-note summary').click();
-  assert.match(await page.locator('.lt-year-note').innerText(), /天宝初/);
+  // 李白有两条约略年份的经历（约 725 年、约 742 年）；展开约 742 年那一条，说明应写天宝初。
+  const yearNote = page
+    .locator('.lt-person-experience-list > li')
+    .filter({ hasText: '约 742 年' })
+    .locator('.lt-year-note');
+  await yearNote.locator('summary').click();
+  assert.match(await yearNote.innerText(), /天宝初/);
   await page.click('[data-return-fallback]');
   await ready(page, '.timeline-app #card.show');
   await page.waitForFunction(() => !document.body.dataset.timelineRestoring);

@@ -20,7 +20,21 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zhao-dezhao",
+      "target": "zhao-kuangyin",
+      "type": "kin",
+      "directed": false,
+      "since": 960,
+      "notes": [
+        "太祖次子封燕王，从太宗征幽州，高梁河溃败受责忧愤自刎"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

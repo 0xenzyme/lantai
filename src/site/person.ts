@@ -73,6 +73,20 @@ function relationList(person: PersonDetail, library: SiteLibrary): string {
     .join('');
 }
 
+/** bio 只写正文段落，按空行分段；这里不渲染 Markdown，每段原样转义成一个 <p>。 */
+export function bioParagraphs(bio: string | undefined): string[] {
+  return (bio ?? '')
+    .split(/\n\s*\n/)
+    .map((text) => text.trim())
+    .filter(Boolean);
+}
+
+function bioHtml(bio: string | undefined): string {
+  const paragraphs = bioParagraphs(bio);
+  if (!paragraphs.length) return '<p class="lt-prose">详细生平尚未整理。</p>';
+  return `<div class="lt-person-bio">${paragraphs.map((text) => `<p class="lt-prose">${escapeHtml(text)}</p>`).join('')}</div>`;
+}
+
 function experienceItem(item: PersonExperience): string {
   const dated = item.year !== undefined && item.yearAccuracy !== 'unknown';
   return `<li><div class="lt-experience-year">${dated ? formatEventRange(item) : '年份待考'}</div><div class="lt-person-experience-copy"><h3>${escapeHtml(item.label)}</h3>${item.place ? `<p class="lt-data lt-person-experience-place">${escapeHtml(item.place)}</p>` : ''}<p class="lt-person-experience-note">${escapeHtml(item.note)}</p>${accuracyNote(item.yearAccuracy, item.yearNote)}${accuracyNote(item.endYearAccuracy, item.endYearNote, '结束')}${item.event ? entityLink('event', item.event, '相关公共事件', 'lt-person-event-link') : ''}${expandableSources(item.sources)}</div></li>`;
@@ -99,12 +113,7 @@ export function renderPersonDetail(person: PersonDetail, library: SiteLibrary): 
   ];
   const breadcrumb = `<div class="lt-page-banner-breadcrumb lt-return-row lt-person-breadcrumb"><button class="lt-return" type="button" data-return-fallback="${escapeHtml(timeline ?? directoryFallback('person'))}">← 返回</button><span class="lt-person-breadcrumb-separator" aria-hidden="true">/</span><nav aria-label="面包屑"><ol><li><a href="/people" data-site-link>列传</a></li><li aria-current="page">${escapeHtml(person.display)}</li></ol></nav></div>`;
   const identity = `<aside class="lt-person-identity" aria-label="人物身份"><div class="lt-person-monogram" data-person-image="${escapeHtml(person.id)}" data-person-image-size="800" aria-hidden="true">${escapeHtml(person.display.slice(0, 1))}</div><div class="lt-identity-copy"><p class="lt-life-dates">${lifeDates(person)}</p>${accuracyNote(person.birthAccuracy, person.birthNote, '生')}${accuracyNote(person.deathAccuracy, person.deathNote, '卒')}${tags.length ? `<div class="lt-tags">${tags.join('')}</div>` : ''}${timeline ? `<a class="lt-button lt-person-timeline-button" href="${escapeHtml(timeline)}">${icon('timeline')}<span>在年表中查看</span>${icon('arrow-right')}</a>` : '<p class="lt-notice">缺少可定位的年份。</p>'}${identityFacts(person, library)}</div></aside>`;
-  const biography = panel(
-    'person-bio',
-    '生平简介',
-    'book',
-    `<p class="lt-prose">${escapeHtml(person.bio ?? '详细生平尚未整理。')}</p>`,
-  );
+  const biography = panel('person-bio', '生平简介', 'book', bioHtml(person.bio));
   const experiencePanel = experiences.length
     ? panel(
         'person-experiences',

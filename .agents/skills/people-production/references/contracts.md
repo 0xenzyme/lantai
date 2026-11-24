@@ -54,6 +54,46 @@ npm run people:production:apply -- --batch workspace/content/raw/<batch-id>/batc
 
 preflight 的 checksPassed 仅指机器检查，admissionGranted 始终为 false。apply 重新检查并自动分流，只重写受影响专题的索引，不格式化无关源文件；随后运行 `npm run content` 与 `npm run build`。pending 子集可合回原批次重跑；扩大授权范围使用新批次 id。
 
+## 批次工作目录
+
+批次目录是 `workspace/content/raw/<batch-id>/`。多人并行时每人只写自己的文件，`batch.json` 只由组装工具生成：
+
+| 文件 | 谁写 | 内容 |
+| --- | --- | --- |
+| `scope.json` | `people:batch:init` | 范围说明、起草者标识、人物 id 列表。init 之后不再变。 |
+| `items/<id>.md` | 起草者 | 候选的目标原文，人物 Markdown，格式与 `content/_template.md` 一致。init 先放下正式原文作起点。 |
+| `items/<id>.json` | 起草者 | `admission`、`evidence`、`claims`、`relations`、`relationFixes`、`changes`。 |
+| `reviews/<id>.json` | 独立审核者 | `reviewer`、`decision`、`reason`、`proposalHash`、`problems`。 |
+| `batch.json` | `people:batch:assemble` | 权威批次。只收录带审核结论的候选；未通过的结论一并留档。 |
+| `assembled.json` | 同上 | 每个人的状态与内容指纹。 |
+| `relations.proposed.json` | 同上 | 已通过审核的关系提案与关系 note 修订。 |
+| `relations.applied.json` | `people:batch:relations` | 关系合并结果。 |
+
+`items/<id>.json` 的形状：
+
+```json
+{
+  "id": "yao-chong",
+  "admission": "为什么这样修订或升级",
+  "evidence": [
+    { "id": "e1", "work": "旧唐书", "locator": "卷96·列传第四十六 姚崇", "excerpt": "元崇爲孝敬挽郎，應下筆成章舉，授濮州司倉" }
+  ],
+  "claims": [
+    { "text": "bio 第1段：出身陕州硖石、以挽郎起家、任濮州司仓", "fields": ["bio"], "sourceIds": ["e1"] }
+  ],
+  "relations": [
+    { "topic": "tang", "source": "yao-chong", "target": "song-jing", "type": "peer", "note": "开元初相继为相，史称姚宋" }
+  ],
+  "relationFixes": [],
+  "changes": ["勘误批逐条记录：原文 → 改后，依据 e1"]
+}
+```
+
+- `claims[].fields` 覆盖全部已维护的事实字段。每条顶层 `sources[]` 至少对应一条同 `work` 的 evidence，且 evidence 的 `locator` 包含该条的 `part`。
+- `excerpt` 是 `raw/` 原典的逐字摘录，保留繁体；不相邻的句子用「……」连接。`people:batch:check` 会逐条核对它是否出现在该书正文里。
+- 关系方向：`ruler-subject` 的 source 是君，target 是臣；`mentor` 的 source 是师，target 是弟子；`kin`、`peer`、`rival` 不分方向。`topic` 必须同时收录两端。
+- 审核结论绑定内容指纹（目标原文、理由、摘录、claim、关系提案的摘要）。起草者改动草稿后旧审核失效，须重新审核。
+
 ## 关系候选报告
 
-`npm run relations:candidates -- <topic> <person-id>` 列出专题内与目标人物生卒重叠的轴上人物（标出已有关系与尚无关系），供详表升档时选择关系对象。报告只读，不写文件；同时代候选不得直接写成 relations，须人工判断叙事意义，在 `topic.json` 写明 note。
+`npm run relations:candidates -- <topic> <person-id>` 列出专题内与目标人物生卒重叠的轴上人物（标出已有关系与尚无关系），供详表升档时选择关系对象。报告只读，不写文件；同时代候选不得直接写成 relations，须人工判断叙事意义，写进批次 `items/<id>.json` 的 `relations` 并带 note。

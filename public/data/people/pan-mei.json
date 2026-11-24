@@ -27,7 +27,34 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zhao-kuangyin",
+      "target": "pan-mei",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 960,
+      "notes": [
+        "开国宿将，受命南征灭南汉、平江南，开疆拓土"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "pan-mei",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 976,
+      "notes": [
+        "雍熙北伐为主帅，陈家谷监军王侁冒进致杨业陷死，降秩武胜军节度使"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "mie-nanhan",
