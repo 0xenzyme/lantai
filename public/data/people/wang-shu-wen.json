@@ -33,6 +33,18 @@
   ],
   "relations": [
     {
+      "source": "wang-shu-wen",
+      "target": "liu-zong-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "永贞元年王叔文主掌新政，引宗元为礼部员外郎，共谋罢宫市、夺宦官禁军兵权"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-song",
       "target": "wang-shu-wen",
       "type": "ruler-subject",

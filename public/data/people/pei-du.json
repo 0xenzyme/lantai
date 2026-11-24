@@ -41,6 +41,30 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "bai-ju-yi",
+      "target": "pei-du",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "晚年退居洛阳，与裴度结九老会，诗酒流连，唱和甚密"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "pei-du",
+      "target": "han-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元和十二年裴度督师平淮西吴元济，引愈为行军司马，定奇谋破贼，奉敕撰《平淮西碑》"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

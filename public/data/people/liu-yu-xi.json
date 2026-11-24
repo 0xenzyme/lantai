@@ -41,6 +41,30 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "han-yu",
+      "target": "liu-yu-xi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同朝进士与文友，元和十年刘禹锡再贬播州，愈深悯之，同裴度营救改连州"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "liu-yu-xi",
+      "target": "liu-zong-yuan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "永贞革新同盟与莫逆之交，同贬八司马；元和十年不忍禹锡以老母远谪播州，请以柳州代之"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

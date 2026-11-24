@@ -31,6 +31,18 @@
   "relations": [
     {
       "source": "li-song",
+      "target": "liu-zong-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "顺宗即位推行永贞革新，宗元参预机密；顺宗内禅宪宗，革新失败尽贬八司马"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-song",
       "target": "li-yu",
       "type": "kin",
       "directed": false,

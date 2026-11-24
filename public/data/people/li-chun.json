@@ -44,6 +44,30 @@
     },
     {
       "source": "li-chun",
+      "target": "bai-ju-yi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宪宗朝召为翰林学士、左拾遗，极言切谏；元和十年因请捕刺杀武元衡贼忤旨贬江州司马"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-chun",
+      "target": "han-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元和十四年韩愈上《论佛骨表》极谏，触帝震怒险诛，裴度力救免死贬潮州刺史"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-chun",
       "target": "li-song",
       "type": "kin",
       "directed": false,

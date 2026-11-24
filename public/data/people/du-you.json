@@ -21,7 +21,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "du-mu",
+      "target": "du-you",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "三朝宰相、《通典》作者杜佑之孙，承家学精研经史典章与兵法"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

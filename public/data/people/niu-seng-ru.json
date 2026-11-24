@@ -41,6 +41,30 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "niu-seng-ru",
+      "target": "li-shang-yin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "深陷牛李党争漩涡，商隐受牛党令狐楚知遇而娶李党王茂元女，为牛党令狐绹等深衔排挤"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "niu-seng-ru",
+      "target": "du-mu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "淮南节度使辟杜牧为掌书记，爱其风流才俊，密遣兵卒护其游扬州勾栏"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

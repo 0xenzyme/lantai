@@ -41,6 +41,30 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-de-yu",
+      "target": "li-shang-yin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "娶李党大将王茂元女，李德裕执政时亦受党争牵制未得重用，终身辗转幕府"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-de-yu",
+      "target": "du-mu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "会昌平泽潞刘稹之乱，杜牧上宰相李德裕兵书献奇策，德裕用其谋果克叛军"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

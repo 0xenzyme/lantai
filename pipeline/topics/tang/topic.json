@@ -1698,6 +1698,96 @@
       "note": "刘白唱和，晚年同居洛阳"
     },
     {
+      "source": "bai-ju-yi",
+      "target": "pei-du",
+      "type": "peer",
+      "note": "晚年退居洛阳，与裴度结九老会，诗酒流连，唱和甚密"
+    },
+    {
+      "source": "li-chun",
+      "target": "bai-ju-yi",
+      "type": "ruler-subject",
+      "note": "宪宗朝召为翰林学士、左拾遗，极言切谏；元和十年因请捕刺杀武元衡贼忤旨贬江州司马"
+    },
+    {
+      "source": "bai-ju-yi",
+      "target": "li-shang-yin",
+      "type": "peer",
+      "note": "白居易晚年极赏其诗才，相传尝戏言愿来生为尔子"
+    },
+    {
+      "source": "li-chun",
+      "target": "han-yu",
+      "type": "ruler-subject",
+      "note": "元和十四年韩愈上《论佛骨表》极谏，触帝震怒险诛，裴度力救免死贬潮州刺史"
+    },
+    {
+      "source": "pei-du",
+      "target": "han-yu",
+      "type": "ruler-subject",
+      "note": "元和十二年裴度督师平淮西吴元济，引愈为行军司马，定奇谋破贼，奉敕撰《平淮西碑》"
+    },
+    {
+      "source": "han-yu",
+      "target": "liu-yu-xi",
+      "type": "peer",
+      "note": "同朝进士与文友，元和十年刘禹锡再贬播州，愈深悯之，同裴度营救改连州"
+    },
+    {
+      "source": "liu-zong-yuan",
+      "target": "liu-yu-xi",
+      "type": "peer",
+      "note": "永贞革新同盟与莫逆之交，同贬八司马；元和十年不忍禹锡以老母远谪播州，请以柳州代之"
+    },
+    {
+      "source": "wang-shu-wen",
+      "target": "liu-zong-yuan",
+      "type": "ruler-subject",
+      "note": "永贞元年王叔文主掌新政，引宗元为礼部员外郎，共谋罢宫市、夺宦官禁军兵权"
+    },
+    {
+      "source": "li-song",
+      "target": "liu-zong-yuan",
+      "type": "ruler-subject",
+      "note": "顺宗即位推行永贞革新，宗元参预机密；顺宗内禅宪宗，革新失败尽贬八司马"
+    },
+    {
+      "source": "niu-seng-ru",
+      "target": "li-shang-yin",
+      "type": "ruler-subject",
+      "note": "深陷牛李党争漩涡，商隐受牛党令狐楚知遇而娶李党王茂元女，为牛党令狐绹等深衔排挤"
+    },
+    {
+      "source": "li-de-yu",
+      "target": "li-shang-yin",
+      "type": "ruler-subject",
+      "note": "娶李党大将王茂元女，李德裕执政时亦受党争牵制未得重用，终身辗转幕府"
+    },
+    {
+      "source": "du-you",
+      "target": "du-mu",
+      "type": "peer",
+      "note": "三朝宰相、《通典》作者杜佑之孙，承家学精研经史典章与兵法"
+    },
+    {
+      "source": "niu-seng-ru",
+      "target": "du-mu",
+      "type": "ruler-subject",
+      "note": "淮南节度使辟杜牧为掌书记，爱其风流才俊，密遣兵卒护其游扬州勾栏"
+    },
+    {
+      "source": "li-de-yu",
+      "target": "du-mu",
+      "type": "ruler-subject",
+      "note": "会昌平泽潞刘稹之乱，杜牧上宰相李德裕兵书献奇策，德裕用其谋果克叛军"
+    },
+    {
+      "source": "li-chen",
+      "target": "du-mu",
+      "type": "ruler-subject",
+      "note": "大中宣宗朝官至考功郎中、知制诰、中书舍人，论削藩御边"
+    },
+    {
       "source": "li-shang-yin",
       "target": "du-mu",
       "type": "peer",

@@ -32,6 +32,18 @@
   "relations": [
     {
       "source": "li-chen",
+      "target": "du-mu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大中宣宗朝官至考功郎中、知制诰、中书舍人，论削藩御边"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-chen",
       "target": "li-chun",
       "type": "kin",
       "directed": false,
