@@ -78,6 +78,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "liu-yu-xi",
+      "target": "pei-du",
+      "type": "peer",
+      "directed": false,
+      "since": 815,
+      "notes": [
+        "裴度极重禹锡才学，屡在宪宗穆宗朝申救保全，晚年同居洛阳唱和"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

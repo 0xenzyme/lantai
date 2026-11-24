@@ -117,6 +117,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "wang-wei",
+      "type": "rival",
+      "directed": false,
+      "since": 756,
+      "notes": [
+        "叛军陷长安强拘洛阳逼授伪给事中，王维作《凝碧池》诗抒亡国之悲"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

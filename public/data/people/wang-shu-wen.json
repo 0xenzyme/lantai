@@ -79,6 +79,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "liu-yu-xi",
+      "target": "wang-shu-wen",
+      "type": "peer",
+      "directed": false,
+      "since": 805,
+      "notes": [
+        "永贞革新领袖与核心智囊，引禹锡判度支盐铁大办新政"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

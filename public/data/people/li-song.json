@@ -88,6 +88,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-song",
+      "target": "liu-yu-xi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 805,
+      "notes": [
+        "顺宗即位倚重二王八司马推行永贞革新，八月受逼内禅"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

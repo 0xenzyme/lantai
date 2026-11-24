@@ -2946,6 +2946,62 @@
       "type": "rival",
       "since": 705,
       "note": "武三思交通韦后谗间五王夺其权位，罗织谋逆之罪流贬柬之于新州"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "since": 756,
+      "note": "潼关溃破高适疾驰河池面陈实情，玄宗大慰擢拜谏议大夫"
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "wang-wei",
+      "type": "rival",
+      "since": 756,
+      "note": "叛军陷长安强拘洛阳逼授伪给事中，王维作《凝碧池》诗抒亡国之悲"
+    },
+    {
+      "source": "li-heng",
+      "target": "wang-wei",
+      "type": "ruler-subject",
+      "since": 758,
+      "note": "两京收复因凝碧池诗及弟缙削官得免罪，肃宗擢拜太子中允迁尚书右丞"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "meng-hao-ran",
+      "type": "ruler-subject",
+      "since": 728,
+      "note": "内署诵诗不才明主弃惹玄宗不悦，遂放还南归终生布衣"
+    },
+    {
+      "source": "wang-shu-wen",
+      "target": "liu-yu-xi",
+      "type": "peer",
+      "since": 805,
+      "note": "永贞革新领袖与核心智囊，引禹锡判度支盐铁大办新政"
+    },
+    {
+      "source": "li-song",
+      "target": "liu-yu-xi",
+      "type": "ruler-subject",
+      "since": 805,
+      "note": "顺宗即位倚重二王八司马推行永贞革新，八月受逼内禅"
+    },
+    {
+      "source": "li-chun",
+      "target": "liu-yu-xi",
+      "type": "ruler-subject",
+      "since": 805,
+      "note": "宪宗即位革新失败远谪朗州司马，元和十年玄都观诗再逐连州刺史"
+    },
+    {
+      "source": "pei-du",
+      "target": "liu-yu-xi",
+      "type": "peer",
+      "since": 815,
+      "note": "裴度极重禹锡才学，屡在宪宗穆宗朝申救保全，晚年同居洛阳唱和"
     }
   ],
   "events": [

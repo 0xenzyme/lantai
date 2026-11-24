@@ -185,6 +185,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-chun",
+      "target": "liu-yu-xi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 805,
+      "notes": [
+        "宪宗即位革新失败远谪朗州司马，元和十年玄都观诗再逐连州刺史"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

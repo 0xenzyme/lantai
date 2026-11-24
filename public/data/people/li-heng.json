@@ -149,6 +149,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-heng",
+      "target": "wang-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 758,
+      "notes": [
+        "两京收复因凝碧池诗及弟缙削官得免罪，肃宗擢拜太子中允迁尚书右丞"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

@@ -355,6 +355,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 756,
+      "notes": [
+        "潼关溃破高适疾驰河池面陈实情，玄宗大慰擢拜谏议大夫"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "meng-hao-ran",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 728,
+      "notes": [
+        "内署诵诗不才明主弃惹玄宗不悦，遂放还南归终生布衣"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [
