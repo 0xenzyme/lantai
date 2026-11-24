@@ -329,6 +329,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "gao-xian-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 747,
+      "notes": [
+        "玄宗擢拜安西四镇节度使，安史乱起拜副元帅，后听谗斩之"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
+      "target": "ge-shu-han",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 749,
+      "notes": [
+        "玄宗深加信重封西平郡王，潼关急迫强促出战致全军覆灭"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

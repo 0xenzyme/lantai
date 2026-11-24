@@ -41,6 +41,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "wang-zhong-si",
+      "target": "ge-shu-han",
+      "type": "mentor",
+      "directed": true,
+      "since": 746,
+      "notes": [
+        "四十折节从军投王忠嗣麾下，王忠嗣遭谗哥舒翰叩头力救保其性命"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

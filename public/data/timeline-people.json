@@ -32645,14 +32645,23 @@
       "id": "liu-ren-gui",
       "name": "刘仁轨",
       "display": "刘仁轨",
-      "birthAccuracy": "unknown",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
+      "aliases": [
+        "刘仁轨",
+        "刘正则",
+        "乐城公"
+      ],
       "tags": [
-        "唐"
+        "唐",
+        "白江口之战",
+        "名相",
+        "名将"
       ],
       "gender": "male",
+      "birth": 602,
       "death": 685
     },
     {
@@ -32861,11 +32870,15 @@
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
-        "苏定方"
+        "苏定方",
+        "苏烈",
+        "邢国公"
       ],
       "tags": [
         "唐",
-        "突厥"
+        "突厥",
+        "西域",
+        "名将"
       ],
       "gender": "male",
       "birth": 592,
@@ -33176,11 +33189,15 @@
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
-        "高仙芝"
+        "高仙芝",
+        "密云公"
       ],
       "tags": [
         "唐",
-        "西域"
+        "西域",
+        "安西四镇",
+        "怛罗斯之战",
+        "名将"
       ],
       "gender": "male",
       "death": 755
@@ -33194,11 +33211,15 @@
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
-        "哥舒翰"
+        "哥舒翰",
+        "西平王"
       ],
       "tags": [
         "唐",
-        "安史之乱"
+        "陇右",
+        "石堡城之战",
+        "安史之乱",
+        "名将"
       ],
       "gender": "male",
       "death": 757

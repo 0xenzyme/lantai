@@ -77,6 +77,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "ge-shu-han",
+      "target": "yang-guo-zhong",
+      "type": "rival",
+      "directed": false,
+      "since": 755,
+      "notes": [
+        "杨国忠深忌哥舒翰兵权，入奏强促出关决战致灵宝惨败"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

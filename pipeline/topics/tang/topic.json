@@ -2806,6 +2806,69 @@
       "target": "yan-li-ben",
       "type": "ruler-subject",
       "note": "贞观中为太宗作《步辇图》，官至宰相"
+    },
+    {
+      "source": "su-ding-fang",
+      "target": "jie-li",
+      "type": "rival",
+      "since": 630,
+      "note": "定方为前锋引二百精骑夜袭牙帐破颉利"
+    },
+    {
+      "source": "li-zhi",
+      "target": "su-ding-fang",
+      "type": "ruler-subject",
+      "since": 655,
+      "note": "高宗委以西征东讨大总管，前后灭三国拓土万里"
+    },
+    {
+      "source": "su-ding-fang",
+      "target": "liu-ren-gui",
+      "type": "peer",
+      "since": 660,
+      "note": "苏定方东征破百济开疆，刘仁轨抚巡熊津接力治东夷"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "liu-ren-gui",
+      "type": "ruler-subject",
+      "since": 684,
+      "note": "武后临朝深敬其雅望，委知关中政事留守长安"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "gao-xian-zhi",
+      "type": "ruler-subject",
+      "since": 747,
+      "note": "玄宗擢拜安西四镇节度使，安史乱起拜副元帅，后听谗斩之"
+    },
+    {
+      "source": "gao-xian-zhi",
+      "target": "ge-shu-han",
+      "type": "peer",
+      "since": 755,
+      "note": "盛唐西陲双壁，潼关仙芝退保修防，翰继守兵败"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "ge-shu-han",
+      "type": "ruler-subject",
+      "since": 749,
+      "note": "玄宗深加信重封西平郡王，潼关急迫强促出战致全军覆灭"
+    },
+    {
+      "source": "yang-guo-zhong",
+      "target": "ge-shu-han",
+      "type": "rival",
+      "since": 755,
+      "note": "杨国忠深忌哥舒翰兵权，入奏强促出关决战致灵宝惨败"
+    },
+    {
+      "source": "wang-zhong-si",
+      "target": "ge-shu-han",
+      "type": "mentor",
+      "since": 746,
+      "note": "四十折节从军投王忠嗣麾下，王忠嗣遭谗哥舒翰叩头力救保其性命"
     }
   ],
   "events": [

@@ -22,8 +22,10 @@ test('李白作品、经历、出处与别名贯通正式 loader，不生成安�
   assert.equal(person.works?.[0].title, '蜀道难');
   assert.equal(person.works?.[0].year, undefined);
   assert.equal(person.works?.[0].yearAccuracy, undefined);
-  assert.equal(person.experiences?.[0].yearAccuracy, 'approx');
-  assert.match(person.experiences?.[0].yearNote ?? '', /天宝初/);
+  const changanExp = person.experiences?.find((e) => e.id === 'changan-hanlin');
+  assert.ok(changanExp);
+  assert.equal(changanExp.yearAccuracy, 'approx');
+  assert.match(changanExp.yearNote ?? '', /天宝初/);
   assert.equal(
     person.events.some((event) => event.id === 'anshi-zhiluan'),
     false,

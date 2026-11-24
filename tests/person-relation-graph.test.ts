@@ -145,8 +145,12 @@ test('李隆基高密度图谱触发内外双圈分层且生成分类过滤药�
   const { nodes, edges } = extractLocalGraph(liLongJi, library);
 
   assert.equal(nodes[0].id, 'li-long-ji');
-  assert.equal(nodes.length, 26); // 1 中心 + 25 关联人物
-  assert.equal(edges.length, 25);
+  assert.equal(nodes.length, 28); // 1 中心 + 27 关联人物
+  assert.equal(edges.length, 27);
+
+  // 验证新增将领节点在李隆基关系网中
+  assert.ok(nodes.some((n) => n.id === 'gao-xian-zhi'));
+  assert.ok(nodes.some((n) => n.id === 'ge-shu-han'));
 
   // 验证高密度下亲族(kin)被分配在内圈(tier 1)
   const yang = nodes.find((n) => n.id === 'yang-yu-huan');

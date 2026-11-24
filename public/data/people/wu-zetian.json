@@ -209,6 +209,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "liu-ren-gui",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 684,
+      "notes": [
+        "武后临朝深敬其雅望，委知关中政事留守长安"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

@@ -257,6 +257,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "su-ding-fang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 655,
+      "notes": [
+        "高宗委以西征东讨大总管，前后灭三国拓土万里"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

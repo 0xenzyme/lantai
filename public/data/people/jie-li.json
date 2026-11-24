@@ -41,6 +41,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "jie-li",
+      "target": "su-ding-fang",
+      "type": "rival",
+      "directed": false,
+      "since": 630,
+      "notes": [
+        "定方为前锋引二百精骑夜袭牙帐破颉利"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [
