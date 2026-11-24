@@ -2869,6 +2869,83 @@
       "type": "mentor",
       "since": 746,
       "note": "四十折节从军投王忠嗣麾下，王忠嗣遭谗哥舒翰叩头力救保其性命"
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhangsun-wu-ji",
+      "type": "ruler-subject",
+      "since": 649,
+      "note": "高宗元舅与辅政太尉，主持修定《唐律疏议》，后听谗削爵流黔州"
+    },
+    {
+      "source": "zhangsun-wu-ji",
+      "target": "chu-sui-liang",
+      "type": "peer",
+      "since": 649,
+      "note": "同受太宗顾命辅政高宗，废立之事同心力争，俱遭武后贬死"
+    },
+    {
+      "source": "xu-jingzong",
+      "target": "zhangsun-wu-ji",
+      "type": "rival",
+      "since": 659,
+      "note": "迎合武后旨意罗织罪名诬构长孙无忌谋反，逼其自缢黔州"
+    },
+    {
+      "source": "yao-chong",
+      "target": "song-jing",
+      "type": "peer",
+      "since": 710,
+      "note": "开元名相并称姚宋，姚崇尚通宋璟尚法，二人协力同开盛世"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "yao-chong",
+      "type": "ruler-subject",
+      "since": 698,
+      "note": "圣历初剖析兵部繁机大见叹异擢拜宰相，终武周世尽心翼护李唐"
+    },
+    {
+      "source": "li-dan",
+      "target": "yao-chong",
+      "type": "ruler-subject",
+      "since": 710,
+      "note": "景云中同宋璟拜相，抑裁太平公主权势，遭构陷罢出"
+    },
+    {
+      "source": "tai-ping-gong-zhu",
+      "target": "yao-chong",
+      "type": "rival",
+      "since": 710,
+      "note": "姚崇密请诸王出镇抑裁公主权柄，太平公主衔恨构陷罢相"
+    },
+    {
+      "source": "li-dan",
+      "target": "song-jing",
+      "type": "ruler-subject",
+      "since": 710,
+      "note": "景云初拜相与姚崇同心执政，抑裁太平公主，遭贬楚州"
+    },
+    {
+      "source": "tai-ping-gong-zhu",
+      "target": "song-jing",
+      "type": "rival",
+      "since": 710,
+      "note": "宋璟奏请公主归东都以消内衅，公主衔恨反扑罢其相位"
+    },
+    {
+      "source": "li-xian",
+      "target": "zhang-jian-zhi",
+      "type": "ruler-subject",
+      "since": 705,
+      "note": "张柬之发动神龙政变迎复太子李显即位，拜天官尚书封汉阳郡王"
+    },
+    {
+      "source": "wu-sansi",
+      "target": "zhang-jian-zhi",
+      "type": "rival",
+      "since": 705,
+      "note": "武三思交通韦后谗间五王夺其权位，罗织谋逆之罪流贬柬之于新州"
     }
   ],
   "events": [

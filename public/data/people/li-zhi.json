@@ -270,6 +270,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-zhi",
+      "target": "zhangsun-wu-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 649,
+      "notes": [
+        "高宗元舅与辅政太尉，主持修定《唐律疏议》，后听谗削爵流黔州"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

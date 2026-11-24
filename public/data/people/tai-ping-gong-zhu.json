@@ -52,6 +52,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "tai-ping-gong-zhu",
+      "target": "yao-chong",
+      "type": "rival",
+      "directed": false,
+      "since": 710,
+      "notes": [
+        "姚崇密请诸王出镇抑裁公主权柄，太平公主衔恨构陷罢相"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "song-jing",
+      "target": "tai-ping-gong-zhu",
+      "type": "rival",
+      "directed": false,
+      "since": 710,
+      "notes": [
+        "宋璟奏请公主归东都以消内衅，公主衔恨反扑罢其相位"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

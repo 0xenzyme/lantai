@@ -43,6 +43,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "xu-jingzong",
+      "target": "zhangsun-wu-ji",
+      "type": "rival",
+      "directed": false,
+      "since": 659,
+      "notes": [
+        "迎合武后旨意罗织罪名诬构长孙无忌谋反，逼其自缢黔州"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

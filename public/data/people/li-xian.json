@@ -112,6 +112,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-xian",
+      "target": "zhang-jian-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 705,
+      "notes": [
+        "张柬之发动神龙政变迎复太子李显即位，拜天官尚书封汉阳郡王"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

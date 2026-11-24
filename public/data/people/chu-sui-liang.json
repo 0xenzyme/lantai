@@ -41,6 +41,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "chu-sui-liang",
+      "target": "zhangsun-wu-ji",
+      "type": "peer",
+      "directed": false,
+      "since": 649,
+      "notes": [
+        "同受太宗顾命辅政高宗，废立之事同心力争，俱遭武后贬死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

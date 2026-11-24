@@ -76,6 +76,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-dan",
+      "target": "yao-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 710,
+      "notes": [
+        "景云中同宋璟拜相，抑裁太平公主权势，遭构陷罢出"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-dan",
+      "target": "song-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 710,
+      "notes": [
+        "景云初拜相与姚崇同心执政，抑裁太平公主，遭贬楚州"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [
