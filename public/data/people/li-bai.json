@@ -89,6 +89,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-bai",
+      "target": "wang-wei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "盛唐同岁诗坛巨擘，同出玉真公主门第，终生各自辉煌而史无直接交往之载"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

@@ -35,7 +35,7 @@ interface Review {
 
 `publish` 只接受新人物，且必须已在本批范围对应的 `pipeline/topics/<id>/candidates.json` 里记为 `status: "pending"`（席位 seat 是目标专题已有泳道，anchor 与 classic/modern 出处齐备）。apply 通过后，工具自动：写 `content/<topic>/<id>.md`；把 `{ id, lane: seat }` 追加进该专题 `topic.json` 的 `people`；从 `candidates.json` 移除该 pending 条目；重写该专题的 `content/<topic>.md` 索引。这四步是一体的，审核者检查的是 apply 之后的完整状态。
 
-`revise` 只接受已登记的 Markdown 人物（brief 升 full、生卒校订、补 categories/title/tags/bio/works/experiences 等）。legacy registry JSON 里的 44 人不在本工具范围内，保持原规则手工维护。
+`revise` 只接受已登记的 Markdown 人物（brief 升 full、生卒校订、补 categories/title/tags/bio/works/experiences 等）。legacy registry JSON 里的 44 人不在本工具范围内，保持原规则手工维护。当维护 `experiences` 并声明 `event: <event-id>` 时，必须遵循继承约束：不得填写 `year`、`endYear`、`place`，且 `yearAccuracy` 必须为 `"unknown"`；同时被引用的事件中必须在 `people` 或 `commanders` 包含该人物。
 
 所有已维护事实字段都需要 claim 映射：name、gender、polity、categories、primary、birth/birthAccuracy/birthNote、death/deathAccuracy/deathNote、title、tags、aliases、sources、works、experiences、bio。display 是展示短名，profile 是结构性标记，均不要求独立史实 claim。sources 每条都要能匹配 evidence 的书名与卷篇定位。省略的可选字段无需补写；不造事实填满可选字段。
 

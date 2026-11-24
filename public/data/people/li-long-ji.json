@@ -104,6 +104,18 @@
     },
     {
       "source": "li-long-ji",
+      "target": "du-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "天宝十载杜甫献三大礼赋，玄宗异其辞藻命待制集贤院，后授右卫率府胄曹参军"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-long-ji",
       "target": "wang-wei",
       "type": "ruler-subject",
       "directed": true,

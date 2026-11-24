@@ -55,6 +55,30 @@
       ]
     },
     {
+      "source": "li-heng",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召见问江贼形势，适陈永王必败，肃宗擢拜淮南节度使统兵讨平永王璘"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "fang-guan",
+      "target": "gao-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为天宝至德朝廷名臣，房琯自负虚名致陈涛斜惨败，高适深明军旅多有匡议"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "ge-shu-han",
       "target": "gao-shi",
       "type": "ruler-subject",

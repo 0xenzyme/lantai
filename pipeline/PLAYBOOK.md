@@ -37,12 +37,24 @@ npm run content:check            # 校验源数据，并确认生成文件未过
 
 ### 详表
 
-在已经上轴的人身上补读图所需的文字和关系。
+在已经上轴的人身上补齐支撑深度阅读与关系图谱的文字、年表和叙事网络：
 
-1. 补 `title`、`tags`、`categories`。`bio` 两三句：身份、和轴上其他人的关系、为什么出现。Markdown 里 `bio` 写在正文，不要写进文首。存量 JSON 仍把 `bio` 写在字段里。
-2. 在 `topic.json` 写有叙事意义的 `relations`。每条必须有 `note`。
-3. 把 `profile` 改成 `full`。
-4. 再跑 `npm run content`。写完 Markdown 先跑 `npm run people:format`，让文首顺序与模板一致。
+1. **生平传记（Biography）**：
+   - 告别简单的一两句百科摘要，采用具有历史纵深的分期叙事（核心人物 3~4 段，普通详表人物 2~3 段，字数约 250~500 字）。
+   - 结构清晰覆盖：① 早年起步/际遇；② 政治或文化高光/极盛功业；③ 重大挫折/变乱转折；④ 晚年结局与千秋定评。
+   - Markdown 里 `bio` 写作正文 Markdown 段落，不要写进文首 Frontmatter。存量 JSON 仍把 `bio` 写在字段里。
+2. **个人经历（Experiences）与时代事件关联**：
+   - 核心人物提炼 3~5 个重大人生节点，录入 `experiences` 数组（含 `id`、`label`、`note`、`sources`）。
+   - 若经历对应库中已有的公共事件，使用 `event: <event-id>` 显式关联（此时免填且禁止重复填 `year/place`，管线将自动继承公共事件权威年份），中栏将自动呈现结构化的年谱与时代大事件卡片。
+3. **重要关系（Relations）与图谱密度**：
+   - 在所属各 `pipeline/topics/<id>/topic.json` 补齐有叙事意义的 `relations`。每条必须有清晰有力的 `note` 说明。
+   - 核心枢纽人物（帝王、名相、大文豪、名将）原则上建立 5~15 条核心关系边，支撑多圈层力导向局部图谱；普通详表人物至少补充 2~4 条有效连线，避免单线孤悬。
+   - 善用 `npm run relations:candidates -- <topic> <person-id>` 检索同代重叠人物，严禁不加考证直接抄录候选，每条关系须由人工或严格史料证实叙事价值。
+4. **代表作品（Works）**：
+   - 文人、学者、艺术家详表人物按规范提炼代表作品（诗歌、散文、专著等），注明作品类别、可考年份与版本出处。
+5. **元数据与准入**：
+   - 补齐 `title`、`tags`、`categories`，把 `profile` 改为 `full`。
+   - 写完 Markdown 先跑 `npm run people:format`，让文首顺序与模板一致；再跑 `npm run content` 重新编译。
 
 没有关系的简表人物留在轴上。详表人物若仍没有任何关系，校验按专题汇总告警，不因此拒绝编译。
 

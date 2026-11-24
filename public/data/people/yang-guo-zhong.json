@@ -55,6 +55,18 @@
       ]
     },
     {
+      "source": "du-fu",
+      "target": "yang-guo-zhong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "天宝十二载杜甫作《丽人行》，辛辣讥刺杨国忠兄妹势倾天下、骄奢擅权之态"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "xianyu-zhongtong",
       "target": "yang-guo-zhong",
       "type": "peer",

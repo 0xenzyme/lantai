@@ -44,6 +44,42 @@
     },
     {
       "source": "li-heng",
+      "target": "du-fu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "至德二载杜甫自长安潜奔凤翔行在，肃宗授左拾遗，后因救房琯触怒见疏"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-heng",
+      "target": "fang-guan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "灵武即位拜房琯为相兼中书令，任其分路统兵讨叛，陈涛斜兵败后罢相"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-heng",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召见问江贼形势，适陈永王必败，肃宗擢拜淮南节度使统兵讨平永王璘"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-heng",
       "target": "li-bi",
       "type": "ruler-subject",
       "directed": true,

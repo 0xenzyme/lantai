@@ -31,6 +31,18 @@
   ],
   "relations": [
     {
+      "source": "du-fu",
+      "target": "li-lin-fu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "天宝六载李林甫弄权蔽贤致举子皆落第，奏称「野无遗贤」，致杜甫困顿京华十年"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-long-ji",
       "target": "li-lin-fu",
       "type": "ruler-subject",

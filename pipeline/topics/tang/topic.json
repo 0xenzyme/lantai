@@ -1434,6 +1434,78 @@
       "note": "天宝同游梁宋；流寓蜀中时适为节度使，多有唱和周济"
     },
     {
+      "source": "du-fu",
+      "target": "fang-guan",
+      "type": "peer",
+      "note": "至德二载房琯陈涛斜兵败罢相，杜甫冒死抗疏力救，因忤旨险遭极刑"
+    },
+    {
+      "source": "li-heng",
+      "target": "du-fu",
+      "type": "ruler-subject",
+      "note": "至德二载杜甫自长安潜奔凤翔行在，肃宗授左拾遗，后因救房琯触怒见疏"
+    },
+    {
+      "source": "du-fu",
+      "target": "wang-wei",
+      "type": "peer",
+      "note": "同陷长安安史贼营，杜甫闻王维凝碧池诗深为叹服，两京平定后同朝为官唱和"
+    },
+    {
+      "source": "li-long-ji",
+      "target": "du-fu",
+      "type": "ruler-subject",
+      "note": "天宝十载杜甫献三大礼赋，玄宗异其辞藻命待制集贤院，后授右卫率府胄曹参军"
+    },
+    {
+      "source": "du-fu",
+      "target": "meng-hao-ran",
+      "type": "peer",
+      "note": "襄阳同乡前辈诗人，杜甫深怀仰慕，作诗称「复忆襄阳孟浩然，清诗独立态飞动」"
+    },
+    {
+      "source": "li-lin-fu",
+      "target": "du-fu",
+      "type": "rival",
+      "note": "天宝六载李林甫弄权蔽贤致举子皆落第，奏称「野无遗贤」，致杜甫困顿京华十年"
+    },
+    {
+      "source": "du-fu",
+      "target": "yang-guo-zhong",
+      "type": "rival",
+      "note": "天宝十二载杜甫作《丽人行》，辛辣讥刺杨国忠兄妹势倾天下、骄奢擅权之态"
+    },
+    {
+      "source": "guo-zi-yi",
+      "target": "du-fu",
+      "type": "peer",
+      "note": "杜甫因抗疏诤救房琯触怒肃宗下狱推鞫，郭子仪以战功与中兴声望力保获免"
+    },
+    {
+      "source": "li-heng",
+      "target": "fang-guan",
+      "type": "ruler-subject",
+      "note": "灵武即位拜房琯为相兼中书令，任其分路统兵讨叛，陈涛斜兵败后罢相"
+    },
+    {
+      "source": "li-heng",
+      "target": "gao-shi",
+      "type": "ruler-subject",
+      "note": "召见问江贼形势，适陈永王必败，肃宗擢拜淮南节度使统兵讨平永王璘"
+    },
+    {
+      "source": "gao-shi",
+      "target": "fang-guan",
+      "type": "peer",
+      "note": "同为天宝至德朝廷名臣，房琯自负虚名致陈涛斜惨败，高适深明军旅多有匡议"
+    },
+    {
+      "source": "li-bai",
+      "target": "wang-wei",
+      "type": "peer",
+      "note": "盛唐同岁诗坛巨擘，同出玉真公主门第，终生各自辉煌而史无直接交往之载"
+    },
+    {
       "source": "ge-shu-han",
       "target": "gao-shi",
       "type": "ruler-subject",

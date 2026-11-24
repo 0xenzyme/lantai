@@ -53,6 +53,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "du-fu",
+      "target": "guo-zi-yi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "杜甫因抗疏诤救房琯触怒肃宗下狱推鞫，郭子仪以战功与中兴声望力保获免"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

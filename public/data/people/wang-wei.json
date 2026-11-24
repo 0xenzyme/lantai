@@ -32,6 +32,30 @@
   ],
   "relations": [
     {
+      "source": "du-fu",
+      "target": "wang-wei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同陷长安安史贼营，杜甫闻王维凝碧池诗深为叹服，两京平定后同朝为官唱和"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-bai",
+      "target": "wang-wei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "盛唐同岁诗坛巨擘，同出玉真公主门第，终生各自辉煌而史无直接交往之载"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-long-ji",
       "target": "wang-wei",
       "type": "ruler-subject",

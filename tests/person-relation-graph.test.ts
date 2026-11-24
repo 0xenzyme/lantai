@@ -13,6 +13,7 @@ import {
 
 const liBai = JSON.parse(readFileSync('public/data/people/li-bai.json', 'utf8')) as PersonDetail;
 const liLongJi = JSON.parse(readFileSync('public/data/people/li-long-ji.json', 'utf8')) as PersonDetail;
+const duFu = JSON.parse(readFileSync('public/data/people/du-fu.json', 'utf8')) as PersonDetail;
 
 const library: SiteLibrary = {
   catalog: JSON.parse(readFileSync('public/data/index.json', 'utf8')) as Catalog,
@@ -103,9 +104,9 @@ test('李白局部图谱正确提取一度人物与关系连线', () => {
 
   assert.equal(nodes[0].id, 'li-bai');
   assert.equal(nodes[0].isCenter, true);
-  // 李白现在有 5 条显式关系 (杜甫、唐玄宗、高适、永王李璘、孟浩然)
-  assert.equal(nodes.length, 6); // 1 中心 + 5 关联
-  assert.equal(edges.length, 5);
+  // 李白现在有 6 条显式关系 (杜甫、唐玄宗、高适、永王李璘、孟浩然、王维)
+  assert.equal(nodes.length, 7); // 1 中心 + 6 关联
+  assert.equal(edges.length, 6);
 
   const targetIds = new Set(nodes.map((n) => n.id));
   assert.ok(targetIds.has('du-fu'));
@@ -113,14 +114,37 @@ test('李白局部图谱正确提取一度人物与关系连线', () => {
   assert.ok(targetIds.has('li-long-ji'));
   assert.ok(targetIds.has('li-lin-757'));
   assert.ok(targetIds.has('meng-hao-ran'));
+  assert.ok(targetIds.has('wang-wei'));
+});
+
+test('杜甫局部图谱正确提取盛唐文人圈与政治圈多维关系网络', () => {
+  const { nodes, edges } = extractLocalGraph(duFu, library);
+
+  assert.equal(nodes[0].id, 'du-fu');
+  assert.equal(nodes[0].isCenter, true);
+  // 杜甫包含 10 条显式关联边
+  assert.equal(nodes.length, 11); // 1 中心 + 10 关联
+  assert.equal(edges.length, 10);
+
+  const targetIds = new Set(nodes.map((n) => n.id));
+  assert.ok(targetIds.has('li-bai'));
+  assert.ok(targetIds.has('gao-shi'));
+  assert.ok(targetIds.has('fang-guan'));
+  assert.ok(targetIds.has('li-heng'));
+  assert.ok(targetIds.has('wang-wei'));
+  assert.ok(targetIds.has('li-long-ji'));
+  assert.ok(targetIds.has('meng-hao-ran'));
+  assert.ok(targetIds.has('li-lin-fu'));
+  assert.ok(targetIds.has('yang-guo-zhong'));
+  assert.ok(targetIds.has('guo-zi-yi'));
 });
 
 test('李隆基高密度图谱触发内外双圈分层且生成分类过滤药丸', () => {
   const { nodes, edges } = extractLocalGraph(liLongJi, library);
 
   assert.equal(nodes[0].id, 'li-long-ji');
-  assert.equal(nodes.length, 25); // 1 中心 + 24 关联人物
-  assert.equal(edges.length, 24);
+  assert.equal(nodes.length, 26); // 1 中心 + 25 关联人物
+  assert.equal(edges.length, 25);
 
   // 验证高密度下亲族(kin)被分配在内圈(tier 1)
   const yang = nodes.find((n) => n.id === 'yang-yu-huan');

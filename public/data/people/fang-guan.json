@@ -31,6 +31,42 @@
   ],
   "relations": [
     {
+      "source": "du-fu",
+      "target": "fang-guan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "至德二载房琯陈涛斜兵败罢相，杜甫冒死抗疏力救，因忤旨险遭极刑"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-heng",
+      "target": "fang-guan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "灵武即位拜房琯为相兼中书令，任其分路统兵讨叛，陈涛斜兵败后罢相"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "fang-guan",
+      "target": "gao-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为天宝至德朝廷名臣，房琯自负虚名致陈涛斜惨败，高适深明军旅多有匡议"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-yu",
       "target": "fang-guan",
       "type": "ruler-subject",

@@ -223,10 +223,11 @@ export function extractLocalGraph(
 
   const rawEdges: LocalGraphEdge[] = [];
   const edgeKeys = new Set<string>();
-  const totalRelations = person.relations.length;
+  const relations = person.relations || [];
+  const totalRelations = relations.length;
   const isDense = totalRelations > 8;
 
-  for (const rel of person.relations) {
+  for (const rel of relations) {
     const otherId = rel.source === centerId ? rel.target : rel.source;
     if (!nodesMap.has(otherId)) {
       const other = library.people.find((p) => p.id === otherId && p.kind !== 'event');

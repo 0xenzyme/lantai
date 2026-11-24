@@ -42,6 +42,18 @@
       ]
     },
     {
+      "source": "du-fu",
+      "target": "meng-hao-ran",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "襄阳同乡前辈诗人，杜甫深怀仰慕，作诗称「复忆襄阳孟浩然，清诗独立态飞动」"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "meng-hao-ran",
       "target": "wang-wei",
       "type": "peer",
