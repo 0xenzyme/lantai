@@ -114,6 +114,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "guo-zi-yi",
+      "type": "rival",
+      "directed": false,
+      "since": 755,
+      "notes": [
+        "天宝末郭子仪出师河北斩叛将，大反攻收复西京长安与东都洛阳"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "guo-zi-yi",
+      "target": "shi-si-ming",
+      "type": "rival",
+      "directed": false,
+      "since": 759,
+      "notes": [
+        "相州之战思明引胡骑急援，九节度使大军溃败"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

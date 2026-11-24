@@ -162,6 +162,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-heng",
+      "target": "shi-si-ming",
+      "type": "rival",
+      "directed": false,
+      "since": 759,
+      "notes": [
+        "肃宗朝思明降而复叛，陷洛阳僭号大燕皇帝"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

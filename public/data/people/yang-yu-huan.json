@@ -53,6 +53,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "yang-yu-huan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "禄山拜贵妃为义母，极尽谄媚进出禁中无阻"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

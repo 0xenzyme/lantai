@@ -41,6 +41,32 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "an-lu-shan",
+      "target": "li-guang-bi",
+      "type": "rival",
+      "directed": false,
+      "since": 755,
+      "notes": [
+        "李光弼出井陉拔常山，大破史思明与安禄山叛军于嘉山"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-guang-bi",
+      "target": "shi-si-ming",
+      "type": "rival",
+      "directed": false,
+      "since": 759,
+      "notes": [
+        "河阳之战李光弼火烧燕军浮桥，死守阻其西犯关中"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

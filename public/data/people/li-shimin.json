@@ -461,6 +461,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "li-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，太宗立晋王李治为太子，亲加抚训授以帝王之道"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

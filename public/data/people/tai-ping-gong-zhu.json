@@ -78,6 +78,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-dan",
+      "target": "tai-ping-gong-zhu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄妹，太平公主擅权专政，睿宗见天象示警断然禅位太子"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],
