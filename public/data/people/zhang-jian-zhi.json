@@ -31,6 +31,18 @@
   ],
   "relations": [
     {
+      "source": "zhang-jian-zhi",
+      "target": "wu-zetian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "狄仁杰力荐为相，神龙元年联合禁军发动神龙政变，逼武后退位还政李唐"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "di-ren-jie",
       "target": "zhang-jian-zhi",
       "type": "mentor",

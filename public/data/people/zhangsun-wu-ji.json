@@ -42,6 +42,18 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "wu-zetian",
+      "target": "zhangsun-wu-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "永徽废王立武之争长孙无忌极力反对，武后得位后贬谪其至黔州逼令自缢"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

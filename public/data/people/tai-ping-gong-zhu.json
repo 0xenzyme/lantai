@@ -30,6 +30,18 @@
   ],
   "relations": [
     {
+      "source": "tai-ping-gong-zhu",
+      "target": "wu-zetian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "最宠爱之幼女，沉敏多权略，深肖武后，参预诛二张与唐隆政变"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-long-ji",
       "target": "tai-ping-gong-zhu",
       "type": "rival",

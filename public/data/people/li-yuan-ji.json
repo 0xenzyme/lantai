@@ -32,6 +32,18 @@
   ],
   "relations": [
     {
+      "source": "li-yuan",
+      "target": "li-yuan-ji",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "四子，封齐王，玄武门之变同死"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-shimin",
       "target": "li-yuan-ji",
       "type": "kin",

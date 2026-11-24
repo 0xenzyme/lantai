@@ -57,6 +57,18 @@
       ]
     },
     {
+      "source": "li-yuan",
+      "target": "wang-shichong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "隋末割据洛阳郑王，武德四年为秦王李世民击败出降"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-shimin",
       "target": "wang-shichong",
       "type": "rival",

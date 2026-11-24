@@ -1222,6 +1222,30 @@
       "note": "父子，世民佐命开唐"
     },
     {
+      "source": "li-yuan",
+      "target": "li-jian-cheng",
+      "type": "kin",
+      "note": "长子，立为皇太子协同参政，玄武门之变被杀"
+    },
+    {
+      "source": "li-yuan",
+      "target": "li-yuan-ji",
+      "type": "kin",
+      "note": "四子，封齐王，玄武门之变同死"
+    },
+    {
+      "source": "li-yuan",
+      "target": "dou-jian-de",
+      "type": "rival",
+      "note": "隋末割据河北夏王，武德四年虎牢战败被俘，高祖斩之于长安"
+    },
+    {
+      "source": "li-yuan",
+      "target": "wang-shichong",
+      "type": "rival",
+      "note": "隋末割据洛阳郑王，武德四年为秦王李世民击败出降"
+    },
+    {
       "source": "li-shimin",
       "target": "li-jian-cheng",
       "type": "kin",
@@ -1280,6 +1304,30 @@
       "target": "di-ren-jie",
       "type": "ruler-subject",
       "note": "重用狄仁杰，荐张柬之"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "zhangsun-wu-ji",
+      "type": "rival",
+      "note": "永徽废王立武之争长孙无忌极力反对，武后得位后贬谪其至黔州逼令自缢"
+    },
+    {
+      "source": "zhang-jian-zhi",
+      "target": "wu-zetian",
+      "type": "ruler-subject",
+      "note": "狄仁杰力荐为相，神龙元年联合禁军发动神龙政变，逼武后退位还政李唐"
+    },
+    {
+      "source": "wu-zetian",
+      "target": "tai-ping-gong-zhu",
+      "type": "kin",
+      "note": "最宠爱之幼女，沉敏多权略，深肖武后，参预诛二张与唐隆政变"
+    },
+    {
+      "source": "li-shimin",
+      "target": "wu-zetian",
+      "type": "kin",
+      "note": "贞观十一年召入宫封五品才人，赐号武媚；太宗崩后依例入感业寺为尼"
     },
     {
       "source": "li-long-ji",

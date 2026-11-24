@@ -47,6 +47,18 @@
     },
     {
       "source": "dou-jian-de",
+      "target": "li-yuan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "隋末割据河北夏王，武德四年虎牢战败被俘，高祖斩之于长安"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
       "target": "li-shimin",
       "type": "rival",
       "directed": false,

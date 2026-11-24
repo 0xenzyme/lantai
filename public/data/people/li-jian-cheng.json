@@ -33,6 +33,18 @@
   "relations": [
     {
       "source": "li-jian-cheng",
+      "target": "li-yuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长子，立为皇太子协同参政，玄武门之变被杀"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-jian-cheng",
       "target": "li-shimin",
       "type": "kin",
       "directed": false,
