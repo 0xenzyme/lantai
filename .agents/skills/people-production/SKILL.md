@@ -38,6 +38,13 @@ metadata:
 4. **代表作品（Works）**：
    - 文人、学者、思想家等详表人物需提炼代表作品（诗赋、专著、篇章），注明类别、年份与版本出处。
 
+## 生产辅助工具链
+
+- `npm run people:audit`：全站人物数据质量体检看板（统计传记深度、关系密度、经历与作品覆盖率，并输出待升级核心人物建议清单）。
+- `npm run people:audit -- --topic <id>`：单专题数据质量体检与人物列表。
+- `npm run people:suggest-events -- <person-id>`：根据人物自动从公共事件库检索匹配项，输出即用型 `experiences` 结构化代码与同场关系候选。
+- `npm run relations:candidates -- <topic> <person-id>`：检索同代重叠人物，辅助构筑局部关系图谱。
+
 ## 按反馈继续
 
 用户把 raw 或 pending 批次交回执行者时，只修改待处理候选。proposal 变化后移除该项旧 review，重新预检并交接；保留 accepted 中的既有审核依据。已接受项目需要进一步修订时新建批次。

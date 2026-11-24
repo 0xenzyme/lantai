@@ -39,6 +39,8 @@
     "people:production:apply": "tsx pipeline/people-production.ts apply",
     "people:publish:check": "tsx pipeline/people-production.ts publish-check",
     "relations:candidates": "tsx pipeline/relations-report.ts",
+    "people:audit": "tsx pipeline/audit-people.ts",
+    "people:suggest-events": "tsx pipeline/suggest-experiences.ts",
     "events:production:preflight": "tsx pipeline/event-production.ts preflight",
     "events:production:apply": "tsx pipeline/event-production.ts apply",
     "events:publish:check": "tsx pipeline/event-production.ts publish-check",
