@@ -72,6 +72,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "gao-huaide",
+      "target": "shi-shouxin",
+      "type": "peer",
+      "directed": false,
+      "since": 960,
+      "notes": [
+        "同为义社十兄弟与殿前禁军元宿，合军平李筠之叛，晚朝杯酒释兵权同罢军权"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

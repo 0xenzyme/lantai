@@ -2175,7 +2175,8 @@
       "people": [
         "zhao-kuangyin",
         "zhao-pu",
-        "shi-shouxin"
+        "shi-shouxin",
+        "gao-huaide"
       ],
       "result": "石守信、高怀德、王审琦、张令铎罢领禁军，改授节度使。石守信仍挂侍卫都指挥使，兵权已不在。殿前副都点检不再除人。",
       "aliases": [
@@ -8868,7 +8869,8 @@
       "people": [
         "xiang-yu",
         "fan-zeng",
-        "liu-bang"
+        "liu-bang",
+        "zhang-liang"
       ],
       "result": "项羽不听范增之谋，纵刘邦使去；楚汉之局自此定",
       "aliases": [
@@ -8880,6 +8882,11 @@
         {
           "work": "史记",
           "part": "项羽本纪",
+          "kind": "classic"
+        },
+        {
+          "work": "汉书",
+          "part": "卷031·陈胜项籍传",
           "kind": "classic"
         }
       ]
@@ -16098,7 +16105,10 @@
         "beihan"
       ],
       "people": [
-        "zhao-guangyi"
+        "zhao-guangyi",
+        "pan-mei",
+        "cao-bin",
+        "yang-ye"
       ],
       "result": "刘继元降，北汉亡。宋得十州、四十县。",
       "parent": "beisong-tongyi",

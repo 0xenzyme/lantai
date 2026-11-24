@@ -100,6 +100,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "zhu-wen",
+      "target": "qian-liu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "后梁建国后册封钱镠为吴越王"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [

@@ -17,6 +17,9 @@ belligerents:
   - beihan
 people:
   - zhao-guangyi
+  - pan-mei
+  - cao-bin
+  - yang-ye
 result: 刘继元降，北汉亡。宋得十州、四十县。
 parent: beisong-tongyi
 aliases:

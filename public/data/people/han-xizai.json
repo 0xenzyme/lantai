@@ -55,6 +55,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "li-jing-916",
+      "target": "han-xizai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "韩熙载论福州败事，又在李璟时议铸铁钱"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [],

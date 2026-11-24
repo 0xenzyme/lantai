@@ -32,18 +32,6 @@
   ],
   "relations": [
     {
-      "source": "liu-bang",
-      "target": "liu-heng",
-      "type": "kin",
-      "directed": false,
-      "notes": [
-        "父子"
-      ],
-      "topicIds": [
-        "han"
-      ]
-    },
-    {
       "source": "dou-yifang",
       "target": "liu-heng",
       "type": "kin",
@@ -135,6 +123,18 @@
       "directed": true,
       "notes": [
         "陆贾再使南越，佗去帝号称臣"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-heng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子"
       ],
       "topicIds": [
         "han"

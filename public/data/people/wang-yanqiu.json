@@ -21,7 +21,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-siyuan",
+      "target": "wang-yanqiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王都据定州反，命王晏球招讨并破其城"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

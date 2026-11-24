@@ -43,18 +43,6 @@
       ]
     },
     {
-      "source": "gao-ji-xing",
-      "target": "li-jing-916",
-      "type": "rival",
-      "directed": false,
-      "notes": [
-        "岳州一役，荆南尽收楚地"
-      ],
-      "topicIds": [
-        "wudai"
-      ]
-    },
-    {
       "source": "sun-guangxian",
       "target": "gao-ji-xing",
       "type": "ruler-subject",
@@ -73,6 +61,18 @@
       "directed": false,
       "notes": [
         "祖孙相继，仅守三州"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "gao-ji-xing",
+      "target": "wang-jian-918",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "高季兴侵巫山，王建遣王宗寿于瞿塘击退"
       ],
       "topicIds": [
         "wudai"

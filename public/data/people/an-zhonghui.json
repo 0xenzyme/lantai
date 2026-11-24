@@ -21,7 +21,32 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "an-zhonghui",
+      "target": "qian-liu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "使臣礼节起争端，安重诲奏削吴越王爵"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-siyuan",
+      "target": "an-zhonghui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "由中门使擢为枢密使，长兴二年罢职被杀"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

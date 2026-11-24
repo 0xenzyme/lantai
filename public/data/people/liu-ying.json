@@ -30,18 +30,6 @@
   ],
   "relations": [
     {
-      "source": "liu-bang",
-      "target": "liu-ying",
-      "type": "kin",
-      "directed": false,
-      "notes": [
-        "高祖崩，太子盈即位"
-      ],
-      "topicIds": [
-        "han"
-      ]
-    },
-    {
       "source": "liu-ying",
       "target": "lv-zhi",
       "type": "kin",
@@ -60,6 +48,44 @@
       "directed": false,
       "notes": [
         "惠帝皇后。吕后以鲁元公主女配帝。文帝后元年薨"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ying",
+      "target": "xiao-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -193,
+      "notes": [
+        "惠帝临视何病，问谁可代相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "zhang-liang",
+      "target": "liu-ying",
+      "type": "mentor",
+      "directed": true,
+      "since": -195,
+      "notes": [
+        "留侯行少傅事，佐太子定储位"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-ying",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "高祖崩，太子盈即位"
       ],
       "topicIds": [
         "han"

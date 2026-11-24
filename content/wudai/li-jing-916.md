@@ -9,22 +9,95 @@ polity:
 categories:
   - monarch
   - literature
+primary: monarch
 birth: 916
-birthAccuracy: exact
+birthAccuracy: disputed
+birthNote: 生年从卒年推算。陆游《南唐书》载卒年四十六，推为916年；《新五代史》作年六十四，推为898年。轴上暂用916年。
 death: 961
 deathAccuracy: exact
-title: 南唐中主，失淮南，徙洪京
+title: 南唐元宗，失淮南后迁南都
 tags:
   - 十国
   - 南唐
 aliases:
+  - 李景通
   - 李景
 sources:
-  - work: 十国春秋
-    part: 南唐
+  - work: 新五代史
+    part: 卷62·南唐世家·李璟
     kind: classic
-  - work: 马书
+  - work: 宋史
+    part: 卷478·世家·南唐李景
     kind: classic
+  - work: 南唐书（陆游）
+    part: 卷2·元宗本纪
+    kind: classic
+experiences:
+  - id: bao-da-ji-wei
+    label: 继李昪即位，改元保大
+    year: 943
+    yearAccuracy: exact
+    place: 金陵
+    note: 李昪去世，李璟继位，并在父柩前约诸弟相继。
+    sources:
+      - work: 新五代史
+        part: 卷62·南唐世家·李璟
+        kind: classic
+      - work: 宋史
+        part: 卷478·世家·南唐李景
+        kind: classic
+  - id: gong-min
+    label: 遣军攻闽，进取建州
+    event: nantang-mie-min
+    yearAccuracy: unknown
+    note: 趁王氏争乱遣军攻闽。八月克建州，王延政降，次月汀、泉、漳来降。
+    sources:
+      - work: 新五代史
+        part: 卷62·南唐世家·李璟
+        kind: classic
+      - work: 资治通鉴
+        part: 卷285·后晋纪·开运二年
+        kind: classic
+  - id: jin-tan-zhou
+    label: 乘马氏内争，遣边镐破潭州
+    event: nantang-mie-chu
+    yearAccuracy: unknown
+    note: 南唐进占潭州，将马氏家族迁往金陵，后受刘言反击。
+    sources:
+      - work: 新五代史
+        part: 卷62·南唐世家·李璟
+        kind: classic
+  - id: shi-huai-nan
+    label: 失淮南，去帝号
+    event: shizong-zheng-nantang
+    yearAccuracy: unknown
+    note: 周军攻破紫金山诸寨、克寿州。李璟后以江为界，奉周正朔。
+    sources:
+      - work: 宋史
+        part: 卷478·世家·南唐李景
+        kind: classic
+      - work: 新五代史
+        part: 卷62·南唐世家·李璟
+        kind: classic
+  - id: qian-nan-du
+    label: 迁南都，留李从嘉监国
+    year: 961
+    yearAccuracy: exact
+    place: 南都
+    note: 迁往以洪州建设的南都，留李从嘉在金陵监国，同年六月去世。
+    sources:
+      - work: 宋史
+        part: 卷478·世家·南唐李景
+        kind: classic
+      - work: 新五代史
+        part: 卷62·南唐世家·李璟
+        kind: classic
 ---
 
-初名景通，烈祖长子。升元七年即位，改璟。乘闽楚之乱拓地数千里，旋复尽失；显德中周世宗三征淮南，紫金山一战丧师，尽献江北十四州，去帝号称国主，岁奉金帛巨万。内不能用韩熙载、林仁肇之谋，郁郁徙都洪州，交泰元年殂。
+李璟是李昪长子，初名景通。李昪在杨吴掌权、出镇金陵时，留他在广陵任司徒、同平章事，与宋齐丘等共辅吴主杨溥。李昪将要取代杨氏，又召他回金陵，任副都统。南唐建立后，他受封齐王。李昪去世，李璟继位，改元保大。即位之初，他重用宋齐丘、冯延巳等人，又把军政重任交给弟弟李景遂、李景达，并在父亲柩前盟约，议定兄弟相继。早年的广陵留守经历和即位后的安排，都使宗室与宰臣同时成为南唐朝局的重要力量。
+
+闽、楚内乱给南唐向南出兵的机会。闽地王氏兄弟相攻，李璟派查文徽等从建州方向推进，南唐军于开运二年八月攻克建州，王延政投降，随后被迁往金陵。九月，汀、泉、漳三州相继归降。但福州另有李仁达执掌。南唐随后进攻福州，吴越发兵救援，唐军败归。楚地马氏诸兄弟争位，李璟命边镐进攻潭州，把马氏家族迁到金陵，并给马希萼、马希崇授外镇。南唐军后来又被楚地将领刘言击退。这两次出兵一度扩大所辖州郡，也显示攻下对方都城与长期控制地方并非一回事。
+
+后周南征改变了形势。南唐曾在淮南组织援军，试图为寿州解围。周军攻破紫金山诸寨，唐将朱元降周，寿州随后为后周所得。柴荣再进兵至长江，李璟遣使请求尽割江北，以江为界。显德五年，他奉后周正朔，去帝号，称唐国主，并按约贡奉。南唐由跨有江、淮转为以长江为北界。淮南告失后，李璟又处置宋齐丘等大臣，此前依靠旧臣与宗室维系的朝局也发生变化。
+
+北宋建立后，李璟遣使入贡贺赵匡胤即位，延续对中原政权的贡奉。李弘冀去世后，次子李从嘉入东宫。李璟于建隆二年迁居以洪州改建的南都，留从嘉在金陵监国。洪州城府狭小，难以容纳随行的朝廷官署，群臣多盼回到金陵。同年六月李璟在南都去世，李从嘉继位，迎丧归金陵，请求恢复父亲帝号，得到宋廷准许。李璟继位时立约兄弟相继，最后仍由儿子承位；南都的迁建也随着他的去世告一段落。

@@ -22,7 +22,20 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "qian-liu",
+      "target": "luo-yin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "罗隐为镇海判官，曾劝钱镠勿受梁命"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -32,18 +32,6 @@
   ],
   "relations": [
     {
-      "source": "liu-bang",
-      "target": "lv-zhi",
-      "type": "kin",
-      "directed": false,
-      "notes": [
-        "夫妻"
-      ],
-      "topicIds": [
-        "han"
-      ]
-    },
-    {
       "source": "liu-ying",
       "target": "lv-zhi",
       "type": "kin",
@@ -92,18 +80,6 @@
       ]
     },
     {
-      "source": "han-xin",
-      "target": "lv-zhi",
-      "type": "rival",
-      "directed": false,
-      "notes": [
-        "与萧何诱杀韩信于长乐宫钟室"
-      ],
-      "topicIds": [
-        "han"
-      ]
-    },
-    {
       "source": "lv-zhi",
       "target": "peng-yue",
       "type": "rival",
@@ -122,6 +98,70 @@
       "directed": false,
       "notes": [
         "吕后之侄，封梁王相国；吕后崩后与禄同诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "lv-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "吕公相女妻之，共历楚汉；后临朝称制"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "xiang-yu",
+      "type": "rival",
+      "directed": false,
+      "since": -205,
+      "notes": [
+        "彭城战后虏太公吕后为质"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "xiao-he",
+      "type": "peer",
+      "directed": false,
+      "since": -196,
+      "notes": [
+        "吕后用何计诱斩韩信"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "zhang-liang",
+      "type": "peer",
+      "directed": false,
+      "since": -195,
+      "notes": [
+        "吕后劫留侯画计，招商山四皓保太子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "han-xin",
+      "target": "lv-zhi",
+      "type": "rival",
+      "directed": false,
+      "since": -196,
+      "notes": [
+        "与萧何诱杀韩信于长乐宫钟室"
       ],
       "topicIds": [
         "han"

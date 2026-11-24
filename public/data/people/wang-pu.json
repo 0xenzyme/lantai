@@ -45,6 +45,30 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "wang-pu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "显德六年命宰相王溥参知枢密院事"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "guo-wei",
+      "target": "wang-pu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "显德元年临终前擢王溥为相"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [],

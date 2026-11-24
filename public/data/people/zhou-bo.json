@@ -35,15 +35,17 @@
   ],
   "relations": [
     {
-      "source": "zhou-bo",
-      "target": "liu-bang",
+      "source": "liu-bang",
+      "target": "zhou-bo",
       "type": "ruler-subject",
       "directed": true,
+      "since": -209,
       "notes": [
-        "厚重的周勃，后平定诸吕"
+        "沛县从起，厚重少文；临终谓安刘氏者必勃"
       ],
       "topicIds": [
-        "qin"
+        "qin",
+        "han"
       ]
     },
     {
@@ -65,6 +67,19 @@
       "directed": true,
       "notes": [
         "诸吕既平，迎立代王，拜右丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "han-xin",
+      "target": "zhou-bo",
+      "type": "peer",
+      "directed": false,
+      "since": -202,
+      "notes": [
+        "信居常鞅鞅，羞与绛灌同列"
       ],
       "topicIds": [
         "han"

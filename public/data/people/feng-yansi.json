@@ -34,12 +34,12 @@
   ],
   "relations": [
     {
-      "source": "chai-rong",
+      "source": "li-jing-916",
       "target": "feng-yansi",
       "type": "ruler-subject",
       "directed": true,
       "notes": [
-        "江南词臣，奉表称国主"
+        "李璟授冯延巳翰林学士，后来任相"
       ],
       "topicIds": [
         "wudai"

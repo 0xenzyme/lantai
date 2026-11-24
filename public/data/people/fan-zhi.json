@@ -54,6 +54,30 @@
       ]
     },
     {
+      "source": "chai-rong",
+      "target": "fan-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "北征还京后，命范质参知枢密院事"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "guo-wei",
+      "target": "fan-zhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "入汴后任范质为枢密副使，建周后拜相"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
       "source": "zhao-kuangyin",
       "target": "fan-zhi",
       "type": "ruler-subject",

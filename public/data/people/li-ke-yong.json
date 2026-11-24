@@ -83,7 +83,7 @@
       "type": "kin",
       "directed": false,
       "notes": [
-        "父子，晋王之位与三矢之誓所传"
+        "父子，克用死后存勖即晋王位"
       ],
       "topicIds": [
         "wudai"
@@ -120,6 +120,18 @@
       "directed": false,
       "notes": [
         "借晋兵而有卢龙，已而背之"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "li-siyuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "李克用收邈佶烈为养子，赐名嗣源"
       ],
       "topicIds": [
         "wudai"

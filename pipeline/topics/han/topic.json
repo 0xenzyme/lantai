@@ -893,28 +893,10 @@
   ],
   "relations": [
     {
-      "source": "liu-bang",
-      "target": "lv-zhi",
-      "type": "kin",
-      "note": "夫妻"
-    },
-    {
-      "source": "liu-bang",
-      "target": "liu-ying",
-      "type": "kin",
-      "note": "高祖崩，太子盈即位"
-    },
-    {
       "source": "lv-zhi",
       "target": "liu-ying",
       "type": "kin",
       "note": "惠帝在位七年，吕后实际掌权"
-    },
-    {
-      "source": "liu-bang",
-      "target": "liu-heng",
-      "type": "kin",
-      "note": "父子"
     },
     {
       "source": "liu-heng",
@@ -1170,13 +1152,6 @@
       "note": "吕后残害刘氏诸子，文帝因在代地得免"
     },
     {
-      "source": "liu-bang",
-      "target": "mo-dun",
-      "type": "rival",
-      "since": -200,
-      "note": "白登之围七日，此后汉匈以和亲相处"
-    },
-    {
       "source": "lv-zhi",
       "target": "mo-dun",
       "type": "rival",
@@ -1287,56 +1262,6 @@
       "note": "哀帝祖母。元寿元年崩，追称孝元傅皇后"
     },
     {
-      "source": "liu-bang",
-      "target": "xiang-yu",
-      "type": "rival",
-      "since": -206,
-      "note": "楚汉相争五年，垓下一战定天下"
-    },
-    {
-      "source": "han-xin",
-      "target": "xiang-yu",
-      "type": "rival",
-      "note": "垓下之战，韩信将三十万为主力"
-    },
-    {
-      "source": "liu-bang",
-      "target": "han-xin",
-      "type": "ruler-subject",
-      "since": -206,
-      "note": "登坛拜将，破魏赵燕齐；后贬淮阴侯"
-    },
-    {
-      "source": "lv-zhi",
-      "target": "han-xin",
-      "type": "rival",
-      "note": "与萧何诱杀韩信于长乐宫钟室"
-    },
-    {
-      "source": "liu-bang",
-      "target": "xiao-he",
-      "type": "ruler-subject",
-      "note": "沛县起兵即相从，镇国家抚百姓，功第一"
-    },
-    {
-      "source": "xiao-he",
-      "target": "cao-can",
-      "type": "peer",
-      "note": "萧规曹随，继为相国，举事无所变更"
-    },
-    {
-      "source": "liu-bang",
-      "target": "zhang-liang",
-      "type": "ruler-subject",
-      "note": "运筹帷幄之中，决胜千里之外"
-    },
-    {
-      "source": "liu-bang",
-      "target": "chen-ping",
-      "type": "ruler-subject",
-      "note": "六出奇计；吕后时为丞相，与周勃诛诸吕"
-    },
-    {
       "source": "chen-ping",
       "target": "zhou-bo",
       "type": "peer",
@@ -1349,34 +1274,10 @@
       "note": "诸吕既平，迎立代王，拜右丞相"
     },
     {
-      "source": "liu-bang",
-      "target": "fan-kuai",
-      "type": "ruler-subject",
-      "note": "沛县从起兵，鸿门瞋目解危"
-    },
-    {
-      "source": "liu-bang",
-      "target": "guan-ying",
-      "type": "ruler-subject",
-      "note": "从击项籍，领车骑；后与周勃共诛诸吕"
-    },
-    {
       "source": "lv-zhi",
       "target": "peng-yue",
       "type": "rival",
       "note": "梁王被告变，夷三族"
-    },
-    {
-      "source": "liu-bang",
-      "target": "ying-bu",
-      "type": "rival",
-      "note": "淮南王举兵反，帝亲击破之"
-    },
-    {
-      "source": "liu-bang",
-      "target": "li-yi-ji",
-      "type": "ruler-subject",
-      "note": "请使说齐，下七十余城；韩信袭齐后被烹"
     },
     {
       "source": "liu-che",
@@ -1541,12 +1442,6 @@
       "target": "chao-cuo",
       "type": "rival",
       "note": "奏请诛晁错不得，呕血死"
-    },
-    {
-      "source": "liu-bang",
-      "target": "zhang-cang",
-      "type": "ruler-subject",
-      "note": "主计领郡国上计，定汉历律令"
     },
     {
       "source": "li-guang",
@@ -1874,6 +1769,275 @@
       "target": "kong-guang",
       "type": "ruler-subject",
       "note": "成帝时由尚书令迁御史大夫，历成哀平三朝，官至太师"
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiang-yu",
+      "type": "rival",
+      "since": -206,
+      "note": "楚汉相争五年，鸿沟中分天下，垓下一战定胜负"
+    },
+    {
+      "source": "liu-bang",
+      "target": "han-xin",
+      "type": "ruler-subject",
+      "since": -206,
+      "note": "萧何力荐，登坛拜将；破魏赵齐，垓下将三十万"
+    },
+    {
+      "source": "liu-bang",
+      "target": "xiao-he",
+      "type": "ruler-subject",
+      "since": -209,
+      "note": "沛县起兵即相从，守关中给军食，论功第一"
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhang-liang",
+      "type": "ruler-subject",
+      "since": -208,
+      "note": "运筹帷幄，决胜千里；鸿门解危，固陵定策"
+    },
+    {
+      "source": "liu-bang",
+      "target": "fan-kuai",
+      "type": "kin",
+      "since": -209,
+      "note": "娶吕后妹吕媭，鸿门闯帐护主，沛县从起"
+    },
+    {
+      "source": "liu-bang",
+      "target": "cao-can",
+      "type": "ruler-subject",
+      "since": -209,
+      "note": "沛县从起，身被七十创，继萧何为相"
+    },
+    {
+      "source": "liu-bang",
+      "target": "chen-ping",
+      "type": "ruler-subject",
+      "since": -205,
+      "note": "陈平间楚，六出奇计；白登解围"
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhou-bo",
+      "type": "ruler-subject",
+      "since": -209,
+      "note": "沛县从起，厚重少文；临终谓安刘氏者必勃"
+    },
+    {
+      "source": "liu-bang",
+      "target": "lv-zhi",
+      "type": "kin",
+      "note": "吕公相女妻之，共历楚汉；后临朝称制"
+    },
+    {
+      "source": "liu-bang",
+      "target": "peng-yue",
+      "type": "ruler-subject",
+      "since": -205,
+      "note": "梁地游击绝楚粮，垓下会师；后以谋反诛"
+    },
+    {
+      "source": "liu-bang",
+      "target": "ying-bu",
+      "type": "rival",
+      "since": -196,
+      "note": "淮南王举兵反，帝亲征破之"
+    },
+    {
+      "source": "liu-bang",
+      "target": "li-yi-ji",
+      "type": "ruler-subject",
+      "since": -207,
+      "note": "高阳酒徒，说齐下七十余城，为田广所烹"
+    },
+    {
+      "source": "liu-bang",
+      "target": "han-wang-xin",
+      "type": "ruler-subject",
+      "since": -201,
+      "note": "徙王太原，勾连匈奴，白登之围由此起"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "han-xin",
+      "type": "rival",
+      "since": -202,
+      "note": "韩信曾为郎中不用，垓下将三十万围楚"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "lv-zhi",
+      "type": "rival",
+      "since": -205,
+      "note": "彭城战后虏太公吕后为质"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "peng-yue",
+      "type": "rival",
+      "since": -206,
+      "note": "彭越反梁地，往来绝楚粮道"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "ying-bu",
+      "type": "rival",
+      "since": -205,
+      "note": "九江王英布叛楚归汉"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "fan-kuai",
+      "type": "rival",
+      "since": -206,
+      "note": "鸿门宴樊哙闯帐，瞋目斥项王"
+    },
+    {
+      "source": "xiang-yu",
+      "target": "zhang-liang",
+      "type": "rival",
+      "since": -206,
+      "note": "鸿门宴张良侍刘邦，佐其脱身"
+    },
+    {
+      "source": "han-xin",
+      "target": "xiao-he",
+      "type": "peer",
+      "since": -206,
+      "note": "萧何月下追信力荐大将；后与吕后诱斩长乐宫"
+    },
+    {
+      "source": "han-xin",
+      "target": "zhang-liang",
+      "type": "peer",
+      "since": -202,
+      "note": "汉初三杰；张良劝立信为齐王，固陵画策召信"
+    },
+    {
+      "source": "han-xin",
+      "target": "fan-kuai",
+      "type": "peer",
+      "since": -202,
+      "note": "信过樊哙，哙跪拜称臣；信笑与哙等为伍"
+    },
+    {
+      "source": "han-xin",
+      "target": "zhou-bo",
+      "type": "peer",
+      "since": -202,
+      "note": "信居常鞅鞅，羞与绛灌同列"
+    },
+    {
+      "source": "han-xin",
+      "target": "peng-yue",
+      "type": "peer",
+      "since": -202,
+      "note": "同列异姓王，垓下会师；后皆以谋反诛"
+    },
+    {
+      "source": "han-xin",
+      "target": "ying-bu",
+      "type": "peer",
+      "since": -202,
+      "note": "同列异姓王，皆由楚归汉"
+    },
+    {
+      "source": "xiao-he",
+      "target": "cao-can",
+      "type": "peer",
+      "since": -193,
+      "note": "萧规曹随，何临终荐参自代"
+    },
+    {
+      "source": "xiao-he",
+      "target": "zhang-liang",
+      "type": "peer",
+      "since": -202,
+      "note": "汉初三杰，何主守，良主谋"
+    },
+    {
+      "source": "xiao-he",
+      "target": "lv-zhi",
+      "type": "peer",
+      "since": -196,
+      "note": "吕后用何计诱斩韩信"
+    },
+    {
+      "source": "liu-ying",
+      "target": "xiao-he",
+      "type": "ruler-subject",
+      "since": -193,
+      "note": "惠帝临视何病，问谁可代相"
+    },
+    {
+      "source": "zhang-liang",
+      "target": "lv-zhi",
+      "type": "peer",
+      "since": -195,
+      "note": "吕后劫留侯画计，招商山四皓保太子"
+    },
+    {
+      "source": "zhang-liang",
+      "target": "fan-kuai",
+      "type": "peer",
+      "since": -206,
+      "note": "鸿门急召樊哙闯帐"
+    },
+    {
+      "source": "zhang-liang",
+      "target": "chen-ping",
+      "type": "peer",
+      "since": -202,
+      "note": "同列高祖谋臣，固陵共劝追项羽"
+    },
+    {
+      "source": "zhang-liang",
+      "target": "liu-ying",
+      "type": "mentor",
+      "since": -195,
+      "note": "留侯行少傅事，佐太子定储位"
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-ying",
+      "type": "kin",
+      "note": "高祖崩，太子盈即位"
+    },
+    {
+      "source": "liu-bang",
+      "target": "liu-heng",
+      "type": "kin",
+      "note": "父子"
+    },
+    {
+      "source": "liu-bang",
+      "target": "mo-dun",
+      "type": "rival",
+      "since": -200,
+      "note": "白登之围七日，此后汉匈以和亲相处"
+    },
+    {
+      "source": "liu-bang",
+      "target": "guan-ying",
+      "type": "ruler-subject",
+      "since": -209,
+      "note": "从击项籍，领车骑；后与周勃共诛诸吕"
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhang-cang",
+      "type": "ruler-subject",
+      "note": "主计领郡国上计，定汉历律令"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "han-xin",
+      "type": "rival",
+      "since": -196,
+      "note": "与萧何诱杀韩信于长乐宫钟室"
     }
   ],
   "events": [

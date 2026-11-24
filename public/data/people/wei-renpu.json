@@ -40,7 +40,19 @@
       "type": "ruler-subject",
       "directed": true,
       "notes": [
-        "周世宗即位，以魏仁浦为宰相，与王溥同预政事"
+        "柴荣在位时，魏仁浦进任枢密使并拜相"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "guo-wei",
+      "target": "wei-renpu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "邺都获知密诏，召魏仁浦商议起兵"
       ],
       "topicIds": [
         "wudai"

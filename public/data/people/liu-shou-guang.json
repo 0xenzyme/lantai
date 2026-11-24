@@ -48,7 +48,19 @@
       "type": "rival",
       "directed": false,
       "notes": [
-        "晋兵围幽州，桀燕擒斩"
+        "守光称帝于燕，晋军破幽州，擒杀守光"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "liu-shou-guang",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "守光辟为幽州掾，后因进谏将他下狱"
       ],
       "topicIds": [
         "wudai"

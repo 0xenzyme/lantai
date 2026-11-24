@@ -38,11 +38,13 @@
       "target": "peng-yue",
       "type": "ruler-subject",
       "directed": true,
+      "since": -205,
       "notes": [
-        "楚汉之际将兵归汉，封梁王；高帝十一年以谋反被诛，夷三族"
+        "梁地游击绝楚粮，垓下会师；后以谋反诛"
       ],
       "topicIds": [
-        "qin"
+        "qin",
+        "han"
       ]
     },
     {
@@ -52,6 +54,32 @@
       "directed": false,
       "notes": [
         "梁王被告变，夷三族"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "peng-yue",
+      "target": "xiang-yu",
+      "type": "rival",
+      "directed": false,
+      "since": -206,
+      "notes": [
+        "彭越反梁地，往来绝楚粮道"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "han-xin",
+      "target": "peng-yue",
+      "type": "peer",
+      "directed": false,
+      "since": -202,
+      "notes": [
+        "同列异姓王，垓下会师；后皆以谋反诛"
       ],
       "topicIds": [
         "han"

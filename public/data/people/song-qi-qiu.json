@@ -52,6 +52,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "li-jing-916",
+      "target": "song-qi-qiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "广陵共辅吴主，李璟继位后再召宋齐丘为相"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [],

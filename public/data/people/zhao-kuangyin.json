@@ -162,6 +162,42 @@
       ]
     },
     {
+      "source": "chai-rong",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高平督战后擢赵匡胤，命他选殿前精兵"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-jing-916",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宋初遣使慰谕，李璟仍奉贡，迁南都又受慰问"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "guo-wei",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "征李守贞时赵匡胤应募入其帐下"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
       "source": "zhao-guangyi",
       "target": "zhao-kuangyin",
       "type": "kin",
@@ -245,6 +281,19 @@
       "since": 960,
       "notes": [
         "太祖四子封岐王，太平兴国早卒，后世演为八贤王"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "gao-huaide",
+      "target": "zhao-kuangyin",
+      "type": "kin",
+      "directed": false,
+      "since": 960,
+      "notes": [
+        "尚太祖妹燕国长公主为驸马都尉，拜殿前副都点检，义社十兄弟至亲"
       ],
       "topicIds": [
         "song"

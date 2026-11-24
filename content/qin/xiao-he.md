@@ -7,23 +7,97 @@ gender: male
 polity:
   - han
 categories:
-  - general
   - chancellor
+  - minister
+  - official
+primary: chancellor
 birthAccuracy: unknown
 death: -193
 deathAccuracy: exact
-title: 汉相国，守关中，定律令
+title: 汉相国，收秦图籍，镇抚关中，功第一
 tags:
   - 汉初
   - 丞相
   - 制度
+  - 关中
+  - 九章律
 aliases:
   - 萧何
   - 萧相国
+  - 酂侯
+  - 文终侯
 sources:
   - work: 史记
-    part: 萧相国世家
+    part: 卷053·萧相国世家
     kind: classic
+  - work: 汉书
+    part: 卷039·萧何曹参传
+    kind: classic
+works:
+  - id: jiuzhang-lu
+    title: 九章律
+    kind: other
+    note: 汉兴，萧何捃摭秦法，取其宜于时者，作律九章，为汉初法制之本。
+    sources:
+      - work: 汉书
+        part: 卷023·刑法志
+        kind: classic
+experiences:
+  - id: shou-qin-tuji
+    label: 入咸阳独收秦律令图书
+    year: -207
+    yearAccuracy: exact
+    place: 咸阳
+    note: 诸将争走金帛财物之府分之，萧何独先入收秦丞相御史律令图书藏之，汉王由是具知天下阨塞、户口多少。
+    sources:
+      - work: 史记
+        part: 卷053·萧相国世家
+        kind: classic
+  - id: shou-guanzhong
+    label: 留守关中，转漕给军
+    year: -205
+    yearAccuracy: exact
+    place: 关中
+    note: 汉王与诸侯击楚，萧何守关中，侍太子，治栎阳，为法令约束，立宗庙社稷，计户转漕给军，常兴关中卒补缺。
+    sources:
+      - work: 史记
+        part: 卷053·萧相国世家
+        kind: classic
+  - id: lun-gong-diyi
+    label: 论功第一，封酂侯
+    year: -202
+    yearAccuracy: exact
+    place: 洛阳
+    note: 高祖以萧何功最盛，封为酂侯，赐带剑履上殿，入朝不趋；以发踪指示喻何，以功狗喻战将，群臣莫敢言。
+    sources:
+      - work: 史记
+        part: 卷053·萧相国世家
+        kind: classic
+  - id: lvhou-sha-hanxin
+    label: 献计诱斩韩信于长乐宫
+    yearAccuracy: unknown
+    event: lvhou-sha-hanxin
+    note: 吕后欲召韩信，恐其党不就，乃与萧相国谋，诈言陈豨已死，诱信入贺，斩于长乐钟室，夷三族。
+    sources:
+      - work: 史记
+        part: 卷092·淮阴侯列传
+        kind: classic
+  - id: xiaogui-caosui
+    label: 临终荐曹参自代，萧规曹随
+    year: -193
+    yearAccuracy: exact
+    place: 长安
+    note: 萧何素不与曹参相能，及病，惠帝问谁可代，何顿首曰「帝得之矣，臣死不恨矣」。曹参代相，举事无所变更。
+    sources:
+      - work: 史记
+        part: 卷053·萧相国世家
+        kind: classic
 ---
 
-沛人，为高祖主吏。入咸阳独收律令图书，楚汉间镇关中给粮补兵。追韩信、定《九章律》。位最高而自污以免疑，卒于前 193 年。汉的制度线从他这条起。
+萧何，沛郡丰人。以文无害为沛主吏掾。刘邦为布衣时，萧何数以吏事护之；刘邦为亭长，常左右之。刘邦以吏繇咸阳，吏皆送奉钱三，萧何独以五。秦御史监郡，与从事常辨之，萧何给泗水卒史事，第一。御史欲入言征萧何，萧何固请，得毋行。及刘邦起为沛公，萧何常为丞督事。
+
+沛公至咸阳，诸将皆争走金帛财物之府分之，萧何独先入收秦丞相御史律令图书藏之。刘邦为汉王，以萧何为丞相。汉王所以具知天下阨塞、户口多少、强弱之处、民所疾苦者，以萧何具得秦图书也。萧何进言韩信，汉王以信为大将军。汉王引兵东定三秦，萧何以丞相留收巴蜀，填抚谕告，使给军食。
+
+汉二年，汉王与诸侯击楚，萧何守关中，侍太子，治栎阳。为法令约束，立宗庙社稷宫室县邑，事有不及奏者，辄以便宜施行。关中事计户口转漕给军，汉王数失军遁去，萧何常兴关中卒补缺。汉三年，汉王与项羽相距京索间，数使使劳苦丞相。鲍生说萧何遣子孙昆弟胜兵者悉诣军所，何以示无贰心，汉王大说。汉五年，既杀项羽，论功行封。高祖以萧何功最盛，封为酂侯，赐带剑履上殿，入朝不趋。功臣争功，高祖以猎狗喻战将，以发踪指示喻萧何，群臣莫敢言。
+
+汉十一年，陈豨反，高祖自将往讨。韩信谋反关中，吕后用萧何计，诱斩韩信于长乐宫钟室。高祖使拜萧何为相国，益封五千户。召平谓祸自此始，劝其让封佐军；后又劝其多买田宅自污，以释高祖之疑。萧何为民请上林苑空地，高祖怒，下相国廷尉，械系之，后赦出。萧何素不与曹参相能，及病，惠帝亲临视，问谁可代，何顿首曰：「帝得之矣！臣死不恨矣。」萧何年老素恭谨，入朝徒跣谢。汉兴，萧何捃摭秦法，取其宜于时者，作律九章；曹参代相，举事无所变更，民作「萧规曹随」之称。惠帝二年卒，谥文终。置田宅必居穷处，曰：「后世贤，师吾俭；不贤，毋为势家所夺。」

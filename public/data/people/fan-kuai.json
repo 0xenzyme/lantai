@@ -38,20 +38,49 @@
       "target": "liu-bang",
       "type": "kin",
       "directed": false,
+      "since": -209,
       "notes": [
-        "沛县故人，鸿门卫士"
+        "娶吕后妹吕媭，鸿门闯帐护主，沛县从起"
       ],
       "topicIds": [
-        "qin"
+        "qin",
+        "han"
       ]
     },
     {
-      "source": "liu-bang",
-      "target": "fan-kuai",
-      "type": "ruler-subject",
-      "directed": true,
+      "source": "fan-kuai",
+      "target": "xiang-yu",
+      "type": "rival",
+      "directed": false,
+      "since": -206,
       "notes": [
-        "沛县从起兵，鸿门瞋目解危"
+        "鸿门宴樊哙闯帐，瞋目斥项王"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "fan-kuai",
+      "target": "han-xin",
+      "type": "peer",
+      "directed": false,
+      "since": -202,
+      "notes": [
+        "信过樊哙，哙跪拜称臣；信笑与哙等为伍"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "fan-kuai",
+      "target": "zhang-liang",
+      "type": "peer",
+      "directed": false,
+      "since": -206,
+      "notes": [
+        "鸿门急召樊哙闯帐"
       ],
       "topicIds": [
         "han"

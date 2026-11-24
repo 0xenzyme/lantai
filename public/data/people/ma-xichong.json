@@ -21,7 +21,20 @@
       "lane": "shiguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-jing-916",
+      "target": "ma-xichong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "破潭州迁马氏至金陵，授马希崇舒州节度使"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

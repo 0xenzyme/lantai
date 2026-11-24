@@ -35,7 +35,7 @@
       "type": "kin",
       "directed": false,
       "notes": [
-        "甥婿相维，将相之位由亲而得"
+        "杜重威娶石敬瑭之妹，曾奉命讨安重荣"
       ],
       "topicIds": [
         "wudai"
@@ -60,6 +60,18 @@
       "directed": true,
       "notes": [
         "以大军降，导契丹入汴"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "du-chongwei",
+      "target": "liu-zhiyuan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "杜重威据邺后出降，刘知远先行赦免"
       ],
       "topicIds": [
         "wudai"

@@ -17,12 +17,16 @@ people:
   - xiang-yu
   - fan-zeng
   - liu-bang
+  - zhang-liang
 result: 项羽不听范增之谋，纵刘邦使去；楚汉之局自此定
 aliases:
   - 鸿门会
 sources:
   - work: 史记
     part: 项羽本纪
+    kind: classic
+  - work: 汉书
+    part: 卷031·陈胜项籍传
     kind: classic
 ---
 

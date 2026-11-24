@@ -448,21 +448,22 @@
       "source": "liu-bang",
       "target": "zhang-liang",
       "type": "ruler-subject",
-      "note": "首席谋臣，画策入关"
+      "note": "运筹帷幄，决胜千里；鸿门解危，固陵定策",
+      "since": -208
     },
     {
       "source": "liu-bang",
       "target": "han-xin",
       "type": "ruler-subject",
       "since": -206,
-      "note": "拜大将，统兵定诸侯"
+      "note": "萧何力荐，登坛拜将；破魏赵齐，垓下将三十万"
     },
     {
       "source": "liu-bang",
       "target": "xiang-yu",
       "type": "rival",
       "since": -206,
-      "note": "楚汉相争四年"
+      "note": "楚汉相争五年，鸿沟中分天下，垓下一战定胜负"
     },
     {
       "source": "xiang-yu",
@@ -476,13 +477,14 @@
       "target": "xiang-yu",
       "type": "rival",
       "since": -202,
-      "note": "垓下合围，四面楚歌"
+      "note": "韩信曾为郎中不用，垓下将三十万围楚"
     },
     {
       "source": "han-xin",
       "target": "ying-bu",
       "type": "peer",
-      "note": "同列异姓王，皆叛楚归汉"
+      "note": "同列异姓王，皆由楚归汉",
+      "since": -202
     },
     {
       "source": "chen-sheng",
@@ -501,25 +503,29 @@
       "source": "liu-bang",
       "target": "xiao-he",
       "type": "ruler-subject",
-      "note": "萧何主关中、镇后方，汉之丞相第一"
+      "note": "沛县起兵即相从，守关中给军食，论功第一",
+      "since": -209
     },
     {
       "source": "xiao-he",
       "target": "cao-can",
       "type": "peer",
-      "note": "萧规曹随，相继为相"
+      "note": "萧规曹随，何临终荐参自代",
+      "since": -193
     },
     {
       "source": "liu-bang",
       "target": "chen-ping",
       "type": "ruler-subject",
-      "note": "六出奇计，定汉业"
+      "note": "陈平间楚，六出奇计；白登解围",
+      "since": -205
     },
     {
       "source": "liu-bang",
       "target": "fan-kuai",
       "type": "kin",
-      "note": "沛县故人，鸿门卫士"
+      "note": "娶吕后妹吕媭，鸿门闯帐护主，沛县从起",
+      "since": -209
     },
     {
       "source": "liu-bang",
@@ -528,10 +534,11 @@
       "note": "从起沛，骑兵名将"
     },
     {
-      "source": "zhou-bo",
-      "target": "liu-bang",
+      "source": "liu-bang",
+      "target": "zhou-bo",
       "type": "ruler-subject",
-      "note": "厚重的周勃，后平定诸吕"
+      "note": "沛县从起，厚重少文；临终谓安刘氏者必勃",
+      "since": -209
     },
     {
       "source": "ying-zheng",
@@ -597,13 +604,15 @@
       "source": "liu-bang",
       "target": "peng-yue",
       "type": "ruler-subject",
-      "note": "楚汉之际将兵归汉，封梁王；高帝十一年以谋反被诛，夷三族"
+      "note": "梁地游击绝楚粮，垓下会师；后以谋反诛",
+      "since": -205
     },
     {
       "source": "liu-bang",
       "target": "li-yi-ji",
       "type": "ruler-subject",
-      "note": "高阳酒徒，为汉说齐下七十余城，为齐王田广所烹"
+      "note": "高阳酒徒，说齐下七十余城，为田广所烹",
+      "since": -207
     }
   ],
   "events": [

@@ -36,7 +36,7 @@
       "type": "kin",
       "directed": false,
       "notes": [
-        "祖孙，武肃\"善事中国\"之遗训"
+        "钱俶为钱镠之孙、钱元瓘之子，后继吴越王"
       ],
       "topicIds": [
         "wudai"
@@ -49,6 +49,18 @@
       "directed": true,
       "notes": [
         "纳土归宋，封爵就第"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "qian-hongchu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命吴越出兵常、宣牵制南唐，战后赐军资"
       ],
       "topicIds": [
         "wudai"

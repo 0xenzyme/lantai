@@ -15,6 +15,7 @@ people:
   - zhao-kuangyin
   - zhao-pu
   - shi-shouxin
+  - gao-huaide
 result: 石守信、高怀德、王审琦、张令铎罢领禁军，改授节度使。石守信仍挂侍卫都指挥使，兵权已不在。殿前副都点检不再除人。
 aliases:
   - 释兵权

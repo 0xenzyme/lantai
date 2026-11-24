@@ -44,6 +44,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "li-siyuan",
+      "target": "wang-yanzhang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "郓州之围后追击梁军，在中都擒王彦章"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [],

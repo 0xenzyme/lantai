@@ -31,6 +31,18 @@
   ],
   "relations": [
     {
+      "source": "lv-zhi",
+      "target": "mo-dun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "冒顿嫚书之辱，汉以宗室女和亲答之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
       "source": "liu-bang",
       "target": "mo-dun",
       "type": "rival",
@@ -38,18 +50,6 @@
       "since": -200,
       "notes": [
         "白登之围七日，此后汉匈以和亲相处"
-      ],
-      "topicIds": [
-        "han"
-      ]
-    },
-    {
-      "source": "lv-zhi",
-      "target": "mo-dun",
-      "type": "rival",
-      "directed": false,
-      "notes": [
-        "冒顿嫚书之辱，汉以宗室女和亲答之"
       ],
       "topicIds": [
         "han"

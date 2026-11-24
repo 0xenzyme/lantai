@@ -41,6 +41,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "feng-dao",
+      "target": "he-ning",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "后晋亡后，与和凝等俱留常山"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [],

@@ -39,12 +39,25 @@
       "target": "xiao-he",
       "type": "peer",
       "directed": false,
+      "since": -193,
       "notes": [
-        "萧规曹随，相继为相",
-        "萧规曹随，继为相国，举事无所变更"
+        "萧规曹随，何临终荐参自代"
       ],
       "topicIds": [
         "qin",
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "cao-can",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -209,
+      "notes": [
+        "沛县从起，身被七十创，继萧何为相"
+      ],
+      "topicIds": [
         "han"
       ]
     }

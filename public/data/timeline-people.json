@@ -11071,13 +11071,16 @@
       "topicTitle": "秦 · 帝国与楚汉",
       "aliases": [
         "项羽",
+        "项籍",
         "项王",
         "西楚霸王"
       ],
       "tags": [
         "秦末",
         "楚汉",
-        "霸王"
+        "霸王",
+        "巨鹿之战",
+        "破釜沉舟"
       ],
       "gender": "male",
       "birth": -232,
@@ -11174,8 +11177,20 @@
       "deathAccuracy": "exact",
       "topicId": "qin",
       "topicTitle": "秦 · 帝国与楚汉",
+      "aliases": [
+        "刘邦",
+        "刘季",
+        "沛公",
+        "汉王",
+        "汉高祖",
+        "高祖"
+      ],
       "tags": [
-        "布衣天子"
+        "汉",
+        "西汉",
+        "开国皇帝",
+        "楚汉",
+        "约法三章"
       ],
       "gender": "male",
       "birth": -256,
@@ -11191,12 +11206,16 @@
       "topicTitle": "秦 · 帝国与楚汉",
       "aliases": [
         "张良",
-        "留侯",
-        "子房"
+        "张子房",
+        "子房",
+        "留侯"
       ],
       "tags": [
         "楚汉",
-        "汉初"
+        "汉初",
+        "留侯",
+        "谋士",
+        "黄石公"
       ],
       "gender": "male",
       "death": -186
@@ -11211,11 +11230,16 @@
       "topicTitle": "秦 · 帝国与楚汉",
       "aliases": [
         "韩信",
-        "淮阴侯"
+        "淮阴侯",
+        "齐王",
+        "楚王"
       ],
       "tags": [
         "楚汉",
-        "汉初"
+        "汉初",
+        "淮阴侯",
+        "背水一战",
+        "兵家"
       ],
       "gender": "male",
       "death": -196
@@ -11285,12 +11309,16 @@
       "topicTitle": "秦 · 帝国与楚汉",
       "aliases": [
         "萧何",
-        "萧相国"
+        "萧相国",
+        "酂侯",
+        "文终侯"
       ],
       "tags": [
         "汉初",
         "丞相",
-        "制度"
+        "制度",
+        "关中",
+        "九章律"
       ],
       "gender": "male",
       "death": -193
@@ -35344,10 +35372,14 @@
       "id": "li-siyuan",
       "name": "李嗣源",
       "display": "后唐明宗",
-      "birthAccuracy": "approx",
+      "birthAccuracy": "exact",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
+      "aliases": [
+        "李亶",
+        "邈佶烈"
+      ],
       "tags": [
         "五代",
         "后唐"
@@ -35426,7 +35458,7 @@
       "id": "liu-zhiyuan",
       "name": "刘知远",
       "display": "后汉高祖",
-      "birthAccuracy": "unknown",
+      "birthAccuracy": "exact",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
@@ -35438,6 +35470,7 @@
         "后汉"
       ],
       "gender": "male",
+      "birth": 895,
       "death": 948
     },
     {
@@ -35459,12 +35492,13 @@
       "id": "guo-wei",
       "name": "郭威",
       "display": "后周太祖",
-      "birthAccuracy": "approx",
+      "birthAccuracy": "exact",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
       "aliases": [
-        "郭雀儿"
+        "郭雀儿",
+        "文仲"
       ],
       "tags": [
         "五代",
@@ -35548,11 +35582,12 @@
       "id": "li-jing-916",
       "name": "李璟",
       "display": "南唐元宗",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "disputed",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
       "aliases": [
+        "李景通",
         "李景"
       ],
       "tags": [
@@ -35586,15 +35621,19 @@
       "id": "wang-jian-918",
       "name": "王建",
       "display": "前蜀高祖",
-      "birthAccuracy": "unknown",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
+      "aliases": [
+        "光图"
+      ],
       "tags": [
         "十国",
         "前蜀"
       ],
       "gender": "male",
+      "birth": 847,
       "death": 918
     },
     {
@@ -35825,11 +35864,12 @@
       "id": "feng-dao",
       "name": "冯道",
       "display": "冯道",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
       "aliases": [
+        "可道",
         "长乐老"
       ],
       "tags": [
@@ -38947,8 +38987,20 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "潘美",
+        "潘仲询",
+        "韩国公潘美",
+        "郑王潘美"
+      ],
       "tags": [
-        "宋"
+        "宋",
+        "北宋",
+        "开国名将",
+        "灭南汉",
+        "灭南唐",
+        "征太原",
+        "雍熙北伐"
       ],
       "gender": "male",
       "birth": 925,
@@ -38962,9 +39014,18 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "曹彬",
+        "曹武惠",
+        "鲁王曹彬"
+      ],
       "tags": [
         "宋",
-        "北宋"
+        "北宋",
+        "开国名将",
+        "平后蜀",
+        "灭南唐",
+        "枢密使"
       ],
       "gender": "male",
       "birth": 931,
@@ -39024,10 +39085,19 @@
       "topicId": "song",
       "topicTitle": "宋",
       "aliases": [
-        "杨继业"
+        "杨业",
+        "杨继业",
+        "杨崇贵",
+        "杨无敌"
       ],
       "tags": [
-        "宋"
+        "宋",
+        "北宋",
+        "名将",
+        "杨家将",
+        "雁门关大捷",
+        "雍熙北伐",
+        "忠烈"
       ],
       "gender": "male",
       "death": 986
@@ -41464,6 +41534,19 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "高怀德",
+        "高藏用",
+        "渤海郡王高怀德"
+      ],
+      "tags": [
+        "宋",
+        "北宋",
+        "开国功臣",
+        "驸马",
+        "杯酒释兵权",
+        "义社十兄弟"
+      ],
       "gender": "male",
       "death": 982
     },

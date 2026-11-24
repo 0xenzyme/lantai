@@ -38,11 +38,13 @@
       "target": "ying-bu",
       "type": "peer",
       "directed": false,
+      "since": -202,
       "notes": [
-        "同列异姓王，皆叛楚归汉"
+        "同列异姓王，皆由楚归汉"
       ],
       "topicIds": [
-        "qin"
+        "qin",
+        "han"
       ]
     },
     {
@@ -50,8 +52,22 @@
       "target": "ying-bu",
       "type": "rival",
       "directed": false,
+      "since": -196,
       "notes": [
-        "淮南王举兵反，帝亲击破之"
+        "淮南王举兵反，帝亲征破之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "xiang-yu",
+      "target": "ying-bu",
+      "type": "rival",
+      "directed": false,
+      "since": -205,
+      "notes": [
+        "九江王英布叛楚归汉"
       ],
       "topicIds": [
         "han"

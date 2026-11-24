@@ -30,12 +30,12 @@
   ],
   "relations": [
     {
-      "source": "li-cunxu",
+      "source": "li-siyuan",
       "target": "wang-du",
       "type": "rival",
       "directed": false,
       "notes": [
-        "王都据定州反，晋王李存勖遣兵围之，契丹援败而城破"
+        "王都反于定州，明宗遣王晏球讨平"
       ],
       "topicIds": [
         "wudai"

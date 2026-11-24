@@ -32,10 +32,10 @@
     {
       "source": "chai-rong",
       "target": "fan-aineng",
-      "type": "rival",
-      "directed": false,
+      "type": "ruler-subject",
+      "directed": true,
       "notes": [
-        "高平弃阵而奔，并按军法"
+        "樊爱能领周军右阵，高平退走后伏诛"
       ],
       "topicIds": [
         "wudai"

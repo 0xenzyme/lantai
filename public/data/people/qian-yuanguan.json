@@ -20,7 +20,20 @@
       "lane": "shiguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "qian-liu",
+      "target": "qian-yuanguan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，授元瓘镇海等军节度，死后由其继位"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

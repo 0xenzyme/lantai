@@ -21,7 +21,20 @@
       "lane": "shiguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-maozhen",
+      "target": "wang-jian-918",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "凤翔受围时许援李茂贞，同时出兵夺取兴元"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

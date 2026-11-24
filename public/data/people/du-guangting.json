@@ -22,7 +22,20 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "wang-jian-918",
+      "target": "du-guangting",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王建延杜光庭为太子王元膺之师"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

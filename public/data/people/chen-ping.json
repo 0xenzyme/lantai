@@ -38,9 +38,9 @@
       "target": "chen-ping",
       "type": "ruler-subject",
       "directed": true,
+      "since": -205,
       "notes": [
-        "六出奇计，定汉业",
-        "六出奇计；吕后时为丞相，与周勃诛诸吕"
+        "陈平间楚，六出奇计；白登解围"
       ],
       "topicIds": [
         "qin",
@@ -54,6 +54,19 @@
       "directed": false,
       "notes": [
         "与周勃合谋诛诸吕，迎立代王"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chen-ping",
+      "target": "zhang-liang",
+      "type": "peer",
+      "directed": false,
+      "since": -202,
+      "notes": [
+        "同列高祖谋臣，固陵共劝追项羽"
       ],
       "topicIds": [
         "han"

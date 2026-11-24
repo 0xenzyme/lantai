@@ -9,11 +9,12 @@ polity:
 categories:
   - monarch
   - founding
+primary: monarch
 birth: 885
 birthAccuracy: exact
 death: 926
 deathAccuracy: exact
-title: 后唐庄宗，三矢雪耻而亡于伶人
+title: 后唐庄宗，灭梁建后唐
 tags:
   - 五代
   - 后唐
@@ -21,11 +22,71 @@ aliases:
   - 亚子
 sources:
   - work: 旧五代史
-    part: 庄宗本纪
+    part: 卷27·唐书·庄宗纪一
     kind: classic
   - work: 新五代史
-    part: 唐本纪
+    part: 卷5·唐本纪·庄宗
     kind: classic
+experiences:
+  - id: lu-zhou-jie-wei
+    label: 破梁夹城，解潞州围
+    year: 908
+    yearAccuracy: exact
+    place: 潞州
+    note: 继袭晋王后乘雾突击梁军夹城，李嗣源、周德威等分道进攻。
+    sources:
+      - work: 新五代史
+        part: 卷5·唐本纪·庄宗
+        kind: classic
+      - work: 旧五代史
+        part: 卷27·唐书·庄宗纪一
+        kind: classic
+  - id: wei-bo
+    label: 领魏博节度
+    year: 915
+    yearAccuracy: exact
+    place: 魏州
+    note: 魏州军变，贺德伦以魏、博归晋，李存勖入魏并兼领魏博节度。
+    sources:
+      - work: 新五代史
+        part: 卷5·唐本纪·庄宗
+        kind: classic
+  - id: mie-liang
+    label: 称帝后袭灭后梁
+    event: houtang-mie-liang
+    yearAccuracy: unknown
+    note: 在魏州称帝，国号唐，同年取道郓州袭灭后梁。
+    sources:
+      - work: 新五代史
+        part: 卷5·唐本纪·庄宗
+        kind: classic
+  - id: ping-shu
+    label: 遣李继岌、郭崇韬伐蜀
+    event: houtang-mie-qianshu
+    yearAccuracy: unknown
+    note: 以魏王李继岌为都统、郭崇韬为招讨使，前蜀王衍出降。
+    sources:
+      - work: 新五代史
+        part: 卷5·唐本纪·庄宗
+        kind: classic
+  - id: xing-jiao-men
+    label: 兴教门兵变中箭身亡
+    event: xingjiaomen-zhibian
+    yearAccuracy: unknown
+    note: 郭从谦率从马直攻兴教门，李存勖督近卫抵抗，中流矢而死。
+    sources:
+      - work: 新五代史
+        part: 卷5·唐本纪·庄宗
+        kind: classic
+      - work: 旧五代史
+        part: 卷34·唐书·庄宗纪八
+        kind: classic
 ---
 
-李克用长子，小字亚子，晓番汉语言，通音律。承父三矢之遗恨，北拒契丹，东擒刘守光，九年血战，龙德三年灭梁即皇帝位，国号唐，都洛阳。自以为得之易，宠任伶官景进、史彦琼辈，政令淫乱。同光四年兴教门之变，中流矢殂。
+李存勖生于晋阳，是河东节度使李克用的长子。唐末中央需要借藩镇兵力维持局面，李克用所据的河东成为与朱氏抗衡的一方。李存勖十一岁随父讨王行瑜，战后奉命赴京献捷，得到唐昭宗赏赐。长成后他善于骑射，也喜欢音律和伶人歌舞。天祐五年，李克用去世，李存勖在太原即晋王位。继位之初，叔父李克宁谋叛，他先处置内乱，继而趁围攻潞州的梁军以为河东丧乱无力应战，借大雾出兵，分道突入夹城。守城之围因此得解，他也在继位后的第一个难关站稳了脚跟。
+
+潞州解围以后，李存勖逐步把争夺的重心推向河北。燕王刘守光闻晋梁相持，一度声称助晋，私下扩兵，后来称帝。李存勖遣周德威会镇、定两地之兵攻燕，刘守光请降又背约，终被擒杀。此后魏州军变，贺德伦以魏、博二州归附。李存勖入魏，兼领魏博节度，从此又有了太原以东的大块立足之地。梁将刘鄩急攻清平，李存勖驰援，未及列阵便遭刘鄩军截击。石敬瑭率十余骑突阵救出李存勖，由此在军中知名。
+
+同光元年，李存勖在魏州称帝，国号唐，任郭崇韬、张居翰为枢密使。李嗣源夺取郓州，又在递坊击败梁将王彦章。十月，李存勖取道郓州，连取中都、曹州，袭灭后梁。先在魏州即位、再进兵灭梁，是后唐从河东政权转为中原王朝的两步。他随后转入洛阳。同光三年，他命魏王李继岌统军，郭崇韬任招讨使出兵西川，前蜀王衍投降。南方的吴越也遣使入贡，请求玉册。后唐群臣曾争论封册的礼制，最终仍赐钱镠玉册、金印。
+
+西川归附后不久，掌握重兵的郭崇韬在蜀中被李继岌杀害。邺都军将赵在礼随后作乱，受命讨乱的李嗣源转而进据汴州。李存勖由洛阳东行，得知汴州已为李嗣源所得，遂退回洛阳。同光四年四月，由伶人进身、又因军功掌军的郭从谦率部攻兴教门。庄宗亲率近卫抵挡，中流矢而死。李存勖早年凭藩镇兵力解潞围、夺河北，晚年接连失去将领和禁军的支持，建国后仅过数年便死于兵变。

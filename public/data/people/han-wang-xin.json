@@ -20,7 +20,21 @@
       "lane": "opposite"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-bang",
+      "target": "han-wang-xin",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -201,
+      "notes": [
+        "徙王太原，勾连匈奴，白登之围由此起"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

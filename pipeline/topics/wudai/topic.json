@@ -604,7 +604,7 @@
       "source": "li-ke-yong",
       "target": "li-cunxu",
       "type": "kin",
-      "note": "父子，晋王之位与三矢之誓所传"
+      "note": "父子，克用死后存勖即晋王位"
     },
     {
       "source": "li-ke-yong",
@@ -730,25 +730,25 @@
       "source": "li-cunxu",
       "target": "zhu-zhen",
       "type": "rival",
-      "note": "夹河决战十余年，存勖灭朱"
+      "note": "庄宗称帝后取道郓州袭汴，后梁亡"
     },
     {
       "source": "li-cunxu",
       "target": "zhou-dewei",
       "type": "ruler-subject",
-      "note": "柏乡却梁，唐之宿将"
+      "note": "潞州分道攻夹城，后奉命会镇、定兵攻燕"
     },
     {
       "source": "li-cunxu",
       "target": "guo-congqian",
       "type": "rival",
-      "note": "伶人宠将，兴教门弑逆"
+      "note": "从马直兵变攻兴教门，庄宗中流矢身亡"
     },
     {
       "source": "li-siyuan",
       "target": "li-cunxu",
       "type": "rival",
-      "note": "从马直之乱，兄弟兵争而得位"
+      "note": "嗣源奉命讨邺乱，转而入汴，庄宗退洛"
     },
     {
       "source": "li-siyuan",
@@ -760,37 +760,37 @@
       "source": "li-siyuan",
       "target": "li-congke",
       "type": "kin",
-      "note": "养子，反戈相向而覆其家"
+      "note": "养子从珂长兴四年封潞王"
     },
     {
       "source": "li-siyuan",
       "target": "shi-jingtang",
       "type": "kin",
-      "note": "子婿与腹心，晋阳之变由此起"
+      "note": "嗣源以女妻敬瑭，敬瑭长期隶其帐下"
     },
     {
       "source": "li-congke",
       "target": "shi-jingtang",
       "type": "rival",
-      "note": "太原举兵，引契丹灭唐"
+      "note": "从珂徙敬瑭镇天平，敬瑭拒命并求援契丹"
     },
     {
-      "source": "shi-jingtang",
-      "target": "yelv-deguang",
+      "source": "yelv-deguang",
+      "target": "shi-jingtang",
       "type": "ruler-subject",
-      "note": "称儿皇帝，父事契丹"
+      "note": "石敬瑭称臣求援，耶律德光册立他为晋帝"
     },
     {
       "source": "shi-jingtang",
       "target": "shi-chonggui",
       "type": "kin",
-      "note": "兄子为养子，出帝继晋"
+      "note": "敬瑭收兄子重贵为子，重贵继位"
     },
     {
       "source": "shi-jingtang",
       "target": "du-chongwei",
       "type": "kin",
-      "note": "甥婿相维，将相之位由亲而得"
+      "note": "杜重威娶石敬瑭之妹，曾奉命讨安重荣"
     },
     {
       "source": "shi-chonggui",
@@ -814,13 +814,13 @@
       "source": "liu-zhiyuan",
       "target": "liu-chengyou",
       "type": "kin",
-      "note": "父子，隐帝急于除大臣"
+      "note": "次子承祐，病中托付郭威、史弘肇等"
     },
     {
       "source": "liu-zhiyuan",
       "target": "liu-chong",
       "type": "kin",
-      "note": "兄弟，汉祚一在汴、一在太原"
+      "note": "兄弟，知远入汴前命刘崇留守太原"
     },
     {
       "source": "liu-chong",
@@ -838,55 +838,55 @@
       "source": "liu-chengyou",
       "target": "guo-wei",
       "type": "rival",
-      "note": "诛其家属，邺都兵起"
+      "note": "隐帝密诏诛郭威，郭威自邺都举兵入汴"
     },
     {
       "source": "guo-wei",
       "target": "chai-rong",
       "type": "kin",
-      "note": "姑婿为后，周祚所传"
+      "note": "收柴氏侄柴荣为养子，遗命继位"
     },
     {
       "source": "chai-rong",
       "target": "chai-zongxun",
       "type": "kin",
-      "note": "父子，恭帝冲龄而禅"
+      "note": "父子，北征还京封梁王，柩前即位"
     },
     {
       "source": "chai-rong",
       "target": "wang-pu-915",
       "type": "ruler-subject",
-      "note": "枢密首席，平边之策所自出"
+      "note": "王朴献平边策，后任枢密使并留守东京"
     },
     {
       "source": "chai-rong",
       "target": "fan-aineng",
-      "type": "rival",
-      "note": "高平弃阵而奔，并按军法"
+      "type": "ruler-subject",
+      "note": "樊爱能领周军右阵，高平退走后伏诛"
     },
     {
       "source": "chai-rong",
       "target": "he-hui",
-      "type": "rival",
-      "note": "高平弃阵而奔，并按军法"
+      "type": "ruler-subject",
+      "note": "何徽领周军右阵，高平退走后伏诛"
     },
     {
       "source": "chai-rong",
       "target": "liu-chong",
       "type": "rival",
-      "note": "高平、太原之役，北汉赖辽而存"
+      "note": "高平击败刘崇，继围太原，契丹来援后班师"
     },
     {
       "source": "chai-rong",
       "target": "li-jing-916",
       "type": "rival",
-      "note": "三征淮南，尽取江北之地"
+      "note": "三征淮南，取十四州，以长江为界"
     },
     {
-      "source": "chai-rong",
+      "source": "li-jing-916",
       "target": "feng-yansi",
       "type": "ruler-subject",
-      "note": "江南词臣，奉表称国主"
+      "note": "李璟授冯延巳翰林学士，后来任相"
     },
     {
       "source": "feng-dao",
@@ -895,10 +895,10 @@
       "note": "晋朝宰辅同列"
     },
     {
-      "source": "feng-dao",
-      "target": "li-siyuan",
+      "source": "li-siyuan",
+      "target": "feng-dao",
       "type": "ruler-subject",
-      "note": "事明宗为相，号称长者"
+      "note": "明宗任冯道为相，曾问百姓丰年生计"
     },
     {
       "source": "fan-zhi",
@@ -964,7 +964,7 @@
       "source": "qian-liu",
       "target": "qian-hongchu",
       "type": "kin",
-      "note": "祖孙，武肃\"善事中国\"之遗训"
+      "note": "钱俶为钱镠之孙、钱元瓘之子，后继吴越王"
     },
     {
       "source": "qian-hongchu",
@@ -976,7 +976,7 @@
       "source": "yang-xingmi",
       "target": "qian-liu",
       "type": "rival",
-      "note": "宣润相持，杨吴不得东下"
+      "note": "争夺苏常，杭州兵变时行密又召田頵回师"
     },
     {
       "source": "yang-xingmi",
@@ -994,13 +994,13 @@
       "source": "li-bian",
       "target": "li-jing-916",
       "type": "kin",
-      "note": "父子，元宗拓而复失"
+      "note": "长子景通曾留守广陵，李昪卒后继位"
     },
     {
       "source": "li-jing-916",
       "target": "li-yu-937",
       "type": "kin",
-      "note": "父子，中主传后主"
+      "note": "从嘉留金陵监国，李璟卒后继位迎丧"
     },
     {
       "source": "li-yu-937",
@@ -1045,12 +1045,6 @@
       "note": "澧朗之争，马殷不能南制"
     },
     {
-      "source": "gao-ji-xing",
-      "target": "li-jing-916",
-      "type": "rival",
-      "note": "岳州一役，荆南尽收楚地"
-    },
-    {
       "source": "sun-guangxian",
       "target": "gao-ji-xing",
       "type": "ruler-subject",
@@ -1090,7 +1084,7 @@
       "source": "liu-shou-guang",
       "target": "li-cunxu",
       "type": "rival",
-      "note": "晋兵围幽州，桀燕擒斩"
+      "note": "守光称帝于燕，晋军破幽州，擒杀守光"
     },
     {
       "source": "liu-ren-gong",
@@ -1114,7 +1108,7 @@
       "source": "chai-rong",
       "target": "wei-renpu",
       "type": "ruler-subject",
-      "note": "周世宗即位，以魏仁浦为宰相，与王溥同预政事"
+      "note": "柴荣在位时，魏仁浦进任枢密使并拜相"
     },
     {
       "source": "he-ning",
@@ -1123,10 +1117,10 @@
       "note": "后晋同朝宰相，旧唐书纂修之事并预"
     },
     {
-      "source": "li-cunxu",
+      "source": "li-siyuan",
       "target": "wang-du",
       "type": "rival",
-      "note": "王都据定州反，晋王李存勖遣兵围之，契丹援败而城破"
+      "note": "王都反于定州，明宗遣王晏球讨平"
     },
     {
       "source": "zhu-zhen",
@@ -1144,31 +1138,31 @@
       "source": "shi-jingtang",
       "target": "sang-weihan",
       "type": "ruler-subject",
-      "note": "敬瑭之谋主，割幽蓟、输岁帛以易契丹之援，晋由是立"
+      "note": "维翰草表求援契丹，晋立后拜相兼枢密使"
     },
     {
       "source": "li-cunxu",
       "target": "guo-chongtao",
       "type": "ruler-subject",
-      "note": "庄宗用崇韬为枢密，袭汴灭梁及平蜀，皆其谋；后以谗见诛"
+      "note": "任崇韬为枢密使，后命他随魏王伐蜀"
     },
     {
       "source": "li-cunxu",
       "target": "wang-yan-qianshu",
       "type": "rival",
-      "note": "同光三年遣郭崇韬伐蜀，衍出降，前蜀亡"
+      "note": "遣李继岌、郭崇韬伐蜀，王衍出降"
     },
     {
       "source": "wang-jian-918",
       "target": "wei-zhuang",
       "type": "ruler-subject",
-      "note": "以掌书记从建入蜀，开国制度文告多出其手，后至宰相"
+      "note": "韦庄曾奉唐命宣谕两川，王建称帝后用以参政"
     },
     {
       "source": "wang-jian-918",
       "target": "wang-yan-qianshu",
       "type": "kin",
-      "note": "父子；建暮年立为太子，及立而为后主"
+      "note": "幼子王宗衍得立为太子，王建死后改名衍即位"
     },
     {
       "source": "li-yu-937",
@@ -1192,13 +1186,13 @@
       "source": "shi-jingtang",
       "target": "an-chongrong",
       "type": "ruler-subject",
-      "note": "重荣为成德军节度使，恃功浸骄，卒举兵叛"
+      "note": "重荣据成德举兵，敬瑭遣杜重威讨之"
     },
     {
       "source": "liu-zhiyuan",
       "target": "shi-hongzhao",
       "type": "ruler-subject",
-      "note": "高祖寝疾，以弘肇与杨邠、王章、郭威同受顾命辅隐帝"
+      "note": "受命攻取代州，后受顾命辅刘承祐"
     },
     {
       "source": "liu-chengyou",
@@ -1223,6 +1217,246 @@
       "target": "duan-sushun",
       "type": "kin",
       "note": "父子；段思聪卒，段素顺继为大理王"
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "li-maozhen",
+      "type": "rival",
+      "note": "凤翔受围时许援李茂贞，同时出兵夺取兴元"
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "gao-ji-xing",
+      "type": "rival",
+      "note": "高季兴侵巫山，王建遣王宗寿于瞿塘击退"
+    },
+    {
+      "source": "wang-jian-918",
+      "target": "du-guangting",
+      "type": "ruler-subject",
+      "note": "王建延杜光庭为太子王元膺之师"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "shi-jingtang",
+      "type": "ruler-subject",
+      "note": "清平遇袭，石敬瑭率十余骑驰突救庄宗"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "qian-liu",
+      "type": "ruler-subject",
+      "note": "吴越遣使入贡，庄宗赐钱镠玉册、金印"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "liu-zhiyuan",
+      "type": "ruler-subject",
+      "note": "知远助谋太原起兵，反对事契丹以父礼、许地"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "note": "河东掌书记，庄宗即位后充翰林学士"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "note": "晋高祖任冯道为首相，遣他向契丹太后上尊号"
+    },
+    {
+      "source": "yelv-deguang",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "note": "契丹入汴召见冯道，问他如何救百姓"
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "note": "冯道自常山归后汉，刘知远拜他为太师"
+    },
+    {
+      "source": "guo-wei",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "note": "遣迎刘赟，后周建国后任太师、中书令"
+    },
+    {
+      "source": "chai-rong",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "note": "冯道谏止亲征北汉，世宗命他留办山陵"
+    },
+    {
+      "source": "liu-shou-guang",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "note": "守光辟为幽州掾，后因进谏将他下狱"
+    },
+    {
+      "source": "feng-dao",
+      "target": "he-ning",
+      "type": "peer",
+      "note": "后晋亡后，与和凝等俱留常山"
+    },
+    {
+      "source": "chai-rong",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "note": "高平督战后擢赵匡胤，命他选殿前精兵"
+    },
+    {
+      "source": "chai-rong",
+      "target": "li-chongjin",
+      "type": "ruler-subject",
+      "note": "高平将左军，正阳破唐后奉命招讨淮南"
+    },
+    {
+      "source": "chai-rong",
+      "target": "qian-hongchu",
+      "type": "ruler-subject",
+      "note": "命吴越出兵常、宣牵制南唐，战后赐军资"
+    },
+    {
+      "source": "chai-rong",
+      "target": "fan-zhi",
+      "type": "ruler-subject",
+      "note": "北征还京后，命范质参知枢密院事"
+    },
+    {
+      "source": "chai-rong",
+      "target": "wang-pu",
+      "type": "ruler-subject",
+      "note": "显德六年命宰相王溥参知枢密院事"
+    },
+    {
+      "source": "qian-liu",
+      "target": "qian-yuanguan",
+      "type": "kin",
+      "note": "父子，授元瓘镇海等军节度，死后由其继位"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "qian-liu",
+      "type": "ruler-subject",
+      "note": "后梁建国后册封钱镠为吴越王"
+    },
+    {
+      "source": "qian-liu",
+      "target": "luo-yin",
+      "type": "ruler-subject",
+      "note": "罗隐为镇海判官，曾劝钱镠勿受梁命"
+    },
+    {
+      "source": "qian-liu",
+      "target": "an-zhonghui",
+      "type": "rival",
+      "note": "使臣礼节起争端，安重诲奏削吴越王爵"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "qian-liu",
+      "type": "ruler-subject",
+      "note": "吴越一度被削爵，安重诲死后明宗恢复"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "li-siyuan",
+      "type": "kin",
+      "note": "李克用收邈佶烈为养子，赐名嗣源"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "wang-yanzhang",
+      "type": "rival",
+      "note": "郓州之围后追击梁军，在中都擒王彦章"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "wang-yanqiu",
+      "type": "ruler-subject",
+      "note": "王都据定州反，命王晏球招讨并破其城"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "an-zhonghui",
+      "type": "ruler-subject",
+      "note": "由中门使擢为枢密使，长兴二年罢职被杀"
+    },
+    {
+      "source": "li-siyuan",
+      "target": "liu-zhiyuan",
+      "type": "ruler-subject",
+      "note": "与石敬瑭同为李嗣源麾下偏将"
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "du-chongwei",
+      "type": "rival",
+      "note": "杜重威据邺后出降，刘知远先行赦免"
+    },
+    {
+      "source": "li-jing-916",
+      "target": "song-qi-qiu",
+      "type": "ruler-subject",
+      "note": "广陵共辅吴主，李璟继位后再召宋齐丘为相"
+    },
+    {
+      "source": "li-jing-916",
+      "target": "han-xizai",
+      "type": "ruler-subject",
+      "note": "韩熙载论福州败事，又在李璟时议铸铁钱"
+    },
+    {
+      "source": "li-jing-916",
+      "target": "ma-xichong",
+      "type": "ruler-subject",
+      "note": "破潭州迁马氏至金陵，授马希崇舒州节度使"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-jing-916",
+      "type": "ruler-subject",
+      "note": "宋初遣使慰谕，李璟仍奉贡，迁南都又受慰问"
+    },
+    {
+      "source": "liu-zhiyuan",
+      "target": "guo-wei",
+      "type": "ruler-subject",
+      "note": "郭威随知远历镇，后汉立后拜枢密副使"
+    },
+    {
+      "source": "shi-jingtang",
+      "target": "guo-wei",
+      "type": "ruler-subject",
+      "note": "石敬瑭见郭威长于书计，召掌军籍"
+    },
+    {
+      "source": "guo-wei",
+      "target": "wei-renpu",
+      "type": "ruler-subject",
+      "note": "邺都获知密诏，召魏仁浦商议起兵"
+    },
+    {
+      "source": "guo-wei",
+      "target": "fan-zhi",
+      "type": "ruler-subject",
+      "note": "入汴后任范质为枢密副使，建周后拜相"
+    },
+    {
+      "source": "guo-wei",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "note": "征李守贞时赵匡胤应募入其帐下"
+    },
+    {
+      "source": "guo-wei",
+      "target": "wang-pu",
+      "type": "ruler-subject",
+      "note": "显德元年临终前擢王溥为相"
     }
   ],
   "events": [

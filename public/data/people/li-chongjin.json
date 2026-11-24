@@ -46,6 +46,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "chai-rong",
+      "target": "li-chongjin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高平将左军，正阳破唐后奉命招讨淮南"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [

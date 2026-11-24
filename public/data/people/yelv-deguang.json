@@ -55,12 +55,12 @@
       ]
     },
     {
-      "source": "shi-jingtang",
-      "target": "yelv-deguang",
+      "source": "yelv-deguang",
+      "target": "shi-jingtang",
       "type": "ruler-subject",
       "directed": true,
       "notes": [
-        "称儿皇帝，父事契丹"
+        "石敬瑭称臣求援，耶律德光册立他为晋帝"
       ],
       "topicIds": [
         "wudai"
@@ -85,6 +85,18 @@
       "directed": true,
       "notes": [
         "以大军降，导契丹入汴"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "yelv-deguang",
+      "target": "feng-dao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "契丹入汴召见冯道，问他如何救百姓"
       ],
       "topicIds": [
         "wudai"

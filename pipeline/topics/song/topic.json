@@ -2312,6 +2312,48 @@
       "type": "ruler-subject",
       "since": 976,
       "note": "开国宿将，太宗朝出为前军地道都部署从征太原灭北汉，寻卒"
+    },
+    {
+      "source": "cao-bin",
+      "target": "pan-mei",
+      "type": "peer",
+      "since": 960,
+      "note": "宋初两大统帅，同领水陆大军克金陵灭南唐，雍熙北伐分道出师"
+    },
+    {
+      "source": "pan-mei",
+      "target": "yang-ye",
+      "type": "peer",
+      "since": 986,
+      "note": "雍熙北伐西路主帅与副将，陈家谷监军王侁强令出兵，杨业力战无援殉国，潘美坐削秩"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "gao-huaide",
+      "type": "kin",
+      "since": 960,
+      "note": "尚太祖妹燕国长公主为驸马都尉，拜殿前副都点检，义社十兄弟至亲"
+    },
+    {
+      "source": "shi-shouxin",
+      "target": "gao-huaide",
+      "type": "peer",
+      "since": 960,
+      "note": "同为义社十兄弟与殿前禁军元宿，合军平李筠之叛，晚朝杯酒释兵权同罢军权"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "gao-huaide",
+      "type": "ruler-subject",
+      "since": 976,
+      "note": "开国至亲宿将，太平兴国四年从太宗亲征太原灭北汉，进封冀国公"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "cao-bin",
+      "type": "ruler-subject",
+      "since": 976,
+      "note": "太宗朝封鲁国公，命统十万主力大举雍熙北伐，岐沟关战溃免死贬秩"
     }
   ],
   "events": [
