@@ -31,6 +31,30 @@
   ],
   "relations": [
     {
+      "source": "li-ye",
+      "target": "zhu-wen",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "天复围凤翔诛宦官挟昭宗迁洛阳，天祐元年遣养子朱友恭夜入椒殿弑杀昭宗"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-ye",
+      "target": "li-ke-yong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "乾宁年间王行瑜李茂贞谋废立，李克用大举勤王斩王行瑜，昭宗拜太师封晋王"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-xuan",
       "target": "li-ye",
       "type": "kin",

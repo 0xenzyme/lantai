@@ -1473,7 +1473,13 @@
       "source": "li-chun",
       "target": "pei-du",
       "type": "ruler-subject",
-      "note": "裴度督师平淮西，元和中兴"
+      "note": "宪宗元和中兴首辅，通化坊遇刺伤首不屈，力主削藩督师平淮西"
+    },
+    {
+      "source": "pei-du",
+      "target": "wu-yuan-ji",
+      "type": "rival",
+      "note": "淮西吴元济反叛刺相，裴度以宰相督师前线，支持李愬雪夜擒杀吴元济"
     },
     {
       "source": "li-kuo",
@@ -1488,22 +1494,52 @@
       "note": "牛李党争，相互排抑数十年"
     },
     {
+      "source": "li-yan",
+      "target": "li-de-yu",
+      "type": "ruler-subject",
+      "note": "武宗专任德裕为相，破回鹘、平泽潞、行会昌灭佛，号会昌中兴"
+    },
+    {
+      "source": "li-chen",
+      "target": "li-de-yu",
+      "type": "ruler-subject",
+      "note": "宣宗即位深恶其专权，罢相连贬潮州司马、崖州司户，大中三年卒于贬所"
+    },
+    {
       "source": "huang-chao",
       "target": "zhu-wen",
       "type": "peer",
-      "note": "黄巢部将朱温降唐，后篡唐"
+      "note": "朱温初为黄巢同州防御使大将，大齐势衰反戈降唐，反与官军夹击黄巢"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "huang-chao",
+      "type": "rival",
+      "note": "中和三年李克用率沙陀黑鸦军入关，梁田陂大溃黄巢齐军收复长安"
     },
     {
       "source": "zhu-wen",
       "target": "li-chu",
       "type": "rival",
-      "note": "朱温逼迁昭宗，篡唐建梁，寻鸩杀哀帝"
+      "note": "弑昭宗立哀帝，天祐四年逼禅建立后梁，唐朝灭亡"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "li-ye",
+      "type": "rival",
+      "note": "天复围凤翔诛宦官挟昭宗迁洛阳，天祐元年遣养子朱友恭夜入椒殿弑杀昭宗"
+    },
+    {
+      "source": "li-ye",
+      "target": "li-ke-yong",
+      "type": "ruler-subject",
+      "note": "乾宁年间王行瑜李茂贞谋废立，李克用大举勤王斩王行瑜，昭宗拜太师封晋王"
     },
     {
       "source": "li-ke-yong",
       "target": "zhu-wen",
       "type": "rival",
-      "note": "沙陀李克用与朱温世仇，梁晋相争"
+      "note": "中和四年朱温设宴汴州上源驿夜袭李克用，克用雨夜缒城脱险，结终身世仇"
     },
     {
       "source": "xuan-zang",

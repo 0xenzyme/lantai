@@ -30,6 +30,18 @@
   ],
   "relations": [
     {
+      "source": "li-yan",
+      "target": "li-de-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武宗专任德裕为相，破回鹘、平泽潞、行会昌灭佛，号会昌中兴"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-heng-mu",
       "target": "li-yan",
       "type": "kin",

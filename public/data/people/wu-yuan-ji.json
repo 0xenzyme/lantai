@@ -32,6 +32,18 @@
   ],
   "relations": [
     {
+      "source": "pei-du",
+      "target": "wu-yuan-ji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "淮西吴元济反叛刺相，裴度以宰相督师前线，支持李愬雪夜擒杀吴元济"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
       "source": "li-chun",
       "target": "wu-yuan-ji",
       "type": "rival",

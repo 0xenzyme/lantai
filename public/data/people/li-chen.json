@@ -32,6 +32,18 @@
   "relations": [
     {
       "source": "li-chen",
+      "target": "li-de-yu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宣宗即位深恶其专权，罢相连贬潮州司马、崖州司户，大中三年卒于贬所"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    },
+    {
+      "source": "li-chen",
       "target": "du-mu",
       "type": "ruler-subject",
       "directed": true,
