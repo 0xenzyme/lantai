@@ -3061,6 +3061,69 @@
       "type": "rival",
       "since": 759,
       "note": "肃宗朝思明降而复叛，陷洛阳僭号大燕皇帝"
+    },
+    {
+      "source": "li-heng",
+      "target": "xu-yuan",
+      "type": "ruler-subject",
+      "since": 756,
+      "note": "擢远为睢阳太守固守江淮咽喉，城陷死难，追赠荆州大都督并建双庙合祀"
+    },
+    {
+      "source": "xu-yuan",
+      "target": "an-qing-xu",
+      "type": "rival",
+      "since": 757,
+      "note": "睢阳陷落械送洛阳，庆绪北逃邺城前害远于偃师"
+    },
+    {
+      "source": "li-sheng",
+      "target": "zhu-ci",
+      "type": "rival",
+      "since": 783,
+      "note": "泚泾原兵变僭帝号据长安，晟严整神策士伍大举反攻，克复京师"
+    },
+    {
+      "source": "hun-jian",
+      "target": "li-sheng",
+      "type": "peer",
+      "since": 783,
+      "note": "同为中唐定难元勋，浑瑊扼守奉天，李晟外合定京，世并称「李浑」"
+    },
+    {
+      "source": "li-sheng",
+      "target": "li-huaiguang",
+      "type": "rival",
+      "since": 784,
+      "note": "怀光解奉天之围后反畔自立，晟移军东渭桥以制其冲，终定难破贼"
+    },
+    {
+      "source": "ma-sui",
+      "target": "li-sheng",
+      "type": "peer",
+      "since": 781,
+      "note": "同为德宗朝柱石重将，出征削藩平定朱泚之乱，并列勋德"
+    },
+    {
+      "source": "li-cui",
+      "target": "zhang-yichao",
+      "type": "ruler-subject",
+      "since": 867,
+      "note": "咸通年间议潮入朝觐见，懿宗加封检校司徒、同平章事，留京奉朝请"
+    },
+    {
+      "source": "li-shimin",
+      "target": "qi-bi-he-li",
+      "type": "ruler-subject",
+      "since": 632,
+      "note": "率部内附拜宿卫，遭叛割耳明忠，太宗感泣深加器重，亲为剪毛敷药"
+    },
+    {
+      "source": "su-ding-fang",
+      "target": "qi-bi-he-li",
+      "type": "peer",
+      "since": 655,
+      "note": "同为太宗、高宗朝宿将，显庆年间分统诸道兵马经略西域、平定诸蕃"
     }
   ],
   "events": [

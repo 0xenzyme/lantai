@@ -52,6 +52,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-cui",
+      "target": "zhang-yichao",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 867,
+      "notes": [
+        "咸通年间议潮入朝觐见，懿宗加封检校司徒、同平章事，留京奉朝请"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

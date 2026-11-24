@@ -175,6 +175,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-heng",
+      "target": "xu-yuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 756,
+      "notes": [
+        "擢远为睢阳太守固守江淮咽喉，城陷死难，追赠荆州大都督并建双庙合祀"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

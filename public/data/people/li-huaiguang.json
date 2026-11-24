@@ -21,7 +21,21 @@
       "lane": "end"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-huaiguang",
+      "target": "li-sheng",
+      "type": "rival",
+      "directed": false,
+      "since": 784,
+      "notes": [
+        "怀光解奉天之围后反畔自立，晟移军东渭桥以制其冲，终定难破贼"
+      ],
+      "topicIds": [
+        "tang"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

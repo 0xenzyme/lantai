@@ -94,6 +94,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "qi-bi-he-li",
+      "target": "su-ding-fang",
+      "type": "peer",
+      "directed": false,
+      "since": 655,
+      "notes": [
+        "同为太宗、高宗朝宿将，显庆年间分统诸道兵马经略西域、平定诸蕃"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

@@ -473,6 +473,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-shimin",
+      "target": "qi-bi-he-li",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 632,
+      "notes": [
+        "率部内附拜宿卫，遭叛割耳明忠，太宗感泣深加器重，亲为剪毛敷药"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

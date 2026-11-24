@@ -41,6 +41,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-sheng",
+      "target": "zhu-ci",
+      "type": "rival",
+      "directed": false,
+      "since": 783,
+      "notes": [
+        "泚泾原兵变僭帝号据长安，晟严整神策士伍大举反攻，克复京师"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

@@ -40,6 +40,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "li-sheng",
+      "target": "ma-sui",
+      "type": "peer",
+      "directed": false,
+      "since": 781,
+      "notes": [
+        "同为德宗朝柱石重将，出征削藩平定朱泚之乱，并列勋德"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [],

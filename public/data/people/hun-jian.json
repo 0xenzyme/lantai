@@ -42,6 +42,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "hun-jian",
+      "target": "li-sheng",
+      "type": "peer",
+      "directed": false,
+      "since": 783,
+      "notes": [
+        "同为中唐定难元勋，浑瑊扼守奉天，李晟外合定京，世并称「李浑」"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [

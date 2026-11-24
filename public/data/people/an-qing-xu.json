@@ -77,6 +77,19 @@
       "topicIds": [
         "tang"
       ]
+    },
+    {
+      "source": "an-qing-xu",
+      "target": "xu-yuan",
+      "type": "rival",
+      "directed": false,
+      "since": 757,
+      "notes": [
+        "睢阳陷落械送洛阳，庆绪北逃邺城前害远于偃师"
+      ],
+      "topicIds": [
+        "tang"
+      ]
     }
   ],
   "events": [
