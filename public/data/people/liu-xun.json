@@ -205,6 +205,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "wei-xiang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -67,
+      "notes": [
+        "地节三年代韦贤为相，助宣帝夺霍氏权"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

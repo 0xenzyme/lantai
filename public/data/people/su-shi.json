@@ -158,6 +158,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "su-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1094,
+      "notes": [
+        "绍圣亲政恢复新法并大兴党狱，将苏轼连贬惠州与海南儋州"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

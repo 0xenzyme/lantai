@@ -41,6 +41,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-huan",
+      "target": "cai-jing",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1126,
+      "notes": [
+        "靖康元年钦宗顺从民意追贬蔡京安置岭南，行至潭州病饿而死"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-huan",
+      "target": "tong-guan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1126,
+      "notes": [
+        "靖康元年钦宗下诏追捕童贯，命御史追斩于南雄州枭首示众"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

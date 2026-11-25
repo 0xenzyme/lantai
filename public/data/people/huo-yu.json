@@ -20,7 +20,21 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "huo-yu",
+      "target": "wei-xiang",
+      "type": "rival",
+      "directed": false,
+      "since": -66,
+      "notes": [
+        "霍氏谋矫太后诏召斩相，事发伏诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

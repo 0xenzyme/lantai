@@ -2219,6 +2219,65 @@
       "type": "ruler-subject",
       "since": -81,
       "note": "始元六年诏问盐铁，弘羊与贤良文学辩"
+    },
+    {
+      "source": "liu-xun",
+      "target": "wei-xiang",
+      "type": "ruler-subject",
+      "since": -67,
+      "note": "地节三年代韦贤为相，助宣帝夺霍氏权"
+    },
+    {
+      "source": "wei-xiang",
+      "target": "huo-guang",
+      "type": "rival",
+      "note": "霍光责其逐丞相子，下廷尉狱；光死后相奏夺霍氏权"
+    },
+    {
+      "source": "wei-xiang",
+      "target": "huo-yu",
+      "type": "rival",
+      "since": -66,
+      "note": "霍氏谋矫太后诏召斩相，事发伏诛"
+    },
+    {
+      "source": "bing-ji",
+      "target": "huo-guang",
+      "type": "peer",
+      "note": "霍光甚重之，入为光禄大夫给事中；昭帝崩，吉奏记荐皇曾孙"
+    },
+    {
+      "source": "zhang-an-shi",
+      "target": "bing-ji",
+      "type": "peer",
+      "since": -74,
+      "note": "同与霍光定策，迎立宣帝"
+    },
+    {
+      "source": "huang-ba",
+      "target": "bing-ji",
+      "type": "peer",
+      "since": -55,
+      "note": "五凤三年代丙吉为丞相"
+    },
+    {
+      "source": "zhao-chongguo",
+      "target": "huo-guang",
+      "type": "peer",
+      "note": "与霍光定册尊立宣帝，封营平侯"
+    },
+    {
+      "source": "zhao-chongguo",
+      "target": "bing-ji",
+      "type": "peer",
+      "since": -61,
+      "note": "丙吉奉诏问谁可将，充国自请行"
+    },
+    {
+      "source": "zhao-chongguo",
+      "target": "wei-xiang",
+      "type": "peer",
+      "note": "元康中议匈奴事，相同议"
     }
   ],
   "events": [

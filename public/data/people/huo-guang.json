@@ -182,6 +182,42 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "wei-xiang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "霍光责其逐丞相子，下廷尉狱；光死后相奏夺霍氏权"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "bing-ji",
+      "target": "huo-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "霍光甚重之，入为光禄大夫给事中；昭帝崩，吉奏记荐皇曾孙"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "zhao-chongguo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与霍光定册尊立宣帝，封营平侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

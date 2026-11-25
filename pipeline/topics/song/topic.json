@@ -2585,6 +2585,55 @@
       "type": "ruler-subject",
       "since": 1086,
       "note": "哲宗元祐初以八十元老拜平章军国重事，辽使见之皆肃立致敬"
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "zhao-ji",
+      "type": "kin",
+      "since": 1082,
+      "note": "兄弟，哲宗元符三年崩无嗣，徽宗以端王入继大统"
+    },
+    {
+      "source": "zhao-ji",
+      "target": "cai-jing",
+      "type": "ruler-subject",
+      "since": 1102,
+      "note": "崇宁元年拜相四度当国十七年，鼓吹丰亨豫大，兴花石纲与元祐党人碑"
+    },
+    {
+      "source": "zhao-ji",
+      "target": "tong-guan",
+      "type": "ruler-subject",
+      "since": 1103,
+      "note": "总掌西北及禁兵二十年，镇压方腊、主谋海上之盟，破格封广阳郡王"
+    },
+    {
+      "source": "cai-jing",
+      "target": "tong-guan",
+      "type": "peer",
+      "since": 1100,
+      "note": "杭州访书画密结死党，蔡京居中称公相、童贯握兵称媪相，同列六贼"
+    },
+    {
+      "source": "zhao-huan",
+      "target": "cai-jing",
+      "type": "ruler-subject",
+      "since": 1126,
+      "note": "靖康元年钦宗顺从民意追贬蔡京安置岭南，行至潭州病饿而死"
+    },
+    {
+      "source": "zhao-huan",
+      "target": "tong-guan",
+      "type": "ruler-subject",
+      "since": 1126,
+      "note": "靖康元年钦宗下诏追捕童贯，命御史追斩于南雄州枭首示众"
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "su-shi",
+      "type": "ruler-subject",
+      "since": 1094,
+      "note": "绍圣亲政恢复新法并大兴党狱，将苏轼连贬惠州与海南儋州"
     }
   ],
   "events": [
