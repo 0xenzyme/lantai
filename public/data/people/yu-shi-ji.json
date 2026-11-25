@@ -27,7 +27,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "pei-yun",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "参掌机密同僚，难前谋议被抑"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

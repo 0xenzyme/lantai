@@ -108,6 +108,32 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "wei-qing",
+      "target": "zhang-qian",
+      "type": "peer",
+      "directed": false,
+      "since": -123,
+      "notes": [
+        "从大将军击匈奴，知水草处，封博望侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wei-qing",
+      "target": "zhu-fu-yan",
+      "type": "peer",
+      "directed": false,
+      "since": -134,
+      "notes": [
+        "西入关见卫将军，卫青数言于上"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -234,3 +234,100 @@ test('自检只对本条目造成的全局错误负责，仓库其他文件的�
     writeFileSync(otherPath, original);
   }
 });
+
+test('升档批自检要求写齐经历和关系，核心人物要求更高；勘误批不做这项检查', () => {
+  const data = loadPipeline(join(root, 'pipeline'));
+  const qin = data.topics.find((topic) => topic.meta.id === 'qin')!;
+  const [id, otherId] = qin.people
+    .map((person) => person.id)
+    .filter((personId) => data.personPaths.get(personId)?.startsWith('content/qin/'));
+  const canonical = readFileSync(join(root, data.personPaths.get(id)!), 'utf8');
+  const parsed = parsePersonMarkdown(canonical, data.personPaths.get(id)!).person!;
+  const batchId = 'test-upgrade-completeness';
+  const directory = join(root, 'workspace/content/raw', batchId);
+  const factFields = [
+    'name',
+    'gender',
+    'polity',
+    'categories',
+    'primary',
+    'birth',
+    'birthAccuracy',
+    'birthNote',
+    'death',
+    'deathAccuracy',
+    'deathNote',
+    'title',
+    'tags',
+    'aliases',
+    'sources',
+    'works',
+    'experiences',
+    'bio',
+  ];
+  const source = { work: '測試書', part: '卷一', kind: 'classic' as const };
+  const experience = (n: number) => ({
+    id: `exp-${n}`,
+    label: `经历${n}`,
+    note: `合成经历${n}。`,
+    year: -220 + n,
+    yearAccuracy: 'exact' as const,
+    sources: [source],
+  });
+  const edge = (from: string, to: string) => ({
+    topic: 'qin',
+    source: from,
+    target: to,
+    type: 'peer',
+    note: '同朝为官，合成测试',
+  });
+
+  const write = (person: Partial<RegistryPerson>, relations: ReturnType<typeof edge>[]) => {
+    const full: RegistryPerson = {
+      ...parsed,
+      ...person,
+      sources: [source],
+      bio: `${parsed.bio ?? ''}\n\n第二段：卒於測試十年。`.trim(),
+    };
+    writeFileSync(join(directory, 'items', `${id}.md`), formatPersonMarkdown(full));
+    writeFileSync(
+      join(directory, 'items', `${id}.json`),
+      JSON.stringify({
+        id,
+        admission: '合成测试：升档。',
+        evidence: [{ id: 'e1', work: '測試書', locator: '卷一', excerpt: '測試人者，測試朝人也。' }],
+        claims: [
+          {
+            text: '全部字段依据合成原典。',
+            fields: Object.keys(full).filter((field) => factFields.includes(field)),
+            sourceIds: ['e1'],
+          },
+        ],
+        relations,
+        existingRelations: [],
+      }),
+    );
+  };
+  const completeness = (result: ReturnType<typeof checkItem>) =>
+    result.problems.filter((problem) => problem.startsWith('[COMPLETENESS]'));
+
+  initBatch(root, { id: batchId, description: '合成升档批次', author: 'fixture-writer', mode: 'upgrade', ids: [id] });
+
+  write({ categories: ['official'], primary: 'official', experiences: [] }, [edge(id, otherId), edge(otherId, id)]);
+  assert.match(completeness(checkItem(root, batchId, id)).join('\n'), /至少 2 条 experiences，现在是 0/);
+
+  write({ categories: ['official'], primary: 'official', experiences: [experience(1), experience(2)] }, []);
+  assert.match(completeness(checkItem(root, batchId, id)).join('\n'), /关系合计至少 2 条：已有 0 条，本次新提 0 条/);
+
+  write({ categories: ['official'], primary: 'official', experiences: [experience(1), experience(2)] }, [
+    edge(id, otherId),
+    edge(otherId, id),
+  ]);
+  assert.equal(checkItem(root, batchId, id).ok, true, checkItem(root, batchId, id).problems.join('; '));
+
+  write({ categories: ['monarch'], primary: 'monarch', experiences: [experience(1), experience(2)] }, [
+    edge(id, otherId),
+    edge(otherId, id),
+  ]);
+  assert.match(completeness(checkItem(root, batchId, id)).join('\n'), /核心人物至少 3 条 experiences，现在是 2/);
+});

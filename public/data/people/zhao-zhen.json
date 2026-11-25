@@ -121,6 +121,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "bao-zheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1040,
+      "notes": [
+        "历任御史、知开封府及枢密副使，直谏溅帝衣而仁宗宽容纳之"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "wen-yanbo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1048,
+      "notes": [
+        "平定贝州王则之乱拜相，至和并相、嘉祐镇定朝纲"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

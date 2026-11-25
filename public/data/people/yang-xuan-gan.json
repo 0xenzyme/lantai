@@ -39,6 +39,54 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "玄感黎阳举兵反，进逼东都"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-su",
+      "target": "yang-xuan-gan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "子玄感嗣爵，后举兵族灭"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "lai-hu-er",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "玄感作逆黎阳，勒兵与述等破之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "pei-yun",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "奉旨穷治玄感党与，戮数万人"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

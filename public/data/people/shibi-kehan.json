@@ -20,7 +20,20 @@
       "lane": "opposite"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "shibi-kehan",
+      "target": "yang-guang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "始毕数十万骑谋袭乘舆，围帝雁门"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

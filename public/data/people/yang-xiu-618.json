@@ -27,7 +27,20 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yang-su",
+      "target": "yang-xiu-618",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "与炀帝构成其罪，蜀王秀废黜"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

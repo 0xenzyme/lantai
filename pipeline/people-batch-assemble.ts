@@ -56,6 +56,8 @@ export interface ItemSidecar {
   relationFixes?: RelationProposal[];
   /** 勘误批逐条记录改了什么；升档批可省略。 */
   changes?: string[];
+  /** init 写入的参考信息：与本人在各专题里已有的关系边。不属于候选内容，不参与内容指纹。 */
+  existingRelations?: RelationProposal[];
 }
 
 interface Scope {
@@ -86,7 +88,14 @@ export interface ItemCheck {
   evidence: EvidenceResult[];
   /** 仓库其他文件里已经存在的全局错误，不是本条目造成的。不挡自检，但应用前的准入检查要求全库无错。 */
   external: string[];
+  /** 自检判断不了、独立审核却会打回的情况。每次自检都提示，不挡自检。 */
+  hints: string[];
 }
+
+const STANDING_HINTS = [
+  '原稿把原典不载的年份（尤其是生卒年）写成 exact 的，把 accuracy 降为 approx 或 unknown，并在 note 里写明推算依据；年份本身保留。',
+  '原稿已有的内容不因本地原典没有提到而删除，只有与原典矛盾才改。',
+];
 
 /** 不带本条目改动时全库已有的 error。用来把仓库其他文件的问题与本条目造成的问题分开。 */
 function baselineErrors(data: PipelineData): string[] {
@@ -213,6 +222,38 @@ function singleBatch(scope: Scope, items: ContentCandidate[]): ContentBatch {
   };
 }
 
+/** 《详表质量规范》里的核心枢纽：帝王、名相、摄政、名将、文豪。 */
+const CORE_CATEGORIES = new Set(['monarch', 'chancellor', 'regent', 'general', 'poetry', 'literature']);
+
+/**
+ * 升档批的完整度要求：自检的其余部分只核对「写出来的内容对不对」，这里核对「规范要求的内容写没写齐」。
+ * 核心人物至少 3 条经历，其他人物至少 2 条；已有关系加本次新提的关系合计至少 2 条。
+ * 勘误和恢复批不新增内容，不做这项检查。
+ */
+function completenessProblems(scope: Scope, id: string, after: string, sidecar: ItemSidecar): string[] {
+  if (scope.mode !== 'upgrade') return [];
+  const person = parsePersonMarkdown(after, `items/${id}.md`).person;
+  if (!person) return [];
+  const main = person.primary ?? (person.categories ?? [])[0];
+  const core = main !== undefined && CORE_CATEGORIES.has(main);
+  const minimum = core ? 3 : 2;
+  const experiences = person.experiences?.length ?? 0;
+  const existing = sidecar.existingRelations?.length ?? 0;
+  const proposed = sidecar.relations?.length ?? 0;
+  const problems: string[] = [];
+  if (experiences < minimum) {
+    problems.push(
+      `[COMPLETENESS] 升档批要求${core ? '核心人物' : '人物'}至少 ${minimum} 条 experiences，现在是 ${experiences}。不能用 event 关联公共事件的经历，写成自带 year、yearAccuracy 的经历。`,
+    );
+  }
+  if (existing + proposed < 2) {
+    problems.push(
+      `[COMPLETENESS] 升档批要求关系合计至少 2 条：已有 ${existing} 条，本次新提 ${proposed} 条。在 items/${id}.json 的 relations 里补有原典依据的关系。`,
+    );
+  }
+  return problems;
+}
+
 /** 起草者交接前与工作流闸门共用的单人自检：格式、claim 映射、摘录逐字、人物 lint 与全局投影。 */
 export function checkItem(root: string, batchId: string, id: string): ItemCheck {
   const scope = readScope(root, batchId);
@@ -222,6 +263,7 @@ export function checkItem(root: string, batchId: string, id: string): ItemCheck 
   let evidence: EvidenceResult[] = [];
   let external: string[] = [];
   if (built.candidate && !built.unchanged) {
+    if (built.sidecar) problems.push(...completenessProblems(scope, id, built.candidate.proposal.after, built.sidecar));
     evidence = checkEvidence(id, built.candidate.proposal.evidence, root);
     problems.push(
       ...evidence
@@ -252,6 +294,7 @@ export function checkItem(root: string, batchId: string, id: string): ItemCheck 
     problems: [...new Set(problems)],
     evidence,
     external,
+    hints: STANDING_HINTS,
   };
 }
 
@@ -494,6 +537,7 @@ function main(): void {
       for (const item of local) console.log(`  需人工核对（不在本机原典）：${item.evidenceId} ${item.work}`);
       for (const error of result.external)
         console.log(`  仓库其他文件的全局错误（不挡本条目，应用前须修正）：${error}`);
+      for (const hint of result.hints) console.log(`  提示：${hint}`);
     }
     if (!result.ok) process.exitCode = 1;
     return;

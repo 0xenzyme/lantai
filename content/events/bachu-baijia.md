@@ -16,6 +16,8 @@ polity:
   - han
 people:
   - liu-che
+  - dong-zhongshu
+  - gongsun-hong
 result: 儒学官学地位确立，汉家制度转向儒术
 aliases:
   - 独尊儒术

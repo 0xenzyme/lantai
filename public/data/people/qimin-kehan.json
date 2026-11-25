@@ -20,7 +20,20 @@
       "lane": "opposite"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "qimin-kehan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇十九年内附，册为启民可汗，处大利城"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

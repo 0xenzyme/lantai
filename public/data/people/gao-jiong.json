@@ -64,6 +64,66 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "yu-wen-kai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "营新都颎总大纲，规划皆出恺"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "chen-shubao",
+      "target": "gao-jiong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "颎为元帅长史，三军谘禀皆取断于颎"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "代威为右仆射，与颎专掌朝政"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "he-ruo-bi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "颎荐弼堪平陈，大业三年同坐诛"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "pei-yun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "超授仪同时高熲两度进谏阻宠"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

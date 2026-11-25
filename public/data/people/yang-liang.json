@@ -21,7 +21,20 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yang-liang",
+      "target": "yang-su",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谅据并州举兵，素讨平之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

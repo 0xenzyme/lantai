@@ -96,6 +96,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "sima-guang",
+      "target": "wen-yanbo",
+      "type": "peer",
+      "directed": false,
+      "since": 1086,
+      "notes": [
+        "洛阳耆英会故交，元祐初同受高太后召还主政，彦博位居司马光之上"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

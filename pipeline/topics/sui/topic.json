@@ -612,6 +612,390 @@
       "target": "wang-bo",
       "type": "rival",
       "note": "大业中须陀数破薄军于山东，薄散而复聚"
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-guang",
+      "type": "kin",
+      "note": "大业元年立为皇后，帝崩撤床箦为棺埋之"
+    },
+    {
+      "source": "yang-guang",
+      "target": "chen-shubao",
+      "type": "rival",
+      "note": "开皇八年广为元帅伐陈，叔宝亡国"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-kai",
+      "type": "ruler-subject",
+      "note": "诏将作大匠恺营建东京"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "note": "玄感黎阳举兵反，进逼东都"
+    },
+    {
+      "source": "yang-guang",
+      "target": "shibi-kehan",
+      "type": "rival",
+      "note": "始毕数十万骑谋袭乘舆，围帝雁门"
+    },
+    {
+      "source": "yang-guang",
+      "target": "wang-shichong",
+      "type": "ruler-subject",
+      "note": "遣江都郡丞世充击破孟让"
+    },
+    {
+      "source": "yang-jian",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "note": "开皇初以太子少保兼纳言、吏部尚书，仁寿中与修五礼"
+    },
+    {
+      "source": "yang-jian",
+      "target": "han-qinhu",
+      "type": "ruler-subject",
+      "note": "开皇九年韩擒虎入建邺俘陈后主"
+    },
+    {
+      "source": "yang-jian",
+      "target": "he-ruo-bi",
+      "type": "ruler-subject",
+      "note": "开皇九年贺若弼破陈师蒋山，俘萧摩诃"
+    },
+    {
+      "source": "yang-jian",
+      "target": "qimin-kehan",
+      "type": "ruler-subject",
+      "note": "开皇十九年内附，册为启民可汗，处大利城"
+    },
+    {
+      "source": "gao-jiong",
+      "target": "yu-wen-kai",
+      "type": "peer",
+      "note": "营新都颎总大纲，规划皆出恺"
+    },
+    {
+      "source": "yang-su",
+      "target": "yu-wen-kai",
+      "type": "peer",
+      "note": "荐恺营仁寿宫，同营山陵东京"
+    },
+    {
+      "source": "yang-da",
+      "target": "yu-wen-kai",
+      "type": "peer",
+      "note": "同受诏营建东京"
+    },
+    {
+      "source": "niu-hong",
+      "target": "yu-wen-kai",
+      "type": "peer",
+      "note": "大业二年同制定舆服"
+    },
+    {
+      "source": "chen-shubao",
+      "target": "he-ruo-bi",
+      "type": "rival",
+      "note": "祯明三年弼破陈军于钟山，烧北掖门入宫城"
+    },
+    {
+      "source": "chen-shubao",
+      "target": "yang-su",
+      "type": "rival",
+      "note": "伐陈之役素率水军东下，上游陈援不得至"
+    },
+    {
+      "source": "chen-shubao",
+      "target": "gao-jiong",
+      "type": "rival",
+      "note": "颎为元帅长史，三军谘禀皆取断于颎"
+    },
+    {
+      "source": "yuwen-chan",
+      "target": "yang-su",
+      "type": "ruler-subject",
+      "note": "静帝朝遣杨素讨宇文胄，破于荥州"
+    },
+    {
+      "source": "yuwen-chan",
+      "target": "yang-yong",
+      "type": "ruler-subject",
+      "note": "大象二年以杨勇为上柱国大司马"
+    },
+    {
+      "source": "yuwen-chan",
+      "target": "yang-xiong-542",
+      "type": "ruler-subject",
+      "note": "大象二年十二月以杨雄为上柱国"
+    },
+    {
+      "source": "yuwen-chan",
+      "target": "yu-wen-shu",
+      "type": "ruler-subject",
+      "note": "大象二年十二月以宇文述为上柱国"
+    },
+    {
+      "source": "yang-su",
+      "target": "gao-jiong",
+      "type": "peer",
+      "note": "代威为右仆射，与颎专掌朝政"
+    },
+    {
+      "source": "yang-su",
+      "target": "niu-hong",
+      "type": "peer",
+      "note": "少与牛弘同志好学，贵后犹敬之"
+    },
+    {
+      "source": "yang-su",
+      "target": "xue-daoheng",
+      "type": "peer",
+      "note": "厚接道衡，以五言诗七百字赠之"
+    },
+    {
+      "source": "yang-su",
+      "target": "su-wei",
+      "type": "peer",
+      "note": "代威为右仆射，然视之蔑如"
+    },
+    {
+      "source": "yang-su",
+      "target": "yang-xuan-gan",
+      "type": "kin",
+      "note": "子玄感嗣爵，后举兵族灭"
+    },
+    {
+      "source": "yang-su",
+      "target": "yang-yong",
+      "type": "rival",
+      "note": "行夺宗之策，太子勇由是废"
+    },
+    {
+      "source": "yang-su",
+      "target": "yang-xiu-618",
+      "type": "rival",
+      "note": "与炀帝构成其罪，蜀王秀废黜"
+    },
+    {
+      "source": "yang-su",
+      "target": "yang-liang",
+      "type": "rival",
+      "note": "谅据并州举兵，素讨平之"
+    },
+    {
+      "source": "yang-su",
+      "target": "yu-wen-shu",
+      "type": "peer",
+      "note": "述以金宝赂约通晋王意，共成夺宗"
+    },
+    {
+      "source": "yang-su",
+      "target": "dugu-huanghou",
+      "type": "peer",
+      "note": "营宫启后得解，结托以助夺宗"
+    },
+    {
+      "source": "yang-su",
+      "target": "he-ruo-bi",
+      "type": "rival",
+      "note": "弼至诚体国违忤，遭素阴中"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yu-wen-shu",
+      "type": "ruler-subject",
+      "note": "平尉迥有功超拜上柱国，仕至右卫大将军"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "yang-yong",
+      "type": "rival",
+      "note": "为晋王画废立之策，勇以是废"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "su-wei",
+      "type": "peer",
+      "note": "敕与苏威同典选举，参预朝政"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "yu-zhongwen",
+      "type": "peer",
+      "note": "同奉密旨诱执乙支文德，萨水偕败"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "lai-hu-er",
+      "type": "peer",
+      "note": "讨玄感列阵当前，大破之于阌乡"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "han-qinhu",
+      "type": "peer",
+      "note": "平陈之役进据石头为其声援"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "he-ruo-bi",
+      "type": "peer",
+      "note": "弼趣丹阳，述据石头为声援"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-da",
+      "type": "ruler-subject",
+      "note": "受禅拜黄门侍郎，品牧宰第一擢工部尚书"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-da",
+      "type": "ruler-subject",
+      "note": "嗣位转纳言，领营东都副监，帝甚信重之"
+    },
+    {
+      "source": "yang-da",
+      "target": "yang-su",
+      "type": "peer",
+      "note": "素称其君子之貌兼君子之心，同营东京"
+    },
+    {
+      "source": "yang-xiong-542",
+      "target": "yang-da",
+      "type": "kin",
+      "note": "亲兄弟，观德王杨雄之弟"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-hao",
+      "type": "ruler-subject",
+      "note": "炀帝立浩为秦王，奉孝王嗣"
+    },
+    {
+      "source": "yang-jun-600",
+      "target": "yang-hao",
+      "type": "kin",
+      "note": "父子。浩为崔氏所生，以奉俊嗣"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yang-hao",
+      "type": "rival",
+      "note": "立为帝居别宫以兵监守，魏县鸩之"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "yang-hao",
+      "type": "peer",
+      "note": "玄感乱中启往复，浩坐交通内臣废免"
+    },
+    {
+      "source": "yang-guang",
+      "target": "han-qinhu",
+      "type": "ruler-subject",
+      "note": "伐陈受晋王节度，遣杜彦合军"
+    },
+    {
+      "source": "gao-jiong",
+      "target": "he-ruo-bi",
+      "type": "peer",
+      "note": "颎荐弼堪平陈，大业三年同坐诛"
+    },
+    {
+      "source": "yang-su",
+      "target": "he-ruo-bi",
+      "type": "peer",
+      "note": "素为仆射弼不平，形于言色免官"
+    },
+    {
+      "source": "yang-guang",
+      "target": "he-ruo-bi",
+      "type": "ruler-subject",
+      "note": "晋王属吏，炀帝疏忌终见杀"
+    },
+    {
+      "source": "yang-guang",
+      "target": "lai-hu-er",
+      "type": "ruler-subject",
+      "note": "帝甚亲重之，三征高丽专委水师"
+    },
+    {
+      "source": "lai-hu-er",
+      "target": "yang-su",
+      "type": "peer",
+      "note": "从素平江南，献策登岸破高智慧营"
+    },
+    {
+      "source": "he-ruo-bi",
+      "target": "lai-hu-er",
+      "type": "peer",
+      "note": "镇寿州时令护儿为间谍，授大都督"
+    },
+    {
+      "source": "lai-hu-er",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "note": "玄感作逆黎阳，勒兵与述等破之"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "lai-hu-er",
+      "type": "rival",
+      "note": "江都之难，化及忌护儿而害之"
+    },
+    {
+      "source": "yang-guang",
+      "target": "pei-yun",
+      "type": "ruler-subject",
+      "note": "亲委擢御史大夫，参掌机密"
+    },
+    {
+      "source": "pei-yun",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "note": "参掌机密同僚，难前谋议被抑"
+    },
+    {
+      "source": "pei-yun",
+      "target": "pei-ju",
+      "type": "peer",
+      "note": "与裴矩、虞世基同参掌机密"
+    },
+    {
+      "source": "pei-yun",
+      "target": "gao-jiong",
+      "type": "peer",
+      "note": "超授仪同时高熲两度进谏阻宠"
+    },
+    {
+      "source": "pei-yun",
+      "target": "xue-daoheng",
+      "type": "rival",
+      "note": "奏道衡深为悖逆，致其被诛"
+    },
+    {
+      "source": "pei-yun",
+      "target": "su-wei",
+      "type": "rival",
+      "note": "构威大不逊，推鞫处其死"
+    },
+    {
+      "source": "pei-yun",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "note": "奉旨穷治玄感党与，戮数万人"
+    },
+    {
+      "source": "pei-yun",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "note": "难前谋收化及，难作遇害"
     }
   ],
   "events": [

@@ -23,7 +23,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yu-wen-shu",
+      "target": "yu-zhongwen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同奉密旨诱执乙支文德，萨水偕败"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

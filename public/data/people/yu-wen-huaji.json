@@ -64,6 +64,42 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-hao",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "立为帝居别宫以兵监守，魏县鸩之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "lai-hu-er",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "江都之难，化及忌护儿而害之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "pei-yun",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "难前谋收化及，难作遇害"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

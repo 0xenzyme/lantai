@@ -27,7 +27,20 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yang-hao",
+      "target": "yang-jun-600",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。浩为崔氏所生，以奉俊嗣"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

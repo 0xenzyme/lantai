@@ -93,6 +93,7 @@ preflight 的 checksPassed 仅指机器检查，admissionGranted 始终为 false
 - `excerpt` 是 `raw/` 原典的逐字摘录，保留繁体；不相邻的句子用「……」连接。`people:batch:check` 会逐条核对它是否出现在该书正文里。
 - 关系方向：`ruler-subject` 的 source 是君，target 是臣；`mentor` 的 source 是师，target 是弟子；`kin`、`peer`、`rival` 不分方向。`topic` 必须同时收录两端。
 - 审核结论绑定内容指纹（目标原文、理由、摘录、claim、关系提案的摘要）。起草者改动草稿后旧审核失效，须重新审核。
+- 升档批（`scope.json` 的 `mode` 为 `upgrade`）的自检另查完整度：核心人物至少 3 条 `experiences`，其他人物至少 2 条；已有关系加本次新提的关系合计至少 2 条。不满足时输出 `[COMPLETENESS]` 问题，不能送审。
 
 ## 关系候选报告
 

@@ -61,6 +61,18 @@
       ]
     },
     {
+      "source": "yang-guang",
+      "target": "wang-shichong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "遣江都郡丞世充击破孟让"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
       "source": "li-yuan",
       "target": "wang-shichong",
       "type": "rival",

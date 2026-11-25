@@ -117,6 +117,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "sang-hongyang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -81,
+      "notes": [
+        "始元六年诏问盐铁，弘羊与贤良文学辩"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

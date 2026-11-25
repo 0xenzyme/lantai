@@ -8,21 +8,120 @@ polity:
   - sui
 categories:
   - chancellor
+primary: chancellor
 birth: 551
 birthAccuracy: approx
 birthNote: 卒于师时年六十二，自卒年逆推；卒年系辽东之役，生年随之约略。
 death: 612
-deathAccuracy: approx
-deathNote: 大业八年辽东之役，领右武卫将军，进位左光禄大夫，卒于师，时年六十二（隋书·观德王雄传附弟达）。传文系于辽东之役而不书年号月日，作约略。
-title: 弘厚宰相，卒于辽东
+deathAccuracy: exact
+deathNote: 大业八年辽东之役，领右武卫将军，进位左光禄大夫，卒于师，时年六十二（隋书·观德王雄传附弟达）；资治通鉴卷一百八十一系其薨于大业八年五月壬午，故卒年作 exact。
+title: 纳言，营建东都副监，卒于辽东之役
 tags:
   - 隋
+  - 纳言
+  - 工部尚书
+  - 营建东都
+  - 卒于辽东
 aliases:
   - 杨达
+  - 杨士达
 sources:
   - work: 隋书
-    part: 观德王雄传附弟达
+    part: 卷四十三·列传第八·观德王雄传附弟达
     kind: classic
+  - work: 隋书
+    part: 卷一·高祖纪上
+    kind: classic
+  - work: 隋书
+    part: 卷二·高祖纪下
+    kind: classic
+  - work: 隋书
+    part: 卷三·炀帝纪上
+    kind: classic
+  - work: 资治通鉴
+    part: 卷一百七十九
+    kind: classic
+  - work: 资治通鉴
+    part: 卷一百八十
+    kind: classic
+  - work: 资治通鉴
+    part: 卷一百八十一
+    kind: classic
+experiences:
+  - id: tuyuhun-sima
+    label: 吐谷浑之役任元帅府司马
+    year: 581
+    yearAccuracy: exact
+    place: 青海
+    note: 开皇元年八月甲午，文帝遣行军元帅乐安公元谐击吐谷浑于青海，达任元帅府司马；军还，兼吏部侍郎，加开府。
+    sources:
+      - work: 隋书
+        part: 卷四十三·列传第八·观德王雄传附弟达
+        kind: classic
+      - work: 隋书
+        part: 卷一·高祖纪上
+        kind: classic
+  - id: pin-muzai-diyi
+    label: 品天下牧宰第一，擢工部尚书
+    year: 595
+    yearAccuracy: exact
+    note: 平陈之后文帝品第天下牧宰，达为第一，赐杂彩五百段、金带；开皇十五年四月甲辰自赵州刺史擢工部尚书，加位上开府。
+    sources:
+      - work: 隋书
+        part: 卷四十三·列传第八·观德王雄传附弟达
+        kind: classic
+      - work: 隋书
+        part: 卷二·高祖纪下
+        kind: classic
+  - id: qian-nayan
+    label: 迁纳言，参预帝后山陵制度
+    year: 602
+    yearAccuracy: exact
+    note: 仁寿二年九月赈恤河南北大水，十月癸丑由工部尚书迁纳言；献皇后及高祖山陵制度，达均参预其事。
+    sources:
+      - work: 隋书
+        part: 卷二·高祖纪下
+        kind: classic
+      - work: 资治通鉴
+        part: 卷一百七十九
+        kind: classic
+      - work: 隋书
+        part: 卷四十三·列传第八·观德王雄传附弟达
+        kind: classic
+  - id: yingjian-dongdu
+    label: 领营东都副监，营建东京
+    yearAccuracy: unknown
+    event: yingjian-dongdu
+    note: 大业元年三月丁未，诏尚书令杨素、纳言杨达、将作大匠宇文恺营建东京，达领营东都副监，帝甚信重之。
+    sources:
+      - work: 隋书
+        part: 卷三·炀帝纪上
+        kind: classic
+      - work: 资治通鉴
+        part: 卷一百八十
+        kind: classic
+      - work: 隋书
+        part: 卷四十三·列传第八·观德王雄传附弟达
+        kind: classic
+  - id: liaodong-zhiyi-zushi
+    label: 辽东之役卒于师
+    year: 612
+    yearAccuracy: exact
+    place: 辽东
+    note: 大业八年领右武卫将军随征辽东，进位左光禄大夫，五月壬午卒于师，时年六十二；赠吏部尚书、始安侯，谥曰恭。
+    sources:
+      - work: 隋书
+        part: 卷四十三·列传第八·观德王雄传附弟达
+        kind: classic
+      - work: 资治通鉴
+        part: 卷一百八十一
+        kind: classic
 ---
 
-字士达，观德王雄之弟也。少聪敏，有学行。隋受禅，历给事黄门侍郎、吏部侍郎，出为鄯、郑、赵三州刺史，有能名；平陈之后，品天下牧宰为第一，擢工部尚书。杨素曰「唯杨达有君子之貌，兼君子之心」。辽东之役，领右武卫将军，卒于师，年六十二，谥曰恭。
+杨达字士达，观德王杨雄之弟，少聪敏，有学行。仕北周，官至仪同、内史下大夫，封遂宁县男。隋文帝受禅，拜给事黄门侍郎，进爵为子。开皇元年（581）八月，吐谷浑寇边，文帝诏上柱国元谐为元帅，出师青海击之，杨达任元帅府司马；军还，兼吏部侍郎，加开府。岁余，转内史侍郎，出为鄯、郑、赵三州刺史，俱有能名。
+
+平陈之后，「四海大同」，文帝品第天下牧宰，杨达为第一，赐杂彩五百段、加以金带，擢拜工部尚书，加位上开府；《隋书·高祖纪》系其自赵州刺史擢工部尚书于开皇十五年（595）四月甲辰。杨达为人弘厚，有局度，杨素每言：「有君子之貌，兼君子之心者，唯杨达耳。」
+
+仁寿二年（602）九月，河南、北诸州大水，文帝遣工部尚书杨达赈恤；十月癸丑，由工部尚书迁纳言（《隋书》本传作「炀帝嗣位，转纳言」，此系年从本纪）。仁寿三年（603）十二月，河南诸州复水，再遣他赈恤。献皇后及高祖的山陵制度，杨达均参预其事。炀帝嗣位后甚见信重，大业元年（605）三月丁未，诏尚书令杨素、纳言杨达、将作大匠宇文恺营建东京，杨达领营东都副监，每月役丁二百万人。
+
+大业八年（612）辽东之役，杨达领右武卫将军随征，进位左光禄大夫，五月壬午卒于师，时年六十二。炀帝叹惜者久之，赠吏部尚书、始安侯，谥曰恭，赠物三百五十段。史臣论河间、观德两房曰：「属乃葭莩，地非宠逼，故高位厚秩，与时终始。」杨达历仕文、炀两朝宰执，以宰相之重终于王事。

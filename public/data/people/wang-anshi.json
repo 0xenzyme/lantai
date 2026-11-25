@@ -123,6 +123,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "wang-anshi",
+      "target": "wen-yanbo",
+      "type": "rival",
+      "directed": false,
+      "since": 1069,
+      "notes": [
+        "熙宁间以枢密使极陈青苗市易不便，言当与士大夫共治天下，议不合出判河阳"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -53,6 +53,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "niu-hong",
+      "target": "yu-wen-kai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "大业二年同制定舆服"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "niu-hong",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "少与牛弘同志好学，贵后犹敬之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

@@ -22,7 +22,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "pei-ju",
+      "target": "pei-yun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与裴矩、虞世基同参掌机密"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

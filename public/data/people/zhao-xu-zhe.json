@@ -66,6 +66,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "wen-yanbo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1086,
+      "notes": [
+        "哲宗元祐初以八十元老拜平章军国重事，辽使见之皆肃立致敬"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -22,7 +22,56 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yang-jian",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇初以太子少保兼纳言、吏部尚书，仁寿中与修五礼"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "su-wei",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "代威为右仆射，然视之蔑如"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "su-wei",
+      "target": "yu-wen-shu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "敕与苏威同典选举，参预朝政"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "pei-yun",
+      "target": "su-wei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "构威大不逊，推鞫处其死"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

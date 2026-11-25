@@ -106,6 +106,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "li-guang",
+      "target": "zhang-qian",
+      "type": "peer",
+      "directed": false,
+      "since": -121,
+      "notes": [
+        "与李广出右北平，失期当斩，赎为庶人"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

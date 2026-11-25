@@ -1112,12 +1112,6 @@
       "note": "司马迁从董仲舒学《春秋》"
     },
     {
-      "source": "dong-zhongshu",
-      "target": "gongsun-hong",
-      "type": "peer",
-      "note": "同以儒学进"
-    },
-    {
       "source": "sima-qian",
       "target": "li-ling",
       "type": "peer",
@@ -2178,6 +2172,53 @@
       "type": "peer",
       "since": -205,
       "note": "以右丞相属韩信，破魏赵齐，斩龙且"
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "gongsun-hong",
+      "type": "rival",
+      "note": "同以儒学进；弘为丞相，徙仲舒于胶西"
+    },
+    {
+      "source": "gongsun-hong",
+      "target": "zhu-fu-yan",
+      "type": "rival",
+      "since": -127,
+      "note": "弘为御史大夫，力主诛主父偃以谢天下"
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "zhu-fu-yan",
+      "type": "rival",
+      "note": "主父偃窃奏仲舒灾异之记，仲舒下吏当死"
+    },
+    {
+      "source": "zhang-qian",
+      "target": "wei-qing",
+      "type": "peer",
+      "since": -123,
+      "note": "从大将军击匈奴，知水草处，封博望侯"
+    },
+    {
+      "source": "zhang-qian",
+      "target": "li-guang",
+      "type": "peer",
+      "since": -121,
+      "note": "与李广出右北平，失期当斩，赎为庶人"
+    },
+    {
+      "source": "zhu-fu-yan",
+      "target": "wei-qing",
+      "type": "peer",
+      "since": -134,
+      "note": "西入关见卫将军，卫青数言于上"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "sang-hongyang",
+      "type": "ruler-subject",
+      "since": -81,
+      "note": "始元六年诏问盐铁，弘羊与贤良文学辩"
     }
   ],
   "events": [

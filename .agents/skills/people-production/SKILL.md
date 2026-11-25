@@ -21,7 +21,7 @@ metadata:
 
 ## 详表质量规范（升档与修订必读）
 
-详表（`profile: full`）支撑深度阅读、结构化年谱与多圈层力导向关系图谱。准备 `revise` 详表提议时必须遵循以下标准。**你新写入的人名、数字、官衔、系年和引语，都要在本地 `raw/` 原典里定位核对；核不到的不写。原稿已有的内容不因本地原典没有提到而删除：`raw/` 只有正史和《资治通鉴》，找不到依据不等于错，只有与原典矛盾的才改。** 批次目录里每个文件写什么，见 [contracts.md](references/contracts.md)《批次工作目录》。
+详表（`profile: full`）支撑深度阅读、结构化年谱与多圈层力导向关系图谱。准备 `revise` 详表提议时必须遵循以下标准。**你新写入的人名、数字、官衔、系年和引语，都要在本地 `raw/` 原典里定位核对；核不到的不写。原稿已有的内容不因本地原典没有提到而删除：`raw/` 只有正史和《资治通鉴》，找不到依据不等于错。只有两种情况才改：与原典矛盾，或把原典不载的年份写成了精确值。后一种把 `accuracy` 降为 `approx` 或 `unknown` 并在 note 写明推算依据，年份本身保留。** 批次目录里每个文件写什么，见 [contracts.md](references/contracts.md)《批次工作目录》。
 
 1. **生平传记（Biography）分期叙事**：
    - 告别一两句百科摘要，写分期叙事。核心人物（帝王、名相、名将、文豪）4 段、700~1100 字；普通详表人物 3~4 段、500~900 字。
@@ -54,6 +54,7 @@ metadata:
 - `npm run relations:candidates -- <topic> <person-id>`：检索同代重叠人物，辅助构筑局部关系图谱。
 - `npm run people:batch:init -- …`：建批次目录，为每个人放下正式原文作草稿起点。
 - `npm run people:batch:check -- --id <批次id> --person <人物id>`：单人自检（格式、claim 映射、摘录逐字、人物 lint、全局投影），并给出内容指纹。交接前必须通过。
+- 升档批（`scope.mode` 为 `upgrade`）的自检还检查完整度：核心人物至少 3 条 `experiences`，其他人物至少 2 条；已有关系加本次新提的关系合计至少 2 条。自检的输出里另有两条固定提示：原典不载的年份不要标 `exact`；原稿已有的内容不因本地原典未载而删除。
 - `npm run people:batch:assemble -- --id <批次id>`：把带审核结论的候选组装成 `batch.json`。
 - `npm run people:batch:relations -- --id <批次id> [--apply]`：预演或写入已通过审核的关系提案。
 

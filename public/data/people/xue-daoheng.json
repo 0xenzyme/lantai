@@ -22,7 +22,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "xue-daoheng",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "厚接道衡，以五言诗七百字赠之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "pei-yun",
+      "target": "xue-daoheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "奏道衡深为悖逆，致其被诛"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

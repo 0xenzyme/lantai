@@ -29,7 +29,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yuwen-chan",
+      "target": "yang-xiong-542",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大象二年十二月以杨雄为上柱国"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-da",
+      "target": "yang-xiong-542",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "亲兄弟，观德王杨雄之弟"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

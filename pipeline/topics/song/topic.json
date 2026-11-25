@@ -2536,6 +2536,55 @@
       "type": "ruler-subject",
       "since": 1086,
       "note": "哲宗元祐年间拜尚书右仆射及司空同平章军国事，封申国公调和旧党"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "bao-zheng",
+      "type": "ruler-subject",
+      "since": 1040,
+      "note": "历任御史、知开封府及枢密副使，直谏溅帝衣而仁宗宽容纳之"
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "bao-zheng",
+      "type": "peer",
+      "since": 1057,
+      "note": "嘉祐二年包拯接替欧阳修权知开封府，同朝清流名臣互重"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "wen-yanbo",
+      "type": "ruler-subject",
+      "since": 1048,
+      "note": "平定贝州王则之乱拜相，至和并相、嘉祐镇定朝纲"
+    },
+    {
+      "source": "wen-yanbo",
+      "target": "fu-bi",
+      "type": "peer",
+      "since": 1055,
+      "note": "至和二年同日拜相，朝野相庆；晚年同聚洛阳耆英会"
+    },
+    {
+      "source": "wen-yanbo",
+      "target": "wang-anshi",
+      "type": "rival",
+      "since": 1069,
+      "note": "熙宁间以枢密使极陈青苗市易不便，言当与士大夫共治天下，议不合出判河阳"
+    },
+    {
+      "source": "wen-yanbo",
+      "target": "sima-guang",
+      "type": "peer",
+      "since": 1086,
+      "note": "洛阳耆英会故交，元祐初同受高太后召还主政，彦博位居司马光之上"
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "wen-yanbo",
+      "type": "ruler-subject",
+      "since": 1086,
+      "note": "哲宗元祐初以八十元老拜平章军国重事，辽使见之皆肃立致敬"
     }
   ],
   "events": [

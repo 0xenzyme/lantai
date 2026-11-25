@@ -100,6 +100,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "fu-bi",
+      "target": "wen-yanbo",
+      "type": "peer",
+      "directed": false,
+      "since": 1055,
+      "notes": [
+        "至和二年同日拜相，朝野相庆；晚年同聚洛阳耆英会"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

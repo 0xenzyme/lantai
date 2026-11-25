@@ -76,6 +76,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "营宫启后得解，结托以助夺宗"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

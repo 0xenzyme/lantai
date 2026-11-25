@@ -63,6 +63,42 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yuwen-chan",
+      "target": "yang-yong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大象二年以杨勇为上柱国大司马"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-su",
+      "target": "yang-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "行夺宗之策，太子勇由是废"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-yong",
+      "target": "yu-wen-shu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "为晋王画废立之策，勇以是废"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

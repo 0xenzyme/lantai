@@ -20,7 +20,20 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-guang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "大业元年立为皇后，帝崩撤床箦为棺埋之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [
