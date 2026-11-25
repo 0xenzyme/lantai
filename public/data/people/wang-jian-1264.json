@@ -27,7 +27,21 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yu-jie",
+      "target": "wang-jian-1264",
+      "type": "mentor",
+      "directed": true,
+      "since": 1243,
+      "notes": [
+        "出镇四川识拔王坚于行伍，命筑钓鱼城并授以守御重任"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "diaoyucheng-zhizhan",

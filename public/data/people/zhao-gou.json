@@ -131,6 +131,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1129,
+      "notes": [
+        "苗刘之乱浚在秀州起兵勤王平叛，拜知枢密院事兼川陕宣抚"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

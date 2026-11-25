@@ -77,6 +77,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "bi-zaiyu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1206,
+      "notes": [
+        "开禧北伐诸路皆溃，特擢再遇拔泗州坚守六合，战功冠诸将"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

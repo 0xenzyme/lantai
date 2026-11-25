@@ -21,6 +21,7 @@ people:
   - zhao-kuo
   - han-tuozhou
   - shi-miyuan
+  - bi-zaiyu
 result: 宋军多路溃败，吴曦叛而旋灭，韩侂胄被杀，宋转而求和。
 aliases:
   - 开禧用兵

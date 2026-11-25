@@ -104,6 +104,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "li-zong",
+      "target": "meng-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1234,
+      "notes": [
+        "蔡州灭金后拜京湖制置使，总领江汉万里防线，倚为擎天一柱"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-zong",
+      "target": "yu-jie",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1242,
+      "notes": [
+        "特擢为四川安抚制置使经略全蜀，营筑钓鱼城诸山城要塞"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -108,6 +108,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-shen",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1162,
+      "notes": [
+        "孝宗即位拜少傅枢密使都督江淮军马，主持隆兴北伐"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

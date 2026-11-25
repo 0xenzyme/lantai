@@ -2831,6 +2831,62 @@
       "type": "rival",
       "since": 1259,
       "note": "似道拜相后严惩宿怨，再贬大全并授意押解官挤之于水溺毙"
+    },
+    {
+      "source": "li-zong",
+      "target": "meng-gong",
+      "type": "ruler-subject",
+      "since": 1234,
+      "note": "蔡州灭金后拜京湖制置使，总领江汉万里防线，倚为擎天一柱"
+    },
+    {
+      "source": "meng-gong",
+      "target": "yu-jie",
+      "type": "peer",
+      "since": 1242,
+      "note": "理宗朝抗蒙名将，一镇京湖一抚全蜀，协力构筑长江防御体系"
+    },
+    {
+      "source": "li-zong",
+      "target": "yu-jie",
+      "type": "ruler-subject",
+      "since": 1242,
+      "note": "特擢为四川安抚制置使经略全蜀，营筑钓鱼城诸山城要塞"
+    },
+    {
+      "source": "yu-jie",
+      "target": "wang-jian-1264",
+      "type": "mentor",
+      "since": 1243,
+      "note": "出镇四川识拔王坚于行伍，命筑钓鱼城并授以守御重任"
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "bi-zaiyu",
+      "type": "ruler-subject",
+      "since": 1206,
+      "note": "开禧北伐诸路皆溃，特擢再遇拔泗州坚守六合，战功冠诸将"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "since": 1129,
+      "note": "苗刘之乱浚在秀州起兵勤王平叛，拜知枢密院事兼川陕宣抚"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "since": 1162,
+      "note": "孝宗即位拜少傅枢密使都督江淮军马，主持隆兴北伐"
+    },
+    {
+      "source": "zhang-jun",
+      "target": "yue-fei",
+      "type": "peer",
+      "since": 1135,
+      "note": "同为南渡抗金名臣名将，志在恢复中原相与引重"
     }
   ],
   "events": [
