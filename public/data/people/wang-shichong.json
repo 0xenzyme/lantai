@@ -73,6 +73,30 @@
       ]
     },
     {
+      "source": "wang-bian",
+      "target": "wang-shichong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "共讨李密，洛北之败辩溺死"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "wang-shichong",
+      "target": "zhu-can",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "菊潭之变后奔世充，拜龙骧大将军"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
       "source": "li-yuan",
       "target": "wang-shichong",
       "type": "rival",

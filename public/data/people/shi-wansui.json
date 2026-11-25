@@ -51,6 +51,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "shi-wansui",
+      "target": "yang-xiu-618",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "奏史万岁受赇纵贼，致生边患"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

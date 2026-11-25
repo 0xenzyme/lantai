@@ -20,7 +20,32 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "lv-zhi",
+      "target": "shen-shiju",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "为左丞相，居中用事，公卿皆因决事；得幸于太后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chen-ping",
+      "target": "shen-shiju",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "吕后时平为右丞相，审食其为左丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

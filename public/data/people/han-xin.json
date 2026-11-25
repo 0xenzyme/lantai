@@ -170,6 +170,45 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-ping",
+      "target": "han-xin",
+      "type": "rival",
+      "directed": false,
+      "since": -201,
+      "notes": [
+        "献伪游云梦计，擒楚王韩信"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "guan-ying",
+      "target": "han-xin",
+      "type": "peer",
+      "directed": false,
+      "since": -204,
+      "notes": [
+        "以御史大夫将郎中骑兵属韩信，破齐斩龙且"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "han-xin",
+      "target": "li-yi-ji",
+      "type": "rival",
+      "directed": false,
+      "since": -204,
+      "notes": [
+        "韩信夜度兵袭齐，齐王以为郦生卖己，遂烹之"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

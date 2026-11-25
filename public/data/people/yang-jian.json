@@ -235,6 +235,78 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-jian-585",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙。少为高祖所爱，开皇中封豫章王"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-jun-600",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。俊为文帝第三子，帝执法不赦"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-liang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。文帝宠爱，出镇并州特许便宜"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-xiu-618",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父。帝谓秀必以恶终，诏数其罪废之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙。高祖命养宫中，叹天生长者"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yu-zhongwen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "尉迥乱中委以河南道行军总管"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

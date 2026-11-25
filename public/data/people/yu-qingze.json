@@ -27,7 +27,20 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yu-qingze",
+      "target": "zhangsun-sheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "开皇四年副虞庆则使摄图，说其拜诏"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

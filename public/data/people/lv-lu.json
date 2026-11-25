@@ -39,6 +39,31 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "lv-lu",
+      "target": "lv-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "吕后之侄，封赵王，吕后病中令为上将军军北军"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "guan-ying",
+      "target": "lv-lu",
+      "type": "rival",
+      "directed": false,
+      "since": -180,
+      "notes": [
+        "吕禄遣婴为大将击齐，婴屯荥阳反与绛侯谋"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

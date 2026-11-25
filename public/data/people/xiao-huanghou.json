@@ -32,6 +32,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-jian-585",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "生母。卷59明书萧后生暕"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。萧皇后生炀帝长子昭"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

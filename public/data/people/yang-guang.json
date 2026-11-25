@@ -346,6 +346,126 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "wang-bian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "引辩升御榻问方略，赐黄金二百两"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-xie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "炀帝朝禁卫大将，江都随驾同难"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "liang-shidu",
+      "target": "yang-guang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "仕隋为鹰扬郎将，义宁元年据朔方反"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "xue-shixiong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "帝亲口擢举超拜右翊卫将军，末委涿郡留守"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-jian-585",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。次子进封齐王，以厌胜事见疏忌"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-jun-600",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。广次俊前，即位立浩奉俊嗣"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-liang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。谅起兵反炀帝，帝曰屈法恕一死"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-xiu-618",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄。阴令杨素求秀罪而谮废之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-juluo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "俱罗从晋王广平陈，终以重瞳为炀帝所忌见诛"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-zhongwen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋王奏其将领才，帝朝甚见亲幸"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

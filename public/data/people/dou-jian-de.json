@@ -50,6 +50,54 @@
     },
     {
       "source": "dou-jian-de",
+      "target": "wang-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "聊城之役薄开门纳建德，建德遂擒化及"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "xue-shixiong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "欲讨建德反遭夜袭，惭恚发病而卒"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "zhu-can",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同遣使奉表劝进李密"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "建德讨弑君之仇，聊城生擒斩之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
       "target": "li-yuan",
       "type": "rival",
       "directed": false,

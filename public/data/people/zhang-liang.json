@@ -142,6 +142,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "li-yi-ji",
+      "target": "zhang-liang",
+      "type": "rival",
+      "directed": false,
+      "since": -204,
+      "notes": [
+        "郦生劝立六国后，张良借箸陈八不可"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

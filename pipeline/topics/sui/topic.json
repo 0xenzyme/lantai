@@ -996,6 +996,522 @@
       "target": "yu-wen-huaji",
       "type": "rival",
       "note": "难前谋收化及，难作遇害"
+    },
+    {
+      "source": "yang-guang",
+      "target": "wang-bian",
+      "type": "ruler-subject",
+      "note": "引辩升御榻问方略，赐黄金二百两"
+    },
+    {
+      "source": "yang-su",
+      "target": "wang-bian",
+      "type": "peer",
+      "note": "从杨素讨平汉王谅之乱"
+    },
+    {
+      "source": "wang-shichong",
+      "target": "wang-bian",
+      "type": "peer",
+      "note": "共讨李密，洛北之败辩溺死"
+    },
+    {
+      "source": "zhai-rang",
+      "target": "wang-bian",
+      "type": "rival",
+      "note": "翟让寇徐豫，辩频击走之"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-wen-xie",
+      "type": "ruler-subject",
+      "note": "炀帝朝禁卫大将，江都随驾同难"
+    },
+    {
+      "source": "yu-wen-xie",
+      "target": "du-gu-sheng",
+      "type": "peer",
+      "note": "同为江都之变殉难的卫府将领"
+    },
+    {
+      "source": "yu-wen-xie",
+      "target": "lai-hu-er",
+      "type": "peer",
+      "note": "通鉴同条并列，江都同日遇害"
+    },
+    {
+      "source": "yu-wen-xie",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "note": "化及江都弑逆，协遇害于是难"
+    },
+    {
+      "source": "zhai-rang",
+      "target": "zhang-xu-tuo",
+      "type": "rival",
+      "note": "拒让前后三十余战每破走之，让惮不敢进"
+    },
+    {
+      "source": "niu-hong",
+      "target": "su-wei",
+      "type": "peer",
+      "note": "同召诸儒论新礼降杀，弘议众咸推服"
+    },
+    {
+      "source": "niu-hong",
+      "target": "xu-shanxin",
+      "type": "peer",
+      "note": "诏与许善心等议定作乐、正定新乐"
+    },
+    {
+      "source": "niu-hong",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "note": "与虞世基同正新乐，又同定舆服"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "wang-bo",
+      "type": "peer",
+      "note": "武德二年薄帅众从化及，与共守聊城"
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "wang-bo",
+      "type": "peer",
+      "note": "聊城之役薄开门纳建德，建德遂擒化及"
+    },
+    {
+      "source": "li-mi",
+      "target": "wang-bo",
+      "type": "peer",
+      "note": "李密亡命尝入王薄军，薄亦不之奇"
+    },
+    {
+      "source": "duan-wenzhen",
+      "target": "yang-xuan-gan",
+      "type": "peer",
+      "note": "玄感托其求领兵，帝叹将门有将"
+    },
+    {
+      "source": "yang-dong",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "note": "玄感围东都，越王侗勒兵备御"
+    },
+    {
+      "source": "yang-dong",
+      "target": "du-fuwei",
+      "type": "ruler-subject",
+      "note": "上表皇泰主，拜东道大总管、封楚王"
+    },
+    {
+      "source": "du-fuwei",
+      "target": "fu-gongshi",
+      "type": "peer",
+      "note": "刎颈之交，同起江淮；公祏后诈其令反"
+    },
+    {
+      "source": "du-fuwei",
+      "target": "li-zitong",
+      "type": "rival",
+      "note": "江淮相攻，遣王雄诞擒子通于杭州"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "du-fuwei",
+      "type": "rival",
+      "note": "化及署历阳太守，伏威不受"
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-liang",
+      "type": "kin",
+      "note": "母子。谅伐辽还，泣言于后诉高熲"
+    },
+    {
+      "source": "fu-gongshi",
+      "target": "li-zitong",
+      "type": "rival",
+      "note": "渡江讨子通，溧水以长刀千人破其数万众"
+    },
+    {
+      "source": "fu-gongshi",
+      "target": "zhang-shanan",
+      "type": "peer",
+      "note": "举兵相应反唐，署为西南道大行台"
+    },
+    {
+      "source": "gao-kaidao",
+      "target": "luo-yi",
+      "type": "rival",
+      "note": "初援幽州因艺降唐，后扣请粟兵车绝交，引突厥寇幽州"
+    },
+    {
+      "source": "gao-kaidao",
+      "target": "liu-heita",
+      "type": "peer",
+      "note": "连和刘黑闥，攻易州共扰河北"
+    },
+    {
+      "source": "li-gui",
+      "target": "xue-ju",
+      "type": "rival",
+      "note": "薛举遣兵侵河右，李轨遣李赟败之于昌松"
+    },
+    {
+      "source": "li-gui",
+      "target": "xue-rengao",
+      "type": "rival",
+      "note": "薛举卒后，高祖欲联轨共图秦陇"
+    },
+    {
+      "source": "li-zitong",
+      "target": "shen-faxing",
+      "type": "rival",
+      "note": "庱亭斩其仆射蒋元超，吴郡袭破之"
+    },
+    {
+      "source": "yang-guang",
+      "target": "liang-shidu",
+      "type": "rival",
+      "note": "仕隋为鹰扬郎将，义宁元年据朔方反"
+    },
+    {
+      "source": "shibi-kehan",
+      "target": "liang-shidu",
+      "type": "ruler-subject",
+      "note": "始毕授狼头纛，号大度毗伽可汗"
+    },
+    {
+      "source": "liang-shidu",
+      "target": "liu-wuzhou",
+      "type": "peer",
+      "note": "同为突厥所署天子，尝以五百骑授武周"
+    },
+    {
+      "source": "lin-shihong",
+      "target": "zhang-shanan",
+      "type": "rival",
+      "note": "善安来附被疑反袭豫章，后发兵讨其谋乱"
+    },
+    {
+      "source": "lin-shihong",
+      "target": "zhu-can",
+      "type": "peer",
+      "note": "两唐书并书：与朱粲、张善安皆僭号江淮"
+    },
+    {
+      "source": "xue-ju",
+      "target": "xue-rengao",
+      "type": "kin",
+      "note": "举长子，随父起兵封齐王，继立而灭"
+    },
+    {
+      "source": "xue-ju",
+      "target": "liang-shidu",
+      "type": "peer",
+      "note": "郝瑗劝举联结梁师都共为声势图长安"
+    },
+    {
+      "source": "yang-guang",
+      "target": "xue-shixiong",
+      "type": "ruler-subject",
+      "note": "帝亲口擢举超拜右翊卫将军，末委涿郡留守"
+    },
+    {
+      "source": "xue-shixiong",
+      "target": "dou-jian-de",
+      "type": "rival",
+      "note": "欲讨建德反遭夜袭，惭恚发病而卒"
+    },
+    {
+      "source": "xue-shixiong",
+      "target": "yu-wen-shu",
+      "type": "peer",
+      "note": "首征辽东同为军将，同败绩于平壤"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-jian-585",
+      "type": "kin",
+      "note": "祖孙。少为高祖所爱，开皇中封豫章王"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-jian-585",
+      "type": "kin",
+      "note": "父子。次子进封齐王，以厌胜事见疏忌"
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-jian-585",
+      "type": "kin",
+      "note": "生母。卷59明书萧后生暕"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yang-jian-585",
+      "type": "rival",
+      "note": "江都之变使人捕暕，曳斩于街"
+    },
+    {
+      "source": "niu-hong",
+      "target": "yang-jian-585",
+      "type": "peer",
+      "note": "奉敕为齐王妙选王府官属"
+    },
+    {
+      "source": "yang-jun-600",
+      "target": "yang-jian",
+      "type": "kin",
+      "note": "父子。俊为文帝第三子，帝执法不赦"
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-jun-600",
+      "type": "kin",
+      "note": "母子。高祖五男皆文献皇后所生"
+    },
+    {
+      "source": "yang-jun-600",
+      "target": "yang-yong",
+      "type": "kin",
+      "note": "兄弟。勇为长子，俊行三"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-jun-600",
+      "type": "kin",
+      "note": "兄弟。广次俊前，即位立浩奉俊嗣"
+    },
+    {
+      "source": "yang-jun-600",
+      "target": "yang-xiu-618",
+      "type": "kin",
+      "note": "兄弟。秀行四，居俊后"
+    },
+    {
+      "source": "yang-jun-600",
+      "target": "yang-liang",
+      "type": "kin",
+      "note": "兄弟。谅行五最幼"
+    },
+    {
+      "source": "yang-su",
+      "target": "yang-jun-600",
+      "type": "peer",
+      "note": "素为俊奢纵案进谏，请帝详察"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-liang",
+      "type": "kin",
+      "note": "父子。文帝宠爱，出镇并州特许便宜"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-liang",
+      "type": "kin",
+      "note": "兄弟。谅起兵反炀帝，帝曰屈法恕一死"
+    },
+    {
+      "source": "yang-yong",
+      "target": "yang-liang",
+      "type": "kin",
+      "note": "兄弟。太子勇被谗废，谅阴有异图"
+    },
+    {
+      "source": "yang-xiu-618",
+      "target": "yang-liang",
+      "type": "kin",
+      "note": "兄弟。蜀王秀以罪废，谅愈不自安"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-xiu-618",
+      "type": "kin",
+      "note": "父。帝谓秀必以恶终，诏数其罪废之"
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-xiu-618",
+      "type": "kin",
+      "note": "母。文四子皆文献皇后所生"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-xiu-618",
+      "type": "kin",
+      "note": "同母兄。阴令杨素求秀罪而谮废之"
+    },
+    {
+      "source": "yang-yong",
+      "target": "yang-xiu-618",
+      "type": "kin",
+      "note": "同母兄。勇遭谗废，秀意甚不平"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yang-xiu-618",
+      "type": "rival",
+      "note": "弑逆后欲奉秀为帝，众议不可遂杀之"
+    },
+    {
+      "source": "yang-xiu-618",
+      "target": "shi-wansui",
+      "type": "rival",
+      "note": "奏史万岁受赇纵贼，致生边患"
+    },
+    {
+      "source": "yang-xiu-618",
+      "target": "su-wei",
+      "type": "peer",
+      "note": "奉诏与虞庆则杂案苏威朋党事"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-zhao",
+      "type": "kin",
+      "note": "祖孙。高祖命养宫中，叹天生长者"
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-zhao",
+      "type": "kin",
+      "note": "祖孙。三岁弄狮，高祖与文献后亲至"
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-zhao",
+      "type": "kin",
+      "note": "母子。萧皇后生炀帝长子昭"
+    },
+    {
+      "source": "yang-liang",
+      "target": "yang-zhao",
+      "type": "kin",
+      "note": "叔侄。昭泣对高祖，举汉王婚事为比"
+    },
+    {
+      "source": "yang-yong",
+      "target": "yang-zhao",
+      "type": "kin",
+      "note": "伯侄。巫者视疾，云房陵王为祟"
+    },
+    {
+      "source": "yang-zhao",
+      "target": "yang-dong",
+      "type": "kin",
+      "note": "父子。小刘良娣生侗，皇泰主追尊孝成皇帝"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-juluo",
+      "type": "ruler-subject",
+      "note": "俱罗从晋王广平陈，终以重瞳为炀帝所忌见诛"
+    },
+    {
+      "source": "yang-su",
+      "target": "yu-juluo",
+      "type": "peer",
+      "note": "素两度请俱罗同行，平江南、灵州道皆有战功"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yu-zhongwen",
+      "type": "ruler-subject",
+      "note": "尉迥乱中委以河南道行军总管"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-zhongwen",
+      "type": "ruler-subject",
+      "note": "晋王奏其将领才，帝朝甚见亲幸"
+    },
+    {
+      "source": "zhangsun-sheng",
+      "target": "qimin-kehan",
+      "type": "peer",
+      "note": "说染干内附，护送入朝，遂为启民可汗"
+    },
+    {
+      "source": "zhangsun-sheng",
+      "target": "yang-su",
+      "type": "peer",
+      "note": "仁寿元年北伐，素为元帅，晟为受降使者"
+    },
+    {
+      "source": "zhangsun-sheng",
+      "target": "yu-qingze",
+      "type": "peer",
+      "note": "开皇四年副虞庆则使摄图，说其拜诏"
+    },
+    {
+      "source": "zhangsun-sheng",
+      "target": "yang-liang",
+      "type": "rival",
+      "note": "谅作逆，晟受命镇相州，发山东兵经略"
+    },
+    {
+      "source": "li-mi",
+      "target": "zhu-can",
+      "type": "ruler-subject",
+      "note": "遣使附密，授扬州总管、邓公"
+    },
+    {
+      "source": "yang-dong",
+      "target": "zhu-can",
+      "type": "ruler-subject",
+      "note": "遣使降东都，皇泰主以为楚王"
+    },
+    {
+      "source": "wang-shichong",
+      "target": "zhu-can",
+      "type": "ruler-subject",
+      "note": "菊潭之变后奔世充，拜龙骧大将军"
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "zhu-can",
+      "type": "peer",
+      "note": "同遣使奉表劝进李密"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "li-mi",
+      "type": "rival",
+      "note": "黎阳相持，童山决战两败俱伤"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "dou-jian-de",
+      "type": "rival",
+      "note": "建德讨弑君之仇，聊城生擒斩之"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yang-dong",
+      "type": "rival",
+      "note": "东都推侗为主，令李密击化及"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "yu-shi-ji",
+      "type": "rival",
+      "note": "江都之难，世基遇害"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "xu-shanxin",
+      "type": "rival",
+      "note": "江都之难，善心遇害"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "shen-guang",
+      "type": "rival",
+      "note": "光与麦孟才谋袭化及营，遇害"
     }
   ],
   "events": [

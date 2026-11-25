@@ -19,6 +19,8 @@ people:
   - lv-chan
   - lv-lu
   - liu-heng
+  - lv-zhi
+  - guan-ying
 result: 诸吕尽诛，少帝废，刘氏皇权复归
 aliases:
   - 诛诸吕

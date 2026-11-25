@@ -103,6 +103,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "lai-hu-er",
+      "target": "yu-wen-xie",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "通鉴同条并列，江都同日遇害"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

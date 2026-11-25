@@ -51,6 +51,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "wang-bian",
+      "target": "zhai-rang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "翟让寇徐豫，辩频击走之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "zhai-rang",
+      "target": "zhang-xu-tuo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "拒让前后三十余战每破走之，让惮不敢进"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

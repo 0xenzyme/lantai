@@ -39,6 +39,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "niu-hong",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与虞世基同正新乐，又同定舆服"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yu-shi-ji",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "江都之难，世基遇害"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

@@ -530,8 +530,9 @@
     {
       "source": "liu-bang",
       "target": "guan-ying",
-      "type": "peer",
-      "note": "从起沛，骑兵名将"
+      "type": "ruler-subject",
+      "note": "从起沛，以中涓从；后为骑兵名将，与周勃共诛诸吕",
+      "since": -209
     },
     {
       "source": "liu-bang",

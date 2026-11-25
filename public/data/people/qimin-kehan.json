@@ -32,6 +32,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "qimin-kehan",
+      "target": "zhangsun-sheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "说染干内附，护送入朝，遂为启民可汗"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

@@ -30,7 +30,32 @@
       "lane": "minister"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "niu-hong",
+      "target": "xu-shanxin",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "诏与许善心等议定作乐、正定新乐"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "xu-shanxin",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "江都之难，善心遇害"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

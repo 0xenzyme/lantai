@@ -112,6 +112,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "guan-ying",
+      "target": "zhou-bo",
+      "type": "peer",
+      "directed": false,
+      "since": -180,
+      "notes": [
+        "屯兵荥阳共谋，诛诸吕后同立代王"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

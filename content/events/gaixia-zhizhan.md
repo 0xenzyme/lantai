@@ -25,6 +25,7 @@ people:
   - peng-yue
   - ying-bu
   - zhou-bo
+  - guan-ying
 result: 楚军覆败，项羽自杀，楚汉战争结束
 aliases:
   - qin-gaixia

@@ -20,7 +20,20 @@
       "lane": "mowei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liang-shidu",
+      "target": "liu-wuzhou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为突厥所署天子，尝以五百骑授武周"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

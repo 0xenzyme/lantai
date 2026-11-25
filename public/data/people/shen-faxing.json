@@ -20,7 +20,20 @@
       "lane": "mowei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-zitong",
+      "target": "shen-faxing",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "庱亭斩其仆射蒋元超，吴郡袭破之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

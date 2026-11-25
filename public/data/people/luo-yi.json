@@ -20,7 +20,20 @@
       "lane": "mowei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "gao-kaidao",
+      "target": "luo-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "初援幽州因艺降唐，后扣请粟兵车绝交，引突厥寇幽州"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

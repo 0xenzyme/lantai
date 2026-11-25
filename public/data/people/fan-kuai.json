@@ -101,6 +101,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-ping",
+      "target": "fan-kuai",
+      "type": "rival",
+      "directed": false,
+      "since": -195,
+      "notes": [
+        "高祖使平斩哙，平与周勃谋，囚哙致上"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

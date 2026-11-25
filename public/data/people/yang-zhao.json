@@ -5,14 +5,17 @@
   "birthAccuracy": "unknown",
   "death": 606,
   "deathAccuracy": "exact",
-  "title": "炀帝长子，皇太子，大业二年薨",
-  "bio": "炀帝长子。大业元年立为皇太子，留守京师。明年朝于洛阳，数月而薨。哀册明书大业二年七月二十三日薨于行宫。韦妃所生即恭帝杨侑。",
+  "birthNote": "生年不发布。封王之年有明文：高祖纪系封河南王于开皇十年春正月乙未（590），本传记其时年十二，按虚岁逆推约生于579；但炀帝纪载开皇元年立晋王时年十三（约生于569），后妃传载炀帝为晋王时高祖始为选妃于梁、遂策为王妃，卷五十九卷首萧皇后生长子昭、次齐王暕，而暕传载遇害时年三十四（618年，约生于585）——诸条不能同时按字面成立，故生年留空待考。",
+  "title": "炀帝长子，大业元年立为皇太子，追尊孝成皇帝",
+  "bio": "杨昭是隋炀帝杨广的长子，萧皇后所生，生而文帝杨坚命养于宫中。三岁时于玄武门弄石狮子，文帝适患腰痛，举手凭文献皇后，昭因避去，如此者再三，文帝叹曰「天生长者，谁复教乎」，由是大奇之。文帝尝对他说「当为尔娶妇」，昭应声而泣，对曰「汉王未婚时，恒在至尊所，一朝娶妇，便则出外。惧将违离，是以啼耳」，文帝叹其有至性，特钟爱焉。年十二，立为河南王。\n\n仁寿初，徙为晋王，拜内史令，兼左卫大将军；后三年，转雍州牧。仁寿四年七月，炀帝即位，便幸洛阳宫，昭留守京师。\n\n大业元年，炀帝遣使者立为皇太子。昭有武力，能引强弩；性谦冲，言色恂恂，未尝忿怒，有深嫌可责者，但云「大不是」。所膳不许多品，帷席极于俭素；臣吏有老父母者，必亲问其安否，岁时皆有惠赐，其仁爱如此。\n\n大业二年，昭朝于洛阳，数月后将还京师，愿得少留，帝不许，拜请无数；体素肥，因致劳疾，帝令巫者视之，云「房陵王为祟」，未几而薨。哀册文明书「维大业二年七月癸丑朔二十三日，皇太子薨于行宫」，三年五月庚辰朔六日，迁座于庄陵。诏内史侍郎虞世基为哀册文，帝深追悼。昭有子三人：韦妃生恭皇帝杨侑，大刘良娣生燕王倓，小刘良娣生越王侗。宇文化及弑逆，元文都等以侗为元德太子之子、属最为近，共尊立之，追尊元德太子为孝成皇帝，庙号世宗。史臣论曰：「元德太子雅性谨重，有君人之量，降年不永，哀哉！」",
   "tags": [
-    "隋"
+    "隋",
+    "皇太子"
   ],
   "categories": [
     "royal-kin"
   ],
+  "primary": "royal-kin",
   "polity": [
     "sui"
   ],
@@ -50,18 +53,196 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙。高祖命养宫中，叹天生长者"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dugu-huanghou",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙。三岁弄狮，高祖与文献后亲至"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。萧皇后生炀帝长子昭"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-liang",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄。昭泣对高祖，举汉王婚事为比"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-yong",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "伯侄。巫者视疾，云房陵王为祟"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-dong",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。小刘良娣生侗，皇泰主追尊孝成皇帝"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],
   "collections": [],
   "aliases": [
     "杨昭",
-    "元德太子"
+    "元德太子",
+    "孝成皇帝"
+  ],
+  "experiences": [
+    {
+      "id": "feng-henan-wang",
+      "label": "开皇十年立为河南王",
+      "year": 590,
+      "yearAccuracy": "exact",
+      "yearNote": "高祖纪系于开皇十年春正月乙未；本传记其时年十二。",
+      "note": "年十二，高祖立为河南王。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "炀帝诸子传·元德太子",
+          "kind": "classic"
+        },
+        {
+          "work": "隋书",
+          "part": "高祖纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xi-jin-wang",
+      "label": "仁寿初徙晋王，拜内史令兼左卫大将军",
+      "year": 601,
+      "yearAccuracy": "approx",
+      "yearNote": "本传作仁寿初，约取仁寿元年（601）。",
+      "note": "徙为晋王，拜内史令，兼左卫大将军；后三年，转雍州牧。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "炀帝诸子传·元德太子",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "liu-shou-jing-shi",
+      "label": "炀帝即位，留守京师",
+      "year": 604,
+      "yearAccuracy": "exact",
+      "note": "仁寿四年七月炀帝即位，便幸洛阳宫，昭留守京师。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "炀帝诸子传·元德太子",
+          "kind": "classic"
+        },
+        {
+          "work": "隋书",
+          "part": "炀帝纪",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "li-huang-taizi",
+      "label": "大业元年立为皇太子",
+      "year": 605,
+      "yearAccuracy": "exact",
+      "note": "大业元年，炀帝遣使者立为皇太子。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "炀帝诸子传·元德太子",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "hong-yu-xing-gong",
+      "label": "大业二年薨于行宫",
+      "year": 606,
+      "yearAccuracy": "exact",
+      "place": "行宫",
+      "note": "朝于洛阳，愿少留，帝不许，拜请无数，体素肥致劳疾，巫者云房陵王为祟；七月二十三日薨于行宫。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "炀帝诸子传·元德太子",
+          "kind": "classic"
+        }
+      ]
+    }
   ],
   "sources": [
     {
       "work": "隋书",
       "part": "炀帝诸子传·元德太子",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "炀帝诸子传·齐王暕",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "炀帝纪",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "高祖纪",
+      "kind": "classic"
+    },
+    {
+      "work": "隋书",
+      "part": "后妃传·炀帝萧皇后",
       "kind": "classic"
     }
   ]

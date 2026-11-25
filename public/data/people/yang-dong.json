@@ -27,7 +27,68 @@
       "lane": "emperor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yang-dong",
+      "target": "yang-xuan-gan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "玄感围东都，越王侗勒兵备御"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-dong",
+      "target": "du-fuwei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "上表皇泰主，拜东道大总管、封楚王"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-dong",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子。小刘良娣生侗，皇泰主追尊孝成皇帝"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-dong",
+      "target": "zhu-can",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "遣使降东都，皇泰主以为楚王"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-dong",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "东都推侗为主，令李密击化及"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

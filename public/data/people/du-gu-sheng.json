@@ -27,7 +27,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "du-gu-sheng",
+      "target": "yu-wen-xie",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为江都之变殉难的卫府将领"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

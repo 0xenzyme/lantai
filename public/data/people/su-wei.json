@@ -70,6 +70,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "niu-hong",
+      "target": "su-wei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同召诸儒论新礼降杀，弘议众咸推服"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "su-wei",
+      "target": "yang-xiu-618",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "奉诏与虞庆则杂案苏威朋党事"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

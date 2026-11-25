@@ -125,15 +125,18 @@
       ]
     },
     {
-      "source": "guan-ying",
-      "target": "liu-bang",
-      "type": "peer",
-      "directed": false,
+      "source": "liu-bang",
+      "target": "guan-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -209,
       "notes": [
-        "从起沛，骑兵名将"
+        "从起沛，以中涓从；后为骑兵名将，与周勃共诛诸吕",
+        "从击项籍，领车骑；后与周勃共诛诸吕"
       ],
       "topicIds": [
-        "qin"
+        "qin",
+        "han"
       ]
     },
     {
@@ -261,19 +264,6 @@
       "since": -200,
       "notes": [
         "白登之围七日，此后汉匈以和亲相处"
-      ],
-      "topicIds": [
-        "han"
-      ]
-    },
-    {
-      "source": "liu-bang",
-      "target": "guan-ying",
-      "type": "ruler-subject",
-      "directed": true,
-      "since": -209,
-      "notes": [
-        "从击项籍，领车骑；后与周勃共诛诸吕"
       ],
       "topicIds": [
         "han"

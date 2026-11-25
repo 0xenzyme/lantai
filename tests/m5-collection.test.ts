@@ -36,9 +36,24 @@ test('M5 真实 Collection 只开放已有四个视图并保留显式关系', ()
   assert.equal(realCollection.resolvedRelations.length, 2);
   assert.equal(realCollection.eventRecords.length, 0);
   assert.equal(realCollection.defaultView, 'overview');
+  // 朱熹是详表，带两条写明出处的作品；其余成员没有整理作品，不应被补造。
+  const memberWorks: Record<string, string[]> = {
+    'kong-zi': [],
+    'yan-hui': [],
+    'zeng-zi': [],
+    'meng-zi': [],
+    'zhu-xi': ['sishu-zhangju-jizhu', 'bailudong-shuyuan-jieshi'],
+  };
   for (const member of realCollection.members) {
     const detail = JSON.parse(readFileSync(`public/data/people/${member.id}.json`, 'utf8')) as PersonDetail;
-    assert.equal(detail.works?.length ?? 0, 0, `${member.id} 不应被补造作品`);
+    assert.deepEqual(
+      (detail.works ?? []).map((work) => work.id),
+      memberWorks[member.id],
+      `${member.id} 只保留写明出处的作品，不应被补造作品`,
+    );
+    for (const work of detail.works ?? []) {
+      assert.ok(work.sources.length > 0, `${member.id} 的 ${work.id} 应写明出处`);
+    }
   }
   assert.deepEqual(
     featuredCollectionMembers(realCollection).map((member) => member.id),

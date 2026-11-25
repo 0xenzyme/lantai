@@ -77,6 +77,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ying",
+      "target": "cao-can",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -193,
+      "notes": [
+        "萧何卒，参代相，日夜饮醇酒；惠帝让之，参免冠谢"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

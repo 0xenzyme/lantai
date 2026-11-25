@@ -275,6 +275,54 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "wang-bian",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "从杨素讨平汉王谅之乱"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jun-600",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "素为俊奢纵案进谏，请帝详察"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-su",
+      "target": "yu-juluo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "素两度请俱罗同行，平江南、灵州道皆有战功"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-su",
+      "target": "zhangsun-sheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "仁寿元年北伐，素为元帅，晟为受降使者"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

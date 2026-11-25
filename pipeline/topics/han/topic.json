@@ -896,7 +896,7 @@
       "source": "lv-zhi",
       "target": "liu-ying",
       "type": "kin",
-      "note": "惠帝在位七年，吕后实际掌权"
+      "note": "母子；惠帝在位七年，政令多出吕后"
     },
     {
       "source": "liu-heng",
@@ -1149,7 +1149,8 @@
       "source": "lv-zhi",
       "target": "liu-heng",
       "type": "rival",
-      "note": "吕后残害刘氏诸子，文帝因在代地得免"
+      "note": "吕后残害刘氏诸子，文帝因在代地得免；吕后崩后诸吕诛，代王入继",
+      "since": -180
     },
     {
       "source": "lv-zhi",
@@ -1525,7 +1526,7 @@
       "source": "lv-zhi",
       "target": "lv-chan",
       "type": "kin",
-      "note": "吕后之侄，封梁王相国；吕后崩后与禄同诛"
+      "note": "吕后之侄，封梁王、相国；吕后崩后与禄同诛"
     },
     {
       "source": "lv-chan",
@@ -2317,6 +2318,107 @@
       "type": "ruler-subject",
       "since": 1,
       "note": "平帝九岁即位，太后临朝称制"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "lv-lu",
+      "type": "kin",
+      "note": "吕后之侄，封赵王，吕后病中令为上将军军北军"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "shen-shiju",
+      "type": "peer",
+      "note": "为左丞相，居中用事，公卿皆因决事；得幸于太后"
+    },
+    {
+      "source": "liu-ying",
+      "target": "cao-can",
+      "type": "ruler-subject",
+      "since": -193,
+      "note": "萧何卒，参代相，日夜饮醇酒；惠帝让之，参免冠谢"
+    },
+    {
+      "source": "liu-ying",
+      "target": "guan-ying",
+      "type": "ruler-subject",
+      "since": -188,
+      "note": "惠帝七年发车骑材官诣荥阳，太尉灌婴将"
+    },
+    {
+      "source": "chen-ping",
+      "target": "fan-kuai",
+      "type": "rival",
+      "since": -195,
+      "note": "高祖使平斩哙，平与周勃谋，囚哙致上"
+    },
+    {
+      "source": "chen-ping",
+      "target": "han-xin",
+      "type": "rival",
+      "since": -201,
+      "note": "献伪游云梦计，擒楚王韩信"
+    },
+    {
+      "source": "chen-ping",
+      "target": "guan-ying",
+      "type": "peer",
+      "since": -180,
+      "note": "同与周勃诛诸吕，共立代王"
+    },
+    {
+      "source": "chen-ping",
+      "target": "lv-zhi",
+      "type": "peer",
+      "note": "阿意许王诸吕，吕后徙平为右丞相"
+    },
+    {
+      "source": "chen-ping",
+      "target": "shen-shiju",
+      "type": "peer",
+      "note": "吕后时平为右丞相，审食其为左丞相"
+    },
+    {
+      "source": "guan-ying",
+      "target": "han-xin",
+      "type": "peer",
+      "since": -204,
+      "note": "以御史大夫将郎中骑兵属韩信，破齐斩龙且"
+    },
+    {
+      "source": "guan-ying",
+      "target": "zhou-bo",
+      "type": "peer",
+      "since": -180,
+      "note": "屯兵荥阳共谋，诛诸吕后同立代王"
+    },
+    {
+      "source": "guan-ying",
+      "target": "lv-lu",
+      "type": "rival",
+      "since": -180,
+      "note": "吕禄遣婴为大将击齐，婴屯荥阳反与绛侯谋"
+    },
+    {
+      "source": "guan-ying",
+      "target": "liu-xiang-qi",
+      "type": "peer",
+      "since": -180,
+      "note": "屯荥阳，风齐王以诛吕氏事，齐兵止不前"
+    },
+    {
+      "source": "li-yi-ji",
+      "target": "han-xin",
+      "type": "rival",
+      "since": -204,
+      "note": "韩信夜度兵袭齐，齐王以为郦生卖己，遂烹之"
+    },
+    {
+      "source": "li-yi-ji",
+      "target": "zhang-liang",
+      "type": "rival",
+      "since": -204,
+      "note": "郦生劝立六国后，张良借箸陈八不可"
     }
   ],
   "events": [

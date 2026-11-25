@@ -187,6 +187,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "xue-shixiong",
+      "target": "yu-wen-shu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "首征辽东同为军将，同败绩于平壤"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

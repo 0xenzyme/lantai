@@ -89,8 +89,9 @@
       "target": "lv-zhi",
       "type": "rival",
       "directed": false,
+      "since": -180,
       "notes": [
-        "吕后残害刘氏诸子，文帝因在代地得免"
+        "吕后残害刘氏诸子，文帝因在代地得免；吕后崩后诸吕诛，代王入继"
       ],
       "topicIds": [
         "han"

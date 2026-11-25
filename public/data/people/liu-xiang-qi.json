@@ -20,7 +20,21 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "guan-ying",
+      "target": "liu-xiang-qi",
+      "type": "peer",
+      "directed": false,
+      "since": -180,
+      "notes": [
+        "屯荥阳，风齐王以诛吕氏事，齐兵止不前"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

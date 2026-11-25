@@ -99,6 +99,54 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-jun-600",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。勇为长子，俊行三"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-liang",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄弟。太子勇被谗废，谅阴有异图"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-xiu-618",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄。勇遭谗废，秀意甚不平"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-yong",
+      "target": "yang-zhao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "伯侄。巫者视疾，云房陵王为祟"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

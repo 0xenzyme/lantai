@@ -27,7 +27,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "duan-wenzhen",
+      "target": "yang-xuan-gan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "玄感托其求领兵，帝叹将门有将"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

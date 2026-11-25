@@ -32,6 +32,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "shibi-kehan",
+      "target": "liang-shidu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "始毕授狼头纛，号大度毗伽可汗"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

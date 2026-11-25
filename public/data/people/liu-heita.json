@@ -20,7 +20,20 @@
       "lane": "mowei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "gao-kaidao",
+      "target": "liu-heita",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "连和刘黑闥，攻易州共扰河北"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [
