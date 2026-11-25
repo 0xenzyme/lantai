@@ -2201,12 +2201,6 @@
       "note": "锁厅试居桧孙塤之先，桧怒而显黜之"
     },
     {
-      "source": "zong-ze",
-      "target": "yue-fei",
-      "type": "mentor",
-      "note": "奇其才授阵图，飞论运用存乎一心"
-    },
-    {
       "source": "wen-tianxiang",
       "target": "zhang-shijie",
       "type": "peer",
@@ -2697,6 +2691,41 @@
       "type": "ruler-subject",
       "since": 1162,
       "note": "孝宗即位赐进士出身，赏识其诗文及主战之志，称其狂放"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "yu-yunwen",
+      "type": "ruler-subject",
+      "since": 1161,
+      "note": "采石大捷后高宗召见慰抚，赞其文臣立不世殊勋"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "yu-yunwen",
+      "type": "ruler-subject",
+      "since": 1162,
+      "note": "孝宗拜为右相出镇全蜀，倚为长城相期大举北伐"
+    },
+    {
+      "source": "chen-kangbo",
+      "target": "yu-yunwen",
+      "type": "mentor",
+      "since": 1161,
+      "note": "抗金宰相力主死战，排众议遣允文往采石劳军督师"
+    },
+    {
+      "source": "zhang-jun",
+      "target": "yu-yunwen",
+      "type": "peer",
+      "since": 1163,
+      "note": "同执掌枢密军政，力图规画恢复中原旧疆"
+    },
+    {
+      "source": "qin-hui",
+      "target": "zhao-shen",
+      "type": "rival",
+      "since": 1142,
+      "note": "秦桧专权时猜忌建王英明难驭，力阻立储并阴图动摇其皇嗣地位"
     }
   ],
   "events": [

@@ -27,7 +27,21 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chen-kangbo",
+      "target": "yu-yunwen",
+      "type": "mentor",
+      "directed": true,
+      "since": 1161,
+      "notes": [
+        "抗金宰相力主死战，排众议遣允文往采石劳军督师"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "longxing-heyi",

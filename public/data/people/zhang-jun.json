@@ -40,6 +40,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "yu-yunwen",
+      "target": "zhang-jun",
+      "type": "peer",
+      "directed": false,
+      "since": 1163,
+      "notes": [
+        "同执掌枢密军政，力图规画恢复中原旧疆"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

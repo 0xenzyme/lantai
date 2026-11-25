@@ -118,6 +118,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "yu-yunwen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1161,
+      "notes": [
+        "采石大捷后高宗召见慰抚，赞其文臣立不世殊勋"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
