@@ -65,6 +65,45 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "shi-miyuan",
+      "target": "li-zong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1224,
+      "notes": [
+        "宁宗崩后矫诏废皇子竑拥立理宗，两朝擅权至绍定六年"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-zong",
+      "target": "jia-sidao",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1259,
+      "notes": [
+        "宠信贵妃之弟拜右丞相，鄂州诈和后误信大捷倚为中流柱石"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-zong",
+      "target": "ding-da-quan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1258,
+      "notes": [
+        "宠信宦官引荐拜大全为右相，开庆鄂州告急匿不以闻始罢贬"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

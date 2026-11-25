@@ -20,7 +20,21 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "ding-da-quan",
+      "target": "dong-huai",
+      "type": "rival",
+      "directed": false,
+      "since": 1256,
+      "notes": [
+        "为御史夜遣军士围相府夺印，逼逐右丞相董槐出城"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -41,6 +41,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "zhao-ruyu",
+      "type": "rival",
+      "directed": false,
+      "since": 1195,
+      "notes": [
+        "怨其不酬定策功，构陷其谋逆并掀起庆元党禁贬死衡州"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

@@ -64,6 +64,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "shi-miyuan",
+      "target": "zhao-kuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1208,
+      "notes": [
+        "嘉定诛韩后拜右相独揽政柄，辅宁宗十六年擅权专政"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -2775,6 +2775,62 @@
       "type": "rival",
       "since": 1279,
       "note": "崖山海战统千舰结寨死战，弘范遣甥三次诱降皆遭怒斥"
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "zhao-ruyu",
+      "type": "rival",
+      "since": 1195,
+      "note": "怨其不酬定策功，构陷其谋逆并掀起庆元党禁贬死衡州"
+    },
+    {
+      "source": "shi-miyuan",
+      "target": "han-tuozhou",
+      "type": "rival",
+      "since": 1207,
+      "note": "开禧北伐兵败，勾结杨皇后于玉津园密谋锤杀侂胄函首送金"
+    },
+    {
+      "source": "shi-miyuan",
+      "target": "zhao-kuo",
+      "type": "ruler-subject",
+      "since": 1208,
+      "note": "嘉定诛韩后拜右相独揽政柄，辅宁宗十六年擅权专政"
+    },
+    {
+      "source": "shi-miyuan",
+      "target": "li-zong",
+      "type": "ruler-subject",
+      "since": 1224,
+      "note": "宁宗崩后矫诏废皇子竑拥立理宗，两朝擅权至绍定六年"
+    },
+    {
+      "source": "li-zong",
+      "target": "jia-sidao",
+      "type": "ruler-subject",
+      "since": 1259,
+      "note": "宠信贵妃之弟拜右丞相，鄂州诈和后误信大捷倚为中流柱石"
+    },
+    {
+      "source": "li-zong",
+      "target": "ding-da-quan",
+      "type": "ruler-subject",
+      "since": 1258,
+      "note": "宠信宦官引荐拜大全为右相，开庆鄂州告急匿不以闻始罢贬"
+    },
+    {
+      "source": "ding-da-quan",
+      "target": "dong-huai",
+      "type": "rival",
+      "since": 1256,
+      "note": "为御史夜遣军士围相府夺印，逼逐右丞相董槐出城"
+    },
+    {
+      "source": "jia-sidao",
+      "target": "ding-da-quan",
+      "type": "rival",
+      "since": 1259,
+      "note": "似道拜相后严惩宿怨，再贬大全并授意押解官挤之于水溺毙"
     }
   ],
   "events": [
