@@ -28,7 +28,21 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "lv-zuqian",
+      "target": "zhu-xi",
+      "type": "peer",
+      "directed": false,
+      "since": 1175,
+      "notes": [
+        "合编《近思录》，吕祖谦促成淳熙二年鹅湖之会共论儒学"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

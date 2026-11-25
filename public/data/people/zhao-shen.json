@@ -65,6 +65,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-shen",
+      "target": "lu-you",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1162,
+      "notes": [
+        "孝宗即位赐进士出身，赏识其诗文及主战之志，称其狂放"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

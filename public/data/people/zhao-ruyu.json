@@ -28,7 +28,21 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zhao-ruyu",
+      "target": "zhu-xi",
+      "type": "peer",
+      "directed": false,
+      "since": 1194,
+      "notes": [
+        "绍熙五年赵汝愚荐朱熹入朝侍讲，旋同遭韩侂胄庆元伪学党禁打击"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

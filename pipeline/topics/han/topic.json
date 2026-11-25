@@ -1175,13 +1175,13 @@
       "source": "liu-shi",
       "target": "liu-ao",
       "type": "kin",
-      "note": "父子"
+      "note": "父子；元帝崩，太子骜即位"
     },
     {
       "source": "liu-ao",
       "target": "liu-xin",
       "type": "kin",
-      "note": "成帝无嗣，立侄刘欣为太子（哀帝）"
+      "note": "成帝无嗣，立侄刘欣为太子，是为哀帝"
     },
     {
       "source": "liu-xin",
@@ -1193,13 +1193,13 @@
       "source": "wang-zhengjun",
       "target": "liu-shi",
       "type": "kin",
-      "note": "夫妻，元帝皇后"
+      "note": "夫妻；甘露三年生成帝，元帝即位立为皇后"
     },
     {
       "source": "wang-zhengjun",
       "target": "wang-mang",
       "type": "kin",
-      "note": "姑侄，王莽以外戚执政"
+      "note": "姑侄；元后临朝，王莽秉政，终移汉祚"
     },
     {
       "source": "wang-mang",
@@ -2278,6 +2278,45 @@
       "target": "wei-xiang",
       "type": "peer",
       "note": "元康中议匈奴事，相同议"
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "liu-ao",
+      "type": "kin",
+      "note": "母子；成帝即位尊为皇太后"
+    },
+    {
+      "source": "liu-ao",
+      "target": "wang-feng",
+      "type": "ruler-subject",
+      "note": "元舅王凤为大司马大将军领尚书事，王氏之兴自凤始"
+    },
+    {
+      "source": "liu-ao",
+      "target": "wang-mang",
+      "type": "ruler-subject",
+      "since": -8,
+      "note": "绥和元年擢为大司马"
+    },
+    {
+      "source": "liu-xin",
+      "target": "wang-mang",
+      "type": "ruler-subject",
+      "note": "即位后莽就第，元寿元年征还京师"
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-kan",
+      "type": "ruler-subject",
+      "since": 1,
+      "note": "迎立平帝，太后临朝，莽秉政"
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "liu-kan",
+      "type": "ruler-subject",
+      "since": 1,
+      "note": "平帝九岁即位，太后临朝称制"
     }
   ],
   "events": [

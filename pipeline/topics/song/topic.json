@@ -2655,6 +2655,48 @@
       "type": "mentor",
       "since": 1127,
       "note": "东京留守宗泽深赏岳飞智勇，亲授阵图以期收复失地"
+    },
+    {
+      "source": "xin-qiji",
+      "target": "zhu-xi",
+      "type": "peer",
+      "since": 1181,
+      "note": "带湖瓢泉期间书信论学唱和，朱熹病逝后辛弃疾哭祭谓所不朽者垂万世"
+    },
+    {
+      "source": "zhu-xi",
+      "target": "lv-zuqian",
+      "type": "peer",
+      "since": 1175,
+      "note": "合编《近思录》，吕祖谦促成淳熙二年鹅湖之会共论儒学"
+    },
+    {
+      "source": "zhao-ruyu",
+      "target": "zhu-xi",
+      "type": "peer",
+      "since": 1194,
+      "note": "绍熙五年赵汝愚荐朱熹入朝侍讲，旋同遭韩侂胄庆元伪学党禁打击"
+    },
+    {
+      "source": "zhu-xi",
+      "target": "han-tuozhou",
+      "type": "rival",
+      "since": 1194,
+      "note": "朱熹经筵直陈弹劾外戚韩侂胄干政遭罢，侂胄遂兴庆元伪学党禁"
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "xin-qiji",
+      "type": "ruler-subject",
+      "since": 1203,
+      "note": "开禧北伐前韩侂胄起用辛弃疾知绍兴及镇江府备战，旋因议不合再罢"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "lu-you",
+      "type": "ruler-subject",
+      "since": 1162,
+      "note": "孝宗即位赐进士出身，赏识其诗文及主战之志，称其狂放"
     }
   ],
   "events": [

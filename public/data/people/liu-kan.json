@@ -51,6 +51,32 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "wang-mang",
+      "target": "liu-kan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1,
+      "notes": [
+        "迎立平帝，太后临朝，莽秉政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "liu-kan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1,
+      "notes": [
+        "平帝九岁即位，太后临朝称制"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

@@ -51,6 +51,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "wang-feng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元舅王凤为大司马大将军领尚书事，王氏之兴自凤始"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

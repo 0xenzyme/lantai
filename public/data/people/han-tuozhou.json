@@ -52,6 +52,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "zhu-xi",
+      "type": "rival",
+      "directed": false,
+      "since": 1194,
+      "notes": [
+        "朱熹经筵直陈弹劾外戚韩侂胄干政遭罢，侂胄遂兴庆元伪学党禁"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "xin-qiji",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1203,
+      "notes": [
+        "开禧北伐前韩侂胄起用辛弃疾知绍兴及镇江府备战，旋因议不合再罢"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
