@@ -151,6 +151,46 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhang-shi",
+      "target": "zhu-xi",
+      "type": "peer",
+      "directed": false,
+      "since": 1167,
+      "notes": [
+        "朱张会讲岳麓书院，研辩中庸仁说两月，开宋代理学讲学盛规",
+        "千里赴潭州岳麓会讲，论辩知行与仁说，称其纯正高迈"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "huang-gan",
+      "target": "zhu-xi",
+      "type": "mentor",
+      "directed": true,
+      "since": 1176,
+      "notes": [
+        "负笈受业为高足与女婿，朱熹临终授以深衣及平生著述托付道统"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhu-xi",
+      "target": "huang-gan",
+      "type": "mentor",
+      "directed": true,
+      "since": 1176,
+      "notes": [
+        "深爱其志坚思苦，妻以次女，疾笃勉以吾道之托在此"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

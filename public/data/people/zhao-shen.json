@@ -186,6 +186,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhang-shi",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1163,
+      "notes": [
+        "孝宗召对便殿，直陈人君正心诚意、省刑罚去冗员之道"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

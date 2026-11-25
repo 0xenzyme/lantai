@@ -73,6 +73,20 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "shi-miyuan",
+      "target": "wei-liaoweng",
+      "type": "rival",
+      "directed": false,
+      "since": 1225,
+      "notes": [
+        "极言济王赵竑之冤，忤怒权相史弥远，被谪贬靖州数载",
+        "忌惮魏了翁直言声望，借端将其贬谪靖州"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

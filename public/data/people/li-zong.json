@@ -143,6 +143,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhen-dexiu",
+      "target": "li-zong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1224,
+      "notes": [
+        "进呈《大学衍义》，端平更化拜参知政事，辅弼帝王正心诚意"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "wei-liaoweng",
+      "target": "li-zong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1224,
+      "notes": [
+        "理宗朝拜同签书枢密院事兼权礼部尚书，出督江淮战备"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -54,6 +54,20 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "lv-zuqian",
+      "target": "zhang-shi",
+      "type": "peer",
+      "directed": false,
+      "since": 1167,
+      "notes": [
+        "同为东南三贤，书札频繁切磋性命仁义之学",
+        "并称东南三贤，叹赏敬夫学行高明醇实"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

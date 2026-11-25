@@ -3195,6 +3195,118 @@
       "type": "mentor",
       "since": 1228,
       "note": "深服其布衣考订信史之学，率朝臣二十三人合疏举荐入史馆"
+    },
+    {
+      "source": "zhang-shi",
+      "target": "zhang-jun",
+      "type": "kin",
+      "since": 1133,
+      "note": "张浚长子，从父研习理学与恢复大计"
+    },
+    {
+      "source": "zhang-jun",
+      "target": "zhang-shi",
+      "type": "kin",
+      "since": 1133,
+      "note": "长子，湖湘学派集大成者，与朱熹并称东南三贤"
+    },
+    {
+      "source": "zhang-shi",
+      "target": "zhu-xi",
+      "type": "peer",
+      "since": 1167,
+      "note": "朱张会讲岳麓书院，研辩中庸仁说两月，开宋代理学讲学盛规"
+    },
+    {
+      "source": "zhu-xi",
+      "target": "zhang-shi",
+      "type": "peer",
+      "since": 1167,
+      "note": "千里赴潭州岳麓会讲，论辩知行与仁说，称其纯正高迈"
+    },
+    {
+      "source": "zhang-shi",
+      "target": "lv-zuqian",
+      "type": "peer",
+      "since": 1167,
+      "note": "同为东南三贤，书札频繁切磋性命仁义之学"
+    },
+    {
+      "source": "lv-zuqian",
+      "target": "zhang-shi",
+      "type": "peer",
+      "since": 1167,
+      "note": "并称东南三贤，叹赏敬夫学行高明醇实"
+    },
+    {
+      "source": "zhang-shi",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "since": 1163,
+      "note": "孝宗召对便殿，直陈人君正心诚意、省刑罚去冗员之道"
+    },
+    {
+      "source": "huang-gan",
+      "target": "zhu-xi",
+      "type": "mentor",
+      "since": 1176,
+      "note": "负笈受业为高足与女婿，朱熹临终授以深衣及平生著述托付道统"
+    },
+    {
+      "source": "zhu-xi",
+      "target": "huang-gan",
+      "type": "mentor",
+      "since": 1176,
+      "note": "深爱其志坚思苦，妻以次女，疾笃勉以吾道之托在此"
+    },
+    {
+      "source": "huang-gan",
+      "target": "zhao-kuo",
+      "type": "ruler-subject",
+      "since": 1200,
+      "note": "庆元党禁后起用为汉阳军、安丰军知军，御金救荒政绩卓然"
+    },
+    {
+      "source": "zhen-dexiu",
+      "target": "li-zong",
+      "type": "ruler-subject",
+      "since": 1224,
+      "note": "进呈《大学衍义》，端平更化拜参知政事，辅弼帝王正心诚意"
+    },
+    {
+      "source": "zhen-dexiu",
+      "target": "wei-liaoweng",
+      "type": "peer",
+      "since": 1210,
+      "note": "并称西山鹤山，同为南宋后期理学朝纲与经世领袖"
+    },
+    {
+      "source": "wei-liaoweng",
+      "target": "zhen-dexiu",
+      "type": "peer",
+      "since": 1210,
+      "note": "与真德秀志同道合，相引为经世重器，并称真魏"
+    },
+    {
+      "source": "wei-liaoweng",
+      "target": "li-zong",
+      "type": "ruler-subject",
+      "since": 1224,
+      "note": "理宗朝拜同签书枢密院事兼权礼部尚书，出督江淮战备"
+    },
+    {
+      "source": "wei-liaoweng",
+      "target": "shi-miyuan",
+      "type": "rival",
+      "since": 1225,
+      "note": "极言济王赵竑之冤，忤怒权相史弥远，被谪贬靖州数载"
+    },
+    {
+      "source": "shi-miyuan",
+      "target": "wei-liaoweng",
+      "type": "rival",
+      "since": 1225,
+      "note": "忌惮魏了翁直言声望，借端将其贬谪靖州"
     }
   ],
   "events": [

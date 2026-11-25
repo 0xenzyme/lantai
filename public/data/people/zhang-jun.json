@@ -163,6 +163,20 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhang-jun",
+      "target": "zhang-shi",
+      "type": "kin",
+      "directed": false,
+      "since": 1133,
+      "notes": [
+        "张浚长子，从父研习理学与恢复大计",
+        "长子，湖湘学派集大成者，与朱熹并称东南三贤"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

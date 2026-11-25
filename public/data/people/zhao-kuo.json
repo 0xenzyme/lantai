@@ -103,6 +103,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "huang-gan",
+      "target": "zhao-kuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1200,
+      "notes": [
+        "庆元党禁后起用为汉阳军、安丰军知军，御金救荒政绩卓然"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
