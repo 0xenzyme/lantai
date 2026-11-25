@@ -27,7 +27,34 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-xinchuan",
+      "target": "cui-yuzhi",
+      "type": "mentor",
+      "directed": true,
+      "since": 1228,
+      "notes": [
+        "右丞相崔与之领衔二十三卿联名保荐心传，朝廷破格召试入馆"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cui-yuzhi",
+      "target": "li-xinchuan",
+      "type": "mentor",
+      "directed": true,
+      "since": 1228,
+      "notes": [
+        "深服其布衣考订信史之学，率朝臣二十三人合疏举荐入史馆"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

@@ -123,6 +123,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "ye-shi",
+      "target": "han-tuozhou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1206,
+      "notes": [
+        "开禧北伐任建康府兼沿江制置使，修堡固守建康，江东独全"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

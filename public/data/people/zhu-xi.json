@@ -124,6 +124,33 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chen-liang",
+      "target": "zhu-xi",
+      "type": "rival",
+      "directed": false,
+      "since": 1184,
+      "notes": [
+        "开展王霸义利之辩，主张功到成处便是有德，力抗理学空谈",
+        "往复书札辩论王霸义利，折服其气魄而严守天理纯正之防"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "ye-shi",
+      "target": "zhu-xi",
+      "type": "rival",
+      "directed": false,
+      "since": 1188,
+      "notes": [
+        "批判理学家空谈心性脱离实际，倡导物到何处理即在此"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

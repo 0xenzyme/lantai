@@ -52,8 +52,10 @@
       "target": "xin-qiji",
       "type": "peer",
       "directed": false,
+      "since": 1188,
       "notes": [
-        "同游鹅湖，纵论恢复，相酬以词"
+        "同游鹅湖，纵论恢复，相酬以词",
+        "鹅湖之会风雪同游十余日，纵论抗金恢复并长歌相酬"
       ],
       "topicIds": [
         "song"

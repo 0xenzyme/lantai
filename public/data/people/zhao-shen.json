@@ -160,6 +160,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chen-liang",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1169,
+      "notes": [
+        "布衣伏阙上《中兴五论》，力主经略两淮恢复中原"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-dao",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1163,
+      "notes": [
+        "进呈《续资治通鉴长编》，孝宗下诏特许尽借皇家秘阁藏书"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

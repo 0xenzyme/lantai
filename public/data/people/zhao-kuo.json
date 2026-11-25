@@ -90,6 +90,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "ye-shi",
+      "target": "zhao-kuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1194,
+      "notes": [
+        "宁宗朝任工部侍郎、兵部侍郎兼直学士院，抗金有功"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -3090,6 +3090,111 @@
       "type": "peer",
       "since": 1140,
       "note": "顺昌告急，岳飞遣部将应援并出师中原策应"
+    },
+    {
+      "source": "chen-liang",
+      "target": "zhu-xi",
+      "type": "rival",
+      "since": 1184,
+      "note": "开展王霸义利之辩，主张功到成处便是有德，力抗理学空谈"
+    },
+    {
+      "source": "zhu-xi",
+      "target": "chen-liang",
+      "type": "rival",
+      "since": 1184,
+      "note": "往复书札辩论王霸义利，折服其气魄而严守天理纯正之防"
+    },
+    {
+      "source": "chen-liang",
+      "target": "ye-shi",
+      "type": "peer",
+      "since": 1180,
+      "note": "同倡浙东经世事功之学，永康学派与永嘉学派并峙"
+    },
+    {
+      "source": "ye-shi",
+      "target": "chen-liang",
+      "type": "peer",
+      "since": 1180,
+      "note": "志同道合，推重龙川豪迈有经略大志，同主实事实上求是"
+    },
+    {
+      "source": "chen-liang",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "since": 1169,
+      "note": "布衣伏阙上《中兴五论》，力主经略两淮恢复中原"
+    },
+    {
+      "source": "xin-qiji",
+      "target": "chen-liang",
+      "type": "peer",
+      "since": 1188,
+      "note": "鹅湖之会风雪同游十余日，纵论抗金恢复并长歌相酬"
+    },
+    {
+      "source": "ye-shi",
+      "target": "zhu-xi",
+      "type": "rival",
+      "since": 1188,
+      "note": "批判理学家空谈心性脱离实际，倡导物到何处理即在此"
+    },
+    {
+      "source": "ye-shi",
+      "target": "han-tuozhou",
+      "type": "ruler-subject",
+      "since": 1206,
+      "note": "开禧北伐任建康府兼沿江制置使，修堡固守建康，江东独全"
+    },
+    {
+      "source": "ye-shi",
+      "target": "zhao-kuo",
+      "type": "ruler-subject",
+      "since": 1194,
+      "note": "宁宗朝任工部侍郎、兵部侍郎兼直学士院，抗金有功"
+    },
+    {
+      "source": "li-dao",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "since": 1163,
+      "note": "进呈《续资治通鉴长编》，孝宗下诏特许尽借皇家秘阁藏书"
+    },
+    {
+      "source": "li-dao",
+      "target": "li-xinchuan",
+      "type": "peer",
+      "since": 1200,
+      "note": "宋代编年史学双巨匠，各以《长编》与《要录》成南北宋史学双璧"
+    },
+    {
+      "source": "li-xinchuan",
+      "target": "li-dao",
+      "type": "peer",
+      "since": 1200,
+      "note": "效仿李焘长编考异之法撰《系年要录》，世称两宋史学双绝"
+    },
+    {
+      "source": "li-xinchuan",
+      "target": "li-zong",
+      "type": "ruler-subject",
+      "since": 1228,
+      "note": "理宗特赐进士出身入史馆修《中兴四朝帝纪》与《十三朝会要》"
+    },
+    {
+      "source": "li-xinchuan",
+      "target": "cui-yuzhi",
+      "type": "mentor",
+      "since": 1228,
+      "note": "右丞相崔与之领衔二十三卿联名保荐心传，朝廷破格召试入馆"
+    },
+    {
+      "source": "cui-yuzhi",
+      "target": "li-xinchuan",
+      "type": "mentor",
+      "since": 1228,
+      "note": "深服其布衣考订信史之学，率朝臣二十三人合疏举荐入史馆"
     }
   ],
   "events": [

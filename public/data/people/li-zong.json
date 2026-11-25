@@ -130,6 +130,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "li-xinchuan",
+      "target": "li-zong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1228,
+      "notes": [
+        "理宗特赐进士出身入史馆修《中兴四朝帝纪》与《十三朝会要》"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
