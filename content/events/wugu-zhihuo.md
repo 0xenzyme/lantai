@@ -17,6 +17,8 @@ people:
   - liu-che
   - liu-ju
   - wei-zifu
+  - jiang-chong
+  - liu-qu-mao
 result: 太子刘据兵败自杀，皇后卫子夫自杀，长安死者数万
 aliases:
   - 征和巫蛊

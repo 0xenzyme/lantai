@@ -25,6 +25,8 @@ function makeLibrary(overrides: Partial<Library> = {}): Library {
     people: [],
     personById: new Map(),
     topicCache: new Map(),
+    personBio: new Map(),
+    personBioLoads: new Map(),
     loadedLines: new Set(),
     lineLoads: new Map(),
     ...overrides,

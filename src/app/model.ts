@@ -1,6 +1,7 @@
 import {
   loadCatalog,
   loadLine,
+  loadPersonDetail,
   loadSearchIndex,
   loadTimelineEventIndex,
   loadTimelinePeopleIndex,
@@ -50,6 +51,9 @@ export interface Library {
   people: TimelinePersonRecord[];
   personById: Map<string, TimelinePersonRecord>;
   topicCache: Map<string, Topic>;
+  /** 年表卡片按需读取的传记正文，按人物 id 缓存。 */
+  personBio: Map<string, string>;
+  personBioLoads: Map<string, Promise<string | undefined>>;
   /** 已加载的完整事件线。 */
   loadedLines: Set<TimeLineId>;
   /** 进行中的事件线请求，避免切线、深链和重试重复下载。 */
@@ -253,11 +257,38 @@ export async function createLibrary(): Promise<Library> {
     people,
     personById: new Map(people.map((record) => [record.id, record])),
     topicCache: new Map(),
+    personBio: new Map(),
+    personBioLoads: new Map(),
     loadedLines: new Set(),
     lineLoads: new Map(),
   };
   rebuildEventIndexes(library);
   return library;
+}
+
+/**
+ * 按需读取人物传记正文：专题载荷只带年表布局与卡片摘要，卡片打开时才取详情。
+ * 同一人物的并发调用共享一个请求；失败返回 undefined，不阻塞卡片其余内容。
+ */
+export function ensurePersonBio(library: Library, id: string): Promise<string | undefined> {
+  const cached = library.personBio.get(id);
+  if (cached !== undefined) return Promise.resolve(cached);
+  const pending = library.personBioLoads.get(id);
+  if (pending) return pending;
+  const task = loadPersonDetail(dataUrl(`people/${encodeURIComponent(id)}.json`), id)
+    .then((detail) => {
+      if (detail.bio) library.personBio.set(id, detail.bio);
+      return detail.bio;
+    })
+    .catch((error) => {
+      console.warn('[人物传记加载失败]', id, error);
+      return undefined;
+    })
+    .finally(() => {
+      library.personBioLoads.delete(id);
+    });
+  library.personBioLoads.set(id, task);
+  return task;
 }
 
 /** 按需加载一条完整事件线；同一路径的并发调用共享一个请求。 */

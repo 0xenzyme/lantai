@@ -147,6 +147,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "子表仁娶勇女，颎谏存储位"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "shi-wansui",
+      "target": "yang-yong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同日废勇，素谮谒东宫万岁枉死"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

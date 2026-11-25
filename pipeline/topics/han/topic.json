@@ -902,7 +902,7 @@
       "source": "liu-heng",
       "target": "dou-yifang",
       "type": "kin",
-      "note": "夫妻"
+      "note": "夫妻；文帝为代王时独幸窦姬，生景帝与梁孝王；文帝即位立为皇后"
     },
     {
       "source": "liu-heng",
@@ -920,7 +920,7 @@
       "source": "liu-che",
       "target": "wei-zifu",
       "type": "kin",
-      "note": "夫妻"
+      "note": "夫妻；子夫生男据立为皇后；后色衰爱弛，巫蛊之祸后收玺绶自杀"
     },
     {
       "source": "liu-che",
@@ -932,13 +932,13 @@
       "source": "dou-yifang",
       "target": "liu-che",
       "type": "kin",
-      "note": "祖母与孙"
+      "note": "祖母与孙；武帝初即位，太后以黄老阻儒术，罢逐赵绾、王臧"
     },
     {
       "source": "dou-yifang",
       "target": "dou-ying",
       "type": "kin",
-      "note": "堂姑侄"
+      "note": "堂姑侄；吴楚反时窦婴将兵，以军功为魏其侯"
     },
     {
       "source": "wei-zifu",
@@ -1067,12 +1067,6 @@
     },
     {
       "source": "liu-che",
-      "target": "li-ling",
-      "type": "ruler-subject",
-      "note": "拜骑都尉，后降匈奴"
-    },
-    {
-      "source": "liu-che",
       "target": "huo-guang",
       "type": "ruler-subject",
       "since": -87,
@@ -1136,7 +1130,7 @@
       "target": "li-ling",
       "type": "rival",
       "since": -99,
-      "note": "李陵降匈奴，族其家"
+      "note": "拜骑都尉教射酒泉张掖；天汉二年兵败降匈奴，族其家"
     },
     {
       "source": "huo-guang",
@@ -1303,7 +1297,7 @@
       "source": "liu-che",
       "target": "sima-xiang-ru",
       "type": "ruler-subject",
-      "note": "读《子虚赋》而叹「独不得与此人同时」"
+      "note": "读《子虚赋》而叹「独不得与此人同时」，召见奏《上林赋》"
     },
     {
       "source": "sima-tan",
@@ -1321,7 +1315,8 @@
       "source": "liu-shi",
       "target": "xiao-wang-zhi",
       "type": "ruler-subject",
-      "note": "太子太傅，即位以师傅见任"
+      "note": "太子太傅，宣帝遗诏辅政；议罢中书宦官，为弘恭石显所谮，饮鸩自杀",
+      "since": -49
     },
     {
       "source": "liu-xiang",
@@ -1382,7 +1377,7 @@
       "source": "su-wu",
       "target": "chang-hui",
       "type": "peer",
-      "note": "同使匈奴俱被留，惠代苏武为典属国"
+      "note": "同使匈奴俱被留十余年；惠后随苏武归汉，代苏武为典属国"
     },
     {
       "source": "li-ling",
@@ -1406,25 +1401,27 @@
       "source": "liu-qi",
       "target": "liu-wu",
       "type": "kin",
-      "note": "同母弟，梁孝王拒吴楚有功"
+      "note": "同母弟；七国之乱梁城守睢阳拒吴楚，破杀虏略与汉中分"
     },
     {
       "source": "liu-che",
       "target": "liu-an",
       "type": "rival",
-      "note": "淮南谋反事泄，自刑杀，国除"
+      "note": "淮南王谋反事觉，自刭杀，国除为九江郡",
+      "since": -122
     },
     {
       "source": "liu-che",
       "target": "liu-ju",
       "type": "kin",
-      "note": "父子；巫蛊之祸兵败自经"
+      "note": "父子；元狩元年立为皇太子，巫蛊之祸兵败自经",
+      "since": -122
     },
     {
       "source": "wei-zifu",
       "target": "liu-ju",
       "type": "kin",
-      "note": "母子；巫蛊之祸中母子俱亡"
+      "note": "母子；巫蛊之祸中太子兵败，卫后收玺绶自杀"
     },
     {
       "source": "liu-dan",
@@ -1643,7 +1640,8 @@
       "source": "liu-che",
       "target": "dongfang-shuo",
       "type": "ruler-subject",
-      "note": "待诏公车、常侍郎，以诙谐行讽谏"
+      "note": "上书自荐待诏公车，累迁常侍郎、太中大夫，以诙谐行讽谏",
+      "since": -140
     },
     {
       "source": "liu-che",
@@ -1686,31 +1684,34 @@
       "source": "zheng-ji",
       "target": "chen-tang",
       "type": "peer",
-      "note": "西汉经营西域先后相接：吉首任都护定官制，汤西逾葱岭诛郅支"
+      "note": "吉首任都护定官制，汤继其后逾葱岭诛郅支"
     },
     {
       "source": "liu-shi",
       "target": "chen-tang",
       "type": "ruler-subject",
-      "note": "元帝遣西域副校尉陈汤与都护甘延寿矫制发兵，斩郅支首，封关内侯"
+      "note": "元帝遣西域副校尉陈汤与都护甘延寿矫制发兵，斩郅支首，封关内侯",
+      "since": -36
     },
     {
       "source": "zhi-zhi",
       "target": "chen-tang",
       "type": "rival",
-      "note": "郅支杀汉使谷吉、困辱汉廷，汤矫制发兵四万余人攻都赖水，斩其首传诣京师"
+      "note": "郅支杀汉使谷吉、困辱汉廷，汤矫制发兵四万余人攻都赖水，斩其首传诣京师",
+      "since": -36
     },
     {
       "source": "liu-shi",
       "target": "jing-fang",
       "type": "ruler-subject",
-      "note": "元帝时以易学待诏，屡言灾异，为石显所忌，竟下狱死"
+      "note": "初元四年以孝廉为郎，数言灾异，奏考功课吏法；为石显所忌，弃市",
+      "since": -43
     },
     {
       "source": "liu-ao",
       "target": "duan-hui-zong",
       "type": "ruler-subject",
-      "note": "成帝时为西域都护，安抚乌孙，三任都护"
+      "note": "成帝时为西域都护，三任都护，安辑乌孙，诛番丘"
     },
     {
       "source": "liu-qi",
@@ -2026,7 +2027,7 @@
       "target": "guan-ying",
       "type": "ruler-subject",
       "since": -209,
-      "note": "从击项籍，领车骑；后与周勃共诛诸吕"
+      "note": "从起沛为中涓，后领车骑击项籍，与周勃共诛诸吕"
     },
     {
       "source": "liu-bang",
@@ -2419,6 +2420,266 @@
       "type": "rival",
       "since": -204,
       "note": "郦生劝立六国后，张良借箸陈八不可"
+    },
+    {
+      "source": "wei-zifu",
+      "target": "jiang-chong",
+      "type": "rival",
+      "note": "江充与太子及卫氏有隙，借巫蛊事陷害太子"
+    },
+    {
+      "source": "liu-ju",
+      "target": "liu-qu-mao",
+      "type": "rival",
+      "since": -91,
+      "note": "太子发兵，丞相刘屈氂奉诏将兵击之，战于长安"
+    },
+    {
+      "source": "liu-ju",
+      "target": "liu-xun",
+      "type": "kin",
+      "note": "祖孙；太子遗孙病已后即位，是为宣帝"
+    },
+    {
+      "source": "liu-ju",
+      "target": "shi-liangdi",
+      "type": "kin",
+      "note": "夫妻；史良娣生史皇孙进，同遇巫蛊之祸"
+    },
+    {
+      "source": "li-ling",
+      "target": "huo-guang",
+      "type": "peer",
+      "note": "霍光素与陵善，遣任立政等招陵归汉，陵以「丈夫不能再辱」辞"
+    },
+    {
+      "source": "dongfang-shuo",
+      "target": "sima-qian",
+      "type": "peer",
+      "note": "同以文学侍从武帝，朔为郎，迁为太史令"
+    },
+    {
+      "source": "dongfang-shuo",
+      "target": "sima-xiang-ru",
+      "type": "peer",
+      "note": "同为武帝朝辞赋文学之士，一以诙谐，一以赋颂"
+    },
+    {
+      "source": "chang-hui",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "since": -71,
+      "note": "本始三年护乌孙兵破匈奴，封长罗侯；甘露中为右将军"
+    },
+    {
+      "source": "chang-hui",
+      "target": "huo-guang",
+      "type": "peer",
+      "note": "霍光秉政，风惠以便宜从事，惠遂发三国兵攻龟兹"
+    },
+    {
+      "source": "chang-hui",
+      "target": "zhao-chongguo",
+      "type": "peer",
+      "since": -52,
+      "note": "甘露中赵充国薨，惠代为右将军，典属国如故"
+    },
+    {
+      "source": "zheng-ji",
+      "target": "gan-yanshou",
+      "type": "peer",
+      "note": "先后为西域都护：吉首置都护，延寿与陈汤诛郅支"
+    },
+    {
+      "source": "gan-yanshou",
+      "target": "chen-tang",
+      "type": "peer",
+      "since": -36,
+      "note": "同为西域都护、副校尉，矫制发兵共诛郅支单于"
+    },
+    {
+      "source": "gan-yanshou",
+      "target": "kuang-heng",
+      "type": "rival",
+      "since": -35,
+      "note": "匡衡、石显争其矫制生事，不当封侯"
+    },
+    {
+      "source": "chen-tang",
+      "target": "kuang-heng",
+      "type": "rival",
+      "since": -31,
+      "note": "成帝初匡衡奏汤盗所收康居财物，汤坐免"
+    },
+    {
+      "source": "chen-tang",
+      "target": "wang-feng",
+      "type": "peer",
+      "since": -20,
+      "note": "王凤为大将军，奏汤为从事中郎，莫府事壹决于汤"
+    },
+    {
+      "source": "chen-tang",
+      "target": "duan-hui-zong",
+      "type": "peer",
+      "since": -20,
+      "note": "会宗为乌孙兵所围，王凤召汤问策，汤预言五日当解"
+    },
+    {
+      "source": "dou-yifang",
+      "target": "liu-wu",
+      "type": "kin",
+      "note": "母子；窦太后少子，爱之，赏赐不可胜道"
+    },
+    {
+      "source": "dou-yifang",
+      "target": "liu-qi",
+      "type": "kin",
+      "note": "母子；景帝即位尊为皇太后"
+    },
+    {
+      "source": "dou-yifang",
+      "target": "yuan-gusheng",
+      "type": "rival",
+      "note": "太后好老子书，召辕固问之，固曰「此家人言耳」，太后怒，使入圈刺豕"
+    },
+    {
+      "source": "liu-pi",
+      "target": "liu-wu-chu",
+      "type": "peer",
+      "since": -154,
+      "note": "七国同反，吴楚并兵西向，先击梁棘壁"
+    },
+    {
+      "source": "liu-pi",
+      "target": "liu-ang-jiaoxi",
+      "type": "peer",
+      "since": -154,
+      "note": "吴王使应高口说胶西王，又身自为使面结之，约同反"
+    },
+    {
+      "source": "liu-pi",
+      "target": "liu-sui-zhao",
+      "type": "peer",
+      "since": -154,
+      "note": "七国同反，赵王遂阴使匈奴与连兵"
+    },
+    {
+      "source": "liu-pi",
+      "target": "dou-ying",
+      "type": "rival",
+      "since": -154,
+      "note": "窦婴为大将军屯荥阳，监齐赵兵"
+    },
+    {
+      "source": "liu-an",
+      "target": "tian-fen",
+      "type": "peer",
+      "since": -139,
+      "note": "田蚡为太尉，迎淮南王霸上，许以宫车晏驾"
+    },
+    {
+      "source": "liu-an",
+      "target": "sima-xiang-ru",
+      "type": "peer",
+      "note": "武帝每为淮南王报书及赐，常召司马相如等视草"
+    },
+    {
+      "source": "liu-wu",
+      "target": "han-anguo",
+      "type": "ruler-subject",
+      "since": -150,
+      "note": "韩安国为梁内史，谏梁王令羊胜、公孙诡自杀"
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-ci",
+      "type": "rival",
+      "since": -122,
+      "note": "衡山王与淮南王通谋反，事觉自刭，国除为衡山郡"
+    },
+    {
+      "source": "xiao-wang-zhi",
+      "target": "zhou-kan",
+      "type": "peer",
+      "since": -49,
+      "note": "同受宣帝遗诏辅政，领尚书事，同心谋议"
+    },
+    {
+      "source": "xiao-wang-zhi",
+      "target": "liu-xiang",
+      "type": "peer",
+      "since": -49,
+      "note": "荐刘更生给事中，与金敞四人同心辅政"
+    },
+    {
+      "source": "zhou-kan",
+      "target": "liu-xiang",
+      "type": "peer",
+      "since": -47,
+      "note": "同为望之党，同被弘恭石显所谮下狱免官"
+    },
+    {
+      "source": "zhou-kan",
+      "target": "jing-fang",
+      "type": "peer",
+      "since": -38,
+      "note": "京房奏考功课吏法，郑弘、周堪初言不可，后善之"
+    },
+    {
+      "source": "liu-xiang",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "since": -47,
+      "note": "元帝擢为散骑宗正给事中；成帝时召拜中郎，领校中五经秘书"
+    },
+    {
+      "source": "liu-xiang",
+      "target": "wang-feng",
+      "type": "rival",
+      "since": -20,
+      "note": "数上封事极谏王氏贵盛，谓「王氏与刘氏亦且不并立」"
+    },
+    {
+      "source": "liu-xiang",
+      "target": "chen-tang",
+      "type": "peer",
+      "since": -20,
+      "note": "向雅奇陈汤智谋，与相亲友，独谓汤言王氏之渐必危刘氏"
+    },
+    {
+      "source": "gong-yu",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "since": -48,
+      "note": "元帝征为谏大夫，后代陈万年为御史大夫"
+    },
+    {
+      "source": "gong-yu",
+      "target": "wei-xuan-cheng",
+      "type": "peer",
+      "since": -44,
+      "note": "贡禹首发罢郡国庙、定宗庙迭毁之议，卒后韦玄成定其礼"
+    },
+    {
+      "source": "gong-yu",
+      "target": "liu-xiang",
+      "type": "rival",
+      "since": -47,
+      "note": "贡禹与韦玄成杂考刘更生狱，更生坐免为庶人"
+    },
+    {
+      "source": "bing-ji",
+      "target": "xiao-wang-zhi",
+      "type": "peer",
+      "note": "长史丙吉荐望之等儒生见大将军霍光，望之独不肯露索挟持"
+    },
+    {
+      "source": "jing-fang",
+      "target": "wang-feng",
+      "type": "rival",
+      "since": -37,
+      "note": "房出为魏郡太守，阳平侯王凤承制诏房，止其乘传奏事"
     }
   ],
   "events": [

@@ -54,6 +54,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "xu-shanxin",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同遇害于江都之难，恭帝纪并书"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

@@ -21,7 +21,21 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-wu",
+      "target": "han-anguo",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -150,
+      "notes": [
+        "韩安国为梁内史，谏梁王令羊胜、公孙诡自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

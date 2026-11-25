@@ -61,8 +61,9 @@
       "target": "xiao-wang-zhi",
       "type": "ruler-subject",
       "directed": true,
+      "since": -49,
       "notes": [
-        "太子太傅，即位以师傅见任"
+        "太子太傅，宣帝遗诏辅政；议罢中书宦官，为弘恭石显所谮，饮鸩自杀"
       ],
       "topicIds": [
         "han"
@@ -85,6 +86,7 @@
       "target": "chen-tang",
       "type": "ruler-subject",
       "directed": true,
+      "since": -36,
       "notes": [
         "元帝遣西域副校尉陈汤与都护甘延寿矫制发兵，斩郅支首，封关内侯"
       ],
@@ -97,8 +99,35 @@
       "target": "jing-fang",
       "type": "ruler-subject",
       "directed": true,
+      "since": -43,
       "notes": [
-        "元帝时以易学待诏，屡言灾异，为石显所忌，竟下狱死"
+        "初元四年以孝廉为郎，数言灾异，奏考功课吏法；为石显所忌，弃市"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xiang",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -47,
+      "notes": [
+        "元帝擢为散骑宗正给事中；成帝时召拜中郎，领校中五经秘书"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "gong-yu",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -48,
+      "notes": [
+        "元帝征为谏大夫，后代陈万年为御史大夫"
       ],
       "topicIds": [
         "han"

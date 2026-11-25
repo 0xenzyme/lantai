@@ -39,9 +39,29 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ju",
+      "target": "liu-qu-mao",
+      "type": "rival",
+      "directed": false,
+      "since": -91,
+      "notes": [
+        "太子发兵，丞相刘屈氂奉诏将兵击之，战于长安"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "wugu-zhihuo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
   "collections": [],
   "sources": [
     {

@@ -139,6 +139,42 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "yang-liang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "征辽帝专委军于颎，谅衔之泣诉于后"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-liang",
+      "target": "yuan-shou",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "元寿为杨素长史，从讨谅之叛"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "shi-wansui",
+      "target": "yang-liang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "开皇末汉王谅与万岁同出马邑道"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

@@ -97,6 +97,18 @@
       ]
     },
     {
+      "source": "yang-dong",
+      "target": "wang-shichong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "七贵辅政，受禅后幽而鸩之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
       "source": "li-yuan",
       "target": "wang-shichong",
       "type": "rival",

@@ -466,6 +466,114 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-dong",
+      "target": "yang-guang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙。追谥炀帝曰明皇帝庙号世祖"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-xiong-542",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命总管浇河道，改封观王，薨为之废朝"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-shi-ji",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "亲礼逾厚专典机密，敕书日且百纸"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "yuan-shou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "从晋王伐陈，炀帝朝拜内史令，卒哭之甚恸"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "du-gu-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "籓邸旧随，即位后亲待，累转右屯卫将军"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "duan-wenzhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "炀帝征为兵部尚书，辽东卒于师，帝悲叹"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "mai-tie-zhang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "帝待之逾密，战死辽东，帝流涕购尸赠谥武烈"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "shen-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "帝望见壮异，即日拜朝请大夫，推食解衣同辈莫比"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "shi-wansui",
+      "target": "yang-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "晋王广虚衿敬万岁，待以交友之礼"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

@@ -15,6 +15,9 @@ people:
   - liu-qi
   - chao-cuo
   - zhou-yafu
+  - liu-pi
+  - liu-wu
+  - dou-ying
 result: 吴楚等七国兵败，中央进一步削弱同姓诸侯王的政治与军事权力
 aliases:
   - 吴楚七国之乱

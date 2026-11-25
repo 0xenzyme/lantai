@@ -20,7 +20,20 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-ju",
+      "target": "shi-liangdi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "夫妻；史良娣生史皇孙进，同遇巫蛊之祸"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

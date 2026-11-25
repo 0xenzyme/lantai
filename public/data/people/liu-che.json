@@ -53,7 +53,7 @@
       "type": "kin",
       "directed": false,
       "notes": [
-        "夫妻"
+        "夫妻；子夫生男据立为皇后；后色衰爱弛，巫蛊之祸后收玺绶自杀"
       ],
       "topicIds": [
         "han"
@@ -77,7 +77,7 @@
       "type": "kin",
       "directed": false,
       "notes": [
-        "祖母与孙"
+        "祖母与孙；武帝初即位，太后以黄老阻儒术，罢逐赵绾、王臧"
       ],
       "topicIds": [
         "han"
@@ -189,18 +189,6 @@
     },
     {
       "source": "liu-che",
-      "target": "li-ling",
-      "type": "ruler-subject",
-      "directed": true,
-      "notes": [
-        "拜骑都尉，后降匈奴"
-      ],
-      "topicIds": [
-        "han"
-      ]
-    },
-    {
-      "source": "liu-che",
       "target": "huo-guang",
       "type": "ruler-subject",
       "directed": true,
@@ -219,7 +207,7 @@
       "directed": false,
       "since": -99,
       "notes": [
-        "李陵降匈奴，族其家"
+        "拜骑都尉教射酒泉张掖；天汉二年兵败降匈奴，族其家"
       ],
       "topicIds": [
         "han"
@@ -281,7 +269,7 @@
       "type": "ruler-subject",
       "directed": true,
       "notes": [
-        "读《子虚赋》而叹「独不得与此人同时」"
+        "读《子虚赋》而叹「独不得与此人同时」，召见奏《上林赋》"
       ],
       "topicIds": [
         "han"
@@ -341,8 +329,9 @@
       "target": "liu-che",
       "type": "rival",
       "directed": false,
+      "since": -122,
       "notes": [
-        "淮南谋反事泄，自刑杀，国除"
+        "淮南王谋反事觉，自刭杀，国除为九江郡"
       ],
       "topicIds": [
         "han"
@@ -353,8 +342,9 @@
       "target": "liu-ju",
       "type": "kin",
       "directed": false,
+      "since": -122,
       "notes": [
-        "父子；巫蛊之祸兵败自经"
+        "父子；元狩元年立为皇太子，巫蛊之祸兵败自经"
       ],
       "topicIds": [
         "han"
@@ -425,8 +415,9 @@
       "target": "dongfang-shuo",
       "type": "ruler-subject",
       "directed": true,
+      "since": -140,
       "notes": [
-        "待诏公车、常侍郎，以诙谐行讽谏"
+        "上书自荐待诏公车，累迁常侍郎、太中大夫，以诙谐行讽谏"
       ],
       "topicIds": [
         "han"
@@ -451,6 +442,19 @@
       "directed": true,
       "notes": [
         "拜直指绣衣使者，治巫蛊之狱"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-ci",
+      "type": "rival",
+      "directed": false,
+      "since": -122,
+      "notes": [
+        "衡山王与淮南王通谋反，事觉自刭，国除为衡山郡"
       ],
       "topicIds": [
         "han"

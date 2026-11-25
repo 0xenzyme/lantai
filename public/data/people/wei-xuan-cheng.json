@@ -41,6 +41,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gong-yu",
+      "target": "wei-xuan-cheng",
+      "type": "peer",
+      "directed": false,
+      "since": -44,
+      "notes": [
+        "贡禹首发罢郡国庙、定宗庙迭毁之议，卒后韦玄成定其礼"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

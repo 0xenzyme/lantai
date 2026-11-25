@@ -151,6 +151,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "duan-wenzhen",
+      "target": "yang-xiu-618",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谒蜀王秀不恭，秀衔之奏其丧败"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

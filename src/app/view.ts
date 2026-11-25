@@ -3,7 +3,8 @@
  * 只负责写 DOM 与少量视图状态，跨模块的导航流程通过 runtime 的 hooks 回调。
  */
 
-import { renderEventCard, renderPersonCard, type CardContext } from './cards';
+import { cardBio, renderEventCard, renderPersonCard, type CardContext } from './cards';
+import { ensurePersonBio } from './model';
 import { mountPortraits } from '../site/portrait';
 import type { EventRecord } from '../types';
 import { BAR_H, ROW_GAP, buildEventLayout, topicPeopleForView } from './layout';
@@ -75,6 +76,18 @@ export function trapCardFocus(event: KeyboardEvent): void {
   }
 }
 
+/** 专题载荷不带传记正文；卡片先出骨架，再按人物 id 取详情补上简介。 */
+async function fillCardBio(id: string): Promise<void> {
+  const placeholder = dom.cardBody.querySelector<HTMLElement>(`[data-person-bio="${CSS.escape(id)}"]`);
+  if (!placeholder || placeholder.dataset.bioState !== 'loading') return;
+  const bio = await ensurePersonBio(state.library, id);
+  const target = dom.cardBody.querySelector<HTMLElement>(`[data-person-bio="${CSS.escape(id)}"]`);
+  if (!target || state.selected?.kind !== 'person' || state.selected.id !== id) return;
+  const first = cardBio(bio)?.trim();
+  target.removeAttribute('data-bio-state');
+  target.textContent = first ?? '传记尚未整理。';
+}
+
 export function showCard(selection: Selection): void {
   const trigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   dom.card.dataset.triggerId = trigger?.dataset.id ?? '';
@@ -82,6 +95,7 @@ export function showCard(selection: Selection): void {
   const context = cardContext(selection.id);
   if (selection.kind === 'person') {
     dom.cardBody.innerHTML = renderPersonCard(context, selection.id);
+    void fillCardBio(selection.id);
   } else {
     const event = state.library.eventById.get(selection.id);
     if (!event) return;

@@ -98,6 +98,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dongfang-shuo",
+      "target": "sima-qian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以文学侍从武帝，朔为郎，迁为太史令"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

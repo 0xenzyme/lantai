@@ -125,6 +125,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-xiong-542",
+      "target": "yang-zhao",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "大业初拜太子太傅，辅导元德太子"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

@@ -34,7 +34,7 @@
       "type": "kin",
       "directed": false,
       "notes": [
-        "堂姑侄"
+        "堂姑侄；吴楚反时窦婴将兵，以军功为魏其侯"
       ],
       "topicIds": [
         "han"
@@ -77,9 +77,29 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dou-ying",
+      "target": "liu-pi",
+      "type": "rival",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "窦婴为大将军屯荥阳，监齐赵兵"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "qiguo-zhi-luan",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
   "collections": [],
   "sources": [
     {

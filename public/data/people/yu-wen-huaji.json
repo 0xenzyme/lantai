@@ -235,6 +235,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "du-gu-sheng",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "化及江都弑逆，盛拒战死节"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

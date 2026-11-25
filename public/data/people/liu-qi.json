@@ -112,7 +112,7 @@
       "type": "kin",
       "directed": false,
       "notes": [
-        "同母弟，梁孝王拒吴楚有功"
+        "同母弟；七国之乱梁城守睢阳拒吴楚，破杀虏略与汉中分"
       ],
       "topicIds": [
         "han"
@@ -151,6 +151,18 @@
       "directed": false,
       "notes": [
         "父子；景帝子，封河间王，修学好古，得先秦古文旧书"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-yifang",
+      "target": "liu-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子；景帝即位尊为皇太后"
       ],
       "topicIds": [
         "han"

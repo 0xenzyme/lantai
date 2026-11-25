@@ -199,6 +199,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yu-shi-ji",
+      "target": "yu-wen-shu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与宇文述等用事，文武多以贿闻"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "mai-tie-zhang",
+      "target": "yu-wen-shu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "辽东之役同出征，宇文述等百余人为其执绋"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

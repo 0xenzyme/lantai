@@ -106,6 +106,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "bing-ji",
+      "target": "xiao-wang-zhi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "长史丙吉荐望之等儒生见大将军霍光，望之独不肯露索挟持"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

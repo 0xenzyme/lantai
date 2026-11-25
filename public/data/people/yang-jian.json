@@ -307,6 +307,66 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-xiong-542",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "文帝族子，贵宠冠绝一时，拜司空夺兵柄"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yu-qingze",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "隋文倚为宰辅，遣使突厥、出讨岭南"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "yuan-shou",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "文帝朝任尚书左丞，奏劾萧摩诃上嘉纳"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "duan-wenzhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "尉迥之乱归高祖，后申理授大将军"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "mai-tie-zhang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "开皇十六年文帝征入京师，除车骑将军"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

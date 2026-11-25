@@ -26,7 +26,20 @@
       "lane": "ru"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "dou-yifang",
+      "target": "yuan-gusheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太后好老子书，召辕固问之，固曰「此家人言耳」，太后怒，使入圈刺豕"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -101,6 +101,18 @@
       ]
     },
     {
+      "source": "yang-dong",
+      "target": "li-mi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "拜太尉尚书令魏国公，令拒化及"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
       "source": "li-mi",
       "target": "li-yuan",
       "type": "rival",

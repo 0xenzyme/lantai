@@ -20,7 +20,21 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-pi",
+      "type": "peer",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "吴王使应高口说胶西王，又身自为使面结之，约同反"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

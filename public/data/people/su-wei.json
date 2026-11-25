@@ -94,6 +94,66 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "su-wei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "让位举荐苏威，同心协赞天下称治"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-dong",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "归东都后拜上柱国、邳公"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "su-wei",
+      "target": "yang-xiong-542",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同列开皇四贵，权宠冠绝一时"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "su-wei",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与苏威等同参掌朝政"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "duan-wenzhen",
+      "target": "su-wei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "苏威谮之，坐嘉州之败除名"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

@@ -21,7 +21,34 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "gan-yanshou",
+      "target": "kuang-heng",
+      "type": "rival",
+      "directed": false,
+      "since": -35,
+      "notes": [
+        "匡衡、石显争其矫制生事，不当封侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chen-tang",
+      "target": "kuang-heng",
+      "type": "rival",
+      "directed": false,
+      "since": -31,
+      "notes": [
+        "成帝初匡衡奏汤盗所收康居财物，汤坐免"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

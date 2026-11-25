@@ -218,6 +218,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "li-ling",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "霍光素与陵善，遣任立政等招陵归汉，陵以「丈夫不能再辱」辞"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chang-hui",
+      "target": "huo-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "霍光秉政，风惠以便宜从事，惠遂发三国兵攻龟兹"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

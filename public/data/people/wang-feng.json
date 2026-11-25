@@ -63,6 +63,45 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-tang",
+      "target": "wang-feng",
+      "type": "peer",
+      "directed": false,
+      "since": -20,
+      "notes": [
+        "王凤为大将军，奏汤为从事中郎，莫府事壹决于汤"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xiang",
+      "target": "wang-feng",
+      "type": "rival",
+      "directed": false,
+      "since": -20,
+      "notes": [
+        "数上封事极谏王氏贵盛，谓「王氏与刘氏亦且不并立」"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "jing-fang",
+      "target": "wang-feng",
+      "type": "rival",
+      "directed": false,
+      "since": -37,
+      "notes": [
+        "房出为魏郡太守，阳平侯王凤承制诏房，止其乘传奏事"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

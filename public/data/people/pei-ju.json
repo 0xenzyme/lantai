@@ -34,6 +34,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "pei-ju",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "雁门被围，同宿朝堂待顾问"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

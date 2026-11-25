@@ -93,6 +93,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-jian-585",
+      "target": "yang-you",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄。齐王暕江都之难遇害"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

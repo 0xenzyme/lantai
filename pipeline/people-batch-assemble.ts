@@ -262,7 +262,16 @@ export function checkItem(root: string, batchId: string, id: string): ItemCheck 
   const problems = [...built.problems];
   let evidence: EvidenceResult[] = [];
   let external: string[] = [];
-  if (built.candidate && !built.unchanged) {
+  let unchanged = built.unchanged;
+  if (built.candidate && unchanged && built.sidecar) {
+    // 升档批里，草稿与正式文件相同但规范要求的内容没写齐（例如没有任何个人经历），不算完成。
+    const gaps = completenessProblems(scope, id, built.candidate.proposal.after, built.sidecar);
+    if (gaps.length) {
+      problems.push(...gaps);
+      unchanged = false;
+    }
+  }
+  if (built.candidate && !unchanged) {
     if (built.sidecar) problems.push(...completenessProblems(scope, id, built.candidate.proposal.after, built.sidecar));
     evidence = checkEvidence(id, built.candidate.proposal.evidence, root);
     problems.push(
@@ -289,8 +298,8 @@ export function checkItem(root: string, batchId: string, id: string): ItemCheck 
   return {
     id,
     hash: built.hash,
-    ok: Boolean(built.candidate) && !built.unchanged && problems.length === 0,
-    unchanged: built.unchanged,
+    ok: Boolean(built.candidate) && !unchanged && problems.length === 0,
+    unchanged,
     problems: [...new Set(problems)],
     evidence,
     external,

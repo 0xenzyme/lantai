@@ -55,9 +55,28 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "jiang-chong",
+      "target": "wei-zifu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "江充与太子及卫氏有隙，借巫蛊事陷害太子"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "wugu-zhihuo",
+      "roles": [
+        "person"
+      ]
+    }
+  ],
   "collections": [],
   "aliases": [
     "江齐"

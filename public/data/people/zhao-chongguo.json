@@ -82,6 +82,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chang-hui",
+      "target": "zhao-chongguo",
+      "type": "peer",
+      "directed": false,
+      "since": -52,
+      "notes": [
+        "甘露中赵充国薨，惠代为右将军，典属国如故"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

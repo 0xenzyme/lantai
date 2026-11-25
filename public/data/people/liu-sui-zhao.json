@@ -20,7 +20,21 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-pi",
+      "target": "liu-sui-zhao",
+      "type": "peer",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "七国同反，赵王遂阴使匈奴与连兵"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

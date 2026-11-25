@@ -21,7 +21,21 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-an",
+      "target": "tian-fen",
+      "type": "peer",
+      "directed": false,
+      "since": -139,
+      "notes": [
+        "田蚡为太尉，迎淮南王霸上，许以宫车晏驾"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

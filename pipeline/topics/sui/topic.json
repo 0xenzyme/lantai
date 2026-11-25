@@ -1512,6 +1512,294 @@
       "target": "shen-guang",
       "type": "rival",
       "note": "光与麦孟才谋袭化及营，遇害"
+    },
+    {
+      "source": "su-wei",
+      "target": "gao-jiong",
+      "type": "peer",
+      "note": "让位举荐苏威，同心协赞天下称治"
+    },
+    {
+      "source": "han-qinhu",
+      "target": "gao-jiong",
+      "type": "peer",
+      "note": "平陈名将韩擒虎，亦出其荐"
+    },
+    {
+      "source": "yang-yong",
+      "target": "gao-jiong",
+      "type": "kin",
+      "note": "子表仁娶勇女，颎谏存储位"
+    },
+    {
+      "source": "yang-liang",
+      "target": "gao-jiong",
+      "type": "rival",
+      "note": "征辽帝专委军于颎，谅衔之泣诉于后"
+    },
+    {
+      "source": "yang-dong",
+      "target": "wang-shichong",
+      "type": "ruler-subject",
+      "note": "七贵辅政，受禅后幽而鸩之"
+    },
+    {
+      "source": "yang-dong",
+      "target": "li-mi",
+      "type": "ruler-subject",
+      "note": "拜太尉尚书令魏国公，令拒化及"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-dong",
+      "type": "kin",
+      "note": "祖孙。追谥炀帝曰明皇帝庙号世祖"
+    },
+    {
+      "source": "yang-dong",
+      "target": "yang-you",
+      "type": "kin",
+      "note": "兄弟，皆元德太子昭之子"
+    },
+    {
+      "source": "yang-dong",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "note": "归东都后拜上柱国、邳公"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yang-xiong-542",
+      "type": "ruler-subject",
+      "note": "文帝族子，贵宠冠绝一时，拜司空夺兵柄"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yang-xiong-542",
+      "type": "ruler-subject",
+      "note": "命总管浇河道，改封观王，薨为之废朝"
+    },
+    {
+      "source": "yang-xiong-542",
+      "target": "gao-jiong",
+      "type": "peer",
+      "note": "同列四贵，雄廷辩力保颎非朋党"
+    },
+    {
+      "source": "yang-xiong-542",
+      "target": "yu-qingze",
+      "type": "peer",
+      "note": "与颎、庆则、苏威并称开皇四贵"
+    },
+    {
+      "source": "yang-xiong-542",
+      "target": "su-wei",
+      "type": "peer",
+      "note": "同列开皇四贵，权宠冠绝一时"
+    },
+    {
+      "source": "yang-xiong-542",
+      "target": "yang-zhao",
+      "type": "mentor",
+      "note": "大业初拜太子太傅，辅导元德太子"
+    },
+    {
+      "source": "yang-jian-585",
+      "target": "yang-you",
+      "type": "kin",
+      "note": "叔侄。齐王暕江都之难遇害"
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-you",
+      "type": "kin",
+      "note": "祖孙。萧皇后生元德太子昭"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yu-qingze",
+      "type": "ruler-subject",
+      "note": "隋文倚为宰辅，遣使突厥、出讨岭南"
+    },
+    {
+      "source": "gao-jiong",
+      "target": "yu-qingze",
+      "type": "peer",
+      "note": "讨稽胡，熲表请庆则拜石州总管"
+    },
+    {
+      "source": "yang-su",
+      "target": "yu-qingze",
+      "type": "peer",
+      "note": "平陈宴上争功，两人互相长短"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yu-shi-ji",
+      "type": "ruler-subject",
+      "note": "亲礼逾厚专典机密，敕书日且百纸"
+    },
+    {
+      "source": "su-wei",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "note": "与苏威等同参掌朝政"
+    },
+    {
+      "source": "pei-ju",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "note": "雁门被围，同宿朝堂待顾问"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "note": "与宇文述等用事，文武多以贿闻"
+    },
+    {
+      "source": "xu-shanxin",
+      "target": "yu-shi-ji",
+      "type": "peer",
+      "note": "同遇害于江都之难，恭帝纪并书"
+    },
+    {
+      "source": "yang-guang",
+      "target": "yuan-shou",
+      "type": "ruler-subject",
+      "note": "从晋王伐陈，炀帝朝拜内史令，卒哭之甚恸"
+    },
+    {
+      "source": "yang-jian",
+      "target": "yuan-shou",
+      "type": "ruler-subject",
+      "note": "文帝朝任尚书左丞，奏劾萧摩诃上嘉纳"
+    },
+    {
+      "source": "yang-su",
+      "target": "yuan-shou",
+      "type": "peer",
+      "note": "讨杨谅之役素为元帅、寿为行军长史"
+    },
+    {
+      "source": "yang-liang",
+      "target": "yuan-shou",
+      "type": "rival",
+      "note": "元寿为杨素长史，从讨谅之叛"
+    },
+    {
+      "source": "yuan-shou",
+      "target": "duan-wenzhen",
+      "type": "peer",
+      "note": "吐谷浑之役文振屯雪山，与寿连营合围"
+    },
+    {
+      "source": "zhai-rang",
+      "target": "yang-dong",
+      "type": "rival",
+      "note": "让陷兴洛仓败刘长恭，即侗留守东都所遣"
+    },
+    {
+      "source": "yang-guang",
+      "target": "du-gu-sheng",
+      "type": "ruler-subject",
+      "note": "籓邸旧随，即位后亲待，累转右屯卫将军"
+    },
+    {
+      "source": "yang-dong",
+      "target": "du-gu-sheng",
+      "type": "ruler-subject",
+      "note": "称制后追赠光禄大夫、纪国公，谥武节"
+    },
+    {
+      "source": "du-gu-sheng",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "note": "化及江都弑逆，盛拒战死节"
+    },
+    {
+      "source": "yang-guang",
+      "target": "duan-wenzhen",
+      "type": "ruler-subject",
+      "note": "炀帝征为兵部尚书，辽东卒于师，帝悲叹"
+    },
+    {
+      "source": "yang-jian",
+      "target": "duan-wenzhen",
+      "type": "ruler-subject",
+      "note": "尉迥之乱归高祖，后申理授大将军"
+    },
+    {
+      "source": "duan-wenzhen",
+      "target": "yang-jun-600",
+      "type": "peer",
+      "note": "开皇九年伐陈为元帅秦王俊司马"
+    },
+    {
+      "source": "su-wei",
+      "target": "duan-wenzhen",
+      "type": "rival",
+      "note": "苏威谮之，坐嘉州之败除名"
+    },
+    {
+      "source": "yang-xiu-618",
+      "target": "duan-wenzhen",
+      "type": "rival",
+      "note": "谒蜀王秀不恭，秀衔之奏其丧败"
+    },
+    {
+      "source": "yang-guang",
+      "target": "mai-tie-zhang",
+      "type": "ruler-subject",
+      "note": "帝待之逾密，战死辽东，帝流涕购尸赠谥武烈"
+    },
+    {
+      "source": "yang-jian",
+      "target": "mai-tie-zhang",
+      "type": "ruler-subject",
+      "note": "开皇十六年文帝征入京师，除车骑将军"
+    },
+    {
+      "source": "mai-tie-zhang",
+      "target": "yang-su",
+      "type": "peer",
+      "note": "杨素遣觇贼奇之，奏授仪同，并随其征突厥"
+    },
+    {
+      "source": "mai-tie-zhang",
+      "target": "yu-wen-shu",
+      "type": "peer",
+      "note": "辽东之役同出征，宇文述等百余人为其执绋"
+    },
+    {
+      "source": "yang-guang",
+      "target": "shen-guang",
+      "type": "ruler-subject",
+      "note": "帝望见壮异，即日拜朝请大夫，推食解衣同辈莫比"
+    },
+    {
+      "source": "yang-guang",
+      "target": "shi-wansui",
+      "type": "peer",
+      "note": "晋王广虚衿敬万岁，待以交友之礼"
+    },
+    {
+      "source": "gao-jiong",
+      "target": "shi-wansui",
+      "type": "peer",
+      "note": "万岁当死，颎言雄略过人救之"
+    },
+    {
+      "source": "yang-liang",
+      "target": "shi-wansui",
+      "type": "peer",
+      "note": "开皇末汉王谅与万岁同出马邑道"
+    },
+    {
+      "source": "yang-yong",
+      "target": "shi-wansui",
+      "type": "peer",
+      "note": "同日废勇，素谮谒东宫万岁枉死"
     }
   ],
   "events": [

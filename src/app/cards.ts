@@ -86,7 +86,7 @@ function relationsOf(ctx: CardContext, id: string): Relation[] {
 export function renderPersonCard(ctx: CardContext, id: string): string {
   const person = resolvePerson(ctx, id);
   if (!person) return `<div class="card-kicker">人物</div><div class="card-title">未知条目</div>`;
-  const { library, palette: c } = ctx;
+  const { library } = ctx;
   const lane = ctx.topic?.lanes.find((item) => item.id === person.lane);
   const topicEntry = library.topics.find((item) => item.id === ctx.topic?.meta.id);
   const kicker = `人物 · ${lane?.name ?? topicEntry?.title ?? ''}`.trim();
@@ -128,7 +128,7 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
     ${categories.length > 0 ? `<div class="card-label">分类</div><div>${chips(categories)}</div>` : ''}
     ${polities.length > 0 ? `<div class="card-label">政权</div><div>${chips(polities)}</div>` : ''}
     ${(person.tags ?? []).length > 0 ? `<div class="card-label">标签</div><div>${chips(person.tags ?? [])}</div>` : ''}
-    ${bio ? `<div class="card-label">简介</div><div>${esc(bio)}</div>` : ''}
+    <div class="card-label">简介</div><div class="card-bio" data-person-bio="${esc(id)}"${bio ? '' : ' data-bio-state="loading"'}>${bio ? esc(bio) : '正在读取传记…'}</div>
     ${
       relationRows.length > 0
         ? `<div class="card-label-row"><span class="card-label">关系</span><button type="button" class="lt-btn-link-focus" data-action="toggle-focus">${ctx.focusMode ? '退出聚焦' : '仅看关联'}</button></div><div>${relationRows.join('<br>')}</div>`
@@ -144,7 +144,6 @@ export function renderPersonCard(ctx: CardContext, id: string): string {
           : ''
       }
     </div>
-    ${person.bio === undefined && !ctx.topic?.people.some((item) => item.id === id) ? `<div class="card-meta" style="color:${esc(c.muted)}">完整条目在它所属的专题里，切换专题后可看简介。</div>` : ''}
   `;
 }
 

@@ -20,7 +20,21 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-pi",
+      "target": "liu-wu-chu",
+      "type": "peer",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "七国同反，吴楚并兵西向，先击梁棘壁"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

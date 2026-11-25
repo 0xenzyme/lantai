@@ -323,6 +323,42 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-su",
+      "target": "yu-qingze",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "平陈宴上争功，两人互相长短"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-su",
+      "target": "yuan-shou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "讨杨谅之役素为元帅、寿为行军长史"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "mai-tie-zhang",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "杨素遣觇贼奇之，奏授仪同，并随其征突厥"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

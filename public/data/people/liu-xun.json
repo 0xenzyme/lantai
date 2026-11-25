@@ -218,6 +218,31 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ju",
+      "target": "liu-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙；太子遗孙病已后即位，是为宣帝"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chang-hui",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -71,
+      "notes": [
+        "本始三年护乌孙兵破匈奴，封长罗侯；甘露中为右将军"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

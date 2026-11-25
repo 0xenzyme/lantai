@@ -41,6 +41,11 @@ test('真实内容可以加载、编译并通过错误级校验', () => {
     false,
     '人物瘦索引不得包含 bio',
   );
+  assert.equal(
+    topics.some((topic) => topic.people.some((person) => 'bio' in person)),
+    false,
+    '专题载荷不得包含传记正文，卡片按需读取人物详情',
+  );
   const lineEventIds = new Set(lines.flatMap((line) => line.events.map((event) => event.id)));
   assert.deepEqual(
     new Set(timelineEvents.map((record) => record.id)),

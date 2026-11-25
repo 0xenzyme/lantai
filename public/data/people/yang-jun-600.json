@@ -127,6 +127,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "duan-wenzhen",
+      "target": "yang-jun-600",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "开皇九年伐陈为元帅秦王俊司马"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

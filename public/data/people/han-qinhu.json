@@ -89,6 +89,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "han-qinhu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "平陈名将韩擒虎，亦出其荐"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

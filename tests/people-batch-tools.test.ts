@@ -331,3 +331,66 @@ test('升档批自检要求写齐经历和关系，核心人物要求更高；�
   ]);
   assert.match(completeness(checkItem(root, batchId, id)).join('\n'), /核心人物至少 3 条 experiences，现在是 2/);
 });
+
+test('升档批里草稿与正式文件相同、但缺少规范要求的内容，不算完成', () => {
+  const data = loadPipeline(join(root, 'pipeline'));
+  const qin = data.topics.find((topic) => topic.meta.id === 'qin')!;
+  const [id, otherId] = qin.people
+    .map((person) => person.id)
+    .filter((personId) => data.personPaths.get(personId)?.startsWith('content/qin/'));
+  const canonical = readFileSync(join(root, data.personPaths.get(id)!), 'utf8');
+  const person = parsePersonMarkdown(canonical, data.personPaths.get(id)!).person!;
+  const batchId = 'test-upgrade-identical';
+  const directory = join(root, 'workspace/content/raw', batchId);
+  initBatch(root, {
+    id: batchId,
+    description: '合成升档批次',
+    author: 'fixture-writer',
+    mode: 'upgrade',
+    ids: [id],
+  });
+  const source = { id: 'e1', work: '測試書', locator: '卷一', excerpt: '測試人者，測試朝人也。' };
+  const edge = (from: string, to: string) => ({
+    topic: 'qin',
+    source: from,
+    target: to,
+    type: 'peer',
+    note: '同朝为官，合成测试',
+  });
+  const facts = [
+    'name',
+    'gender',
+    'polity',
+    'categories',
+    'primary',
+    'birth',
+    'birthAccuracy',
+    'birthNote',
+    'death',
+    'deathAccuracy',
+    'deathNote',
+    'title',
+    'tags',
+    'aliases',
+    'sources',
+    'works',
+    'experiences',
+    'bio',
+  ].filter((field) => person[field as keyof RegistryPerson] !== undefined);
+  writeFileSync(
+    join(directory, 'items', `${id}.json`),
+    JSON.stringify({
+      id,
+      admission: '合成测试：升档。',
+      evidence: [source],
+      claims: [{ text: '全部字段依据合成原典。', fields: facts, sourceIds: ['e1'] }],
+      relations: [edge(id, otherId), edge(otherId, id)],
+      existingRelations: [],
+    }),
+  );
+  // 草稿就是正式原文，init 已经放好，不再改动。
+  const result = checkItem(root, batchId, id);
+  assert.equal(result.unchanged, false, '缺少经历时不能报「与正式文件相同」');
+  assert.equal(result.ok, false);
+  assert.match(result.problems.join('\n'), /\[COMPLETENESS\].*experiences/);
+});
