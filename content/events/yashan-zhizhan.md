@@ -22,6 +22,8 @@ commanders:
     side: song
   - id: lu-xiufu
     side: song
+people:
+  - wen-tianxiang
 result: 宋末帝赴海，残余朝廷灭亡
 parent: mengsong-zhanzheng
 aliases:

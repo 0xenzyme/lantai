@@ -19,6 +19,7 @@ commanders:
     side: yuan
 people:
   - wen-tianxiang
+  - xie-daoqing
 result: 宋廷降元，朝廷中心结束
 parent: mengsong-zhanzheng
 aliases:

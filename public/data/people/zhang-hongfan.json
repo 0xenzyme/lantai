@@ -34,6 +34,32 @@
   ],
   "relations": [
     {
+      "source": "wen-tianxiang",
+      "target": "zhang-hongfan",
+      "type": "rival",
+      "directed": false,
+      "since": 1279,
+      "notes": [
+        "五坡岭俘天祥至崖山逼降，天祥作《过零丁洋》以明死节"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhang-hongfan",
+      "target": "zhang-shijie",
+      "type": "rival",
+      "directed": false,
+      "since": 1279,
+      "notes": [
+        "崖山海战统千舰结寨死战，弘范遣甥三次诱降皆遭怒斥"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
       "source": "bo-yan",
       "target": "zhang-hongfan",
       "type": "ruler-subject",

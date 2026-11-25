@@ -49,6 +49,19 @@
       ]
     },
     {
+      "source": "xie-daoqing",
+      "target": "zhao-xian",
+      "type": "kin",
+      "directed": false,
+      "since": 1274,
+      "notes": [
+        "祖孙，度宗崩后恭帝四岁即位，谢太后以太皇太后垂帘听政"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
       "source": "hu-bi-lie",
       "target": "zhao-xian",
       "type": "ruler-subject",

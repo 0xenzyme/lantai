@@ -43,6 +43,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "xie-daoqing",
+      "target": "jia-sidao",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1274,
+      "notes": [
+        "垂帘时诏尊似道为师臣，委以军国重任，及丁家洲溃始贬之"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

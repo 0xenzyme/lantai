@@ -2726,6 +2726,55 @@
       "type": "rival",
       "since": 1142,
       "note": "秦桧专权时猜忌建王英明难驭，力阻立储并阴图动摇其皇嗣地位"
+    },
+    {
+      "source": "li-zong",
+      "target": "xie-daoqing",
+      "type": "kin",
+      "since": 1230,
+      "note": "夫妻，理宗册谢氏为中宫皇后，居后位三十余载"
+    },
+    {
+      "source": "xie-daoqing",
+      "target": "zhao-xian",
+      "type": "kin",
+      "since": 1274,
+      "note": "祖孙，度宗崩后恭帝四岁即位，谢太后以太皇太后垂帘听政"
+    },
+    {
+      "source": "xie-daoqing",
+      "target": "jia-sidao",
+      "type": "ruler-subject",
+      "since": 1274,
+      "note": "垂帘时诏尊似道为师臣，委以军国重任，及丁家洲溃始贬之"
+    },
+    {
+      "source": "xie-daoqing",
+      "target": "wen-tianxiang",
+      "type": "ruler-subject",
+      "since": 1276,
+      "note": "临安危急拜天祥为右丞相兼枢密使，遣赴皋亭山出质请和"
+    },
+    {
+      "source": "lu-xiufu",
+      "target": "zhang-shijie",
+      "type": "peer",
+      "since": 1276,
+      "note": "一相一将辅翼二王浮海，支撑南宋末世行朝至崖山绝唱"
+    },
+    {
+      "source": "zhang-hongfan",
+      "target": "wen-tianxiang",
+      "type": "rival",
+      "since": 1279,
+      "note": "五坡岭俘天祥至崖山逼降，天祥作《过零丁洋》以明死节"
+    },
+    {
+      "source": "zhang-shijie",
+      "target": "zhang-hongfan",
+      "type": "rival",
+      "since": 1279,
+      "note": "崖山海战统千舰结寨死战，弘范遣甥三次诱降皆遭怒斥"
     }
   ],
   "events": [

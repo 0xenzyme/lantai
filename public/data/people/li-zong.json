@@ -52,6 +52,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "li-zong",
+      "target": "xie-daoqing",
+      "type": "kin",
+      "directed": false,
+      "since": 1230,
+      "notes": [
+        "夫妻，理宗册谢氏为中宫皇后，居后位三十余载"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
