@@ -478,10 +478,6 @@
       "lane": "shiguo"
     },
     {
-      "id": "wang-yan-899",
-      "lane": "shiguo"
-    },
-    {
       "id": "wang-yanhan",
       "lane": "shiguo"
     },
@@ -724,7 +720,7 @@
       "source": "zhu-yougui",
       "target": "zhu-zhen",
       "type": "rival",
-      "note": "兄弟相图，宣武兵入而珪死"
+      "note": "朱友珪弑父即位，朱友贞联络禁军起兵相讨"
     },
     {
       "source": "li-cunxu",
@@ -1126,7 +1122,7 @@
       "source": "zhu-zhen",
       "target": "wang-yanzhang",
       "type": "ruler-subject",
-      "note": "末帝倚为干城，拜招讨使；中都之败而梁祚移"
+      "note": "郓州失守后授北面招讨使，战事不利后罢职"
     },
     {
       "source": "chai-rong",
@@ -1150,7 +1146,7 @@
       "source": "li-cunxu",
       "target": "wang-yan-qianshu",
       "type": "rival",
-      "note": "遣李继岌、郭崇韬伐蜀，王衍出降"
+      "note": "命军伐蜀，王衍出降后又命向延嗣杀之"
     },
     {
       "source": "wang-jian-918",
@@ -1162,7 +1158,7 @@
       "source": "wang-jian-918",
       "target": "wang-yan-qianshu",
       "type": "kin",
-      "note": "幼子王宗衍得立为太子，王建死后改名衍即位"
+      "note": "王建立幼子王宗衍为太子，王宗衍即位后改名衍"
     },
     {
       "source": "li-yu-937",
@@ -1457,6 +1453,108 @@
       "target": "wang-pu",
       "type": "ruler-subject",
       "note": "显德元年临终前擢王溥为相"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "zhou-dewei",
+      "type": "ruler-subject",
+      "note": "任帐下骑督，从讨王行瑜后因功升迁"
+    },
+    {
+      "source": "zhou-dewei",
+      "target": "liu-shou-guang",
+      "type": "rival",
+      "note": "率晋兵攻燕，取涿州后围破幽州"
+    },
+    {
+      "source": "zhou-dewei",
+      "target": "yelv-abaoji",
+      "type": "rival",
+      "note": "新州交兵失利，退守幽州抵御契丹围攻"
+    },
+    {
+      "source": "zhou-dewei",
+      "target": "fu-cunshen",
+      "type": "peer",
+      "note": "并攻潞州夹城，幽州受围时符存审来援"
+    },
+    {
+      "source": "zhou-dewei",
+      "target": "liu-xun-858",
+      "type": "rival",
+      "note": "刘鄩欲断晋军粮道，周德威抢先占据临清"
+    },
+    {
+      "source": "zhou-dewei",
+      "target": "li-siyuan",
+      "type": "peer",
+      "note": "并战柏乡，幽州被围时李嗣源率部来援"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "wang-yanzhang",
+      "type": "ruler-subject",
+      "note": "早年隶朱温帐下，从军征讨，官至左龙骧军使"
+    },
+    {
+      "source": "li-cunxu",
+      "target": "wang-yanzhang",
+      "type": "rival",
+      "note": "德胜至杨刘沿河交锋，中都被俘后拒降"
+    },
+    {
+      "source": "li-ke-yong",
+      "target": "guo-chongtao",
+      "type": "ruler-subject",
+      "note": "任郭崇韬为典谒，遣使凤翔后署教练使"
+    },
+    {
+      "source": "guo-chongtao",
+      "target": "meng-zhixiang",
+      "type": "peer",
+      "note": "共掌机要，孟知祥荐他接任，他后荐孟镇蜀"
+    },
+    {
+      "source": "guo-chongtao",
+      "target": "fu-cunshen",
+      "type": "rival",
+      "note": "符存审病中请入朝，郭崇韬从中阻止"
+    },
+    {
+      "source": "guo-chongtao",
+      "target": "feng-dao",
+      "type": "peer",
+      "note": "郭请减陪宴军官，冯道为他向李存勖解说"
+    },
+    {
+      "source": "guo-chongtao",
+      "target": "wang-yanzhang",
+      "type": "rival",
+      "note": "郭在博州东岸筑垒，王彦章攻垒未克"
+    },
+    {
+      "source": "guo-chongtao",
+      "target": "wang-yan-qianshu",
+      "type": "rival",
+      "note": "郭率军入蜀，王衍出降时由他解缚"
+    },
+    {
+      "source": "zhu-wen",
+      "target": "zhu-zhen",
+      "type": "kin",
+      "note": "朱温之子，后梁建立后封均王"
+    },
+    {
+      "source": "zhu-zhen",
+      "target": "liu-xun-858",
+      "type": "ruler-subject",
+      "note": "命刘鄩讨兖州，又派他领兵攻同州"
+    },
+    {
+      "source": "zhu-zhen",
+      "target": "qian-liu",
+      "type": "ruler-subject",
+      "note": "贞明三年加钱镠为天下兵马都元帅"
     }
   ],
   "events": [

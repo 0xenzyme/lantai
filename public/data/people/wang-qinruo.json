@@ -39,6 +39,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "wang-dan",
+      "target": "wang-qinruo",
+      "type": "rival",
+      "directed": false,
+      "since": 1008,
+      "notes": [
+        "天书封禅事起，旦隐忍曲从，临终深恨未能死谏遏止钦若神道设教"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

@@ -1225,7 +1225,7 @@
       "source": "li-yuan",
       "target": "li-jian-cheng",
       "type": "kin",
-      "note": "长子，立为皇太子协同参政，玄武门之变被杀"
+      "note": "长子，立为皇太子，统军讨稽胡、刘黑闼，玄武门之变被杀"
     },
     {
       "source": "li-yuan",
@@ -1279,13 +1279,13 @@
       "source": "li-jing",
       "target": "xu-shi-ji",
       "type": "peer",
-      "note": "同为初唐一代军神，贞观四年李靖袭定襄，李勣屯白道断归路，合力灭东突厥"
+      "note": "贞观四年合力灭东突厥：靖袭阴山，勣屯碛口断颉利北渡"
     },
     {
       "source": "li-shimin",
       "target": "fang-xuan-ling",
       "type": "ruler-subject",
-      "note": "房谋杜断，同为贞观名相"
+      "note": "渭北杖策来投，太宗一见如旧识，手诏许以萧何之任"
     },
     {
       "source": "fang-xuan-ling",
@@ -1303,19 +1303,19 @@
       "source": "fang-xuan-ling",
       "target": "zhangsun-wu-ji",
       "type": "peer",
-      "note": "天策府同僚，玄武门同谋，贞观朝并居凌烟阁功臣之首"
+      "note": "玄武门同谋，论功行赏五人同列第一"
     },
     {
       "source": "du-ru-hui",
       "target": "zhangsun-wu-ji",
       "type": "peer",
-      "note": "同为天策府元勋，共决玄武门大计，开创贞观之基"
+      "note": "秦府腹心，请太宗先发，与房杜共筹玄武门之谋"
     },
     {
       "source": "fang-xuan-ling",
       "target": "li-jing",
       "type": "peer",
-      "note": "雅知其才数加引荐，同为贞观股肱文武柱石"
+      "note": "柳芳论房杜：英卫善将兵而房杜行其道"
     },
     {
       "source": "du-ru-hui",
@@ -1339,7 +1339,7 @@
       "source": "zhangsun-wu-ji",
       "target": "li-shimin",
       "type": "kin",
-      "note": "舅甥，无忌佐太宗得位"
+      "note": "文德皇后之兄、太宗内兄，佐太宗定玄武门之谋"
     },
     {
       "source": "li-zhi",
@@ -1436,13 +1436,13 @@
       "source": "li-yu",
       "target": "guo-zi-yi",
       "type": "ruler-subject",
-      "note": "广德元年吐蕃入长安代宗幸陕，子仪设疑兵收复；大历中拜中书令，尊为尚父"
+      "note": "广德元年吐蕃陷长安，子仪设疑兵收复；代宗不名，呼为大臣"
     },
     {
       "source": "guo-zi-yi",
       "target": "pugu-huai-en",
       "type": "peer",
-      "note": "朔方故部，怀恩叛唐引吐蕃回纥入寇，子仪单骑免胄说退回纥合兵破贼"
+      "note": "怀恩本子仪偏将，引吐蕃回纥入寇，子仪免胄见回纥，合兵破吐蕃"
     },
     {
       "source": "guo-zi-yi",
@@ -1527,13 +1527,13 @@
       "source": "zhu-wen",
       "target": "li-ye",
       "type": "rival",
-      "note": "天复围凤翔诛宦官挟昭宗迁洛阳，天祐元年遣养子朱友恭夜入椒殿弑杀昭宗"
+      "note": "天复围凤翔诛宦官挟昭宗迁洛阳，遣李振与蒋玄晖等谋，史太夜弑昭宗于椒殿"
     },
     {
       "source": "li-ye",
       "target": "li-ke-yong",
       "type": "ruler-subject",
-      "note": "乾宁年间王行瑜李茂贞谋废立，李克用大举勤王斩王行瑜，昭宗拜太师封晋王"
+      "note": "乾宁二年勤王讨王行瑜，行瑜为其部下所杀，拜太师封晋王"
     },
     {
       "source": "li-ke-yong",
@@ -1557,7 +1557,7 @@
       "source": "li-bai",
       "target": "du-fu",
       "type": "peer",
-      "note": "李杜并称，醉眠秋共被"
+      "note": "杜甫少与李白齐名，时号李杜，尝从白及高适过汴州登吹台"
     },
     {
       "source": "li-long-ji",
@@ -1569,67 +1569,67 @@
       "source": "li-bai",
       "target": "gao-shi",
       "type": "peer",
-      "note": "天宝同游梁宋；后白坐永王事系狱，作诗求救于适"
+      "note": "杜甫传载尝从白及高适过汴州，酒酣登吹台，慷慨怀古"
     },
     {
       "source": "li-lin-757",
       "target": "li-bai",
       "type": "ruler-subject",
-      "note": "至德初延揽入幕为谋士，后兵败白坐流夜郎"
+      "note": "璘辟白为府僚佐；璘败，白坐长流夜郎"
     },
     {
       "source": "li-bai",
       "target": "meng-hao-ran",
       "type": "peer",
-      "note": "忘年交，有《赠孟浩然》《黄鹤楼送孟浩然之广陵》"
+      "note": "新旧唐书两传均不载二人交往明文"
     },
     {
       "source": "li-bai",
       "target": "guo-zi-yi",
       "type": "peer",
-      "note": "相传早年白曾解救子仪于行伍；后白系浔阳狱，子仪请以官爵赎白罪，遂免死长流"
+      "note": "相传白游并州救免子仪；后白坐永王璘事当诛，子仪请解官以赎"
     },
     {
       "source": "bai-ju-yi",
       "target": "li-bai",
       "type": "peer",
-      "note": "极重李白仙才，曾作《读李杜诗集》《李白墓》凭吊诗仙风范"
+      "note": "本传载其论李白：才矣奇矣，人不迨矣"
     },
     {
       "source": "gao-shi",
       "target": "du-fu",
       "type": "peer",
-      "note": "天宝同游梁宋；流寓蜀中时适为节度使，多有唱和周济"
+      "note": "甫尝从白及适过汴州，酒酣登吹台；甫流寓蜀中，适为西川节度使"
     },
     {
       "source": "du-fu",
       "target": "fang-guan",
       "type": "peer",
-      "note": "至德二载房琯陈涛斜兵败罢相，杜甫冒死抗疏力救，因忤旨险遭极刑"
+      "note": "房琯罢相，甫上疏言罪细不宜免大臣，帝怒诏三司亲问"
     },
     {
       "source": "li-heng",
       "target": "du-fu",
       "type": "ruler-subject",
-      "note": "至德二载杜甫自长安潜奔凤翔行在，肃宗授左拾遗，后因救房琯触怒见疏"
+      "note": "亡走凤翔上谒，拜右拾遗；后因救房琯触怒见疏"
     },
     {
       "source": "du-fu",
       "target": "wang-wei",
       "type": "peer",
-      "note": "同陷长安安史贼营，杜甫闻王维凝碧池诗深为叹服，两京平定后同朝为官唱和"
+      "note": "同列旧唐书卷190下文苑传之并世诗人"
     },
     {
       "source": "li-long-ji",
       "target": "du-fu",
       "type": "ruler-subject",
-      "note": "天宝十载杜甫献三大礼赋，玄宗异其辞藻命待制集贤院，后授右卫率府胄曹参军"
+      "note": "天宝十三载甫奏赋三篇，帝奇之使待制集贤院，改右卫率府胄曹参军"
     },
     {
       "source": "du-fu",
       "target": "meng-hao-ran",
       "type": "peer",
-      "note": "襄阳同乡前辈诗人，杜甫深怀仰慕，作诗称「复忆襄阳孟浩然，清诗独立态飞动」"
+      "note": "甫本襄阳人，与孟浩然同列旧唐书文苑传"
     },
     {
       "source": "li-lin-fu",
@@ -1647,7 +1647,7 @@
       "source": "guo-zi-yi",
       "target": "du-fu",
       "type": "peer",
-      "note": "杜甫因抗疏诤救房琯触怒肃宗下狱推鞫，郭子仪以战功与中兴声望力保获免"
+      "note": "甫坐救房琯获罪，救之者张镐，非子仪；无交往记载"
     },
     {
       "source": "li-heng",
@@ -1659,19 +1659,19 @@
       "source": "li-heng",
       "target": "gao-shi",
       "type": "ruler-subject",
-      "note": "召见问江贼形势，适陈永王必败，肃宗擢拜淮南节度使统兵讨平永王璘"
+      "note": "肃宗召与计事，适言璘必败，置淮南节度以适为之，师未济而璘败"
     },
     {
       "source": "gao-shi",
       "target": "fang-guan",
       "type": "peer",
-      "note": "同为天宝至德朝廷名臣，房琯自负虚名致陈涛斜惨败，高适深明军旅多有匡议"
+      "note": "至德同朝；琯虚名择将败陈涛斜，适以诗人为戎帅，名节不亏"
     },
     {
       "source": "li-bai",
       "target": "wang-wei",
       "type": "peer",
-      "note": "盛唐同岁诗坛巨擘，同出玉真公主门第，终生各自辉煌而史无直接交往之载"
+      "note": "新旧唐书不载二人交往明文；维名盛于开元天宝间"
     },
     {
       "source": "ge-shu-han",
@@ -1689,7 +1689,7 @@
       "source": "han-yu",
       "target": "liu-zong-yuan",
       "type": "peer",
-      "note": "古文运动，韩柳并举"
+      "note": "愈评其文雄深雅健似司马子长；柳卒后愈撰罗池庙碑以实之"
     },
     {
       "source": "yi-xing",
@@ -1737,7 +1737,7 @@
       "source": "bai-ju-yi",
       "target": "pei-du",
       "type": "peer",
-      "note": "晚年退居洛阳，与裴度结九老会，诗酒流连，唱和甚密"
+      "note": "晚岁同在洛阳，裴度与之文章把酒，穷昼夜相欢"
     },
     {
       "source": "li-chun",
@@ -1761,13 +1761,13 @@
       "source": "pei-du",
       "target": "han-yu",
       "type": "ruler-subject",
-      "note": "元和十二年裴度督师平淮西吴元济，引愈为行军司马，定奇谋破贼，奉敕撰《平淮西碑》"
+      "note": "元和十二年裴度讨吴元济，奏愈为行军司马；诏愈撰《平淮西碑》"
     },
     {
       "source": "han-yu",
       "target": "liu-yu-xi",
       "type": "peer",
-      "note": "同朝进士与文友，元和十年刘禹锡再贬播州，愈深悯之，同裴度营救改连州"
+      "note": "旧唐书同卷立传；元和十年改连州乃裴度与柳宗元之力，非愈"
     },
     {
       "source": "liu-zong-yuan",
@@ -1803,13 +1803,13 @@
       "source": "du-you",
       "target": "du-mu",
       "type": "peer",
-      "note": "三朝宰相、《通典》作者杜佑之孙，承家学精研经史典章与兵法"
+      "note": "杜佑相德顺宪三宗、撰《通典》，孙牧好读书自负经纬才略"
     },
     {
       "source": "niu-seng-ru",
       "target": "du-mu",
       "type": "ruler-subject",
-      "note": "淮南节度使辟杜牧为掌书记，爱其风流才俊，密遣兵卒护其游扬州勾栏"
+      "note": "牛僧孺镇淮南，辟牧为淮南节度府掌书记"
     },
     {
       "source": "li-de-yu",
@@ -1821,13 +1821,13 @@
       "source": "li-chen",
       "target": "du-mu",
       "type": "ruler-subject",
-      "note": "大中宣宗朝官至考功郎中、知制诰、中书舍人，论削藩御边"
+      "note": "宣宗大中朝入拜考功郎中知制诰，岁中迁中书舍人"
     },
     {
       "source": "li-shang-yin",
       "target": "du-mu",
       "type": "peer",
-      "note": "小李杜，晚唐律绝双璧"
+      "note": "新唐书文艺传序并举李贺、杜牧、李商隐，皆卓然以所长为一世冠"
     },
     {
       "source": "yan-zhen-qing",
@@ -1989,13 +1989,13 @@
       "source": "li-jing",
       "target": "su-ding-fang",
       "type": "peer",
-      "note": "靖用定方为前锋，夜袭颉利"
+      "note": "靖使定方率二百骑为前锋，乘雾掩袭颉利牙帐"
     },
     {
       "source": "li-jing",
       "target": "jie-li",
       "type": "rival",
-      "note": "贞观四年夜袭定襄，生擒颉利"
+      "note": "贞观四年夜袭定襄，大破颉利灭其国"
     },
     {
       "source": "su-ding-fang",
@@ -2073,7 +2073,7 @@
       "source": "li-yu",
       "target": "gao-shi",
       "type": "ruler-subject",
-      "note": "以适代崔光远为西川节度，永泰元年卒"
+      "note": "代宗召还，用为刑部侍郎、转散骑常侍，封渤海县侯"
     },
     {
       "source": "li-zhi",
@@ -2535,7 +2535,7 @@
       "source": "li-yuan",
       "target": "li-mi",
       "type": "rival",
-      "note": "瓦岗败后降唐复叛，武德二年斩于熊耳山"
+      "note": "瓦岗败后降唐复叛，武德元年斩于熊耳山"
     },
     {
       "source": "li-shimin",
@@ -2787,7 +2787,7 @@
       "source": "feng-changqing",
       "target": "gao-xian-zhi",
       "type": "peer",
-      "note": "同为安西、河西名将；安史乱起同守陕郡，退保潼关，同为玄宗所杀"
+      "note": "起于仙芝傔从，引拔为判官；安史乱起同退潼关，同日被诛"
     },
     {
       "source": "wu-zetian",
@@ -2812,7 +2812,7 @@
       "target": "jie-li",
       "type": "rival",
       "since": 630,
-      "note": "定方为前锋引二百精骑夜袭牙帐破颉利"
+      "note": "定方为前锋率二百骑乘雾袭牙帐，颉利狼狈散走"
     },
     {
       "source": "li-zhi",
@@ -2952,7 +2952,7 @@
       "target": "gao-shi",
       "type": "ruler-subject",
       "since": 756,
-      "note": "潼关溃破高适疾驰河池面陈实情，玄宗大慰擢拜谏议大夫"
+      "note": "潼关败高适驰及河池面陈败势，玄宗嘉之，制授谏议大夫"
     },
     {
       "source": "an-lu-shan",
@@ -3046,7 +3046,7 @@
       "target": "shi-si-ming",
       "type": "rival",
       "since": 759,
-      "note": "河阳之战李光弼火烧燕军浮桥，死守阻其西犯关中"
+      "note": "光弼守河阳破思明火船，邙山兵败失河阳"
     },
     {
       "source": "guo-zi-yi",
@@ -3067,7 +3067,7 @@
       "target": "xu-yuan",
       "type": "ruler-subject",
       "since": 756,
-      "note": "擢远为睢阳太守固守江淮咽喉，城陷死难，追赠荆州大都督并建双庙合祀"
+      "note": "远以睢阳太守婴城拒守死难，追赠荆州大都督并立双庙合祀"
     },
     {
       "source": "xu-yuan",
@@ -3109,7 +3109,7 @@
       "target": "zhang-yichao",
       "type": "ruler-subject",
       "since": 867,
-      "note": "咸通年间议潮入朝觐见，懿宗加封检校司徒、同平章事，留京奉朝请"
+      "note": "咸通八年入朝觐见，拜右神武统军，赐第及田，留京师"
     },
     {
       "source": "li-shimin",
@@ -3144,14 +3144,14 @@
       "target": "li-yuan-ji",
       "type": "kin",
       "since": 618,
-      "note": "兄弟政治同盟联手抗衡秦王府，玄武门之变同为秦府死士所杀"
+      "note": "兄弟结盟同抗秦王，武德九年玄武门之变双双遇害"
     },
     {
       "source": "bai-ju-yi",
       "target": "niu-seng-ru",
       "type": "peer",
       "since": 832,
-      "note": "僧孺东都留守筑归仁园，白居易晚年退居洛阳日夕与僧孺赋诗唱和"
+      "note": "僧孺开成中留守东都，筑第归仁里，常与居易吟咏其间"
     },
     {
       "source": "liu-yu-xi",
@@ -3186,7 +3186,7 @@
       "target": "cui-xuanwei",
       "type": "ruler-subject",
       "since": 700,
-      "note": "久视中迁天官侍郎公慎拔才，拜同平章事，玄暐正言数谏抑二张"
+      "note": "长安元年拜天官侍郎，绝请谒，后为相屡进谠言正张昌宗罪"
     },
     {
       "source": "li-xian",
@@ -3207,7 +3207,7 @@
       "target": "a-shi-na-he-lu",
       "type": "ruler-subject",
       "since": 648,
-      "note": "贞观末率部内附，太宗割庭州莫贺城安置，拜左骁卫大将军瑶池都督"
+      "note": "贞观末率部内附，诏处庭州莫贺城，太宗拜左骁卫将军、瑶池都督"
     },
     {
       "source": "li-zhi",
@@ -3228,14 +3228,14 @@
       "target": "da-zu-rong",
       "type": "rival",
       "since": 697,
-      "note": "营州乱起东渡辽水，天门岭破李楷固周军，据东牟山建大震国"
+      "note": "营州乱后东走，天门岭拒战，李楷固仅以身免；据东牟山自立震国王"
     },
     {
       "source": "li-xian",
       "target": "da-zu-rong",
       "type": "ruler-subject",
       "since": 705,
-      "note": "神龙中宗复辟遣张行俅宣抚，祚荣遣子入质通好大唐"
+      "note": "中宗即位遣张行岌招慰，祚荣遣子入侍"
     }
   ],
   "events": [

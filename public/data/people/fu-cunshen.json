@@ -21,7 +21,32 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "fu-cunshen",
+      "target": "zhou-dewei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并攻潞州夹城，幽州受围时符存审来援"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "fu-cunshen",
+      "target": "guo-chongtao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "符存审病中请入朝，郭崇韬从中阻止"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

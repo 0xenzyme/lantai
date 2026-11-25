@@ -25,7 +25,7 @@ function read<T>(path: string): T {
 
 test('所有生成详情与 Collection 产物通过运行时 contract', () => {
   const personIds = readdirSync('public/data/people').filter((name) => name.endsWith('.json'));
-  assert.equal(personIds.length, 3506);
+  assert.equal(personIds.length, 3505);
   for (const name of personIds) {
     const id = name.slice(0, -'.json'.length);
     assert.deepEqual(validatePersonDetail(read<PersonDetail>(`public/data/people/${name}`), id), [], id);

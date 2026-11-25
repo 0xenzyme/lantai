@@ -27,7 +27,21 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "lv-mengzheng",
+      "target": "lv-yijian",
+      "type": "kin",
+      "directed": false,
+      "since": 998,
+      "notes": [
+        "叔侄，蒙正尝向真宗特荐吕夷简具宰相才，后夷简果为仁宗朝名相"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

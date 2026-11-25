@@ -30574,7 +30574,7 @@
       "id": "li-shimin",
       "name": "李世民",
       "display": "唐太宗李世民",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "disputed",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -30622,7 +30622,7 @@
       "id": "wu-zetian",
       "name": "武曌",
       "display": "武则天",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "disputed",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -31021,7 +31021,7 @@
       "id": "zhangsun-wu-ji",
       "name": "长孙无忌",
       "display": "长孙无忌",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -31127,7 +31127,7 @@
       "id": "fang-xuan-ling",
       "name": "房玄龄",
       "display": "房玄龄",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "disputed",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -31261,7 +31261,7 @@
       "id": "pei-du",
       "name": "裴度",
       "display": "裴度",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "disputed",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -31301,7 +31301,7 @@
       ],
       "gender": "male",
       "birth": 787,
-      "death": 850
+      "death": 849
     },
     {
       "id": "li-lin-fu",
@@ -32258,7 +32258,7 @@
       "id": "yang-yan",
       "name": "杨炎",
       "display": "杨炎",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -32926,7 +32926,7 @@
       "id": "su-ding-fang",
       "name": "苏定方",
       "display": "苏定方",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -32967,7 +32967,7 @@
       "id": "xue-ren-gui",
       "name": "薛仁贵",
       "display": "薛仁贵",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -32981,7 +32981,7 @@
         "名将"
       ],
       "gender": "male",
-      "birth": 612,
+      "birth": 614,
       "death": 683
     },
     {
@@ -33228,7 +33228,7 @@
       "id": "xu-shi-ji",
       "name": "徐世勣",
       "display": "李勣",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -33295,7 +33295,7 @@
       "id": "guo-zi-yi",
       "name": "郭子仪",
       "display": "郭子仪",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -33337,7 +33337,7 @@
       "id": "zhang-xun",
       "name": "张巡",
       "display": "张巡",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -33351,7 +33351,7 @@
         "忠烈"
       ],
       "gender": "male",
-      "birth": 708,
+      "birth": 709,
       "death": 757
     },
     {
@@ -33462,7 +33462,7 @@
       "id": "an-lu-shan",
       "name": "安禄山",
       "display": "安禄山",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -33486,7 +33486,7 @@
       "id": "shi-si-ming",
       "name": "史思明",
       "display": "史思明",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -33606,8 +33606,8 @@
       "id": "li-bai",
       "name": "李白",
       "display": "李白",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -33630,8 +33630,8 @@
       "id": "du-fu",
       "name": "杜甫",
       "display": "杜甫",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "disputed",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -33647,15 +33647,15 @@
         "诗"
       ],
       "gender": "male",
-      "birth": 712,
-      "death": 770
+      "birth": 708,
+      "death": 766
     },
     {
       "id": "wang-wei",
       "name": "王维",
       "display": "王维",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "disputed",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -33673,15 +33673,15 @@
         "名士"
       ],
       "gender": "male",
-      "birth": 701,
-      "death": 761
+      "birth": 700,
+      "death": 760
     },
     {
       "id": "meng-hao-ran",
       "name": "孟浩然",
       "display": "孟浩然",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -33706,7 +33706,7 @@
       "name": "白居易",
       "display": "白居易",
       "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "deathAccuracy": "disputed",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -33779,7 +33779,7 @@
       "id": "liu-yu-xi",
       "name": "刘禹锡",
       "display": "刘禹锡",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "disputed",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -33806,8 +33806,8 @@
       "id": "li-shang-yin",
       "name": "李商隐",
       "display": "李商隐",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -33823,15 +33823,14 @@
         "唯美主义"
       ],
       "gender": "male",
-      "birth": 813,
       "death": 858
     },
     {
       "id": "du-mu",
       "name": "杜牧",
       "display": "杜牧",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -33896,8 +33895,8 @@
       "id": "niu-seng-ru",
       "name": "牛僧孺",
       "display": "牛僧孺",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "approx",
+      "deathAccuracy": "approx",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -33913,7 +33912,7 @@
       ],
       "gender": "male",
       "birth": 779,
-      "death": 848
+      "death": 847
     },
     {
       "id": "xuan-zang",
@@ -34059,7 +34058,7 @@
       "id": "zhang-jian-zhi",
       "name": "张柬之",
       "display": "张柬之",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -34273,7 +34272,7 @@
       "id": "cui-xuanwei",
       "name": "崔玄暐",
       "display": "崔玄暐",
-      "birthAccuracy": "exact",
+      "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "tang",
       "topicTitle": "唐",
@@ -34291,7 +34290,7 @@
         "博陵崔氏"
       ],
       "gender": "male",
-      "birth": 639,
+      "birth": 638,
       "death": 706
     },
     {
@@ -34396,8 +34395,8 @@
       "id": "wei-zhi-yi",
       "name": "韦执谊",
       "display": "韦执谊",
-      "birthAccuracy": "exact",
-      "deathAccuracy": "exact",
+      "birthAccuracy": "unknown",
+      "deathAccuracy": "approx",
       "topicId": "tang",
       "topicTitle": "唐",
       "aliases": [
@@ -34411,8 +34410,7 @@
         "翰林学士"
       ],
       "gender": "male",
-      "birth": 764,
-      "death": 812
+      "death": 805
     },
     {
       "id": "chi-zu-de-zan",
@@ -35335,18 +35333,20 @@
       "id": "zhu-zhen",
       "name": "朱瑱",
       "display": "后梁末帝",
-      "birthAccuracy": "unknown",
+      "birthAccuracy": "exact",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
       "aliases": [
-        "朱友贞"
+        "朱友贞",
+        "朱鍠"
       ],
       "tags": [
         "五代",
         "后梁"
       ],
       "gender": "male",
+      "birth": 888,
       "death": 923
     },
     {
@@ -36068,12 +36068,16 @@
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
+      "aliases": [
+        "镇远",
+        "阳五"
+      ],
       "tags": [
         "五代",
-        "后唐"
+        "梁晋"
       ],
       "gender": "male",
-      "death": 926
+      "death": 919
     },
     {
       "id": "guo-congqian",
@@ -36573,7 +36577,6 @@
       "topicId": "wudai",
       "topicTitle": "五代十国",
       "aliases": [
-        "王彦章",
         "王铁枪"
       ],
       "tags": [
@@ -36629,12 +36632,12 @@
       "id": "guo-chongtao",
       "name": "郭崇韬",
       "display": "郭崇韬",
-      "birthAccuracy": "approx",
+      "birthAccuracy": "unknown",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
       "aliases": [
-        "郭崇韬"
+        "安时"
       ],
       "tags": [
         "五代",
@@ -36642,7 +36645,6 @@
         "枢密"
       ],
       "gender": "male",
-      "birth": 865,
       "death": 926
     },
     {
@@ -36670,21 +36672,21 @@
     {
       "id": "wang-yan-qianshu",
       "name": "王衍",
-      "display": "王衍",
+      "display": "前蜀后主",
       "birthAccuracy": "approx",
       "deathAccuracy": "exact",
       "topicId": "wudai",
       "topicTitle": "五代十国",
       "aliases": [
-        "王宗衍"
+        "王宗衍",
+        "化源"
       ],
       "tags": [
         "五代",
-        "前蜀",
-        "末世"
+        "前蜀"
       ],
       "gender": "male",
-      "birth": 899,
+      "birth": 901,
       "death": 926
     },
     {
@@ -36980,17 +36982,6 @@
       "topicTitle": "五代十国",
       "gender": "male",
       "death": 925
-    },
-    {
-      "id": "wang-yan-899",
-      "name": "王衍",
-      "display": "前蜀后主",
-      "birthAccuracy": "unknown",
-      "deathAccuracy": "exact",
-      "topicId": "wudai",
-      "topicTitle": "五代十国",
-      "gender": "male",
-      "death": 926
     },
     {
       "id": "wang-yanhan",
@@ -37908,8 +37899,18 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "吕蒙正",
+        "吕圣功",
+        "吕文穆"
+      ],
       "tags": [
-        "宋"
+        "宋",
+        "北宋",
+        "名相",
+        "状元宰相",
+        "三入中书",
+        "雅量容人"
       ],
       "gender": "male",
       "birth": 944,
@@ -37923,8 +37924,18 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "李沆",
+        "李太初",
+        "李文靖"
+      ],
       "tags": [
-        "宋"
+        "宋",
+        "北宋",
+        "名相",
+        "圣相",
+        "清静之治",
+        "咸平之治"
       ],
       "gender": "male",
       "birth": 947,
@@ -37953,8 +37964,18 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "王旦",
+        "王子明",
+        "王文正"
+      ],
       "tags": [
-        "宋"
+        "宋",
+        "北宋",
+        "名相",
+        "太平宰相",
+        "泰山封禅",
+        "王文正"
       ],
       "gender": "male",
       "birth": 957,
@@ -37968,9 +37989,19 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "寇准",
+        "寇平仲",
+        "寇莱公",
+        "寇忠愍"
+      ],
       "tags": [
         "宋",
-        "北宋"
+        "北宋",
+        "名相",
+        "澶渊之盟",
+        "刚直敢言",
+        "莱国公"
       ],
       "gender": "male",
       "birth": 961,

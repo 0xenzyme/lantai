@@ -139,6 +139,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "zhu-zhen",
+      "target": "qian-liu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "贞明三年加钱镠为天下兵马都元帅"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [

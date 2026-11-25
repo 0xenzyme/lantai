@@ -19,7 +19,10 @@ test('李白作品、经历、出处与别名贯通正式 loader，不生成安�
   const person = await loadPersonDetail('public/data/people/li-bai.json', 'li-bai');
   assert.ok(person.aliases?.includes('李太白'));
   assert.ok(person.sources.some((source) => source.work === '新唐书'));
-  assert.equal(person.works?.[0].title, '蜀道难');
+  assert.deepEqual(
+    person.works?.map((work) => work.title),
+    ['蜀道难', '将进酒', '梦游天姥吟留别', '早发白帝城'],
+  );
   assert.equal(person.works?.[0].year, undefined);
   assert.equal(person.works?.[0].yearAccuracy, undefined);
   const changanExp = person.experiences?.find((e) => e.id === 'changan-hanlin');

@@ -121,7 +121,7 @@
       "type": "rival",
       "directed": false,
       "notes": [
-        "遣李继岌、郭崇韬伐蜀，王衍出降"
+        "命军伐蜀，王衍出降后又命向延嗣杀之"
       ],
       "topicIds": [
         "wudai"
@@ -158,6 +158,18 @@
       "directed": true,
       "notes": [
         "河东掌书记，庄宗即位后充翰林学士"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "li-cunxu",
+      "target": "wang-yanzhang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "德胜至杨刘沿河交锋，中都被俘后拒降"
       ],
       "topicIds": [
         "wudai"

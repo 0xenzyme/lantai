@@ -65,6 +65,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "liu-shou-guang",
+      "target": "zhou-dewei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "率晋兵攻燕，取涿州后围破幽州"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [

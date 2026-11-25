@@ -43,6 +43,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "guo-chongtao",
+      "target": "meng-zhixiang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "共掌机要，孟知祥荐他接任，他后荐孟镇蜀"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [

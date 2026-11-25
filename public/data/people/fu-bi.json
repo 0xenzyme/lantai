@@ -28,7 +28,21 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "lv-mengzheng",
+      "target": "fu-bi",
+      "type": "mentor",
+      "directed": true,
+      "since": 1004,
+      "notes": [
+        "蒙正早年识拔年少富弼，预言其名位与己相似而过之"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "qingli-xinzheng",

@@ -2354,6 +2354,83 @@
       "type": "ruler-subject",
       "since": 976,
       "note": "太宗朝封鲁国公，命统十万主力大举雍熙北伐，岐沟关战溃免死贬秩"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "lv-mengzheng",
+      "type": "ruler-subject",
+      "since": 977,
+      "note": "太平兴国二年拔为寒门状元，端拱元年拜相，太宗朝两度入主中书"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "lv-mengzheng",
+      "type": "ruler-subject",
+      "since": 1001,
+      "note": "咸平四年三度入相封许国公，退养洛阳真宗西祀回銮亲临病榻慰问"
+    },
+    {
+      "source": "lv-mengzheng",
+      "target": "lv-yijian",
+      "type": "kin",
+      "since": 998,
+      "note": "叔侄，蒙正尝向真宗特荐吕夷简具宰相才，后夷简果为仁宗朝名相"
+    },
+    {
+      "source": "lv-mengzheng",
+      "target": "fu-bi",
+      "type": "mentor",
+      "since": 1004,
+      "note": "蒙正早年识拔年少富弼，预言其名位与己相似而过之"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "kou-zhun",
+      "type": "ruler-subject",
+      "since": 980,
+      "note": "年十九登进士第，牵帝衣直谏，太宗叹比文皇之得魏徵"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "li-hang",
+      "type": "ruler-subject",
+      "since": 998,
+      "note": "咸平元年独执相柄七载，日奏四方水旱儆人主，卒时真宗临哭追号圣相"
+    },
+    {
+      "source": "li-hang",
+      "target": "wang-dan",
+      "type": "mentor",
+      "since": 998,
+      "note": "同居中书枢要，李沆深重王旦器识，预言吾死之后王旦必为宰相"
+    },
+    {
+      "source": "li-hang",
+      "target": "kou-zhun",
+      "type": "peer",
+      "since": 998,
+      "note": "同朝参政，沆深知准才而戒其锐气太甚，景德元年沆卒而后准任相御辽"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "wang-dan",
+      "type": "ruler-subject",
+      "since": 1006,
+      "note": "景德三年继寇准拜相独执政十二年，宽厚守成，充大礼使东封泰山"
+    },
+    {
+      "source": "wang-dan",
+      "target": "kou-zhun",
+      "type": "peer",
+      "since": 1006,
+      "note": "准数言旦短而旦反盛称准忠直，天禧临终仍力荐寇准可复大用"
+    },
+    {
+      "source": "wang-dan",
+      "target": "wang-qinruo",
+      "type": "rival",
+      "since": 1008,
+      "note": "天书封禅事起，旦隐忍曲从，临终深恨未能死谏遏止钦若神道设教"
     }
   ],
   "events": [

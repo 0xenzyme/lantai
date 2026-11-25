@@ -173,6 +173,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "li-siyuan",
+      "target": "zhou-dewei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并战柏乡，幽州被围时李嗣源率部来援"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [

@@ -150,6 +150,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "feng-dao",
+      "target": "guo-chongtao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "郭请减陪宴军官，冯道为他向李存勖解说"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [

@@ -79,7 +79,7 @@
 | [sang-weihan](wudai/sang-weihan.md) | 桑维翰 | 桑维翰 | full |
 | [guo-chongtao](wudai/guo-chongtao.md) | 郭崇韬 | 郭崇韬 | full |
 | [yang-ningshi](wudai/yang-ningshi.md) | 杨凝式 | 杨凝式 | full |
-| [wang-yan-qianshu](wudai/wang-yan-qianshu.md) | 王衍 | 王衍 | full |
+| [wang-yan-qianshu](wudai/wang-yan-qianshu.md) | 王衍 | 前蜀后主 | full |
 | [wei-zhuang](wudai/wei-zhuang.md) | 韦庄 | 韦庄 | full |
 | [li-jianxun](wudai/li-jianxun.md) | 李建勋 | 李建勋 | full |
 | [gao-jichong](wudai/gao-jichong.md) | 高继冲 | 高继冲 | full |
@@ -102,7 +102,6 @@
 | [qian-yuanguan](wudai/qian-yuanguan.md) | 钱元瓘 | 吴越文穆王 | full |
 | [wang-jipeng](wudai/wang-jipeng.md) | 王继鹏 | 闽康宗 | full |
 | [wang-shenzhi](wudai/wang-shenzhi.md) | 王审知 | 闽太祖 | full |
-| [wang-yan-899](wudai/wang-yan-899.md) | 王衍 | 前蜀后主 | full |
 | [wang-yanhan](wudai/wang-yanhan.md) | 王延翰 | 闽嗣主 | full |
 | [wang-yanjun](wudai/wang-yanjun.md) | 王延钧 | 闽惠宗 | full |
 | [wang-yanxi](wudai/wang-yanxi.md) | 王延羲 | 闽景宗 | full |

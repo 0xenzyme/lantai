@@ -79,13 +79,14 @@ test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归'
   await ready(page, '.lt-person-page');
   assert.equal(new URL(page.url()).pathname, '/people/li-bai');
   const personText = await page.locator('.lt-person-page').innerText();
-  assert.match(personText, /701—762 年/);
+  // 两《唐书》不载李白生卒年，勘误后按约略年份显示。
+  assert.match(personText, /约 701—约 762 年/);
   assert.match(personText, /约 742 年/);
   assert.match(personText, /尚无直接关联事件/);
   // 传记本身可以提到安史之乱；没有显式关联该人物的公共事件不得进入事件面板。
   assert.doesNotMatch(await page.locator('section[aria-labelledby="person-events"]').innerText(), /安史之乱/);
   assert.doesNotMatch(personText, /蜀道难[\s\S]{0,50}创作于/);
-  // 李白有两条约略年份的经历（约 725 年、约 742 年）；展开约 742 年那一条，说明应写天宝初。
+  // 展开约 742 年那一条经历，说明应写天宝初。
   const yearNote = page
     .locator('.lt-person-experience-list > li')
     .filter({ hasText: '约 742 年' })
@@ -183,7 +184,7 @@ test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归'
   await page.route('**/data/history.json', (route) => route.fulfill({ status: 500, body: 'failed' }));
   await page.goto(`${origin}/people/li-bai`);
   await ready(page, '.lt-person-page');
-  assert.match(await page.locator('.lt-person-page').innerText(), /绵州昌隆人/);
+  assert.match(await page.locator('.lt-person-page').innerText(), /绵州昌隆人/, '人物页正文已渲染');
   assert.match(await page.locator('.lt-notice').innerText(), /部分关联数据暂时无法加载/);
   await page.unroute('**/data/history.json');
   await page.locator('.lt-notice [data-retry]').click();
@@ -210,7 +211,7 @@ test('M3 Chrome 核心路径、四档视口、键盘、异常与旧年表回归'
   await page.route('**/media/people/li-bai.webp', (route) => route.fulfill({ status: 404, body: 'missing' }));
   await page.goto(`${origin}/people/li-bai`);
   await ready(page, '.lt-person-page');
-  assert.match(await page.locator('.lt-person-page').innerText(), /绵州昌隆人/);
+  assert.match(await page.locator('.lt-person-page').innerText(), /绵州昌隆人/, '人物页正文已渲染');
   assert.equal(await page.locator('.lt-person-monogram').innerText(), '李');
   await page.unroute('**/data/collections.json');
   await page.unroute('**/media/people/li-bai.webp');

@@ -54,6 +54,18 @@
       "topicIds": [
         "wudai"
       ]
+    },
+    {
+      "source": "yelv-abaoji",
+      "target": "zhou-dewei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "新州交兵失利，退守幽州抵御契丹围攻"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
     }
   ],
   "events": [

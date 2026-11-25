@@ -152,6 +152,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "lv-mengzheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 977,
+      "notes": [
+        "太平兴国二年拔为寒门状元，端拱元年拜相，太宗朝两度入主中书"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "kou-zhun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 980,
+      "notes": [
+        "年十九登进士第，牵帝衣直谏，太宗叹比文皇之得魏徵"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

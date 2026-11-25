@@ -430,7 +430,7 @@
 | [liuyan-chengdi](events/liuyan-chengdi.md) | 南汉建国 | 南汉建国 | political | 917 |
 | [nanhan-jianli](events/nanhan-jianli.md) | 南汉建立 | 南汉建立 | political | 917 |
 | [youzhou-baowei](events/youzhou-baowei.md) | 幽州保卫战 | 幽州保卫战 | military | 917 |
-| [huliubei-zhizhan](events/huliubei-zhizhan.md) | 胡柳陂之战 | 胡柳陂之战 | military | 918 |
+| [huliubei-zhizhan](events/huliubei-zhizhan.md) | 胡柳陂之战 | 胡柳陂之战 | military | 919 |
 | [wangdu-zhizhan](events/wangdu-zhizhan.md) | 望都之战 | 望都之战 | military | 922 |
 | [houdang-mie-houliang](events/houdang-mie-houliang.md) | 后唐灭后梁 | 后唐灭后梁 | military | 923 |
 | [houtang-mie-liang](events/houtang-mie-liang.md) | 后唐灭梁 | 后唐灭梁 | military | 923 |

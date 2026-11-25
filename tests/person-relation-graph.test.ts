@@ -180,5 +180,5 @@ test('局部关系图谱渲染输出合规的 SVG、箭头定义与节点结构'
   assert.ok(html.includes('data-node-id="gao-shi"'));
   assert.ok(html.includes('local-graph-arrow-ruler-subject'));
   assert.ok(html.includes('天宝初召见金銮殿'));
-  assert.ok(html.includes('天宝同游梁宋'));
+  assert.ok(html.includes('杜甫传载尝从白及高适过汴州，酒酣登吹台，慷慨怀古'));
 });

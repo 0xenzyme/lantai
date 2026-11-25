@@ -21,7 +21,32 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-xun-858",
+      "target": "zhou-dewei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "刘鄩欲断晋军粮道，周德威抢先占据临清"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    },
+    {
+      "source": "zhu-zhen",
+      "target": "liu-xun-858",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命刘鄩讨兖州，又派他领兵攻同州"
+      ],
+      "topicIds": [
+        "wudai"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

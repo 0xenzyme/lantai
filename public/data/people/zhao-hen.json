@@ -66,6 +66,45 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "lv-mengzheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1001,
+      "notes": [
+        "咸平四年三度入相封许国公，退养洛阳真宗西祀回銮亲临病榻慰问"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "li-hang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 998,
+      "notes": [
+        "咸平元年独执相柄七载，日奏四方水旱儆人主，卒时真宗临哭追号圣相"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "wang-dan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1006,
+      "notes": [
+        "景德三年继寇准拜相独执政十二年，宽厚守成，充大礼使东封泰山"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
