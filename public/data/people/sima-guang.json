@@ -109,6 +109,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "shao-yong",
+      "target": "sima-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "洛阳三十年笃友，光尊其德，时共结真率之会"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

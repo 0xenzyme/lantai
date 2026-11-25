@@ -113,6 +113,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "yan-shu",
+      "target": "fu-bi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "赏识于微贱并妻以女，极力荐其大才"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fu-bi",
+      "target": "shao-yong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与司马光等洛阳同契，共为邵雍营买安乐窝"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

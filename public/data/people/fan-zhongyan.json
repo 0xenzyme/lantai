@@ -111,6 +111,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "yan-shu",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "知应天府延范仲淹主书院，极力荐举于朝"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

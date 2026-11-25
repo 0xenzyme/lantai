@@ -110,6 +110,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "yan-shu",
+      "target": "ou-yangxiu",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "奖掖引荐于馆阁，欧阳修执门生礼"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

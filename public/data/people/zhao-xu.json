@@ -121,6 +121,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-xu",
+      "target": "zeng-gongliang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "神宗即位进左仆射兼门下侍郎，元老辅政"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

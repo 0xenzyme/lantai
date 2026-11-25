@@ -111,6 +111,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "yan-shu",
+      "target": "han-qi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "提携后进于科第，期许其为公辅之才"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "han-qi",
+      "target": "zeng-gongliang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并相仁宗、英宗两朝，同掌军国大政"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -53,6 +53,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "cheng-hao",
+      "target": "shao-yong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "程颢常访邵雍，叹其纯明从容如光风霁月"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

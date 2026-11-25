@@ -3412,6 +3412,90 @@
       "type": "peer",
       "since": 1001,
       "note": "同掌中枢辅弼真宗，协力经略西北边备与朝纲"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "yan-shu",
+      "type": "ruler-subject",
+      "note": "仁宗东宫旧僚，入相兼枢密使"
+    },
+    {
+      "source": "yan-shu",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "note": "知应天府延范仲淹主书院，极力荐举于朝"
+    },
+    {
+      "source": "yan-shu",
+      "target": "ou-yangxiu",
+      "type": "mentor",
+      "note": "奖掖引荐于馆阁，欧阳修执门生礼"
+    },
+    {
+      "source": "yan-shu",
+      "target": "han-qi",
+      "type": "mentor",
+      "note": "提携后进于科第，期许其为公辅之才"
+    },
+    {
+      "source": "yan-shu",
+      "target": "fu-bi",
+      "type": "mentor",
+      "note": "赏识于微贱并妻以女，极力荐其大才"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "zeng-gongliang",
+      "type": "ruler-subject",
+      "note": "命修《武经总要》，拜同中书门下平章事"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "zeng-gongliang",
+      "type": "ruler-subject",
+      "note": "神宗即位进左仆射兼门下侍郎，元老辅政"
+    },
+    {
+      "source": "zeng-gongliang",
+      "target": "wang-anshi",
+      "type": "mentor",
+      "note": "知安石学术才干，极力向神宗引荐安石大用"
+    },
+    {
+      "source": "zeng-gongliang",
+      "target": "han-qi",
+      "type": "peer",
+      "note": "并相仁宗、英宗两朝，同掌军国大政"
+    },
+    {
+      "source": "zhou-dunyi",
+      "target": "shao-yong",
+      "type": "peer",
+      "note": "同为北宋理学奠基先驱，洛阳论道交游"
+    },
+    {
+      "source": "wang-anshi",
+      "target": "zhou-dunyi",
+      "type": "peer",
+      "note": "王安石曾访周敦颐于官舍，深谈通夕退而叹服"
+    },
+    {
+      "source": "sima-guang",
+      "target": "shao-yong",
+      "type": "peer",
+      "note": "洛阳三十年笃友，光尊其德，时共结真率之会"
+    },
+    {
+      "source": "fu-bi",
+      "target": "shao-yong",
+      "type": "peer",
+      "note": "与司马光等洛阳同契，共为邵雍营买安乐窝"
+    },
+    {
+      "source": "cheng-hao",
+      "target": "shao-yong",
+      "type": "peer",
+      "note": "程颢常访邵雍，叹其纯明从容如光风霁月"
     }
   ],
   "events": [

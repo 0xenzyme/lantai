@@ -136,6 +136,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zeng-gongliang",
+      "target": "wang-anshi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "知安石学术才干，极力向神宗引荐安石大用"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "wang-anshi",
+      "target": "zhou-dunyi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "王安石曾访周敦颐于官舍，深谈通夕退而叹服"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

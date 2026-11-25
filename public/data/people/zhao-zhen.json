@@ -147,6 +147,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "yan-shu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "仁宗东宫旧僚，入相兼枢密使"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "zeng-gongliang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "命修《武经总要》，拜同中书门下平章事"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
