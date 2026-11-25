@@ -40,6 +40,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "lv-yijian",
+      "type": "rival",
+      "directed": false,
+      "since": 1036,
+      "notes": [
+        "景祐三年仲淹进百官图指斥吕夷简专私落职贬饶州，后于西北战事时释嫌共事"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

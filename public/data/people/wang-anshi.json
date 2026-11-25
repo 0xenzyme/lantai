@@ -81,6 +81,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "han-qi",
+      "target": "wang-anshi",
+      "type": "rival",
+      "directed": false,
+      "since": 1069,
+      "notes": [
+        "熙宁初琦屡上疏极陈青苗法扰民之弊，议不合出判相州大名府"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fu-bi",
+      "target": "wang-anshi",
+      "type": "rival",
+      "directed": false,
+      "since": 1069,
+      "notes": [
+        "熙宁二年复相因反对变法操切扰民，在位七月辞相归隐洛阳"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

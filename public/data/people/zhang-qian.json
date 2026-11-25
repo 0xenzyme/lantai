@@ -35,8 +35,9 @@
       "target": "zhang-qian",
       "type": "ruler-subject",
       "directed": true,
+      "since": -138,
       "notes": [
-        "两次奉使西域"
+        "两次奉使西域，凿空通道，封博望侯"
       ],
       "topicIds": [
         "han"

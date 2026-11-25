@@ -52,6 +52,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gongsun-he",
+      "target": "wei-qing",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "姊卫孺为公孙贺妻，贺从大将军有功封南窌侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

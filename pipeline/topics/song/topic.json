@@ -2431,6 +2431,62 @@
       "type": "rival",
       "since": 1008,
       "note": "天书封禅事起，旦隐忍曲从，临终深恨未能死谏遏止钦若神道设教"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "han-qi",
+      "type": "ruler-subject",
+      "since": 1038,
+      "note": "历任陕西招讨使、枢密使及首相，嘉祐晚年采琦议建储立英宗"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "fu-bi",
+      "type": "ruler-subject",
+      "since": 1042,
+      "note": "庆历二年出使契丹折冲增币息兵，至和二年与文彦博并相天下称富公"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "fu-bi",
+      "type": "peer",
+      "since": 1043,
+      "note": "仲淹早重弼才，仲淹贬饶州时弼独疏救之，庆历三年共领新政"
+    },
+    {
+      "source": "han-qi",
+      "target": "fu-bi",
+      "type": "peer",
+      "since": 1043,
+      "note": "同为庆历新政与仁宗朝名相，历三朝而政风稳健互补"
+    },
+    {
+      "source": "han-qi",
+      "target": "wang-anshi",
+      "type": "rival",
+      "since": 1069,
+      "note": "熙宁初琦屡上疏极陈青苗法扰民之弊，议不合出判相州大名府"
+    },
+    {
+      "source": "fu-bi",
+      "target": "wang-anshi",
+      "type": "rival",
+      "since": 1069,
+      "note": "熙宁二年复相因反对变法操切扰民，在位七月辞相归隐洛阳"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "han-qi",
+      "type": "ruler-subject",
+      "since": 1067,
+      "note": "神宗即位尊为三朝顾命元老，议新法不合而仍倚为河北大名藩屏"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "lv-yijian",
+      "type": "rival",
+      "since": 1036,
+      "note": "景祐三年仲淹进百官图指斥吕夷简专私落职贬饶州，后于西北战事时释嫌共事"
     }
   ],
   "events": [

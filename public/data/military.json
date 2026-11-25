@@ -5383,6 +5383,11 @@
         "han",
         "xiongnu"
       ],
+      "commanders": [
+        {
+          "id": "huo-qubing"
+        }
+      ],
       "result": "汉军击破河西匈奴诸部，浑邪王率部归降，汉取得经营河西走廊的基础",
       "dynasties": [
         "western-han"
@@ -9678,7 +9683,8 @@
       "people": [
         "li-guang",
         "wei-qing",
-        "huo-qubing"
+        "huo-qubing",
+        "liu-che"
       ],
       "result": "汉军重创匈奴主力并远征漠北，匈奴对汉北部边境的战略压力显著减弱",
       "dynasties": [

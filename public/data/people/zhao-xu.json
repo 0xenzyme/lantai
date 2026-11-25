@@ -90,6 +90,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-xu",
+      "target": "han-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1067,
+      "notes": [
+        "神宗即位尊为三朝顾命元老，议新法不合而仍倚为河北大名藩屏"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

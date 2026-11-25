@@ -11904,10 +11904,19 @@
       "deathAccuracy": "exact",
       "topicId": "han",
       "topicTitle": "汉代",
+      "aliases": [
+        "刘彻",
+        "汉武帝",
+        "孝武皇帝",
+        "世宗"
+      ],
       "tags": [
-        "开疆",
+        "西汉",
+        "武帝",
         "独尊儒术",
-        "在位54年"
+        "北击匈奴",
+        "巫蛊之祸",
+        "轮台诏"
       ],
       "gender": "male",
       "birth": -156,
@@ -12113,10 +12122,18 @@
       "deathAccuracy": "approx",
       "topicId": "han",
       "topicTitle": "汉代",
+      "aliases": [
+        "司马迁",
+        "太史公",
+        "子长",
+        "司马子长"
+      ],
       "tags": [
+        "西汉",
         "史记",
+        "纪传体",
         "李陵之祸",
-        "宫刑"
+        "太史公"
       ],
       "gender": "male",
       "birth": -145,
@@ -12146,10 +12163,18 @@
       "deathAccuracy": "exact",
       "topicId": "han",
       "topicTitle": "汉代",
+      "aliases": [
+        "霍去病",
+        "冠军侯",
+        "骠骑将军",
+        "景桓侯"
+      ],
       "tags": [
-        "封狼居胥",
+        "西汉",
         "河西之战",
-        "享年23"
+        "漠北之战",
+        "封狼居胥",
+        "冠军侯"
       ],
       "gender": "male",
       "birth": -140,
@@ -12180,9 +12205,15 @@
       "deathAccuracy": "exact",
       "topicId": "han",
       "topicTitle": "汉代",
-      "tags": [
+      "aliases": [
+        "李广",
         "飞将军",
-        "难封",
+        "李将军"
+      ],
+      "tags": [
+        "西汉",
+        "飞将军",
+        "李广难封",
         "漠北之战"
       ],
       "gender": "male",
@@ -12211,9 +12242,18 @@
       "deathAccuracy": "exact",
       "topicId": "han",
       "topicTitle": "汉代",
+      "aliases": [
+        "卫青",
+        "卫仲卿",
+        "长平侯",
+        "卫大将军"
+      ],
       "tags": [
-        "河南地",
-        "漠北之战"
+        "西汉",
+        "河南之战",
+        "漠北之战",
+        "长平侯",
+        "外戚"
       ],
       "gender": "male",
       "death": -106
@@ -37227,9 +37267,20 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "赵祯",
+        "宋仁宗",
+        "赵受益",
+        "仁宗皇帝"
+      ],
       "tags": [
         "宋",
-        "北宋"
+        "北宋",
+        "皇帝",
+        "庆历之治",
+        "仁宗盛治",
+        "庆历新政",
+        "崇儒兴学"
       ],
       "gender": "male",
       "birth": 1010,
@@ -38105,10 +38156,19 @@
       "deathAccuracy": "exact",
       "topicId": "song",
       "topicTitle": "宋",
+      "aliases": [
+        "范仲淹",
+        "范希文",
+        "范文正"
+      ],
       "tags": [
         "宋",
         "北宋",
-        "改革"
+        "改革",
+        "庆历新政",
+        "宋夏战争",
+        "文学",
+        "先忧后乐"
       ],
       "gender": "male",
       "birth": 989,
@@ -38218,10 +38278,19 @@
       "topicId": "song",
       "topicTitle": "宋",
       "aliases": [
-        "富郑公"
+        "富弼",
+        "富彦国",
+        "富郑公",
+        "富文忠"
       ],
       "tags": [
-        "宋"
+        "宋",
+        "北宋",
+        "名相",
+        "外交家",
+        "庆历增币",
+        "庆历新政",
+        "富郑公"
       ],
       "gender": "male",
       "birth": 1004,
@@ -38270,10 +38339,19 @@
       "topicId": "song",
       "topicTitle": "宋",
       "aliases": [
-        "魏公"
+        "韩琦",
+        "韩稚圭",
+        "韩魏公",
+        "韩忠献"
       ],
       "tags": [
-        "宋"
+        "宋",
+        "北宋",
+        "名相",
+        "顾命大臣",
+        "庆历新政",
+        "宋夏战争",
+        "魏国公"
       ],
       "gender": "male",
       "birth": 1008,

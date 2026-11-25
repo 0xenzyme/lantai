@@ -19,6 +19,7 @@ people:
   - li-guang
   - wei-qing
   - huo-qubing
+  - liu-che
 result: 汉军重创匈奴主力并远征漠北，匈奴对汉北部边境的战略压力显著减弱
 sources:
   - work: 史记

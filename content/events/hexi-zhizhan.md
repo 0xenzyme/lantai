@@ -15,6 +15,8 @@ placeNow: 今甘肃河西走廊
 belligerents:
   - han
   - xiongnu
+commanders:
+  - id: huo-qubing
 result: 汉军击破河西匈奴诸部，浑邪王率部归降，汉取得经营河西走廊的基础
 sources:
   - work: 史记

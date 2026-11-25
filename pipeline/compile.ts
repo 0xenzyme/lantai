@@ -103,6 +103,11 @@ export function primaryOf(categories: string[], ranks: Map<string, number>): str
   return best;
 }
 
+/** 年表卡片只渲染传记首段；分段全文在人物详情中，首包不重复承载。 */
+function firstBioParagraph(bio: string): string {
+  return bio.split(/\n\s*\n/).find((part) => part.trim()) ?? bio;
+}
+
 function mergePerson(registry: RegistryPerson, overlay: PersonOverlay, ranks: Map<string, number>): Person {
   const person: Person = {
     id: registry.id,
@@ -119,7 +124,7 @@ function mergePerson(registry: RegistryPerson, overlay: PersonOverlay, ranks: Ma
   const title = overlay.title ?? registry.title;
   if (title) person.title = title;
   const bio = overlay.bio ?? registry.bio;
-  if (bio) person.bio = bio;
+  if (bio) person.bio = firstBioParagraph(bio);
   const tags = overlay.tags ?? registry.tags;
   if (tags && tags.length > 0) person.tags = tags;
   if (registry.categories && registry.categories.length > 0) person.categories = registry.categories;
