@@ -723,6 +723,93 @@
     "阿𡡉",
     "隋炀帝"
   ],
+  "works": [
+    {
+      "id": "yang-di-ji",
+      "title": "炀帝集",
+      "kind": "book",
+      "note": "隋书经籍志著录五十五卷；本传称帝「好学，善属文」。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "卷35·志第三十 经籍志",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "yangdi-jiwei",
+      "label": "即位于仁寿宫，改元大业",
+      "yearAccuracy": "unknown",
+      "event": "yangdi-jiwei",
+      "note": "仁寿四年七月文帝崩，即皇帝位于仁寿宫；并州总管汉王谅举兵反，诏杨素讨平之。大业元年正月壬辰朔改元，立妃萧氏为皇后，立晋王昭为皇太子。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "卷3·帝纪第三 炀帝纪上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "dayunhe-kaozhuo",
+      "label": "营东京，开通济渠，御龙舟幸江都",
+      "yearAccuracy": "unknown",
+      "event": "dayunhe-kaozhuo",
+      "note": "大业元年三月诏杨素、杨达、宇文恺营建东京，徙天下富商大贾数万家；发河南诸郡男女百余万开通济渠，自西苑引谷、洛水达于河，自板渚引河通于淮；八月御龙舟幸江都，舳舻相接二百余里。四年正月又发河北诸郡男女百余万开永济渠，北通涿郡。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "卷3·帝纪第三 炀帝纪上",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "sandian-zheng-gaoliuli",
+      "label": "三征高句丽",
+      "yearAccuracy": "unknown",
+      "event": "sandian-zheng-gaoliuli",
+      "note": "大业八年正月大军集涿郡，总一百一十三万三千八百，号二百万；麦铁杖战死，七月宇文述等败绩萨水，九军并陷。九年再征，杨玄感反于黎阳，班师讨平之。十年三征，高丽遣使请降，囚送斛斯政。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "卷4·帝纪第四 炀帝纪下",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "yanmen-zhiwei",
+      "label": "雁门之围",
+      "yearAccuracy": "unknown",
+      "event": "yanmen-zhiwei",
+      "note": "大业十一年八月巡北塞，始毕可汗率骑数十万谋袭乘舆，义成公主遣使告变，突厥围雁门；帝欲率精骑溃围而出，民部尚书樊子盖固谏乃止，九月突厥解围而去。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "卷4·帝纪第四 炀帝纪下",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "jiangdu-zhibian",
+      "label": "江都之变遇弑",
+      "yearAccuracy": "unknown",
+      "event": "jiangdu-zhibian",
+      "note": "大业十三年十一月唐公入京师，遥尊帝为太上皇；帝起宫丹阳，将逊于江左。义宁二年三月，宇文化及、司马德戡、裴虔通、宇文智及等以骁果作乱，入犯宫闱，帝崩于温室，时年五十；萧后令宫人撤床箦为棺以埋之。",
+      "sources": [
+        {
+          "work": "隋书",
+          "part": "卷4·帝纪第四 炀帝纪下",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
   "sources": [
     {
       "work": "隋书",

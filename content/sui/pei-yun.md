@@ -32,6 +32,63 @@ sources:
   - work: 隋书
     part: 炀帝纪下
     kind: classic
+experiences:
+  - id: chenping-yitong
+    label: 陈平入隋，超授仪同即日拜开府
+    year: 589
+    yearAccuracy: exact
+    note: 在陈以父裴忌陷北，阴奉表于高祖请为内应。开皇九年正月韩擒虎进师入建邺获陈叔宝，陈国平。帝悉阅江南衣冠之士，以为蕴夙有向化之心，超授仪同；高熲两度进谏，帝不听，反而加授，即日拜开府仪同三司，礼赐优洽。
+    sources:
+      - work: 隋书
+        part: 裴蕴传
+        kind: classic
+      - work: 隋书
+        part: 高祖纪下
+        kind: classic
+  - id: zheng-taichang-kuolehu
+    label: 征太常少卿，奏括乐家子弟为乐户
+    year: 605
+    yearAccuracy: approx
+    yearNote: 本传仅系「大业初」考绩连最，未明言何年，取大业元年（605）为约数，非实迁之年。
+    note: 历洋、直、隶三州刺史俱有能名，炀帝闻其善政，征为太常少卿。蕴揣知帝意，奏括天下周、齐、梁、陈乐家子弟皆为乐户，六品以下至于民庶有善音乐及倡优百戏者皆直太常，增益乐人至三万余，迁民部侍郎。
+    sources:
+      - work: 隋书
+        part: 裴蕴传
+        kind: classic
+  - id: maoyue-yushidafu
+    label: 条奏貌阅进丁，擢御史大夫参掌机密
+    year: 609
+    yearAccuracy: exact
+    note: 以民部侍郎条奏，皆令貌阅，若一人不实则官司解职。大业五年诸郡计帐进丁二十四万三千、新附口六十四万一千五百，帝临朝谓百官曰「今进民户口皆从实者，全由裴蕴一人用心」。由是渐见亲委，拜京兆赞治，发擿纤毫，未几擢授御史大夫，与裴矩、虞世基参掌机密。
+    sources:
+      - work: 隋书
+        part: 裴蕴传
+        kind: classic
+  - id: tui-an-xuangan
+    label: 峻法推按杨玄感党与，所戮数万
+    year: 613
+    yearAccuracy: exact
+    note: 大业九年六月杨玄感反于黎阳，帝遣蕴推其党与，谓「不尽加诛，则后无以劝」。蕴乃峻法治之，所戮者数万人，皆籍没其家，帝大称善，赐奴婢十五口。
+    sources:
+      - work: 隋书
+        part: 裴蕴传
+        kind: classic
+      - work: 隋书
+        part: 炀帝纪下
+        kind: classic
+  - id: jiangdu-nan
+    label: 江都之难，谋收化及不成，遂见害
+    year: 618
+    yearAccuracy: exact
+    place: 江都
+    note: 司马德戡将为乱，江阳长张惠绍夜驰告，蕴与惠绍谋矫诏发郭下兵民，尽取来护儿节度，收宇文化及等，扣门援帝；谋议已定，虞世基疑反者不实，抑其计。须臾难作，蕴叹曰「谋及播郎，竟误人事」，遂见害，子愔为尚辇直长，亦同日死。
+    sources:
+      - work: 隋书
+        part: 裴蕴传
+        kind: classic
+      - work: 隋书
+        part: 恭帝纪
+        kind: classic
 ---
 
 裴蕴是河东闻喜人。祖父裴之平在梁任卫将军，父亲裴忌在陈任都官尚书，与吴明彻同没于周，赐爵江夏郡公，在隋十余年而卒。裴蕴性明辩，有吏干，在陈历任直阁将军、兴宁令。因父亲在北，他暗中向隋高祖奉表，请求充作内应。
