@@ -53,6 +53,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "lin-shihong",
+      "target": "xiao-xian-583",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "遣苏胡儿袭豫章，士弘退保余干"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

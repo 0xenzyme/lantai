@@ -130,6 +130,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-xiong-542",
+      "target": "yang-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "族兄。废勇之际广阳门外答诏称大庆"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

@@ -69,6 +69,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "pei-ju",
+      "target": "xue-shixiong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与薛世雄共往经略，城伊吾"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

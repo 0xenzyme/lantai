@@ -367,6 +367,54 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "pei-ju",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召补记室，平岭南拜开府赐爵"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-jian",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "公媳。文帝为晋王选妃于梁，占吉册妃"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "xu-shanxin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "平陈称「唯获此人」，敕直门下省赐物千段"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-jian",
+      "target": "xue-daoheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "称其文书称意，出襄州叹如断一臂"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

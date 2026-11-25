@@ -247,6 +247,42 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "luo-yi",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "化及遣使召艺，艺斩使为炀帝发丧"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "shen-faxing",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "执元祐起兵，以讨化及为名"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "弑逆之乱，后随其军至聊城"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

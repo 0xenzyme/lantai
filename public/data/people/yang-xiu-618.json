@@ -163,6 +163,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-xiu-618",
+      "target": "liu-zhuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诏令事蜀王秀，枷送配军防典校籍"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

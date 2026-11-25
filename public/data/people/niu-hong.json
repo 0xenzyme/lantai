@@ -129,6 +129,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "liu-zhuo",
+      "target": "niu-hong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同预国子论义，共论古今滞义"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "niu-hong",
+      "target": "pei-ju",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与牛弘据齐礼参定文献皇后仪注"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

@@ -574,6 +574,90 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "liu-zhuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "造皇极历上启东宫，即位迁太学博士"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "pei-ju",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "委矩经略西域，称大识朕意"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "qimin-kehan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "大业三年北幸其帐受朝，赞拜不名位在诸侯王上"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "xiao-xian-583",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "炀帝时以外戚擢授罗川令"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "xu-shanxin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "炀帝朝历礼部侍郎、给事郎，从驾江都"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "xue-daoheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "晋王衔旧憾，终借宪司缢杀之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "yang-guang",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "雁门被围谏止轻骑溃围"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

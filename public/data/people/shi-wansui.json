@@ -115,6 +115,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "pei-ju",
+      "target": "shi-wansui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "为史万岁行军长史，破达头可汗于塞外"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

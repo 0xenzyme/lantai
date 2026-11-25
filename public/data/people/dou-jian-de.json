@@ -98,6 +98,42 @@
     },
     {
       "source": "dou-jian-de",
+      "target": "luo-yi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "建德数攻幽州，艺力守大破其军"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "pei-ju",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "获矩以为仆射掌选，为定朝仪制律令"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "xu-yuanlang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "密败后望风归附建德，从其众西救洛阳"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "dou-jian-de",
       "target": "li-yuan",
       "type": "rival",
       "directed": false,

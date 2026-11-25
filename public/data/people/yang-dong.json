@@ -175,6 +175,30 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "yang-dong",
+      "target": "shen-faxing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "上表自称大司马，名义君臣"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-dong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖母孙。杨侗为元德太子昭之子"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

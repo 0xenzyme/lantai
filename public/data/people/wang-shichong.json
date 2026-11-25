@@ -109,6 +109,30 @@
       ]
     },
     {
+      "source": "wang-shichong",
+      "target": "liu-heita",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "世充虏之以为骑将，黑闼窃笑亡归建德"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "wang-shichong",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "僭号署威为太师，每劝进必冠威名"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
       "source": "li-yuan",
       "target": "wang-shichong",
       "type": "rival",

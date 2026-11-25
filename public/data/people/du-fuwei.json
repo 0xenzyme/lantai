@@ -81,6 +81,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "du-fuwei",
+      "target": "shen-faxing",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "互袭相疑莫敢先动，共争江表"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

@@ -57,6 +57,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "xiao-xian-583",
+      "target": "zhang-shanan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "善安夺铣所守豫章，据以归唐"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [],

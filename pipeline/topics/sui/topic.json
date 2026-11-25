@@ -1800,6 +1800,282 @@
       "target": "shi-wansui",
       "type": "peer",
       "note": "同日废勇，素谮谒东宫万岁枉死"
+    },
+    {
+      "source": "wang-shichong",
+      "target": "liu-heita",
+      "type": "ruler-subject",
+      "note": "世充虏之以为骑将，黑闼窃笑亡归建德"
+    },
+    {
+      "source": "liu-heita",
+      "target": "xu-yuanlang",
+      "type": "ruler-subject",
+      "note": "圆朗举齐兖之地以附黑闼，声势益张"
+    },
+    {
+      "source": "luo-yi",
+      "target": "liu-heita",
+      "type": "rival",
+      "note": "将兵数万会讨黑闼，徐河败其弟十善"
+    },
+    {
+      "source": "shibi-kehan",
+      "target": "liu-wuzhou",
+      "type": "ruler-subject",
+      "note": "始毕以狼头纛立武周为定杨可汗，北面称臣"
+    },
+    {
+      "source": "yang-xiu-618",
+      "target": "liu-zhuo",
+      "type": "ruler-subject",
+      "note": "诏令事蜀王秀，枷送配军防典校籍"
+    },
+    {
+      "source": "yang-guang",
+      "target": "liu-zhuo",
+      "type": "ruler-subject",
+      "note": "造皇极历上启东宫，即位迁太学博士"
+    },
+    {
+      "source": "yang-su",
+      "target": "liu-zhuo",
+      "type": "peer",
+      "note": "国子论难锋起，素服焯精博"
+    },
+    {
+      "source": "niu-hong",
+      "target": "liu-zhuo",
+      "type": "peer",
+      "note": "同预国子论义，共论古今滞义"
+    },
+    {
+      "source": "su-wei",
+      "target": "liu-zhuo",
+      "type": "peer",
+      "note": "同预国子论义，时为国子祭酒"
+    },
+    {
+      "source": "luo-yi",
+      "target": "yu-wen-huaji",
+      "type": "rival",
+      "note": "化及遣使召艺，艺斩使为炀帝发丧"
+    },
+    {
+      "source": "luo-yi",
+      "target": "dou-jian-de",
+      "type": "rival",
+      "note": "建德数攻幽州，艺力守大破其军"
+    },
+    {
+      "source": "yang-guang",
+      "target": "pei-ju",
+      "type": "ruler-subject",
+      "note": "委矩经略西域，称大识朕意"
+    },
+    {
+      "source": "yang-jian",
+      "target": "pei-ju",
+      "type": "ruler-subject",
+      "note": "召补记室，平岭南拜开府赐爵"
+    },
+    {
+      "source": "pei-ju",
+      "target": "shibi-kehan",
+      "type": "rival",
+      "note": "诱斩史蜀胡悉，始毕怨而围雁门"
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "pei-ju",
+      "type": "ruler-subject",
+      "note": "获矩以为仆射掌选，为定朝仪制律令"
+    },
+    {
+      "source": "pei-ju",
+      "target": "niu-hong",
+      "type": "peer",
+      "note": "与牛弘据齐礼参定文献皇后仪注"
+    },
+    {
+      "source": "pei-ju",
+      "target": "shi-wansui",
+      "type": "peer",
+      "note": "为史万岁行军长史，破达头可汗于塞外"
+    },
+    {
+      "source": "pei-ju",
+      "target": "xue-shixiong",
+      "type": "peer",
+      "note": "与薛世雄共往经略，城伊吾"
+    },
+    {
+      "source": "yang-guang",
+      "target": "qimin-kehan",
+      "type": "ruler-subject",
+      "note": "大业三年北幸其帐受朝，赞拜不名位在诸侯王上"
+    },
+    {
+      "source": "qimin-kehan",
+      "target": "shibi-kehan",
+      "type": "kin",
+      "note": "疾终后子咄吉世继立，是为始毕可汗"
+    },
+    {
+      "source": "yang-su",
+      "target": "qimin-kehan",
+      "type": "peer",
+      "note": "仁寿元年杨素为元帅，挟启民北击步迦"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "shen-faxing",
+      "type": "rival",
+      "note": "执元祐起兵，以讨化及为名"
+    },
+    {
+      "source": "yang-dong",
+      "target": "shen-faxing",
+      "type": "ruler-subject",
+      "note": "上表自称大司马，名义君臣"
+    },
+    {
+      "source": "du-fuwei",
+      "target": "shen-faxing",
+      "type": "rival",
+      "note": "互袭相疑莫敢先动，共争江表"
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-jian",
+      "type": "kin",
+      "note": "公媳。文帝为晋王选妃于梁，占吉册妃"
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "yang-dong",
+      "type": "kin",
+      "note": "祖母孙。杨侗为元德太子昭之子"
+    },
+    {
+      "source": "yu-wen-huaji",
+      "target": "xiao-huanghou",
+      "type": "rival",
+      "note": "弑逆之乱，后随其军至聊城"
+    },
+    {
+      "source": "yang-guang",
+      "target": "xiao-xian-583",
+      "type": "ruler-subject",
+      "note": "炀帝时以外戚擢授罗川令"
+    },
+    {
+      "source": "xiao-huanghou",
+      "target": "xiao-xian-583",
+      "type": "kin",
+      "note": "同出后梁宗室，铣以外戚起家"
+    },
+    {
+      "source": "xiao-xian-583",
+      "target": "lin-shihong",
+      "type": "rival",
+      "note": "遣苏胡儿袭豫章，士弘退保余干"
+    },
+    {
+      "source": "xiao-xian-583",
+      "target": "zhang-shanan",
+      "type": "rival",
+      "note": "善安夺铣所守豫章，据以归唐"
+    },
+    {
+      "source": "yang-jian",
+      "target": "xu-shanxin",
+      "type": "ruler-subject",
+      "note": "平陈称「唯获此人」，敕直门下省赐物千段"
+    },
+    {
+      "source": "yang-guang",
+      "target": "xu-shanxin",
+      "type": "ruler-subject",
+      "note": "炀帝朝历礼部侍郎、给事郎，从驾江都"
+    },
+    {
+      "source": "yu-wen-shu",
+      "target": "xu-shanxin",
+      "type": "rival",
+      "note": "谮其祭陈叔宝文，讽御史劾之左迁"
+    },
+    {
+      "source": "yang-su",
+      "target": "xu-shanxin",
+      "type": "peer",
+      "note": "同被诏与诸儒论新礼降杀轻重"
+    },
+    {
+      "source": "su-wei",
+      "target": "xu-shanxin",
+      "type": "peer",
+      "note": "宇文述役兵案，苏威等同善心之议"
+    },
+    {
+      "source": "dou-jian-de",
+      "target": "xu-yuanlang",
+      "type": "ruler-subject",
+      "note": "密败后望风归附建德，从其众西救洛阳"
+    },
+    {
+      "source": "yang-jian",
+      "target": "xue-daoheng",
+      "type": "ruler-subject",
+      "note": "称其文书称意，出襄州叹如断一臂"
+    },
+    {
+      "source": "yang-guang",
+      "target": "xue-daoheng",
+      "type": "ruler-subject",
+      "note": "晋王衔旧憾，终借宪司缢杀之"
+    },
+    {
+      "source": "gao-jiong",
+      "target": "xue-daoheng",
+      "type": "peer",
+      "note": "伐陈夜断四必克，后思颎语罹祸"
+    },
+    {
+      "source": "su-wei",
+      "target": "xue-daoheng",
+      "type": "peer",
+      "note": "坐选人被讥党威，帝告威鱼藻义"
+    },
+    {
+      "source": "yang-guang",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "note": "雁门被围谏止轻骑溃围"
+    },
+    {
+      "source": "li-mi",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "note": "东郡随众降密，密以隋室大臣虚心礼之"
+    },
+    {
+      "source": "wang-shichong",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "note": "僭号署威为太师，每劝进必冠威名"
+    },
+    {
+      "source": "su-wei",
+      "target": "he-ruo-bi",
+      "type": "peer",
+      "note": "颎弼之诛，威坐与相连免官"
+    },
+    {
+      "source": "yang-xiong-542",
+      "target": "yang-yong",
+      "type": "kin",
+      "note": "族兄。废勇之际广阳门外答诏称大庆"
     }
   ],
   "events": [

@@ -359,6 +359,42 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "liu-zhuo",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "国子论难锋起，素服焯精博"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "qimin-kehan",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "仁寿元年杨素为元帅，挟启民北击步迦"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "xu-shanxin",
+      "target": "yang-su",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同被诏与诸儒论新礼降杀轻重"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

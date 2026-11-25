@@ -139,6 +139,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "he-ruo-bi",
+      "target": "su-wei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "颎弼之诛，威坐与相连免官"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

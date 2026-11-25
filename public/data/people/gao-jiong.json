@@ -211,6 +211,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "gao-jiong",
+      "target": "xue-daoheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "伐陈夜断四必克，后思颎语罹祸"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [

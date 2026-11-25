@@ -114,6 +114,18 @@
     },
     {
       "source": "li-mi",
+      "target": "su-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "东郡随众降密，密以隋室大臣虚心礼之"
+      ],
+      "topicIds": [
+        "sui"
+      ]
+    },
+    {
+      "source": "li-mi",
       "target": "li-yuan",
       "type": "rival",
       "directed": false,

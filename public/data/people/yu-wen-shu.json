@@ -223,6 +223,18 @@
       "topicIds": [
         "sui"
       ]
+    },
+    {
+      "source": "xu-shanxin",
+      "target": "yu-wen-shu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谮其祭陈叔宝文，讽御史劾之左迁"
+      ],
+      "topicIds": [
+        "sui"
+      ]
     }
   ],
   "events": [
