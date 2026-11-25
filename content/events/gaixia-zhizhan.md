@@ -22,6 +22,9 @@ commanders:
     side: chu-han
 people:
   - liu-bang
+  - peng-yue
+  - ying-bu
+  - zhou-bo
 result: 楚军覆败，项羽自杀，楚汉战争结束
 aliases:
   - qin-gaixia

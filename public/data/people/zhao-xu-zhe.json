@@ -40,6 +40,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "sima-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1085,
+      "notes": [
+        "哲宗即位高太后召还司马光拜尚书左仆射，尽罢新法九月卒于相位"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "lv-gongzhu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1086,
+      "notes": [
+        "哲宗元祐年间拜尚书右仆射及司空同平章军国事，封申国公调和旧党"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

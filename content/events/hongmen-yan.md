@@ -18,6 +18,7 @@ people:
   - fan-zeng
   - liu-bang
   - zhang-liang
+  - fan-kuai
 result: 项羽不听范增之谋，纵刘邦使去；楚汉之局自此定
 aliases:
   - 鸿门会

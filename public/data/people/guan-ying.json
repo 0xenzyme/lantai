@@ -58,6 +58,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "guan-ying",
+      "target": "jia-yi",
+      "type": "rival",
+      "directed": false,
+      "since": -178,
+      "notes": [
+        "灌婴与周勃等短贾生，谊出为长沙王太傅"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

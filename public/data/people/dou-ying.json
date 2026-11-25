@@ -64,6 +64,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dou-ying",
+      "target": "zhou-yafu",
+      "type": "peer",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "七国之乱并为将帅，婴屯荥阳，亚夫绝吴楚粮道"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

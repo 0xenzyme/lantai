@@ -166,6 +166,31 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "ying-bu",
+      "type": "rival",
+      "directed": false,
+      "since": -196,
+      "notes": [
+        "韩信、彭越相继诛，英布惧而反"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "fan-kuai",
+      "target": "lv-zhi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "吕后妹吕须为哙妻，故哙比诸将最亲"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

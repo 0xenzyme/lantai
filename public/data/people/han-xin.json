@@ -157,6 +157,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "cao-can",
+      "target": "han-xin",
+      "type": "peer",
+      "directed": false,
+      "since": -205,
+      "notes": [
+        "以右丞相属韩信，破魏赵齐，斩龙且"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

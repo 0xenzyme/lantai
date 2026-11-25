@@ -40,6 +40,31 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "liu-wu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；封梁王，窦太后少子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-wu",
+      "target": "zhou-yafu",
+      "type": "rival",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "亚夫不救梁，梁孝王与之有却"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

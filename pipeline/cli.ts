@@ -58,6 +58,11 @@ function reportAndExit(errors: string[], warnings: string[]): void {
   }
 }
 
+/** 顶层运行时 JSON 由浏览器直接加载，压缩空白以控制首包与按需包体积；个体详情仍保留缩进便于审阅。 */
+function toOutputJson(name: string, value: unknown): string {
+  return name.includes('/') ? toPrettyJson(value) : `${JSON.stringify(value)}\n`;
+}
+
 function main(): void {
   const migrationProblems = checkLegacyEventManifest(pipelineRoot);
   if (migrationProblems.length > 0) {
@@ -127,7 +132,7 @@ function main(): void {
     const mismatches: string[] = [];
     const expectedNames = new Set(files.map(([name]) => name));
     for (const [name, value] of files) {
-      const expected = toPrettyJson(value);
+      const expected = toOutputJson(name, value);
       let actual = '';
       try {
         actual = readFileSync(join(outDir, name), 'utf8');
@@ -160,7 +165,7 @@ function main(): void {
     for (const [name, value] of files) {
       const target = join(tempDir, name);
       mkdirSync(dirname(target), { recursive: true });
-      writeFileSync(target, toPrettyJson(value), 'utf8');
+      writeFileSync(target, toOutputJson(name, value), 'utf8');
     }
   } catch (error) {
     rmSync(tempDir, { recursive: true, force: true });

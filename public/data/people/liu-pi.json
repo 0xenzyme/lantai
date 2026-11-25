@@ -48,8 +48,22 @@
       "target": "zhou-yafu",
       "type": "rival",
       "directed": false,
+      "since": -154,
       "notes": [
-        "细柳屯兵，坚守不战而绝吴楚粮道"
+        "吴楚反，亚夫绝其粮道，吴王濞弃军走死"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chao-cuo",
+      "target": "liu-pi",
+      "type": "rival",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "吴楚以诛晁错为名起兵，错终斩东市"
       ],
       "topicIds": [
         "han"

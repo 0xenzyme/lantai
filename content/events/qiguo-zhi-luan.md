@@ -11,6 +11,10 @@ year: -154
 yearAccuracy: exact
 polity:
   - han
+people:
+  - liu-qi
+  - chao-cuo
+  - zhou-yafu
 result: 吴楚等七国兵败，中央进一步削弱同姓诸侯王的政治与军事权力
 aliases:
   - 吴楚七国之乱

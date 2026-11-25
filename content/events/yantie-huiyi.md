@@ -14,6 +14,7 @@ polity:
 people:
   - sang-hongyang
   - huo-guang
+  - liu-fuling
 result: 秋七月罢榷酤官，盐铁、均输如故；桓宽据廷论作《盐铁论》
 aliases:
   - 盐铁之议

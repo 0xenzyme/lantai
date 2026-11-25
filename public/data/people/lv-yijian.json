@@ -53,6 +53,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "lv-gongzhu",
+      "target": "lv-yijian",
+      "type": "kin",
+      "directed": false,
+      "since": 1018,
+      "notes": [
+        "父子，公著耻凭父兄门荫自致科举，庆历二年进士及第"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

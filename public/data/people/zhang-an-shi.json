@@ -52,6 +52,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "zhang-an-shi",
+      "type": "peer",
+      "directed": false,
+      "since": -74,
+      "notes": [
+        "同谋废昌邑王，迎立宣帝"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

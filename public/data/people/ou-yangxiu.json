@@ -80,6 +80,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "lv-gongzhu",
+      "type": "mentor",
+      "directed": true,
+      "since": 1042,
+      "notes": [
+        "公著初通判颍州，受知州欧阳修极度赏识器重"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

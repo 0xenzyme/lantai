@@ -2487,6 +2487,55 @@
       "type": "rival",
       "since": 1036,
       "note": "景祐三年仲淹进百官图指斥吕夷简专私落职贬饶州，后于西北战事时释嫌共事"
+    },
+    {
+      "source": "lv-yijian",
+      "target": "lv-gongzhu",
+      "type": "kin",
+      "since": 1018,
+      "note": "父子，公著耻凭父兄门荫自致科举，庆历二年进士及第"
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "lv-gongzhu",
+      "type": "mentor",
+      "since": 1042,
+      "note": "公著初通判颍州，受知州欧阳修极度赏识器重"
+    },
+    {
+      "source": "lv-gongzhu",
+      "target": "wang-anshi",
+      "type": "rival",
+      "since": 1070,
+      "note": "初与安石交好，熙宁三年任御史中丞切论青苗失人心忤安石罢出知颍州"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "lv-gongzhu",
+      "type": "ruler-subject",
+      "since": 1078,
+      "note": "神宗重其端方忠亮，元丰初复召拜同知枢密院事，后出镇定州"
+    },
+    {
+      "source": "sima-guang",
+      "target": "lv-gongzhu",
+      "type": "peer",
+      "since": 1086,
+      "note": "元祐初同辅高太后主政元祐更化，司马光卒后公著拜司空平章独担大任"
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "sima-guang",
+      "type": "ruler-subject",
+      "since": 1085,
+      "note": "哲宗即位高太后召还司马光拜尚书左仆射，尽罢新法九月卒于相位"
+    },
+    {
+      "source": "zhao-xu-zhe",
+      "target": "lv-gongzhu",
+      "type": "ruler-subject",
+      "since": 1086,
+      "note": "哲宗元祐年间拜尚书右仆射及司空同平章军国事，封申国公调和旧党"
     }
   ],
   "events": [

@@ -908,7 +908,7 @@
       "source": "liu-heng",
       "target": "liu-qi",
       "type": "kin",
-      "note": "父子"
+      "note": "父子；文帝崩，太子启即位"
     },
     {
       "source": "liu-qi",
@@ -968,7 +968,7 @@
       "source": "liu-fuling",
       "target": "liu-xun",
       "type": "kin",
-      "note": "叔祖与侄孙"
+      "note": "叔祖与侄孙；昭帝崩无嗣，霍光迎立皇曾孙"
     },
     {
       "source": "li-guang",
@@ -981,20 +981,20 @@
       "target": "jia-yi",
       "type": "ruler-subject",
       "since": -178,
-      "note": "召为博士，后谪长沙"
+      "note": "召为博士，一岁中超迁太中大夫；议改正朔，后谪长沙"
     },
     {
       "source": "liu-heng",
       "target": "chao-cuo",
       "type": "ruler-subject",
-      "note": "为太子家令，辅导景帝"
+      "note": "为太子家令，号智囊，辅导太子启"
     },
     {
       "source": "liu-qi",
       "target": "chao-cuo",
       "type": "ruler-subject",
       "since": -155,
-      "note": "采其削藩策，乱起后斩之于东市"
+      "note": "采削藩策；七国以诛错为名，景帝斩错东市"
     },
     {
       "source": "liu-qi",
@@ -1082,20 +1082,21 @@
       "source": "liu-fuling",
       "target": "huo-guang",
       "type": "ruler-subject",
-      "note": "八岁即位，霍光秉政"
+      "note": "八岁即位，政事壹决于光；十四岁识燕王诈书，委任不疑"
     },
     {
       "source": "liu-xun",
       "target": "huo-guang",
       "type": "ruler-subject",
       "since": -74,
-      "note": "霍光迎立，前 68 年亲政"
+      "note": "霍光迎立皇曾孙，归政而宣帝谦让；霍光死后霍氏族诛"
     },
     {
       "source": "huo-guang",
       "target": "liu-he",
       "type": "ruler-subject",
-      "note": "霍光立昌邑王贺，二十七日而废"
+      "note": "迎立昌邑王，二十七日废之，诛其群臣二百余人",
+      "since": -74
     },
     {
       "source": "liu-xun",
@@ -1148,7 +1149,7 @@
       "target": "sang-hongyang",
       "type": "rival",
       "since": -81,
-      "note": "盐铁会议上的政见之争，前 80 年被诛"
+      "note": "盐铁会议政见相左，元凤元年与上官桀谋反被诛"
     },
     {
       "source": "lv-zhi",
@@ -1276,7 +1277,7 @@
       "source": "liu-heng",
       "target": "zhou-bo",
       "type": "ruler-subject",
-      "note": "诸吕既平，迎立代王，拜右丞相"
+      "note": "诸吕既平，周勃等迎立代王；后勃以谋反下狱"
     },
     {
       "source": "lv-zhi",
@@ -1585,7 +1586,7 @@
       "source": "liu-heng",
       "target": "zhao-tuo",
       "type": "ruler-subject",
-      "note": "陆贾再使南越，佗去帝号称臣"
+      "note": "陆贾再使南越，赵佗去帝号称臣"
     },
     {
       "source": "liu-che",
@@ -1634,13 +1635,14 @@
       "target": "zhou-yafu",
       "type": "ruler-subject",
       "since": -154,
-      "note": "吴楚七国反，拜太尉，绝其粮道三月而破之；后为丞相"
+      "note": "吴楚反，拜太尉，绝粮道三月破之；后下狱死"
     },
     {
       "source": "zhou-yafu",
       "target": "liu-pi",
       "type": "rival",
-      "note": "细柳屯兵，坚守不战而绝吴楚粮道"
+      "note": "吴楚反，亚夫绝其粮道，吴王濞弃军走死",
+      "since": -154
     },
     {
       "source": "liu-che",
@@ -2056,6 +2058,126 @@
       "target": "gongsun-he",
       "type": "kin",
       "note": "姊卫孺为公孙贺妻，贺从大将军有功封南窌侯"
+    },
+    {
+      "source": "liu-heng",
+      "target": "zhou-yafu",
+      "type": "ruler-subject",
+      "since": -158,
+      "note": "细柳劳军，称真将军，拜中尉；临终告景帝可任将兵"
+    },
+    {
+      "source": "liu-heng",
+      "target": "liu-wu",
+      "type": "kin",
+      "note": "父子；封梁王，窦太后少子"
+    },
+    {
+      "source": "jia-yi",
+      "target": "zhou-bo",
+      "type": "rival",
+      "since": -178,
+      "note": "绛灌等短贾生于文帝，谊被疏，出为长沙王太傅"
+    },
+    {
+      "source": "jia-yi",
+      "target": "guan-ying",
+      "type": "rival",
+      "since": -178,
+      "note": "灌婴与周勃等短贾生，谊出为长沙王太傅"
+    },
+    {
+      "source": "chao-cuo",
+      "target": "liu-pi",
+      "type": "rival",
+      "since": -154,
+      "note": "吴楚以诛晁错为名起兵，错终斩东市"
+    },
+    {
+      "source": "zhou-yafu",
+      "target": "zhou-bo",
+      "type": "kin",
+      "note": "父子；勃卒，亚夫嗣条侯"
+    },
+    {
+      "source": "zhou-yafu",
+      "target": "dou-ying",
+      "type": "peer",
+      "since": -154,
+      "note": "七国之乱并为将帅，婴屯荥阳，亚夫绝吴楚粮道"
+    },
+    {
+      "source": "zhou-yafu",
+      "target": "liu-wu",
+      "type": "rival",
+      "since": -154,
+      "note": "亚夫不救梁，梁孝王与之有却"
+    },
+    {
+      "source": "su-wu",
+      "target": "huo-guang",
+      "type": "peer",
+      "note": "苏武归汉，霍光素与武善，寝其子元谋反事，免武官"
+    },
+    {
+      "source": "su-wu",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "since": -51,
+      "note": "麒麟阁十一功臣，图形甘泉宫"
+    },
+    {
+      "source": "su-wu",
+      "target": "liu-fuling",
+      "type": "ruler-subject",
+      "since": -81,
+      "note": "始元六年归汉，昭帝拜典属国"
+    },
+    {
+      "source": "liu-he",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "since": -63,
+      "note": "宣帝即位，封贺为海昏侯"
+    },
+    {
+      "source": "liu-he",
+      "target": "liu-fuling",
+      "type": "kin",
+      "note": "叔侄；昭帝崩，贺以昌邑王入继"
+    },
+    {
+      "source": "huo-guang",
+      "target": "zhang-an-shi",
+      "type": "peer",
+      "since": -74,
+      "note": "同谋废昌邑王，迎立宣帝"
+    },
+    {
+      "source": "peng-yue",
+      "target": "ying-bu",
+      "type": "peer",
+      "note": "同列异姓王；彭越被醢，英布见之恐而反"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "ying-bu",
+      "type": "rival",
+      "since": -196,
+      "note": "韩信、彭越相继诛，英布惧而反"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "fan-kuai",
+      "type": "kin",
+      "note": "吕后妹吕须为哙妻，故哙比诸将最亲"
+    },
+    {
+      "source": "cao-can",
+      "target": "han-xin",
+      "type": "peer",
+      "since": -205,
+      "note": "以右丞相属韩信，破魏赵齐，斩龙且"
     }
   ],
   "events": [
