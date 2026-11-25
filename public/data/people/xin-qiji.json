@@ -84,6 +84,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "jiang-kui",
+      "target": "xin-qiji",
+      "type": "peer",
+      "directed": false,
+      "since": 1190,
+      "notes": [
+        "辛弃疾在浙东深赏姜夔词作清空骚雅，相聚放歌唱和"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

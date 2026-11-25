@@ -41,6 +41,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "lu-jiuyuan",
+      "target": "lv-zuqian",
+      "type": "peer",
+      "directed": false,
+      "since": 1175,
+      "notes": [
+        "祖谦主盟鹅湖之会，力促朱陆二家会讲辨析道统"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

@@ -2887,6 +2887,69 @@
       "type": "peer",
       "since": 1135,
       "note": "同为南渡抗金名臣名将，志在恢复中原相与引重"
+    },
+    {
+      "source": "lv-zuqian",
+      "target": "lu-jiuyuan",
+      "type": "peer",
+      "since": 1175,
+      "note": "祖谦主盟鹅湖之会，力促朱陆二家会讲辨析道统"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "lu-jiuyuan",
+      "type": "ruler-subject",
+      "since": 1191,
+      "note": "孝宗召对奖拔，出知荆门军大展政绩，边民感慕"
+    },
+    {
+      "source": "lu-you",
+      "target": "fan-chengda",
+      "type": "peer",
+      "since": 1175,
+      "note": "中兴四大诗人同列，成大督蜀聘陆游为参议官，诗酒相惜"
+    },
+    {
+      "source": "yang-wanli",
+      "target": "fan-chengda",
+      "type": "peer",
+      "since": 1170,
+      "note": "同登绍兴进士第，并为中兴四大家，诗坛唱和推重"
+    },
+    {
+      "source": "yang-wanli",
+      "target": "lu-you",
+      "type": "peer",
+      "since": 1170,
+      "note": "同列中兴四大诗人，诗风各辟新境，晚年志节相通相期"
+    },
+    {
+      "source": "yang-wanli",
+      "target": "han-tuozhou",
+      "type": "rival",
+      "since": 1195,
+      "note": "侂胄屡欲延揽以重文名，万里严拒不就，忧愤而终"
+    },
+    {
+      "source": "fan-chengda",
+      "target": "jiang-kui",
+      "type": "mentor",
+      "since": 1187,
+      "note": "石湖极重白石词才音律，赠侍女小红，夔赋暗香疏影相报"
+    },
+    {
+      "source": "yang-wanli",
+      "target": "jiang-kui",
+      "type": "mentor",
+      "since": 1186,
+      "note": "叹赏其文词雅正律吕天授，极力奖掖并荐之于朝"
+    },
+    {
+      "source": "xin-qiji",
+      "target": "jiang-kui",
+      "type": "peer",
+      "since": 1190,
+      "note": "辛弃疾在浙东深赏姜夔词作清空骚雅，相聚放歌唱和"
     }
   ],
   "events": [

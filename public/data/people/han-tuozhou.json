@@ -110,6 +110,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "yang-wanli",
+      "type": "rival",
+      "directed": false,
+      "since": 1195,
+      "notes": [
+        "侂胄屡欲延揽以重文名，万里严拒不就，忧愤而终"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

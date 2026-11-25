@@ -84,6 +84,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "fan-chengda",
+      "target": "lu-you",
+      "type": "peer",
+      "directed": false,
+      "since": 1175,
+      "notes": [
+        "中兴四大诗人同列，成大督蜀聘陆游为参议官，诗酒相惜"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "lu-you",
+      "target": "yang-wanli",
+      "type": "peer",
+      "directed": false,
+      "since": 1170,
+      "notes": [
+        "同列中兴四大诗人，诗风各辟新境，晚年志节相通相期"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

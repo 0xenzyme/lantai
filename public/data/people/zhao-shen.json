@@ -121,6 +121,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-shen",
+      "target": "lu-jiuyuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1191,
+      "notes": [
+        "孝宗召对奖拔，出知荆门军大展政绩，边民感慕"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
