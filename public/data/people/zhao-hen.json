@@ -105,6 +105,84 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "bi-shian",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 995,
+      "notes": [
+        "真宗尹开封引为判官，景德初拜平章事力赞亲征澶渊"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "bi-shian",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 995,
+      "notes": [
+        "藩邸深相结纳，景德初倚重拜相，采纳其亲征之谋促成澶渊之盟"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "lv-duan",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 997,
+      "notes": [
+        "太宗崩从容粉碎逆谋锁王继恩验真龙，定策真宗即位"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "lv-duan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 997,
+      "notes": [
+        "感其定策登极安邦大勋，每于便殿召对肃然长揖"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "xiang-minzhong",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1001,
+      "notes": [
+        "咸平、天禧两度拜相，掌枢要二十载辅弼景德天禧之治"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "xiang-minzhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1001,
+      "notes": [
+        "倚重长厚持重，天禧元年进位右仆射封许国公"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

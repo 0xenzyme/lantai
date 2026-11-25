@@ -3307,6 +3307,111 @@
       "type": "rival",
       "since": 1225,
       "note": "忌惮魏了翁直言声望，借端将其贬谪靖州"
+    },
+    {
+      "source": "bi-shian",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "since": 995,
+      "note": "真宗尹开封引为判官，景德初拜平章事力赞亲征澶渊"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "bi-shian",
+      "type": "ruler-subject",
+      "since": 995,
+      "note": "藩邸深相结纳，景德初倚重拜相，采纳其亲征之谋促成澶渊之盟"
+    },
+    {
+      "source": "bi-shian",
+      "target": "kou-zhun",
+      "type": "peer",
+      "since": 1004,
+      "note": "力荐寇准同日拜相，同心辅政坚主真宗亲征澶渊"
+    },
+    {
+      "source": "kou-zhun",
+      "target": "bi-shian",
+      "type": "peer",
+      "since": 1004,
+      "note": "感其推位之贤，同心协力决战澶渊开创景德盛世"
+    },
+    {
+      "source": "bi-shian",
+      "target": "wang-qinruo",
+      "type": "rival",
+      "since": 1004,
+      "note": "辽兵犯境，士安力斥王钦若金陵南迁之谋，赞成亲征"
+    },
+    {
+      "source": "li-fang",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "since": 960,
+      "note": "建隆初留任翰林学士，典掌机密草撰受禅建国大诏"
+    },
+    {
+      "source": "li-fang",
+      "target": "zhao-guangyi",
+      "type": "ruler-subject",
+      "since": 976,
+      "note": "两度拜相，奉敕总领纂修三大类书奠定崇文基调"
+    },
+    {
+      "source": "lv-duan",
+      "target": "zhao-guangyi",
+      "type": "ruler-subject",
+      "since": 993,
+      "note": "太宗拜为参知政事、平章事，赞其大事不糊涂"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "lv-duan",
+      "type": "ruler-subject",
+      "since": 993,
+      "note": "深知其外宽内明临大节不可夺，特拜相托付社稷"
+    },
+    {
+      "source": "lv-duan",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "since": 997,
+      "note": "太宗崩从容粉碎逆谋锁王继恩验真龙，定策真宗即位"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "lv-duan",
+      "type": "ruler-subject",
+      "since": 997,
+      "note": "感其定策登极安邦大勋，每于便殿召对肃然长揖"
+    },
+    {
+      "source": "xiang-minzhong",
+      "target": "zhao-guangyi",
+      "type": "ruler-subject",
+      "since": 980,
+      "note": "太宗奇其断狱精准明敏，擢拜枢要宣抚西川"
+    },
+    {
+      "source": "xiang-minzhong",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "since": 1001,
+      "note": "咸平、天禧两度拜相，掌枢要二十载辅弼景德天禧之治"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "xiang-minzhong",
+      "type": "ruler-subject",
+      "since": 1001,
+      "note": "倚重长厚持重，天禧元年进位右仆射封许国公"
+    },
+    {
+      "source": "xiang-minzhong",
+      "target": "kou-zhun",
+      "type": "peer",
+      "since": 1001,
+      "note": "同掌中枢辅弼真宗，协力经略西北边备与朝纲"
     }
   ],
   "events": [

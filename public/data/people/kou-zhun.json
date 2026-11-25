@@ -109,6 +109,33 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "bi-shian",
+      "target": "kou-zhun",
+      "type": "peer",
+      "directed": false,
+      "since": 1004,
+      "notes": [
+        "力荐寇准同日拜相，同心辅政坚主真宗亲征澶渊",
+        "感其推位之贤，同心协力决战澶渊开创景德盛世"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "kou-zhun",
+      "target": "xiang-minzhong",
+      "type": "peer",
+      "directed": false,
+      "since": 1001,
+      "notes": [
+        "同掌中枢辅弼真宗，协力经略西北边备与朝纲"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

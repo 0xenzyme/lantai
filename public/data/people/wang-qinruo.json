@@ -52,6 +52,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "bi-shian",
+      "target": "wang-qinruo",
+      "type": "rival",
+      "directed": false,
+      "since": 1004,
+      "notes": [
+        "辽兵犯境，士安力斥王钦若金陵南迁之谋，赞成亲征"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

@@ -298,6 +298,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "li-fang",
+      "target": "zhao-kuangyin",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 960,
+      "notes": [
+        "建隆初留任翰林学士，典掌机密草撰受禅建国大诏"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

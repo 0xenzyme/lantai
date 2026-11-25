@@ -178,6 +178,58 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "li-fang",
+      "target": "zhao-guangyi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 976,
+      "notes": [
+        "两度拜相，奉敕总领纂修三大类书奠定崇文基调"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "lv-duan",
+      "target": "zhao-guangyi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 993,
+      "notes": [
+        "太宗拜为参知政事、平章事，赞其大事不糊涂"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "lv-duan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 993,
+      "notes": [
+        "深知其外宽内明临大节不可夺，特拜相托付社稷"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "xiang-minzhong",
+      "target": "zhao-guangyi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 980,
+      "notes": [
+        "太宗奇其断狱精准明敏，擢拜枢要宣抚西川"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
