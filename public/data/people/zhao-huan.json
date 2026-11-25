@@ -67,6 +67,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-huan",
+      "target": "li-gang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1126,
+      "notes": [
+        "靖康元年委以尚书右丞兼东京留守固守汴京，旋受主和派谗言罢逐"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

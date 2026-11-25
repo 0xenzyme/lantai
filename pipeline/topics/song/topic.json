@@ -2634,6 +2634,27 @@
       "type": "ruler-subject",
       "since": 1094,
       "note": "绍圣亲政恢复新法并大兴党狱，将苏轼连贬惠州与海南儋州"
+    },
+    {
+      "source": "zhao-huan",
+      "target": "li-gang",
+      "type": "ruler-subject",
+      "since": 1126,
+      "note": "靖康元年委以尚书右丞兼东京留守固守汴京，旋受主和派谗言罢逐"
+    },
+    {
+      "source": "li-gang",
+      "target": "zong-ze",
+      "type": "peer",
+      "since": 1127,
+      "note": "建炎初李纲任首辅力荐宗泽为东京留守固守汴京，抗金志业相期"
+    },
+    {
+      "source": "zong-ze",
+      "target": "yue-fei",
+      "type": "mentor",
+      "since": 1127,
+      "note": "东京留守宗泽深赏岳飞智勇，亲授阵图以期收复失地"
     }
   ],
   "events": [

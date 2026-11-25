@@ -33,8 +33,10 @@
       "target": "yue-fei",
       "type": "mentor",
       "directed": true,
+      "since": 1127,
       "notes": [
-        "奇其才授阵图，飞论运用存乎一心"
+        "奇其才授阵图，飞论运用存乎一心",
+        "东京留守宗泽深赏岳飞智勇，亲授阵图以期收复失地"
       ],
       "topicIds": [
         "song"
@@ -47,6 +49,19 @@
       "directed": true,
       "notes": [
         "命为东京留守，泽屡疏请上还京"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-gang",
+      "target": "zong-ze",
+      "type": "peer",
+      "directed": false,
+      "since": 1127,
+      "notes": [
+        "建炎初李纲任首辅力荐宗泽为东京留守固守汴京，抗金志业相期"
       ],
       "topicIds": [
         "song"
