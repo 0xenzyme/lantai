@@ -2950,6 +2950,146 @@
       "type": "peer",
       "since": 1190,
       "note": "辛弃疾在浙东深赏姜夔词作清空骚雅，相聚放歌唱和"
+    },
+    {
+      "source": "wu-jie",
+      "target": "wu-lin",
+      "type": "kin",
+      "since": 1102,
+      "note": "同母兄弟，同守和尚原、仙人关，并为西陲屏障"
+    },
+    {
+      "source": "wu-lin",
+      "target": "wu-jie",
+      "type": "kin",
+      "since": 1102,
+      "note": "兄长，协力守和尚原仙人关，兄卒继领其军抚蜀三十年"
+    },
+    {
+      "source": "wu-jie",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "since": 1130,
+      "note": "川陕宣抚处置使张浚委任其经略关陇，富平战后受任扼守大散关"
+    },
+    {
+      "source": "wu-jie",
+      "target": "zhao-gou",
+      "type": "ruler-subject",
+      "since": 1127,
+      "note": "建炎、绍兴间任四川宣抚使，拜开府仪同三司，力保巴蜀"
+    },
+    {
+      "source": "wu-jie",
+      "target": "wanyan-zongbi",
+      "type": "rival",
+      "since": 1131,
+      "note": "和尚原、仙人关两度大败兀术十万铁骑，兀术中流矢仅以身免"
+    },
+    {
+      "source": "wu-lin",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "since": 1130,
+      "note": "宣抚处置司麾下大将，受其节制经略川陕"
+    },
+    {
+      "source": "wu-lin",
+      "target": "zhao-gou",
+      "type": "ruler-subject",
+      "since": 1127,
+      "note": "高宗朝拜太尉、宣抚副使，保全西陲天府之国"
+    },
+    {
+      "source": "wu-lin",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "since": 1162,
+      "note": "孝宗朝拜太傅、四川宣抚使，进封信王"
+    },
+    {
+      "source": "wu-lin",
+      "target": "wanyan-zongbi",
+      "type": "rival",
+      "since": 1131,
+      "note": "和尚原设伏绝其粮道，仙人关手舞双刀击退金军突阵"
+    },
+    {
+      "source": "liu-qi-1098",
+      "target": "zhao-gou",
+      "type": "ruler-subject",
+      "since": 1127,
+      "note": "绍兴十年顺昌大捷打破女真不可战胜神话，后遭收夺兵权"
+    },
+    {
+      "source": "liu-qi-1098",
+      "target": "wanyan-zongbi",
+      "type": "rival",
+      "since": 1140,
+      "note": "顺昌之役以两万八字军大破兀术十万主力，歼铁浮图拐子马"
+    },
+    {
+      "source": "liu-qi-1098",
+      "target": "qin-hui",
+      "type": "rival",
+      "since": 1141,
+      "note": "顺昌、柘皋捷后遭秦桧忌惮排挤，削夺兵权出知闲地十余载"
+    },
+    {
+      "source": "liu-qi-1098",
+      "target": "yue-fei",
+      "type": "peer",
+      "since": 1140,
+      "note": "南宋中兴名将，顺昌坚城阻遏于前，岳飞应援策应于颍昌郾城"
+    },
+    {
+      "source": "li-xianzhong",
+      "target": "zhao-gou",
+      "type": "ruler-subject",
+      "since": 1138,
+      "note": "自金国间道归宋，高宗嘉其忠烈特赐名显忠并加重用"
+    },
+    {
+      "source": "li-xianzhong",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "since": 1162,
+      "note": "宋孝宗特达之知，委以隆兴北伐前军都统制之重寄"
+    },
+    {
+      "source": "li-xianzhong",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "since": 1163,
+      "note": "隆兴北伐张浚督师枢密使，推重显忠骁勇为前锋克复宿州"
+    },
+    {
+      "source": "li-xianzhong",
+      "target": "heshilie-zhining",
+      "type": "rival",
+      "since": 1163,
+      "note": "隆兴北伐克复宿州，金副元帅纥石烈志宁反扑激战，宋军溃于符离"
+    },
+    {
+      "source": "zhang-jun",
+      "target": "wu-jie",
+      "type": "ruler-subject",
+      "since": 1130,
+      "note": "川陕宣抚处置使，特加擢用委以大散关防御"
+    },
+    {
+      "source": "zhang-jun",
+      "target": "li-xianzhong",
+      "type": "ruler-subject",
+      "since": 1163,
+      "note": "隆兴北伐督师枢密使，倚重显忠骁勇为前锋"
+    },
+    {
+      "source": "yue-fei",
+      "target": "liu-qi-1098",
+      "type": "peer",
+      "since": 1140,
+      "note": "顺昌告急，岳飞遣部将应援并出师中原策应"
     }
   ],
   "events": [

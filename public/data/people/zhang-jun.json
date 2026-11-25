@@ -98,6 +98,71 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "wu-jie",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1130,
+      "notes": [
+        "川陕宣抚处置使张浚委任其经略关陇，富平战后受任扼守大散关"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "wu-lin",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1130,
+      "notes": [
+        "宣抚处置司麾下大将，受其节制经略川陕"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-xianzhong",
+      "target": "zhang-jun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1163,
+      "notes": [
+        "隆兴北伐张浚督师枢密使，推重显忠骁勇为前锋克复宿州"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhang-jun",
+      "target": "wu-jie",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1130,
+      "notes": [
+        "川陕宣抚处置使，特加擢用委以大散关防御"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhang-jun",
+      "target": "li-xianzhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1163,
+      "notes": [
+        "隆兴北伐督师枢密使，倚重显忠骁勇为前锋"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

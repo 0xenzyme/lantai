@@ -134,6 +134,32 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "wu-lin",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1162,
+      "notes": [
+        "孝宗朝拜太傅、四川宣抚使，进封信王"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-xianzhong",
+      "target": "zhao-shen",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1162,
+      "notes": [
+        "宋孝宗特达之知，委以隆兴北伐前军都统制之重寄"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

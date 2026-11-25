@@ -95,6 +95,19 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "liu-qi-1098",
+      "target": "qin-hui",
+      "type": "rival",
+      "directed": false,
+      "since": 1141,
+      "notes": [
+        "顺昌、柘皋捷后遭秦桧忌惮排挤，削夺兵权出知闲地十余载"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

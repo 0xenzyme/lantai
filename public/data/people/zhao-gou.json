@@ -144,6 +144,58 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "wu-jie",
+      "target": "zhao-gou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1127,
+      "notes": [
+        "建炎、绍兴间任四川宣抚使，拜开府仪同三司，力保巴蜀"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "wu-lin",
+      "target": "zhao-gou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1127,
+      "notes": [
+        "高宗朝拜太尉、宣抚副使，保全西陲天府之国"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "liu-qi-1098",
+      "target": "zhao-gou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1127,
+      "notes": [
+        "绍兴十年顺昌大捷打破女真不可战胜神话，后遭收夺兵权"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-xianzhong",
+      "target": "zhao-gou",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1138,
+      "notes": [
+        "自金国间道归宋，高宗嘉其忠烈特赐名显忠并加重用"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

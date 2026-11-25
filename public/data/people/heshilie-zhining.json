@@ -27,7 +27,21 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "heshilie-zhining",
+      "target": "li-xianzhong",
+      "type": "rival",
+      "directed": false,
+      "since": 1163,
+      "notes": [
+        "隆兴北伐克复宿州，金副元帅纥石烈志宁反扑激战，宋军溃于符离"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "longxing-beifa",

@@ -27,7 +27,47 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "wanyan-zongbi",
+      "target": "wu-jie",
+      "type": "rival",
+      "directed": false,
+      "since": 1131,
+      "notes": [
+        "和尚原、仙人关两度大败兀术十万铁骑，兀术中流矢仅以身免"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "wanyan-zongbi",
+      "target": "wu-lin",
+      "type": "rival",
+      "directed": false,
+      "since": 1131,
+      "notes": [
+        "和尚原设伏绝其粮道，仙人关手舞双刀击退金军突阵"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "liu-qi-1098",
+      "target": "wanyan-zongbi",
+      "type": "rival",
+      "directed": false,
+      "since": 1140,
+      "notes": [
+        "顺昌之役以两万八字军大破兀术十万主力，歼铁浮图拐子马"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "heshangyuan-zhizhan",

@@ -119,6 +119,20 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "liu-qi-1098",
+      "target": "yue-fei",
+      "type": "peer",
+      "directed": false,
+      "since": 1140,
+      "notes": [
+        "南宋中兴名将，顺昌坚城阻遏于前，岳飞应援策应于颍昌郾城",
+        "顺昌告急，岳飞遣部将应援并出师中原策应"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
