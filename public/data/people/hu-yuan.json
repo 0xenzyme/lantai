@@ -71,6 +71,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "cheng-yi",
+      "target": "hu-yuan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "游太学以颜子所好何学论对，胡瑗深器重延为校客"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

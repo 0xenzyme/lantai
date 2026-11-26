@@ -183,6 +183,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhang-zai",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "年少论兵欲取洮西，范公警以名教授中庸启发道心"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

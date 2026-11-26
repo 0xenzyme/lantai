@@ -145,6 +145,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "sima-guang",
+      "target": "su-zhe",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "元祐初同辅政柄，苏辙持平恕论调停新旧两党"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cheng-hao",
+      "target": "sima-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "退居洛阳讲学，司马光文彦博等皆下榻宗之"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cheng-yi",
+      "target": "sima-guang",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "司马光力荐为崇政殿说书，经筵规导严正有古风"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

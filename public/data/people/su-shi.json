@@ -219,6 +219,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "su-shi",
+      "target": "zeng-gong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同出欧阳修门下，嘉祐二年同榜进士，共振古文"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cheng-yi",
+      "target": "su-shi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "经筵议礼及元祐政见不协，引发洛蜀党派之争"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

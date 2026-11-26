@@ -145,6 +145,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "su-zhe",
+      "target": "zhao-xu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "熙宁制举切直论政，神宗深知其才而未大用"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zeng-gong",
+      "target": "zhao-xu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "神宗延见力加褒奖，擢史馆修撰迁中书舍人"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhang-zai",
+      "target": "zhao-xu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "神宗召问崇政殿，命崇文校书知太常礼院"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

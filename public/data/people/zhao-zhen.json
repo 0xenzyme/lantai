@@ -315,6 +315,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "su-xun",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以布衣献二十二篇名震京师，仁宗诏命修太常因革礼"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
