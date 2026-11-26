@@ -87,6 +87,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "jia-sidao",
+      "target": "wang-jian-1264",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "贾似道忌其钓鱼城不赏之功，阻其入中枢，出知和州郁卒"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "jia-sidao",
+      "target": "lv-wende",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "鄂州之战相结纳，贾似道委以京湖制置使专任襄樊防务"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

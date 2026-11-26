@@ -59,6 +59,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "meng-gong",
+      "target": "li-tingzhi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孟珙一见奇之，称其必为国柱石，辟入幕府传以兵法"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "meng-gong",
+      "target": "wang-jian-1264",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "初入孟珙忠顺军，勇冠诸军，珙委以方面大任"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

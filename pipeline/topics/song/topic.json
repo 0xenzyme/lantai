@@ -3698,6 +3698,66 @@
       "target": "fan-zuyu",
       "type": "peer",
       "note": "元祐馆阁道友，诗文知交，同遭贬谪岭南"
+    },
+    {
+      "source": "li-zong",
+      "target": "cao-youwen",
+      "type": "ruler-subject",
+      "note": "理宗深惜其忠勇，阳平关死节特诏立庙褒忠"
+    },
+    {
+      "source": "meng-gong",
+      "target": "li-tingzhi",
+      "type": "mentor",
+      "note": "孟珙一见奇之，称其必为国柱石，辟入幕府传以兵法"
+    },
+    {
+      "source": "li-zong",
+      "target": "li-tingzhi",
+      "type": "ruler-subject",
+      "note": "理宗深委以两淮门户，知扬州十余载筑城练兵"
+    },
+    {
+      "source": "li-tingzhi",
+      "target": "lv-wende",
+      "type": "peer",
+      "note": "同为晚宋边防重帅，李庭芝屡遣民兵张顺张贵溯水入襄阳援吕文焕"
+    },
+    {
+      "source": "meng-gong",
+      "target": "wang-jian-1264",
+      "type": "mentor",
+      "note": "初入孟珙忠顺军，勇冠诸军，珙委以方面大任"
+    },
+    {
+      "source": "li-zong",
+      "target": "wang-jian-1264",
+      "type": "ruler-subject",
+      "note": "钓鱼城大捷击毙蒙哥汗，理宗赞其节义为蜀城之冠，拜宁远军节度使"
+    },
+    {
+      "source": "jia-sidao",
+      "target": "wang-jian-1264",
+      "type": "rival",
+      "note": "贾似道忌其钓鱼城不赏之功，阻其入中枢，出知和州郁卒"
+    },
+    {
+      "source": "zhao-kui",
+      "target": "lv-wende",
+      "type": "mentor",
+      "note": "赵葵识拔于樵夫行伍，推轂其为统兵大将"
+    },
+    {
+      "source": "jia-sidao",
+      "target": "lv-wende",
+      "type": "peer",
+      "note": "鄂州之战相结纳，贾似道委以京湖制置使专任襄樊防务"
+    },
+    {
+      "source": "zhao-qi",
+      "target": "lv-wende",
+      "type": "ruler-subject",
+      "note": "度宗倚为长城，襄阳合围疽发背卒，赠太师和国公"
     }
   ],
   "events": [

@@ -20,7 +20,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "zhao-kui",
+      "target": "lv-wende",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "赵葵识拔于樵夫行伍，推轂其为统兵大将"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [
