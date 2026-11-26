@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue)](LICENSE)
 [![Content: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--SA%204.0-orange)](LICENSE-CONTENT.md)
 
-**3,506 historical figures · 708 events · 2070 BCE — 1949 CE**, aligned on a single zoomable, searchable timeline.
+**3,521 historical figures · 698 events · 2070 BCE — 1949 CE**, aligned on a single zoomable, searchable timeline.
 Lifelines of people sit next to the wars and events of their time — drag Li Bai next to the An Lushan Rebellion and history becomes a web.
 
 > **Try it live: <https://lantai.0xenzyme.dev>**

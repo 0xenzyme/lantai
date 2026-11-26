@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue)](LICENSE)
 [![Content: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC%20BY--SA%204.0-orange)](LICENSE-CONTENT.md)
 
-**3506 位历史人物 · 708 条纪事 · 公元前 2070 — 1949**，放在同一条可缩放、可检索的时间轴上。
+**3521 位历史人物 · 698 条纪事 · 公元前 2070 — 1949**，放在同一条可缩放、可检索的时间轴上。
 人物生平与同时代的战事、事件彼此对齐——把李白拉到安史之乱旁边，历史就成了一张网。
 
 > **在线体验：<https://lantai.0xenzyme.dev>**
