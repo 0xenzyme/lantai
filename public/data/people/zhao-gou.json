@@ -196,6 +196,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-gou",
+      "target": "chen-kangbo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "完颜亮南侵力排众议劝帝亲征，受命主持枢密大政"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

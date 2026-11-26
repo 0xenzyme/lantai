@@ -3496,6 +3496,78 @@
       "target": "shao-yong",
       "type": "peer",
       "note": "程颢常访邵雍，叹其纯明从容如光风霁月"
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "zhao-ruyu",
+      "type": "ruler-subject",
+      "note": "定绍熙内禅之策策立宁宗，拜右相主持国政"
+    },
+    {
+      "source": "zhao-ruyu",
+      "target": "liu-zheng",
+      "type": "peer",
+      "note": "绍熙末同朝为相，同谋光宁之际内禅定策"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "chen-kangbo",
+      "type": "ruler-subject",
+      "note": "完颜亮南侵力排众议劝帝亲征，受命主持枢密大政"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "chen-kangbo",
+      "type": "ruler-subject",
+      "note": "定高宗传位内禅之策，孝宗即位进左仆射封鲁国公"
+    },
+    {
+      "source": "chen-kangbo",
+      "target": "zhou-bida",
+      "type": "peer",
+      "note": "密与商议建储名讳及受禅大典，甚重其识量"
+    },
+    {
+      "source": "zhao-dun",
+      "target": "liu-zheng",
+      "type": "ruler-subject",
+      "note": "光宗朝拜左丞相，屡次苦谏请帝过宫尽孝执丧"
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "liu-zheng",
+      "type": "ruler-subject",
+      "note": "绍熙内禅后奉诏还相，旋遭外戚倾轧引退"
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "liu-zheng",
+      "type": "rival",
+      "note": "韩侂胄用事专权，留正抗论忠邪不合力求罢相"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "zhou-bida",
+      "type": "ruler-subject",
+      "note": "孝宗朝拜左丞相，辅佐乾淳之治，号太平宰相"
+    },
+    {
+      "source": "zhou-bida",
+      "target": "yang-wanli",
+      "type": "peer",
+      "note": "同里深交，文坛相倡和，力荐杨万里入朝任职"
+    },
+    {
+      "source": "zhou-bida",
+      "target": "fan-chengda",
+      "type": "peer",
+      "note": "南宋词臣宗工，诗文唱和，同朝参赞政事"
+    },
+    {
+      "source": "zhou-bida",
+      "target": "lu-you",
+      "type": "peer",
+      "note": "晚年文坛推重，屡以诗文致候陆游，相知甚深"
     }
   ],
   "events": [

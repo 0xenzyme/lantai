@@ -73,6 +73,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "fan-chengda",
+      "target": "zhou-bida",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "南宋词臣宗工，诗文唱和，同朝参赞政事"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],
