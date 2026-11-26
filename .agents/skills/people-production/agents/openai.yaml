@@ -1,0 +1,4 @@
+interface:
+  display_name: "People Preparation"
+  short_description: "Prepare person candidates and self-check for independent review"
+  default_prompt: "Use $people-production to research primary sources in raw/, prepare person candidates, run self-check/preflight, and give me a handoff prompt for independent review."

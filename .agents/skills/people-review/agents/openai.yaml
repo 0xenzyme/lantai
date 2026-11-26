@@ -1,0 +1,4 @@
+interface:
+  display_name: "People Review"
+  short_description: "Independently review person candidates and apply passing items"
+  default_prompt: "Use $people-review to independently verify the specified person batch against raw/ sources, assemble and apply passing items, merge approved relations, and report pending items."

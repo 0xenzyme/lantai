@@ -54,9 +54,9 @@ npm run people:production:apply -- --batch workspace/content/raw/<batch-id>/batc
 
 preflight 的 checksPassed 仅指机器检查，admissionGranted 始终为 false。apply 重新检查并自动分流，只重写受影响专题的索引，不格式化无关源文件；随后运行 `npm run content` 与 `npm run build`。pending 子集可合回原批次重跑；扩大授权范围使用新批次 id。
 
-## 批次工作目录
+## 批次工作目录（`revise` 分片并行模式）
 
-批次目录是 `workspace/content/raw/<batch-id>/`。多人并行时每人只写自己的文件，`batch.json` 只由组装工具生成：
+批次目录是 `workspace/content/raw/<batch-id>/`。多人并行或由 `.agents/skills/people-batch-workflow/SKILL.md` 编排已登记 Markdown 人物修订（`revise`）时，每人只写自己的单人文件，`batch.json` 只由组装工具生成（新人物 `publish` 不使用分片工具，仍直接准备 `batch.json` 并运行 `people:production:preflight`）：
 
 | 文件 | 谁写 | 内容 |
 | --- | --- | --- |
