@@ -207,6 +207,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "cao-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "真宗委以泾原秦州边寄，赞其山川图并擢签书枢密院事"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-hen",
+      "target": "li-jilong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "尊为元舅，澶渊命为驾前东面排阵使"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

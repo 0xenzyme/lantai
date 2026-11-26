@@ -27,7 +27,20 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-huanghou",
+      "target": "li-jilong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "兄妹，妹为宋太宗明德皇后"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

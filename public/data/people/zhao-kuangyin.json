@@ -311,6 +311,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-jilong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "征南唐嘉其勇敢善战，许平金陵厚赏拔用"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "guo-jin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "委守西山十余年，赐筒瓦第宅，倚免北顾之忧"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

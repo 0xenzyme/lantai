@@ -28,7 +28,32 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "cao-wei",
+      "target": "li-jiquan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "移书离间诸羌致康奴等族内附，于石门川邀击李继迁大获"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-jilong",
+      "target": "li-jiquan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "屡统兵经略银夏灵环讨李继迁，城置镇戎军"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

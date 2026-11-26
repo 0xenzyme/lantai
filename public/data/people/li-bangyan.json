@@ -27,7 +27,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chong-shidao",
+      "target": "li-bangyan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "李邦彦议割让三镇，种师道力争不得"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

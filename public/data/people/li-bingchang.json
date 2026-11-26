@@ -21,7 +21,20 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chong-e",
+      "target": "li-bingchang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谔乘秉常被囚请捣西夏，攻克米脂大破援军"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

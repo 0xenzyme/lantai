@@ -72,6 +72,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "cao-bin",
+      "target": "cao-wei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子名将，曹彬举第三子曹玮同知渭州，临终称璨不如玮"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cao-bin",
+      "target": "li-jilong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "雍熙北伐从征幽州克涿州，师溃独整旅还"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cao-bin",
+      "target": "guo-jin",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "宋初同攻北汉乐平置平晋军，乾德二年同援辽州破敌"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

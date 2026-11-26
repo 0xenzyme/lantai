@@ -39,6 +39,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "cao-wei",
+      "target": "ding-wei",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "丁谓恶曹玮不附己，指为寇准党罢枢密职并贬知莱州"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

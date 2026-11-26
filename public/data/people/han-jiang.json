@@ -22,7 +22,32 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chong-e",
+      "target": "han-jiang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "韩绛宣抚陕西用谔城啰兀，再相讼功复其官"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "guo-kui",
+      "target": "han-jiang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "韩绛主种谔计图横山，怒逵异议奏召逵还"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

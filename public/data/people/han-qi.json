@@ -135,6 +135,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "di-qing",
+      "target": "han-qi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "经略陕西时识拔厚遇，嘉祐元年继狄青为枢密使"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "guo-kui",
+      "target": "han-qi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "韩琦引逵入枢府，后又奏主存守绥州"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

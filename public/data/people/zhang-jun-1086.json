@@ -39,6 +39,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chong-shizhong",
+      "target": "zhang-jun-1086",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "援太原时张俊为麾下队将，从战榆次突围而出"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

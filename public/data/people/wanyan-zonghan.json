@@ -29,7 +29,20 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chong-shizhong",
+      "target": "wanyan-zonghan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "宗翰围困太原，师中请袭上党未果，驰援至榆次力战阵亡"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "jingkang-zhibian",

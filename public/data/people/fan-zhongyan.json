@@ -195,6 +195,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "di-qing",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "奇其将材厚遇之，授《左氏春秋》勉其折节通兵法"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "fan-zhongyan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "受知范仲淹，用其策城青涧，奏徙环州、檄筑细腰城"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "guo-kui",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "康定中逵隶陕西麾下，仲淹勉以问学"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

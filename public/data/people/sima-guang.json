@@ -181,6 +181,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chong-e",
+      "target": "sima-guang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "光上疏极论不可听谔招纳嵬名山以启边患"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

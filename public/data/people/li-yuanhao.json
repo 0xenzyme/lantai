@@ -40,6 +40,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "di-qing",
+      "target": "li-yuanhao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "宋夏交兵四年大小二十五战，被发铜面屡破夏军"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "li-yuanhao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "筑青涧城御夏，遣王嵩蜡书间元昊诛野利兄弟"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

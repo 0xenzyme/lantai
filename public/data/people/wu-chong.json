@@ -27,7 +27,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "wang-shao",
+      "target": "wu-chong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同在枢府，吴充曾谏阻王韶取洮州后列置郡县"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

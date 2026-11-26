@@ -87,6 +87,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "li-jilong",
+      "target": "pan-mei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "护三交屯兵时与潘美同出北边攻破灵丘县"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "guo-jin",
+      "target": "pan-mei",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "两度同征北汉，潘美攻太原而郭进扼石岭关断援"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

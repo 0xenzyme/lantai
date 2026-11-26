@@ -71,6 +71,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "guo-kui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "执中奏逵为京东驻泊将，服其预料葛怀敏覆师"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

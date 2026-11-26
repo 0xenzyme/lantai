@@ -44,6 +44,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chong-e",
+      "target": "shen-kuo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "共议横山边防，括从徐禧城永乐，与谔始谋异"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

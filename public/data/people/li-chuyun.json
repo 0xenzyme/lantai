@@ -20,7 +20,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-chuyun",
+      "target": "li-jilong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，继隆以父处耘荫补供奉官起家"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

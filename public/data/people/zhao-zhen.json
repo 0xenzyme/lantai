@@ -327,6 +327,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "di-qing",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "不问门地拔自兵伍至枢密使，垂拱殿置酒遣平岭南"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "cao-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "仁宗朝帅天雄、真定捍北边，卒谥武穆，嘉祐八年配享庙庭"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "chong-shiheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "采其策命城青涧并知城事，卒赠成州团练使"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

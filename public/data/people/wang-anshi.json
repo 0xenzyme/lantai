@@ -196,6 +196,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "wang-anshi",
+      "target": "wang-shao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "王安石力主其市易与熙河开边议，后因马瑊事生隙"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -21,7 +21,20 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chong-e",
+      "target": "li-liangzuo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谔诱降谅祚部将嵬名山，长驱进兵收复绥州"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

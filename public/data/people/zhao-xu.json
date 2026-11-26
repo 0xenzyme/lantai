@@ -181,6 +181,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-xu",
+      "target": "chong-e",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "神宗倚谔敢战取绥州、克米脂，屡贬屡起"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-xu",
+      "target": "guo-kui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "手诏褒逵存绥州并访八阵法，熙宁末命帅师南征交趾"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-xu",
+      "target": "wang-shao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "神宗奇《平戎策》委以熙河开边，擢拜枢密副使"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

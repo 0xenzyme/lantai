@@ -28,7 +28,20 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "di-qing",
+      "target": "nong-zhigao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "夜度昆仑关大战归仁铺，击溃侬智高收复邕州"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "nongzhigao-qiyi",

@@ -28,7 +28,20 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "cao-wei",
+      "target": "li-deming",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "请乘丧袭擒李德明未报，率兵薄大都山受降诸族震慑夏境"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

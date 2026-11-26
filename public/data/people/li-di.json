@@ -27,7 +27,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "cao-wei",
+      "target": "li-di",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "李迪在真宗前力保曹玮非怯且料三都谷必胜，乾兴初同日遭贬"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

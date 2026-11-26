@@ -20,7 +20,20 @@
       "lane": "literati"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chong-shiheng",
+      "target": "zhong-fang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "世衡为种放兄子，以放恩荫补将作监主簿入仕"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

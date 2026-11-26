@@ -27,7 +27,32 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chong-shidao",
+      "target": "wanyan-zongwang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "督西兵疾驰逼汴南金营，迫宗望北徙"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "chong-shizhong",
+      "target": "wanyan-zongwang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "靖康初率军入援，宗望攻中山河间不下，师中进兵逼逐出境"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "jingkang-zhibian",

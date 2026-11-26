@@ -27,7 +27,20 @@
       "lane": "rival"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "li-jilong",
+      "target": "yelv-xiuge",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太平兴国四年徐河交锋，端拱二年护粮击败辽帅耶律休哥"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "gaolianghe-zhizhan",

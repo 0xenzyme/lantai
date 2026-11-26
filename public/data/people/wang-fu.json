@@ -27,7 +27,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chong-shidao",
+      "target": "wang-fu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "谏止伐辽触怒王黼，被责授致仕"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

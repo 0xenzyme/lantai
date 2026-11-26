@@ -4094,6 +4094,474 @@
       "target": "qin-guan",
       "type": "peer",
       "note": "苏门四学士同科同道，词风互映名重词坛"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "di-qing",
+      "type": "ruler-subject",
+      "note": "不问门地拔自兵伍至枢密使，垂拱殿置酒遣平岭南"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "di-qing",
+      "type": "mentor",
+      "note": "奇其将材厚遇之，授《左氏春秋》勉其折节通兵法"
+    },
+    {
+      "source": "han-qi",
+      "target": "di-qing",
+      "type": "peer",
+      "note": "经略陕西时识拔厚遇，嘉祐元年继狄青为枢密使"
+    },
+    {
+      "source": "di-qing",
+      "target": "li-yuanhao",
+      "type": "rival",
+      "note": "宋夏交兵四年大小二十五战，被发铜面屡破夏军"
+    },
+    {
+      "source": "di-qing",
+      "target": "nong-zhigao",
+      "type": "rival",
+      "note": "夜度昆仑关大战归仁铺，击溃侬智高收复邕州"
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "di-qing",
+      "type": "peer",
+      "note": "曾疏称其忠勇，嘉祐初虑武臣掌机密得军情请外任保全"
+    },
+    {
+      "source": "wen-yanbo",
+      "target": "di-qing",
+      "type": "peer",
+      "note": "初称狄青素忠谨，后因避水相国寺人情喧然出其判陈州"
+    },
+    {
+      "source": "cao-bin",
+      "target": "cao-wei",
+      "type": "kin",
+      "note": "父子名将，曹彬举第三子曹玮同知渭州，临终称璨不如玮"
+    },
+    {
+      "source": "cao-wei",
+      "target": "cao-huanghou",
+      "type": "kin",
+      "note": "叔侄，五弟曹玘之女为仁宗慈圣光献皇后"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "cao-wei",
+      "type": "ruler-subject",
+      "note": "太宗采曹彬之荐，擢十九岁的曹玮同知渭州御李继迁"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "cao-wei",
+      "type": "ruler-subject",
+      "note": "真宗委以泾原秦州边寄，赞其山川图并擢签书枢密院事"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "cao-wei",
+      "type": "ruler-subject",
+      "note": "仁宗朝帅天雄、真定捍北边，卒谥武穆，嘉祐八年配享庙庭"
+    },
+    {
+      "source": "cao-wei",
+      "target": "li-jiquan",
+      "type": "rival",
+      "note": "移书离间诸羌致康奴等族内附，于石门川邀击李继迁大获"
+    },
+    {
+      "source": "cao-wei",
+      "target": "li-deming",
+      "type": "rival",
+      "note": "请乘丧袭擒李德明未报，率兵薄大都山受降诸族震慑夏境"
+    },
+    {
+      "source": "cao-wei",
+      "target": "kou-zhun",
+      "type": "peer",
+      "note": "寇准尝过曹玮家饮酒尽醉，后丁谓指玮为准党同遭贬斥"
+    },
+    {
+      "source": "ding-wei",
+      "target": "cao-wei",
+      "type": "rival",
+      "note": "丁谓恶曹玮不附己，指为寇准党罢枢密职并贬知莱州"
+    },
+    {
+      "source": "cao-wei",
+      "target": "li-di",
+      "type": "peer",
+      "note": "李迪在真宗前力保曹玮非怯且料三都谷必胜，乾兴初同日遭贬"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "chong-shiheng",
+      "type": "ruler-subject",
+      "note": "采其策命城青涧并知城事，卒赠成州团练使"
+    },
+    {
+      "source": "zhong-fang",
+      "target": "chong-shiheng",
+      "type": "kin",
+      "note": "世衡为种放兄子，以放恩荫补将作监主簿入仕"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "chong-shiheng",
+      "type": "peer",
+      "note": "受知范仲淹，用其策城青涧，奏徙环州、檄筑细腰城"
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "pang-ji",
+      "type": "peer",
+      "note": "向经略使庞籍白西夏通和意，死后曾为籍抑功"
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "li-yuanhao",
+      "type": "rival",
+      "note": "筑青涧城御夏，遣王嵩蜡书间元昊诛野利兄弟"
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "di-qing",
+      "type": "peer",
+      "note": "同为西边名将，欧阳修并称兵兴所得惟狄青、种世衡"
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "chong-e",
+      "type": "kin",
+      "note": "世衡子，以父任入仕，继知青涧城，号三种之一"
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "chong-shidao",
+      "type": "kin",
+      "note": "世衡孙，种氏自世衡至师道三世号山西名将"
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "chong-shizhong",
+      "type": "kin",
+      "note": "世衡孙，与兄师道承种氏三世山西名将家声"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "chong-e",
+      "type": "ruler-subject",
+      "note": "神宗倚谔敢战取绥州、克米脂，屡贬屡起"
+    },
+    {
+      "source": "chong-e",
+      "target": "han-jiang",
+      "type": "peer",
+      "note": "韩绛宣抚陕西用谔城啰兀，再相讼功复其官"
+    },
+    {
+      "source": "chong-e",
+      "target": "shen-kuo",
+      "type": "peer",
+      "note": "共议横山边防，括从徐禧城永乐，与谔始谋异"
+    },
+    {
+      "source": "chong-e",
+      "target": "sima-guang",
+      "type": "rival",
+      "note": "光上疏极论不可听谔招纳嵬名山以启边患"
+    },
+    {
+      "source": "chong-e",
+      "target": "guo-kui",
+      "type": "peer",
+      "note": "谔取绥州后朝议欲弃，知延州郭逵力主存守"
+    },
+    {
+      "source": "chong-e",
+      "target": "li-liangzuo",
+      "type": "rival",
+      "note": "谔诱降谅祚部将嵬名山，长驱进兵收复绥州"
+    },
+    {
+      "source": "chong-e",
+      "target": "li-bingchang",
+      "type": "rival",
+      "note": "谔乘秉常被囚请捣西夏，攻克米脂大破援军"
+    },
+    {
+      "source": "zhao-shu",
+      "target": "guo-kui",
+      "type": "ruler-subject",
+      "note": "擢逵同签书枢密院事，台谏交论不听，旋命宣抚陕西"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "guo-kui",
+      "type": "ruler-subject",
+      "note": "手诏褒逵存绥州并访八阵法，熙宁末命帅师南征交趾"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "guo-kui",
+      "type": "mentor",
+      "note": "康定中逵隶陕西麾下，仲淹勉以问学"
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "guo-kui",
+      "type": "peer",
+      "note": "执中奏逵为京东驻泊将，服其预料葛怀敏覆师"
+    },
+    {
+      "source": "pang-ji",
+      "target": "guo-kui",
+      "type": "peer",
+      "note": "庞籍镇河东委逵权忻州，查故牍檄退契丹争地"
+    },
+    {
+      "source": "han-qi",
+      "target": "guo-kui",
+      "type": "peer",
+      "note": "韩琦引逵入枢府，后又奏主存守绥州"
+    },
+    {
+      "source": "guo-kui",
+      "target": "chong-e",
+      "type": "rival",
+      "note": "守绥州善后谔功，后斥谔图横山狂生必误大事"
+    },
+    {
+      "source": "guo-kui",
+      "target": "han-jiang",
+      "type": "rival",
+      "note": "韩绛主种谔计图横山，怒逵异议奏召逵还"
+    },
+    {
+      "source": "guo-kui",
+      "target": "wang-shao",
+      "type": "rival",
+      "note": "逵帅秦州劾王韶开熙河贷公钱不法，反坐落职"
+    },
+    {
+      "source": "guo-kui",
+      "target": "cai-que",
+      "type": "rival",
+      "note": "蔡确鞫王韶狱诬逵落职，后复劾逵南征移疾致贬"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "wang-shao",
+      "type": "ruler-subject",
+      "note": "神宗奇《平戎策》委以熙河开边，擢拜枢密副使"
+    },
+    {
+      "source": "wang-shao",
+      "target": "wang-anshi",
+      "type": "peer",
+      "note": "王安石力主其市易与熙河开边议，后因马瑊事生隙"
+    },
+    {
+      "source": "wang-shao",
+      "target": "han-zhen",
+      "type": "peer",
+      "note": "韩缜代帅秦凤附会核实市易治田事，助王韶获擢"
+    },
+    {
+      "source": "wang-shao",
+      "target": "cai-que",
+      "type": "peer",
+      "note": "郭逵案劾王韶不法，蔡确奉诏鞫狱反坐郭逵诬罔"
+    },
+    {
+      "source": "wang-shao",
+      "target": "wu-chong",
+      "type": "peer",
+      "note": "同在枢府，吴充曾谏阻王韶取洮州后列置郡县"
+    },
+    {
+      "source": "zhang-zai",
+      "target": "chong-shidao",
+      "type": "mentor",
+      "note": "种师道少时从张载问学"
+    },
+    {
+      "source": "chong-shidao",
+      "target": "chong-shizhong",
+      "type": "kin",
+      "note": "种师道之弟，靖康初先后统西兵勤王抗金"
+    },
+    {
+      "source": "chong-shidao",
+      "target": "cai-jing",
+      "type": "rival",
+      "note": "议役法忤蔡京旨，罢入党籍屏废十年"
+    },
+    {
+      "source": "chong-shidao",
+      "target": "tong-guan",
+      "type": "rival",
+      "note": "见童贯长揖不拜，力谏伐燕遭其密劾"
+    },
+    {
+      "source": "chong-shidao",
+      "target": "wang-fu",
+      "type": "rival",
+      "note": "谏止伐辽触怒王黼，被责授致仕"
+    },
+    {
+      "source": "zhao-ji",
+      "target": "chong-shidao",
+      "type": "ruler-subject",
+      "note": "召对边事称旨，金兵南下急召卫汴"
+    },
+    {
+      "source": "zhao-huan",
+      "target": "chong-shidao",
+      "type": "ruler-subject",
+      "note": "靖康初委任宣抚，拒其策致汴京失守"
+    },
+    {
+      "source": "chong-shidao",
+      "target": "li-gang",
+      "type": "peer",
+      "note": "靖康守汴共掌兵机，士民伏阙并称种李"
+    },
+    {
+      "source": "chong-shidao",
+      "target": "li-bangyan",
+      "type": "rival",
+      "note": "李邦彦议割让三镇，种师道力争不得"
+    },
+    {
+      "source": "chong-shidao",
+      "target": "wanyan-zongwang",
+      "type": "rival",
+      "note": "督西兵疾驰逼汴南金营，迫宗望北徙"
+    },
+    {
+      "source": "zhao-huan",
+      "target": "chong-shizhong",
+      "type": "ruler-subject",
+      "note": "靖康初诏率秦凤军勤王援太原，殉国后赠少师谥庄湣"
+    },
+    {
+      "source": "chong-shizhong",
+      "target": "wanyan-zonghan",
+      "type": "rival",
+      "note": "宗翰围困太原，师中请袭上党未果，驰援至榆次力战阵亡"
+    },
+    {
+      "source": "chong-shizhong",
+      "target": "wanyan-zongwang",
+      "type": "rival",
+      "note": "靖康初率军入援，宗望攻中山河间不下，师中进兵逼逐出境"
+    },
+    {
+      "source": "chong-shizhong",
+      "target": "zhang-jun-1086",
+      "type": "peer",
+      "note": "援太原时张俊为麾下队将，从战榆次突围而出"
+    },
+    {
+      "source": "chong-shizhong",
+      "target": "li-gang",
+      "type": "peer",
+      "note": "靖康初分任内外战守，师中榆次殉国后李纲受命代援太原"
+    },
+    {
+      "source": "li-chuyun",
+      "target": "li-jilong",
+      "type": "kin",
+      "note": "父子，继隆以父处耘荫补供奉官起家"
+    },
+    {
+      "source": "li-jilong",
+      "target": "li-huanghou",
+      "type": "kin",
+      "note": "兄妹，妹为宋太宗明德皇后"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "li-jilong",
+      "type": "ruler-subject",
+      "note": "征南唐嘉其勇敢善战，许平金陵厚赏拔用"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "li-jilong",
+      "type": "ruler-subject",
+      "note": "特加亲信，屡委河北御辽与河西征讨机要"
+    },
+    {
+      "source": "zhao-hen",
+      "target": "li-jilong",
+      "type": "ruler-subject",
+      "note": "尊为元舅，澶渊命为驾前东面排阵使"
+    },
+    {
+      "source": "li-jilong",
+      "target": "cao-bin",
+      "type": "peer",
+      "note": "雍熙北伐从征幽州克涿州，师溃独整旅还"
+    },
+    {
+      "source": "li-jilong",
+      "target": "pan-mei",
+      "type": "peer",
+      "note": "护三交屯兵时与潘美同出北边攻破灵丘县"
+    },
+    {
+      "source": "li-jilong",
+      "target": "li-jiquan",
+      "type": "rival",
+      "note": "屡统兵经略银夏灵环讨李继迁，城置镇戎军"
+    },
+    {
+      "source": "li-jilong",
+      "target": "yelv-xiuge",
+      "type": "rival",
+      "note": "太平兴国四年徐河交锋，端拱二年护粮击败辽帅耶律休哥"
+    },
+    {
+      "source": "li-jilong",
+      "target": "li-hang",
+      "type": "peer",
+      "note": "乾兴元年诏与李沆、王旦同配享真宗庙庭"
+    },
+    {
+      "source": "li-jilong",
+      "target": "wang-dan",
+      "type": "peer",
+      "note": "乾兴元年诏与李沆、王旦同配享真宗庙庭"
+    },
+    {
+      "source": "zhao-kuangyin",
+      "target": "guo-jin",
+      "type": "ruler-subject",
+      "note": "委守西山十余年，赐筒瓦第宅，倚免北顾之忧"
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "guo-jin",
+      "type": "ruler-subject",
+      "note": "征太原命控石岭关断辽援，卒后赠节帅并贬田钦祚"
+    },
+    {
+      "source": "guo-jin",
+      "target": "cao-bin",
+      "type": "peer",
+      "note": "宋初同攻北汉乐平置平晋军，乾德二年同援辽州破敌"
+    },
+    {
+      "source": "guo-jin",
+      "target": "pan-mei",
+      "type": "peer",
+      "note": "两度同征北汉，潘美攻太原而郭进扼石岭关断援"
     }
   ],
   "events": [

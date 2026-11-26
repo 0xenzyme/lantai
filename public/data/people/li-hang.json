@@ -72,6 +72,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "li-hang",
+      "target": "li-jilong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "乾兴元年诏与李沆、王旦同配享真宗庙庭"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

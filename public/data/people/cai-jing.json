@@ -74,6 +74,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "cai-jing",
+      "target": "chong-shidao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "议役法忤蔡京旨，罢入党籍屏废十年"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

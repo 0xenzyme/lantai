@@ -80,6 +80,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-huan",
+      "target": "chong-shidao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "靖康初委任宣抚，拒其策致汴京失守"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-huan",
+      "target": "chong-shizhong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "靖康初诏率秦凤军勤王援太原，殉国后赠少师谥庄湣"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

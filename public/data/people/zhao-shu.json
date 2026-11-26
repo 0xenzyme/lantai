@@ -64,6 +64,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-shu",
+      "target": "guo-kui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "擢逵同签书枢密院事，台谏交论不听，旋命宣抚陕西"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

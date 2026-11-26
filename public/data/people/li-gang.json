@@ -71,6 +71,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chong-shidao",
+      "target": "li-gang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "靖康守汴共掌兵机，士民伏阙并称种李"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "chong-shizhong",
+      "target": "li-gang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "靖康初分任内外战守，师中榆次殉国后李纲受命代援太原"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

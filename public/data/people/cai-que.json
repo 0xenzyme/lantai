@@ -27,7 +27,32 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "cai-que",
+      "target": "guo-kui",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "蔡确鞫王韶狱诬逵落职，后复劾逵南征移疾致贬"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cai-que",
+      "target": "wang-shao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "郭逵案劾王韶不法，蔡确奉诏鞫狱反坐郭逵诬罔"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

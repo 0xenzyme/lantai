@@ -27,7 +27,20 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "cao-huanghou",
+      "target": "cao-wei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "叔侄，五弟曹玘之女为仁宗慈圣光献皇后"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

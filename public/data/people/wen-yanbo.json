@@ -99,6 +99,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "di-qing",
+      "target": "wen-yanbo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "初称狄青素忠谨，后因避水相国寺人情喧然出其判陈州"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

@@ -112,6 +112,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-ji",
+      "target": "chong-shidao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召对边事称旨，金兵南下急召卫汴"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

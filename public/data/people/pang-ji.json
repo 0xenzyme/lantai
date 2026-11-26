@@ -95,6 +95,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chong-shiheng",
+      "target": "pang-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "向经略使庞籍白西夏通和意，死后曾为籍抑功"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "guo-kui",
+      "target": "pang-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "庞籍镇河东委逵权忻州，查故牍檄退契丹争地"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

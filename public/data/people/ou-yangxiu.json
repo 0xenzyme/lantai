@@ -170,6 +170,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "di-qing",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "曾疏称其忠勇，嘉祐初虑武臣掌机密得军情请外任保全"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

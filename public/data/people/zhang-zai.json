@@ -85,6 +85,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhang-zai",
+      "target": "chong-shidao",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "种师道少时从张载问学"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

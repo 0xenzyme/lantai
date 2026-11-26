@@ -136,6 +136,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "cao-wei",
+      "target": "kou-zhun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "寇准尝过曹玮家饮酒尽醉，后丁谓指玮为准党同遭贬斥"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

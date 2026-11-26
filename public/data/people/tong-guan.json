@@ -74,6 +74,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chong-shidao",
+      "target": "tong-guan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "见童贯长揖不拜，力谏伐燕遭其密劾"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

@@ -230,6 +230,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "cao-wei",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "太宗采曹彬之荐，擢十九岁的曹玮同知渭州御李继迁"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "li-jilong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "特加亲信，屡委河北御辽与河西征讨机要"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-guangyi",
+      "target": "guo-jin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "征太原命控石岭关断辽援，卒后赠节帅并贬田钦祚"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

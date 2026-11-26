@@ -22,7 +22,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "han-zhen",
+      "target": "wang-shao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "韩缜代帅秦凤附会核实市易治田事，助王韶获擢"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [
