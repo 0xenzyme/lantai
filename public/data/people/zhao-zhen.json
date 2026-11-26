@@ -171,6 +171,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "lv-yijian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "仁宗朝三度拜相辅政二十年，亲政后倚为重相"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "fan-xiang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "仁宗命其提举解盐改制钞法，嘉祐录功录其子孙"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "cai-xiang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "知谏院直言敢谏，仁宗嘉其风节亲书忠字赐之"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

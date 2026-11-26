@@ -122,6 +122,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "cai-xiang",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "庆历同道名臣，共倡诗文革新，欧阳修叹其书法当世第一"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

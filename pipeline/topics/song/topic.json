@@ -1717,6 +1717,10 @@
     {
       "id": "wang-boyan",
       "lane": "chancellor"
+    },
+    {
+      "id": "fan-xiang",
+      "lane": "chancellor"
     }
   ],
   "relationTypes": [
@@ -3568,6 +3572,66 @@
       "target": "lu-you",
       "type": "peer",
       "note": "晚年文坛推重，屡以诗文致候陆游，相知甚深"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "lv-yijian",
+      "type": "ruler-subject",
+      "note": "仁宗朝三度拜相辅政二十年，亲政后倚为重相"
+    },
+    {
+      "source": "lv-yijian",
+      "target": "pang-ji",
+      "type": "mentor",
+      "note": "识拔庞籍入中枢，委以边任及朝廷机要"
+    },
+    {
+      "source": "fan-xiang",
+      "target": "pang-ji",
+      "type": "peer",
+      "note": "经画西北边备，深得庞籍重用赞赏并主钞盐"
+    },
+    {
+      "source": "fan-xiang",
+      "target": "bao-zheng",
+      "type": "peer",
+      "note": "包拯极言范祥盐法岁省钱数百万，奏请优加录叙其功"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "fan-xiang",
+      "type": "ruler-subject",
+      "note": "仁宗命其提举解盐改制钞法，嘉祐录功录其子孙"
+    },
+    {
+      "source": "wen-tong",
+      "target": "su-shi",
+      "type": "kin",
+      "note": "表兄弟与莫逆至交，胸有成竹之论共创湖州竹派"
+    },
+    {
+      "source": "wen-tong",
+      "target": "su-zhe",
+      "type": "peer",
+      "note": "同游蜀中文友，交谊深厚诗文互答"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "cai-xiang",
+      "type": "ruler-subject",
+      "note": "知谏院直言敢谏，仁宗嘉其风节亲书忠字赐之"
+    },
+    {
+      "source": "cai-xiang",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "note": "庆历同道名臣，共倡诗文革新，欧阳修叹其书法当世第一"
+    },
+    {
+      "source": "cai-xiang",
+      "target": "su-shi",
+      "type": "peer",
+      "note": "书坛文坛宗匠，苏轼极推服君谟书法天骨卓绝"
     }
   ],
   "events": [

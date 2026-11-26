@@ -21,7 +21,32 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "lv-yijian",
+      "target": "pang-ji",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "识拔庞籍入中枢，委以边任及朝廷机要"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fan-xiang",
+      "target": "pang-ji",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "经画西北边备，深得庞籍重用赞赏并主钞盐"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

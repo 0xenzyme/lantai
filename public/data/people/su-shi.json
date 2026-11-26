@@ -171,6 +171,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "su-shi",
+      "target": "wen-tong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "表兄弟与莫逆至交，胸有成竹之论共创湖州竹派"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cai-xiang",
+      "target": "su-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "书坛文坛宗匠，苏轼极推服君谟书法天骨卓绝"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

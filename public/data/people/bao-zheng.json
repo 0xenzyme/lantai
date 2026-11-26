@@ -59,6 +59,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "bao-zheng",
+      "target": "fan-xiang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "包拯极言范祥盐法岁省钱数百万，奏请优加录叙其功"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

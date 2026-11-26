@@ -52,6 +52,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "su-zhe",
+      "target": "wen-tong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同游蜀中文友，交谊深厚诗文互答"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],
