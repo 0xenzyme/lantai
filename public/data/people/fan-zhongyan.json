@@ -123,6 +123,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "fan-chunren",
+      "target": "fan-zhongyan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，纯仁秉承家训以宽厚为宗，登元祐宰相"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "su-shunqin",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "范仲淹极赏其才荐入集贤校理，庆历共倡新风"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

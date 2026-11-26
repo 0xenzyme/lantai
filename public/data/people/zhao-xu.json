@@ -133,6 +133,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-xu",
+      "target": "fan-chunren",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "直陈青苗法利害谏止急进，神宗敬重其风节"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

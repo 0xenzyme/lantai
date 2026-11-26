@@ -121,6 +121,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "fan-chunren",
+      "target": "sima-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "元祐更化并相，纯仁主和缓调护，力戒朋党仇隙"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "sima-guang",
+      "target": "fan-zuyu",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "入通鉴局十五年专掌唐纪，司马光称其考据精审"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

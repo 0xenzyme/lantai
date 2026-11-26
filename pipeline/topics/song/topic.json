@@ -3632,6 +3632,72 @@
       "target": "su-shi",
       "type": "peer",
       "note": "书坛文坛宗匠，苏轼极推服君谟书法天骨卓绝"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "fan-chunren",
+      "type": "kin",
+      "note": "父子，纯仁秉承家训以宽厚为宗，登元祐宰相"
+    },
+    {
+      "source": "sima-guang",
+      "target": "fan-chunren",
+      "type": "peer",
+      "note": "元祐更化并相，纯仁主和缓调护，力戒朋党仇隙"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "fan-chunren",
+      "type": "ruler-subject",
+      "note": "直陈青苗法利害谏止急进，神宗敬重其风节"
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "mei-yaochen",
+      "type": "peer",
+      "note": "北宋诗文革新挚友，欧阳修推其诗当世第一，并称欧梅"
+    },
+    {
+      "source": "mei-yaochen",
+      "target": "su-shunqin",
+      "type": "peer",
+      "note": "诗文革新双璧，并称苏梅，共抗西昆浮靡"
+    },
+    {
+      "source": "mei-yaochen",
+      "target": "su-shi",
+      "type": "mentor",
+      "note": "嘉祐二年梅尧臣阅卷拔苏轼试卷，苏轼尊为文坛前辈"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "su-shunqin",
+      "type": "mentor",
+      "note": "范仲淹极赏其才荐入集贤校理，庆历共倡新风"
+    },
+    {
+      "source": "su-shunqin",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "note": "同道至交，苏舜钦谪死吴中，欧阳修为撰墓志铭"
+    },
+    {
+      "source": "sima-guang",
+      "target": "fan-zuyu",
+      "type": "mentor",
+      "note": "入通鉴局十五年专掌唐纪，司马光称其考据精审"
+    },
+    {
+      "source": "cheng-yi",
+      "target": "fan-zuyu",
+      "type": "peer",
+      "note": "洛阳理学道友，程颐盛赞《唐鉴》深合春秋大义"
+    },
+    {
+      "source": "su-shi",
+      "target": "fan-zuyu",
+      "type": "peer",
+      "note": "元祐馆阁道友，诗文知交，同遭贬谪岭南"
     }
   ],
   "events": [

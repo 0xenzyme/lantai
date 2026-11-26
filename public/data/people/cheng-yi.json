@@ -65,6 +65,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "cheng-yi",
+      "target": "fan-zuyu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "洛阳理学道友，程颐盛赞《唐鉴》深合春秋大义"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

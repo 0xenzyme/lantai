@@ -134,6 +134,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "mei-yaochen",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "北宋诗文革新挚友，欧阳修推其诗当世第一，并称欧梅"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "su-shunqin",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同道至交，苏舜钦谪死吴中，欧阳修为撰墓志铭"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

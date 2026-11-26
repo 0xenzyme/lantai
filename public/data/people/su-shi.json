@@ -195,6 +195,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "mei-yaochen",
+      "target": "su-shi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "嘉祐二年梅尧臣阅卷拔苏轼试卷，苏轼尊为文坛前辈"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fan-zuyu",
+      "target": "su-shi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "元祐馆阁道友，诗文知交，同遭贬谪岭南"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],
