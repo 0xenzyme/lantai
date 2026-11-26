@@ -20,7 +20,21 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "feng-zhaoyi",
+      "target": "fu-taihou",
+      "type": "rival",
+      "directed": false,
+      "since": -6,
+      "notes": [
+        "追怨冯太后并事元帝，陷以祝诅罪，令自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

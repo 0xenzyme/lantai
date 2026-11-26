@@ -26,7 +26,20 @@
       "lane": "ru"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "shen-gong",
+      "target": "xiaqiu-jianggong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "瑕丘江公尽传申公《诗》《春秋》，徒众最盛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

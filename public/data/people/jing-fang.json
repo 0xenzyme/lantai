@@ -71,6 +71,55 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "jiao-yanshou",
+      "target": "jing-fang",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "京房治《易》事焦延寿，得其灾变之术，用之尤精"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "jing-fang",
+      "target": "wuliu-chongzong",
+      "type": "rival",
+      "directed": false,
+      "since": -37,
+      "notes": [
+        "同经而论议相非；石显、五鹿充宗疾京房，建言出为郡守"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "bai-guang",
+      "target": "jing-fang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "京房托焦延寿《易》为孟氏学，白光、翟牧不肯，皆曰非也"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "jing-fang",
+      "target": "zhai-mu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与白光同否认焦延寿《易》为孟氏学；后刘向亦以京氏为异"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

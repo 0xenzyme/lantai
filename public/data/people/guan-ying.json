@@ -141,6 +141,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "guan-ying",
+      "target": "zhang-cang",
+      "type": "peer",
+      "directed": false,
+      "since": -176,
+      "notes": [
+        "丞相灌婴卒，张苍为丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

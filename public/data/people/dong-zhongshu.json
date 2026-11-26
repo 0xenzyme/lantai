@@ -92,6 +92,31 @@
     },
     {
       "source": "dong-zhongshu",
+      "target": "han-ying",
+      "type": "peer",
+      "directed": false,
+      "since": -140,
+      "notes": [
+        "武帝时与董仲舒论于上前，其人精悍，仲舒不能难"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "hu-wusheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同业内，仲舒著书称其德；汉兴言《春秋》齐则胡毋生、赵则董仲舒"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
       "target": "xun-zi",
       "type": "peer",
       "directed": false,

@@ -41,6 +41,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "zhai-fang-jin",
+      "target": "zhu-bo",
+      "type": "rival",
+      "directed": false,
+      "since": -15,
+      "notes": [
+        "方进为相，奏免朱博、孙闳、陈咸归故郡，以销奸雄之党"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

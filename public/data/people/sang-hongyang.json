@@ -71,6 +71,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "che-qian-qiu",
+      "target": "sang-hongyang",
+      "type": "peer",
+      "directed": false,
+      "since": -81,
+      "notes": [
+        "同受遗诏辅昭帝；始元六年盐铁之议起"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

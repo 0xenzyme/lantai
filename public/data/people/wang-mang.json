@@ -142,6 +142,32 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "kong-guang",
+      "target": "wang-mang",
+      "type": "peer",
+      "directed": false,
+      "since": 5,
+      "notes": [
+        "莽为旧相名儒备礼事光，所欲搏击辄为草以太后指风光令上之；光称疾不敢与莽并"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "ding-taihou",
+      "target": "wang-mang",
+      "type": "rival",
+      "directed": false,
+      "since": 5,
+      "notes": [
+        "莽贬丁太后号曰丁姬，发其冢、去珠玉衣，改葬媵妾之次"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

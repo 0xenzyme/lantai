@@ -71,6 +71,31 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gongsun-hong",
+      "target": "yuan-gusheng",
+      "type": "peer",
+      "directed": false,
+      "since": -140,
+      "notes": [
+        "同以贤良征，固诫之「务正学以言，无曲学以阿世」"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "gongsun-hong",
+      "target": "hu-wusheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "公孙弘亦颇受《公羊》于胡毋生"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -34,6 +34,32 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dou-ying",
+      "target": "tian-fen",
+      "type": "rival",
+      "directed": false,
+      "since": -131,
+      "notes": [
+        "魏其武安之争，东朝廷辩；窦婴坐矫诏弃市"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "han-anguo",
+      "target": "tian-fen",
+      "type": "peer",
+      "directed": false,
+      "since": -135,
+      "notes": [
+        "安国以五百金遗蚡，蚡言于太后，安国召为北地都尉"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

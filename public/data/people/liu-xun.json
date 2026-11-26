@@ -148,8 +148,9 @@
       "target": "liu-xun",
       "type": "ruler-subject",
       "directed": true,
+      "since": -51,
       "notes": [
-        "甘露三年入朝称臣，汉匈自此和好"
+        "甘露三年正月朝天子于甘泉宫，位在诸侯王上，赞谒称臣而不名"
       ],
       "topicIds": [
         "han"
@@ -239,6 +240,45 @@
       "since": -71,
       "notes": [
         "本始三年护乌孙兵破匈奴，封长罗侯；甘露中为右将军"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-yu",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -66,
+      "notes": [
+        "宣帝收霍氏兵权，禹谋反，要斩，霍氏诛灭"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-cheng-jun",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -70,
+      "notes": [
+        "立为皇后，舆驾赏赐盛于许后；霍氏族灭后废处昭台宫"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "liangqiu-he",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -66,
+      "notes": [
+        "宣帝求京房门人得贺，筮孝昭庙兵谋有应，由是近幸，官至少府"
       ],
       "topicIds": [
         "han"

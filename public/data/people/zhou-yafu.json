@@ -110,6 +110,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "ding-kuan",
+      "target": "zhou-yafu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同预七国之乱：丁宽为梁孝王将军守梁，周亚夫以太尉绝吴楚粮道"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

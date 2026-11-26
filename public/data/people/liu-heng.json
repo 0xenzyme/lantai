@@ -169,6 +169,45 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "shen-tu-jia",
+      "target": "liu-heng",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -179,
+      "notes": [
+        "文帝元年赐爵关内侯，迁御史大夫；张苍免相继为丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "mo-dun",
+      "type": "peer",
+      "directed": false,
+      "since": -179,
+      "notes": [
+        "文帝初立复修和亲；冒顿遗书，汉议和亲便，约兄弟之亲"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "laoshang",
+      "target": "liu-heng",
+      "type": "rival",
+      "directed": false,
+      "since": -166,
+      "notes": [
+        "十四万骑入朝那萧关，杀北地都尉卬，烧回中宫"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

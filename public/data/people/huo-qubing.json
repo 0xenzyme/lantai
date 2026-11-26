@@ -94,6 +94,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "huo-qubing",
+      "target": "yi-zhi-xie",
+      "type": "rival",
+      "directed": false,
+      "since": -119,
+      "notes": [
+        "漠北之战破左贤王，封狼居胥，单于远遁幕北"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

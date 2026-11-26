@@ -41,6 +41,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "ping-dang",
+      "target": "wang-jia",
+      "type": "peer",
+      "directed": false,
+      "since": -4,
+      "notes": [
+        "建平三年代平当为丞相，封新甫侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

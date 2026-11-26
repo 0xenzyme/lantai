@@ -110,6 +110,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "er-kuan",
+      "target": "sima-qian",
+      "type": "peer",
+      "directed": false,
+      "since": -104,
+      "notes": [
+        "同受诏共定汉太初历"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

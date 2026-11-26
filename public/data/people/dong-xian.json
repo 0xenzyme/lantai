@@ -39,6 +39,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dong-xian",
+      "target": "wang-jia",
+      "type": "rival",
+      "directed": false,
+      "since": -2,
+      "notes": [
+        "封还益封董贤诏书；狱中言董贤父子佞邪乱朝而不能退"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

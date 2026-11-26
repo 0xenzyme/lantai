@@ -132,6 +132,58 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "wei-xuan-cheng",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -42,
+      "notes": [
+        "元帝永光中代于定国为丞相，封扶阳侯；议罢郡国庙、定宗庙迭毁"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "kuang-heng",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -36,
+      "notes": [
+        "建昭三年代韦玄成为丞相，封乐安侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "hu-han-xie",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -33,
+      "notes": [
+        "竟宁元年复入朝，元帝以后宫良家子王樯赐单于"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "wuliu-chongzong",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -38,
+      "notes": [
+        "元帝好梁丘《易》，建昭元年由尚书令为少府"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

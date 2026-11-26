@@ -35,6 +35,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "shen-gong",
+      "target": "wei-xian",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "韦贤治《诗》事大江公及许生，传子玄成，由是《鲁诗》有韦氏学"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

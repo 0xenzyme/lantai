@@ -21,7 +21,20 @@
       "lane": "scholar"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "hu-wusheng",
+      "target": "yan-pengzu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "嬴公传眭孟，眭孟传严彭祖、颜安乐，由是《公羊》有颜、严之学"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

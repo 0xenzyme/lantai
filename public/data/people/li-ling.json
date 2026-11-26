@@ -94,6 +94,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "li-guang-li",
+      "target": "li-ling",
+      "type": "peer",
+      "directed": false,
+      "since": -99,
+      "notes": [
+        "天汉二年陵自请当一队以分单于兵，不肯为贰师将辎重"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

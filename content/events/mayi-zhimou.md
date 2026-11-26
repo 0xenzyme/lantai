@@ -19,9 +19,12 @@ belligerents:
 commanders:
   - id: wang-hui
     side: han
+  - id: han-anguo
+    side: han
 people:
   - liu-che
   - li-guang
+  - han-anguo
 result: 单于察觉伏击退走，汉军无功而返；汉匈自此绝和亲，转入全面战争
 aliases:
   - 马邑之围

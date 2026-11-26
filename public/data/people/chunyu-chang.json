@@ -20,7 +20,34 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chunyu-chang",
+      "target": "zhai-fang-jin",
+      "type": "peer",
+      "directed": false,
+      "since": -20,
+      "notes": [
+        "方进独与定陵侯淳于长交，称荐之；长诛后方进上疏谢罪"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "zhao-fei-yan",
+      "type": "peer",
+      "directed": false,
+      "since": -18,
+      "notes": [
+        "淳于长为侍中，数往来传太后语，赵婕妤得立为皇后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

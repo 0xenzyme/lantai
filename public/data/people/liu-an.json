@@ -84,6 +84,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-an",
+      "target": "yan-zhu",
+      "type": "rival",
+      "directed": false,
+      "since": -122,
+      "notes": [
+        "与淮南王交私论议；淮南王反，事相连，张汤争，助弃市"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],
