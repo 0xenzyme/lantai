@@ -242,6 +242,44 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "che-qian-qiu",
+      "target": "huo-guang",
+      "type": "peer",
+      "directed": false,
+      "since": -87,
+      "notes": [
+        "同受遗诏；光治内、千秋治外，千秋终不肯有所言，光以此重之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "cai-yi",
+      "target": "huo-guang",
+      "type": "peer",
+      "directed": false,
+      "since": -74,
+      "notes": [
+        "以明经给事大将军莫府；议者讥光置相不选贤，光以人主师当为相自解"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "huo-yu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；禹嗣博陆侯，光薨后为右将军、大司马"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -852,6 +852,66 @@
     {
       "id": "mao-gong",
       "lane": "scholar"
+    },
+    {
+      "id": "meng-xi",
+      "lane": "scholar"
+    },
+    {
+      "id": "jiao-yanshou",
+      "lane": "scholar"
+    },
+    {
+      "id": "fei-zhi",
+      "lane": "scholar"
+    },
+    {
+      "id": "gao-xiang",
+      "lane": "scholar"
+    },
+    {
+      "id": "wuliu-chongzong",
+      "lane": "scholar"
+    },
+    {
+      "id": "tian-wangsun",
+      "lane": "scholar"
+    },
+    {
+      "id": "wang-tong",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhou-wangsun",
+      "lane": "scholar"
+    },
+    {
+      "id": "bai-guang",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhai-mu",
+      "lane": "scholar"
+    },
+    {
+      "id": "liangqiu-lin",
+      "lane": "scholar"
+    },
+    {
+      "id": "wang-jun-han",
+      "lane": "chancellor"
+    },
+    {
+      "id": "gao-kang-han",
+      "lane": "scholar"
+    },
+    {
+      "id": "wang-huang",
+      "lane": "scholar"
+    },
+    {
+      "id": "zhao-bin",
+      "lane": "scholar"
     }
   ],
   "relationTypes": [
@@ -1001,7 +1061,7 @@
       "target": "dou-ying",
       "type": "ruler-subject",
       "since": -154,
-      "note": "七国之乱拜大将军；栗太子立，又以为太子太傅"
+      "note": "吴楚反拜大将军守荥阳，封魏其侯；后为栗太子傅"
     },
     {
       "source": "liu-qi",
@@ -1116,7 +1176,8 @@
       "source": "chao-cuo",
       "target": "dou-ying",
       "type": "rival",
-      "note": "削藩之争，窦婴持反对"
+      "note": "削藩之争，窦婴持反对",
+      "since": -154
     },
     {
       "source": "wei-qing",
@@ -1285,13 +1346,15 @@
       "source": "liu-che",
       "target": "yan-zhu",
       "type": "ruler-subject",
-      "note": "中大夫，闽越之役与淮南王往复议兵"
+      "note": "举贤良对策擢中大夫，持节发会稽兵救东瓯；后谕意南越",
+      "since": -140
     },
     {
       "source": "zhang-tang",
       "target": "yan-zhu",
       "type": "rival",
-      "note": "淮南案争杀严助：「弗诛，后不可治」"
+      "note": "淮南案争诛严助：「弗诛，后不可治」",
+      "since": -122
     },
     {
       "source": "liu-che",
@@ -1309,7 +1372,8 @@
       "source": "liu-che",
       "target": "zhang-tang",
       "type": "ruler-subject",
-      "note": "御史大夫，定律令、造皮币"
+      "note": "御史大夫，与赵禹共定律令、造白金五铢、笼盐铁、出告缗令",
+      "since": -130
     },
     {
       "source": "liu-shi",
@@ -1389,7 +1453,8 @@
       "source": "liu-che",
       "target": "li-guang-li",
       "type": "ruler-subject",
-      "note": "贰师将军，伐大宛得善马"
+      "note": "贰师将军伐大宛取善马，封海西侯；征和三年兵败降匈奴",
+      "since": -104
     },
     {
       "source": "li-guang-li",
@@ -1439,7 +1504,8 @@
       "source": "shen-tu-jia",
       "target": "chao-cuo",
       "type": "rival",
-      "note": "奏请诛晁错不得，呕血死"
+      "note": "奏请诛晁错擅穿宗庙堧垣，景帝不许，嘉呕血死",
+      "since": -155
     },
     {
       "source": "li-guang",
@@ -1475,7 +1541,8 @@
       "source": "liu-qu-mao",
       "target": "li-guang-li",
       "type": "peer",
-      "note": "共谋立昌邑王，事泄要斩"
+      "note": "共谋立昌邑王，事泄要斩",
+      "since": -90
     },
     {
       "source": "liu-che",
@@ -1511,13 +1578,15 @@
       "source": "liu-ao",
       "target": "zhai-fang-jin",
       "type": "ruler-subject",
-      "note": "荧惑守心，赐册责让，即日自杀"
+      "note": "永始二年由御史大夫擢为丞相，封高陵侯；绥和二年荧惑守心，赐册责让，即日自杀",
+      "since": -15
     },
     {
       "source": "liu-ao",
       "target": "zhang-yu-bc5",
       "type": "ruler-subject",
-      "note": "为太子时从禹受《论语》，即位尊为师相"
+      "note": "为太子时从禹受《论语》，即位尊为师，河平四年代王商为丞相，封安昌侯",
+      "since": -25
     },
     {
       "source": "lv-zhi",
@@ -1559,7 +1628,7 @@
       "source": "wang-zhengjun",
       "target": "wang-feng",
       "type": "kin",
-      "note": "长兄为大司马辅政，王氏专权自此始"
+      "note": "同母兄妹；凤嗣阳平侯，成帝即位为大司马辅政"
     },
     {
       "source": "liu-xin",
@@ -1608,7 +1677,8 @@
       "source": "hu-han-xie",
       "target": "liu-xun",
       "type": "ruler-subject",
-      "note": "甘露三年入朝称臣，汉匈自此和好"
+      "note": "甘露三年正月朝天子于甘泉宫，位在诸侯王上，赞谒称臣而不名",
+      "since": -51
     },
     {
       "source": "zhai-fang-jin",
@@ -1747,7 +1817,8 @@
       "source": "wang-feng",
       "target": "wang-shang",
       "type": "rival",
-      "note": "成帝时同以外戚辅政，王凤专权，王商与之争"
+      "note": "王凤怨商奏免其亲杨肜，使人告商闺门内事，商免相三日呕血薨",
+      "since": -25
     },
     {
       "source": "liu-xin",
@@ -1765,13 +1836,15 @@
       "source": "liu-xin",
       "target": "wang-jia",
       "type": "ruler-subject",
-      "note": "哀帝时丞相，谏封董贤，下狱死"
+      "note": "建平三年代平当为丞相，封新甫侯；封还益封董贤诏书，下狱死",
+      "since": -4
     },
     {
       "source": "liu-ao",
       "target": "kong-guang",
       "type": "ruler-subject",
-      "note": "成帝时由尚书令迁御史大夫，历成哀平三朝，官至太师"
+      "note": "成帝末为御史大夫、丞相，封博山侯；成帝崩当夜于大行前拜受印绶",
+      "since": -7
     },
     {
       "source": "liu-bang",
@@ -2033,7 +2106,8 @@
       "source": "liu-bang",
       "target": "zhang-cang",
       "type": "ruler-subject",
-      "note": "主计领郡国上计，定汉历律令"
+      "note": "以列侯居相府领郡国上计，明习图书计籍；后为御史大夫、丞相",
+      "since": -201
     },
     {
       "source": "lv-zhi",
@@ -2291,7 +2365,8 @@
       "source": "liu-ao",
       "target": "wang-feng",
       "type": "ruler-subject",
-      "note": "元舅王凤为大司马大将军领尚书事，王氏之兴自凤始"
+      "note": "元舅王凤为大司马大将军领尚书事，王氏之兴自凤始",
+      "since": -33
     },
     {
       "source": "liu-ao",
@@ -2541,7 +2616,8 @@
       "source": "dou-yifang",
       "target": "yuan-gusheng",
       "type": "rival",
-      "note": "太后好老子书，召辕固问之，固曰「此家人言耳」，太后怒，使入圈刺豕"
+      "note": "太后好老子书，召辕固问之，固曰「此家人言耳」，太后怒，使入圈刺豕",
+      "since": -148
     },
     {
       "source": "liu-pi",
@@ -2589,7 +2665,7 @@
       "target": "han-anguo",
       "type": "ruler-subject",
       "since": -150,
-      "note": "韩安国为梁内史，谏梁王令羊胜、公孙诡自杀"
+      "note": "为梁内史，泣谏梁王出公孙诡、羊胜，梁事得释"
     },
     {
       "source": "liu-che",
@@ -2680,6 +2756,853 @@
       "type": "rival",
       "since": -37,
       "note": "房出为魏郡太守，阳平侯王凤承制诏房，止其乘传奏事"
+    },
+    {
+      "source": "liu-ao",
+      "target": "wang-shang",
+      "type": "ruler-subject",
+      "since": -29,
+      "note": "建始四年代匡衡为丞相，单于来朝仰视其貌，成帝叹「此真汉相矣」"
+    },
+    {
+      "source": "zhai-fang-jin",
+      "target": "chunyu-chang",
+      "type": "peer",
+      "since": -20,
+      "note": "方进独与定陵侯淳于长交，称荐之；长诛后方进上疏谢罪"
+    },
+    {
+      "source": "zhai-fang-jin",
+      "target": "xue-xuan-bc20",
+      "type": "peer",
+      "since": -15,
+      "note": "薛宣为丞相，器重方进，尝诫掾史「翟君必在相位」；宣免，方进代为丞相"
+    },
+    {
+      "source": "zhai-fang-jin",
+      "target": "kong-guang",
+      "type": "peer",
+      "since": -7,
+      "note": "方进薨，光于大行前拜受丞相、博山侯印绶"
+    },
+    {
+      "source": "kong-guang",
+      "target": "fu-taihou",
+      "type": "rival",
+      "since": -5,
+      "note": "光议傅太后宜改筑宫、持不可称尊号，傅氏与朱博共毁谮，光策免归里"
+    },
+    {
+      "source": "kong-guang",
+      "target": "wang-jia",
+      "type": "peer",
+      "since": -2,
+      "note": "王嘉下狱死，光复为丞相；嘉狱中称「故丞相孔光」为贤而不能进"
+    },
+    {
+      "source": "kong-guang",
+      "target": "wang-mang",
+      "type": "peer",
+      "since": 5,
+      "note": "莽为旧相名儒备礼事光，所欲搏击辄为草以太后指风光令上之；光称疾不敢与莽并"
+    },
+    {
+      "source": "wang-jia",
+      "target": "dong-xian",
+      "type": "rival",
+      "since": -2,
+      "note": "封还益封董贤诏书；狱中言董贤父子佞邪乱朝而不能退"
+    },
+    {
+      "source": "wang-jia",
+      "target": "he-wu",
+      "type": "peer",
+      "since": -2,
+      "note": "狱中言「故大司空何武」为贤而不能进；何武后为御史大夫"
+    },
+    {
+      "source": "wang-jia",
+      "target": "ping-dang",
+      "type": "peer",
+      "since": -4,
+      "note": "建平三年代平当为丞相，封新甫侯"
+    },
+    {
+      "source": "kuang-heng",
+      "target": "wang-shang",
+      "type": "peer",
+      "since": -29,
+      "note": "建始四年，王商代匡衡为丞相"
+    },
+    {
+      "source": "zhai-fang-jin",
+      "target": "zhu-bo",
+      "type": "rival",
+      "since": -15,
+      "note": "方进为相，奏免朱博、孙闳、陈咸归故郡，以销奸雄之党"
+    },
+    {
+      "source": "shusun-tong",
+      "target": "liu-bang",
+      "type": "ruler-subject",
+      "since": -205,
+      "note": "汉二年降汉拜博士，号稷嗣君；汉七年采古礼与秦仪起朝仪，拜太常"
+    },
+    {
+      "source": "shusun-tong",
+      "target": "liu-ying",
+      "type": "ruler-subject",
+      "since": -195,
+      "note": "惠帝即位徙为太常，定宗庙仪法，奏立原庙、献樱桃"
+    },
+    {
+      "source": "zhang-cang",
+      "target": "shen-tu-jia",
+      "type": "peer",
+      "since": -162,
+      "note": "苍免相，嘉继为丞相，封故安侯"
+    },
+    {
+      "source": "zhang-cang",
+      "target": "zhou-bo",
+      "type": "peer",
+      "since": -180,
+      "note": "与绛侯周勃等尊立代王为孝文皇帝"
+    },
+    {
+      "source": "zhang-cang",
+      "target": "guan-ying",
+      "type": "peer",
+      "since": -176,
+      "note": "丞相灌婴卒，张苍为丞相"
+    },
+    {
+      "source": "shen-tu-jia",
+      "target": "liu-heng",
+      "type": "ruler-subject",
+      "since": -179,
+      "note": "文帝元年赐爵关内侯，迁御史大夫；张苍免相继为丞相"
+    },
+    {
+      "source": "dou-ying",
+      "target": "tian-fen",
+      "type": "rival",
+      "since": -131,
+      "note": "魏其武安之争，东朝廷辩；窦婴坐矫诏弃市"
+    },
+    {
+      "source": "dou-ying",
+      "target": "han-anguo",
+      "type": "peer",
+      "since": -131,
+      "note": "东朝廷辩，安国言两人皆是、唯明主裁之，首鼠两端"
+    },
+    {
+      "source": "dou-ying",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "since": -140,
+      "note": "建元元年为丞相，与田蚡同好儒术；赵绾王臧事败免相"
+    },
+    {
+      "source": "han-anguo",
+      "target": "tian-fen",
+      "type": "peer",
+      "since": -135,
+      "note": "安国以五百金遗蚡，蚡言于太后，安国召为北地都尉"
+    },
+    {
+      "source": "han-anguo",
+      "target": "wang-hui",
+      "type": "peer",
+      "since": -133,
+      "note": "和亲之议相左；马邑之谋王恢为将屯、安国为护军将军"
+    },
+    {
+      "source": "han-anguo",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "since": -135,
+      "note": "武帝朝御史大夫，马邑之谋为护军将军"
+    },
+    {
+      "source": "wei-xuan-cheng",
+      "target": "kuang-heng",
+      "type": "peer",
+      "since": -36,
+      "note": "玄成薨，匡衡代为丞相，封乐安侯"
+    },
+    {
+      "source": "wei-xuan-cheng",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "since": -42,
+      "note": "元帝永光中代于定国为丞相，封扶阳侯；议罢郡国庙、定宗庙迭毁"
+    },
+    {
+      "source": "kuang-heng",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "since": -36,
+      "note": "建昭三年代韦玄成为丞相，封乐安侯"
+    },
+    {
+      "source": "kuang-heng",
+      "target": "liu-ao",
+      "type": "ruler-subject",
+      "since": -30,
+      "note": "成帝初丞相，坐专地盗土免为庶人"
+    },
+    {
+      "source": "zhang-yu-bc5",
+      "target": "xue-xuan-bc20",
+      "type": "peer",
+      "since": -20,
+      "note": "张禹以老病免相，薛宣代为丞相"
+    },
+    {
+      "source": "zhang-yu-bc5",
+      "target": "wang-feng",
+      "type": "peer",
+      "since": -33,
+      "note": "成帝初同领尚书事，内不相安；禹数乞骸骨欲避凤"
+    },
+    {
+      "source": "xue-xuan-bc20",
+      "target": "he-wu",
+      "type": "peer",
+      "since": -15,
+      "note": "何武入为丞相司直，薛宣敬重之"
+    },
+    {
+      "source": "xue-xuan-bc20",
+      "target": "liu-ao",
+      "type": "ruler-subject",
+      "since": -20,
+      "note": "代张禹为丞相，封高阳侯；后坐广汉群盗、丧事不办册免"
+    },
+    {
+      "source": "he-wu",
+      "target": "dai-sheng",
+      "type": "rival",
+      "since": -20,
+      "note": "何武为扬州刺史，廉得戴圣罪，圣自免；后圣惭服，造门谢恩"
+    },
+    {
+      "source": "he-wu",
+      "target": "zhai-fang-jin",
+      "type": "peer",
+      "since": -30,
+      "note": "与翟方进交志相友，后共奏改内史为中尉"
+    },
+    {
+      "source": "he-wu",
+      "target": "liu-xin",
+      "type": "ruler-subject",
+      "since": -8,
+      "note": "绥和元年为御史大夫，改大司空，封氾乡侯；哀帝策免后复征"
+    },
+    {
+      "source": "he-wu",
+      "target": "liu-kan",
+      "type": "ruler-subject",
+      "since": 1,
+      "note": "平帝即位，与公孙禄互相称举，谋抑王莽，事败皆免"
+    },
+    {
+      "source": "liu-xin",
+      "target": "zhang-yu-bc5",
+      "type": "ruler-subject",
+      "since": 1,
+      "note": "禹历成帝师，哀帝时以特进备顾问，建平二年薨"
+    },
+    {
+      "source": "zhang-tang",
+      "target": "er-kuan",
+      "type": "peer",
+      "since": -125,
+      "note": "张汤为廷尉，奇其材，以为奏谳掾，以古法义决疑狱"
+    },
+    {
+      "source": "er-kuan",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "since": -110,
+      "note": "议封禅称旨，拜御史大夫，从封泰山；与司马迁共定太初历"
+    },
+    {
+      "source": "er-kuan",
+      "target": "sima-qian",
+      "type": "peer",
+      "since": -104,
+      "note": "同受诏共定汉太初历"
+    },
+    {
+      "source": "yan-zhu",
+      "target": "liu-an",
+      "type": "rival",
+      "since": -122,
+      "note": "与淮南王交私论议；淮南王反，事相连，张汤争，助弃市"
+    },
+    {
+      "source": "yan-zhu",
+      "target": "zhong-jun",
+      "type": "peer",
+      "since": -130,
+      "note": "同为武帝朝文学侍从，并在左右"
+    },
+    {
+      "source": "zhong-jun",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "since": -122,
+      "note": "对白麟奇木，改元元狩；后请长缨使南越，死于吕嘉之乱"
+    },
+    {
+      "source": "li-guang-li",
+      "target": "li-ling",
+      "type": "peer",
+      "since": -99,
+      "note": "天汉二年陵自请当一队以分单于兵，不肯为贰师将辎重"
+    },
+    {
+      "source": "li-guang-li",
+      "target": "shangguan-jie",
+      "type": "peer",
+      "since": -101,
+      "note": "伐宛时上官桀攻破郁成，追斩郁成王，为少府"
+    },
+    {
+      "source": "zhong-jun",
+      "target": "zhang-tang",
+      "type": "peer",
+      "since": -116,
+      "note": "张汤劾徐偃矫制，终军受诏诘偃，奏请征偃即罪"
+    },
+    {
+      "source": "jin-mi-di",
+      "target": "shangguan-jie",
+      "type": "peer",
+      "since": -88,
+      "note": "同以诛莽何罗功封侯，并受遗诏辅昭帝"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "jin-mi-di",
+      "type": "ruler-subject",
+      "since": -87,
+      "note": "昭帝八岁即位，日磾为车骑将军，与霍光同辅政"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "shangguan-jie",
+      "type": "ruler-subject",
+      "since": -87,
+      "note": "左将军受遗诏辅政；孙女为昭帝皇后"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "che-qian-qiu",
+      "type": "ruler-subject",
+      "since": -87,
+      "note": "丞相千秋与霍光等同受遗诏辅政"
+    },
+    {
+      "source": "che-qian-qiu",
+      "target": "huo-guang",
+      "type": "peer",
+      "since": -87,
+      "note": "同受遗诏；光治内、千秋治外，千秋终不肯有所言，光以此重之"
+    },
+    {
+      "source": "che-qian-qiu",
+      "target": "liu-ju",
+      "type": "peer",
+      "since": -90,
+      "note": "为高寝郎上书讼卫太子冤，武帝感悟，旬月拜相"
+    },
+    {
+      "source": "che-qian-qiu",
+      "target": "sang-hongyang",
+      "type": "peer",
+      "since": -81,
+      "note": "同受遗诏辅昭帝；始元六年盐铁之议起"
+    },
+    {
+      "source": "cai-yi",
+      "target": "huo-guang",
+      "type": "peer",
+      "since": -74,
+      "note": "以明经给事大将军莫府；议者讥光置相不选贤，光以人主师当为相自解"
+    },
+    {
+      "source": "cai-yi",
+      "target": "liu-fuling",
+      "type": "ruler-subject",
+      "since": -75,
+      "note": "诏求能为韩诗者，进授昭帝《诗》，擢光禄大夫给事中"
+    },
+    {
+      "source": "huo-yu",
+      "target": "huo-guang",
+      "type": "kin",
+      "note": "父子；禹嗣博陆侯，光薨后为右将军、大司马"
+    },
+    {
+      "source": "huo-yu",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "since": -66,
+      "note": "宣帝收霍氏兵权，禹谋反，要斩，霍氏诛灭"
+    },
+    {
+      "source": "mo-dun",
+      "target": "laoshang",
+      "type": "kin",
+      "note": "父子；冒顿死，子稽粥立为老上单于"
+    },
+    {
+      "source": "laoshang",
+      "target": "jun-chen",
+      "type": "kin",
+      "note": "父子；老上死，子军臣立"
+    },
+    {
+      "source": "jun-chen",
+      "target": "yi-zhi-xie",
+      "type": "kin",
+      "note": "兄弟；军臣死，弟左谷蠡王伊稚斜自立"
+    },
+    {
+      "source": "liu-heng",
+      "target": "mo-dun",
+      "type": "peer",
+      "since": -179,
+      "note": "文帝初立复修和亲；冒顿遗书，汉议和亲便，约兄弟之亲"
+    },
+    {
+      "source": "liu-heng",
+      "target": "laoshang",
+      "type": "rival",
+      "since": -166,
+      "note": "十四万骑入朝那萧关，杀北地都尉卬，烧回中宫"
+    },
+    {
+      "source": "liu-qi",
+      "target": "jun-chen",
+      "type": "peer",
+      "since": -154,
+      "note": "景帝复与匈奴和亲，通关市、遣公主，终景帝时无大寇"
+    },
+    {
+      "source": "liu-che",
+      "target": "yi-zhi-xie",
+      "type": "rival",
+      "since": -126,
+      "note": "攻破军臣单于太子于单自立，数入代郡、雁门"
+    },
+    {
+      "source": "huo-qubing",
+      "target": "yi-zhi-xie",
+      "type": "rival",
+      "since": -119,
+      "note": "漠北之战破左贤王，封狼居胥，单于远遁幕北"
+    },
+    {
+      "source": "mo-dun",
+      "target": "han-wang-xin",
+      "type": "peer",
+      "since": -201,
+      "note": "韩王信降匈奴，匈奴得信引兵南逾句注，攻太原"
+    },
+    {
+      "source": "hu-han-xie",
+      "target": "liu-shi",
+      "type": "ruler-subject",
+      "since": -33,
+      "note": "竟宁元年复入朝，元帝以后宫良家子王樯赐单于"
+    },
+    {
+      "source": "huo-cheng-jun",
+      "target": "xu-ping-jun",
+      "type": "rival",
+      "since": -71,
+      "note": "霍显使女医淳于衍毒杀许后，成君因得入宫代立为皇后"
+    },
+    {
+      "source": "huo-cheng-jun",
+      "target": "liu-xun",
+      "type": "ruler-subject",
+      "since": -70,
+      "note": "立为皇后，舆驾赏赐盛于许后；霍氏族灭后废处昭台宫"
+    },
+    {
+      "source": "zhao-fei-yan",
+      "target": "fu-taihou",
+      "type": "peer",
+      "since": -8,
+      "note": "傅太后私赂赵皇后、昭仪，定陶王竟为太子"
+    },
+    {
+      "source": "zhao-fei-yan",
+      "target": "liu-xin",
+      "type": "ruler-subject",
+      "since": -7,
+      "note": "哀帝立，尊赵皇后为皇太后；哀帝崩后废为庶人"
+    },
+    {
+      "source": "fu-taihou",
+      "target": "ding-taihou",
+      "type": "peer",
+      "since": -7,
+      "note": "同为哀帝尊号之争：傅为皇太太后、丁为帝太后，并四太后"
+    },
+    {
+      "source": "fu-taihou",
+      "target": "wang-zhengjun",
+      "type": "rival",
+      "since": -7,
+      "note": "傅太后与成帝母语至谓之「媪」；争尊号，王政君居长信宫"
+    },
+    {
+      "source": "fu-taihou",
+      "target": "feng-zhaoyi",
+      "type": "rival",
+      "since": -6,
+      "note": "追怨冯太后并事元帝，陷以祝诅罪，令自杀"
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "zhao-fei-yan",
+      "type": "peer",
+      "since": -18,
+      "note": "淳于长为侍中，数往来传太后语，赵婕妤得立为皇后"
+    },
+    {
+      "source": "ding-taihou",
+      "target": "wang-mang",
+      "type": "rival",
+      "since": 5,
+      "note": "莽贬丁太后号曰丁姬，发其冢、去珠玉衣，改葬媵妾之次"
+    },
+    {
+      "source": "fu-sheng-bc170",
+      "target": "chao-cuo",
+      "type": "peer",
+      "since": -165,
+      "note": "文帝诏太常使掌故晁错往受《尚书》，伏生老不能正言，使其女传言教错"
+    },
+    {
+      "source": "fu-sheng-bc170",
+      "target": "er-kuan",
+      "type": "peer",
+      "since": -125,
+      "note": "伏生教欧阳生，欧阳生教儿宽；儿宽以《尚书》至御史大夫"
+    },
+    {
+      "source": "fu-sheng-bc170",
+      "target": "kong-anguo",
+      "type": "peer",
+      "since": -120,
+      "note": "孔氏有古文《尚书》，安国以今文读之，逸书得十余篇"
+    },
+    {
+      "source": "shen-gong",
+      "target": "liu-bang",
+      "type": "ruler-subject",
+      "since": -195,
+      "note": "高祖过鲁，申公以弟子从师入见于鲁南宫"
+    },
+    {
+      "source": "shen-gong",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "since": -140,
+      "note": "武帝使使束帛加璧、安车蒲轮迎申公，问治乱，对曰「顾力行何如耳」"
+    },
+    {
+      "source": "shen-gong",
+      "target": "dou-yifang",
+      "type": "rival",
+      "since": -139,
+      "note": "窦太后不说儒术，废明堂事，绾臧自杀，申公病免归"
+    },
+    {
+      "source": "shen-gong",
+      "target": "wei-xian",
+      "type": "peer",
+      "note": "韦贤治《诗》事大江公及许生，传子玄成，由是《鲁诗》有韦氏学"
+    },
+    {
+      "source": "shen-gong",
+      "target": "xiaqiu-jianggong",
+      "type": "peer",
+      "note": "瑕丘江公尽传申公《诗》《春秋》，徒众最盛"
+    },
+    {
+      "source": "yuan-gusheng",
+      "target": "gongsun-hong",
+      "type": "peer",
+      "since": -140,
+      "note": "同以贤良征，固诫之「务正学以言，无曲学以阿世」"
+    },
+    {
+      "source": "yuan-gusheng",
+      "target": "liu-qi",
+      "type": "ruler-subject",
+      "since": -150,
+      "note": "景帝时为博士，与黄生争汤武受命于景帝前"
+    },
+    {
+      "source": "han-ying",
+      "target": "dong-zhongshu",
+      "type": "peer",
+      "since": -140,
+      "note": "武帝时与董仲舒论于上前，其人精悍，仲舒不能难"
+    },
+    {
+      "source": "han-ying",
+      "target": "cai-yi",
+      "type": "peer",
+      "note": "赵子事韩生，授蔡谊（蔡义）；《韩诗》有王、食、长孙之学"
+    },
+    {
+      "source": "hu-wusheng",
+      "target": "dong-zhongshu",
+      "type": "peer",
+      "note": "同业内，仲舒著书称其德；汉兴言《春秋》齐则胡毋生、赵则董仲舒"
+    },
+    {
+      "source": "hu-wusheng",
+      "target": "gongsun-hong",
+      "type": "peer",
+      "note": "公孙弘亦颇受《公羊》于胡毋生"
+    },
+    {
+      "source": "hu-wusheng",
+      "target": "yan-pengzu",
+      "type": "peer",
+      "note": "嬴公传眭孟，眭孟传严彭祖、颜安乐，由是《公羊》有颜、严之学"
+    },
+    {
+      "source": "hu-wusheng",
+      "target": "er-kuan",
+      "type": "peer",
+      "since": -110,
+      "note": "弟子褚大与儿宽争御史大夫，议封禅于上前不能及，退而服曰「上诚知人」"
+    },
+    {
+      "source": "tian-he-bc202",
+      "target": "ding-kuan",
+      "type": "mentor",
+      "note": "丁宽为项生从者，读《易》精敏，遂事田何；学成东归，何叹「《易》以东矣」"
+    },
+    {
+      "source": "yang-he",
+      "target": "liangqiu-he",
+      "type": "mentor",
+      "note": "再传：梁丘贺从杨何弟子京房受《易》，房出为齐郡太守后，贺更事田王孙"
+    },
+    {
+      "source": "shi-chou",
+      "target": "zhang-yu-bc5",
+      "type": "mentor",
+      "note": "张禹从沛郡施雠受《易》，后位至丞相，施家有张、彭之学"
+    },
+    {
+      "source": "shi-chou",
+      "target": "liangqiu-he",
+      "type": "peer",
+      "note": "同为田王孙门人；贺为少府，遣子临率张禹等从雠问，又荐雠为博士"
+    },
+    {
+      "source": "liu-xun",
+      "target": "liangqiu-he",
+      "type": "ruler-subject",
+      "since": -66,
+      "note": "宣帝求京房门人得贺，筮孝昭庙兵谋有应，由是近幸，官至少府"
+    },
+    {
+      "source": "ding-kuan",
+      "target": "zhou-yafu",
+      "type": "peer",
+      "note": "同预七国之乱：丁宽为梁孝王将军守梁，周亚夫以太尉绝吴楚粮道"
+    },
+    {
+      "source": "ding-kuan",
+      "target": "han-anguo",
+      "type": "peer",
+      "note": "同为梁孝王将，共拒吴楚；韩安国、张羽力战，吴兵不得西"
+    },
+    {
+      "source": "meng-xi",
+      "target": "jiao-yanshou",
+      "type": "mentor",
+      "note": "焦延寿尝从孟喜问《易》；京房以为延寿《易》即孟氏学，翟牧、白光不肯"
+    },
+    {
+      "source": "jiao-yanshou",
+      "target": "jing-fang",
+      "type": "mentor",
+      "note": "京房治《易》事焦延寿，得其灾变之术，用之尤精"
+    },
+    {
+      "source": "meng-xi",
+      "target": "shi-chou",
+      "type": "peer",
+      "note": "同出田王孙之门；孟喜诈言独传，施雠不置辩"
+    },
+    {
+      "source": "meng-xi",
+      "target": "liangqiu-he",
+      "type": "peer",
+      "note": "同门；梁丘贺疏通证明孟喜诈言田王孙独传为伪"
+    },
+    {
+      "source": "ding-kuan",
+      "target": "gao-xiang",
+      "type": "mentor",
+      "note": "高相自言其学出于丁将军；其学亡章句，专说阴阳灾异"
+    },
+    {
+      "source": "fei-zhi",
+      "target": "gao-xiang",
+      "type": "peer",
+      "note": "同时治《易》，皆未立学官，并称民间二家；费氏以传解经，高氏专说灾异"
+    },
+    {
+      "source": "liangqiu-he",
+      "target": "wuliu-chongzong",
+      "type": "mentor",
+      "note": "五鹿充宗为梁丘《易》名家，宣帝善其说，元帝令与诸易家论"
+    },
+    {
+      "source": "liu-shi",
+      "target": "wuliu-chongzong",
+      "type": "ruler-subject",
+      "since": -38,
+      "note": "元帝好梁丘《易》，建昭元年由尚书令为少府"
+    },
+    {
+      "source": "jing-fang",
+      "target": "wuliu-chongzong",
+      "type": "rival",
+      "since": -37,
+      "note": "同经而论议相非；石显、五鹿充宗疾京房，建言出为郡守"
+    },
+    {
+      "source": "ding-kuan",
+      "target": "tian-wangsun",
+      "type": "mentor",
+      "note": "丁宽授同郡砀田王孙，田王孙尽得其传"
+    },
+    {
+      "source": "tian-wangsun",
+      "target": "shi-chou",
+      "type": "mentor",
+      "note": "施雠童子时从田王孙受《易》，后徙长陵复从卒业"
+    },
+    {
+      "source": "tian-wangsun",
+      "target": "meng-xi",
+      "type": "mentor",
+      "note": "孟卿使孟喜从田王孙受《易》；孟喜诈言田生临终独传"
+    },
+    {
+      "source": "tian-wangsun",
+      "target": "liangqiu-he",
+      "type": "mentor",
+      "note": "梁丘贺自京房门下更事田王孙，兼受丁宽一系之传"
+    },
+    {
+      "source": "tian-he-bc202",
+      "target": "wang-tong",
+      "type": "mentor",
+      "note": "田何授东武王同，王同著《易传》数篇"
+    },
+    {
+      "source": "tian-he-bc202",
+      "target": "zhou-wangsun",
+      "type": "mentor",
+      "note": "田何授洛阳周王孙，周王孙著《易传》，号《周氏传》"
+    },
+    {
+      "source": "wang-tong",
+      "target": "yang-he",
+      "type": "mentor",
+      "note": "王同授淄川杨何，杨何元光中征为太中大夫"
+    },
+    {
+      "source": "zhou-wangsun",
+      "target": "ding-kuan",
+      "type": "mentor",
+      "note": "丁宽至洛阳从周王孙受古义，别号《周氏传》"
+    },
+    {
+      "source": "meng-xi",
+      "target": "bai-guang",
+      "type": "mentor",
+      "note": "孟喜授同郡白光，白光为博士，守孟氏章句"
+    },
+    {
+      "source": "meng-xi",
+      "target": "zhai-mu",
+      "type": "mentor",
+      "note": "孟喜授沛人翟牧，翟牧为博士，与白光并守师法"
+    },
+    {
+      "source": "bai-guang",
+      "target": "zhai-mu",
+      "type": "peer",
+      "note": "同为孟喜弟子、孟氏《易》博士，并称翟、孟、白之学"
+    },
+    {
+      "source": "bai-guang",
+      "target": "jing-fang",
+      "type": "peer",
+      "note": "京房托焦延寿《易》为孟氏学，白光、翟牧不肯，皆曰非也"
+    },
+    {
+      "source": "zhai-mu",
+      "target": "jing-fang",
+      "type": "peer",
+      "note": "与白光同否认焦延寿《易》为孟氏学；后刘向亦以京氏为异"
+    },
+    {
+      "source": "liangqiu-he",
+      "target": "liangqiu-lin",
+      "type": "kin",
+      "note": "父子；贺传其学于临，临专行京房法，官至少府"
+    },
+    {
+      "source": "liangqiu-lin",
+      "target": "wang-jun-han",
+      "type": "mentor",
+      "note": "王吉好梁丘贺说《易》，使子王骏从梁丘临受《易》"
+    },
+    {
+      "source": "fei-zhi",
+      "target": "wang-huang",
+      "type": "mentor",
+      "note": "费直传《易》于琅邪王璜，璜为费氏学第二代"
+    },
+    {
+      "source": "gao-xiang",
+      "target": "gao-kang-han",
+      "type": "kin",
+      "note": "父子；高相传其学于康，康以明《易》为郎"
+    },
+    {
+      "source": "meng-xi",
+      "target": "zhao-bin",
+      "type": "mentor",
+      "note": "赵宾自称受《易》于孟喜，孟喜为名之；宾死，喜不肯仞"
+    },
+    {
+      "source": "liangqiu-lin",
+      "target": "wuliu-chongzong",
+      "type": "peer",
+      "note": "先后为少府，同传梁丘《易》；临代五鹿充宗为少府"
     }
   ],
   "events": [

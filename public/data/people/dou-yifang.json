@@ -98,8 +98,22 @@
       "target": "yuan-gusheng",
       "type": "rival",
       "directed": false,
+      "since": -148,
       "notes": [
         "太后好老子书，召辕固问之，固曰「此家人言耳」，太后怒，使入圈刺豕"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-yifang",
+      "target": "shen-gong",
+      "type": "rival",
+      "directed": false,
+      "since": -139,
+      "notes": [
+        "窦太后不说儒术，废明堂事，绾臧自杀，申公病免归"
       ],
       "topicIds": [
         "han"

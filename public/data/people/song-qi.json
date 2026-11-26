@@ -20,7 +20,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "song-qi",
+      "target": "song-xiang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同科登第并称二宋，天下称大宋小宋亲睦笃爱"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

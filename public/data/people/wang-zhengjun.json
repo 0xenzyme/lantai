@@ -63,7 +63,7 @@
       "type": "kin",
       "directed": false,
       "notes": [
-        "长兄为大司马辅政，王氏专权自此始"
+        "同母兄妹；凤嗣阳平侯，成帝即位为大司马辅政"
       ],
       "topicIds": [
         "han"
@@ -89,6 +89,19 @@
       "since": 1,
       "notes": [
         "平帝九岁即位，太后临朝称制"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "fu-taihou",
+      "target": "wang-zhengjun",
+      "type": "rival",
+      "directed": false,
+      "since": -7,
+      "notes": [
+        "傅太后与成帝母语至谓之「媪」；争尊号，王政君居长信宫"
       ],
       "topicIds": [
         "han"

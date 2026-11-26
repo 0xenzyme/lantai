@@ -52,6 +52,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-dun",
+      "target": "liu-zheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "光宗朝拜左丞相，屡次苦谏请帝过宫尽孝执丧"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

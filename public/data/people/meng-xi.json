@@ -1,0 +1,241 @@
+{
+  "id": "meng-xi",
+  "name": "孟喜",
+  "display": "孟喜",
+  "birthAccuracy": "unknown",
+  "death": -60,
+  "deathAccuracy": "approx",
+  "birthNote": "生年不详",
+  "deathNote": "卒年不详。《汉书·儒林传》载宣帝时博士缺，众人荐孟喜，宣帝闻其改师法而不用；取此年为可见活动下限，非寿数。",
+  "title": "孟氏《易》开宗，以候阴阳灾变自饰",
+  "bio": "孟喜字长卿，东海兰陵人。其父号孟卿，善治《礼》、《春秋》，授后苍、疏广；世所传《后氏礼》、《疏氏春秋》，皆出孟卿。孟卿以为《礼经》篇目繁多、《春秋》义例烦杂，乃使孟喜改从田王孙受《易》。后苍说《礼》数万言，号《后氏曲台记》，为汉代礼学宗师；疏广明《春秋》，家居教授，学者自远方至。孟氏一门本以礼学名家，孟喜转而治《易》，遂以田王孙一系为宗。田王孙是丁宽的弟子，丁宽之《易》上承田何，又兼采周王孙古义；孟喜与施雠、梁丘贺同出门下，三人后来各开一家。\n\n孟喜好自称誉。他得《易》家候阴阳灾变之书，便诈称田王孙临终时枕其膝，独以《易》传己，诸儒以此相耀。宣帝之世，易家竞言占候，孟喜此举正投时好。所谓候阴阳灾变书，是占验风雨寒温、推步灾异的易家杂说，与后来京房一派的灾变之学同源；《汉书·艺文志》著录《孟氏京房》十一篇、《灾异孟氏京房》六十六篇，孟喜、京房一系的占候之书即附见于此。同门梁丘贺疏通证明其事为伪，说田王孙绝于施雠之手，其时孟喜已归东海，安得独传。此说有理有据，孟喜的声誉因此受损，施雠则始终不置一词。孟喜与施雠、梁丘贺同出田王孙之门，而孟喜独以灾变自异，故同门证其伪、宣帝斥其改师法，两次挫折皆由自誉而起。\n\n蜀人赵宾好小数书，后来治《易》，改饰《易》文，以「箕子明夷」为阴阳气亡、万物方荄兹，持论巧慧，易家不能难，皆曰非古法。赵宾自称受《易》于孟喜，孟喜为之署名。赵宾死后，无人能持其说，孟喜因不肯仞，即不肯承认赵宾之说出自己门下，以此愈不见信于时。\n\n孟喜举孝廉为郎，任曲台署长，病免，后为丞相掾。博士缺员，众人荐孟喜，宣帝闻其改易师法，遂不用。孟喜授同郡白光、沛人翟牧，二人皆为博士，由是有翟、孟、白之学。孟氏一门之内又分三支，白光、翟牧各以师法教授，孟喜本人则终身未得博士之位。孟氏之学，遂与施氏、梁丘两家并峙。《汉书·艺文志》著录《易经》十二篇，施、孟、梁丘三家；章句施、孟、梁丘氏各二篇。其后京房自称焦延寿之《易》即孟氏学，翟牧、白光皆不肯承认，曰「非也」。施、孟、梁丘、京氏四家，宣、元之世并列学官；孟喜虽终身不得为博士，孟氏《易》终为汉世官学之一。",
+  "tags": [
+    "西汉",
+    "易学",
+    "东海",
+    "孟氏易"
+  ],
+  "categories": [
+    "classics",
+    "scholar"
+  ],
+  "primary": "classics",
+  "polity": [
+    "han"
+  ],
+  "gender": "male",
+  "contractVersion": 1,
+  "profile": "full",
+  "topics": [
+    {
+      "id": "han",
+      "title": "汉代",
+      "lane": "scholar"
+    }
+  ],
+  "relations": [
+    {
+      "source": "meng-xi",
+      "target": "jiao-yanshou",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "焦延寿尝从孟喜问《易》；京房以为延寿《易》即孟氏学，翟牧、白光不肯"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "meng-xi",
+      "target": "shi-chou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同出田王孙之门；孟喜诈言独传，施雠不置辩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liangqiu-he",
+      "target": "meng-xi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同门；梁丘贺疏通证明孟喜诈言田王孙独传为伪"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "tian-wangsun",
+      "target": "meng-xi",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孟卿使孟喜从田王孙受《易》；孟喜诈言田生临终独传"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "meng-xi",
+      "target": "bai-guang",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孟喜授同郡白光，白光为博士，守孟氏章句"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "meng-xi",
+      "target": "zhai-mu",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "孟喜授沛人翟牧，翟牧为博士，与白光并守师法"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "meng-xi",
+      "target": "zhao-bin",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "赵宾自称受《易》于孟喜，孟喜为名之；宾死，喜不肯仞"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
+  "events": [],
+  "collections": [],
+  "aliases": [
+    "孟喜",
+    "孟长卿"
+  ],
+  "works": [
+    {
+      "id": "meng-shi-zhangju",
+      "title": "孟氏章句",
+      "kind": "book",
+      "note": "《汉书·艺文志》著录章句施、孟、梁丘氏各二篇，孟氏章句其一。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "卷030·艺文志",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "fu-mengqing",
+      "label": "父孟卿使从田王孙受《易》",
+      "yearAccuracy": "unknown",
+      "place": "东海",
+      "note": "孟喜字长卿，东海兰陵人也。父号孟卿，善为《礼》、《春秋》，授后苍、疏广。孟卿以《礼经》多、《春秋》烦杂，乃使喜从田王孙受《易》。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "卷088·儒林传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zha-yan-duchuan",
+      "label": "诈言田王孙临终独传，梁丘贺疏通证明其伪",
+      "yearAccuracy": "unknown",
+      "place": "东海",
+      "note": "喜好自称誉，得《易》家候阴阳灾变书，诈言师田生且死时枕喜膝，独传喜，诸儒以此耀之。同门梁丘贺疏通证明之，曰：「田生绝于施雠手中，时喜归东海，安得此事？」",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "卷088·儒林传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "zhao-bin",
+      "label": "赵宾饰《易》文，孟喜为名之，后以此不见信",
+      "yearAccuracy": "unknown",
+      "place": "长安",
+      "note": "蜀人赵宾好小数书，后为《易》，饰《易》文，以为「箕子明夷，阴阳气亡箕子；箕子者，万物方荄兹也」。宾持论巧慧，易家不能难，皆曰非古法也。云受孟喜，喜为名之。后宾死，莫能持其说，喜因不肯仞，以此不见信。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "卷088·儒林传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "xiaolian-lang",
+      "label": "举孝廉为郎，曲台署长，病免，为丞相掾",
+      "yearAccuracy": "unknown",
+      "place": "长安",
+      "note": "喜举孝廉为郎，曲台署长，病免，为丞相掾。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "卷088·儒林传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "bo-shi-que",
+      "label": "博士缺，众人荐喜，宣帝闻其改师法而不用",
+      "yearAccuracy": "unknown",
+      "place": "长安",
+      "note": "博士缺，众人荐喜。上闻喜改师法，遂不用喜。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "卷088·儒林传",
+          "kind": "classic"
+        }
+      ]
+    },
+    {
+      "id": "shou-bai-guang",
+      "label": "授白光、翟牧，有翟、孟、白之学",
+      "yearAccuracy": "unknown",
+      "place": "东海",
+      "note": "喜授同郡白光少子、沛翟牧子兄，皆为博士。由是有翟、孟、白之学。",
+      "sources": [
+        {
+          "work": "汉书",
+          "part": "卷088·儒林传",
+          "kind": "classic"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "work": "汉书",
+      "part": "卷088·儒林传",
+      "kind": "classic"
+    },
+    {
+      "work": "汉书",
+      "part": "卷030·艺文志",
+      "kind": "classic"
+    }
+  ]
+}

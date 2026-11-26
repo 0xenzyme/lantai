@@ -116,6 +116,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "zhao-ruyu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "定绍熙内禅之策策立宁宗，拜右相主持国政"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "liu-zheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "绍熙内禅后奉诏还相，旋遭外戚倾轧引退"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

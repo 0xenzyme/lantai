@@ -123,6 +123,78 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "fan-chunren",
+      "target": "fan-zhongyan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，纯仁秉承家训以宽厚为宗，登元祐宰相"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "su-shunqin",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "范仲淹极赏其才荐入集贤校理，庆历共倡新风"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "shi-jie",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "范仲淹荐为太学直讲，介作圣德诗赞颂范公"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "hu-yuan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "范仲淹两度延聘掌学并荐入太学，共倡苏湖教法"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "du-yan",
+      "target": "fan-zhongyan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "庆历新政同心辅相，杜衍居首首应更张"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhang-zai",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "年少论兵欲取洮西，范公警以名教授中庸启发道心"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

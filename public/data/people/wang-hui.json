@@ -40,6 +40,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "han-anguo",
+      "target": "wang-hui",
+      "type": "peer",
+      "directed": false,
+      "since": -133,
+      "notes": [
+        "和亲之议相左；马邑之谋王恢为将屯、安国为护军将军"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

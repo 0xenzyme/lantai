@@ -76,7 +76,7 @@
       "directed": true,
       "since": -154,
       "notes": [
-        "七国之乱拜大将军；栗太子立，又以为太子太傅"
+        "吴楚反拜大将军守荥阳，封魏其侯；后为栗太子傅"
       ],
       "topicIds": [
         "han"
@@ -163,6 +163,32 @@
       "directed": false,
       "notes": [
         "母子；景帝即位尊为皇太后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "jun-chen",
+      "target": "liu-qi",
+      "type": "peer",
+      "directed": false,
+      "since": -154,
+      "notes": [
+        "景帝复与匈奴和亲，通关市、遣公主，终景帝时无大寇"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "yuan-gusheng",
+      "target": "liu-qi",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -150,
+      "notes": [
+        "景帝时为博士，与黄生争汤武受命于景帝前"
       ],
       "topicIds": [
         "han"

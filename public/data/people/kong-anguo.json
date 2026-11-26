@@ -26,7 +26,21 @@
       "lane": "ru"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "fu-sheng-bc170",
+      "target": "kong-anguo",
+      "type": "peer",
+      "directed": false,
+      "since": -120,
+      "notes": [
+        "孔氏有古文《尚书》，安国以今文读之，逸书得十余篇"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

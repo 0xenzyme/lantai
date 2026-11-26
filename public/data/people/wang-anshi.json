@@ -160,6 +160,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "su-zhe",
+      "target": "wang-anshi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "任三司条例司，直言青苗法取息扰民不可行"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "wang-anshi",
+      "target": "zeng-gong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "早年缔交定莫逆之交，后对变法操切持审慎态度"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "cheng-hao",
+      "target": "wang-anshi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "交好甚厚，论青苗法深切切戒急功近利"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

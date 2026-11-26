@@ -76,6 +76,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-qi",
+      "target": "lv-wende",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "度宗倚为长城，襄阳合围疽发背卒，赠太师和国公"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

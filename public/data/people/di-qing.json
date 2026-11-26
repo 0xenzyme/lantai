@@ -27,7 +27,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "pang-ji",
+      "target": "di-qing",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "拔狄青于行伍之中，任指使并力排众议荐主南征"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "nongzhigao-qiyi",

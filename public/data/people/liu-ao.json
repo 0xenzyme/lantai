@@ -61,8 +61,9 @@
       "target": "zhai-fang-jin",
       "type": "ruler-subject",
       "directed": true,
+      "since": -15,
       "notes": [
-        "荧惑守心，赐册责让，即日自杀"
+        "永始二年由御史大夫擢为丞相，封高陵侯；绥和二年荧惑守心，赐册责让，即日自杀"
       ],
       "topicIds": [
         "han"
@@ -73,8 +74,9 @@
       "target": "zhang-yu-bc5",
       "type": "ruler-subject",
       "directed": true,
+      "since": -25,
       "notes": [
-        "为太子时从禹受《论语》，即位尊为师相"
+        "为太子时从禹受《论语》，即位尊为师，河平四年代王商为丞相，封安昌侯"
       ],
       "topicIds": [
         "han"
@@ -109,8 +111,9 @@
       "target": "kong-guang",
       "type": "ruler-subject",
       "directed": true,
+      "since": -7,
       "notes": [
-        "成帝时由尚书令迁御史大夫，历成哀平三朝，官至太师"
+        "成帝末为御史大夫、丞相，封博山侯；成帝崩当夜于大行前拜受印绶"
       ],
       "topicIds": [
         "han"
@@ -133,6 +136,7 @@
       "target": "wang-feng",
       "type": "ruler-subject",
       "directed": true,
+      "since": -33,
       "notes": [
         "元舅王凤为大司马大将军领尚书事，王氏之兴自凤始"
       ],
@@ -148,6 +152,45 @@
       "since": -8,
       "notes": [
         "绥和元年擢为大司马"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "wang-shang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -29,
+      "notes": [
+        "建始四年代匡衡为丞相，单于来朝仰视其貌，成帝叹「此真汉相矣」"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "kuang-heng",
+      "target": "liu-ao",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -30,
+      "notes": [
+        "成帝初丞相，坐专地盗土免为庶人"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "xue-xuan-bc20",
+      "target": "liu-ao",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -20,
+      "notes": [
+        "代张禹为丞相，封高阳侯；后坐广汉群盗、丧事不办册免"
       ],
       "topicIds": [
         "han"

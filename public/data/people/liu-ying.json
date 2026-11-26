@@ -120,6 +120,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "shusun-tong",
+      "target": "liu-ying",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -195,
+      "notes": [
+        "惠帝即位徙为太常，定宗庙仪法，奏立原庙、献樱桃"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

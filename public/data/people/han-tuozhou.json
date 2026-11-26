@@ -136,6 +136,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "liu-zheng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "韩侂胄用事专权，留正抗论忠邪不合力求罢相"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

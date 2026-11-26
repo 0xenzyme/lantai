@@ -171,6 +171,162 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "lv-yijian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "仁宗朝三度拜相辅政二十年，亲政后倚为重相"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "fan-xiang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "仁宗命其提举解盐改制钞法，嘉祐录功录其子孙"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "cai-xiang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "知谏院直言敢谏，仁宗嘉其风节亲书忠字赐之"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "pang-ji",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "仁宗朝拜相，经略西夏并力主专任狄青平侬智高"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "song-xiang",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "连中三元，皇祐中拜同平章事辅政持重遵宪章"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "hu-yuan",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "充天章阁侍讲，仁宗御笔赐安定先生尊礼甚渥"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "du-yan",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "拜同平章事兼枢密使，每有中旨封还不行，仁宗深敬"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "定策之臣，仁宗朝两度拜相执政凡八年"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "jia-changchao",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "日侍经筵讲春秋论语，庆历拜相，仁宗制经筵赞"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "chen-yaozuo",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "景祐中拜相，为相宽厚平恕，持大节主张农战息民"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhang-dexiang",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "宝元庆历拜相八年，庄重老成，宗戚无敢干以私"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhang-shixun",
+      "target": "zhao-zhen",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "仁宗东宫旧傅，即位后三度拜相，特拜太傅致仕"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "su-xun",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以布衣献二十二篇名震京师，仁宗诏命修太常因革礼"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

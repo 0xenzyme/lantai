@@ -77,6 +77,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "he-wu",
+      "target": "liu-kan",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": 1,
+      "notes": [
+        "平帝即位，与公孙禄互相称举，谋抑王莽，事败皆免"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

@@ -199,6 +199,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "zhao-shen",
+      "target": "chen-kangbo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "定高宗传位内禅之策，孝宗即位进左仆射封鲁国公"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhao-shen",
+      "target": "zhou-bida",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孝宗朝拜左丞相，辅佐乾淳之治，号太平宰相"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

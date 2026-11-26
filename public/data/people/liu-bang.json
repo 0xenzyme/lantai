@@ -273,8 +273,35 @@
       "target": "zhang-cang",
       "type": "ruler-subject",
       "directed": true,
+      "since": -201,
       "notes": [
-        "主计领郡国上计，定汉历律令"
+        "以列侯居相府领郡国上计，明习图书计籍；后为御史大夫、丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "shusun-tong",
+      "target": "liu-bang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -205,
+      "notes": [
+        "汉二年降汉拜博士，号稷嗣君；汉七年采古礼与秦仪起朝仪，拜太常"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "shen-gong",
+      "target": "liu-bang",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -195,
+      "notes": [
+        "高祖过鲁，申公以弟子从师入见于鲁南宫"
       ],
       "topicIds": [
         "han"

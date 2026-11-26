@@ -125,6 +125,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "zhang-cang",
+      "target": "zhou-bo",
+      "type": "peer",
+      "directed": false,
+      "since": -180,
+      "notes": [
+        "与绛侯周勃等尊立代王为孝文皇帝"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

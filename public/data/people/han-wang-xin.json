@@ -33,6 +33,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "han-wang-xin",
+      "target": "mo-dun",
+      "type": "peer",
+      "directed": false,
+      "since": -201,
+      "notes": [
+        "韩王信降匈奴，匈奴得信引兵南逾句注，攻太原"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

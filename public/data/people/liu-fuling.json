@@ -130,6 +130,58 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "jin-mi-di",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -87,
+      "notes": [
+        "昭帝八岁即位，日磾为车骑将军，与霍光同辅政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "shangguan-jie",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -87,
+      "notes": [
+        "左将军受遗诏辅政；孙女为昭帝皇后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "che-qian-qiu",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -87,
+      "notes": [
+        "丞相千秋与霍光等同受遗诏辅政"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "cai-yi",
+      "target": "liu-fuling",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -75,
+      "notes": [
+        "诏求能为韩诗者，进授昭帝《诗》，擢光禄大夫给事中"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

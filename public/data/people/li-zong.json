@@ -169,6 +169,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "li-zong",
+      "target": "cao-youwen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "理宗深惜其忠勇，阳平关死节特诏立庙褒忠"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-zong",
+      "target": "li-tingzhi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "理宗深委以两淮门户，知扬州十余载筑城练兵"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "li-zong",
+      "target": "wang-jian-1264",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "钓鱼城大捷击毙蒙哥汗，理宗赞其节义为蜀城之冠，拜宁远军节度使"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

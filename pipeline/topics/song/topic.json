@@ -1717,6 +1717,10 @@
     {
       "id": "wang-boyan",
       "lane": "chancellor"
+    },
+    {
+      "id": "fan-xiang",
+      "lane": "chancellor"
     }
   ],
   "relationTypes": [
@@ -3496,6 +3500,600 @@
       "target": "shao-yong",
       "type": "peer",
       "note": "程颢常访邵雍，叹其纯明从容如光风霁月"
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "zhao-ruyu",
+      "type": "ruler-subject",
+      "note": "定绍熙内禅之策策立宁宗，拜右相主持国政"
+    },
+    {
+      "source": "zhao-ruyu",
+      "target": "liu-zheng",
+      "type": "peer",
+      "note": "绍熙末同朝为相，同谋光宁之际内禅定策"
+    },
+    {
+      "source": "zhao-gou",
+      "target": "chen-kangbo",
+      "type": "ruler-subject",
+      "note": "完颜亮南侵力排众议劝帝亲征，受命主持枢密大政"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "chen-kangbo",
+      "type": "ruler-subject",
+      "note": "定高宗传位内禅之策，孝宗即位进左仆射封鲁国公"
+    },
+    {
+      "source": "chen-kangbo",
+      "target": "zhou-bida",
+      "type": "peer",
+      "note": "密与商议建储名讳及受禅大典，甚重其识量"
+    },
+    {
+      "source": "zhao-dun",
+      "target": "liu-zheng",
+      "type": "ruler-subject",
+      "note": "光宗朝拜左丞相，屡次苦谏请帝过宫尽孝执丧"
+    },
+    {
+      "source": "zhao-kuo",
+      "target": "liu-zheng",
+      "type": "ruler-subject",
+      "note": "绍熙内禅后奉诏还相，旋遭外戚倾轧引退"
+    },
+    {
+      "source": "han-tuozhou",
+      "target": "liu-zheng",
+      "type": "rival",
+      "note": "韩侂胄用事专权，留正抗论忠邪不合力求罢相"
+    },
+    {
+      "source": "zhao-shen",
+      "target": "zhou-bida",
+      "type": "ruler-subject",
+      "note": "孝宗朝拜左丞相，辅佐乾淳之治，号太平宰相"
+    },
+    {
+      "source": "zhou-bida",
+      "target": "yang-wanli",
+      "type": "peer",
+      "note": "同里深交，文坛相倡和，力荐杨万里入朝任职"
+    },
+    {
+      "source": "zhou-bida",
+      "target": "fan-chengda",
+      "type": "peer",
+      "note": "南宋词臣宗工，诗文唱和，同朝参赞政事"
+    },
+    {
+      "source": "zhou-bida",
+      "target": "lu-you",
+      "type": "peer",
+      "note": "晚年文坛推重，屡以诗文致候陆游，相知甚深"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "lv-yijian",
+      "type": "ruler-subject",
+      "note": "仁宗朝三度拜相辅政二十年，亲政后倚为重相"
+    },
+    {
+      "source": "lv-yijian",
+      "target": "pang-ji",
+      "type": "mentor",
+      "note": "识拔庞籍入中枢，委以边任及朝廷机要"
+    },
+    {
+      "source": "fan-xiang",
+      "target": "pang-ji",
+      "type": "peer",
+      "note": "经画西北边备，深得庞籍重用赞赏并主钞盐"
+    },
+    {
+      "source": "fan-xiang",
+      "target": "bao-zheng",
+      "type": "peer",
+      "note": "包拯极言范祥盐法岁省钱数百万，奏请优加录叙其功"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "fan-xiang",
+      "type": "ruler-subject",
+      "note": "仁宗命其提举解盐改制钞法，嘉祐录功录其子孙"
+    },
+    {
+      "source": "wen-tong",
+      "target": "su-shi",
+      "type": "kin",
+      "note": "表兄弟与莫逆至交，胸有成竹之论共创湖州竹派"
+    },
+    {
+      "source": "wen-tong",
+      "target": "su-zhe",
+      "type": "peer",
+      "note": "同游蜀中文友，交谊深厚诗文互答"
+    },
+    {
+      "source": "zhao-zhen",
+      "target": "cai-xiang",
+      "type": "ruler-subject",
+      "note": "知谏院直言敢谏，仁宗嘉其风节亲书忠字赐之"
+    },
+    {
+      "source": "cai-xiang",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "note": "庆历同道名臣，共倡诗文革新，欧阳修叹其书法当世第一"
+    },
+    {
+      "source": "cai-xiang",
+      "target": "su-shi",
+      "type": "peer",
+      "note": "书坛文坛宗匠，苏轼极推服君谟书法天骨卓绝"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "fan-chunren",
+      "type": "kin",
+      "note": "父子，纯仁秉承家训以宽厚为宗，登元祐宰相"
+    },
+    {
+      "source": "sima-guang",
+      "target": "fan-chunren",
+      "type": "peer",
+      "note": "元祐更化并相，纯仁主和缓调护，力戒朋党仇隙"
+    },
+    {
+      "source": "zhao-xu",
+      "target": "fan-chunren",
+      "type": "ruler-subject",
+      "note": "直陈青苗法利害谏止急进，神宗敬重其风节"
+    },
+    {
+      "source": "ou-yangxiu",
+      "target": "mei-yaochen",
+      "type": "peer",
+      "note": "北宋诗文革新挚友，欧阳修推其诗当世第一，并称欧梅"
+    },
+    {
+      "source": "mei-yaochen",
+      "target": "su-shunqin",
+      "type": "peer",
+      "note": "诗文革新双璧，并称苏梅，共抗西昆浮靡"
+    },
+    {
+      "source": "mei-yaochen",
+      "target": "su-shi",
+      "type": "mentor",
+      "note": "嘉祐二年梅尧臣阅卷拔苏轼试卷，苏轼尊为文坛前辈"
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "su-shunqin",
+      "type": "mentor",
+      "note": "范仲淹极赏其才荐入集贤校理，庆历共倡新风"
+    },
+    {
+      "source": "su-shunqin",
+      "target": "ou-yangxiu",
+      "type": "peer",
+      "note": "同道至交，苏舜钦谪死吴中，欧阳修为撰墓志铭"
+    },
+    {
+      "source": "sima-guang",
+      "target": "fan-zuyu",
+      "type": "mentor",
+      "note": "入通鉴局十五年专掌唐纪，司马光称其考据精审"
+    },
+    {
+      "source": "cheng-yi",
+      "target": "fan-zuyu",
+      "type": "peer",
+      "note": "洛阳理学道友，程颐盛赞《唐鉴》深合春秋大义"
+    },
+    {
+      "source": "su-shi",
+      "target": "fan-zuyu",
+      "type": "peer",
+      "note": "元祐馆阁道友，诗文知交，同遭贬谪岭南"
+    },
+    {
+      "source": "li-zong",
+      "target": "cao-youwen",
+      "type": "ruler-subject",
+      "note": "理宗深惜其忠勇，阳平关死节特诏立庙褒忠"
+    },
+    {
+      "source": "meng-gong",
+      "target": "li-tingzhi",
+      "type": "mentor",
+      "note": "孟珙一见奇之，称其必为国柱石，辟入幕府传以兵法"
+    },
+    {
+      "source": "li-zong",
+      "target": "li-tingzhi",
+      "type": "ruler-subject",
+      "note": "理宗深委以两淮门户，知扬州十余载筑城练兵"
+    },
+    {
+      "source": "li-tingzhi",
+      "target": "lv-wende",
+      "type": "peer",
+      "note": "同为晚宋边防重帅，李庭芝屡遣民兵张顺张贵溯水入襄阳援吕文焕"
+    },
+    {
+      "source": "meng-gong",
+      "target": "wang-jian-1264",
+      "type": "mentor",
+      "note": "初入孟珙忠顺军，勇冠诸军，珙委以方面大任"
+    },
+    {
+      "source": "li-zong",
+      "target": "wang-jian-1264",
+      "type": "ruler-subject",
+      "note": "钓鱼城大捷击毙蒙哥汗，理宗赞其节义为蜀城之冠，拜宁远军节度使"
+    },
+    {
+      "source": "jia-sidao",
+      "target": "wang-jian-1264",
+      "type": "rival",
+      "note": "贾似道忌其钓鱼城不赏之功，阻其入中枢，出知和州郁卒"
+    },
+    {
+      "source": "zhao-kui",
+      "target": "lv-wende",
+      "type": "mentor",
+      "note": "赵葵识拔于樵夫行伍，推轂其为统兵大将"
+    },
+    {
+      "source": "jia-sidao",
+      "target": "lv-wende",
+      "type": "peer",
+      "note": "鄂州之战相结纳，贾似道委以京湖制置使专任襄樊防务"
+    },
+    {
+      "source": "zhao-qi",
+      "target": "lv-wende",
+      "type": "ruler-subject",
+      "note": "度宗倚为长城，襄阳合围疽发背卒，赠太师和国公"
+    },
+    {
+      "source": "pang-ji",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "仁宗朝拜相，经略西夏并力主专任狄青平侬智高"
+    },
+    {
+      "source": "pang-ji",
+      "target": "di-qing",
+      "type": "mentor",
+      "note": "拔狄青于行伍之中，任指使并力排众议荐主南征"
+    },
+    {
+      "source": "pang-ji",
+      "target": "du-yan",
+      "type": "peer",
+      "note": "同朝辅弼，庆历宝元间协理西北边防与国政"
+    },
+    {
+      "source": "song-xiang",
+      "target": "song-qi",
+      "type": "kin",
+      "note": "同科登第并称二宋，天下称大宋小宋亲睦笃爱"
+    },
+    {
+      "source": "song-xiang",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "连中三元，皇祐中拜同平章事辅政持重遵宪章"
+    },
+    {
+      "source": "song-xiang",
+      "target": "chen-yaozuo",
+      "type": "peer",
+      "note": "同朝辅政，宋庠力主裁抑冗官，曾执争国事"
+    },
+    {
+      "source": "shi-jie",
+      "target": "hu-yuan",
+      "type": "peer",
+      "note": "同隐泰山苦读，并称宋初三先生，同振理学"
+    },
+    {
+      "source": "shi-jie",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "note": "范仲淹荐为太学直讲，介作圣德诗赞颂范公"
+    },
+    {
+      "source": "shi-jie",
+      "target": "du-yan",
+      "type": "peer",
+      "note": "作庆历圣德诗首推杜衍为贤相，新政贬谪后蒙其力保"
+    },
+    {
+      "source": "shi-jie",
+      "target": "jia-changchao",
+      "type": "rival",
+      "note": "庆历圣德诗斥保守权贵，贾昌朝深嫉之致隙"
+    },
+    {
+      "source": "hu-yuan",
+      "target": "fan-zhongyan",
+      "type": "peer",
+      "note": "范仲淹两度延聘掌学并荐入太学，共倡苏湖教法"
+    },
+    {
+      "source": "hu-yuan",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "充天章阁侍讲，仁宗御笔赐安定先生尊礼甚渥"
+    },
+    {
+      "source": "du-yan",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "拜同平章事兼枢密使，每有中旨封还不行，仁宗深敬"
+    },
+    {
+      "source": "du-yan",
+      "target": "fan-zhongyan",
+      "type": "peer",
+      "note": "庆历新政同心辅相，杜衍居首首应更张"
+    },
+    {
+      "source": "du-yan",
+      "target": "fu-bi",
+      "type": "peer",
+      "note": "同执大政行新政，后同遭朋党流言攻讦去职"
+    },
+    {
+      "source": "du-yan",
+      "target": "jia-changchao",
+      "type": "rival",
+      "note": "更张新政遭贾昌朝等旧派抵制谗沮，相继罢黜"
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "note": "真宗病笃大臣莫敢言，执中抗疏请立仁宗为储"
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "定策之臣，仁宗朝两度拜相执政凡八年"
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "ou-yangxiu",
+      "type": "rival",
+      "note": "陈执中严酷治家及贵妃丧仪，欧阳修等台谏合班弹劾罢之"
+    },
+    {
+      "source": "jia-changchao",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "日侍经筵讲春秋论语，庆历拜相，仁宗制经筵赞"
+    },
+    {
+      "source": "jia-changchao",
+      "target": "zhang-dexiang",
+      "type": "peer",
+      "note": "同在中书枢密执掌机务，主张持守成法守文安边"
+    },
+    {
+      "source": "chen-yaozuo",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "景祐中拜相，为相宽厚平恕，持大节主张农战息民"
+    },
+    {
+      "source": "chen-yaozuo",
+      "target": "zhang-shixun",
+      "type": "peer",
+      "note": "同朝辅弼，景祐宝元间同居中书枢密为长者"
+    },
+    {
+      "source": "zhang-dexiang",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "宝元庆历拜相八年，庄重老成，宗戚无敢干以私"
+    },
+    {
+      "source": "zhang-dexiang",
+      "target": "du-yan",
+      "type": "peer",
+      "note": "同处中书辅弼大政，章得象居昭文相，杜衍行新政"
+    },
+    {
+      "source": "zhang-shixun",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "note": "真宗选为太子中允兼谕德，日侍东宫辅导仁宗"
+    },
+    {
+      "source": "zhang-shixun",
+      "target": "zhao-zhen",
+      "type": "mentor",
+      "note": "仁宗东宫旧傅，即位后三度拜相，特拜太傅致仕"
+    },
+    {
+      "source": "zhang-shixun",
+      "target": "lv-yijian",
+      "type": "peer",
+      "note": "天圣宝元间同朝为相，更相执政老成持重"
+    },
+    {
+      "source": "su-xun",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "以布衣献二十二篇名震京师，仁宗诏命修太常因革礼"
+    },
+    {
+      "source": "su-zhe",
+      "target": "sima-guang",
+      "type": "peer",
+      "note": "元祐初同辅政柄，苏辙持平恕论调停新旧两党"
+    },
+    {
+      "source": "su-zhe",
+      "target": "wang-anshi",
+      "type": "rival",
+      "note": "任三司条例司，直言青苗法取息扰民不可行"
+    },
+    {
+      "source": "su-zhe",
+      "target": "zhao-xu",
+      "type": "ruler-subject",
+      "note": "熙宁制举切直论政，神宗深知其才而未大用"
+    },
+    {
+      "source": "zeng-gong",
+      "target": "wang-anshi",
+      "type": "peer",
+      "note": "早年缔交定莫逆之交，后对变法操切持审慎态度"
+    },
+    {
+      "source": "zeng-gong",
+      "target": "su-shi",
+      "type": "peer",
+      "note": "同出欧阳修门下，嘉祐二年同榜进士，共振古文"
+    },
+    {
+      "source": "zeng-gong",
+      "target": "zhao-xu",
+      "type": "ruler-subject",
+      "note": "神宗延见力加褒奖，擢史馆修撰迁中书舍人"
+    },
+    {
+      "source": "zhang-zai",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "note": "年少论兵欲取洮西，范公警以名教授中庸启发道心"
+    },
+    {
+      "source": "zhang-zai",
+      "target": "cheng-hao",
+      "type": "peer",
+      "note": "从表侄。同论易学大服二程，撤虎皮倡学二程"
+    },
+    {
+      "source": "zhang-zai",
+      "target": "cheng-yi",
+      "type": "peer",
+      "note": "洛关二学相表里，张载撰西铭二程极其推崇"
+    },
+    {
+      "source": "zhang-zai",
+      "target": "zhao-xu",
+      "type": "ruler-subject",
+      "note": "神宗召问崇政殿，命崇文校书知太常礼院"
+    },
+    {
+      "source": "cheng-hao",
+      "target": "zhang-zai",
+      "type": "peer",
+      "note": "关洛相资，程颢盛赞西铭为充尽去不得一字"
+    },
+    {
+      "source": "cheng-hao",
+      "target": "wang-anshi",
+      "type": "peer",
+      "note": "交好甚厚，论青苗法深切切戒急功近利"
+    },
+    {
+      "source": "cheng-hao",
+      "target": "sima-guang",
+      "type": "peer",
+      "note": "退居洛阳讲学，司马光文彦博等皆下榻宗之"
+    },
+    {
+      "source": "cheng-yi",
+      "target": "sima-guang",
+      "type": "mentor",
+      "note": "司马光力荐为崇政殿说书，经筵规导严正有古风"
+    },
+    {
+      "source": "cheng-yi",
+      "target": "su-shi",
+      "type": "rival",
+      "note": "经筵议礼及元祐政见不协，引发洛蜀党派之争"
+    },
+    {
+      "source": "cheng-yi",
+      "target": "hu-yuan",
+      "type": "mentor",
+      "note": "游太学以颜子所好何学论对，胡瑗深器重延为校客"
+    },
+    {
+      "source": "huang-tingjian",
+      "target": "su-zhe",
+      "type": "peer",
+      "note": "元祐同朝文友，苏辙深加奖重，称其博学"
+    },
+    {
+      "source": "huang-tingjian",
+      "target": "qin-guan",
+      "type": "peer",
+      "note": "苏门四学士齐名，倡和不辍，情同手足"
+    },
+    {
+      "source": "huang-tingjian",
+      "target": "chao-buzhi",
+      "type": "peer",
+      "note": "苏门四学士齐名，词章翰墨互相推重"
+    },
+    {
+      "source": "huang-tingjian",
+      "target": "zhang-lei",
+      "type": "peer",
+      "note": "苏门四学士齐名，张耒闻其客死宜州设位痛哭"
+    },
+    {
+      "source": "qin-guan",
+      "target": "huang-tingjian",
+      "type": "peer",
+      "note": "苏门四学士之秀，诗词唱和，交谊笃厚"
+    },
+    {
+      "source": "qin-guan",
+      "target": "su-zhe",
+      "type": "peer",
+      "note": "元祐同在馆阁，苏辙爱其才藻词调"
+    },
+    {
+      "source": "qin-guan",
+      "target": "zhang-lei",
+      "type": "peer",
+      "note": "苏门四学士并称，同遭绍圣党籍迁贬"
+    },
+    {
+      "source": "zhang-lei",
+      "target": "su-zhe",
+      "type": "mentor",
+      "note": "早年从学陈州，苏辙深爱其才器力荐于苏轼"
+    },
+    {
+      "source": "zhang-lei",
+      "target": "chao-buzhi",
+      "type": "peer",
+      "note": "苏门四学士同朝齐名，诗文平易自然相得益彰"
+    },
+    {
+      "source": "chao-buzhi",
+      "target": "su-zhe",
+      "type": "peer",
+      "note": "苏门同道，元祐馆阁文友，历党祸风节不改"
+    },
+    {
+      "source": "chao-buzhi",
+      "target": "qin-guan",
+      "type": "peer",
+      "note": "苏门四学士同科同道，词风互映名重词坛"
     }
   ],
   "events": [

@@ -256,8 +256,9 @@
       "target": "yan-zhu",
       "type": "ruler-subject",
       "directed": true,
+      "since": -140,
       "notes": [
-        "中大夫，闽越之役与淮南王往复议兵"
+        "举贤良对策擢中大夫，持节发会稽兵救东瓯；后谕意南越"
       ],
       "topicIds": [
         "han"
@@ -280,8 +281,9 @@
       "target": "zhang-tang",
       "type": "ruler-subject",
       "directed": true,
+      "since": -130,
       "notes": [
-        "御史大夫，定律令、造皮币"
+        "御史大夫，与赵禹共定律令、造白金五铢、笼盐铁、出告缗令"
       ],
       "topicIds": [
         "han"
@@ -317,8 +319,9 @@
       "target": "li-guang-li",
       "type": "ruler-subject",
       "directed": true,
+      "since": -104,
       "notes": [
-        "贰师将军，伐大宛得善马"
+        "贰师将军伐大宛取善马，封海西侯；征和三年兵败降匈奴"
       ],
       "topicIds": [
         "han"
@@ -455,6 +458,84 @@
       "since": -122,
       "notes": [
         "衡山王与淮南王通谋反，事觉自刭，国除为衡山郡"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-ying",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -140,
+      "notes": [
+        "建元元年为丞相，与田蚡同好儒术；赵绾王臧事败免相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "han-anguo",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -135,
+      "notes": [
+        "武帝朝御史大夫，马邑之谋为护军将军"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "er-kuan",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -110,
+      "notes": [
+        "议封禅称旨，拜御史大夫，从封泰山；与司马迁共定太初历"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "zhong-jun",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -122,
+      "notes": [
+        "对白麟奇木，改元元狩；后请长缨使南越，死于吕嘉之乱"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "yi-zhi-xie",
+      "type": "rival",
+      "directed": false,
+      "since": -126,
+      "notes": [
+        "攻破军臣单于太子于单自立，数入代郡、雁门"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "shen-gong",
+      "target": "liu-che",
+      "type": "ruler-subject",
+      "directed": true,
+      "since": -140,
+      "notes": [
+        "武帝使使束帛加璧、安车蒲轮迎申公，问治乱，对曰「顾力行何如耳」"
       ],
       "topicIds": [
         "han"

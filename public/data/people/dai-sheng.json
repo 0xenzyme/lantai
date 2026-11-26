@@ -21,7 +21,21 @@
       "lane": "scholar"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "dai-sheng",
+      "target": "he-wu",
+      "type": "rival",
+      "directed": false,
+      "since": -20,
+      "notes": [
+        "何武为扬州刺史，廉得戴圣罪，圣自免；后圣惭服，造门谢恩"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

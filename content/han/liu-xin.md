@@ -9,8 +9,9 @@ polity:
 categories:
   - monarch
 primary: monarch
-birth: -27
+birth: -25
 birthAccuracy: exact
+birthNote: 《汉书·外戚传下》：「唯丁姬河平四年生哀帝」；《哀帝纪》元延四年入朝「时年十七」，两处互证，生于前 25 年。
 death: -1
 deathAccuracy: exact
 title: 汉哀帝，断袖之宠，限田之令不行

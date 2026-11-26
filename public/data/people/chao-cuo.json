@@ -65,6 +65,7 @@
       "target": "dou-ying",
       "type": "rival",
       "directed": false,
+      "since": -154,
       "notes": [
         "削藩之争，窦婴持反对"
       ],
@@ -77,8 +78,9 @@
       "target": "shen-tu-jia",
       "type": "rival",
       "directed": false,
+      "since": -155,
       "notes": [
-        "奏请诛晁错不得，呕血死"
+        "奏请诛晁错擅穿宗庙堧垣，景帝不许，嘉呕血死"
       ],
       "topicIds": [
         "han"
@@ -92,6 +94,19 @@
       "since": -154,
       "notes": [
         "吴楚以诛晁错为名起兵，错终斩东市"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chao-cuo",
+      "target": "fu-sheng-bc170",
+      "type": "peer",
+      "directed": false,
+      "since": -165,
+      "notes": [
+        "文帝诏太常使掌故晁错往受《尚书》，伏生老不能正言，使其女传言教错"
       ],
       "topicIds": [
         "han"

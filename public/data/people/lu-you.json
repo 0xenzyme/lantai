@@ -110,6 +110,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "lu-you",
+      "target": "zhou-bida",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "晚年文坛推重，屡以诗文致候陆游，相知甚深"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

@@ -106,6 +106,19 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "che-qian-qiu",
+      "target": "liu-ju",
+      "type": "peer",
+      "directed": false,
+      "since": -90,
+      "notes": [
+        "为高寝郎上书讼卫太子冤，武帝感悟，旬月拜相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [
