@@ -158,6 +158,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "ou-yangxiu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "陈执中严酷治家及贵妃丧仪，欧阳修等台谏合班弹劾罢之"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

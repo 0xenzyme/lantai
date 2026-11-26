@@ -97,6 +97,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "lv-yijian",
+      "target": "zhang-shixun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "天圣宝元间同朝为相，更相执政老成持重"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [],

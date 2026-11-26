@@ -3758,6 +3758,174 @@
       "target": "lv-wende",
       "type": "ruler-subject",
       "note": "度宗倚为长城，襄阳合围疽发背卒，赠太师和国公"
+    },
+    {
+      "source": "pang-ji",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "仁宗朝拜相，经略西夏并力主专任狄青平侬智高"
+    },
+    {
+      "source": "pang-ji",
+      "target": "di-qing",
+      "type": "mentor",
+      "note": "拔狄青于行伍之中，任指使并力排众议荐主南征"
+    },
+    {
+      "source": "pang-ji",
+      "target": "du-yan",
+      "type": "peer",
+      "note": "同朝辅弼，庆历宝元间协理西北边防与国政"
+    },
+    {
+      "source": "song-xiang",
+      "target": "song-qi",
+      "type": "kin",
+      "note": "同科登第并称二宋，天下称大宋小宋亲睦笃爱"
+    },
+    {
+      "source": "song-xiang",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "连中三元，皇祐中拜同平章事辅政持重遵宪章"
+    },
+    {
+      "source": "song-xiang",
+      "target": "chen-yaozuo",
+      "type": "peer",
+      "note": "同朝辅政，宋庠力主裁抑冗官，曾执争国事"
+    },
+    {
+      "source": "shi-jie",
+      "target": "hu-yuan",
+      "type": "peer",
+      "note": "同隐泰山苦读，并称宋初三先生，同振理学"
+    },
+    {
+      "source": "shi-jie",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "note": "范仲淹荐为太学直讲，介作圣德诗赞颂范公"
+    },
+    {
+      "source": "shi-jie",
+      "target": "du-yan",
+      "type": "peer",
+      "note": "作庆历圣德诗首推杜衍为贤相，新政贬谪后蒙其力保"
+    },
+    {
+      "source": "shi-jie",
+      "target": "jia-changchao",
+      "type": "rival",
+      "note": "庆历圣德诗斥保守权贵，贾昌朝深嫉之致隙"
+    },
+    {
+      "source": "hu-yuan",
+      "target": "fan-zhongyan",
+      "type": "peer",
+      "note": "范仲淹两度延聘掌学并荐入太学，共倡苏湖教法"
+    },
+    {
+      "source": "hu-yuan",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "充天章阁侍讲，仁宗御笔赐安定先生尊礼甚渥"
+    },
+    {
+      "source": "du-yan",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "拜同平章事兼枢密使，每有中旨封还不行，仁宗深敬"
+    },
+    {
+      "source": "du-yan",
+      "target": "fan-zhongyan",
+      "type": "peer",
+      "note": "庆历新政同心辅相，杜衍居首首应更张"
+    },
+    {
+      "source": "du-yan",
+      "target": "fu-bi",
+      "type": "peer",
+      "note": "同执大政行新政，后同遭朋党流言攻讦去职"
+    },
+    {
+      "source": "du-yan",
+      "target": "jia-changchao",
+      "type": "rival",
+      "note": "更张新政遭贾昌朝等旧派抵制谗沮，相继罢黜"
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "note": "真宗病笃大臣莫敢言，执中抗疏请立仁宗为储"
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "定策之臣，仁宗朝两度拜相执政凡八年"
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "ou-yangxiu",
+      "type": "rival",
+      "note": "陈执中严酷治家及贵妃丧仪，欧阳修等台谏合班弹劾罢之"
+    },
+    {
+      "source": "jia-changchao",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "日侍经筵讲春秋论语，庆历拜相，仁宗制经筵赞"
+    },
+    {
+      "source": "jia-changchao",
+      "target": "zhang-dexiang",
+      "type": "peer",
+      "note": "同在中书枢密执掌机务，主张持守成法守文安边"
+    },
+    {
+      "source": "chen-yaozuo",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "景祐中拜相，为相宽厚平恕，持大节主张农战息民"
+    },
+    {
+      "source": "chen-yaozuo",
+      "target": "zhang-shixun",
+      "type": "peer",
+      "note": "同朝辅弼，景祐宝元间同居中书枢密为长者"
+    },
+    {
+      "source": "zhang-dexiang",
+      "target": "zhao-zhen",
+      "type": "ruler-subject",
+      "note": "宝元庆历拜相八年，庄重老成，宗戚无敢干以私"
+    },
+    {
+      "source": "zhang-dexiang",
+      "target": "du-yan",
+      "type": "peer",
+      "note": "同处中书辅弼大政，章得象居昭文相，杜衍行新政"
+    },
+    {
+      "source": "zhang-shixun",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "note": "真宗选为太子中允兼谕德，日侍东宫辅导仁宗"
+    },
+    {
+      "source": "zhang-shixun",
+      "target": "zhao-zhen",
+      "type": "mentor",
+      "note": "仁宗东宫旧傅，即位后三度拜相，特拜太傅致仕"
+    },
+    {
+      "source": "zhang-shixun",
+      "target": "lv-yijian",
+      "type": "peer",
+      "note": "天圣宝元间同朝为相，更相执政老成持重"
     }
   ],
   "events": [

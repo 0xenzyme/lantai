@@ -183,6 +183,30 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "chen-zhizhong",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "真宗病笃大臣莫敢言，执中抗疏请立仁宗为储"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "zhang-shixun",
+      "target": "zhao-hen",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "真宗选为太子中允兼谕德，日侍东宫辅导仁宗"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

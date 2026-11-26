@@ -137,6 +137,18 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "du-yan",
+      "target": "fu-bi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同执大政行新政，后同遭朋党流言攻讦去职"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [

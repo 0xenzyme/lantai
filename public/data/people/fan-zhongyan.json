@@ -147,6 +147,42 @@
       "topicIds": [
         "song"
       ]
+    },
+    {
+      "source": "shi-jie",
+      "target": "fan-zhongyan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "范仲淹荐为太学直讲，介作圣德诗赞颂范公"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "fan-zhongyan",
+      "target": "hu-yuan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "范仲淹两度延聘掌学并荐入太学，共倡苏湖教法"
+      ],
+      "topicIds": [
+        "song"
+      ]
+    },
+    {
+      "source": "du-yan",
+      "target": "fan-zhongyan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "庆历新政同心辅相，杜衍居首首应更张"
+      ],
+      "topicIds": [
+        "song"
+      ]
     }
   ],
   "events": [
