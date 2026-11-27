@@ -1,4 +1,4 @@
 interface:
   display_name: "People Batch Workflow"
-  short_description: "Run multi-agent drafting, independent review, and admission for person batches"
-  default_prompt: "Use $people-batch-workflow to initialize a person upgrade batch, orchestrate parallel raw-source drafting and independent review via run_workflow, and apply passing candidates and relations."
+  short_description: "Host-neutral multi-agent drafting, independent review, and admission for person batches"
+  default_prompt: "Use $people-batch-workflow to initialize a person upgrade batch, orchestrate parallel raw-source drafting and independent review using the host's supported adapter, and apply passing candidates and relations."

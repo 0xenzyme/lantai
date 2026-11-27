@@ -1,89 +1,91 @@
 ---
 name: people-batch-workflow
-description: 使用 run_workflow 多 Agent 编排自动完成已登记历史人物的批量详表升档或勘误（init → 并行原典起草与单人机器自检 → 并行独立会话审核与自动返修 → 组装准入、合并关系与构建验证）。当用户要求直接按批生产、升级或编排一组已登记人物时使用。
+description: 多 Agent 并行编排已登记历史人物的批量详表升档或勘误（init → 并行原典起草与单人机器自检 → 并行独立会话审核与自动返修 → 组装准入、合并关系与构建验证）。支持通用原生子代理、终端 CLI 进程池（Codex/Claude）与 Antigravity run_workflow 三种宿主适配。
 metadata:
-  short-description: Orchestrate parallel drafting, independent review, and admission for person batches
+  short-description: Host-neutral multi-agent orchestration for person upgrade and errata batches
 ---
 
-# 人物批次多 Agent 自动编排入口
+# 人物批次多 Agent 自动编排入口（跨宿主通用）
 
-先读取 `docs/内容工作流.md`、`pipeline/PLAYBOOK.md`、`../people-production/SKILL.md`、`../people-review/SKILL.md` 以及宿主内置 `run-workflow` Skill。
+先读取 `docs/内容工作流.md`、`pipeline/PLAYBOOK.md`、`../people-production/SKILL.md` 与 `../people-review/SKILL.md`。公共提示词模板位于 [prompts.json](references/prompts.json)。
 
-本入口利用 `run_workflow` 调度相互隔离的起草 Agent 与独立审核 Agent，在一个任务内自动完成「分片建批 → 原典起草与逐字机器自检 → 独立会话审核与返修闭环 → 批次组装、准入应用与关系合并」，同时严格满足 `docs/内容工作流.md` 的单一准入门槛与「起草者不能自审」原则。
+本入口定义**宿主无关**的五步并行编排协议：通过分片文件隔离（`items/<id>.*`、`check/<id>.json`、`reviews/<id>.json`）将起草会话与独立审核会话严格分离，在任意支持多会话调度的 Coding Agent 或终端中自动完成批量起草、原典逐字核验、独立审校返修与准入应用。
 
-## 适用范围与前置边界
+## 适用范围与隔离红线
 
 - **适用对象**：已在 `content/<topic>/<id>.md` 登记的人物批量升详表（`mode: "upgrade"`）或生卒史实勘误（`mode: "errata"`），建议每批 4~15 人（常规每组 10 人）。
-- **不适用对象**：
-  1. 尚未上轴的新人物（`operation: "publish"`）：`people:batch:*` 仅支持已登记 Markdown 人物修订；新人物上轴须先补 `candidates.json` 台账并按 `people-production` 路径 B 执行。
-  2. 仍在 `pipeline/registry/people/*.json` 的 44 位存量人物。
-- **文件隔离原则**：在 `run_workflow` 并行阶段内，每位起草 Agent 只写 `items/<id>.md` 与 `items/<id>.json`（及自检生成的 `check/<id>.json`），每位独立审核 Agent 只写 `reviews/<id>.json`。任何子 Agent 均不得直接修改 `content/`、`pipeline/topics/<topic>/topic.json`、`public/data/` 或 `batch.json`。
+- **不适用对象**：尚未上轴的新人物（`publish`，走 `people-production` 路径 B）以及仍在 `pipeline/registry/people/*.json` 的 44 人。
+- **隔离红线**：并行阶段内，起草会话只写 `items/<id>.md` 与 `items/<id>.json`，独立审核会话不共享起草上下文、只读核查原典并只写 `reviews/<id>.json`（绑定 16 位 `proposalHash` 且 `reviewer` 不同于 `author`）。任何子会话均不得直接修改 `content/`、`pipeline/topics/`、`public/data/` 或 `batch.json`。
 
-## 标准五步编排流程
+## 标准五步编排协议
 
-### 1. 确定范围并初始化分片批次
+### 1. 初始化分片批次（所有宿主相同）
 
-确认目标专题 `<topic>` 与人物列表 `<id1,id2,...>`（若用户未指定具体人选，可先运行 `npm run people:audit -- --topic <topic> --list` 按优先级选取待升级人物）。生成唯一 `<batch-id>`（如 `people-song-batch27-20261127`），在主会话运行：
+确认目标专题 `<topic>` 与人物列表 `<id1,id2,...>`（未指定人选时先运行 `npm run people:audit -- --topic <topic> --list` 取待升级名单），在仓库根目录运行：
 
 ```bash
 npm run people:batch:init -- --id <batch-id> --description "<批次说明>" --author "workflow-drafter" --topic <topic> --ids <id1,id2,...> --mode upgrade
 ```
 
-### 2. 启动 `run_workflow` 并行起草与独立审核闭环
+### 2. 并行起草与独立会话审核闭环（按当前宿主三选一）
 
-调用 `run_workflow` 工具，传入本 Skill 自带的编排脚本 `.agents/skills/people-batch-workflow/scripts/upgrade_batch.py` 与 `Args`：
+每位人物执行相同的状态机（最多 `max_rounds=2` 轮）：
+`起草 items/<id>.*` → `运行 people:batch:check 获取 proposalHash` → `全新独立会话核查原典并写 reviews/<id>.json` → `若为 needs-revision / needs-evidence 则回传起草者返修重检并重审；若为 pass / needs-decision / reject 则收敛`。
 
-```json
-{
-  "ScriptPath": "/Users/liuyj/project/sites/history-timeline/.agents/skills/people-batch-workflow/scripts/upgrade_batch.py",
-  "Description": "并行起草并独立审核人物详表批次",
-  "Args": {
-    "batch_id": "<batch-id>",
-    "topic": "<topic>",
-    "person_ids": ["<id1>", "<id2>"],
-    "mode": "upgrade",
-    "max_rounds": 2,
-    "concurrency": 10
+根据当前运行宿主选择对应调度器（均共用 [prompts.json](references/prompts.json)）：
+
+- **适配 A：原生子代理宿主（Claude Code `Task` / Codex Subagents / Cursor Subagents 等）**
+  1. 读取 [prompts.json](references/prompts.json) 中的 `draft_initial` 模板，按人物并行派生独立起草子代理，各自完成草稿并通过 `npm run people:batch:check -- --id <batch-id> --person <id> --json` 取得 `hash`。
+  2. 读取 `review` 模板，为每位 `ok: true` 的人物并行派生**全新的**独立审核子代理（仅传入 `<batch-id>`、`<topic>`、`<id>` 与 `proposalHash`，不传入起草对话过程），核查后写入 `reviews/<id>.json`。
+  3. 对返回 `needs-revision` 或 `needs-evidence` 的人物，用 `draft_revision` 模板交起草子代理返修重检得到新 `hash`，再派生新审核子代理复核（不超过 2 轮）。
+
+- **适配 B：终端 CLI 进程池（Codex CLI / Claude CLI / 跨模型交叉审校，纯 Python 标准库）**
+  在仓库根目录直接运行 [cli_workflow.py](scripts/cli_workflow.py)（支持 `--runner codex|claude`，或用 `--drafter-runner` 与 `--reviewer-runner` 跨模型异构互审）：
+  ```bash
+  python3 .agents/skills/people-batch-workflow/scripts/cli_workflow.py \
+    --batch-id <batch-id> --topic <topic> --ids <id1,id2,...> \
+    --mode upgrade --runner codex --concurrency 5 --max-rounds 2
+  ```
+
+- **适配 C：Antigravity 宿主（`run_workflow` 工具）**
+  先读取内置 `run-workflow` Skill，再调用 `run_workflow` 运行仓库相对路径下的 [agy_workflow.py](scripts/agy_workflow.py)（`ScriptPath` 填 `<当前工作区根目录>/.agents/skills/people-batch-workflow/scripts/agy_workflow.py`）：
+  ```json
+  {
+    "Description": "并行起草并独立审核人物详表批次",
+    "Args": {
+      "batch_id": "<batch-id>",
+      "topic": "<topic>",
+      "person_ids": ["<id1>", "<id2>"],
+      "mode": "upgrade",
+      "max_rounds": 2,
+      "concurrency": 10
+    }
   }
-}
-```
+  ```
 
-脚本内部对每位人物执行以下闭环：
-1. **起草与机器自检（Drafter Agent）**：检索并连续整读本地 `raw/` 正史与《资治通鉴》本传（`npm run sources:search -- ... --chars 8000`），查询 `people:suggest-events` 与 `relations:candidates`，编写 `items/<id>.md` 与 `items/<id>.json`，运行 `npm run people:batch:check -- --id <batch-id> --person <id> --json` 直至 `ok: true` 并返回 16 位 `proposalHash`。
-2. **独立会话审核（Reviewer Agent）**：启动全新的独立 Agent 会话（不共享起草者上下文），回查 `raw/` 原典逐项核对生卒精度、引语逐字一致、`polity`、经历事件继承、作品题名真实性及关系边方向与 `note`，写入 `reviews/<id>.json`（绑定 `proposalHash`）。
-3. **自动返修（最多 `max_rounds` 轮）**：若审核结论为 `needs-revision` 或 `needs-evidence`，脚本将审核意见交回该人物起草 Agent 修正并重跑 `people:batch:check` 获取新指纹，随后启动新一轮独立审核 Agent 复核；若为 `needs-decision` 或 `reject`（史料本身存疑需人工裁决），保留原结论不强行改写。
+### 3. 组装权威批次与准入检查（所有宿主相同）
 
-调用 `run_workflow` 后结束当前回合，等待系统完成通知。
-
-### 3. 组装权威批次并执行准入检查
-
-`run_workflow` 完成后，主会话运行组装与准入检查：
+并行审校收敛后，在主会话运行：
 
 ```bash
 npm run people:batch:assemble -- --id <batch-id>
+npm run people:evidence:check -- --batch workspace/content/raw/<batch-id>/batch.json
 npm run people:publish:check -- --batch workspace/content/raw/<batch-id>/batch.json --json
 ```
 
-检查 `assembled.json` 与 `publish:check` 输出，确认通过项为 `ready`、未决项原因清晰。
-
-### 4. 应用正式文件与合并专题关系
-
-在主会话执行统一准入应用与关系合并（若沙箱限制跨目录原子覆盖 `public/data/`，按仓库终端规则对 `apply` / `content` 使用相应权限）：
+### 4. 应用正式文件、合并关系与构建验证（所有宿主相同）
 
 ```bash
 npm run people:production:apply -- --batch workspace/content/raw/<batch-id>/batch.json
 npm run people:batch:relations -- --id <batch-id> --apply
 ```
 
-若 `people:batch:relations -- --apply` 新增或更新了 `pipeline/topics/<topic>/topic.json` 中的关系边，立即运行编译与全量验证，使关系数据写入 `public/data/`：
+若 `people:batch:relations -- --apply` 新增或修订了 `pipeline/topics/<topic>/topic.json` 中的关系边，紧接着执行二次编译与验证，使新关系写入 `public/data/`：
 
 ```bash
-npm run content && npm run content:check && npm test && npm run build
+npm run content && npm run content:check && npm run build
 ```
 
 ### 5. 汇报结果与处理未决项
 
-向用户清晰报告：
-1. 本批已准入应用的人物清单（传记段数与字数、经历条数、作品、新增关系条数）及 `verification` 状态。
-2. 留在 `workspace/content/pending/<batch-id>/` 的未通过人物及具体原因（尤其是 `needs-decision` 的史料取舍问题）。
-3. 只有在用户明确要求提交或预览验证时，再执行浏览器实机巡检或 `git commit`。
+报告本批已准入人物明细（生卒精度、传记段数与字数、经历与关联事件、作品、新增关系边数）及留在 `pending/` 的未决项原因。仅在用户要求时执行 `git commit`。
