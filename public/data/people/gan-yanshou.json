@@ -70,6 +70,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gan-yanshou",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "都护延寿与副汤发兵即康居诛斩郅支"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

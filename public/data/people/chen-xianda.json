@@ -22,7 +22,20 @@
       "lane": "nan"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chen-xianda",
+      "target": "yuan-hong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太和二十三年马圈之战破显达军"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

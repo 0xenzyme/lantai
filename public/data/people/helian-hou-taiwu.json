@@ -21,7 +21,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "helian-hou-taiwu",
+      "target": "tuoba-tao",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "延和元年立赫连氏为皇后"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

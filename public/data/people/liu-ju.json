@@ -119,6 +119,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "xiaqiu-jianggong",
+      "target": "liu-ju",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "卫太子少壮从受《谷梁》"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

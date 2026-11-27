@@ -111,6 +111,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "kong-guang",
+      "target": "zhu-bo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "博承指毁谮，光策免而博代为相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

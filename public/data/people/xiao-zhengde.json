@@ -30,7 +30,20 @@
       "lane": "nan"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "xiao-yan",
+      "target": "xiao-zhengde",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "临贺王正德迎侯景，率众附贼"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

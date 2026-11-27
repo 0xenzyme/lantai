@@ -576,6 +576,42 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-che",
+      "target": "chu-da",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元封元年御史大夫缺，武帝征之，议封禅于上前"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "kong-anguo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "安国为今皇帝博士，武帝朝博士官"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "lv-bushu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武帝遣持节决淮南狱，还奏皆是"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

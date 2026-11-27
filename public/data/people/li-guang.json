@@ -131,6 +131,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "li-guang",
+      "target": "wang-hui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "马邑之役同别队出代，主击匈奴辎重"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

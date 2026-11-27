@@ -42,6 +42,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-de",
+      "target": "mao-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "献王好其学，立毛氏诗博士，毛公为之博士"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

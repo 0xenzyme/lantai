@@ -32,7 +32,20 @@
       "lane": "wen"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "tuoba-tao",
+      "target": "gao-yun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "神麚四年征高允，差次叙用"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

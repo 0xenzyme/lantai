@@ -3795,6 +3795,186 @@
       "target": "zhao-tuo",
       "type": "ruler-subject",
       "note": "孝景时佗称臣，使人朝请"
+    },
+    {
+      "source": "fu-taihou",
+      "target": "zhu-bo",
+      "type": "ruler-subject",
+      "note": "傅太后欲求称尊号，博承指谋成尊号"
+    },
+    {
+      "source": "kong-guang",
+      "target": "zhu-bo",
+      "type": "rival",
+      "note": "博承指毁谮，光策免而博代为相"
+    },
+    {
+      "source": "he-wu",
+      "target": "zhu-bo",
+      "type": "rival",
+      "note": "事与傅喜相似，并奏武免为庶人"
+    },
+    {
+      "source": "wang-mang",
+      "target": "zhu-bo",
+      "type": "rival",
+      "note": "博奏免莽爵土，帝勿免而遣莽就国"
+    },
+    {
+      "source": "liu-ao",
+      "target": "zhu-bo",
+      "type": "ruler-subject",
+      "note": "绥和元年召入禁中议继嗣，博主定陶王"
+    },
+    {
+      "source": "wang-feng",
+      "target": "zhu-bo",
+      "type": "peer",
+      "note": "咸荐入凤莫府为属，凤奇之举栎阳令"
+    },
+    {
+      "source": "yang-xiong",
+      "target": "zhu-bo",
+      "type": "peer",
+      "note": "拜相日钟声，雄占曰宜将不宜相"
+    },
+    {
+      "source": "xue-xuan-bc20",
+      "target": "zhu-bo",
+      "type": "peer",
+      "note": "同传并论：冯翊治术较薛宣短长"
+    },
+    {
+      "source": "wang-hui",
+      "target": "li-guang",
+      "type": "peer",
+      "note": "马邑之役同别队出代，主击匈奴辎重"
+    },
+    {
+      "source": "wang-hui",
+      "target": "jun-chen",
+      "type": "rival",
+      "note": "马邑设伏所诱之军臣单于，觉遁谋败"
+    },
+    {
+      "source": "wang-hui",
+      "target": "tian-fen",
+      "type": "peer",
+      "note": "恢狱中行千金于蚡，蚡为言太后乞免"
+    },
+    {
+      "source": "zhi-zhi",
+      "target": "gan-yanshou",
+      "type": "rival",
+      "note": "都护延寿与副汤发兵即康居诛斩郅支"
+    },
+    {
+      "source": "liu-xun",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "note": "两单于俱遣使，汉待呼韩邪使有加"
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "chu-da",
+      "type": "mentor",
+      "note": "《史记》《汉书》列董仲舒弟子遂者，褚大居首"
+    },
+    {
+      "source": "chu-da",
+      "target": "er-kuan",
+      "type": "mentor",
+      "note": "褚大为博士时，儿宽受业为弟子"
+    },
+    {
+      "source": "liu-che",
+      "target": "chu-da",
+      "type": "ruler-subject",
+      "note": "元封元年御史大夫缺，武帝征之，议封禅于上前"
+    },
+    {
+      "source": "shen-gong",
+      "target": "kong-anguo",
+      "type": "mentor",
+      "note": "汉书列安国于申公博士弟子，官至临淮太守"
+    },
+    {
+      "source": "kong-anguo",
+      "target": "er-kuan",
+      "type": "mentor",
+      "note": "儿宽以郡国选诣博士，受业孔安国"
+    },
+    {
+      "source": "kong-anguo",
+      "target": "sima-qian",
+      "type": "mentor",
+      "note": "司马迁从安国问故，迁书多古文说"
+    },
+    {
+      "source": "liu-che",
+      "target": "kong-anguo",
+      "type": "ruler-subject",
+      "note": "安国为今皇帝博士，武帝朝博士官"
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "lv-bushu",
+      "type": "mentor",
+      "note": "董仲舒弟子，误评师灾异书为下愚"
+    },
+    {
+      "source": "liu-che",
+      "target": "lv-bushu",
+      "type": "ruler-subject",
+      "note": "武帝遣持节决淮南狱，还奏皆是"
+    },
+    {
+      "source": "liu-an",
+      "target": "lv-bushu",
+      "type": "rival",
+      "note": "淮南谋反大狱由步舒持节按治"
+    },
+    {
+      "source": "chu-da",
+      "target": "lv-bushu",
+      "type": "peer",
+      "note": "同列仲舒弟子遂者，史并记官至"
+    },
+    {
+      "source": "liu-de",
+      "target": "mao-gong",
+      "type": "ruler-subject",
+      "note": "献王好其学，立毛氏诗博士，毛公为之博士"
+    },
+    {
+      "source": "xiaqiu-jianggong",
+      "target": "dong-zhongshu",
+      "type": "rival",
+      "note": "武帝时并立廷议，呐于口议不如仲舒"
+    },
+    {
+      "source": "xiaqiu-jianggong",
+      "target": "gongsun-hong",
+      "type": "peer",
+      "note": "丞相弘本为公羊学，比辑其议卒用董生"
+    },
+    {
+      "source": "xiaqiu-jianggong",
+      "target": "wei-xian",
+      "type": "mentor",
+      "note": "韦贤治《诗》，事大江公及许生"
+    },
+    {
+      "source": "xiaqiu-jianggong",
+      "target": "liu-ju",
+      "type": "mentor",
+      "note": "卫太子少壮从受《谷梁》"
+    },
+    {
+      "source": "liu-heng",
+      "target": "xu-sheng",
+      "type": "ruler-subject",
+      "note": "孝文帝时以容为礼官大夫，善容见用"
     }
   ],
   "events": [

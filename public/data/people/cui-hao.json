@@ -33,24 +33,24 @@
   ],
   "relations": [
     {
-      "source": "yuan-hong",
-      "target": "cui-hao",
-      "type": "ruler-subject",
-      "directed": true,
-      "notes": [
-        "崔浩修国史，后以「国史之狱」被诛"
-      ],
-      "topicIds": [
-        "nanbei"
-      ]
-    },
-    {
       "source": "cui-hao",
       "target": "wei-shou",
       "type": "peer",
       "directed": false,
       "notes": [
         "皆奉敕撰国史：崔浩修国书获罪，魏收撰魏书专一家之言"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    },
+    {
+      "source": "tuoba-tao",
+      "target": "cui-hao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "帝从崔浩定策，后以国史狱诛之"
       ],
       "topicIds": [
         "nanbei"

@@ -110,6 +110,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "fu-taihou",
+      "target": "zhu-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "傅太后欲求称尊号，博承指谋成尊号"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

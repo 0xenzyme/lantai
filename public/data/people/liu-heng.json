@@ -208,6 +208,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "xu-sheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孝文帝时以容为礼官大夫，善容见用"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

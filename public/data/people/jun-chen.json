@@ -82,6 +82,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "jun-chen",
+      "target": "wang-hui",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "马邑设伏所诱之军臣单于，觉遁谋败"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

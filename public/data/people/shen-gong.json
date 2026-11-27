@@ -101,6 +101,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "shen-gong",
+      "target": "kong-anguo",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "汉书列安国于申公博士弟子，官至临淮太守"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

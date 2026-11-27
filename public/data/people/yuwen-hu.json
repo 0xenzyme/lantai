@@ -29,7 +29,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yuwen-yong",
+      "target": "yuwen-hu",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "即位授护中外诸军事，后诛之亲政"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "zhouwudi-zhu-yuwenhu",

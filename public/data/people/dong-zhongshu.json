@@ -117,6 +117,42 @@
     },
     {
       "source": "dong-zhongshu",
+      "target": "chu-da",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "《史记》《汉书》列董仲舒弟子遂者，褚大居首"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "lv-bushu",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "董仲舒弟子，误评师灾异书为下愚"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
+      "target": "xiaqiu-jianggong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "武帝时并立廷议，呐于口议不如仲舒"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-zhongshu",
       "target": "xun-zi",
       "type": "peer",
       "directed": false,

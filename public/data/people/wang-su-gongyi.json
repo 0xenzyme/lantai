@@ -22,7 +22,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yuan-hong",
+      "target": "wang-su-gongyi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王肃陈伐齐之策，器遇日隆"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

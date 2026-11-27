@@ -29,7 +29,20 @@
       "lane": "nan"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "xiao-lun",
+      "target": "xiao-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子，邵陵王纶讨景入援败于湖头"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

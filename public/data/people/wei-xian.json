@@ -47,6 +47,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "xiaqiu-jianggong",
+      "target": "wei-xian",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "韦贤治《诗》，事大江公及许生"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

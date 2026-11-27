@@ -30,7 +30,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yuwen-yong",
+      "target": "wang-gui-wuguan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王轨克晋州，又直言太子不稳"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

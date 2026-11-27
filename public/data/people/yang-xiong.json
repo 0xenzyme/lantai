@@ -40,6 +40,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "yang-xiong",
+      "target": "zhu-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "拜相日钟声，雄占曰宜将不宜相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

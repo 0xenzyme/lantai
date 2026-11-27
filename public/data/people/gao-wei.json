@@ -22,7 +22,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "gao-wei",
+      "target": "yuwen-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "亲征灭齐，俘高纬封温国公"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

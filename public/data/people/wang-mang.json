@@ -168,6 +168,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "wang-mang",
+      "target": "zhu-bo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "博奏免莽爵土，帝勿免而遣莽就国"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

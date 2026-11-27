@@ -108,6 +108,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gongsun-hong",
+      "target": "xiaqiu-jianggong",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "丞相弘本为公羊学，比辑其议卒用董生"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

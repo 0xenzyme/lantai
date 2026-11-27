@@ -29,7 +29,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yuwen-yong",
+      "target": "yuwen-xian",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "以宪为大冢宰，伐齐任前军"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

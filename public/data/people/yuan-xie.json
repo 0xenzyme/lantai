@@ -29,7 +29,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yuan-hong",
+      "target": "yuan-xie",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "勰侍疾禁中摄百揆，受顾命"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "aliases": [

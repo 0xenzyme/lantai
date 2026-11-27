@@ -31,7 +31,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yu-jin-sijing",
+      "target": "yuwen-yong",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "帝幸太学，以于谨为三老问道"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "jiangling-zhixian",

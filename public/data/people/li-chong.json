@@ -31,7 +31,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yuan-hong",
+      "target": "li-chong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "固谏止冯太后废立，又经始洛京"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "taihe-gaizhi",

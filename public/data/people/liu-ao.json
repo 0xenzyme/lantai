@@ -207,6 +207,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "zhu-bo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "绥和元年召入禁中议继嗣，博主定陶王"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

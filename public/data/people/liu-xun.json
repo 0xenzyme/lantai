@@ -295,6 +295,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "两单于俱遣使，汉待呼韩邪使有加"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

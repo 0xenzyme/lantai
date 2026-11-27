@@ -123,6 +123,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "wang-feng",
+      "target": "zhu-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "咸荐入凤莫府为属，凤奇之举栎阳令"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

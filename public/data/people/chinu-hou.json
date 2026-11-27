@@ -21,7 +21,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chinu-hou",
+      "target": "yuwen-yong",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子。太后崩，帝申三年之制"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

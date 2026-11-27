@@ -30,7 +30,20 @@
       "lane": "nan"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "hou-jing",
+      "target": "xiao-yan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "纳侯景内属，景举兵反，围台城弑君"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [
     {
       "id": "houjing-zhi-luan",

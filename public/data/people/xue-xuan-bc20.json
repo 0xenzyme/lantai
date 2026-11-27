@@ -85,6 +85,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "xue-xuan-bc20",
+      "target": "zhu-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同传并论：冯翊治术较薛宣短长"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

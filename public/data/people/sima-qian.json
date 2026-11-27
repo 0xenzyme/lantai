@@ -123,6 +123,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "kong-anguo",
+      "target": "sima-qian",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "司马迁从安国问故，迁书多古文说"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

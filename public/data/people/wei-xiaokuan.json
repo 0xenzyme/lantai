@@ -22,7 +22,20 @@
       "lane": "bei"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "yuwen-yong",
+      "target": "wei-xiaokuan",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "累迁孝宽为柱国、大司空"
+      ],
+      "topicIds": [
+        "nanbei"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -60,6 +60,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "tian-fen",
+      "target": "wang-hui",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "恢狱中行千金于蚡，蚡为言太后乞免"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

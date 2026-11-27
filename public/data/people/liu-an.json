@@ -97,6 +97,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-an",
+      "target": "lv-bushu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "淮南谋反大狱由步舒持节按治"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

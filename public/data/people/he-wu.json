@@ -123,6 +123,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "he-wu",
+      "target": "zhu-bo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "事与傅喜相似，并奏武免为庶人"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

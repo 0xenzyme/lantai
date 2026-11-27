@@ -98,6 +98,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chu-da",
+      "target": "er-kuan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "褚大为博士时，儿宽受业为弟子"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "kong-anguo",
+      "target": "er-kuan",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "儿宽以郡国选诣博士，受业孔安国"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],
