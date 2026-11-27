@@ -21,7 +21,20 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-kan",
+      "target": "wei-ji-zhongshan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "帝母卫姬，隔绝中山不得至京师"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

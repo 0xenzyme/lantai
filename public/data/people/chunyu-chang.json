@@ -46,6 +46,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "ping-dang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "议淳于长不应封爵之科，坐议左迁"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

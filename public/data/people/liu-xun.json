@@ -283,6 +283,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "yang-chang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "敞与定策废昌邑王立帝，即位月余敞薨"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

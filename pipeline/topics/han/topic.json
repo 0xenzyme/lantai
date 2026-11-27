@@ -3669,6 +3669,132 @@
       "target": "gongsun-hong",
       "type": "peer",
       "note": "元狩二年三月弘薨，蔡以御史大夫继任丞相"
+    },
+    {
+      "source": "liu-kan",
+      "target": "kong-guang",
+      "type": "ruler-subject",
+      "note": "诏使太师光奉太牢告祠高庙"
+    },
+    {
+      "source": "liu-kan",
+      "target": "liu-xin-zijun",
+      "type": "ruler-subject",
+      "note": "诏刘歆杂定婚礼，使治明堂辟雍"
+    },
+    {
+      "source": "liu-kan",
+      "target": "wei-ji-zhongshan",
+      "type": "kin",
+      "note": "帝母卫姬，隔绝中山不得至京师"
+    },
+    {
+      "source": "liu-kan",
+      "target": "liu-ying-ruzi",
+      "type": "kin",
+      "note": "平帝崩无嗣，莽立婴为孺子，奉平帝后"
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "liu-ying-ruzi",
+      "type": "ruler-subject",
+      "note": "莽风公卿奏立婴为孺子，太后不可莫能禁"
+    },
+    {
+      "source": "ping-dang",
+      "target": "wei-xuan-cheng",
+      "type": "peer",
+      "note": "韦玄成奏罢太上皇寝庙园，平当上书驳正"
+    },
+    {
+      "source": "ping-dang",
+      "target": "chunyu-chang",
+      "type": "rival",
+      "note": "议淳于长不应封爵之科，坐议左迁"
+    },
+    {
+      "source": "ping-dang",
+      "target": "zhu-bo",
+      "type": "peer",
+      "note": "建平二年代朱博为丞相，相位相承"
+    },
+    {
+      "source": "liu-ao",
+      "target": "ping-dang",
+      "type": "ruler-subject",
+      "note": "纳其言复寝庙园，又坐其前议贬官"
+    },
+    {
+      "source": "liu-che",
+      "target": "wang-xin",
+      "type": "ruler-subject",
+      "note": "武帝末守右扶风，帝驻车嘉之拜真"
+    },
+    {
+      "source": "wang-xin",
+      "target": "che-qian-qiu",
+      "type": "peer",
+      "note": "元凤四年代车千秋为丞相"
+    },
+    {
+      "source": "wang-xin",
+      "target": "yang-chang",
+      "type": "peer",
+      "note": "敞代訢为御史大夫，訢卒后继为丞相"
+    },
+    {
+      "source": "wei-you-qu",
+      "target": "xun-zhi",
+      "type": "rival",
+      "note": "荀彘将兵出辽东讨右渠，围王险灭其国"
+    },
+    {
+      "source": "wei-you-qu",
+      "target": "yang-pu-han",
+      "type": "rival",
+      "note": "杨仆自齐浮渤海先至王险，被右渠出城击败"
+    },
+    {
+      "source": "huo-guang",
+      "target": "yang-chang",
+      "type": "ruler-subject",
+      "note": "敞给事莫府为军司马，光爱厚之，累迁至相"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "yang-chang",
+      "type": "ruler-subject",
+      "note": "昭帝朝历官大司农、御史大夫，元凤六年代訢为相"
+    },
+    {
+      "source": "liu-xun",
+      "target": "yang-chang",
+      "type": "ruler-subject",
+      "note": "敞与定策废昌邑王立帝，即位月余敞薨"
+    },
+    {
+      "source": "liu-he",
+      "target": "yang-chang",
+      "type": "rival",
+      "note": "丞相敞预废立，与霍光共废昌邑王"
+    },
+    {
+      "source": "cai-yi",
+      "target": "yang-chang",
+      "type": "peer",
+      "note": "蔡义代敞为丞相，同出大将军莫府"
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhao-tuo",
+      "type": "ruler-subject",
+      "note": "高帝十一年遣陆贾立佗为南越王，剖符通使"
+    },
+    {
+      "source": "liu-qi",
+      "target": "zhao-tuo",
+      "type": "ruler-subject",
+      "note": "孝景时佗称臣，使人朝请"
     }
   ],
   "events": [

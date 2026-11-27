@@ -84,6 +84,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "ping-dang",
+      "target": "wei-xuan-cheng",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "韦玄成奏罢太上皇寝庙园，平当上书驳正"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

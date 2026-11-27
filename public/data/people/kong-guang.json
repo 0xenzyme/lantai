@@ -99,6 +99,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-kan",
+      "target": "kong-guang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诏使太师光奉太牢告祠高庙"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

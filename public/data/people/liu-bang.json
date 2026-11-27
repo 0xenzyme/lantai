@@ -306,6 +306,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "zhao-tuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "高帝十一年遣陆贾立佗为南越王，剖符通使"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

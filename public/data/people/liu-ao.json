@@ -195,6 +195,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "ping-dang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "纳其言复寝庙园，又坐其前议贬官"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

@@ -83,6 +83,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "cai-yi",
+      "target": "yang-chang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "蔡义代敞为丞相，同出大将军莫府"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

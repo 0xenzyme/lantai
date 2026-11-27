@@ -20,7 +20,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "wei-you-qu",
+      "target": "xun-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "荀彘将兵出辽东讨右渠，围王险灭其国"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

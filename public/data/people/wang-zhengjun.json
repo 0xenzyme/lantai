@@ -106,6 +106,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "wang-zhengjun",
+      "target": "liu-ying-ruzi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "莽风公卿奏立婴为孺子，太后不可莫能禁"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

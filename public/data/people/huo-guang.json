@@ -280,6 +280,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "yang-chang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "敞给事莫府为军司马，光爱厚之，累迁至相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

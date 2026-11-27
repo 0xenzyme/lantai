@@ -108,6 +108,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "che-qian-qiu",
+      "target": "wang-xin",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "元凤四年代车千秋为丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

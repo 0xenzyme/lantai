@@ -70,6 +70,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-he",
+      "target": "yang-chang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "丞相敞预废立，与霍光共废昌邑王"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -21,7 +21,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "wei-you-qu",
+      "target": "yang-pu-han",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "杨仆自齐浮渤海先至王险，被右渠出城击败"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -182,6 +182,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "yang-chang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "昭帝朝历官大司农、御史大夫，元凤六年代訢为相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -54,6 +54,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "ping-dang",
+      "target": "zhu-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "建平二年代朱博为丞相，相位相承"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

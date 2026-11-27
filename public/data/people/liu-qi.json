@@ -193,6 +193,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "zhao-tuo",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孝景时佗称臣，使人朝请"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

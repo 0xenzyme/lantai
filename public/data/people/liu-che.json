@@ -564,6 +564,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-che",
+      "target": "wang-xin",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "武帝末守右扶风，帝驻车嘉之拜真"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

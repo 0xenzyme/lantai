@@ -64,6 +64,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-kan",
+      "target": "liu-xin-zijun",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "诏刘歆杂定婚礼，使治明堂辟雍"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],
