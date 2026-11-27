@@ -20,7 +20,32 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-xian-zichuan",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "菑川王共攻围临菑，败后各引兵归"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-piguang",
+      "target": "liu-xian-zichuan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同父兄弟；同反，共攻围临菑"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

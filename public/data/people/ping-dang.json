@@ -106,6 +106,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "lin-zun",
+      "target": "ping-dang",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "亲授平陵平当欧阳《尚书》，当后以明经至丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

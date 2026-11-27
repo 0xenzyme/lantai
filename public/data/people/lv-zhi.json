@@ -243,6 +243,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "lv-zhi",
+      "target": "liu-hong-shaodi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "吕后立弘为帝，称制不称元年"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

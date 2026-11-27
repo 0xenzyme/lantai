@@ -70,6 +70,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dai-sheng",
+      "target": "lin-zun",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以博士与石渠之议，分传《尚书》《礼》"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

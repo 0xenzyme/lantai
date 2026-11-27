@@ -96,6 +96,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-dan",
+      "target": "shangguan-jie",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "通谋废帝杀霍光迎立燕王，事败同伏诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

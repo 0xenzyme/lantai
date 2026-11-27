@@ -218,6 +218,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-dan",
+      "target": "liu-fuling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "弟昭帝立，旦为奸书言少帝非武帝子，谋废之"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

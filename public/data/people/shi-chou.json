@@ -93,6 +93,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "lin-zun",
+      "target": "shi-chou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为博士，甘露中论石渠议五经同异"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

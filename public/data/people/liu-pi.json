@@ -125,6 +125,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-pi",
+      "target": "liu-piguang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "吴王濞发使约反，辟光许诺应吴楚"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

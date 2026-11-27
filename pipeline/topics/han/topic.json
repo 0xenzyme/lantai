@@ -4437,6 +4437,306 @@
       "target": "gouyi-furen",
       "type": "peer",
       "note": "同列武帝宠妃；外戚传钩弋条并提其子早薨"
+    },
+    {
+      "source": "lin-zun",
+      "target": "ping-dang",
+      "type": "mentor",
+      "note": "亲授平陵平当欧阳《尚书》，当后以明经至丞相"
+    },
+    {
+      "source": "lin-zun",
+      "target": "shi-chou",
+      "type": "peer",
+      "note": "同为博士，甘露中论石渠议五经同异"
+    },
+    {
+      "source": "lin-zun",
+      "target": "dai-sheng",
+      "type": "peer",
+      "note": "同以博士与石渠之议，分传《尚书》《礼》"
+    },
+    {
+      "source": "liu-heng",
+      "target": "liu-ang-jiaoxi",
+      "type": "ruler-subject",
+      "note": "文帝分齐为六国，同日立卬为胶西王"
+    },
+    {
+      "source": "chao-cuo",
+      "target": "liu-ang-jiaoxi",
+      "type": "rival",
+      "note": "削其六县；卬起兵且以诛错为名"
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-ang-jiaoxi",
+      "type": "rival",
+      "note": "卬举兵应吴楚反汉，帝遣亚夫窦婴击之"
+    },
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-xiang-qi",
+      "type": "kin",
+      "note": "同为悼惠王子九王，襄为太子长兄"
+    },
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-xiongqu",
+      "type": "peer",
+      "note": "同为渠率，共围临菑，兵败同除国"
+    },
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-xian-zichuan",
+      "type": "peer",
+      "note": "菑川王共攻围临菑，败后各引兵归"
+    },
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-piguang",
+      "type": "peer",
+      "note": "济南王与共围临菑，同应吴楚伏诛"
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-bo",
+      "type": "kin",
+      "note": "父子；天汉四年立髆为昌邑王"
+    },
+    {
+      "source": "liu-bo",
+      "target": "liu-he",
+      "type": "kin",
+      "note": "父子；哀王薨，贺嗣立昌邑王"
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-dan",
+      "type": "kin",
+      "note": "武帝之子，元狩六年受策立为燕王，后见恶削县"
+    },
+    {
+      "source": "liu-dan",
+      "target": "liu-fuling",
+      "type": "kin",
+      "note": "弟昭帝立，旦为奸书言少帝非武帝子，谋废之"
+    },
+    {
+      "source": "liu-dan",
+      "target": "shangguan-jie",
+      "type": "peer",
+      "note": "通谋废帝杀霍光迎立燕王，事败同伏诛"
+    },
+    {
+      "source": "liu-dan",
+      "target": "sang-hongyang",
+      "type": "peer",
+      "note": "弘羊与桀通燕王，数疏霍光过失予旦"
+    },
+    {
+      "source": "liu-dan",
+      "target": "shangguan-an",
+      "type": "peer",
+      "note": "桀子与父同谋废立，元凤元年族诛"
+    },
+    {
+      "source": "liu-dan",
+      "target": "liu-xu-guangling",
+      "type": "kin",
+      "note": "同母兄弟，元狩六年同日受策立王"
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-de",
+      "type": "ruler-subject",
+      "note": "兄弟；元光五年冬来朝献雅乐，对诏策三十余事"
+    },
+    {
+      "source": "liu-de",
+      "target": "liu-an",
+      "type": "peer",
+      "note": "并称好书；淮南所招致率多浮辩"
+    },
+    {
+      "source": "gongsun-hong",
+      "target": "liu-de",
+      "type": "peer",
+      "note": "弘称献王雅乐音中正雅，立之大乐"
+    },
+    {
+      "source": "lv-zhi",
+      "target": "liu-hong-shaodi",
+      "type": "ruler-subject",
+      "note": "吕后立弘为帝，称制不称元年"
+    },
+    {
+      "source": "liu-hong-shaodi",
+      "target": "liu-zhang-chengyang",
+      "type": "ruler-subject",
+      "note": "章杀产后，帝令谒者持节劳章"
+    },
+    {
+      "source": "liu-xingju",
+      "target": "liu-hong-shaodi",
+      "type": "rival",
+      "note": "兴居除宫，谓足下非刘氏，载帝出"
+    },
+    {
+      "source": "zhou-bo",
+      "target": "liu-hong-shaodi",
+      "type": "rival",
+      "note": "定刘氏后，是夜分部诛少帝于邸"
+    },
+    {
+      "source": "chen-ping",
+      "target": "liu-hong-shaodi",
+      "type": "rival",
+      "note": "与勃阴谋，以为弘非孝惠子共诛之"
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-piguang",
+      "type": "rival",
+      "note": "景帝三年七国反，诏讨辟光，兵败国除"
+    },
+    {
+      "source": "liu-piguang",
+      "target": "liu-pi",
+      "type": "peer",
+      "note": "吴王濞发使约反，辟光许诺应吴楚"
+    },
+    {
+      "source": "liu-piguang",
+      "target": "liu-ang-jiaoxi",
+      "type": "kin",
+      "note": "同父兄弟；卬为渠率，共攻围临菑"
+    },
+    {
+      "source": "liu-piguang",
+      "target": "liu-xian-zichuan",
+      "type": "kin",
+      "note": "同父兄弟；同反，共攻围临菑"
+    },
+    {
+      "source": "liu-piguang",
+      "target": "liu-xiongqu",
+      "type": "kin",
+      "note": "同父兄弟；同发兵应吴楚，共围临菑"
+    },
+    {
+      "source": "liu-piguang",
+      "target": "liu-wu-chu",
+      "type": "peer",
+      "note": "同预约从之盟，诏书与楚王戊并名"
+    },
+    {
+      "source": "liu-piguang",
+      "target": "dou-ying",
+      "type": "rival",
+      "note": "窦婴屯荥阳监齐赵兵，为辟光敌面"
+    },
+    {
+      "source": "liu-rong-linjiang",
+      "target": "liu-qi",
+      "type": "kin",
+      "note": "景帝长子；立而复废，征死中尉府"
+    },
+    {
+      "source": "liu-rong-linjiang",
+      "target": "liu-che",
+      "type": "kin",
+      "note": "异母弟；荣废后继立为皇太子"
+    },
+    {
+      "source": "liu-rong-linjiang",
+      "target": "liu-de",
+      "type": "kin",
+      "note": "同母兄弟，并栗姬所生"
+    },
+    {
+      "source": "liu-rong-linjiang",
+      "target": "liu-wu",
+      "type": "kin",
+      "note": "荣废后，太后欲以梁王为嗣"
+    },
+    {
+      "source": "dou-ying",
+      "target": "liu-rong-linjiang",
+      "type": "mentor",
+      "note": "太子太傅；废储力争，狱中送刀笔"
+    },
+    {
+      "source": "liu-rong-linjiang",
+      "target": "dou-yifang",
+      "type": "kin",
+      "note": "祖母；闻荣冤死，怒而斩郅都"
+    },
+    {
+      "source": "liu-heng",
+      "target": "liu-sui-zhao",
+      "type": "ruler-subject",
+      "note": "孝文元年立幽王子遂为赵王"
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-sui-zhao",
+      "type": "rival",
+      "note": "削常山激变，赵反，城破国除"
+    },
+    {
+      "source": "chao-cuo",
+      "target": "liu-sui-zhao",
+      "type": "rival",
+      "note": "以过削赵常山郡，遂怨而合谋反"
+    },
+    {
+      "source": "liu-wu-chu",
+      "target": "liu-sui-zhao",
+      "type": "peer",
+      "note": "吴楚反，遂与合谋起兵"
+    },
+    {
+      "source": "dou-ying",
+      "target": "liu-sui-zhao",
+      "type": "rival",
+      "note": "拜大将军屯荥阳，监齐赵兵"
+    },
+    {
+      "source": "jun-chen",
+      "target": "liu-sui-zhao",
+      "type": "peer",
+      "note": "阴使匈奴连和，围城时匈奴不救"
+    },
+    {
+      "source": "liu-wu-chu",
+      "target": "shen-gong",
+      "type": "ruler-subject",
+      "note": "君臣旧谊；戊淫暴刑申公，赭衣舂市"
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-wu-chu",
+      "type": "rival",
+      "note": "削书逼反，戊应吴反汉兵败自杀"
+    },
+    {
+      "source": "chao-cuo",
+      "target": "liu-wu-chu",
+      "type": "rival",
+      "note": "请诛削楚，削书到，戊遂应吴反"
+    },
+    {
+      "source": "zhou-yafu",
+      "target": "liu-wu-chu",
+      "type": "rival",
+      "note": "昌邑南接战，绝吴楚粮道致戊败亡"
+    },
+    {
+      "source": "liu-wu",
+      "target": "liu-wu-chu",
+      "type": "rival",
+      "note": "戊与吴西攻梁破棘壁，受阻睢阳"
     }
   ],
   "events": [

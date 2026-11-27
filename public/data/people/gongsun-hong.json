@@ -120,6 +120,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gongsun-hong",
+      "target": "liu-de",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弘称献王雅乐音中正雅，立之大乐"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

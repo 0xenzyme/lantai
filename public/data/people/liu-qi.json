@@ -229,6 +229,66 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-qi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "卬举兵应吴楚反汉，帝遣亚夫窦婴击之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-piguang",
+      "target": "liu-qi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "景帝三年七国反，诏讨辟光，兵败国除"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-rong-linjiang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "景帝长子；立而复废，征死中尉府"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-sui-zhao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "削常山激变，赵反，城破国除"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-qi",
+      "target": "liu-wu-chu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "削书逼反，戊应吴反汉兵败自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -6,14 +6,131 @@ profile: full
 gender: male
 polity:
   - han
+categories:
+  - royal-kin
+  - vassal
+  - rebel
+primary: vassal
 birthAccuracy: unknown
+birthNote: 生年史无明文，寿数不可考，故作 unknown。
 death: -154
 deathAccuracy: exact
-title: 赵王，城坏自杀国除
+title: 赵王，七国之乱城坏自杀
+tags:
+  - 西汉
+  - 七国之乱
+  - 削藩
+  - 赵国
+aliases:
+  - 赵王遂
 sources:
-  - work: 汉书
-    part: 高五王传·卷038
+  - work: 史记
+    part: 卷050·楚元王世家
     kind: classic
+  - work: 史记
+    part: 卷059·五宗世家
+    kind: classic
+  - work: 史记
+    part: 卷106·吴王濞列传
+    kind: classic
+  - work: 史记
+    part: 卷110·匈奴列传
+    kind: classic
+  - work: 汉书
+    part: 卷005·景帝纪
+    kind: classic
+  - work: 汉书
+    part: 卷014·诸侯王表
+    kind: classic
+  - work: 汉书
+    part: 卷035·荆燕吴传
+    kind: classic
+  - work: 汉书
+    part: 卷038·高五王传
+    kind: classic
+  - work: 资治通鉴
+    part: 卷013
+    kind: classic
+  - work: 资治通鉴
+    part: 卷016
+    kind: classic
+experiences:
+  - id: shao-feng-zhao-wang
+    label: 幽王子绍封赵王，河间始分
+    year: -179
+    yearAccuracy: exact
+    place: 赵国
+    note: 父赵幽王友以谗为吕太后围守邸中，不得食，遂幽死，以民礼葬之长安。高后崩，孝文即位，立幽王子遂为赵王；通鉴系于文帝前元年冬十月庚戌，汉书诸侯王表作孝文元年绍封。文帝二年，上曰「赵幽王幽死，朕甚怜之」，已立其长子遂为赵王，遂取赵之河间立遂弟辟彊为河间文王。
+    sources:
+      - work: 汉书
+        part: 卷038·高五王传
+        kind: classic
+      - work: 汉书
+        part: 卷014·诸侯王表
+        kind: classic
+      - work: 资治通鉴
+        part: 卷013
+        kind: classic
+  - id: xue-chang-shan
+    label: 晁错削赵常山郡
+    year: -155
+    yearAccuracy: exact
+    place: 赵国
+    note: 王赵二十六年。景帝时晁错以过削赵常山郡，诸侯怨。汉书荆燕吴传系于「前二年」（景帝前二年），资治通鉴系于景帝前三年条下称「前年」；史记吴王濞列传则作「削其河间郡」，两书异文并存，常山郡从本传。
+    sources:
+      - work: 汉书
+        part: 卷038·高五王传
+        kind: classic
+      - work: 汉书
+        part: 卷035·荆燕吴传
+        kind: classic
+      - work: 史记
+        part: 卷106·吴王濞列传
+        kind: classic
+      - work: 资治通鉴
+        part: 卷016
+        kind: classic
+  - id: qibing-lian-xiongnu
+    label: 与吴楚合谋起兵，烧杀谏臣，北连匈奴
+    year: -154
+    yearAccuracy: exact
+    place: 邯郸
+    note: 景帝三年春正月，吴王濞、楚王戊等七国皆举兵反，遂与合谋起兵；其相建德、内史王悍谏，不听，遂烧杀之；发兵屯其西界，欲待吴楚俱进；北使匈奴与连和。史记匈奴列传载，孝景帝立，「赵王遂乃阴使人于匈奴」，吴楚反，「欲与赵合谋入边」。
+    sources:
+      - work: 汉书
+        part: 卷038·高五王传
+        kind: classic
+      - work: 汉书
+        part: 卷005·景帝纪
+        kind: classic
+      - work: 史记
+        part: 卷050·楚元王世家
+        kind: classic
+      - work: 史记
+        part: 卷110·匈奴列传
+        kind: classic
+  - id: handan-zicheng
+    label: 郦寄围邯郸七月，引水灌城自杀国除
+    year: -154
+    yearAccuracy: exact
+    place: 邯郸
+    note: 汉使曲周侯郦寄击之，赵王遂还，城守邯郸，相距七月；吴楚败，匈奴闻之亦止，不肯入边。栾布自破齐还，并兵引水灌赵城，城坏，王遂自杀，邯郸遂降，国除。景帝怜赵相、内史守正死，皆封其子为列侯。
+    sources:
+      - work: 汉书
+        part: 卷038·高五王传
+        kind: classic
+      - work: 史记
+        part: 卷050·楚元王世家
+        kind: classic
+      - work: 资治通鉴
+        part: 卷016
+        kind: classic
 ---
 
-刘遂，赵幽王友之子，孝文即位立为赵王。立二十六年，孝景时，晁错以过削赵常山郡，吴楚反，遂与合谋起兵，烧杀谏者相建德、内史王悍，北使匈奴与连和。汉使郦寄击之，城守邯郸，相距七月。吴楚败，匈奴不肯入边。栾布引水灌城，城坏，王遂自杀，国除。
+刘遂，赵幽王刘友之长子。父友高帝十一年先立为淮阳王，孝惠元年徙王赵，凡立十四年；因不爱吕氏所配王后，诸吕女怒去，谗之于吕太后。太后召赵王至长安，置邸不见，令卫围守，不得进食，群臣或窃馈之，辄捕论之。赵王饿，歌曰「为王饿死兮，谁者怜之」，遂幽死，以民礼葬之长安。高后崩，孝文即位，立幽王子遂为赵王，通鉴系于文帝前元年冬十月庚戌。文帝二年，上曰「赵幽王幽死，朕甚怜之」，已立其长子遂为赵王，遂取赵之河间立遂弟辟彊为河间文王，赵国始分。
+
+遂王赵共二十六年，汉书本传称「立二十六年」，诸侯王表作孝文元年绍封、二十六年而诛。景帝即位，晁错用事，锐意削藩。景帝前二年，赵王有罪，削其常山郡；本传谓「晁错以过削赵常山郡，诸侯怨」。史记吴王濞列传则作「削其河间郡」，两书异文并存，常山郡从汉书。
+
+景帝三年春正月，吴王濞、楚王戊等七国皆举兵反，赵王遂与合谋起兵。其相建德、内史王悍谏，不听，遂烧杀德、悍；发兵屯其西界，欲待吴楚俱进；又北使匈奴与连和。史记匈奴列传载：孝景帝立，「赵王遂乃阴使人于匈奴」；吴楚反，「欲与赵合谋入边」。汉遣太尉亚夫、大将军窦婴将兵击之，窦婴屯荥阳，监齐、赵兵。
+
+汉使曲周侯郦寄击赵，赵王遂还，城守邯郸，相距七月。吴楚败于梁地，匈奴闻之亦止，不肯入汉边。栾布自破齐还，并兵引水灌赵城；城坏，王遂自杀，邯郸遂降，国除。景帝怜赵相、内史守正死，皆封其子为列侯。其后广川王彭祖徙王赵地，赵幽王之嗣遂绝。太史公曰「安危在出令，存亡在所任」；索隐述赞亦叹「如何赵遂，代殒厥声」。

@@ -130,6 +130,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dou-yifang",
+      "target": "liu-rong-linjiang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖母；闻荣冤死，怒而斩郅都"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

@@ -122,6 +122,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-wu-chu",
+      "target": "zhou-yafu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "昌邑南接战，绝吴楚粮道致戊败亡"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -162,6 +162,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-ping",
+      "target": "liu-hong-shaodi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "与勃阴谋，以为弘非孝惠子共诛之"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

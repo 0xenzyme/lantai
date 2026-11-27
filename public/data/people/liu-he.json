@@ -82,6 +82,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-bo",
+      "target": "liu-he",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；哀王薨，贺嗣立昌邑王"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

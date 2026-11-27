@@ -40,6 +40,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-dan",
+      "target": "liu-xu-guangling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同母兄弟，元狩六年同日受策立王"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

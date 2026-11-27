@@ -111,6 +111,42 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chao-cuo",
+      "target": "liu-ang-jiaoxi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "削其六县；卬起兵且以诛错为名"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chao-cuo",
+      "target": "liu-sui-zhao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "以过削赵常山郡，遂怨而合谋反"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chao-cuo",
+      "target": "liu-wu-chu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "请诛削楚，削书到，戊遂应吴反"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

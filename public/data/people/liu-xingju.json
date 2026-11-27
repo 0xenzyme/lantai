@@ -20,7 +20,20 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-hong-shaodi",
+      "target": "liu-xingju",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "兴居除宫，谓足下非刘氏，载帝出"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

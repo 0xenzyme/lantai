@@ -113,6 +113,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-wu-chu",
+      "target": "shen-gong",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "君臣旧谊；戊淫暴刑申公，赭衣舂市"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

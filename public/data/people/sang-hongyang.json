@@ -84,6 +84,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-dan",
+      "target": "sang-hongyang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "弘羊与桀通燕王，数疏霍光过失予旦"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

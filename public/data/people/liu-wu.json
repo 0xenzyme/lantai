@@ -94,6 +94,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-rong-linjiang",
+      "target": "liu-wu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "荣废后，太后欲以梁王为嗣"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-wu",
+      "target": "liu-wu-chu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "戊与吴西攻梁破棘壁，受阻睢阳"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

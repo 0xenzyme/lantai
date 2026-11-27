@@ -20,7 +20,20 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-dan",
+      "target": "shangguan-an",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "桀子与父同谋废立，元凤元年族诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

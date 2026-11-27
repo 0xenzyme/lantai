@@ -672,6 +672,54 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-bo",
+      "target": "liu-che",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "父子；天汉四年立髆为昌邑王"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-dan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "武帝之子，元狩六年受策立为燕王，后见恶削县"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-de",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "兄弟；元光五年冬来朝献雅乐，对诏策三十余事"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-rong-linjiang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "异母弟；荣废后继立为皇太子"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

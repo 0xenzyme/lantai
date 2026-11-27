@@ -137,6 +137,42 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dou-ying",
+      "target": "liu-piguang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "窦婴屯荥阳监齐赵兵，为辟光敌面"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-ying",
+      "target": "liu-rong-linjiang",
+      "type": "mentor",
+      "directed": true,
+      "notes": [
+        "太子太傅；废储力争，狱中送刀笔"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dou-ying",
+      "target": "liu-sui-zhao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "拜大将军屯荥阳，监齐赵兵"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

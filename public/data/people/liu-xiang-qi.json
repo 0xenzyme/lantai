@@ -45,6 +45,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-xiang-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同为悼惠王子九王，襄为太子长兄"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

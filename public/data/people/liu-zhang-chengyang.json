@@ -33,6 +33,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-hong-shaodi",
+      "target": "liu-zhang-chengyang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "章杀产后，帝令谒者持节劳章"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

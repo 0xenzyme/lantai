@@ -232,6 +232,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "liu-ang-jiaoxi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "文帝分齐为六国，同日立卬为胶西王"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-heng",
+      "target": "liu-sui-zhao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孝文元年立幽王子遂为赵王"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

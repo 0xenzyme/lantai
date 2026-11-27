@@ -20,7 +20,32 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-ang-jiaoxi",
+      "target": "liu-xiongqu",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同为渠率，共围临菑，兵败同除国"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-piguang",
+      "target": "liu-xiongqu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "同父兄弟；同发兵应吴楚，共围临菑"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -109,6 +109,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-an",
+      "target": "liu-de",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并称好书；淮南所招致率多浮辩"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

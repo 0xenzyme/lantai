@@ -186,6 +186,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-hong-shaodi",
+      "target": "zhou-bo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "定刘氏后，是夜分部诛少帝于邸"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [
