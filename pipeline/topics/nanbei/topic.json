@@ -1164,12 +1164,6 @@
       "note": "冯太后临朝，孝文受其教而行汉化"
     },
     {
-      "source": "yuan-hong",
-      "target": "cui-hao",
-      "type": "ruler-subject",
-      "note": "崔浩修国史，后以「国史之狱」被诛"
-    },
-    {
       "source": "erzhu-rong",
       "target": "yuan-xu",
       "type": "rival",
@@ -1648,6 +1642,114 @@
       "target": "lu-xun-yuxian",
       "type": "rival",
       "note": "义熙六年乘刘裕北伐北出，兵逼建康；刘裕回师破之，走交州被杀"
+    },
+    {
+      "source": "tuoba-tao",
+      "target": "cui-hao",
+      "type": "ruler-subject",
+      "note": "帝从崔浩定策，后以国史狱诛之"
+    },
+    {
+      "source": "tuoba-tao",
+      "target": "helian-hou-taiwu",
+      "type": "kin",
+      "note": "延和元年立赫连氏为皇后"
+    },
+    {
+      "source": "tuoba-tao",
+      "target": "gao-yun",
+      "type": "ruler-subject",
+      "note": "神麚四年征高允，差次叙用"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "li-chong",
+      "type": "ruler-subject",
+      "note": "固谏止冯太后废立，又经始洛京"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "wang-su-gongyi",
+      "type": "ruler-subject",
+      "note": "王肃陈伐齐之策，器遇日隆"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "yuan-xie",
+      "type": "ruler-subject",
+      "note": "勰侍疾禁中摄百揆，受顾命"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "xiao-yan",
+      "type": "rival",
+      "note": "太和二十二年邓城之战破萧衍军"
+    },
+    {
+      "source": "yuan-hong",
+      "target": "chen-xianda",
+      "type": "rival",
+      "note": "太和二十三年马圈之战破显达军"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "yuwen-hu",
+      "type": "ruler-subject",
+      "note": "即位授护中外诸军事，后诛之亲政"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "yuwen-xian",
+      "type": "ruler-subject",
+      "note": "以宪为大冢宰，伐齐任前军"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "wei-xiaokuan",
+      "type": "ruler-subject",
+      "note": "累迁孝宽为柱国、大司空"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "wang-gui-wuguan",
+      "type": "ruler-subject",
+      "note": "王轨克晋州，又直言太子不稳"
+    },
+    {
+      "source": "yu-jin-sijing",
+      "target": "yuwen-yong",
+      "type": "mentor",
+      "note": "帝幸太学，以于谨为三老问道"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "chinu-hou",
+      "type": "kin",
+      "note": "母子。太后崩，帝申三年之制"
+    },
+    {
+      "source": "yuwen-yong",
+      "target": "gao-wei",
+      "type": "rival",
+      "note": "亲征灭齐，俘高纬封温国公"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "hou-jing",
+      "type": "rival",
+      "note": "纳侯景内属，景举兵反，围台城弑君"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "xiao-zhengde",
+      "type": "rival",
+      "note": "临贺王正德迎侯景，率众附贼"
+    },
+    {
+      "source": "xiao-yan",
+      "target": "xiao-lun",
+      "type": "kin",
+      "note": "父子，邵陵王纶讨景入援败于湖头"
     }
   ],
   "events": [
