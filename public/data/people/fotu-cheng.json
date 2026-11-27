@@ -20,7 +20,20 @@
       "lane": "wen"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "shi-le",
+      "target": "fotu-cheng",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "勒得佛图澄，试之有效，甚尊重之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

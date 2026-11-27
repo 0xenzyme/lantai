@@ -42,6 +42,30 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "murong-chui",
+      "target": "wang-meng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "王猛恶垂雄略，劝苻坚杀之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    },
+    {
+      "source": "huan-wen",
+      "target": "wang-meng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "王猛献策合燕退温，枋头挫其兵"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [

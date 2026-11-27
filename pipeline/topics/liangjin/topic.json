@@ -2054,6 +2054,186 @@
       "target": "zhou-chu",
       "type": "mentor",
       "note": "周处少为乡里所患，陆云劝其力学，遂改过成名"
+    },
+    {
+      "source": "murong-chui",
+      "target": "murong-bao",
+      "type": "kin",
+      "note": "立宝为太子，参合败后宝嗣后燕"
+    },
+    {
+      "source": "murong-chui",
+      "target": "murong-de",
+      "type": "kin",
+      "note": "弟德从兄建燕，参合后守中山"
+    },
+    {
+      "source": "murong-ke",
+      "target": "murong-chui",
+      "type": "peer",
+      "note": "慕容恪重垂才，荐以委政"
+    },
+    {
+      "source": "huan-wen",
+      "target": "murong-chui",
+      "type": "rival",
+      "note": "枋头垂大破桓温，威名大振"
+    },
+    {
+      "source": "wang-meng",
+      "target": "murong-chui",
+      "type": "rival",
+      "note": "王猛恶垂雄略，劝苻坚杀之"
+    },
+    {
+      "source": "murong-yong",
+      "target": "murong-chui",
+      "type": "rival",
+      "note": "垂讨慕容永，克长子而戮之"
+    },
+    {
+      "source": "murong-wei",
+      "target": "murong-chui",
+      "type": "ruler-subject",
+      "note": "垂为前燕吴王，事慕容暐"
+    },
+    {
+      "source": "liu-yuan",
+      "target": "shi-le",
+      "type": "ruler-subject",
+      "note": "渊署勒辅汉将军平晋王，使督山东征讨"
+    },
+    {
+      "source": "shi-le",
+      "target": "shi-hong",
+      "type": "kin",
+      "note": "立弘为世子太子，遗令辅政"
+    },
+    {
+      "source": "shi-le",
+      "target": "fotu-cheng",
+      "type": "ruler-subject",
+      "note": "勒得佛图澄，试之有效，甚尊重之"
+    },
+    {
+      "source": "shi-le",
+      "target": "zu-ti",
+      "type": "rival",
+      "note": "祖逖据谯，勒惮之，修墓求和"
+    },
+    {
+      "source": "sima-shao",
+      "target": "wang-dao",
+      "type": "ruler-subject",
+      "note": "明帝受遗诏辅政，伐敦假节都督诸军"
+    },
+    {
+      "source": "wang-dao",
+      "target": "yu-liang",
+      "type": "peer",
+      "note": "同受遗诏共辅幼主，征苏峻意见相左"
+    },
+    {
+      "source": "wen-qiao",
+      "target": "wang-dao",
+      "type": "peer",
+      "note": "温峤议迁都豫章，导议止之"
+    },
+    {
+      "source": "wang-dao",
+      "target": "wang-xun",
+      "type": "kin",
+      "note": "王珣为导孙，洽之子，桓温所重"
+    },
+    {
+      "source": "sima-yue",
+      "target": "xie-an",
+      "type": "ruler-subject",
+      "note": "孝武帝委以国政，进录尚书事、太保"
+    },
+    {
+      "source": "xie-an",
+      "target": "wang-xizhi",
+      "type": "peer",
+      "note": "同游会稽，兰亭修禊同席"
+    },
+    {
+      "source": "xie-an",
+      "target": "wang-tanzhi",
+      "type": "peer",
+      "note": "初齐名，共挫桓温、尽忠匡翼"
+    },
+    {
+      "source": "xie-an",
+      "target": "huan-wen",
+      "type": "peer",
+      "note": "为桓温司马，温称谢安石碎金"
+    },
+    {
+      "source": "xie-an",
+      "target": "sun-chuo",
+      "type": "peer",
+      "note": "与孙绰等泛海，吟啸自若"
+    },
+    {
+      "source": "xie-xuan",
+      "target": "fu-jian",
+      "type": "rival",
+      "note": "淝水之战，以八千破其众"
+    },
+    {
+      "source": "xie-xuan",
+      "target": "xie-yan",
+      "type": "kin",
+      "note": "从兄弟，同涉肥水破坚"
+    },
+    {
+      "source": "xie-an",
+      "target": "xie-xuan",
+      "type": "ruler-subject",
+      "note": "安为征讨都督，玄为前锋受指授"
+    },
+    {
+      "source": "huan-wen",
+      "target": "chi-chao",
+      "type": "ruler-subject",
+      "note": "郗超为温参军、谋主，进废立之计"
+    },
+    {
+      "source": "huan-wen",
+      "target": "xie-an",
+      "type": "rival",
+      "note": "谢安遥拜讥温，又缓其九锡"
+    },
+    {
+      "source": "huan-wen",
+      "target": "yin-hao",
+      "type": "rival",
+      "note": "温因朝野之怨奏废殷浩，大权归温"
+    },
+    {
+      "source": "huan-wen",
+      "target": "wang-meng",
+      "type": "rival",
+      "note": "王猛献策合燕退温，枋头挫其兵"
+    },
+    {
+      "source": "fu-jian",
+      "target": "fu-pi",
+      "type": "kin",
+      "note": "长庶子，坚败后嗣位，闻坚死举哀晋阳"
+    },
+    {
+      "source": "fu-jian",
+      "target": "murong-chong",
+      "type": "rival",
+      "note": "坚纳其姊弟宠冠后庭，后起兵逼长安，坚登城责之"
+    },
+    {
+      "source": "fu-jian",
+      "target": "zhang-tianxi",
+      "type": "ruler-subject",
+      "note": "坚遣姚萇伐凉，天锡面缚舆榇降，封归义侯"
     }
   ],
   "events": [

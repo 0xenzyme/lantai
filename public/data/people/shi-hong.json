@@ -20,7 +20,20 @@
       "lane": "shiliuguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "shi-hong",
+      "target": "shi-le",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "立弘为世子太子，遗令辅政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

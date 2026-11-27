@@ -43,6 +43,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "wang-tanzhi",
+      "target": "xie-an",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "初齐名，共挫桓温、尽忠匡翼"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [],

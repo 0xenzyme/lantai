@@ -89,6 +89,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "sima-yue",
+      "target": "xie-an",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "孝武帝委以国政，进录尚书事、太保"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [],

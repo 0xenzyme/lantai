@@ -90,6 +90,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "wang-dao",
+      "target": "wen-qiao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "温峤议迁都豫章，导议止之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [

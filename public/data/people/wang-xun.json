@@ -20,7 +20,20 @@
       "lane": "dongjin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "wang-dao",
+      "target": "wang-xun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "王珣为导孙，洽之子，桓温所重"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

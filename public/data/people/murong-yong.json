@@ -20,7 +20,20 @@
       "lane": "shiliuguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "murong-chui",
+      "target": "murong-yong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "垂讨慕容永，克长子而戮之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

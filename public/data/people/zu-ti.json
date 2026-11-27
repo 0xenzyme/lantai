@@ -53,6 +53,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "shi-le",
+      "target": "zu-ti",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "祖逖据谯，勒惮之，修墓求和"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [

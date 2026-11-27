@@ -21,7 +21,20 @@
       "lane": "shiliuguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "fu-jian",
+      "target": "zhang-tianxi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "坚遣姚萇伐凉，天锡面缚舆榇降，封归义侯"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

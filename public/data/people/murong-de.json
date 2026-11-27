@@ -57,6 +57,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "murong-chui",
+      "target": "murong-de",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "弟德从兄建燕，参合后守中山"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [],

@@ -20,7 +20,20 @@
       "lane": "shiliuguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "murong-wei",
+      "target": "murong-chui",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "垂为前燕吴王，事慕容暐"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

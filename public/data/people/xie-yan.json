@@ -54,6 +54,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "xie-xuan",
+      "target": "xie-yan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "从兄弟，同涉肥水破坚"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [

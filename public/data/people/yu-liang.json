@@ -91,6 +91,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "wang-dao",
+      "target": "yu-liang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同受遗诏共辅幼主，征苏峻意见相左"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [

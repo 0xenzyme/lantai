@@ -20,7 +20,20 @@
       "lane": "shiliuguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "fu-jian",
+      "target": "murong-chong",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "坚纳其姊弟宠冠后庭，后起兵逼长安，坚登城责之"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

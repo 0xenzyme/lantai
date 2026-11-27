@@ -43,6 +43,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "liu-yuan",
+      "target": "shi-le",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "渊署勒辅汉将军平晋王，使督山东征讨"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [

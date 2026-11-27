@@ -57,6 +57,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "murong-chui",
+      "target": "murong-ke",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "慕容恪重垂才，荐以委政"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [],

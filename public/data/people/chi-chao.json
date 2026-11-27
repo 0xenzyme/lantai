@@ -20,7 +20,20 @@
       "lane": "wen"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "huan-wen",
+      "target": "chi-chao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "郗超为温参军、谋主，进废立之计"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

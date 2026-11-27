@@ -20,7 +20,20 @@
       "lane": "shiliuguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "fu-jian",
+      "target": "fu-pi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "长庶子，坚败后嗣位，闻坚死举哀晋阳"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

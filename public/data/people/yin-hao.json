@@ -53,6 +53,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "huan-wen",
+      "target": "yin-hao",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "温因朝野之怨奏废殷浩，大权归温"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [],

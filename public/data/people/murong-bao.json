@@ -20,7 +20,20 @@
       "lane": "shiliuguo"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "murong-bao",
+      "target": "murong-chui",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "立宝为太子，参合败后宝嗣后燕"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

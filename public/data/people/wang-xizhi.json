@@ -42,6 +42,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "wang-xizhi",
+      "target": "xie-an",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同游会稽，兰亭修禊同席"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [

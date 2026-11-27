@@ -21,7 +21,20 @@
       "lane": "wen"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "sun-chuo",
+      "target": "xie-an",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与孙绰等泛海，吟啸自若"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

@@ -77,6 +77,18 @@
       "topicIds": [
         "liangjin"
       ]
+    },
+    {
+      "source": "sima-shao",
+      "target": "wang-dao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "明帝受遗诏辅政，伐敦假节都督诸军"
+      ],
+      "topicIds": [
+        "liangjin"
+      ]
     }
   ],
   "events": [
