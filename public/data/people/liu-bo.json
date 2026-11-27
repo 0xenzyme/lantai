@@ -52,6 +52,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "li-furen",
+      "target": "liu-bo",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "母子；生昌邑哀王髆，天汉四年立为昌邑王"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

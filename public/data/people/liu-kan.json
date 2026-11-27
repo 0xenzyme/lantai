@@ -141,6 +141,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "feng-zhaoyi",
+      "target": "liu-kan",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖母孙；平帝幼嗣中山王，太后自养视"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

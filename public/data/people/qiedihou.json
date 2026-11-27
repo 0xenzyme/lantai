@@ -20,7 +20,32 @@
       "lane": "xiongnu"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "hulugu",
+      "target": "qiedihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "且鞮侯长子，太始元年继立"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "juli-hu",
+      "target": "qiedihou",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "且鞮侯为其弟，兄死以左大都尉继立"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

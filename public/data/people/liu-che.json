@@ -624,6 +624,54 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "er-chanyu",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "汉使欲乖其国，怒留汉使，覆浞野侯军"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "gouyi-furen",
+      "target": "liu-che",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "河间得幸号拳夫人，进婕妤生昭帝；终谴赐死"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "hulugu",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "征和三年败贰师军，遗汉书求和亲"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "juli-hu",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "武帝筑城备边，其秋遣兵入边坏亭障"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

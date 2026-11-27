@@ -95,6 +95,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "feng-fengshi",
+      "target": "zhao-chongguo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "传称折冲宿将，功名次赵充国"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huyandi",
+      "target": "zhao-chongguo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "蒲类将军三万余骑出酒泉，五将合击匈奴"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

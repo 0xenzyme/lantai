@@ -194,6 +194,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-fuling",
+      "target": "fu-jiezi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "昭帝诏封义阳侯，食邑七百户"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "gouyi-furen",
+      "target": "liu-fuling",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "任身十四月生昭帝；即位后追尊皇太后"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

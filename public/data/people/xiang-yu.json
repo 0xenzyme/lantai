@@ -181,6 +181,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "han-wang-xin",
+      "target": "xiang-yu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "守荥阳陷楚被虏，囚于项籍后亡归"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

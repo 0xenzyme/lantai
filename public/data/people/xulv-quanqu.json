@@ -20,7 +20,20 @@
       "lane": "xiongnu"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "huyandi",
+      "target": "xulv-quanqu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "立十七年死，弟左贤王继为虚闾权渠"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

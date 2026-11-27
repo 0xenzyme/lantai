@@ -82,6 +82,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "feng-fengshi",
+      "target": "gan-yanshou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同以矫制立功西域，杜钦并讼其功"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

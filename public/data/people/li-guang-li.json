@@ -121,6 +121,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "hulugu",
+      "target": "li-guang-li",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "燕然山受其降，以女妻之，宠在卫律上"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "juli-hu",
+      "target": "li-guang-li",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "欲遮击破大宛还师的贰师军，不敢"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

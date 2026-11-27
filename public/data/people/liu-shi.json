@@ -184,6 +184,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-shi",
+      "target": "feng-fengshi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "即位以为执金吾，永光二年遣击羌"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "feng-zhaoyi",
+      "target": "liu-shi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "元帝嫔妃，当熊而立，帝嗟叹倍敬重"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

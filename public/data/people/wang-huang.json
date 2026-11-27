@@ -45,6 +45,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "han-wang-xin",
+      "target": "wang-huang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "王黄为其将，共立赵利，说误陈豨"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

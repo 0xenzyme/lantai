@@ -292,6 +292,54 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "fu-jiezi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "介子请刺楼兰，光曰龟兹道远且验之楼兰，白遣之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "gouyi-furen",
+      "target": "huo-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "霍光受遗辅其子；昭帝尊母起云陵"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "huyandi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "匈奴击乌桓，光遣范明友度辽击之"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "huo-guang",
+      "target": "li-furen",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "霍光缘上雅意追尊孝武皇后，配食武帝"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -83,6 +83,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chang-hui",
+      "target": "feng-fengshi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "常惠薨，奉世代为右将军典属国"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chang-hui",
+      "target": "huyandi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "常惠与乌孙兵入右谷蠡庭，虏单于父行"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

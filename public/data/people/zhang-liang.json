@@ -155,6 +155,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "han-wang-xin",
+      "target": "zhang-liang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "沛公使张良以韩司徒徇韩地，得信以为韩将"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

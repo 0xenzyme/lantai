@@ -90,6 +90,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "feng-fengshi",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "议遣谷吉送其侍子，郅支竟杀吉"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

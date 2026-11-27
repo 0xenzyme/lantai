@@ -94,6 +94,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "huyandi",
+      "target": "su-wu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "苏武留匈奴十九年，单于遣归以通善意"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

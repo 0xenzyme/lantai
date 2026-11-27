@@ -95,6 +95,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "feng-fengshi",
+      "target": "xiao-wang-zhi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "议封时独斥矫制违命，奉世不得侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

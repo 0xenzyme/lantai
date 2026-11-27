@@ -4197,6 +4197,246 @@
       "target": "he-wu",
       "type": "peer",
       "note": "董贤荐何武，武复征为御史大夫"
+    },
+    {
+      "source": "er-chanyu",
+      "target": "wuwei",
+      "type": "kin",
+      "note": "乌维单于之子，父死继立为单于"
+    },
+    {
+      "source": "er-chanyu",
+      "target": "juli-hu",
+      "type": "kin",
+      "note": "儿单于死后，季父右贤王句黎湖继立"
+    },
+    {
+      "source": "er-chanyu",
+      "target": "liu-che",
+      "type": "rival",
+      "note": "汉使欲乖其国，怒留汉使，覆浞野侯军"
+    },
+    {
+      "source": "liu-xun",
+      "target": "feng-fengshi",
+      "type": "ruler-subject",
+      "note": "召见韩增称贺将军所举得其人"
+    },
+    {
+      "source": "liu-shi",
+      "target": "feng-fengshi",
+      "type": "ruler-subject",
+      "note": "即位以为执金吾，永光二年遣击羌"
+    },
+    {
+      "source": "feng-fengshi",
+      "target": "feng-zhaoyi",
+      "type": "kin",
+      "note": "长女媛选充后宫，为元帝昭仪"
+    },
+    {
+      "source": "xiao-wang-zhi",
+      "target": "feng-fengshi",
+      "type": "peer",
+      "note": "议封时独斥矫制违命，奉世不得侯"
+    },
+    {
+      "source": "chang-hui",
+      "target": "feng-fengshi",
+      "type": "peer",
+      "note": "常惠薨，奉世代为右将军典属国"
+    },
+    {
+      "source": "wei-xuan-cheng",
+      "target": "feng-fengshi",
+      "type": "peer",
+      "note": "永光二年议羌变，玄成等漠然莫对"
+    },
+    {
+      "source": "feng-fengshi",
+      "target": "zhi-zhi",
+      "type": "rival",
+      "note": "议遣谷吉送其侍子，郅支竟杀吉"
+    },
+    {
+      "source": "feng-fengshi",
+      "target": "gan-yanshou",
+      "type": "peer",
+      "note": "同以矫制立功西域，杜钦并讼其功"
+    },
+    {
+      "source": "feng-fengshi",
+      "target": "zhao-chongguo",
+      "type": "peer",
+      "note": "传称折冲宿将，功名次赵充国"
+    },
+    {
+      "source": "feng-zhaoyi",
+      "target": "liu-shi",
+      "type": "kin",
+      "note": "元帝嫔妃，当熊而立，帝嗟叹倍敬重"
+    },
+    {
+      "source": "feng-zhaoyi",
+      "target": "liu-kan",
+      "type": "kin",
+      "note": "祖母孙；平帝幼嗣中山王，太后自养视"
+    },
+    {
+      "source": "huo-guang",
+      "target": "fu-jiezi",
+      "type": "ruler-subject",
+      "note": "介子请刺楼兰，光曰龟兹道远且验之楼兰，白遣之"
+    },
+    {
+      "source": "fu-jiezi",
+      "target": "lou-lan-wang",
+      "type": "rival",
+      "note": "诱王贪汉物入帐屏语，刺杀楼兰王安归"
+    },
+    {
+      "source": "liu-fuling",
+      "target": "fu-jiezi",
+      "type": "ruler-subject",
+      "note": "昭帝诏封义阳侯，食邑七百户"
+    },
+    {
+      "source": "liu-che",
+      "target": "gouyi-furen",
+      "type": "kin",
+      "note": "河间得幸号拳夫人，进婕妤生昭帝；终谴赐死"
+    },
+    {
+      "source": "gouyi-furen",
+      "target": "liu-fuling",
+      "type": "kin",
+      "note": "任身十四月生昭帝；即位后追尊皇太后"
+    },
+    {
+      "source": "gouyi-furen",
+      "target": "huo-guang",
+      "type": "peer",
+      "note": "霍光受遗辅其子；昭帝尊母起云陵"
+    },
+    {
+      "source": "zhang-liang",
+      "target": "han-wang-xin",
+      "type": "peer",
+      "note": "沛公使张良以韩司徒徇韩地，得信以为韩将"
+    },
+    {
+      "source": "han-wang-xin",
+      "target": "xiang-yu",
+      "type": "rival",
+      "note": "守荥阳陷楚被虏，囚于项籍后亡归"
+    },
+    {
+      "source": "han-wang-xin",
+      "target": "wang-huang",
+      "type": "ruler-subject",
+      "note": "王黄为其将，共立赵利，说误陈豨"
+    },
+    {
+      "source": "qiedihou",
+      "target": "hulugu",
+      "type": "kin",
+      "note": "且鞮侯长子，太始元年继立"
+    },
+    {
+      "source": "hulugu",
+      "target": "huyandi",
+      "type": "kin",
+      "note": "父子；遗命立弟，卫律等矫令立其子"
+    },
+    {
+      "source": "hulugu",
+      "target": "liu-che",
+      "type": "rival",
+      "note": "征和三年败贰师军，遗汉书求和亲"
+    },
+    {
+      "source": "hulugu",
+      "target": "li-guang-li",
+      "type": "rival",
+      "note": "燕然山受其降，以女妻之，宠在卫律上"
+    },
+    {
+      "source": "hulugu",
+      "target": "li-ling",
+      "type": "ruler-subject",
+      "note": "征和三年使陵将三万骑追汉军"
+    },
+    {
+      "source": "huyandi",
+      "target": "xulv-quanqu",
+      "type": "kin",
+      "note": "立十七年死，弟左贤王继为虚闾权渠"
+    },
+    {
+      "source": "huyandi",
+      "target": "su-wu",
+      "type": "rival",
+      "note": "苏武留匈奴十九年，单于遣归以通善意"
+    },
+    {
+      "source": "huyandi",
+      "target": "chang-hui",
+      "type": "rival",
+      "note": "常惠与乌孙兵入右谷蠡庭，虏单于父行"
+    },
+    {
+      "source": "huyandi",
+      "target": "zhao-chongguo",
+      "type": "rival",
+      "note": "蒲类将军三万余骑出酒泉，五将合击匈奴"
+    },
+    {
+      "source": "huyandi",
+      "target": "huo-guang",
+      "type": "rival",
+      "note": "匈奴击乌桓，光遣范明友度辽击之"
+    },
+    {
+      "source": "wuwei",
+      "target": "juli-hu",
+      "type": "kin",
+      "note": "乌维单于之弟，以弟支入继单于位"
+    },
+    {
+      "source": "juli-hu",
+      "target": "qiedihou",
+      "type": "kin",
+      "note": "且鞮侯为其弟，兄死以左大都尉继立"
+    },
+    {
+      "source": "juli-hu",
+      "target": "liu-che",
+      "type": "rival",
+      "note": "武帝筑城备边，其秋遣兵入边坏亭障"
+    },
+    {
+      "source": "juli-hu",
+      "target": "li-guang-li",
+      "type": "rival",
+      "note": "欲遮击破大宛还师的贰师军，不敢"
+    },
+    {
+      "source": "li-furen",
+      "target": "liu-bo",
+      "type": "kin",
+      "note": "母子；生昌邑哀王髆，天汉四年立为昌邑王"
+    },
+    {
+      "source": "li-furen",
+      "target": "huo-guang",
+      "type": "peer",
+      "note": "霍光缘上雅意追尊孝武皇后，配食武帝"
+    },
+    {
+      "source": "li-furen",
+      "target": "gouyi-furen",
+      "type": "peer",
+      "note": "同列武帝宠妃；外戚传钩弋条并提其子早薨"
     }
   ],
   "events": [

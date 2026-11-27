@@ -20,7 +20,32 @@
       "lane": "xiongnu"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "er-chanyu",
+      "target": "wuwei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "乌维单于之子，父死继立为单于"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "juli-hu",
+      "target": "wuwei",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "乌维单于之弟，以弟支入继单于位"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

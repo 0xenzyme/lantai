@@ -20,7 +20,20 @@
       "lane": "opposite"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "fu-jiezi",
+      "target": "lou-lan-wang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "诱王贪汉物入帐屏语，刺杀楼兰王安归"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

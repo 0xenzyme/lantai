@@ -307,6 +307,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-xun",
+      "target": "feng-fengshi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "召见韩增称贺将军所举得其人"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

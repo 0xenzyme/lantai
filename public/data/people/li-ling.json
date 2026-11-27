@@ -107,6 +107,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "hulugu",
+      "target": "li-ling",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "征和三年使陵将三万骑追汉军"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],
