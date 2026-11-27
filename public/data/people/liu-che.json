@@ -540,6 +540,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-qu-mao",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "征和二年拜左丞相，赐玺书督战"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-che",
+      "target": "li-cai",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "元狩朝御史大夫、丞相，坐诏赐冢地案自杀"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -96,6 +96,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gongsun-hong",
+      "target": "li-cai",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "元狩二年三月弘薨，蔡以御史大夫继任丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

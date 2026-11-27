@@ -155,6 +155,10 @@ async def process_person(pid):
                 }
 
             decision = review["decision"]
+            if decision != check_msg:
+                # assemble 只认 reviews/<pid>.json 文件；两边不一致时以文件为准，避免把未落盘的 pass 当完成。
+                log(f"[REVIEW-MISMATCH] {pid} (round {round_idx}): finish={decision}, file={check_msg}; use file decision")
+                decision = check_msg
             if decision == "pass":
                 log(f"[PASS] {pid} (hash={proposal_hash}, rounds={round_idx})")
                 return {

@@ -14,7 +14,7 @@ metadata:
 ## 适用范围与隔离红线
 
 - **适用对象**：已在 `content/<topic>/<id>.md` 登记的人物批量升详表（`mode: "upgrade"`）或生卒史实勘误（`mode: "errata"`），建议每批 4~15 人（常规每组 10 人）。
-- **不适用对象**：尚未上轴的新人物（`publish`，走 `people-production` 路径 B）以及仍在 `pipeline/registry/people/*.json` 的 44 人。
+- **不适用对象**：尚未上轴的新人物（`publish`，走 `people-production` 路径 B）以及仍在 `pipeline/registry/people/*.json` 的遗留记录（现剩 kuai-zhong 1 人）。
 - **隔离红线**：并行阶段内，起草会话只写 `items/<id>.md` 与 `items/<id>.json`，独立审核会话不共享起草上下文、只读核查原典并只写 `reviews/<id>.json`（绑定 16 位 `proposalHash` 且 `reviewer` 不同于 `author`）。任何子会话均不得直接修改 `content/`、`pipeline/topics/`、`public/data/` 或 `batch.json`。
 
 ## 标准五步编排协议

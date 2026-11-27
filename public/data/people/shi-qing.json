@@ -21,7 +21,20 @@
       "lane": "chancellor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "gongsun-he",
+      "target": "shi-qing",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "太初二年代石庆为丞相"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

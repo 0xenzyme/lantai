@@ -119,6 +119,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gongsun-he",
+      "target": "li-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "马邑同伏谷中，元光六年又各将一出击匈奴"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

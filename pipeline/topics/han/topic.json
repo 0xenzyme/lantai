@@ -3603,6 +3603,72 @@
       "target": "wuliu-chongzong",
       "type": "peer",
       "note": "先后为少府，同传梁丘《易》；临代五鹿充宗为少府"
+    },
+    {
+      "source": "liu-che",
+      "target": "liu-qu-mao",
+      "type": "ruler-subject",
+      "note": "征和二年拜左丞相，赐玺书督战"
+    },
+    {
+      "source": "gongsun-he",
+      "target": "liu-qu-mao",
+      "type": "peer",
+      "note": "贺死狱中，屈氂代为左丞相"
+    },
+    {
+      "source": "liu-qu-mao",
+      "target": "che-qian-qiu",
+      "type": "peer",
+      "note": "田千秋数月代屈氂为相，封富民侯"
+    },
+    {
+      "source": "liu-qu-mao",
+      "target": "liu-bo",
+      "type": "peer",
+      "note": "与贰师共谋请立昌邑王为太子"
+    },
+    {
+      "source": "gongsun-he",
+      "target": "li-guang",
+      "type": "peer",
+      "note": "马邑同伏谷中，元光六年又各将一出击匈奴"
+    },
+    {
+      "source": "gongsun-he",
+      "target": "han-anguo",
+      "type": "peer",
+      "note": "马邑之谋诸将皆属其护军节制"
+    },
+    {
+      "source": "gongsun-he",
+      "target": "li-cai",
+      "type": "peer",
+      "note": "元朔五年同从卫青获王封侯"
+    },
+    {
+      "source": "gongsun-he",
+      "target": "shi-qing",
+      "type": "peer",
+      "note": "太初二年代石庆为丞相"
+    },
+    {
+      "source": "liu-che",
+      "target": "li-cai",
+      "type": "ruler-subject",
+      "note": "元狩朝御史大夫、丞相，坐诏赐冢地案自杀"
+    },
+    {
+      "source": "li-cai",
+      "target": "wei-qing",
+      "type": "peer",
+      "note": "元朔五年以轻车将军领属卫青击右贤王，功封乐安侯"
+    },
+    {
+      "source": "li-cai",
+      "target": "gongsun-hong",
+      "type": "peer",
+      "note": "元狩二年三月弘薨，蔡以御史大夫继任丞相"
     }
   ],
   "events": [

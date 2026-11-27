@@ -40,6 +40,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-bo",
+      "target": "liu-qu-mao",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "与贰师共谋请立昌邑王为太子"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

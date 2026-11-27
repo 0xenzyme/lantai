@@ -134,6 +134,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "li-cai",
+      "target": "wei-qing",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "元朔五年以轻车将军领属卫青击右贤王，功封乐安侯"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

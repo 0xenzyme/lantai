@@ -15,7 +15,7 @@ metadata:
 
 ### 路径 A：已登记人物修订与升详表（`revise`，推荐使用分片目录）
 
-适用于 `content/<topic>/<id>.md` 已存在的人物（`brief` 升 `full`、详表扩容、生卒勘误）。`legacy` JSON 的 44 人不在批量工具范围内。
+适用于 `content/<topic>/<id>.md` 已存在的人物（`brief` 升 `full`、详表扩容、生卒勘误）。`legacy` JSON（现剩 kuai-zhong 1 人）不在批量工具范围内。
 
 1. 初始化批次目录（`batch.json` 只由组装工具生成，不手写）：
    ```bash

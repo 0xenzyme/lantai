@@ -110,6 +110,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "gongsun-he",
+      "target": "han-anguo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "马邑之谋诸将皆属其护军节制"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [
