@@ -46,6 +46,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-xi",
+      "target": "han-wang-xin",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "遣王黄曼丘臣说误豨，同为汉敌"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

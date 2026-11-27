@@ -1598,7 +1598,7 @@
       "source": "lv-chan",
       "target": "lv-lu",
       "type": "kin",
-      "note": "兄弟；诸吕之乱中同日被诛"
+      "note": "堂兄弟；分掌南北军，乱中先后被诛"
     },
     {
       "source": "liu-xun",
@@ -3975,6 +3975,228 @@
       "target": "xu-sheng",
       "type": "ruler-subject",
       "note": "孝文帝时以容为礼官大夫，善容见用"
+    },
+    {
+      "source": "lv-chan",
+      "target": "zhou-bo",
+      "type": "rival",
+      "note": "勃与平谋夺产军，遣章入宫诛产"
+    },
+    {
+      "source": "lv-chan",
+      "target": "chen-ping",
+      "type": "rival",
+      "note": "产谋告平，平召朱虚侯佐太尉击产"
+    },
+    {
+      "source": "lv-chan",
+      "target": "guan-ying",
+      "type": "rival",
+      "note": "产遣婴击齐，婴留荥阳与齐连和"
+    },
+    {
+      "source": "lv-chan",
+      "target": "liu-xiang-qi",
+      "type": "rival",
+      "note": "齐王襄举兵西，产遣灌婴将兵击之"
+    },
+    {
+      "source": "zhao-tuo",
+      "target": "lv-jia",
+      "type": "ruler-subject",
+      "note": "相三王佐赵氏社稷；太史公称嘉令佗无后"
+    },
+    {
+      "source": "lv-jia",
+      "target": "yang-pu-han",
+      "type": "rival",
+      "note": "楼船纵火攻番禺，嘉城守败走入海"
+    },
+    {
+      "source": "lv-jia",
+      "target": "lu-bode",
+      "type": "rival",
+      "note": "伏波遣人追捕，嘉为越郎都稽所擒"
+    },
+    {
+      "source": "lv-jia",
+      "target": "zhong-jun",
+      "type": "rival",
+      "note": "嘉反攻杀汉使，终军死之，年二十余"
+    },
+    {
+      "source": "lv-lu",
+      "target": "zhou-bo",
+      "type": "rival",
+      "note": "周勃劫郦商令寄绐禄，夺北军印"
+    },
+    {
+      "source": "lv-lu",
+      "target": "chen-ping",
+      "type": "rival",
+      "note": "丞相平与周勃同谋杀夺禄北军兵"
+    },
+    {
+      "source": "lv-lu",
+      "target": "liu-zhang-chengyang",
+      "type": "kin",
+      "note": "朱虚侯刘章娶禄女，阴知其谋告齐王"
+    },
+    {
+      "source": "lv-lu",
+      "target": "liu-hong-shaodi",
+      "type": "kin",
+      "note": "禄女立为少帝弘皇后，弘为其婿"
+    },
+    {
+      "source": "bo-hou-jingdi",
+      "target": "liu-qi",
+      "type": "kin",
+      "note": "帝后；景帝为太子时薄太后取其家女为妃，即位立后"
+    },
+    {
+      "source": "bo-hou-jingdi",
+      "target": "bo-ji",
+      "type": "kin",
+      "note": "薄太后家女；为太子妃、立后皆由薄太后取定"
+    },
+    {
+      "source": "bo-ji",
+      "target": "liu-bang",
+      "type": "kin",
+      "note": "汉王怜而召幸，一幸生男是为代王"
+    },
+    {
+      "source": "bo-ji",
+      "target": "liu-qi",
+      "type": "kin",
+      "note": "祖孙；景帝尊太皇太后，崩于景前二年"
+    },
+    {
+      "source": "bo-ji",
+      "target": "lv-zhi",
+      "type": "peer",
+      "note": "吕后幽诸幸姬，薄姬以希见得从子之代"
+    },
+    {
+      "source": "bo-ji",
+      "target": "dou-yifang",
+      "type": "kin",
+      "note": "婆媳；诏追尊窦后父母为安成侯夫人"
+    },
+    {
+      "source": "bo-ji",
+      "target": "zhou-bo",
+      "type": "peer",
+      "note": "周勃下狱，太后以冒絮提帝辨白得赦"
+    },
+    {
+      "source": "liu-bang",
+      "target": "chen-xi",
+      "type": "ruler-subject",
+      "note": "封豨列侯以相国守代，豨反而亲征邯郸"
+    },
+    {
+      "source": "han-xin",
+      "target": "chen-xi",
+      "type": "peer",
+      "note": "豨辞淮阴侯，信约从中起共图天下"
+    },
+    {
+      "source": "zhou-bo",
+      "target": "chen-xi",
+      "type": "rival",
+      "note": "太尉勃道太原入定代地，斩豨当城"
+    },
+    {
+      "source": "fan-kuai",
+      "target": "chen-xi",
+      "type": "rival",
+      "note": "十二年冬哙军卒追斩豨于灵丘"
+    },
+    {
+      "source": "han-wang-xin",
+      "target": "chen-xi",
+      "type": "peer",
+      "note": "遣王黄曼丘臣说误豨，同为汉敌"
+    },
+    {
+      "source": "liu-heng",
+      "target": "chen-xi",
+      "type": "rival",
+      "note": "豨自立代王，汉立恒为代王相代"
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "wang-feng",
+      "type": "kin",
+      "note": "甥舅；侍凤疾晨夜扶侍，凤且终属托太后及帝"
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "wang-zhengjun",
+      "type": "kin",
+      "note": "太后姊子；通语东宫得太后指，助立赵后"
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "wang-mang",
+      "type": "rival",
+      "note": "莽心害长宠，白其罪于根与太后，致长诛"
+    },
+    {
+      "source": "liu-ao",
+      "target": "chunyu-chang",
+      "type": "ruler-subject",
+      "note": "帝嘉其义擢至九卿封侯；终系诏狱死"
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "xu-hou-chengdi",
+      "type": "peer",
+      "note": "私通其姊靡取为小妻，受许后赂千余万"
+    },
+    {
+      "source": "da-yuan-wang",
+      "target": "liu-che",
+      "type": "rival",
+      "note": "武帝遣使持千金金马求善马不得，遂发兵十余万伐宛"
+    },
+    {
+      "source": "da-yuan-wang",
+      "target": "li-guang-li",
+      "type": "rival",
+      "note": "贰师将军两征大宛围贵山，毋寡首由贵人献其军前"
+    },
+    {
+      "source": "dai-sheng",
+      "target": "xiao-wang-zhi",
+      "type": "peer",
+      "note": "甘露石渠议五经同异，望之平奏诸儒之议，圣与焉"
+    },
+    {
+      "source": "dai-sheng",
+      "target": "shi-chou",
+      "type": "peer",
+      "note": "同预甘露石渠之议，各立家法立于学官"
+    },
+    {
+      "source": "wang-mang",
+      "target": "dong-xian",
+      "type": "rival",
+      "note": "劾贤夺大司马印绶，疑诈死发棺验尸"
+    },
+    {
+      "source": "dong-xian",
+      "target": "kong-guang",
+      "type": "peer",
+      "note": "并为三公，光不敢以均敌礼送迎"
+    },
+    {
+      "source": "dong-xian",
+      "target": "he-wu",
+      "type": "peer",
+      "note": "董贤荐何武，武复征为御史大夫"
     }
   ],
   "events": [

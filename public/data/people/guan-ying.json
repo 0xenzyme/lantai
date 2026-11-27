@@ -154,6 +154,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "guan-ying",
+      "target": "lv-chan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "产遣婴击齐，婴留荥阳与齐连和"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

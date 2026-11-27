@@ -138,6 +138,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-ping",
+      "target": "lv-chan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "产谋告平，平召朱虚侯佐太尉击产"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chen-ping",
+      "target": "lv-lu",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "丞相平与周勃同谋杀夺禄北军兵"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

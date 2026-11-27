@@ -72,6 +72,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "lv-jia",
+      "target": "zhong-jun",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "嘉反攻杀汉使，终军死之，年二十余"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

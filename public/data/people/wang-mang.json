@@ -180,6 +180,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "wang-mang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "莽心害长宠，白其罪于根与太后，致长诛"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "dong-xian",
+      "target": "wang-mang",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "劾贤夺大司马印绶，疑诈死发棺验尸"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

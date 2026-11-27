@@ -20,7 +20,20 @@
       "lane": "emperor"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-hong-shaodi",
+      "target": "lv-lu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "禄女立为少帝弘皇后，弘为其婿"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

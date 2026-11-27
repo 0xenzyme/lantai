@@ -81,6 +81,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dai-sheng",
+      "target": "shi-chou",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "同预甘露石渠之议，各立家法立于学官"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

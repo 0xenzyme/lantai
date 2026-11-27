@@ -118,6 +118,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "bo-ji",
+      "target": "dou-yifang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "婆媳；诏追尊窦后父母为安成侯夫人"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

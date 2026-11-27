@@ -219,6 +219,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-ao",
+      "target": "chunyu-chang",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "帝嘉其义擢至九卿封侯；终系诏狱死"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

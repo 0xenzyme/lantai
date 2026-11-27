@@ -209,6 +209,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-xi",
+      "target": "han-xin",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "豨辞淮阴侯，信约从中起共图天下"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

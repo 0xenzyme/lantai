@@ -114,6 +114,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-xi",
+      "target": "fan-kuai",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "十二年冬哙军卒追斩豨于灵丘"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

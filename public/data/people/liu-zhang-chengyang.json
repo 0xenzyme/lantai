@@ -21,7 +21,20 @@
       "lane": "kin"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "liu-zhang-chengyang",
+      "target": "lv-lu",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "朱虚侯刘章娶禄女，阴知其谋告齐王"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

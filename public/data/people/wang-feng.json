@@ -135,6 +135,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "wang-feng",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "甥舅；侍凤疾晨夜扶侍，凤且终属托太后及帝"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

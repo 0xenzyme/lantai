@@ -33,6 +33,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "lv-jia",
+      "target": "yang-pu-han",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "楼船纵火攻番禺，嘉城守败走入海"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

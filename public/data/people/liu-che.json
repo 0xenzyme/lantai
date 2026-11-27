@@ -612,6 +612,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "da-yuan-wang",
+      "target": "liu-che",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "武帝遣使持千金金马求善马不得，遂发兵十余万伐宛"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

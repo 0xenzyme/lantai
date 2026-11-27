@@ -21,7 +21,20 @@
       "lane": "general"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "lu-bode",
+      "target": "lv-jia",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "伏波遣人追捕，嘉为越郎都稽所擒"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [

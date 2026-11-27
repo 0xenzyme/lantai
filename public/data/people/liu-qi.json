@@ -205,6 +205,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "bo-hou-jingdi",
+      "target": "liu-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "帝后；景帝为太子时薄太后取其家女为妃，即位立后"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "bo-ji",
+      "target": "liu-qi",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "祖孙；景帝尊太皇太后，崩于景前二年"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -33,6 +33,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "liu-xiang-qi",
+      "target": "lv-chan",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "齐王襄举兵西，产遣灌婴将兵击之"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

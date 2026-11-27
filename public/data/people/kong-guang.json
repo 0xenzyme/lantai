@@ -123,6 +123,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dong-xian",
+      "target": "kong-guang",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "并为三公，光不敢以均敌礼送迎"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

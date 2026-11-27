@@ -118,6 +118,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chunyu-chang",
+      "target": "wang-zhengjun",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "太后姊子；通语东宫得太后指，助立赵后"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

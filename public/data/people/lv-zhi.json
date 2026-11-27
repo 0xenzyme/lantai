@@ -231,6 +231,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "bo-ji",
+      "target": "lv-zhi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "吕后幽诸幸姬，薄姬以希见得从子之代"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

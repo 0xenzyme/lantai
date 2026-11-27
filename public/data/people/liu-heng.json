@@ -220,6 +220,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "chen-xi",
+      "target": "liu-heng",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "豨自立代王，汉立恒为代王相代"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

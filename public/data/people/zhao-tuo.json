@@ -68,6 +68,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "zhao-tuo",
+      "target": "lv-jia",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "相三王佐赵氏社稷；太史公称嘉令佗无后"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

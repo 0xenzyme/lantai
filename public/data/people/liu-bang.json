@@ -318,6 +318,30 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "bo-ji",
+      "target": "liu-bang",
+      "type": "kin",
+      "directed": false,
+      "notes": [
+        "汉王怜而召幸，一幸生男是为代王"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "liu-bang",
+      "target": "chen-xi",
+      "type": "ruler-subject",
+      "directed": true,
+      "notes": [
+        "封豨列侯以相国守代，豨反而亲征邯郸"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

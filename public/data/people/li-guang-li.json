@@ -109,6 +109,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "da-yuan-wang",
+      "target": "li-guang-li",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "贰师将军两征大宛围贵山，毋寡首由贵人献其军前"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

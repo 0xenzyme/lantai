@@ -83,6 +83,18 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "dai-sheng",
+      "target": "xiao-wang-zhi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "甘露石渠议五经同异，望之平奏诸儒之议，圣与焉"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [],

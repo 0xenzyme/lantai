@@ -138,6 +138,54 @@
       "topicIds": [
         "han"
       ]
+    },
+    {
+      "source": "lv-chan",
+      "target": "zhou-bo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "勃与平谋夺产军，遣章入宫诛产"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "lv-lu",
+      "target": "zhou-bo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "周勃劫郦商令寄绐禄，夺北军印"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "bo-ji",
+      "target": "zhou-bo",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "周勃下狱，太后以冒絮提帝辨白得赦"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    },
+    {
+      "source": "chen-xi",
+      "target": "zhou-bo",
+      "type": "rival",
+      "directed": false,
+      "notes": [
+        "太尉勃道太原入定代地，斩豨当城"
+      ],
+      "topicIds": [
+        "han"
+      ]
     }
   ],
   "events": [

@@ -20,7 +20,20 @@
       "lane": "consort"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "source": "chunyu-chang",
+      "target": "xu-hou-chengdi",
+      "type": "peer",
+      "directed": false,
+      "notes": [
+        "私通其姊靡取为小妻，受许后赂千余万"
+      ],
+      "topicIds": [
+        "han"
+      ]
+    }
+  ],
   "events": [],
   "collections": [],
   "sources": [
